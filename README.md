@@ -55,12 +55,13 @@ julia> plot(
            linewidth = 1.5,
            border = :none,
            size = (600, 600),
-           dpi = 400,
+           dpi = 200,
            grid = false,
            axis = nothing,
            title = "",
            label=:none,
            color = "green",
+           background=:transparent,
        )
 ```
 
