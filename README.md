@@ -50,11 +50,17 @@ julia> earth = let start = now() - Year(50), stop = now() + Year(50), step = Day
   6.376672 seconds (19.78 k allocations: 21.253 MiB)
 
 julia> plot(
-           earth.X, earth.Y, earth.Z;
+           earth.X, earth.Y;
+           aspect_ratio = 1,
+           linewidth = 1.5,
+           border = :none,
+           size = (600, 600),
+           dpi = 400,
+           grid = false,
+           axis = nothing,
+           title = "",
            label=:none,
-           title="Earth w.r.t. Jupiter",
-           xlabel="X (AU)", ylabel="Y (AU)", zlabel="Z (AU)",
-           dpi=400, background=:transparent, grid=false,
+           color = "green",
        )
 ```
 
