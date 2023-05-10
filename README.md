@@ -26,6 +26,8 @@ julia> import Pkg; Pkg.add("HorizonsEphemeris");
 
 ## Usage
 
+Please consider all minor changes breaking until `v1.0`!
+
 As of `v0.1`, only Cartesian vectors are supported. You can query the
 `ephemeris` function with any solar system body name, or
 [NAIF code](https://naif.jpl.nasa.gov/pub/naif/toolkit_docs/C/req/naif_ids.html);
@@ -33,9 +35,8 @@ As of `v0.1`, only Cartesian vectors are supported. You can query the
 the hood to return the appropriate Horizons-compatible NAIF code. After
 providing the desired solar system body, specify the start time, stop time, and
 step size for which you want ephemeris data. You'll receive a `NamedTuple` in
-return, with keys defaulting to: `[:MJD, :Calendar, :X, :Y, :Z, :ΔX, :ΔY, :ΔZ]`.
-The labels for each key can be changed with the `header` keyword. For example,
-to get rid of the Unicode character keys, specify
+return. The labels for each key can be changed with the `header` keyword. For
+example, to get rid of the Unicode character keys, specify
 `header=[:MJD, :Calendar, :X, :Y, :Z, :DX, :DY, :DZ]`. This `NamedTuple` output
 is automatically compatible with `DataFrames`. Finally, use the `file` keyword
 argument to write the resulting ephemeris data, with labels, to a provided
