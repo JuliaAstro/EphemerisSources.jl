@@ -7,12 +7,13 @@
 _A wrapper around the [wrapper](https://github.com/cadojo/HorizonsAPI.jl) around
 JPL's REST API for the HORIZONS solar system ephemeris platform!_
 
+**Please consider all minor changes breaking until `v1.0`!**
+
 > **Warning**
 >
 > This package is not affiliated with or endorsed by NASA, JPL, Caltech, or any
 > other organization! This is an independently written package by an
-> astrodynamics hobbyist. For more information about code sharing and usage, see
-> the `HorizonsEphemeris.jl` [license file](./LICENSE).
+> astrodynamics hobbyist.
 
 ## Installation
 
@@ -25,8 +26,6 @@ julia> import Pkg; Pkg.add("HorizonsEphemeris");
 ```
 
 ## Usage
-
-Please consider all minor changes breaking until `v1.0`!
 
 As of `v0.1`, only Cartesian vectors are supported. You can query the
 `ephemeris` function with any solar system body name, or
@@ -48,7 +47,7 @@ julia> using Plots, Dates, HorizonsEphemeris
 julia> earth = let start = now() - Year(50), stop = now() + Year(50), step = Day(1)
            @time ephemeris("earth", start, stop, step; wrt="jupiter", units="AU-D");
        end
-  6.376672 seconds (19.78 k allocations: 21.253 MiB)
+  # 6.376672 seconds (19.78 k allocations: 21.253 MiB)
 
 julia> plot(
            earth.X, earth.Y;
