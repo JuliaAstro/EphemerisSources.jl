@@ -25,6 +25,13 @@ julia> ]add HorizonsEphemeris
 julia> import Pkg; Pkg.add("HorizonsEphemeris");
 ```
 
+## Limitations
+
+Note that JPL Horizons ephemeris accuracy for major planetary bodies in the
+solar system
+[may have errors larger than 1000km](https://ssd.jpl.nasa.gov/horizons/manual.html#limits)
+at some times!
+
 ## Usage
 
 As of `v0.1`, only Cartesian vectors are supported. You can query the
