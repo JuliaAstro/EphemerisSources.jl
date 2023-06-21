@@ -1,7 +1,7 @@
 name = "HorizonsEphemeris"
 uuid = "05ee1981-f730-42d8-b713-4f42d99733dc"
 authors = ["Joe Carpinelli <joseph.d.carpinelli@loopy.software>"]
-version = "0.1.4"
+version = "0.2.0"
 
 [deps]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
@@ -15,11 +15,18 @@ SPICE = "5bab7191-041a-5c2e-a744-024b9c3a5062"
 [compat]
 CSV = "0.10"
 DocStringExtensions = "0.9"
-HorizonsAPI = "0.1"
 HTTP = "^1.8"
-SPICE = "0.2"
+HorizonsAPI = "0.1"
+SPICEApplications = "0.2"
 JSON = "^0.21"
+SPICE = "0.2"
 julia = "1"
+
+[weakdeps]
+SPICEApplications = "e12e0822-0612-48d4-a4bb-92984dd6b6ec"
+
+[extensions]
+SPICEApplicationsExt = "SPICEApplications"
 
 [extras]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
@@ -29,4 +36,4 @@ Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Test"]
+test = ["Test", "SPICEApplications"]
