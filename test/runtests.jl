@@ -15,6 +15,7 @@ end
 end
 
 @testset "Write to File" begin
-    ephemeris("jupiter", now(); file="jupiter.txt")
-    @test isfile("jupiter.txt")
+    file = tempname()
+    ephemeris("jupiter", now(); file=file)
+    @test isfile(file)
 end

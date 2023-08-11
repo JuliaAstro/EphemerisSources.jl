@@ -38,6 +38,7 @@ import HTTP
 
 using CSV
 using Dates
+using Printf
 using SPICE: bodc2n, bodn2c
 using HorizonsAPI: fetch_vectors
 
@@ -132,7 +133,8 @@ function ephemeris(
     wrt="ssb",
     file=nothing,
     units="AU-D",
-    header=[:t, :cal, :x, :y, :z, :ẋ, :ẏ, :ż]
+    frame="ICRF",
+    header=[:t, :cal, :x, :y, :z, :ẋ, :ẏ, :ż],
 )
     code = body isa Integer ? body : NAIF(body)
 
@@ -147,7 +149,7 @@ function ephemeris(
         START_TIME=Dates.format(DateTime(start), "yyyy-mm-dd HH:MM:SS.sss"),
         STOP_TIME=Dates.format(DateTime(stop), "yyyy-mm-dd HH:MM:SS.sss"),
         STEP_SIZE=string(intervol),
-        REF_PLANE="FRAME",
+        REF_SYSTEM=string(frame),
         CSV_FORMAT=true,
         VEC_TABLE=2,
         VEC_CORR="NONE",
@@ -160,10 +162,17 @@ function ephemeris(
     ephemeris, notes = parse_response(response; start="\$\$SOE", stop="\$\$EOE")
 
     csv = CSV.File(IOBuffer(ephemeris); header=false, drop=[9])
+    
     output = NamedTuple(label => csv[column] for (label, column) in zip(header, csv.names))
 
     if !isnothing(file)
-        CSV.write(file, csv; header=header)
+        _, cal, _, _, _, _, _, _ = csv.names
+        text = NamedTuple(
+            label => column != cal ? map(f -> @sprintf("%f", f), csv[column]) : csv[column]
+            for (label, column) in zip(header, csv.names)
+        )
+
+        CSV.write(file, text; header=header)
         @info "Ephemeris data for object with NAIF ID $code has been written to $file."
     end
 
@@ -177,6 +186,7 @@ function ephemeris(
     mjd=true,
     file=nothing,
     units="AU-D",
+    frame="ICRF",
     header=[:t, :cal, :x, :y, :z, :ẋ, :ẏ, :ż]
 )
 
@@ -193,6 +203,7 @@ function ephemeris(
             code;
             format="json",
             CENTER="$(site)@$(NAIF(wrt))",
+            REF_SYSTEM=string(frame),
             REF_PLANE="FRAME",
             CSV_FORMAT=true,
             VEC_TABLE=2,
@@ -208,7 +219,7 @@ function ephemeris(
         ephemeris, notes = parse_response(response; start="\$\$SOE", stop="\$\$EOE")
 
         csv = CSV.File(IOBuffer(ephemeris); header=false, drop=[9])
-
+        
         NamedTuple(label => csv[column] for (label, column) in zip(header, csv.names))
     end
 
@@ -233,6 +244,7 @@ function ephemeris(
             code;
             format="json",
             CENTER="$(site)@$(NAIF(wrt))",
+            REF_SYSTEM=string(frame),
             REF_PLANE="FRAME",
             CSV_FORMAT=true,
             VEC_TABLE=2,
@@ -253,7 +265,13 @@ function ephemeris(
     end
 
     if !isnothing(file)
-        CSV.write(file, csv; header=header)
+        _, cal, _, _, _, _, _, _ = csv.names
+        text = NamedTuple(
+            label => column != cal ? map(f -> @sprintf("%f", f), csv[column]) : csv[column]
+            for (label, column) in zip(header, csv.names)
+        )
+
+        CSV.write(file, text; header=header)
         @info "Ephemeris data for object with NAIF ID $code has been written to $file."
     end
 
@@ -268,6 +286,7 @@ function ephemeris(
     mjd=true,
     file=nothing,
     units="AU-D",
+    frame="ICRF",
     header=[:t, :cal, :x, :y, :z, :ẋ, :ẏ, :ż]
 )
 
@@ -284,6 +303,7 @@ function ephemeris(
         format="json",
         CENTER="$(site)@$(NAIF(wrt))",
         REF_PLANE="FRAME",
+        REF_SYSTEM=string(frame),
         CSV_FORMAT=true,
         VEC_TABLE=2,
         VEC_CORR="NONE",
@@ -301,8 +321,15 @@ function ephemeris(
     output = NamedTuple(label => csv[column] for (label, column) in zip(header, csv.names))
 
     if !isnothing(file)
-        CSV.write(file, csv; header=header)
+        _, cal, _, _, _, _, _, _ = csv.names
+        text = NamedTuple(
+            label => column != cal ? map(f -> @sprintf("%f", f), csv[column]) : csv[column]
+            for (label, column) in zip(header, csv.names)
+        )
+
+        CSV.write(file, text; header=header)
         @info "Ephemeris data for object with NAIF ID $code has been written to $file."
+
     end
 
     return output
