@@ -11,6 +11,7 @@ SPICE = "5bab7191-041a-5c2e-a744-024b9c3a5062"
 SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
 
 [compat]
+julia = "1"
 AstroTime = "0.7"
 DocStringExtensions = "0.9"
 SPICE = "0.2"
