@@ -1,21 +1,22 @@
-# `SPICEEphemeris.jl`
+# `SPICEBodies.jl`
 
 _Interact with SPICE kernels without learning the SPICE interface in-full!_
 
 ## Installation
 
 ```julia
-pkg> add SPICEEphemeris
+pkg> add SPICEBodies
 ```
 
 ## Usage
 
-This package requires both `SPICE.jl` and `SPICEKernels.jl`. Once you load your desired 
+This package requires [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl);  
+[`SPICEKernels.jl`](https://github.com/cadojo/SPICEKernels.jl). Once you load your desired 
 SPICE kernels, you _could_ interact with each kernel object (satellite, planet, barycenter,
 lagrange point, etc.) using the SPICE interface. In fact, if you want to do anything more
 complicated than retrieve some physical parameters, and request Cartesian-state ephemeris
 data, you probably __should__ use the SPICE toolkit! If, however, your desired usage falls 
-within the narrow limitations mentioned above, `SPICEEphemeris.jl` could help you to 
+within the narrow limitations mentioned above, `SPICEBodies.jl` could help you to 
 concisely retrieve solar system ephemeris data.
 
 First, load your desired SPICE kernels using `SPICE.jl`. `SPICEKernels.jl` provides an 
@@ -37,13 +38,13 @@ julia> furnsh(
        )
 ```
 
-Now you're ready to use `SPICEEphemeris.jl`. To retrieve position and velocity data, you
+Now you're ready to use `SPICEBodies.jl`. To retrieve position and velocity data, you
 must construct a `KernelBody` instance, or implement the `AbstractKernelBody` interface
 yourself! To retrieve physical characteristics, or NAIF ID codes, you can provide 
 `AbstractKernelBody` instances, or the body's name. 
 
 ```jldoctest usage
-julia> using AstroTime, SPICEEphemeris
+julia> using AstroTime, SPICEBodies
 
 julia> earth = KernelBody("earth")
 KernelBody(399)

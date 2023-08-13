@@ -4,7 +4,7 @@ _All docstrings!_
 
 ```@autodocs
 Modules = [
-    SPICEEphemeris,
+    SPICEBodies,
 ]
 Order = [:module, :type, :function, :constant]
 ```

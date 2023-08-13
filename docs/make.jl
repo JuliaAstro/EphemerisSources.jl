@@ -1,15 +1,15 @@
 using Documenter
-using SPICEEphemeris
+using SPICEBodies
 
 makedocs(
-    sitename="SPICEEphemeris",
+    sitename="SPICEBodies",
     format=Documenter.HTML(),
-    modules=[SPICEEphemeris]
+    modules=[SPICEBodies]
 )
 
 deploydocs(
     target="build",
-    repo="github.com/cadojo/SPICEEphemeris.jl.git",
+    repo="github.com/cadojo/SPICEBodies.jl.git",
     branch="gh-pages",
     devbranch="main",
     versions=["stable" => "v^", "manual", "v#.#", "v#.#.#"],

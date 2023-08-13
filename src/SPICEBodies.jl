@@ -11,7 +11,7 @@ $(IMPORTS)
 
 $(EXPORTS)
 """
-module SPICEEphemeris
+module SPICEBodies
 
 export 
     KernelBody,
@@ -22,7 +22,7 @@ export
 
 import Dates
 using AstroTime
-using SPICE, SPICEKernels
+using SPICE
 using DocStringExtensions
 
 @template (FUNCTIONS, METHODS, MACROS) = """
@@ -43,7 +43,7 @@ A supertype for all SPICE ephemeris objects.
 
 All subtypes must implement the following method.
 
-1. `SPICEEphemeris.naifcode(body)::Int`
+1. `SPICEBodies.naifcode(body)::Int`
 
 The type then has access to the following method implementations.
 
@@ -76,7 +76,7 @@ struct KernelBody <: AbstractKernelBody
 end
 
 """
-A union type for all `SPICEEphemeris.naifcode` argument types.
+A union type for all `SPICEBodies.naifcode` argument types.
 """
 const BodyLike = Union{AbstractKernelBody, Integer, AbstractString, Symbol}
 
@@ -184,4 +184,4 @@ function radii(body::BodyLike)
     return R
 end 
 
-end # module SPICEEphemeris
+end # module SPICEBodies

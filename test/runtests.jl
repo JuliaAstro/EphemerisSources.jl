@@ -1,4 +1,4 @@
-using Test, SPICEEphemeris
+using Test, SPICEBodies
 
 using SPICE: furnsh
 using SPICEKernels
@@ -15,7 +15,7 @@ end
 @testset "Parameters" begin
     earth = KernelBody("earth")
 
-    @test SPICEEphemeris.naifcode(earth) == 399
+    @test SPICEBodies.naifcode(earth) == 399
     @test gm("earth") ≈ 398600.435
     @test radii(earth) ≈ [6378.1366, 6378.1366, 6356.7519]
 end
