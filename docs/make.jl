@@ -1,17 +1,3 @@
-using Documenter
-
-makedocs(
-    sitename = "`ephemeris.loopy.codes`",
-    format = Documenter.HTML(),
-    pages = [
-        "Home" => "index.md",
-        "Overview" => [
-            "Getting Started" => "getting-started/index.md",
-            "Examples" => "examples/index.md"
-        ]
-    ]
-)
-
 using MultiDocumenter
 
 clonedir = mktempdir()
@@ -56,6 +42,20 @@ MultiDocumenter.make(
         index_versions = ["stable", "dev"],
         engine = MultiDocumenter.FlexSearch
     )
+)
+
+using Documenter
+
+makedocs(
+    sitename = "`ephemeris.loopy.codes`",
+    format = Documenter.HTML(),
+    pages = [
+        "Home" => "index.md",
+        "Overview" => [
+            "Getting Started" => "getting-started/index.md",
+            "Examples" => "examples/index.md"
+        ]
+    ]
 )
 
 Documenter.deploydocs(
