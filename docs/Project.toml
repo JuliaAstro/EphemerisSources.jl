@@ -1,0 +1,9 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+HorizonsAPI = "c15253bb-5e94-4b8b-9a02-579bb6c8e3ce"
+HorizonsEphemeris = "05ee1981-f730-42d8-b713-4f42d99733dc"
+MultiDocumenter = "87ed4bf0-c935-4a67-83c3-2a03bee4197c"
+SPICE = "5bab7191-041a-5c2e-a744-024b9c3a5062"
+SPICEApplications = "e12e0822-0612-48d4-a4bb-92984dd6b6ec"
+SPICEBodies = "19f1efb6-7162-484a-b3a1-b52c391689d7"
+SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
