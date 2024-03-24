@@ -4,65 +4,76 @@ makedocs(
     sitename = "ephemeris.loopy.codes",
     format = Documenter.HTML(),
     pages = [
-        "Home" => "index.md",
         "Overview" => [
+            "Home" => "index.md",
             "Getting Started" => "getting-started/index.md",
-            "Examples" => "examples/index.md"
-        ]
-    ]
+            "Examples" => "examples/index.md",
+        ],
+    ],
 )
 
 using MultiDocumenter
 
 clonedir = mktempdir()
-
-function ref(name)
+function package(name; path = name)
     MultiDocumenter.MultiDocRef(
         upstream = joinpath(clonedir, name),
-        path = name,
+        path = path,
         name = name,
-        giturl = "https://github.com/cadojo/$name.jl.git"
+        giturl = "https://github.com/cadojo/$name.jl.git",
     )
 end
 
-horizons = [
-    ref("HorizonsAPI"),
-    ref("HorizonsEphemeris")
-]
-spice = [
-    ref("SPICEKernels"),
-    ref("SPICEBodies")
-]
-
-docs = [
+function docs(name; path = name, root = "")
     MultiDocumenter.MultiDocRef(
-        upstream = joinpath(@__DIR__, "build"), # if docs build this is the default 
-        path = "overview", # where to put that in the final out folder
-        name = "Home", # menu entry
-        fix_canonical_url = false # this seems to fix the error from above, but since it is not documented I do not know what it does.
-    ),
-    MultiDocumenter.MegaDropdownNav(
-        "Ephemeris Sources", [
-            MultiDocumenter.Column("JPL HORIZONS", horizons),
-            MultiDocumenter.Column("JPL SPICE Kernels", spice)
-        ]
+        upstream = joinpath(@__DIR__, "build", root),
+        path = path,
+        name = name,
+        fix_canonical_url = false,
     )
+end
+
+content = [
+    docs("Home"),
+    MultiDocumenter.MegaDropdownNav(
+        "Packages",
+        [
+            MultiDocumenter.Column(
+                "JPL Horizons",
+                [package("HorizonsAPI"), package("HorizonsEphemeris")],
+            ),
+            MultiDocumenter.Column(
+                "JPL SPICE",
+                [
+                    package("SPICEKernels"),
+                    package("SPICEApplications"),
+                    package("SPICEBodies"),
+                ],
+            ),
+        ],
+    ),
 ]
 
 outpath = joinpath(@__DIR__, "build")
 
 MultiDocumenter.make(
     outpath,
-    docs;
+    content;
+    rootpath = outpath,
+    prettyurls = true,
     search_engine = MultiDocumenter.SearchConfig(
         index_versions = ["stable", "dev"],
-        engine = MultiDocumenter.FlexSearch
-    )
+        engine = MultiDocumenter.FlexSearch,
+    ),
+    brand_image = MultiDocumenter.BrandImage(
+        "https://loopy.codes",
+        "https://loopy.codes/blog/posts/modeling-with-ephemeris/ephemeris.png",
+    ),
 )
 
 Documenter.deploydocs(
     target = outpath,
     repo = "github.com/cadojo/ephemeris.loopy.codes.git",
     branch = "gh-pages",
-    versions = ["" => "."]
+    versions = ["" => "."],
 )
