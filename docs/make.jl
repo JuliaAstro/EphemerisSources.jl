@@ -1,3 +1,17 @@
+using Documenter
+
+makedocs(
+    sitename = "ephemeris.loopy.codes",
+    format = Documenter.HTML(),
+    pages = [
+        "Home" => "index.md",
+        "Overview" => [
+            "Getting Started" => "getting-started/index.md",
+            "Examples" => "examples/index.md"
+        ]
+    ]
+)
+
 using MultiDocumenter
 
 clonedir = mktempdir()
@@ -12,28 +26,30 @@ function ref(name)
 end
 
 horizons = [
-    ref("HorizonsAPI")
+    ref("HorizonsAPI"),
+    ref("HorizonsEphemeris")
 ]
 spice = [
-    ref("SPICEKernels")
+    ref("SPICEKernels"),
+    ref("SPICEBodies")
 ]
 
 docs = [
-# MultiDocRef(
-#     upstream=joinpath(clonedir, "Home"),
-#     path="Overview",
-#     name="Home",
-#     giturl="https://github.com/cadojo/ephemeris.loopy.codes.git"
-# ),
+    MultiDocumenter.MultiDocRef(
+        upstream = joinpath(@__DIR__, "build"), # if docs build this is the default 
+        path = "overview", # where to put that in the final out folder
+        name = "Home", # menu entry
+        fix_canonical_url = false # this seems to fix the error from above, but since it is not documented I do not know what it does.
+    ),
     MultiDocumenter.MegaDropdownNav(
-    "Ephemeris Sources", [
-        MultiDocumenter.Column("JPL HORIZONS", horizons),
-        MultiDocumenter.Column("JPL SPICE Kernels", spice)
-    ]
-)
+        "Ephemeris Sources", [
+            MultiDocumenter.Column("JPL HORIZONS", horizons),
+            MultiDocumenter.Column("JPL SPICE Kernels", spice)
+        ]
+    )
 ]
 
-outpath = joinpath(@__DIR__, "aggregate")
+outpath = joinpath(@__DIR__, "build")
 
 MultiDocumenter.make(
     outpath,
@@ -41,26 +57,8 @@ MultiDocumenter.make(
     search_engine = MultiDocumenter.SearchConfig(
         index_versions = ["stable", "dev"],
         engine = MultiDocumenter.FlexSearch
-    ),
-    inventory_version = ""
+    )
 )
-
-using Documenter
-
-makedocs(
-    sitename = "`ephemeris.loopy.codes`",
-    format = Documenter.HTML(),
-    pages = [
-        "Home" => "index.md",
-        "Overview" => [
-            "Getting Started" => "getting-started/index.md",
-            "Examples" => "examples/index.md"
-        ]
-    ]
-)
-
-run(`cp -r '$outpath'/'*' build`)
-run(`rm -rf $outpath`)
 
 Documenter.deploydocs(
     target = outpath,
