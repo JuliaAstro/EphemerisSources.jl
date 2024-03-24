@@ -61,7 +61,5 @@ MultiDocumenter.make(
 Documenter.deploydocs(
     target = outpath,
     repo = "github.com/cadojo/ephemeris.loopy.codes.git",
-    branch = "gh-pages",
-    devbranch = "main",
-    versions = ["stable" => "v^", "manual", "v#.#", "v#.#.#"]
+    branch = "gh-pages"
 )
