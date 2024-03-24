@@ -55,7 +55,8 @@ makedocs(
             "Getting Started" => "getting-started/index.md",
             "Examples" => "examples/index.md"
         ]
-    ]
+    ],
+    inventory_version = ""
 )
 
 run(`cp -r '$outpath'/'*' build`)
@@ -65,6 +66,5 @@ Documenter.deploydocs(
     target = outpath,
     repo = "github.com/cadojo/ephemeris.loopy.codes.git",
     branch = "gh-pages",
-    versions = ["" => "."],
-    inventory_version = ""
+    versions = ["" => "."]
 )
