@@ -58,12 +58,13 @@ makedocs(
     ]
 )
 
-run(`cp -r $outpath/'*' build`)
-rm(outpath)
+run(`cp -r '$outpath'/'*' build`)
+run(`rm -rf $outpath`)
 
 Documenter.deploydocs(
     target = outpath,
     repo = "github.com/cadojo/ephemeris.loopy.codes.git",
     branch = "gh-pages",
-    versions = ["" => "."]
+    versions = ["" => "."],
+    inventory_version = ""
 )
