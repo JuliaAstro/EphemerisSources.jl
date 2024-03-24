@@ -7,7 +7,7 @@ on:
     tags: "*"
 
 jobs:
-  homepage:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
