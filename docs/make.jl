@@ -33,7 +33,7 @@ docs = [
 )
 ]
 
-outpath = joinpath(@__DIR__, "build")
+outpath = joinpath(@__DIR__, "aggregate")
 
 MultiDocumenter.make(
     outpath,
@@ -57,6 +57,9 @@ makedocs(
         ]
     ]
 )
+
+run(`cp -r $outpath/* build`)
+rm(outpath)
 
 Documenter.deploydocs(
     target = outpath,
