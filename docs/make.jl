@@ -58,7 +58,7 @@ makedocs(
     ]
 )
 
-run(`cp -r $outpath/* build`)
+run(`cp -r $outpath/'*' build`)
 rm(outpath)
 
 Documenter.deploydocs(
