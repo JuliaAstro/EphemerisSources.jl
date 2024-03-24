@@ -41,7 +41,8 @@ MultiDocumenter.make(
     search_engine = MultiDocumenter.SearchConfig(
         index_versions = ["stable", "dev"],
         engine = MultiDocumenter.FlexSearch
-    )
+    ),
+    inventory_version = ""
 )
 
 using Documenter
@@ -65,6 +66,5 @@ Documenter.deploydocs(
     target = outpath,
     repo = "github.com/cadojo/ephemeris.loopy.codes.git",
     branch = "gh-pages",
-    versions = ["" => "."],
-    inventory_version = ""
+    versions = ["" => "."]
 )
