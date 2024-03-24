@@ -3,7 +3,6 @@ using Documenter
 makedocs(
     sitename = "`ephemeris.loopy.codes`",
     format = Documenter.HTML(),
-    modules = [],
     pages = [
         "Home" => "index.md",
         "Overview" => [
