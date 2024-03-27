@@ -5,8 +5,8 @@ makedocs(
     format = Documenter.HTML(),
     pages = [
         "Overview" => [
-            "Home" => "index.md",
-            "Getting Started" => "getting-started/index.md",
+            "About Ephemeris" => "index.md",
+            "Quick Start" => "quick-start/index.md",
             "Examples" => "examples/index.md",
         ],
     ],
@@ -56,20 +56,20 @@ content = [
 
 outpath = joinpath(@__DIR__, "build")
 
-MultiDocumenter.make(
-    outpath,
-    content;
-    rootpath = outpath,
-    prettyurls = true,
-    search_engine = MultiDocumenter.SearchConfig(
-        index_versions = ["stable", "dev"],
-        engine = MultiDocumenter.FlexSearch,
-    ),
-    brand_image = MultiDocumenter.BrandImage(
-        "https://loopy.codes",
-        "https://loopy.codes/blog/posts/modeling-with-ephemeris/ephemeris.png",
-    ),
-)
+# MultiDocumenter.make(
+#     outpath,
+#     content;
+#     rootpath = outpath,
+#     prettyurls = true,
+#     search_engine = MultiDocumenter.SearchConfig(
+#         index_versions = ["stable", "dev"],
+#         engine = MultiDocumenter.FlexSearch,
+#     ),
+#     brand_image = MultiDocumenter.BrandImage(
+#         "https://loopy.codes",
+#         "https://loopy.codes/blog/posts/modeling-with-ephemeris/ephemeris.png",
+#     ),
+# )
 
 Documenter.deploydocs(
     target = outpath,
