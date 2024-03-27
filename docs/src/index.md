@@ -18,11 +18,11 @@ below allow for programmatic and interactive ephemeris fetching from the
 JPL HORIZONS ephemeris platform. Packages marked **external** are not affiliated
 with [`ephemeris.loopy.codes`](index.md).
 
-| Package                                                                  | Description                                                        | Location     |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------ |
-| [`HorizonsAPI.jl`](https://github.com/cadojo/HorizonsAPI.jl)             | A precise JPL HORIZONS REST API client implementation.             |              |
-| [`HorizonsEphemeris.jl`](https://github.com/cadojo/HorizonsEphemeris.jl) | Convenience wrappers around the JPL HORIZONS REST API.             |              |
-| [`Horizons.jl`](https://github.com/PerezHz/HORIZONS.jl)                  | Functions for spawning the `telnet` interface, and querying files. | **external** |
+| Package                                                                  | Description                                                                                                  | Location     |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------ |
+| [`HorizonsAPI.jl`](https://github.com/cadojo/HorizonsAPI.jl)             | A precise JPL HORIZONS REST API client implementation, with keyword arguments for each acceptable parameter. |              |
+| [`HorizonsEphemeris.jl`](https://github.com/cadojo/HorizonsEphemeris.jl) | Convenience wrappers around the JPL HORIZONS REST API.                                                       |              |
+| [`Horizons.jl`](https://github.com/PerezHz/HORIZONS.jl)                  | Functions for spawning the `telnet` interface, and querying files.                                           | **external** |
 
 ## SPICE Toolkit
 

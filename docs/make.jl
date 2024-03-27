@@ -34,7 +34,7 @@ function docs(name; path = name, root = "")
 end
 
 content = [
-    docs("Home"),
+    docs("Overview"; path = "overview"),
     MultiDocumenter.MegaDropdownNav(
         "Packages",
         [
@@ -56,20 +56,20 @@ content = [
 
 outpath = joinpath(@__DIR__, "build")
 
-# MultiDocumenter.make(
-#     outpath,
-#     content;
-#     rootpath = outpath,
-#     prettyurls = true,
-#     search_engine = MultiDocumenter.SearchConfig(
-#         index_versions = ["stable", "dev"],
-#         engine = MultiDocumenter.FlexSearch,
-#     ),
-#     brand_image = MultiDocumenter.BrandImage(
-#         "https://loopy.codes",
-#         "https://loopy.codes/blog/posts/modeling-with-ephemeris/ephemeris.png",
-#     ),
-# )
+MultiDocumenter.make(
+    outpath,
+    content;
+    rootpath = outpath,
+    prettyurls = true,
+    search_engine = MultiDocumenter.SearchConfig(
+        index_versions = ["stable", "dev"],
+        engine = MultiDocumenter.FlexSearch,
+    ),
+    # brand_image = MultiDocumenter.BrandImage(
+    #     "https://loopy.codes",
+    #     "https://loopy.codes/blog/posts/modeling-with-ephemeris/ephemeris.png",
+    # ),
+)
 
 Documenter.deploydocs(
     target = outpath,
