@@ -6,8 +6,10 @@ makedocs(
     pages = [
         "Overview" => [
             "About Ephemeris" => "index.md",
-            "Quick Start" => "quick-start/index.md",
-            "Examples" => "examples/index.md",
+            "Quick Start" => [
+                "SPICE" => "examples/spice/index.md",
+                "HORIZONS" => "examples/horizons/index.md",
+            ],
         ],
     ],
 )

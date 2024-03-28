@@ -46,4 +46,4 @@ These two ephemeris platforms — HORIZONS and SPICE — are both free to use,
 and have been incredibly helpful to students and researchers around the world.
 The Julia packages above — and others — available to help you fetch and parse
 ephemeris data. For more information on how to use these packages, continue on
-to [**Quick Start**](quick-start/index.md).
+to the documentation [**examples**](examples/index.md).
