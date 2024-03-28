@@ -37,22 +37,13 @@ end
 
 content = [
     docs("Overview"; path = "overview"),
-    MultiDocumenter.MegaDropdownNav(
-        "Packages",
-        [
-            MultiDocumenter.Column(
-                "JPL Horizons",
-                [package("HorizonsAPI"), package("HorizonsEphemeris")],
-            ),
-            MultiDocumenter.Column(
-                "JPL SPICE",
-                [
-                    package("SPICEKernels"),
-                    package("SPICEApplications"),
-                    package("SPICEBodies"),
-                ],
-            ),
-        ],
+    MultiDocumenter.DropdownNav(
+        "SPICE",
+        [package("SPICEKernels"), package("SPICEApplications"), package("SPICEBodies")],
+    ),
+    MultiDocumenter.DropdownNav(
+        "HORIZONS",
+        [package("HorizonsAPI"), package("HorizonsEphemeris")],
     ),
 ]
 
