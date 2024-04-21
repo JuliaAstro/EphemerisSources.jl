@@ -31,9 +31,6 @@ jobs:
 
       - name: Setup Julia
         uses: julia-actions/setup-julia@v1
-
-      - name: Install Fonts
-        run: sudo apt install lmodern
         
       - name: Install Jupyter 
         run: pip install jupyter
