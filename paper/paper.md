@@ -1,21 +1,4 @@
 ---
-abstract: |
-  Solar system ephemerides are available for free to researchers,
-  students, and professionals in-industry through open source tools, and
-  REST APIs, and web interfaces [@horizons]. Users commonly parse this
-  data programatically with dynamic programming languages, including
-  Python and Julia. This document presents several Julia packages which
-  can aid ephemeris users in sourcing and parsing data with
-  replicatability. Rather than include solar system ephemeris files in
-  source code distrbutions, ephemeris data sourcing can be accomplished
-  directly in-code. Three packages which interface to the JPL SPICE
-  ephemeris platform are presented: `SPICEApplications.jl`,
-  `SPICEKernels.jl`, and `SPICEBodies.jl`. In addition, two packages
-  which interface with the JPL HORIZONS ephemeris platform are
-  presented: `HorizonsAPI.jl` and `HorizonsEphemeris.jl`. All packages
-  are described in-detail in their common documentation site:
-  [`ephemeris.loopy.codes`](https://ephemeris.loopy.codes).
-abstract-title: Summary
 author:
 - Joseph D Carpinelli
 authors:
@@ -54,13 +37,13 @@ tags:
 - SPICE
 - Horizons
 theme: cosmo
-title: Julia Interfaces to Standard Ephemeris Platforms
+title: Idiomatic Ephemeris Sourcing and Parsing in Julia
 title-block-style: manuscript
 toc-title: Table of contents
 unroll-markdown-cells: true
 ---
 
-## Introduction {#sec-intro}
+## Summary {#sec-summary}
 
 Students and professionals in astronomy, astrodynamics, astrophysics,
 and other related fields often download and parse solar system ephemeris
@@ -76,14 +59,15 @@ and [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl) expose many
 interact with SPICE kernels `SPICE.furnsh` and `SPICE.spkez`. Horizons
 data is available through a variety of methods, including email,
 command-line, graphical web interfaces, and a [REST
-API](https://ssd-api.jpl.nasa.gov/doc/horizons.html).
+API](https://ssd-api.jpl.nasa.gov/doc/horizons.html) [@horizons].
 
 This paper introduces several packages which allow users to download and
-process ephemeris data idomatically, all from within Julia. Through the
-use of these packages, users can share replicatable code which
-automatically fetches publicly available ephemeris data, as opposed to
-manually including ephemeris data files with their source code
-distribution.
+process ephemeris data idomatically, all from within Julia:
+`SPICEApplications.jl`, `SPICEKernels.jl`, `SPICEBodies.jl`,
+`HorizonsAPI.jl` and \`HorizonsEphemeris.jl. Through the use of these
+packages, users can share replicatable code which automatically fetches
+publicly available ephemeris data, as opposed to manually including
+ephemeris data files with their source code distribution.
 
 ## Statement of Need {#sec-need}
 
@@ -166,7 +150,7 @@ it, and retrieve Cartesian state data at an instance in time.
     \hline
     & Float64 & String31 & Float64 & Float64 & Float64 & Float64 & \\
     \hline
-    1 & 2.46042e6 &  A.D. 2024-Apr-21 17:40:38.3950 & -0.861881 & -0.488931 & -0.211718 & 0.00878281 & $\dots$ \\
+    1 & 2.46042e6 &  A.D. 2024-Apr-21 18:33:01.4100 & -0.861562 & -0.489421 & -0.211931 & 0.00879181 & $\dots$ \\
 \end{tabular}
 ```
 :::
@@ -212,12 +196,12 @@ it, and retrieve Cartesian state data at an instance in time.
 
 ::: {.cell-output .cell-output-display execution_count="10"}
     6-element Vector{Float64}:
-      -1.2893550563777173e8
-      -7.314298953640346e7
-      -3.1672573014385767e7
-      15.20706013822092
-     -23.339292185675234
-     -10.116328493074919
+      -1.2888768484408668e8
+      -7.321633170779763e7
+      -3.170436290040343e7
+      15.222650301059293
+     -23.330385969097538
+     -10.112466505499116
 :::
 :::
 
