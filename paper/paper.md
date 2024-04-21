@@ -56,15 +56,15 @@ with `CSPICE` [@cspice]. The Julia packages
 [`CSPICE_jll.jl`](https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl)
 and [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl) expose many
 `CSPICE` functions through Julia functions. Julia users can load and
-interact with SPICE kernels `SPICE.furnsh` and `SPICE.spkez`. Horizons
-data is available through a variety of methods, including email,
-command-line, graphical web interfaces, and a [REST
+interact with SPICE kernels through methods such as `SPICE.furnsh` and
+`SPICE.spkez`. Horizons data is available through a variety of methods,
+including email, command-line, graphical web interfaces, and a [REST
 API](https://ssd-api.jpl.nasa.gov/doc/horizons.html) [@horizons].
 
 This paper introduces several packages which allow users to download and
 process ephemeris data idomatically, all from within Julia:
 `SPICEApplications.jl`, `SPICEKernels.jl`, `SPICEBodies.jl`,
-`HorizonsAPI.jl` and \`HorizonsEphemeris.jl. Through the use of these
+`HorizonsAPI.jl` and `HorizonsEphemeris.jl`. Through the use of these
 packages, users can share replicatable code which automatically fetches
 publicly available ephemeris data, as opposed to manually including
 ephemeris data files with their source code distribution.
@@ -137,73 +137,42 @@ in this paper. The code examples below show how a user may retrieve data
 from the HORIZONS platform, inspect a SPICE kernel before downloading
 it, and retrieve Cartesian state data at an instance in time.
 
-::: {.cell execution_count="1"}
-    using Dates, DataFrames
-    using HorizonsEphemeris
+``` {julia}
+#| echo: true
+#| lst-cap: Querying JPL HORIZONS in Julia 
+#| lst-label: lst-horizons-fetching
+using Dates, DataFrames
+using HorizonsEphemeris
 
-    ephemeris("earth", now()) |> DataFrame
-
-::: {.cell-output .cell-output-display .cell-output-markdown execution_count="8"}
-```{=tex}
-\begin{tabular}{r|ccccccc}
-    & t & cal & x & y & z & ẋ & \\
-    \hline
-    & Float64 & String31 & Float64 & Float64 & Float64 & Float64 & \\
-    \hline
-    1 & 2.46042e6 &  A.D. 2024-Apr-21 18:33:01.4100 & -0.861562 & -0.489421 & -0.211931 & 0.00879181 & $\dots$ \\
-\end{tabular}
+ephemeris("earth", now()) |> DataFrame
 ```
-:::
-:::
 
-::: {.cell execution_count="2"}
-    using SPICEApplications, SPICEKernels
+``` {julia}
+#| echo: true
+#| lst-cap: Inspecting Generic SPICE Kernels in Julia
+#| lst-label: lst-spice-inspection
+using SPICEApplications, SPICEKernels
 
-    brief(de440s()); # alternatively, check the kernel variable's docstring: @doc(de440s)
+brief(de440s()); # alternatively, check the kernel variable's docstring: @doc(de440s)
+```
 
-::: {.cell-output .cell-output-stdout}
-     
-    BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
-     
-     
-    Summary for: /Users/joey/.julia/scratchspaces/8e9d28ce-e483-4ef7-bfd9-45b8fef6369c/kernels/de440s.bsp
-     
-    Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
-            VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
-            EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
-            MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
-            JUPITER BARYCENTER (5)  SUN (10)
-            Start of Interval (ET)              End of Interval (ET)
-            -----------------------------       -----------------------------
-            1849 DEC 26 00:00:00.000            2150 JAN 22 00:00:00.000
-     
-:::
-:::
+``` {julia}
+#| echo: true
+#| lst-cap: Using SPICE Kernels in Julia
+#| lst-label: lst-spice-fetching
+using Dates, SPICE
+using SPICEKernels, SPICEBodies
 
-::: {.cell execution_count="3"}
-    using Dates, SPICE
-    using SPICEKernels, SPICEBodies
+return furnsh(
+    de432s(),                   # position and velocity data for nearby planets
+    latest_leapseconds_lsk(),   # timekeeping, parsing epochs
+    gm_de440(),                 # mass parameters for major solar system bodies
+    pck00011(),                 # physical properties of major solar system bodies
+)
 
-    return furnsh(
-        de432s(),                   # position and velocity data for nearby planets
-        latest_leapseconds_lsk(),   # timekeeping, parsing epochs
-        gm_de440(),                 # mass parameters for major solar system bodies
-        pck00011(),                 # physical properties of major solar system bodies
-    )
-
-    earth = KernelBody("earth")
-    x, y, z, ẋ, ẏ, ż = earth(now())
-
-::: {.cell-output .cell-output-display execution_count="10"}
-    6-element Vector{Float64}:
-      -1.2888768484408668e8
-      -7.321633170779763e7
-      -3.170436290040343e7
-      15.222650301059293
-     -23.330385969097538
-     -10.112466505499116
-:::
-:::
+earth = KernelBody("earth")
+x, y, z, ẋ, ẏ, ż = earth(now())
+```
 
 ## External Packages
 

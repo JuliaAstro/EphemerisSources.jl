@@ -37,13 +37,14 @@ programming languages, include the C Programming Language with `CSPICE` [@cspice
 The Julia packages [`CSPICE_jll.jl`](https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl) 
 and [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl) expose many `CSPICE` 
 functions through Julia functions. Julia users can load and interact with SPICE 
-kernels `SPICE.furnsh` and `SPICE.spkez`. Horizons data is available through
+kernels through methods such as `SPICE.furnsh` and `SPICE.spkez`. 
+Horizons data is available through
 a variety of methods, including email, command-line, graphical web interfaces,
 and a [REST API](https://ssd-api.jpl.nasa.gov/doc/horizons.html) [@horizons].
 
 This paper introduces several packages which allow users to download and process 
 ephemeris data idomatically, all from within Julia: `SPICEApplications.jl`, 
-`SPICEKernels.jl`, `SPICEBodies.jl`, `HorizonsAPI.jl` and `HorizonsEphemeris.jl. 
+`SPICEKernels.jl`, `SPICEBodies.jl`, `HorizonsAPI.jl` and `HorizonsEphemeris.jl`. 
 Through the use of these packages, users can share replicatable code which 
 automatically fetches publicly available ephemeris data, as opposed to manually 
 including ephemeris data files with their source code distribution. 
