@@ -68,5 +68,5 @@ Documenter.deploydocs(
     target = outpath,
     repo = "github.com/cadojo/ephemeris.loopy.codes.git",
     branch = "gh-pages",
-    versions = ["" => "."],
+    versions = nothing,
 )
