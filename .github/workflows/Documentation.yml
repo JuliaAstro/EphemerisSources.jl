@@ -20,11 +20,11 @@ jobs:
       - uses: julia-actions/cache@v1
         with:
           version: "1"
-          - name: Set up Quarto
-          uses: quarto-dev/quarto-actions/setup@v2
-          with:
-            # To install LaTeX to build PDF book 
-            tinytex: true       
+      
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true       
         
       - name: Setup Python
         uses: actions/setup-python@v3
