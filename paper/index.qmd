@@ -1,5 +1,5 @@
 ---
-title: Julia Interfaces to Standard Ephemeris Platforms
+title: Idiomatic Ephemeris Sourcing and Parsing in Julia
 
 tags: 
   - astrodynamics
@@ -20,29 +20,12 @@ author:
     orcid: https://orcid.org/0000-0001-8655-8125
     email: joey@loopy.codes
 
-date: today
-
-abstract: |
-
-  Solar system ephemerides are available for free to researchers, students, and 
-  professionals in-industry through open source tools, and REST APIs, and web 
-  interfaces [@horizons]. Users commonly parse this data programatically with dynamic 
-  programming languages, including Python and Julia. This document presents
-  several Julia packages which can aid ephemeris users in sourcing and parsing
-  data with replicatability. Rather than include solar system ephemeris files 
-  in source code distrbutions, ephemeris data sourcing can be accomplished 
-  directly in-code. Three packages which interface to the JPL SPICE ephemeris
-  platform are presented: `SPICEApplications.jl`, `SPICEKernels.jl`, and
-  `SPICEBodies.jl`. In addition, two packages which interface with the JPL
-  HORIZONS ephemeris platform are presented: `HorizonsAPI.jl` and 
-  `HorizonsEphemeris.jl`. All packages are described in-detail in their common
-  documentation site: [`ephemeris.loopy.codes`](https://ephemeris.loopy.codes).
-
-abstract-title: Summary
+date: 2024-04-21
+date-format: long
 bibliography: references.bib
 ---
 
-## Introduction {#sec-intro}
+## Summary {#sec-summary}
 
 Students and professionals in astronomy, astrodynamics, astrophysics, and other 
 related fields often download and parse solar system ephemeris data from two 
@@ -56,13 +39,14 @@ and [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl) expose many `CSPICE`
 functions through Julia functions. Julia users can load and interact with SPICE 
 kernels `SPICE.furnsh` and `SPICE.spkez`. Horizons data is available through
 a variety of methods, including email, command-line, graphical web interfaces,
-and a [REST API](https://ssd-api.jpl.nasa.gov/doc/horizons.html).
+and a [REST API](https://ssd-api.jpl.nasa.gov/doc/horizons.html) [@horizons].
 
 This paper introduces several packages which allow users to download and process 
-ephemeris data idomatically, all from within Julia. Through the use of these 
-packages, users can share replicatable code which automatically fetches publicly
-available ephemeris data, as opposed to manually including ephemeris data files 
-with their source code distribution. 
+ephemeris data idomatically, all from within Julia: `SPICEApplications.jl`, 
+`SPICEKernels.jl`, `SPICEBodies.jl`, `HorizonsAPI.jl` and `HorizonsEphemeris.jl. 
+Through the use of these packages, users can share replicatable code which 
+automatically fetches publicly available ephemeris data, as opposed to manually 
+including ephemeris data files with their source code distribution. 
 
 ## Statement of Need {#sec-need}
 
