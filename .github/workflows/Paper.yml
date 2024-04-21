@@ -23,12 +23,9 @@ jobs:
       - name: Setup Julia
         uses: julia-actions/setup-julia@v1
 
-      - name: Create venv
-        run: python -m venv venv
-
-      - name: Activate venv
-        run: source venv/bin/activate
-
+      - name: Install Fonts
+        run: sudo apt install lmodern
+        
       - name: Install Jupyter 
         run: pip install jupyter
 
