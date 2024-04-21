@@ -33,7 +33,7 @@ jobs:
         run: pip install jupyter
 
       - name: Install Julia Packages
-        run: julia --project=paper 'import Pkg; Pkg.instantiate()'
+        run: julia --project=paper -e 'import Pkg; Pkg.instantiate()'
 
       - name: Publish to GitHub Pages (and render) 
         uses: quarto-dev/quarto-actions/publish@v2
