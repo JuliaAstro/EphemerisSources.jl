@@ -27,7 +27,8 @@ authors:
   orcid: "https://orcid.org/0000-0001-8655-8125"
 bibliography: references.bib
 clear-hidden-classes: none
-date: 2024-04-21
+date: April 21, 2024
+date-format: long
 google-scholar: true
 lightbox: auto
 manuscript:
