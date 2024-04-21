@@ -12,8 +12,7 @@ format:
       hypothesis: true
   markdown:
     output-file: paper
-  latex: 
-    output-file: paper
+
 execute:
   echo: true
   freeze: true

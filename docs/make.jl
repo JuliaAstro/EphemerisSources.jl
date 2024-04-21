@@ -36,7 +36,7 @@ function docs(name; path = name, root = "")
 end
 
 content = [
-    docs("Overview"; path = "overview"),
+    docs("Overview"; path = "docs"),
     MultiDocumenter.DropdownNav(
         "SPICE",
         [package("SPICEKernels"), package("SPICEApplications"), package("SPICEBodies")],
@@ -67,7 +67,10 @@ MultiDocumenter.make(
 using Quarto
 @info "Rendering paper with Quarto"
 Quarto.render(joinpath(@__DIR__, "..", "paper"))
-Base.cp(joinpath(@__DIR__, "..", "paper", "_manuscript", "paper"), outpath)
+Base.cp(
+    joinpath(@__DIR__, "..", "paper", "_manuscript", "paper"),
+    joinpath(outpath, "paper"),
+)
 
 Documenter.deploydocs(
     target = outpath,
