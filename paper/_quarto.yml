@@ -1,0 +1,20 @@
+project:
+  type: manuscript
+
+manuscript:
+  article: index.qmd
+
+format:
+  html:
+    comments:
+      hypothesis: true
+  arxiv-pdf: 
+    output-file: paper
+  markdown: 
+    output-file: paper
+
+execute: 
+  echo: true
+
+
+
