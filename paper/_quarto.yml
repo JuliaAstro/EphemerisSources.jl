@@ -1,5 +1,7 @@
 project:
   type: manuscript
+  output-dir: _manuscript
+  post-render: ./post.sh
 
 manuscript:
   article: index.qmd
@@ -8,13 +10,10 @@ format:
   html:
     comments:
       hypothesis: true
-  arxiv-pdf: 
+  arxiv-pdf:
     output-file: paper
-  markdown: 
+  markdown:
     output-file: paper
 
-execute: 
+execute:
   echo: true
-
-
-

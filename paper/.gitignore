@@ -136,4 +136,6 @@ dmypy.json
 _site
 _freeze
 _manuscript
+site_libs
+*.sty
 *index_files*
