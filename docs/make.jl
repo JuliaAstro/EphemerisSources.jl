@@ -64,6 +64,11 @@ MultiDocumenter.make(
     # ),
 )
 
+using Quarto
+@info "Rendering paper with Quarto"
+Quarto.render(joinpath(@__DIR__, "..", "paper"))
+Base.cp(joinpath(@__DIR__, "..", "paper", "_manuscript", "paper"), outpath)
+
 Documenter.deploydocs(
     target = outpath,
     repo = "github.com/cadojo/ephemeris.loopy.codes.git",

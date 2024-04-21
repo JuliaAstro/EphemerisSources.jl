@@ -134,7 +134,6 @@ dmypy.json
 # Quarto
 /.quarto/
 _site
-_freeze
 _manuscript
 site_libs
 *.sty
