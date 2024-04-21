@@ -12,7 +12,3 @@ format:
       hypothesis: true
   markdown:
     output-file: paper
-
-execute:
-  echo: true
-  freeze: true
