@@ -14,12 +14,36 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - uses: julia-actions/setup-julia@latest
+
       - uses: julia-actions/cache@v1
         with:
           version: "1"
-      - name: Install dependencies
-        run: julia --project=docs/ -e 'using Pkg; Pkg.instantiate()'
+          - name: Set up Quarto
+          uses: quarto-dev/quarto-actions/setup@v2
+          with:
+            # To install LaTeX to build PDF book 
+            tinytex: true       
+        
+      - name: Setup Python
+        uses: actions/setup-python@v3
+
+      - name: Setup Julia
+        uses: julia-actions/setup-julia@v1
+
+      - name: Install Fonts
+        run: sudo apt install lmodern
+        
+      - name: Install Jupyter 
+        run: pip install jupyter
+
+      - name: Install Paper Dependencies
+        run: julia --project=paper -e 'import Pkg; Pkg.instantiate()'
+
+      - name: Install Documentation Dependencies
+        run: julia --project=docs -e 'using Pkg; Pkg.instantiate()'
+      
       - name: Build and deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # For authentication with GitHub Actions token
