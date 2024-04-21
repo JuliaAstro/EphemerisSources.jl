@@ -190,7 +190,7 @@
 <meta name="citation_abstract" content="
 Solar system ephemerides are available for free to researchers, students, and
 professionals in-industry through open source tools, and REST APIs, and web
-interfaces [@horizons]. Users commonly parse this data programatically with dynamic
+interfaces. Users commonly parse this data programatically with dynamic
 programming languages, including Python and Julia. This document presents
 several Julia packages which can aid ephemeris users in sourcing and parsing
 data with replicatability. Rather than include solar system ephemeris files
@@ -209,7 +209,6 @@ documentation site: [`ephemeris.loopy.codes`](https://ephemeris.loopy.codes).
 <meta name="citation_online_date" content="2024-04-21">
 <meta name="citation_language" content="en">
 <meta name="citation_reference" content="citation_title=Ancillary Data Services of NASA’s Navigation and Ancillary Information Facility;,citation_author=C. H. Acton;,citation_publication_date=1996;,citation_cover_date=1996;,citation_year=1996;,citation_issue=1;,citation_volume=44;,citation_journal_title=Planetary and Space Science;">
-<meta name="citation_reference" content="citation_title=Status of the JPL horizons ephemeris system;,citation_author=Jon D Giorgini;,citation_publication_date=2015;,citation_cover_date=2015;,citation_year=2015;,citation_volume=29;,citation_journal_title=IAU General Assembly;">
 </head>
 
   <body class="quarto-notebook">
@@ -257,7 +256,7 @@ documentation site: [`ephemeris.loopy.codes`](https://ephemeris.loopy.codes).
     <div>
       <div class="abstract">
         <div class="block-title">Summary</div>
-        <p>Solar system ephemerides are available for free to researchers, students, and professionals in-industry through open source tools, and REST APIs, and web interfaces <span class="citation" data-cites="horizons">(<a href="#ref-horizons" role="doc-biblioref">Giorgini 2015</a>)</span>. Users commonly parse this data programatically with dynamic programming languages, including Python and Julia. This document presents several Julia packages which can aid ephemeris users in sourcing and parsing data with replicatability. Rather than include solar system ephemeris files in source code distrbutions, ephemeris data sourcing can be accomplished directly in-code. Three packages which interface to the JPL SPICE ephemeris platform are presented: <code>SPICEApplications.jl</code>, <code>SPICEKernels.jl</code>, and <code>SPICEBodies.jl</code>. In addition, two packages which interface with the JPL HORIZONS ephemeris platform are presented: <code>HorizonsAPI.jl</code> and <code>HorizonsEphemeris.jl</code>. All packages are described in-detail in their common documentation site: <a href="https://ephemeris.loopy.codes"><code>ephemeris.loopy.codes</code></a>.</p>
+        <p>Solar system ephemerides are available for free to researchers, students, and professionals in-industry through open source tools, and REST APIs, and web interfaces. Users commonly parse this data programatically with dynamic programming languages, including Python and Julia. This document presents several Julia packages which can aid ephemeris users in sourcing and parsing data with replicatability. Rather than include solar system ephemeris files in source code distrbutions, ephemeris data sourcing can be accomplished directly in-code. Three packages which interface to the JPL SPICE ephemeris platform are presented: <code>SPICEApplications.jl</code>, <code>SPICEKernels.jl</code>, and <code>SPICEBodies.jl</code>. In addition, two packages which interface with the JPL HORIZONS ephemeris platform are presented: <code>HorizonsAPI.jl</code> and <code>HorizonsEphemeris.jl</code>. All packages are described in-detail in their common documentation site: <a href="https://ephemeris.loopy.codes"><code>ephemeris.loopy.codes</code></a>.</p>
       </div>
     </div>
 
@@ -272,7 +271,7 @@ documentation site: [`ephemeris.loopy.codes`](https://ephemeris.loopy.codes).
 </div>
 <main class="content quarto-banner-title-block" id="quarto-document-content">      
 
-     <div id="afb0b136" class="cell markdown">
+     <div id="da12b790" class="cell markdown">
 <section id="sec-intro" class="level2">
 <h2 class="anchored" data-anchor-id="sec-intro">Introduction</h2>
 <p>Students and professionals in astronomy, astrodynamics, astrophysics, and other related fields often download and parse solar system ephemeris data from two major providers: <a href="https://naif.jpl.nasa.gov/pub/naif/generic_kernels/">Generic JPL SPICE Kernels</a>, and <a href="https://ssd.jpl.nasa.gov/horizons/">JPL Horizons</a>. SPICE Kernels are typically read through the SPICE Toolkit, which is available in a variety of programming languages, include the C Programming Language with <code>CSPICE</code> <span class="citation" data-cites="cspice">(<a href="#ref-cspice" role="doc-biblioref">Acton 1996</a>)</span>. The Julia packages <a href="https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl"><code>CSPICE_jll.jl</code></a> and <a href="https://github.com/JuliaAstro/SPICE.jl"><code>SPICE.jl</code></a> expose many <code>CSPICE</code> functions through Julia functions. Julia users can load and interact with SPICE kernels <code>SPICE.furnsh</code> and <code>SPICE.spkez</code>. Horizons data is available through a variety of methods, including email, command-line, graphical web interfaces, and a <a href="https://ssd-api.jpl.nasa.gov/doc/horizons.html">REST API</a>.</p>
@@ -296,7 +295,7 @@ documentation site: [`ephemeris.loopy.codes`](https://ephemeris.loopy.codes).
 <p>For detailed usage examples, consult the common <a href="https://ephemeris.loopy.codes">documentation site</a> for all of the packages presented in this paper. The code examples below show how a user may retrieve data from the HORIZONS platform, inspect a SPICE kernel before downloading it, and retrieve Cartesian state data at an instance in time.</p>
 </section>
 </div>
-<div class="cell-container"><div class="cell-decorator"><pre>In [1]:</pre></div><div id="2ac82ff0" class="cell" data-execution_count="1">
+<div class="cell-container"><div class="cell-decorator"><pre>In [1]:</pre></div><div id="1d87e380" class="cell" data-execution_count="1">
 <div id="lst-horizons-fetching" class="julia cell-code listing quarto-float">
 <figure class="quarto-float quarto-float-lst figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-horizons-fetching-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -310,7 +309,7 @@ Listing&nbsp;1: Querying JPL HORIZONS in Julia
 </div>
 </figure>
 </div>
-<div class="cell-output cell-output-display" data-execution_count="2">
+<div class="cell-output cell-output-display" data-execution_count="93">
 <div>
 <div><div style="float: left;"><span>1×8 DataFrame</span></div><div style="clear: both;"></div></div><div class="data-frame" style="overflow-x: scroll;">
 <table class="data-frame table table-sm table-striped small" data-quarto-postprocess="true">
@@ -342,13 +341,13 @@ Listing&nbsp;1: Querying JPL HORIZONS in Julia
 <tr class="odd">
 <td class="rowNumber" style="text-align: right; font-weight: bold;">1</td>
 <td style="text-align: right;">2.46042e6</td>
-<td style="text-align: left;">A.D. 2024-Apr-21 16:57:04.4390</td>
-<td style="text-align: right;">-0.862147</td>
-<td style="text-align: right;">-0.488523</td>
-<td style="text-align: right;">-0.211541</td>
-<td style="text-align: right;">0.00877532</td>
-<td style="text-align: right;">-0.0134838</td>
-<td style="text-align: right;">-0.00584452</td>
+<td style="text-align: left;">A.D. 2024-Apr-21 16:06:13.3270</td>
+<td style="text-align: right;">-0.862457</td>
+<td style="text-align: right;">-0.488047</td>
+<td style="text-align: right;">-0.211335</td>
+<td style="text-align: right;">0.00876657</td>
+<td style="text-align: right;">-0.0134888</td>
+<td style="text-align: right;">-0.00584668</td>
 </tr>
 </tbody>
 </table>
@@ -356,7 +355,7 @@ Listing&nbsp;1: Querying JPL HORIZONS in Julia
 </div>
 </div>
 </div></div>
-<div class="cell-container"><div class="cell-decorator"><pre>In [2]:</pre></div><div id="c0c14547" class="cell" data-execution_count="2">
+<div class="cell-container"><div class="cell-decorator"><pre>In [2]:</pre></div><div id="706c66ad" class="cell" data-execution_count="2">
 <div id="lst-spice-inspection" class="julia cell-code listing quarto-float">
 <figure class="quarto-float quarto-float-lst figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-spice-inspection-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -387,7 +386,7 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
  </code></pre>
 </div>
 </div></div>
-<div class="cell-container"><div class="cell-decorator"><pre>In [3]:</pre></div><div id="128927a0" class="cell" data-execution_count="3">
+<div class="cell-container"><div class="cell-decorator"><pre>In [3]:</pre></div><div id="1f64565c" class="cell" data-execution_count="3">
 <div id="lst-spice-fetching" class="julia cell-code listing quarto-float">
 <figure class="quarto-float quarto-float-lst figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-spice-fetching-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -409,17 +408,17 @@ Listing&nbsp;3: Using SPICE Kernels in Julia
 </div>
 </figure>
 </div>
-<div class="cell-output cell-output-display" data-execution_count="4">
+<div class="cell-output cell-output-display" data-execution_count="95">
 <pre><code>6-element Vector{Float64}:
-  -1.2897514245569319e8
-  -7.308212074469167e7
-  -3.1646189663539037e7
-  15.194121173951855
- -23.34667497651513
- -10.119529934715285</code></pre>
+  -1.290215861490398e8
+  -7.30107083386402e7
+  -3.161523621762761e7
+  15.178940661483693
+ -23.35532651301691
+ -10.123281612779772</code></pre>
 </div>
 </div></div>
-<div id="5b3de722" class="cell markdown">
+<div id="4cd11c4b" class="cell markdown">
 <section id="external-packages" class="level2">
 <h2 class="anchored" data-anchor-id="external-packages">External Packages</h2>
 <p>The packages presented in this paper which interact with the SPICE Toolkit require users to use <a href="https://github.com/JuliaAstro/SPICe.jl"><code>SPICE.jl</code></a>, or another SPICE-compatible kernel loading tool. Support for other SPICE kernel management packages, such as <a href="https://github.com/JuliaSpaceMissionDesign/Ephemerides.jl"><code>Ephemerides.jl</code></a>, may be added in the future.</p>
@@ -430,9 +429,6 @@ Listing&nbsp;3: Using SPICE Kernels in Julia
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-cspice" class="csl-entry" role="listitem">
 Acton, C. H. 1996. <span>“<span class="nocase">Ancillary Data Services of NASA’s Navigation and Ancillary Information Facility</span>.”</span> <em>Planetary and Space Science</em> 44 (1): 65–70.
-</div>
-<div id="ref-horizons" class="csl-entry" role="listitem">
-Giorgini, Jon D. 2015. <span>“Status of the JPL Horizons Ephemeris System.”</span> <em>IAU General Assembly</em> 29: 2256293.
 </div>
 </div>
 </section>

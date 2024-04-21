@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -45,7 +79,7 @@ div.csl-indent {
 }</style>
 
 
-<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,13 +95,16 @@ div.csl-indent {
     document.body.classList.add('hypothesis-enabled');
   });
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <meta name="citation_title" content="Julia Interfaces to Standard Ephemeris Platforms">
 <meta name="citation_abstract" content="
 Solar system ephemerides are available for free to researchers, students, and
 professionals in-industry through open source tools, and REST APIs, and web
-interfaces. Users commonly parse this data programatically with dynamic
+interfaces [@horizons]. Users commonly parse this data programatically with dynamic
 programming languages, including Python and Julia. This document presents
 several Julia packages which can aid ephemeris users in sourcing and parsing
 data with replicatability. Rather than include solar system ephemeris files
@@ -86,6 +123,7 @@ documentation site: [`ephemeris.loopy.codes`](https://ephemeris.loopy.codes).
 <meta name="citation_online_date" content="2024-04-21">
 <meta name="citation_language" content="en">
 <meta name="citation_reference" content="citation_title=Ancillary Data Services of NASA’s Navigation and Ancillary Information Facility;,citation_author=C. H. Acton;,citation_publication_date=1996;,citation_cover_date=1996;,citation_year=1996;,citation_issue=1;,citation_volume=44;,citation_journal_title=Planetary and Space Science;">
+<meta name="citation_reference" content="citation_title=Status of the JPL horizons ephemeris system;,citation_author=Jon D Giorgini;,citation_publication_date=2015;,citation_cover_date=2015;,citation_year=2015;,citation_volume=29;,citation_journal_title=IAU General Assembly;">
 </head>
 
 <body>
@@ -126,7 +164,7 @@ documentation site: [`ephemeris.loopy.codes`](https://ephemeris.loopy.codes).
     <div>
       <div class="abstract">
         <div class="block-title">Summary</div>
-        <p>Solar system ephemerides are available for free to researchers, students, and professionals in-industry through open source tools, and REST APIs, and web interfaces. Users commonly parse this data programatically with dynamic programming languages, including Python and Julia. This document presents several Julia packages which can aid ephemeris users in sourcing and parsing data with replicatability. Rather than include solar system ephemeris files in source code distrbutions, ephemeris data sourcing can be accomplished directly in-code. Three packages which interface to the JPL SPICE ephemeris platform are presented: <code>SPICEApplications.jl</code>, <code>SPICEKernels.jl</code>, and <code>SPICEBodies.jl</code>. In addition, two packages which interface with the JPL HORIZONS ephemeris platform are presented: <code>HorizonsAPI.jl</code> and <code>HorizonsEphemeris.jl</code>. All packages are described in-detail in their common documentation site: <a href="https://ephemeris.loopy.codes"><code>ephemeris.loopy.codes</code></a>.</p>
+        <p>Solar system ephemerides are available for free to researchers, students, and professionals in-industry through open source tools, and REST APIs, and web interfaces <span class="citation" data-cites="horizons">(<a href="#ref-horizons" role="doc-biblioref">Giorgini 2015</a>)</span>. Users commonly parse this data programatically with dynamic programming languages, including Python and Julia. This document presents several Julia packages which can aid ephemeris users in sourcing and parsing data with replicatability. Rather than include solar system ephemeris files in source code distrbutions, ephemeris data sourcing can be accomplished directly in-code. Three packages which interface to the JPL SPICE ephemeris platform are presented: <code>SPICEApplications.jl</code>, <code>SPICEKernels.jl</code>, and <code>SPICEBodies.jl</code>. In addition, two packages which interface with the JPL HORIZONS ephemeris platform are presented: <code>HorizonsAPI.jl</code> and <code>HorizonsEphemeris.jl</code>. All packages are described in-detail in their common documentation site: <a href="https://ephemeris.loopy.codes"><code>ephemeris.loopy.codes</code></a>.</p>
       </div>
     </div>
 
@@ -149,7 +187,7 @@ documentation site: [`ephemeris.loopy.codes`](https://ephemeris.loopy.codes).
   <li><a href="#external-packages" id="toc-external-packages" class="nav-link" data-scroll-target="#external-packages">External Packages</a></li>
   <li><a href="#sec-ref" id="toc-sec-ref" class="nav-link" data-scroll-target="#sec-ref">References</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-notebooks"><h2>Notebooks</h2><ul><li><a href="index-preview.html"><i class="bi bi-journal-code"></i>Article Notebook</a></li></ul></div></nav>
 </div>
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
 </div>
@@ -181,34 +219,129 @@ documentation site: [`ephemeris.loopy.codes`](https://ephemeris.loopy.codes).
 <section id="sec-usage" class="level2">
 <h2 class="anchored" data-anchor-id="sec-usage">Usage</h2>
 <p>For detailed usage examples, consult the common <a href="https://ephemeris.loopy.codes">documentation site</a> for all of the packages presented in this paper. The code examples below show how a user may retrieve data from the HORIZONS platform, inspect a SPICE kernel before downloading it, and retrieve Cartesian state data at an instance in time.</p>
-<pre class="{julia}"><code>#| echo: true
-#| lst-cap: Querying JPL HORIZONS in Julia 
-#| lst-label: lst-horizons-fetching
-using Dates, DataFrames
-using HorizonsEphemeris
-
-ephemeris("earth", now()) |&gt; DataFrame</code></pre>
-<pre class="{julia}"><code>#| echo: true
-#| lst-cap: Inspecting Generic SPICE Kernels in Julia
-#| lst-label: lst-spice-inspection
-using SPICEApplications, SPICEKernels
-
-brief(de440s()); # alternatively, check the kernel variable's docstring: @doc(de440s)</code></pre>
-<pre class="{julia}"><code>#| echo: true
-#| lst-cap: Using SPICE Kernels in Julia
-#| lst-label: lst-spice-fetching
-using Dates, SPICE
-using SPICEKernels, SPICEBodies
-
-return furnsh(
-    de432s(),                   # position and velocity data for nearby planets
-    latest_leapseconds_lsk(),   # timekeeping, parsing epochs
-    gm_de440(),                 # mass parameters for major solar system bodies
-    pck00011(),                 # physical properties of major solar system bodies
-)
-
-earth = KernelBody("earth")
-x, y, z, ẋ, ẏ, ż = earth(now())</code></pre>
+<div id="2ac82ff0" class="cell" data-execution_count="1">
+<div id="lst-horizons-fetching" class="julia cell-code listing quarto-float">
+<figure class="quarto-float quarto-float-lst figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-horizons-fetching-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Listing&nbsp;1: Querying JPL HORIZONS in Julia
+</figcaption>
+<div aria-describedby="lst-horizons-fetching-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="sourceCode cell-code" id="lst-horizons-fetching"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="lst-horizons-fetching-1"><a href="#lst-horizons-fetching-1" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">Dates</span>, <span class="bu">DataFrames</span></span>
+<span id="lst-horizons-fetching-2"><a href="#lst-horizons-fetching-2" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">HorizonsEphemeris</span></span>
+<span id="lst-horizons-fetching-3"><a href="#lst-horizons-fetching-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="lst-horizons-fetching-4"><a href="#lst-horizons-fetching-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ephemeris</span>(<span class="st">"earth"</span>, <span class="fu">now</span>()) <span class="op">|&gt;</span> DataFrame</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</figure>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="2">
+<div>
+<div><div style="float: left;"><span>1×8 DataFrame</span></div><div style="clear: both;"></div></div><div class="data-frame" style="overflow-x: scroll;">
+<table class="data-frame table table-sm table-striped small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th class="rowNumber" data-quarto-table-cell-role="th" style="text-align: right; font-weight: bold;">Row</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">t</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">cal</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">x</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">y</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">z</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">ẋ</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">ẏ</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">ż</th>
+</tr>
+<tr class="odd subheader headerLastRow">
+<th class="rowNumber" data-quarto-table-cell-role="th" style="text-align: right; font-weight: bold;"></th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" title="Float64">Float64</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" title="InlineStrings.String31">String31</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" title="Float64">Float64</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" title="Float64">Float64</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" title="Float64">Float64</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" title="Float64">Float64</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" title="Float64">Float64</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th" title="Float64">Float64</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td class="rowNumber" style="text-align: right; font-weight: bold;">1</td>
+<td style="text-align: right;">2.46042e6</td>
+<td style="text-align: left;">A.D. 2024-Apr-21 16:57:04.4390</td>
+<td style="text-align: right;">-0.862147</td>
+<td style="text-align: right;">-0.488523</td>
+<td style="text-align: right;">-0.211541</td>
+<td style="text-align: right;">0.00877532</td>
+<td style="text-align: right;">-0.0134838</td>
+<td style="text-align: right;">-0.00584452</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<a class="quarto-notebook-link" id="nblink-1" href="index-preview.html#2ac82ff0">Source: Article Notebook</a></div>
+<div id="c0c14547" class="cell" data-execution_count="2">
+<div id="lst-spice-inspection" class="julia cell-code listing quarto-float">
+<figure class="quarto-float quarto-float-lst figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-spice-inspection-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Listing&nbsp;2: Inspecting Generic SPICE Kernels in Julia
+</figcaption>
+<div aria-describedby="lst-spice-inspection-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="sourceCode cell-code" id="lst-spice-inspection"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="lst-spice-inspection-1"><a href="#lst-spice-inspection-1" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">SPICEApplications</span>, <span class="bu">SPICEKernels</span></span>
+<span id="lst-spice-inspection-2"><a href="#lst-spice-inspection-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="lst-spice-inspection-3"><a href="#lst-spice-inspection-3" aria-hidden="true" tabindex="-1"></a><span class="fu">brief</span>(<span class="fu">de440s</span>()); <span class="co"># alternatively, check the kernel variable's docstring: @doc(de440s)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</figure>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code> 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: /Users/joey/.julia/scratchspaces/8e9d28ce-e483-4ef7-bfd9-45b8fef6369c/kernels/de440s.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1849 DEC 26 00:00:00.000            2150 JAN 22 00:00:00.000
+ </code></pre>
+</div>
+<a class="quarto-notebook-link" id="nblink-2" href="index-preview.html#c0c14547">Source: Article Notebook</a></div>
+<div id="128927a0" class="cell" data-execution_count="3">
+<div id="lst-spice-fetching" class="julia cell-code listing quarto-float">
+<figure class="quarto-float quarto-float-lst figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-lst" id="lst-spice-fetching-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Listing&nbsp;3: Using SPICE Kernels in Julia
+</figcaption>
+<div aria-describedby="lst-spice-fetching-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="sourceCode cell-code" id="lst-spice-fetching"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="lst-spice-fetching-1"><a href="#lst-spice-fetching-1" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">Dates</span>, <span class="bu">SPICE</span></span>
+<span id="lst-spice-fetching-2"><a href="#lst-spice-fetching-2" aria-hidden="true" tabindex="-1"></a><span class="im">using</span> <span class="bu">SPICEKernels</span>, <span class="bu">SPICEBodies</span></span>
+<span id="lst-spice-fetching-3"><a href="#lst-spice-fetching-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="lst-spice-fetching-4"><a href="#lst-spice-fetching-4" aria-hidden="true" tabindex="-1"></a><span class="cf">return</span> <span class="fu">furnsh</span>(</span>
+<span id="lst-spice-fetching-5"><a href="#lst-spice-fetching-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">de432s</span>(),                   <span class="co"># position and velocity data for nearby planets</span></span>
+<span id="lst-spice-fetching-6"><a href="#lst-spice-fetching-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">latest_leapseconds_lsk</span>(),   <span class="co"># timekeeping, parsing epochs</span></span>
+<span id="lst-spice-fetching-7"><a href="#lst-spice-fetching-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">gm_de440</span>(),                 <span class="co"># mass parameters for major solar system bodies</span></span>
+<span id="lst-spice-fetching-8"><a href="#lst-spice-fetching-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">pck00011</span>(),                 <span class="co"># physical properties of major solar system bodies</span></span>
+<span id="lst-spice-fetching-9"><a href="#lst-spice-fetching-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="lst-spice-fetching-10"><a href="#lst-spice-fetching-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="lst-spice-fetching-11"><a href="#lst-spice-fetching-11" aria-hidden="true" tabindex="-1"></a>earth <span class="op">=</span> <span class="fu">KernelBody</span>(<span class="st">"earth"</span>)</span>
+<span id="lst-spice-fetching-12"><a href="#lst-spice-fetching-12" aria-hidden="true" tabindex="-1"></a>x, y, z, ẋ, ẏ, ż <span class="op">=</span> <span class="fu">earth</span>(<span class="fu">now</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</figure>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="4">
+<pre><code>6-element Vector{Float64}:
+  -1.2897514245569319e8
+  -7.308212074469167e7
+  -3.1646189663539037e7
+  15.194121173951855
+ -23.34667497651513
+ -10.119529934715285</code></pre>
+</div>
+<a class="quarto-notebook-link" id="nblink-3" href="index-preview.html#128927a0">Source: Article Notebook</a></div>
 </section>
 <section id="external-packages" class="level2">
 <h2 class="anchored" data-anchor-id="external-packages">External Packages</h2>
@@ -220,6 +353,9 @@ x, y, z, ẋ, ẏ, ż = earth(now())</code></pre>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-cspice" class="csl-entry" role="listitem">
 Acton, C. H. 1996. <span>“<span class="nocase">Ancillary Data Services of NASA’s Navigation and Ancillary Information Facility</span>.”</span> <em>Planetary and Space Science</em> 44 (1): 65–70.
+</div>
+<div id="ref-horizons" class="csl-entry" role="listitem">
+Giorgini, Jon D. 2015. <span>“Status of the JPL Horizons Ephemeris System.”</span> <em>IAU General Assembly</em> 29: 2256293.
 </div>
 </div>
 </section>

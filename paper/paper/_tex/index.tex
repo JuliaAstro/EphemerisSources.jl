@@ -185,14 +185,14 @@ Carpinelli}~\orcidlink{https://orcid.org/0000-0001-8655-8125}\\\href{mailto:joey
 \begin{abstract}
 Solar system ephemerides are available for free to researchers,
 students, and professionals in-industry through open source tools, and
-REST APIs, and web interfaces (Giorgini 2015). Users commonly parse this
-data programatically with dynamic programming languages, including
-Python and Julia. This document presents several Julia packages which
-can aid ephemeris users in sourcing and parsing data with
-replicatability. Rather than include solar system ephemeris files in
-source code distrbutions, ephemeris data sourcing can be accomplished
-directly in-code. Three packages which interface to the JPL SPICE
-ephemeris platform are presented: \texttt{SPICEApplications.jl},
+REST APIs, and web interfaces. Users commonly parse this data
+programatically with dynamic programming languages, including Python and
+Julia. This document presents several Julia packages which can aid
+ephemeris users in sourcing and parsing data with replicatability.
+Rather than include solar system ephemeris files in source code
+distrbutions, ephemeris data sourcing can be accomplished directly
+in-code. Three packages which interface to the JPL SPICE ephemeris
+platform are presented: \texttt{SPICEApplications.jl},
 \texttt{SPICEKernels.jl}, and \texttt{SPICEBodies.jl}. In addition, two
 packages which interface with the JPL HORIZONS ephemeris platform are
 presented: \texttt{HorizonsAPI.jl} and \texttt{HorizonsEphemeris.jl}.
@@ -300,7 +300,8 @@ kernel before downloading it, and retrieve Cartesian state data at an
 instance in time.
 
 \textsubscript{Source:
-\href{https://ephemeris.loopy.codes/index.qmd.html}{Article Notebook}}
+\href{https://cadojo.github.io/ephemeris.loopy.codes/index.qmd.html}{Article
+Notebook}}
 
 \begin{codelisting}
 
@@ -324,11 +325,12 @@ ephemeris("earth", now()) |> DataFrame
     \hline
     & Float64 & String31 & Float64 & Float64 & Float64 & Float64 & \\
     \hline
-    1 & 2.46042e6 &  A.D. 2024-Apr-21 16:57:17.6400 & -0.862146 & -0.488525 & -0.211542 & 0.00877536 & $\dots$ \\
+    1 & 2.46042e6 &  A.D. 2024-Apr-21 16:06:17.0241 & -0.862456 & -0.488047 & -0.211335 & 0.00876658 & $\dots$ \\
 \end{tabular}
 
 \textsubscript{Source:
-\href{https://ephemeris.loopy.codes/index.qmd.html}{Article Notebook}}
+\href{https://cadojo.github.io/ephemeris.loopy.codes/index.qmd.html}{Article
+Notebook}}
 
 \begin{codelisting}
 
@@ -366,7 +368,8 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
 \end{verbatim}
 
 \textsubscript{Source:
-\href{https://ephemeris.loopy.codes/index.qmd.html}{Article Notebook}}
+\href{https://cadojo.github.io/ephemeris.loopy.codes/index.qmd.html}{Article
+Notebook}}
 
 \begin{codelisting}
 
@@ -395,16 +398,17 @@ x, y, z, ẋ, ẏ, ż = earth(now())
 
 \begin{verbatim}
 6-element Vector{Float64}:
-  -1.2897503837584634e8
-  -7.308228066934942e7
-  -3.1646258982290536e7
-  15.194155169643988
- -23.346655589589545
- -10.119521527787498
+  -1.2902152989585207e8
+  -7.301079489346015e7
+  -3.161527373450055e7
+  15.178959061081855
+ -23.355316033584334
+ -10.12327706840625
 \end{verbatim}
 
 \textsubscript{Source:
-\href{https://ephemeris.loopy.codes/index.qmd.html}{Article Notebook}}
+\href{https://cadojo.github.io/ephemeris.loopy.codes/index.qmd.html}{Article
+Notebook}}
 
 \section{External Packages}\label{external-packages}
 
@@ -425,7 +429,8 @@ queries to the JPL HORIZONS REST API.
 \section{References}\label{sec-ref}
 
 \textsubscript{Source:
-\href{https://ephemeris.loopy.codes/index.qmd.html}{Article Notebook}}
+\href{https://cadojo.github.io/ephemeris.loopy.codes/index.qmd.html}{Article
+Notebook}}
 
 \phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}
@@ -433,10 +438,6 @@ queries to the JPL HORIZONS REST API.
 Acton, C. H. 1996. {``{Ancillary Data Services of NASA's Navigation and
 Ancillary Information Facility}.''} \emph{Planetary and Space Science}
 44 (1): 65--70.
-
-\bibitem[\citeproctext]{ref-horizons}
-Giorgini, Jon D. 2015. {``Status of the JPL Horizons Ephemeris
-System.''} \emph{IAU General Assembly} 29: 2256293.
 
 \end{CSLReferences}
 

@@ -2,18 +2,18 @@
 abstract: |
   Solar system ephemerides are available for free to researchers,
   students, and professionals in-industry through open source tools, and
-  REST APIs, and web interfaces [@horizons]. Users commonly parse this
-  data programatically with dynamic programming languages, including
-  Python and Julia. This document presents several Julia packages which
-  can aid ephemeris users in sourcing and parsing data with
-  replicatability. Rather than include solar system ephemeris files in
-  source code distrbutions, ephemeris data sourcing can be accomplished
-  directly in-code. Three packages which interface to the JPL SPICE
-  ephemeris platform are presented: `SPICEApplications.jl`,
-  `SPICEKernels.jl`, and `SPICEBodies.jl`. In addition, two packages
-  which interface with the JPL HORIZONS ephemeris platform are
-  presented: `HorizonsAPI.jl` and `HorizonsEphemeris.jl`. All packages
-  are described in-detail in their common documentation site:
+  REST APIs, and web interfaces. Users commonly parse this data
+  programatically with dynamic programming languages, including Python
+  and Julia. This document presents several Julia packages which can aid
+  ephemeris users in sourcing and parsing data with replicatability.
+  Rather than include solar system ephemeris files in source code
+  distrbutions, ephemeris data sourcing can be accomplished directly
+  in-code. Three packages which interface to the JPL SPICE ephemeris
+  platform are presented: `SPICEApplications.jl`, `SPICEKernels.jl`, and
+  `SPICEBodies.jl`. In addition, two packages which interface with the
+  JPL HORIZONS ephemeris platform are presented: `HorizonsAPI.jl` and
+  `HorizonsEphemeris.jl`. All packages are described in-detail in their
+  common documentation site:
   [`ephemeris.loopy.codes`](https://ephemeris.loopy.codes).
 abstract-title: Summary
 author:
@@ -158,14 +158,14 @@ it, and retrieve Cartesian state data at an instance in time.
 
     ephemeris("earth", now()) |> DataFrame
 
-::: {.cell-output .cell-output-display .cell-output-markdown execution_count="12"}
+::: {.cell-output .cell-output-display .cell-output-markdown execution_count="103"}
 ```{=tex}
 \begin{tabular}{r|ccccccc}
     & t & cal & x & y & z & ẋ & \\
     \hline
     & Float64 & String31 & Float64 & Float64 & Float64 & Float64 & \\
     \hline
-    1 & 2.46042e6 &  A.D. 2024-Apr-21 16:57:19.8820 & -0.862145 & -0.488525 & -0.211542 & 0.00877536 & $\dots$ \\
+    1 & 2.46042e6 &  A.D. 2024-Apr-21 16:06:18.4279 & -0.862456 & -0.488047 & -0.211335 & 0.00876659 & $\dots$ \\
 \end{tabular}
 ```
 :::
@@ -209,14 +209,14 @@ it, and retrieve Cartesian state data at an instance in time.
     earth = KernelBody("earth")
     x, y, z, ẋ, ẏ, ż = earth(now())
 
-::: {.cell-output .cell-output-display execution_count="14"}
+::: {.cell-output .cell-output-display execution_count="105"}
     6-element Vector{Float64}:
-      -1.2897501751426622e8
-      -7.308231272430548e7
-      -3.16462728763927e7
-      15.19416198366757
-     -23.346651703709107
-     -10.119519842718077
+      -1.2902150972301115e8
+      -7.301082593267256e7
+      -3.1615287188334648e7
+      15.178965659316674
+     -23.355312275576733
+     -10.123275438757902
 :::
 :::
 

@@ -26,7 +26,7 @@ abstract: |
 
   Solar system ephemerides are available for free to researchers, students, and 
   professionals in-industry through open source tools, and REST APIs, and web 
-  interfaces [@horizons]. Users commonly parse this data programatically with dynamic 
+  interfaces. Users commonly parse this data programatically with dynamic 
   programming languages, including Python and Julia. This document presents
   several Julia packages which can aid ephemeris users in sourcing and parsing
   data with replicatability. Rather than include solar system ephemeris files 
@@ -177,5 +177,6 @@ package offers simplified interfaces for constructing and sending queries to the
 JPL HORIZONS REST API. 
 
 ## References {#sec-ref}
+
 :::{#refs}
 :::
