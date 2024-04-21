@@ -3,8 +3,6 @@ Interact with the JPL HORIZONS REST API.
 
 # Extended Help
 
-$(README)
-
 ## License
 
 $(LICENSE)
@@ -162,7 +160,7 @@ function ephemeris(
     ephemeris, notes = parse_response(response; start="\$\$SOE", stop="\$\$EOE")
 
     csv = CSV.File(IOBuffer(ephemeris); header=false, drop=[9])
-    
+
     output = NamedTuple(label => csv[column] for (label, column) in zip(header, csv.names))
 
     if !isnothing(file)
@@ -219,7 +217,7 @@ function ephemeris(
         ephemeris, notes = parse_response(response; start="\$\$SOE", stop="\$\$EOE")
 
         csv = CSV.File(IOBuffer(ephemeris); header=false, drop=[9])
-        
+
         NamedTuple(label => csv[column] for (label, column) in zip(header, csv.names))
     end
 

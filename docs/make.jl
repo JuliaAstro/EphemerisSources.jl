@@ -3,7 +3,12 @@ using Documenter, HorizonsEphemeris
 makedocs(
     sitename="HorizonsEphemeris",
     format=Documenter.HTML(),
-    modules=[HorizonsEphemeris]
+    modules=[HorizonsEphemeris],
+    pages=[
+        "Overview" => "index.md",
+        "Examples" => "examples/index.md",
+        "Reference" => "reference/index.md",
+    ]
 )
 
 deploydocs(
