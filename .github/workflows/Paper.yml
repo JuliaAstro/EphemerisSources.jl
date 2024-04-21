@@ -38,6 +38,7 @@ jobs:
       - name: Publish to GitHub Pages (and render) 
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          target: joss
+          target: gh-pages
+          path: paper
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
