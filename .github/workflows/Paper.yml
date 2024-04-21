@@ -1,0 +1,43 @@
+on:
+  workflow_dispatch:
+
+name: Render and Publish
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          # To install LaTeX to build PDF book 
+          tinytex: true       
+      
+      - name: Setup Python
+        uses: actions/setup-python@v3
+
+      - name: Setup Julia
+        uses: julia-actions/setup-julia@v1
+
+      - name: Create venv
+        run: python -m venv venv
+
+      - name: Activate venv
+        run: source venv/bin/activate
+
+      - name: Install Jupyter 
+        run: pip install jupyter
+
+      - name: Install Julia Packages
+        run: julia --project=paper 'import Pkg; Pkg.instantiate()'
+
+      - name: Publish to GitHub Pages (and render) 
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: joss
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
