@@ -1,4 +1,4 @@
-# Documentation
+# Reference
 
 _All docstrings!_
 
