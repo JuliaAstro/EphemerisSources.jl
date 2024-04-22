@@ -19,6 +19,7 @@ manuscript:
   mecaFile: index-meca.zip
   notebooks:
   - notebook: index.qmd
+    order: 9999
     title: Article Notebook
 notebook-preview-options:
   back: true
