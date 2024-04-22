@@ -68,7 +68,7 @@ using Quarto
 @info "Rendering paper with Quarto"
 Quarto.render(joinpath(@__DIR__, "..", "paper"))
 Base.cp(
-    joinpath(@__DIR__, "..", "paper", "_manuscript", "paper"),
+    joinpath(@__DIR__, "..", "paper", "_manuscript"),
     joinpath(outpath, "paper"),
 )
 
