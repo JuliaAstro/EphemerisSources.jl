@@ -64,9 +64,10 @@ MultiDocumenter.make(
     # ),
 )
 
-@info "Rendering paper with Quarto"
-run(Cmd(`quarto render`; dir = joinpath(@__DIR__, "..", "paper")))
-Base.mv(joinpath(@__DIR__, "..", "paper", "_manuscript"), joinpath(outpath, "paper"))
+# Quarto paper is hard-committed
+# @info "Rendering paper with Quarto"
+# run(Cmd(`quarto render`; dir = joinpath(@__DIR__, "..", "paper")))
+# Base.mv(joinpath(@__DIR__, "..", "paper", "_manuscript"), joinpath(outpath, "paper"))
 
 Documenter.deploydocs(
     target = outpath,
