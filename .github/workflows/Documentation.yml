@@ -20,6 +20,7 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
+          version: pre-release
           tinytex: true
 
       - name: Setup Python
@@ -33,6 +34,11 @@ jobs:
 
       - name: Install Documentation Dependencies
         run: julia --project=docs -e 'using Pkg; Pkg.instantiate()'
+
+      - name: Render Quarto Project
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: paper
 
       - name: Build and deploy
         env:
