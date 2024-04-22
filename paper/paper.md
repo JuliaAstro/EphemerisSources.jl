@@ -24,7 +24,7 @@ notebook-preview-options:
   back: true
 quarto-internal:
   subarticles:
-  - input: /home/runner/work/ephemeris.loopy.codes/ephemeris.loopy.codes/paper/index.qmd
+  - input: /Users/runner/work/ephemeris.loopy.codes/ephemeris.loopy.codes/paper/index.qmd
     render: true
     token: nb-article
 remove-hidden: all
