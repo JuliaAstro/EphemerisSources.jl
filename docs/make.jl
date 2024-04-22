@@ -64,7 +64,6 @@ MultiDocumenter.make(
     # ),
 )
 
-using Quarto
 @info "Rendering paper with Quarto"
 run(Cmd(`quarto render -M freeze:false`; dir = joinpath(@__DIR__, "..", "paper")))
 Base.mv(joinpath(@__DIR__, "..", "paper", "_manuscript"), joinpath(outpath, "paper"))
