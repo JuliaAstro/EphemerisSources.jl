@@ -65,12 +65,9 @@ MultiDocumenter.make(
 )
 
 using Quarto
-@info "Rendering paper with Quarto"
+@info "Rendering paper with Quarto: $(Quarto.path())"
 Quarto.render(joinpath(@__DIR__, "..", "paper"))
-Base.cp(
-    joinpath(@__DIR__, "..", "paper", "_manuscript"),
-    joinpath(outpath, "paper"),
-)
+Base.cp(joinpath(@__DIR__, "..", "paper", "_manuscript"), joinpath(outpath, "paper"))
 
 Documenter.deploydocs(
     target = outpath,
