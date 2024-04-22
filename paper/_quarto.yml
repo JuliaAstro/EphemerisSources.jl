@@ -10,6 +10,9 @@ format:
   html:
     comments:
       hypothesis: true
+    theme: 
+      light: flatly
+      dark: darkly
   markdown:
     output-file: paper
 
