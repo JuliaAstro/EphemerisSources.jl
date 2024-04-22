@@ -7,11 +7,11 @@ on:
     tags: "*"
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *' # Runs every 6 hours
+    - cron: "0 */6 * * *" # Runs every 6 hours
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
 
@@ -20,19 +20,19 @@ jobs:
       - uses: julia-actions/cache@v1
         with:
           version: "1"
-      
+
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          tinytex: true       
-        
+          tinytex: true
+
       - name: Setup Python
         uses: actions/setup-python@v3
 
       - name: Setup Julia
         uses: julia-actions/setup-julia@v1
-        
-      - name: Install Jupyter 
+
+      - name: Install Jupyter
         run: pip install jupyter
 
       - name: Install Paper Dependencies
@@ -40,7 +40,7 @@ jobs:
 
       - name: Install Documentation Dependencies
         run: julia --project=docs -e 'using Pkg; Pkg.instantiate()'
-      
+
       - name: Build and deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # For authentication with GitHub Actions token
