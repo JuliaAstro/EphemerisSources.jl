@@ -10,11 +10,13 @@ on:
       - main
     paths-ignore:
       - "**/docs/**"
+      - "**/paper/**"
   push:
     branches:
       - main
     paths-ignore:
       - "**/docs/**"
+      - "**/paper/**"
   workflow_dispatch:
 
 jobs:
