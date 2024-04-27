@@ -27,7 +27,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
         working-directory: lib/SPICEBodies
-        run: cd lib/HorizonsAPI && julia --project=docs/ docs/make.jl
+        run: julia --project=docs/ docs/make.jl
 
       #
       # HorizonsEphemeris Documentation
@@ -41,7 +41,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
         working-directory: lib/SPICEBodies
-        run: cd lib/HorizonsEphemeris && julia --project=docs/ docs/make.jl
+        run: julia --project=docs/ docs/make.jl
 
       #
       # SPICEKernels Documentation
@@ -55,7 +55,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
         working-directory: lib/SPICEBodies
-        run: cd lib/SPICEKernels && julia --project=docs/ docs/make.jl
+        run: julia --project=docs/ docs/make.jl
 
       #
       # SPICEBodies Documentation
