@@ -126,7 +126,7 @@ JPL HORIZONS REST API.
 # Acknowledgements {#sec-acknowledgements}
 
 Joseph Wilson (user `@jollywatt` on [GitHub](https://github.com/jollywatt) and
-Julia's [Discourse](https://discourse.julialang.org/u/Jollywatt/summary), provided
+Julia's [Discourse](https://discourse.julialang.org/u/Jollywatt/summary)), provided
 incredibly helpful [guidance and code](https://discourse.julialang.org/t/unpack-namedtuple-into-a-function-definition/97500) to support static keyword arguments.
 This contribution substantially improved the usability of `HorizonsAPI.jl`.
 
