@@ -14,6 +14,11 @@ authors:
   - name: Joseph D Carpinelli
     orcid: https://orcid.org/0000-0001-8655-8125
     email: joseph.d.carpinelli@loopy.codes
+    affiliation: 1
+
+affiliations:
+  - name: Open Source Scientific Software Developer
+    index: 1
 
 date: 21 April 2024
 bibliography: references.bib
