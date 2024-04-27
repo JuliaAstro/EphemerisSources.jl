@@ -22,10 +22,10 @@ bibliography: references.bib
 # Summary
 
 Students and professionals in astronomy, astrodynamics, astrophysics, and other
-related fields often download and parse solar system ephemeris data from two
-major providers:
-[Generic JPL SPICE Kernels](https://naif.jpl.nasa.gov/pub/naif/generic_kernels/),
-and [JPL Horizons](https://ssd.jpl.nasa.gov/horizons/). SPICE Kernels are
+related fields often download and parse data about objects in our solar system
+--- ephemeris data --- from two major providers:
+JPL's publicly available [Generic SPICE Kernels](https://naif.jpl.nasa.gov/pub/naif/generic_kernels/),
+and JPL's [Horizons platform](https://ssd.jpl.nasa.gov/horizons/). SPICE kernels are
 typically read through the SPICE Toolkit, which is available in a variety of
 programming languages, include the C Programming Language with `CSPICE` [@cspice].
 The Julia packages [`CSPICE_jll.jl`](https://github.com/JuliaBinaryWrappers/CSPICE_jll.jl)
@@ -36,9 +36,9 @@ Horizons data is available through
 a variety of methods, including email, command-line, graphical web interfaces,
 and a [REST API](https://ssd-api.jpl.nasa.gov/doc/horizons.html) [@horizons].
 
-This paper introduces several packages which allow users to download and process
-ephemeris data idomatically, all from within Julia:
-`SPICEKernels.jl`, `SPICEBodies.jl`, `HorizonsAPI.jl` and `HorizonsEphemeris.jl`.
+This paper introduces several packages --- `SPICEKernels.jl`, `SPICEBodies.jl`,
+`HorizonsAPI.jl` and `HorizonsEphemeris.jl` --- which allow users to download and process
+ephemeris data idiomatically, all from within Julia.
 Through the use of these packages, users can share replicatable code which
 automatically fetches publicly available ephemeris data, as opposed to manually
 including ephemeris data files with their source code distribution.
