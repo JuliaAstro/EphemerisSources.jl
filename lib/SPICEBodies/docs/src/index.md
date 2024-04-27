@@ -11,21 +11,21 @@ pkg> add SPICEBodies
 ## Usage
 
 This package requires [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl);  
-[`SPICEKernels.jl`](https://github.com/cadojo/SPICEKernels.jl). Once you load your desired 
+[`SPICEKernels.jl`](https://github.com/cadojo/SPICEKernels.jl). Once you load your desired
 SPICE kernels, you _could_ interact with each kernel object (satellite, planet, barycenter,
 lagrange point, etc.) using the SPICE interface. In fact, if you want to do anything more
 complicated than retrieve some physical parameters, and request Cartesian-state ephemeris
-data, you probably __should__ use the SPICE toolkit! If, however, your desired usage falls 
-within the narrow limitations mentioned above, `SPICEBodies.jl` could help you to 
+data, you probably **should** use the SPICE toolkit! If, however, your desired usage falls
+within the narrow limitations mentioned above, `SPICEBodies.jl` could help you to
 concisely retrieve solar system ephemeris data.
 
-First, load your desired SPICE kernels using `SPICE.jl`. `SPICEKernels.jl` provides an 
-easy Julian interface for downloading (and caching) NASA's publicly available 
+First, load your desired SPICE kernels using `SPICE.jl`. `SPICEKernels.jl` provides an
+easy Julian interface for downloading (and caching) NASA's publicly available
 [Generic Kernels](https://naif.jpl.nasa.gov/pub/naif/generic_kernels). All generic kernels
 are available as callable `struct`s within `SPICEKernels.jl`. If you'd like to know what
 each kernel does, check the _Extended Help_ in each kernel's docstring.
 
-```jldoctest usage
+```repl usage
 julia> using SPICE: furnsh
 
 julia> using SPICEKernels
@@ -40,10 +40,10 @@ julia> furnsh(
 
 Now you're ready to use `SPICEBodies.jl`. To retrieve position and velocity data, you
 must construct a `KernelBody` instance, or implement the `AbstractKernelBody` interface
-yourself! To retrieve physical characteristics, or NAIF ID codes, you can provide 
-`AbstractKernelBody` instances, or the body's name. 
+yourself! To retrieve physical characteristics, or NAIF ID codes, you can provide
+`AbstractKernelBody` instances, or the body's name.
 
-```jldoctest usage
+```repl usage
 julia> using AstroTime, SPICEBodies
 
 julia> earth = KernelBody("earth")

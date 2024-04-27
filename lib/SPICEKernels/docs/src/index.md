@@ -33,7 +33,7 @@ i.e. [`de440s()`](@ref); this returns a path to the kernel file, downloading it 
 server if necessary. As a result, you can pass each kernel right to `SPICE.jl`'s `furnsh`
 function for loading into the local kernel pool.
 
-```
+```julia
 using SPICE, SPICEKernels
 
 furnsh(
@@ -66,9 +66,9 @@ kernel as a type for clarity in your code, you can construct your own kernels th
 [`kernel`](@ref) function.
 
 !!! warning "Kernel Caching"
-All kernel names are assumed to be unique. If you're uncertain about the state of your
-scratch space, you can clear it through `Scratch.clear_scratchspaces!(SPICEKernels)`.
-Alternatively, you can simply specify `ignorecache=true` to force a re-download.
+    All kernel names are assumed to be unique. If you're uncertain about the state of your
+    scratch space, you can clear it through `Scratch.clear_scratchspaces!(SPICEKernels)`.
+    Alternatively, you can simply specify `ignorecache=true` to force a re-download.
 
 ## Inspection
 
