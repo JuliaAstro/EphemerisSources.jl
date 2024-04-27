@@ -17,7 +17,7 @@ authors:
     affiliation: 1
 
 affiliations:
-  - name: Open Source Scientific Software Developer
+  - name: Independent Researcher
     index: 1
 
 date: 21 April 2024
@@ -129,5 +129,9 @@ Joseph Wilson (user `@jollywatt` on [GitHub](https://github.com/jollywatt) and
 Julia's [Discourse](https://discourse.julialang.org/u/Jollywatt/summary)), provided
 incredibly helpful [guidance and code](https://discourse.julialang.org/t/unpack-namedtuple-into-a-function-definition/97500) to support static keyword arguments.
 This contribution substantially improved the usability of `HorizonsAPI.jl`.
+
+The software developed in this paper, and the paper itself, was written by the
+author a personal capacity. This work does not reflect the views of any
+organization, employer, or entity, except for the author as an individual.
 
 # References
