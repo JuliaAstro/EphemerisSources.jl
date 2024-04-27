@@ -131,7 +131,7 @@ incredibly helpful [guidance and code](https://discourse.julialang.org/t/unpack-
 This contribution substantially improved the usability of `HorizonsAPI.jl`.
 
 The software developed in this paper, and the paper itself, was written by the
-author a personal capacity. This work does not reflect the views of any
+author in a personal capacity. This work does not reflect the views of any
 organization, employer, or entity, except for the author as an individual.
 
 # References
