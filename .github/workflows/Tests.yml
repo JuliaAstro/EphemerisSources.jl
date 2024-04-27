@@ -9,12 +9,12 @@ on:
     branches:
       - main
     paths-ignore:
-      - "docs/**"
+      - "**/docs/**"
   push:
     branches:
       - main
     paths-ignore:
-      - "docs/**"
+      - "**/docs/**"
   workflow_dispatch:
 
 jobs:
