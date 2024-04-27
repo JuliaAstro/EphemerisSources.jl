@@ -138,3 +138,6 @@ _manuscript
 site_libs
 *.sty
 *index_files*
+*.jats
+*.pdf
+*.docx

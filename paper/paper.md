@@ -71,7 +71,7 @@ users a simple, repeatable way to query and parse HORIZONS ephemeris data.
 
 [^1]:
     The code required to support static keyword arguments was provided by
-    Joseph Wilson, as described in @sec-acknowledgements.
+    Joseph Wilson, as described in the **Acknowledgements** section.
 
 ## JPL SPICE
 
