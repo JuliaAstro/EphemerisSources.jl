@@ -17,12 +17,13 @@ makedocs(
 using MultiDocumenter
 
 clonedir = mktempdir()
-function package(name; path = name)
+function package(name; path = joinpath("lib", name), branch)
     MultiDocumenter.MultiDocRef(
         upstream = joinpath(clonedir, name),
         path = path,
         name = name,
-        giturl = "https://github.com/cadojo/$name.jl.git",
+        branch = branch,
+        giturl = "https://github.com/cadojo/EphemerisSources.jl.git",
     )
 end
 
@@ -39,11 +40,17 @@ content = [
     docs("Overview"; path = "docs"),
     MultiDocumenter.DropdownNav(
         "SPICE",
-        [package("SPICEKernels"), package("SPICEApplications"), package("SPICEBodies")],
+        [
+            package("SPICEKernels"; branch = "spice-kernels"),
+            package("SPICEBodies"; branch = "spice-bodies"),
+        ],
     ),
     MultiDocumenter.DropdownNav(
         "HORIZONS",
-        [package("HorizonsAPI"), package("HorizonsEphemeris")],
+        [
+            package("HorizonsAPI"; branch = "horizons-api"),
+            package("HorizonsEphemeris"; branch = "horizons-ephemeris"),
+        ],
     ),
 ]
 
