@@ -19,10 +19,6 @@ jobs:
       # HorizonsAPI Documentation
       #
 
-      - name: Testing New Documentation
-        working-directory: lib/SPICEBodies
-        run: pwd
-
       - name: Install Documentation Dependencies for HorizonsAPI
         run: julia --project=lib/HorizonsAPI/docs -e 'using Pkg; Pkg.develop(PackageSpec(path = joinpath("lib", "HorizonsAPI"))); Pkg.instantiate()'
 
@@ -30,7 +26,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
-        working-directory: lib/SPICEBodies
+        working-directory: lib/HorizonsAPI
         run: julia --project=docs/ docs/make.jl
 
       #
@@ -44,7 +40,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
-        working-directory: lib/SPICEBodies
+        working-directory: lib/HorizonsEphemeris
         run: julia --project=docs/ docs/make.jl
 
       #
@@ -58,7 +54,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
-        working-directory: lib/SPICEBodies
+        working-directory: lib/SPICEKernels
         run: julia --project=docs/ docs/make.jl
 
       #
