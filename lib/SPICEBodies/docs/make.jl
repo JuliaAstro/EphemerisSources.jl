@@ -14,7 +14,7 @@ makedocs(
 deploydocs(
     target = "build",
     branch = "spice-bodies",
-    repo = "github.com/cadojo/EphemerisSources",
+    repo = "github.com/cadojo/EphemerisSources.jl",
     devbranch = "main",
     versions = [
         "stable" => "SPICEBodies-v^",
