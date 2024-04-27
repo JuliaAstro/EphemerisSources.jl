@@ -12,7 +12,7 @@ tags:
 
 authors:
   - name: Joseph D Carpinelli
-    orcid: https://orcid.org/0000-0001-8655-8125
+    orcid: 0000-0001-8655-8125
     email: joseph.d.carpinelli@loopy.codes
     affiliation: 1
 
