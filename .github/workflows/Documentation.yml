@@ -22,7 +22,7 @@ jobs:
       - name: Install Documentation Dependencies
         run: julia --project=lib/HorizonsAPI -e 'using Pkg; Pkg.instantiate()'
 
-      - name: Build and deploy
+      - name: Build and deploy HorizonsAPI
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
@@ -35,7 +35,7 @@ jobs:
       - name: Install Documentation Dependencies
         run: julia --project=lib/HorizonsEphemeris -e 'using Pkg; Pkg.instantiate()'
 
-      - name: Build and deploy
+      - name: Build and deploy HorizonsEphemeris
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
@@ -48,7 +48,7 @@ jobs:
       - name: Install Documentation Dependencies
         run: julia --project=lib/SPICEKernels -e 'using Pkg; Pkg.instantiate()'
 
-      - name: Build and deploy
+      - name: Build and deploy SPICEKernels
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
@@ -61,7 +61,7 @@ jobs:
       - name: Install Documentation Dependencies
         run: julia --project=lib/SPICEBodies -e 'using Pkg; Pkg.instantiate()'
 
-      - name: Build and deploy
+      - name: Build and deploy SPICEBodies
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
