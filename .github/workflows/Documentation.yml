@@ -19,8 +19,8 @@ jobs:
       # HorizonsAPI Documentation
       #
 
-      - name: Install Documentation Dependencies
-        run: julia --project=lib/HorizonsAPI -e 'using Pkg; Pkg.instantiate()'
+      - name: Install Documentation Dependencies for HorizonsAPI
+        run: julia --project=lib/HorizonsAPI/ -e 'using Pkg; Pkg.develop(PackageSpec(path = joinpath("lib", "HorizonsAPI")))); Pkg.instantiate()'
 
       - name: Build and deploy HorizonsAPI
         env:
@@ -32,8 +32,8 @@ jobs:
       # HorizonsEphemeris Documentation
       #
 
-      - name: Install Documentation Dependencies
-        run: julia --project=lib/HorizonsEphemeris -e 'using Pkg; Pkg.instantiate()'
+      - name: Install Documentation Dependencies for HorizonsEphemeris
+        run: julia --project=lib/HorizonsEphemeris/ -e 'using Pkg; Pkg.develop(PackageSpec(path = joinpath("lib", "HorizonsEphemeris")))); Pkg.instantiate()'
 
       - name: Build and deploy HorizonsEphemeris
         env:
@@ -45,8 +45,8 @@ jobs:
       # SPICEKernels Documentation
       #
 
-      - name: Install Documentation Dependencies
-        run: julia --project=lib/SPICEKernels -e 'using Pkg; Pkg.instantiate()'
+      - name: Install Documentation Dependencies for SPICEKernels
+        run: julia --project=lib/SPICEKernels/ -e 'using Pkg; Pkg.develop(PackageSpec(path = joinpath("lib", "SPICEKernels")))); Pkg.instantiate()'
 
       - name: Build and deploy SPICEKernels
         env:
@@ -58,8 +58,8 @@ jobs:
       # SPICEBodies Documentation
       #
 
-      - name: Install Documentation Dependencies
-        run: julia --project=lib/SPICEBodies -e 'using Pkg; Pkg.instantiate()'
+      - name: Install Documentation Dependencies for SPICEBodies
+        run: julia --project=lib/SPICEBodies/ -e 'using Pkg; Pkg.develop(PackageSpec(path = joinpath("lib", "SPICEBodies")))); Pkg.instantiate()'
 
       - name: Build and deploy SPICEBodies
         env:
