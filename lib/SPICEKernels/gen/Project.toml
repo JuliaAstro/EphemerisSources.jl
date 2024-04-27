@@ -1,0 +1,6 @@
+[deps]
+Git = "d7ba0133-e1db-5d97-8f8c-041e4b3a1eb2"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+IOCapture = "b5f81e59-6552-4d32-b1f0-c071b021bf89"
+SPICEApplications = "e12e0822-0612-48d4-a4bb-92984dd6b6ec"
+SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"

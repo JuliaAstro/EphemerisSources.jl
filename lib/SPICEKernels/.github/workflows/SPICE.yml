@@ -1,0 +1,48 @@
+name: SPICE
+
+on:
+  schedule:
+    - cron: "0 */8 * * *"
+  workflow_dispatch:
+
+jobs:
+  auto:
+    name: Julia ${{ matrix.version }} - ${{ matrix.os }} - ${{ matrix.arch }} - ${{github.event_name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: true
+      matrix:
+        version:
+          - "1"
+        os:
+          - ubuntu-latest
+        arch:
+          - x64
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Lynx
+        run: bash -c 'sudo apt install lynx'
+      - uses: julia-actions/setup-julia@v1
+        with:
+          version: ${{ matrix.version }}
+          arch: ${{ matrix.arch }}
+      - uses: actions/cache@v1
+        env:
+          cache-name: cache-julia-depot
+        with:
+          path: ~/.julia
+          key: ${{ runner.os }}-auto-${{ env.cache-name }}-${{hashFiles('**/Project.toml') }}
+          restore-keys: |
+            ${{ runner.os }}-auto-${{ env.cache-name }}-
+            ${{ runner.os }}-auto-
+            ${{ runner.os }}-
+      - name: Julia Dependencies
+        run: julia --project=gen/ -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
+      - name: Run Regression
+        run: JULIA_DEBUG=Main,SPICEKernels julia --project=gen gen/make.jl
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: NASA Generic Kernel Updates
+          body: This PR was [automatically](https://github.com/cadojo/SPICEKernels.jl/blob/main/.github/workflows/SPICE.yml) generated because the generic kernel files on <nasa.gov> have changed.
