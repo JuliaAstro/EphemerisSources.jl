@@ -1,0 +1,21 @@
+name = "HorizonsAPI"
+uuid = "c15253bb-5e94-4b8b-9a02-579bb6c8e3ce"
+authors = ["Joe Carpinelli <joseph.d.carpinelli@loopy.software"]
+version = "0.1.2"
+
+[deps]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+
+[compat]
+DocStringExtensions = "0.9"
+HTTP = "1"
+julia = "1"
+
+[extras]
+Debugger = "31a5f54b-26ea-5ae9-a837-f05ce5417438"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
