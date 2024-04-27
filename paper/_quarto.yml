@@ -4,7 +4,7 @@ project:
   post-render: ./post.sh
 
 manuscript:
-  article: index.qmd
+  article: index.md
 
 format:
   html:
@@ -13,8 +13,6 @@ format:
     theme: 
       light: flatly
       dark: darkly
-  markdown:
-    output-file: paper
 
 execute: 
   cache: false
