@@ -26,6 +26,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
+        working-directory: lib/SPICEBodies
         run: cd lib/HorizonsAPI && julia --project=docs/ docs/make.jl
 
       #
@@ -39,6 +40,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
+        working-directory: lib/SPICEBodies
         run: cd lib/HorizonsEphemeris && julia --project=docs/ docs/make.jl
 
       #
@@ -52,6 +54,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
+        working-directory: lib/SPICEBodies
         run: cd lib/SPICEKernels && julia --project=docs/ docs/make.jl
 
       #
@@ -65,7 +68,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
-        run: cd lib/SPICEBodies && julia --project=docs/ docs/make.jl
+        working-directory: lib/SPICEBodies
+        run: julia --project=docs/ docs/make.jl
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
