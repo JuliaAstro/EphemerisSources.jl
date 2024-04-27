@@ -19,6 +19,10 @@ jobs:
       # HorizonsAPI Documentation
       #
 
+      - name: Testing New Documentation
+        working-directory: lib/SPICEBodies
+        run: pwd
+
       - name: Install Documentation Dependencies for HorizonsAPI
         run: julia --project=lib/HorizonsAPI/docs -e 'using Pkg; Pkg.develop(PackageSpec(path = joinpath("lib", "HorizonsAPI"))); Pkg.instantiate()'
 
