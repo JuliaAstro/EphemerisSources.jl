@@ -10,6 +10,7 @@ makedocs(
 deploydocs(
     target = "build",
     branch = "spice-kernels",
+    repo = "github.com/cadojo/EphemerisSources",
     devbranch = "main",
     versions = ["stable" => "SPICEKernels-v^", "SPICEKernels-v#.#", "SPICEKernels-v#.#.#"],
 )

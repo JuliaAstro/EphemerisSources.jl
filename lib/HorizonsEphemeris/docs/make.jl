@@ -14,6 +14,7 @@ makedocs(
 deploydocs(
     target = "build",
     branch = "horizons-ephemeris",
+    repo = "github.com/cadojo/EphemerisSources",
     devbranch = "main",
     versions = [
         "stable" => "HorizonsEphemeris-v^",
