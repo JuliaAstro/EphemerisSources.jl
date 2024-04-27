@@ -1,9 +1,6 @@
 name: Register
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
@@ -14,6 +11,6 @@ jobs:
       - uses: peter-evans/commit-comment@v3
         with:
           body: |
-            @JuliaRegistrator register
+            @JuliaRegistrator register "lib/SPICEKernels"
 
             This comment was generated with `commit-comment` and [`Register.yml`](/.github/workflows/Register.yml).

@@ -37,8 +37,10 @@ jobs:
             ${{ runner.os }}-auto-
             ${{ runner.os }}-
       - name: Julia Dependencies
+        working-directory: lib/SPICEKernels
         run: julia --project=gen/ -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
       - name: Run Regression
+        working-directory: lib/SPICEKernels
         run: JULIA_DEBUG=Main,SPICEKernels julia --project=gen gen/make.jl
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5

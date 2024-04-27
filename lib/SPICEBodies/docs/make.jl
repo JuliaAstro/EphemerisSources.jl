@@ -13,8 +13,11 @@ makedocs(
 
 deploydocs(
     target = "build",
-    repo = "github.com/cadojo/SPICEBodies.jl.git",
-    branch = "gh-pages",
+    branch = "spice-bodies",
     devbranch = "main",
-    versions = ["stable" => "v^", "manual", "v#.#", "v#.#.#"]
+    versions = [
+        "stable" => "SPICEBodies-v^",
+        "SPICEBodies-v#.#",
+        "SPICEBodies-v#.#.#"
+    ]
 )

@@ -1,0 +1,27 @@
+name: Paper
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: pre-release
+          tinytex: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v3
+
+      - name: Install Jupyter
+        run: pip install jupyter
+
+      - name: Render Quarto Project
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: paper
