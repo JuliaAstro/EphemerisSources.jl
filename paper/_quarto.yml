@@ -4,10 +4,17 @@ project:
   post-render: ./post.sh
 
 manuscript:
-  article: index.md
+  article: paper.md
 
 format:
   html:
+    include-before-body: 
+      text: |
+        :::{.callout-important appearance="simple"}
+        This page is a **pre-print**! The published paper is available at 
+        the [Journal of Open Source Software](https://joss.theoj.org). 
+        :::
+
     comments:
       hypothesis: true
     theme: 
