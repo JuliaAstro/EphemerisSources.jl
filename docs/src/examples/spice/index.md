@@ -47,6 +47,6 @@ figure = let x = map(u -> u[begin], states), y = map(u -> u[begin+1], states)
 end
 ```
 
-```@example quickstart
+```@repl quickstart
 figure # hide
 ```
