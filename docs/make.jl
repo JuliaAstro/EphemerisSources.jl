@@ -71,11 +71,12 @@ MultiDocumenter.make(
     # ),
 )
 
+run(`quarto render ../paper`)
 Base.mv(joinpath(@__DIR__, "..", "paper", "_manuscript"), joinpath(outpath, "paper"))
 
 Documenter.deploydocs(
     target = outpath,
-    repo = "github.com/cadojo/ephemeris.loopy.codes.git",
+    repo = "github.com/cadojo/EphemerisSources.git",
     branch = "gh-pages",
     versions = nothing,
     cname = "ephemeris.loopy.codes",

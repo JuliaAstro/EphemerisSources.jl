@@ -1,6 +1,6 @@
 using Pkg, Test
 
-const GROUP = get(ENV, "GROUP", "ALL")
+const GROUP = get(ENV, "GROUP", "EphemerisProviders")
 
 # 
 # Copied from https://github.com/SciML/Optimization.jl/blob/master/test/runtests.jl
@@ -31,7 +31,11 @@ function activate_subpkg_env(subpkg)
     Pkg.instantiate()
 end
 
-if uppercase(GROUP) == "ALL"
+if GROUP == "EphemerisProviders"
+    include("ephemeris_providers.jl")
+elseif uppercase(GROUP) == "ALL"
+    include("ephemeris_providers.jl")
+
     for package in readdir(joinpath(@__DIR__, "..", "lib"))
         activate_subpkg_env(package)
         Pkg.test()
