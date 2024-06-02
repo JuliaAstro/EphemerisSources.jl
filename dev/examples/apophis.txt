@@ -4,7 +4,7 @@ API SOURCE: NASA/JPL Horizons API
 
 
 *******************************************************************************
-Ephemeris / API_USER Sat Apr 27 10:59:22 2024 Pasadena, USA      / Horizons
+Ephemeris / API_USER Sat Jun  1 17:01:46 2024 Pasadena, USA      / Horizons
 *******************************************************************************
 Target body name: 99942 Apophis (2004 MN4)        {source: JPL#218}
 Center body name: Earth (399)                     {source: DE441}
@@ -23,8 +23,8 @@ Output units    : KM-S, deg, Julian Day Number (Tp)
 Calendar mode   : Mixed Julian/Gregorian
 Output type     : GEOMETRIC osculating elements
 Output format   : 10
-EOP file        : eop.240426.p240720
-EOP coverage    : DATA-BASED 1962-JAN-20 TO 2024-APR-26. PREDICTS-> 2024-JUL-19
+EOP file        : eop.240531.p240824
+EOP coverage    : DATA-BASED 1962-JAN-20 TO 2024-MAY-31. PREDICTS-> 2024-AUG-23
 Reference frame : Ecliptic of J2000.0
 *******************************************************************************
 Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
