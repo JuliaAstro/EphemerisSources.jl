@@ -77,7 +77,7 @@ Base.mv(joinpath(@__DIR__, "..", "paper", "_manuscript"), joinpath(outpath, "pap
 
 Documenter.deploydocs(
     target = outpath,
-    repo = "github.com/cadojo/EphemerisSources.git",
+    repo = "github.com/cadojo/EphemerisSources.jl.git",
     branch = "gh-pages",
     versions = nothing,
     cname = "ephemeris.loopy.codes",
