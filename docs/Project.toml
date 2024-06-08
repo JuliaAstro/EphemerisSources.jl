@@ -1,6 +1,7 @@
 [deps]
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+EphemerisSources = "858900df-f7ae-402a-aa8c-3e4ef85aa271"
 HorizonsAPI = "c15253bb-5e94-4b8b-9a02-579bb6c8e3ce"
 HorizonsEphemeris = "05ee1981-f730-42d8-b713-4f42d99733dc"
 MultiDocumenter = "87ed4bf0-c935-4a67-83c3-2a03bee4197c"

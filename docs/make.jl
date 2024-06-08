@@ -24,6 +24,7 @@ function package(name; path = joinpath("lib", name), branch)
         name = name,
         branch = branch,
         giturl = "https://github.com/cadojo/EphemerisSources.jl.git",
+        fix_canonical_url = false,
     )
 end
 
@@ -71,7 +72,7 @@ MultiDocumenter.make(
     # ),
 )
 
-run(`quarto render ../paper`)
+run(`quarto render $(joinpath(@__DIR__, "..", "paper"))`)
 Base.mv(joinpath(@__DIR__, "..", "paper", "_manuscript"), joinpath(outpath, "paper"))
 
 Documenter.deploydocs(
