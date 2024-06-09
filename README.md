@@ -1,4 +1,4 @@
-# 🪐 `ephemeris.loopy.codes`
+# 🪐 `EphemerisSources.jl`
 
 > [!IMPORTANT]
 >
@@ -14,19 +14,23 @@ more about how to use these tools, consult the
 [documentation website](https://ephemeris.loopy.codes), or visit each package
 repository.
 
+> [!NOTE]
+>
+> At this time, there is no package named `EphemerisSources.jl`. This repository
+> hosts all of the packages shown below.
+
 | Package                                                                  | Description                                                                                                  |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
 | [`HorizonsAPI.jl`](https://github.com/cadojo/HorizonsAPI.jl)             | A precise JPL HORIZONS REST API client implementation, with keyword arguments for each acceptable parameter. |
 | [`HorizonsEphemeris.jl`](https://github.com/cadojo/HorizonsEphemeris.jl) | Convenience wrappers around the JPL HORIZONS REST API.                                                       |
 | [`SPICEKernels.jl`](https://github.com/cadojo/SPICEKernels.jl)           | All [generic kernels](https://naif.jpl.nasa.gov/naif/data_generic.html) exported as variable constants.      |
 | [`SPICEBodies.jl`](https://github.com/cadojo/SPICEBodies.jl)             | Idiomatic wrappers around SPICE and [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl) methods.            |
-| [`SPICEApplications.jl`](https://github.com/cadojo/SPICEApplications.jl) | Function interfaces to the SPICE Toolkit executables from within Julia.                                      |
 
 ## Paper
 
 This repository holds a [JOSS](https://joss.theoj.org) submission under
-[`paper/`](paper/index.qmd). The paper is published to HTML, PDF, and Markdown
-on the [`joss` branch](https://github.com/cadojo/ephemeris.loopy.codes/blob/joss).
+[`paper/`](paper/index.md). The paper is published to as a pre-print to
+HTML, PDF, and Markdown on the [`gh-pages` branch](https://ephemeris.loopy.codes/paper).
 
 ## External Resources
 
