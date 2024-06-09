@@ -1,6 +1,6 @@
 project:
   type: manuscript
-  post-render: post.sh
+  post-render: ./post.sh
 
 manuscript:
   article: paper.md
