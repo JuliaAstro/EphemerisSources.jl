@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-04-21">
+<meta name="dcterms.date" content="2024-06-09">
 
 <title>Idiomatic Ephemeris Sourcing and Parsing in Julia</title>
 <style>
@@ -66,10 +66,10 @@ div.csl-indent {
 
 <meta name="citation_title" content="Idiomatic Ephemeris Sourcing and Parsing in Julia">
 <meta name="citation_author" content="Joseph D Carpinelli">
-<meta name="citation_publication_date" content="2024-04-21">
-<meta name="citation_cover_date" content="2024-04-21">
+<meta name="citation_publication_date" content="2024-06-09">
+<meta name="citation_cover_date" content="2024-06-09">
 <meta name="citation_year" content="2024">
-<meta name="citation_online_date" content="2024-04-21">
+<meta name="citation_online_date" content="2024-06-09">
 <meta name="citation_language" content="en">
 <meta name="citation_reference" content="citation_title=Ancillary Data Services of NASA’s Navigation and Ancillary Information Facility;,citation_author=C. H. Acton;,citation_publication_date=1996;,citation_cover_date=1996;,citation_year=1996;,citation_issue=1;,citation_volume=44;,citation_journal_title=Planetary and Space Science;">
 <meta name="citation_reference" content="citation_title=Status of the JPL horizons ephemeris system;,citation_author=Jon D Giorgini;,citation_publication_date=2015;,citation_cover_date=2015;,citation_year=2015;,citation_volume=29;,citation_journal_title=IAU General Assembly;">
@@ -95,7 +95,7 @@ div.csl-indent {
           </div>
                 <div class="quarto-title-meta-contents">
                     <p class="affiliation">
-                        1
+                        ir
                       </p>
                   </div>
                     </div>
@@ -106,7 +106,7 @@ div.csl-indent {
                 <div>
             <div class="quarto-title-meta-heading">Published</div>
             <div class="quarto-title-meta-contents">
-              <p class="date">April 21, 2024</p>
+              <p class="date">June 9, 2024</p>
             </div>
           </div>
           
@@ -163,11 +163,11 @@ the [Journal of Open Source Software](https://joss.theoj.org).
 <p>While ephemeris users have the tools they need to fetch and parse ephemeris data from multiple sources within Julia, they do not have the tools to do so <em>simply</em> or <em>idiomatically</em>. Horizons ephemeris data is distributed in plain text with surrounding metadata, and manual parsing is required for users to programmatically use the fetched ephemeris data. Generic SPICE kernels are freely available, and can be used with<code>CSPICE</code> (and wrapper libraries) for kernel inspection and data retrieval, but new users and students may find the required workflows unfamiliar. The packages presented in this paper may be used by students and professionals to idiomatically inspect and use ephemeris data, without prior knowledge of SPICE Toolkit utilities or REST APIs.</p>
 <section id="jpl-horizons" class="level3">
 <h3 class="anchored" data-anchor-id="jpl-horizons">JPL HORIZONS</h3>
-<p>The two HORIZONS-related packages presented in this paper — <a href="https://github.com/cadojo/HorizonsAPI.jl"><code>HorizonsAPI.jl</code></a> and <a href="https://github.com/cadojo/HorizonsEphemeris.jl"><code>HorizonsEphemeris.jl</code></a> — are respectively the first Julia packages to precisely match the REST API with tab-completion through <em>static keyword arguments</em><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, and the first to offer automatic response parsing into <code>NamedTuple</code> types. The <code>NamedTuple</code> output of <code>HorizonsEphemeris.ephemeris</code>, the top-level method for fetching Cartesian state vectors from the HORIZONS platform, allows for easy plotting, file-saving, and <code>DataFrame</code> construction. Both <code>HorizonsAPI.jl</code> and <code>HorizonsEphemeris.jl</code> offer users a simple, repeatable way to query and parse HORIZONS ephemeris data.</p>
+<p>The two HORIZONS-related packages presented in this paper — <a href="https://github.com/cadojo/EphemerisSources.jl/tree/main/lib/HorizonsAPI"><code>HorizonsAPI.jl</code></a> and <a href="https://github.com/cadojo/EphemerisSources.jl/tree/main/lib/HorizonsEphemeris"><code>HorizonsEphemeris.jl</code></a> — are respectively the first Julia packages to precisely match the REST API with tab-completion through <em>static keyword arguments</em><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, and the first to offer automatic response parsing into <code>NamedTuple</code> types. The <code>NamedTuple</code> output of <code>HorizonsEphemeris.ephemeris</code>, the top-level method for fetching Cartesian state vectors from the HORIZONS platform, allows for easy plotting, file-saving, and <code>DataFrame</code> construction. Both <code>HorizonsAPI.jl</code> and <code>HorizonsEphemeris.jl</code> offer users a simple, repeatable way to query and parse HORIZONS ephemeris data.</p>
 </section>
 <section id="jpl-spice" class="level2">
 <h2 class="anchored" data-anchor-id="jpl-spice">JPL SPICE</h2>
-<p>The two SPICE-related packages presented in this paper — <a href="https://github.com/cadojo/SPICEKernels.jl"><code>SPICEKernels.jl</code></a>, and <a href="https://github.com/cadojo/SPICEBodies.jl"><code>SPICEBodies.jl</code></a> — provide idiomatic kernel fetching, inspection, and caching from within Julia. Julia users interact with SPICE kernels by downloading publicly-available a<a href="https://naif.jpl.nasa.gov/pub/naif/generic_kernels/">Generic Kernels</a>, and parsing the data using <code>SPICE.jl</code>, or another ephemeris parsing source. This workflow requires that users know how to find the correct generic kernels for their chosen application, and that they know how to use CSPICE functions to retrieve their desired data. <code>SPICEKernels.jl</code> and <code>SPICEBodies.jl</code> offer idiomatic interfaces to ephemeris fetching and parsing parsing respectively. Continuous integration in the <a href="https://github.com/cadojo/SPICEKernels.jl"><code>SPICEKernels.jl</code> repository</a> multiple times daily, and automatically exports all available generic kernels as variables in Julia. SPICE Toolkit executables (provided by <a href="https://github.com/cadojo/SPICEApplications.jl"><code>SPICEApplications.jl</code></a>) are used to retrieve a description of each kernel’s contents, and place that description in the Julia variable’s docstring. As a result, users can use tab-completion and Julia’s built-in documentation tools to inspect kernel contents, and download the correct kernel for their application. Once each kernel is downloaded and loaded into the SPICE kernel pool with <code>SPICE.jl</code>, users can use <code>SPICEBodies.jl</code> to idiomatically fetch data at a provided instance in time.</p>
+<p>The two SPICE-related packages presented in this paper — <a href="https://github.com/cadojo/EphemerisSources.jl/tree/main/lib/SPICEKernels"><code>SPICEKernels.jl</code></a>, and <a href="https://github.com/cadojo/EphemerisSources.jl/tree/main/lib/SPICEBodies"><code>SPICEBodies.jl</code></a> — provide idiomatic kernel fetching, inspection, and caching from within Julia. Julia users interact with SPICE kernels by downloading publicly-available a<a href="https://naif.jpl.nasa.gov/pub/naif/generic_kernels/">Generic Kernels</a>, and parsing the data using <code>SPICE.jl</code>, or another ephemeris parsing source. This workflow requires that users know how to find the correct generic kernels for their chosen application, and that they know how to use CSPICE functions to retrieve their desired data. <code>SPICEKernels.jl</code> and <code>SPICEBodies.jl</code> offer idiomatic interfaces to ephemeris fetching and parsing parsing respectively. Continuous integration in the <a href="https://github.com/cadojo/EphemerisSources.jl/tree/main/.github/workflows/SPICE.yml"><code>SPICEKernels.jl</code> repository</a> multiple times daily, and automatically exports all available generic kernels as variables in Julia. SPICE Toolkit executables (provided by <a href="https://github.com/cadojo/SPICEApplications.jl"><code>SPICEApplications.jl</code></a>) are used to retrieve a description of each kernel’s contents, and place that description in the Julia variable’s docstring. As a result, users can use tab-completion and Julia’s built-in documentation tools to inspect kernel contents, and download the correct kernel for their application. Once each kernel is downloaded and loaded into the SPICE kernel pool with <code>SPICE.jl</code>, users can use <code>SPICEBodies.jl</code> to idiomatically fetch data at a provided instance in time.</p>
 </section>
 </section>
 <section id="usage" class="level1">
