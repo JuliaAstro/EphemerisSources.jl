@@ -2,8 +2,6 @@ project:
   type: manuscript
   output-dir: paper
 
-  
-
 manuscript:
   article: paper.md
   resources: 
