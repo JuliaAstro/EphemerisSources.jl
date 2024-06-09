@@ -1,5 +1,5 @@
 [![Tests](https://github.com/cadojo/EphemerisSources.jl/actions/workflows/Tests.yml/badge.svg)](https://github.com/cadojo/EphemerisSources.jl/actions/workflows/Tests.yml)
-[![Documentation](https://github.com/cadojo/EphemerisSources.jl/actions/workflows/Tests.yml/badge.svg)](https://github.com/cadojo/EphemerisSources.jl/actions/workflows/Documentation.yml)
+[![Documentation](https://github.com/cadojo/EphemerisSources.jl/actions/workflows/Documentation.yml/badge.svg)](https://github.com/cadojo/EphemerisSources.jl/actions/workflows/Documentation.yml)
 
 # 🪐 `EphemerisSources.jl`
 
