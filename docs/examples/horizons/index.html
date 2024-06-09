@@ -2,7 +2,7 @@
 """
 HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 09 Jun 2024 03:14:58 GMT
+Date: Sun, 09 Jun 2024 04:27:29 GMT
 Content-Type: text/plain
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -13,7 +13,7 @@ API SOURCE: NASA/JPL Horizons API
 
 
 *******************************************************************************
-Ephemeris / API_USER Sat Jun  8 20:14:57 2024 Pasadena, USA      / Horizons
+Ephemeris / API_USER Sat Jun  8 21:27:29 2024 Pasadena, USA      / Horizons
 *******************************************************************************
 Target body name: Earth (399)                     {source: DE441}
 Center body name: Earth (399)                     {source: DE441}
@@ -33,7 +33,7 @@ Output units    : KM-S
 """
 HTTP/1.1 200 OK
 Server: nginx
-Date: Sun, 09 Jun 2024 03:14:59 GMT
+Date: Sun, 09 Jun 2024 04:27:30 GMT
 Content-Type: text/plain
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -44,7 +44,7 @@ API SOURCE: NASA/JPL Horizons API
 
 
 *******************************************************************************
-Ephemeris / API_USER Sat Jun  8 20:14:59 2024 Pasadena, USA      / Horizons
+Ephemeris / API_USER Sat Jun  8 21:27:30 2024 Pasadena, USA      / Horizons
 *******************************************************************************
 Target body name: Mars (499)                      {source: mar097}
 Center body name: Earth (399)                     {source: DE441}
@@ -60,30 +60,30 @@ Center radii    : 6378.137, 6378.137, 6356.752 km {Equator_a, b, pole_c}
 Output units    : KM-
 ⋮
 9099-byte body
-"""</code></pre><p>The response from the HORIZONS API contains a lot of information! To more simply fetch and inspect ephemeris data from JPL HORIZONS servers, use the <code>ephemeris</code> method in <code>HorizonsEphemeris.jl</code>.</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using Dates, HorizonsEphemeris</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; ephemeris("earth", now())</code><code class="nohighlight hljs ansi" style="display:block;">(t = [2.460470635408577e6], cal = InlineStrings.String31[" A.D. 2024-Jun-09 03:14:59.3010"], x = [-0.2102298770067853], y = [-0.916260770188372], z = [-0.3969705373076726], ẋ = [0.01658955907538282], ẏ = [-0.0032217090071111], ż = [-0.001396702220265993])</code></pre><p>The output of <code>ephemeris</code> is a <code>NamedTuple</code>, so you can easily pass it along to <code>DataFrames.jl</code> for convenient inspection &amp; data processing. Note the <code>wrt</code> keyword argument as well; it is a simplified interface to the HORIZONS API <code>CENTER</code> argument.</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using DataFrames</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; data = DataFrame(
+"""</code></pre><p>The response from the HORIZONS API contains a lot of information! To more simply fetch and inspect ephemeris data from JPL HORIZONS servers, use the <code>ephemeris</code> method in <code>HorizonsEphemeris.jl</code>.</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using Dates, HorizonsEphemeris</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; ephemeris("earth", now())</code><code class="nohighlight hljs ansi" style="display:block;">(t = [2.460470685772465e6], cal = InlineStrings.String31[" A.D. 2024-Jun-09 04:27:30.7410"], x = [-0.2093942902598405], y = [-0.9164226989023712], z = [-0.3970407378150084], ẋ = [0.01659241760427291], ẏ = [-0.003208640613138317], ż = [-0.001391029462079467])</code></pre><p>The output of <code>ephemeris</code> is a <code>NamedTuple</code>, so you can easily pass it along to <code>DataFrames.jl</code> for convenient inspection &amp; data processing. Note the <code>wrt</code> keyword argument as well; it is a simplified interface to the HORIZONS API <code>CENTER</code> argument.</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using DataFrames</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; data = DataFrame(
            ephemeris("earth", now() - Year(50), now() + Year(5), Day(1); wrt="jupiter")
        )</code><code class="nohighlight hljs ansi" style="display:block;"><span class="sgr1">20090×8 DataFrame
    Row │ t          cal                              x         y        z      ⋯
        │<span class="sgr90"> Float64    String31                         Float64   Float64  Float6 ⋯
 ───────┼────────────────────────────────────────────────────────────────────────
-     1 │ 2.44221e6   A.D. 1974-Jun-09 03:15:01.5850  -4.74914  1.10164   0.093 ⋯
-     2 │ 2.44221e6   A.D. 1974-Jun-10 03:15:01.5850  -4.73561  1.091     0.093
-     3 │ 2.44221e6   A.D. 1974-Jun-11 03:15:01.5850  -4.72203  1.08064   0.093
-     4 │ 2.44221e6   A.D. 1974-Jun-12 03:15:01.5850  -4.70838  1.07056   0.093
-     5 │ 2.44221e6   A.D. 1974-Jun-13 03:15:01.5850  -4.69467  1.06076   0.093 ⋯
-     6 │ 2.44221e6   A.D. 1974-Jun-14 03:15:01.5850  -4.68092  1.05123   0.093
-     7 │ 2.44221e6   A.D. 1974-Jun-15 03:15:01.5850  -4.66712  1.04199   0.093
-     8 │ 2.44221e6   A.D. 1974-Jun-16 03:15:01.5850  -4.65327  1.03302   0.093
+     1 │ 2.44221e6   A.D. 1974-Jun-09 04:27:32.9540  -4.74846  1.1011    0.093 ⋯
+     2 │ 2.44221e6   A.D. 1974-Jun-10 04:27:32.9540  -4.73493  1.09047   0.093
+     3 │ 2.44221e6   A.D. 1974-Jun-11 04:27:32.9540  -4.72134  1.08013   0.093
+     4 │ 2.44221e6   A.D. 1974-Jun-12 04:27:32.9540  -4.70769  1.07006   0.093
+     5 │ 2.44221e6   A.D. 1974-Jun-13 04:27:32.9540  -4.69398  1.06027   0.093 ⋯
+     6 │ 2.44221e6   A.D. 1974-Jun-14 04:27:32.9540  -4.68022  1.05076   0.093
+     7 │ 2.44221e6   A.D. 1974-Jun-15 04:27:32.9540  -4.66642  1.04153   0.093
+     8 │ 2.44221e6   A.D. 1974-Jun-16 04:27:32.9540  -4.65257  1.03258   0.093
    ⋮   │     ⋮                     ⋮                    ⋮         ⋮         ⋮  ⋱
- 20084 │ 2.46229e6   A.D. 2029-Jun-03 03:15:01.5850   4.58695  1.42558  -0.119 ⋯
- 20085 │ 2.46229e6   A.D. 2029-Jun-04 03:15:01.5850   4.59988  1.42689  -0.119
- 20086 │ 2.46229e6   A.D. 2029-Jun-05 03:15:01.5850   4.61288  1.42847  -0.119
- 20087 │ 2.46229e6   A.D. 2029-Jun-06 03:15:01.5850   4.62596  1.43032  -0.119
- 20088 │ 2.46229e6   A.D. 2029-Jun-07 03:15:01.5850   4.6391   1.43244  -0.119 ⋯
- 20089 │ 2.4623e6    A.D. 2029-Jun-08 03:15:01.5850   4.6523   1.43484  -0.119
- 20090 │ 2.4623e6    A.D. 2029-Jun-09 03:15:01.5850   4.66555  1.43752  -0.119
+ 20084 │ 2.46229e6   A.D. 2029-Jun-03 04:27:32.9540   4.5876   1.42564  -0.119 ⋯
+ 20085 │ 2.46229e6   A.D. 2029-Jun-04 04:27:32.9540   4.60053  1.42696  -0.119
+ 20086 │ 2.46229e6   A.D. 2029-Jun-05 04:27:32.9540   4.61354  1.42856  -0.119
+ 20087 │ 2.46229e6   A.D. 2029-Jun-06 04:27:32.9540   4.62662  1.43042  -0.119
+ 20088 │ 2.46229e6   A.D. 2029-Jun-07 04:27:32.9540   4.63976  1.43256  -0.119 ⋯
+ 20089 │ 2.4623e6    A.D. 2029-Jun-08 04:27:32.9540   4.65296  1.43497  -0.119
+ 20090 │ 2.4623e6    A.D. 2029-Jun-09 04:27:32.9540   4.66622  1.43766  -0.119
 </span><span class="sgr36">                                                4 columns and 20075 rows omitted</span></span></code></pre><p>This example wouldn't be complete without some plotting!</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using Plots</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; figure = plot(
            data.x, data.y;
            xlabel="X (KM)", ylabel="Y (KM)", label=:none,
            title="Earth's Position w.r.t. Jupiter"
-       );</code><code class="nohighlight hljs ansi" style="display:block;"></code></pre><img alt="Example block output" src="index-e4f3783d.svg"/></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../spice/">« SPICE</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label></p><div class="select"><select id="documenter-themepicker"><option value="auto">Automatic (OS)</option><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div><p></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 1.4.1 on <span class="colophon-date" title="Sunday 9 June 2024 03:15">Sunday 9 June 2024</span>. Using Julia version 1.10.4.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></HTML>
+       );</code><code class="nohighlight hljs ansi" style="display:block;"></code></pre><img alt="Example block output" src="index-bbc6f09b.svg"/></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../spice/">« SPICE</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label></p><div class="select"><select id="documenter-themepicker"><option value="auto">Automatic (OS)</option><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div><p></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 1.4.1 on <span class="colophon-date" title="Sunday 9 June 2024 04:27">Sunday 9 June 2024</span>. Using Julia version 1.10.4.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></HTML>
