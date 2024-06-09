@@ -8,7 +8,11 @@ manuscript:
 
 format:
   html:
-    css: styles.css
+    title-block-style: manuscript
+    title-block-banner-color: white
+    title-block-banner: "#474b63"
+    include-in-header: 
+      text: <meta theme-color content="#474b63"/>
     include-before-body: 
       text: |
         <div class="callout-note callout callout-style-simple">
@@ -25,12 +29,20 @@ format:
             </div>
         </div>
 
-    comments:
-      hypothesis: true
     theme: 
-      light: flatly
-      dark: darkly
+      light: 
+        - _style/light.scss
+        - _style/common.scss
+        - _style/latte.scss
+      dark: 
+        - _style/dark.scss
+        - _style/common.scss
+        - _style/mocha.scss
 
+    css: _style/static.css
+
+    mainfont: "'Noto Sans', sans-serif"
+    monofont: "'Noto Sans Mono', monospace;"
 execute: 
   cache: false
   freeze: false

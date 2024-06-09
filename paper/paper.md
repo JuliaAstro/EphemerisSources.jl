@@ -120,7 +120,6 @@ or another SPICE-compatible kernel loading tool. Support for other SPICE
 kernel management packages, such as
 [`Ephemerides.jl`](https://github.com/JuliaSpaceMissionDesign/Ephemerides.jl),
 may be added in the future.
-
 In addition to the packages in this paper which interface with the JPL HORIZONS
 ephemeris platform, the [`HORIZONS.JL`](https://github.com/PerezHz/HORIZONS.jl)
 package offers simplified interfaces for constructing and sending queries to the
@@ -132,7 +131,6 @@ Joseph Wilson (user `@jollywatt` on [GitHub](https://github.com/jollywatt) and
 Julia's [Discourse](https://discourse.julialang.org/u/Jollywatt/summary)), provided
 incredibly helpful [guidance and code](https://discourse.julialang.org/t/unpack-namedtuple-into-a-function-definition/97500) to support static keyword arguments.
 This contribution substantially improved the usability of `HorizonsAPI.jl`.
-
 The software developed in this paper, and the paper itself, was written by the
 author in a personal capacity. This work does not reflect the views of any
 organization, employer, or entity, except for the author as an individual.
