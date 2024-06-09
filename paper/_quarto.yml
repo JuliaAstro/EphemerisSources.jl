@@ -8,6 +8,7 @@ manuscript:
 
 format:
   html:
+    css: styles.css
     include-before-body: 
       text: |
         <div class="callout-note callout callout-style-simple">
