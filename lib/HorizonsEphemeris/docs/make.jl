@@ -16,6 +16,7 @@ deploydocs(
     branch = "horizons-ephemeris",
     repo = "github.com/cadojo/EphemerisSources.jl",
     devbranch = "main",
+    tag_prefix = "HorizonsEphemeris",
     versions = [
         "stable" => "HorizonsEphemeris-v^",
         "HorizonsEphemeris-v#.#",

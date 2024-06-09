@@ -16,6 +16,7 @@ deploydocs(
     branch = "spice-bodies",
     repo = "github.com/cadojo/EphemerisSources.jl",
     devbranch = "main",
+    tag_prefix = "SPICEBodies",
     versions = [
         "stable" => "SPICEBodies-v^",
         "SPICEBodies-v#.#",
