@@ -29,7 +29,7 @@ repository.
 ## Paper
 
 This repository holds a [JOSS](https://joss.theoj.org) submission under
-[`paper/`](paper/index.md). The paper is published to as a pre-print to
+[`paper/`](paper/paper.md). The paper is published to as a pre-print to
 HTML, PDF, and Markdown on the [`gh-pages` branch](https://ephemeris.loopy.codes/paper).
 
 ## External Resources
