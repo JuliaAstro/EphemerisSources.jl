@@ -17,6 +17,6 @@ deploydocs(
     repo = "github.com/cadojo/EphemerisSources.jl",
     branch = "horizons-api",
     devbranch = "main",
-    tag_prefix = "HorizonsAPI",
+    tag_prefix = "HorizonsAPI-",
     versions = ["stable" => "HorizonsAPI-v^", "HorizonsAPI-v#.#", "HorizonsAPI-v#.#.#"],
 )

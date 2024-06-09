@@ -12,6 +12,6 @@ deploydocs(
     branch = "spice-kernels",
     repo = "github.com/cadojo/EphemerisSources.jl",
     devbranch = "main",
-    tag_prefix = "SPICEKernels",
+    tag_prefix = "SPICEKernels-",
     versions = ["stable" => "SPICEKernels-v^", "SPICEKernels-v#.#", "SPICEKernels-v#.#.#"],
 )
