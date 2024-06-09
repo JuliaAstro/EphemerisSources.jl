@@ -1,6 +1,6 @@
 project:
   type: manuscript
-  output-dir: paper
+  post-render: post.sh
 
 manuscript:
   article: paper.md
