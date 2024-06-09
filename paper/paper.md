@@ -14,13 +14,17 @@ authors:
   - name: Joseph D Carpinelli
     orcid: 0000-0001-8655-8125
     email: joseph.d.carpinelli@loopy.codes
-    affiliation: 1
+    affiliation: 1 # for JOSS 
+    affiliations:  # for Quarto
+      - ir
 
 affiliations:
-  - name: Independent Researcher
-    index: 1
+  - name: Independent Researcher 
+    index: 1 # for JOSS
+  - id: ir   # for Quarto
+    name: Independent Researcher
 
-date: 21 April 2024
+date: 09 June 2024
 bibliography: references.bib
 ---
 
@@ -64,8 +68,8 @@ Toolkit utilities or REST APIs.
 ### JPL HORIZONS
 
 The two HORIZONS-related packages presented in this paper ---
-[`HorizonsAPI.jl`](https://github.com/cadojo/HorizonsAPI.jl)
-and [`HorizonsEphemeris.jl`](https://github.com/cadojo/HorizonsEphemeris.jl) ---
+[`HorizonsAPI.jl`](https://github.com/cadojo/EphemerisSources.jl/tree/main/lib/HorizonsAPI)
+and [`HorizonsEphemeris.jl`](https://github.com/cadojo/EphemerisSources.jl/tree/main/lib/HorizonsEphemeris) ---
 are respectively the first Julia packages to precisely match the REST API with
 tab-completion through _static keyword arguments_[^1], and the first to offer
 automatic response parsing into `NamedTuple` types. The `NamedTuple` output of
@@ -81,8 +85,8 @@ users a simple, repeatable way to query and parse HORIZONS ephemeris data.
 ## JPL SPICE
 
 The two SPICE-related packages presented in this paper ---
-[`SPICEKernels.jl`](https://github.com/cadojo/SPICEKernels.jl), and
-[`SPICEBodies.jl`](https://github.com/cadojo/SPICEBodies.jl) --- provide
+[`SPICEKernels.jl`](https://github.com/cadojo/EphemerisSources.jl/tree/main/lib/SPICEKernels), and
+[`SPICEBodies.jl`](https://github.com/cadojo/EphemerisSources.jl/tree/main/lib/SPICEBodies) --- provide
 idiomatic kernel fetching, inspection, and caching from within Julia.
 Julia users interact with SPICE kernels by downloading publicly-available
 a[Generic Kernels](https://naif.jpl.nasa.gov/pub/naif/generic_kernels/), and
@@ -92,7 +96,7 @@ their chosen application, and that they know how to use CSPICE functions to
 retrieve their desired data. `SPICEKernels.jl` and `SPICEBodies.jl` offer
 idiomatic interfaces to ephemeris fetching and parsing parsing respectively.
 Continuous integration in the
-[`SPICEKernels.jl` repository](https://github.com/cadojo/SPICEKernels.jl)
+[`SPICEKernels.jl` repository](https://github.com/cadojo/EphemerisSources.jl/tree/main/.github/workflows/SPICE.yml)
 multiple times daily, and automatically exports all available generic kernels
 as variables in Julia. SPICE Toolkit executables (provided by
 [`SPICEApplications.jl`](https://github.com/cadojo/SPICEApplications.jl))
