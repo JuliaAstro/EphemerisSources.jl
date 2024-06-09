@@ -21,10 +21,10 @@ repository.
 
 | Package                                                                  | Description                                                                                                  |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| [`HorizonsAPI.jl`](https://github.com/cadojo/HorizonsAPI.jl)             | A precise JPL HORIZONS REST API client implementation, with keyword arguments for each acceptable parameter. |
-| [`HorizonsEphemeris.jl`](https://github.com/cadojo/HorizonsEphemeris.jl) | Convenience wrappers around the JPL HORIZONS REST API.                                                       |
-| [`SPICEKernels.jl`](https://github.com/cadojo/SPICEKernels.jl)           | All [generic kernels](https://naif.jpl.nasa.gov/naif/data_generic.html) exported as variable constants.      |
-| [`SPICEBodies.jl`](https://github.com/cadojo/SPICEBodies.jl)             | Idiomatic wrappers around SPICE and [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl) methods.            |
+| [`HorizonsAPI.jl`](lib/HorizonsAPI)             | A precise JPL HORIZONS REST API client implementation, with keyword arguments for each acceptable parameter. |
+| [`HorizonsEphemeris.jl`](lib/HorizonsEphemeris) | Convenience wrappers around the JPL HORIZONS REST API.                                                       |
+| [`SPICEKernels.jl`](lib/SPICEKernels)           | All [generic kernels](https://naif.jpl.nasa.gov/naif/data_generic.html) exported as variable constants.      |
+| [`SPICEBodies.jl`](lib/SPICEBodies)             | Idiomatic wrappers around SPICE and [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl) methods.            |
 
 ## Paper
 
