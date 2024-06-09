@@ -66,14 +66,11 @@ MultiDocumenter.make(
         index_versions = ["stable", "dev"],
         engine = MultiDocumenter.FlexSearch,
     ),
-    # brand_image = MultiDocumenter.BrandImage(
-    #     "https://loopy.codes",
-    #     "https://loopy.codes/blog/posts/modeling-with-ephemeris/ephemeris.png",
-    # ),
+    brand_image = MultiDocumenter.BrandImage(
+        "https://loopy.codes",
+        "https://loopy.codes/images/orbits.png",
+    ),
 )
-
-run(`quarto render $(joinpath(@__DIR__, "..", "paper"))`)
-Base.mv(joinpath(@__DIR__, "..", "paper", "_manuscript"), joinpath(outpath, "paper"))
 
 Documenter.deploydocs(
     target = outpath,
