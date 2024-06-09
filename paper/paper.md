@@ -14,15 +14,14 @@ authors:
   - name: Joseph D Carpinelli
     orcid: 0000-0001-8655-8125
     email: joseph.d.carpinelli@loopy.codes
-    affiliation: 1 # for JOSS 
-    affiliations:  # for Quarto
-      - ir
+    affiliations:
+      - ref: 1
+    affiliation: 1
 
 affiliations:
-  - name: Independent Researcher 
-    index: 1 # for JOSS
-  - id: ir   # for Quarto
-    name: Independent Researcher
+  - name: Independent Researcher, USA
+    index: 1
+    id: 1
 
 date: 09 June 2024
 bibliography: references.bib

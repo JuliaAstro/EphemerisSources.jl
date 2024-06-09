@@ -10,21 +10,19 @@ format:
   html:
     include-before-body: 
       text: |
-        <div class="callout-warning callout callout-style-simple">
+        <div class="callout-note callout callout-style-simple">
             <div class="callout-body d-flex">
                 <div class="callout-icon-container">
                     <i class="callout-icon"></i>
                     </div>
                     <div class="callout-body-container">
                     <p><i>
-                      This page is a **pre-print**! The published paper is available at 
-                      the Journal of Open Source Software.
+                      This page is a <b>pre-print</b>! The published paper is available at 
+                      the <a jref="https://joss.theoj.org">Journal of Open Source Software</a>.
                     </i></p>
                 </div>
             </div>
         </div>
-
-        :::
 
     comments:
       hypothesis: true
