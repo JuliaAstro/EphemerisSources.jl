@@ -74,7 +74,7 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: pre-release
+          version: "1.4.555"
           tinytex: true
 
       - name: Setup Python
