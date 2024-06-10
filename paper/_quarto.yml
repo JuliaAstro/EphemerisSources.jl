@@ -1,7 +1,7 @@
 project:
   type: manuscript
   output-dir: _manuscript
-  # post-render: ./post.sh
+  post-render: ./post.sh
 
 manuscript:
   article: paper.md
