@@ -1,7 +1,7 @@
 project:
   type: manuscript
   output-dir: _manuscript
-  post-render: ./post.sh
+  # post-render: ./post.sh
 
 manuscript:
   article: paper.md
@@ -12,9 +12,9 @@ format:
   html:
     title-block-style: manuscript
     title-block-banner-color: white
-    title-block-banner: "#181825"
+    title-block-banner: "#303446"
     include-in-header: 
-      text: <meta theme-color content="#181825"/>
+      text: <meta theme-color content="#303446"/>
     include-before-body: 
       text: |
         <div class="callout-note callout callout-style-simple">
@@ -39,7 +39,7 @@ format:
       dark: 
         - _style/dark.scss
         - _style/common.scss
-        - _style/mocha.scss
+        - _style/frappe.scss
 
     css: static.css
 
