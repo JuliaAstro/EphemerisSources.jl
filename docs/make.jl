@@ -75,8 +75,7 @@ MultiDocumenter.make(
 run(Cmd(`quarto render`, dir = joinpath(@__DIR__, "..", "paper")))
 Base.cp(
     joinpath(@__DIR__, "..", "paper", "_manuscript", "paper"),
-    joinpath(outpath);
-    force = true,
+    joinpath(outpath, "paper");
     follow_symlinks = true,
 )
 
