@@ -12,9 +12,9 @@ format:
   html:
     title-block-style: manuscript
     title-block-banner-color: white
-    title-block-banner: "#313549"
+    title-block-banner: "#181825"
     include-in-header: 
-      text: <meta theme-color content="#313549"/>
+      text: <meta theme-color content="#181825"/>
     include-before-body: 
       text: |
         <div class="callout-note callout callout-style-simple">
