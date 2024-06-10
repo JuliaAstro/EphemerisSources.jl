@@ -72,6 +72,14 @@ MultiDocumenter.make(
     ),
 )
 
+run(Cmd(`quarto render`, dir = joinpath(@__DIR__, "..", "paper")))
+Base.cp(
+    joinpath(@__DIR__, "..", "paper", "_manuscript", "paper"),
+    joinpath(outpath);
+    force = true,
+    follow_symlinks = true,
+)
+
 Documenter.deploydocs(
     target = outpath,
     repo = "github.com/cadojo/EphemerisSources.jl.git",
