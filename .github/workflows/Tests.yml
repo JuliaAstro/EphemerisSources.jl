@@ -26,6 +26,7 @@ jobs:
       fail-fast: false
       matrix:
         group:
+          - EphemerisSourcesBase
           - HorizonsAPI
           - HorizonsEphemeris
           - SPICEKernels

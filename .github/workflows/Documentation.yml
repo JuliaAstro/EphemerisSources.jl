@@ -16,6 +16,20 @@ jobs:
       - uses: julia-actions/setup-julia@latest
 
       #
+      # EphemerisSourcesBase Documentation
+      #
+
+      - name: Install Documentation Dependencies for EphemerisSourcesBase
+        run: julia --project=lib/EphemerisSourcesBase/docs -e 'using Pkg; Pkg.develop(PackageSpec(path = joinpath("lib", "EphemerisSourcesBase"))); Pkg.instantiate()'
+
+      - name: Build and deploy EphemerisSourcesBase
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
+        working-directory: lib/EphemerisSourcesBase
+        run: julia --project=docs/ docs/make.jl
+
+      #
       # HorizonsAPI Documentation
       #
 

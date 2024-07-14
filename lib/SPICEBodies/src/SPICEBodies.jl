@@ -43,8 +43,6 @@ All subtypes must implement the following method.
 The type then has access to the following method implementations.
 
 1. body(epoch, ...)     # full state vector (KM, KM/S)
-2. pos(body, ...)       # position vector (KM)
-3. vel(body, ...)       # velocity vector (KM/S) 
 4. gm(body)             # "GM" mass parameter (KM^3/S^2)
 4. radii(body)          # radii vector (KM)
 
@@ -122,7 +120,7 @@ function (body::BodyLike)(epoch::Union{<:Real, <:Dates.AbstractDateTime}; frame 
             return (; ẋ, ẏ, ż)
         end
 
-    elseif dimension isa Val{position}
+    elseif dimension isa Val{:position}
         starg, lt = spkezp(naifcode(body), et, frame, aberration, naifcode(wrt))
         x, y, z = starg
         return (; x, y, z)
