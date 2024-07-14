@@ -1,2 +1,7 @@
 style = "sciml"
-format_markdown = true
+disallow_single_arg_nesting = true
+always_use_return = true
+whitespace_ops_in_indices = true
+whitespace_typedefs = true
+join_lines_based_on_source = false
+yas_style_nesting = true

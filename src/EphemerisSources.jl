@@ -1,5 +1,16 @@
-#
-# This file is deliberately empty!
-#
+"""
+A super-package for `HorizonsAPI`, `SPICEKernels`, `HorizonsEphemeris`, and 
+`SPICEBodies`. 
+"""
+module EphemerisSources
 
-module EphemerisSources end
+using Reexport
+
+@reexport using HorizonsAPI
+@reexport using HorizonsEphemeris
+@reexport using SPICEKernels
+@reexport using SPICEBodies
+
+
+end
+

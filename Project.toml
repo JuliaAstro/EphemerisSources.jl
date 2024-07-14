@@ -1,9 +1,15 @@
 name = "EphemerisSources"
 uuid = "858900df-f7ae-402a-aa8c-3e4ef85aa271"
-authors = ["Joey Carpinelli <joey@loopy.codes>"]
+authors = ["Joey Carpinelli <joseph.d.carpinelli@loopy.codes>"]
 version = "0.1.0"
+
 [deps]
+HorizonsAPI = "c15253bb-5e94-4b8b-9a02-579bb6c8e3ce"
+HorizonsEphemeris = "05ee1981-f730-42d8-b713-4f42d99733dc"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+SPICEBodies = "19f1efb6-7162-484a-b3a1-b52c391689d7"
+SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [extras]

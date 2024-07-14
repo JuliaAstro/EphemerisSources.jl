@@ -13,16 +13,12 @@ $(EXPORTS)
 """
 module SPICEBodies
 
-export 
-    KernelBody,
-    pos,
-    vel,
-    gm,
-    radii
+export KernelBody, pos, vel, gm, radii
 
 import Dates
 using AstroTime
 using SPICE
+using LinearAlgebra
 using DocStringExtensions
 
 @template (FUNCTIONS, METHODS, MACROS) = """
@@ -34,7 +30,6 @@ using DocStringExtensions
                                $(TYPEDEF)
                                $(DOCSTRING)
                                """
-
 
 """
 A supertype for all SPICE ephemeris objects.
@@ -65,7 +60,7 @@ function naifcode end
 Any celestial body, spacecraft, barycenter, or other ephemeris object which has an 
 assigned NAIF ID within the local SPICE kernel pool.
 """
-struct KernelBody <: AbstractKernelBody 
+struct KernelBody <: AbstractKernelBody
     """
     Corresponding NAIF ID.
     """
@@ -86,7 +81,10 @@ Return the number of seconds since J2000.
 function j2000s end
 
 j2000s(epoch::Epoch) = AstroTime.j2000(epoch) |> seconds |> value
-j2000s(datetime::Dates.AbstractDateTime) = Dates.value(Dates.Millisecond(datetime - Dates.DateTime(AstroTime.J2000_EPOCH))) / 1000
+function j2000s(datetime::Dates.AbstractDateTime)
+    return Dates.value(Dates.Millisecond(datetime - Dates.DateTime(AstroTime.J2000_EPOCH))) /
+           1000
+end
 
 naifcode(body::KernelBody) = body.id
 naifcode(id::Integer) = id
@@ -106,66 +104,31 @@ Given an epoch, return the full state vector (KM,KM/s) of the body relative to t
 observer defined by `wrt`. See `spkez` for more information about the underlying 
 implementation.
 """
-function (body::BodyLike)(epoch::Dates.AbstractDateTime; frame="J2000", aberration="none", wrt=0) 
-    et = j2000s(epoch)
+function (body::BodyLike)(epoch::Union{<:Real, <:Dates.AbstractDateTime}; frame = "J2000",
+                          aberration = "none", wrt = 0, dimension = Val(:all))
+    if epoch isa Real
+        et = epoch
+    else
+        et = j2000s(epoch)
+    end
 
-    starg, lt = spkez(naifcode(body), et, frame, aberration, naifcode(wrt))
-    return starg
-end
+    if dimension isa Val{:all} || dimension isa Val{:velocity}
+        starg, lt = spkez(naifcode(body), et, frame, aberration, naifcode(wrt))
+        x, y, z, ẋ, ẏ, ż = starg
 
-"""
-Given the number of seconds past J2000, return the full state vector (KM,KM/s) relative to 
-the observer defined by `wrt`. See `spkez` for more information about the underlying 
-implementation.
-"""
-function (body::BodyLike)(j2000s::Real; frame="J2000", aberration="none", wrt=0)
-    starg, lt = spkez(naifcode(body), j2000s, frame, aberration, naifcode(wrt))
-    return starg
-end
+        if dimension isa Val{:all}
+            return (; x, y, z, ẋ, ẏ, ż)
+        else
+            return (; ẋ, ẏ, ż)
+        end
 
-"""
-Given an epoch, return the position vector (KM) of the body relative to the 
-observer defined by `wrt`. See `spkez` for more information about the underlying 
-implementation.
-"""
-function pos(body::BodyLike, epoch::Epoch; frame="J2000", aberration="none", wrt=0) 
-    et = j2000s(epoch)
-    starg, lt = spkezp(naifcode(body), et, frame, aberration, naifcode(wrt))
-    return starg
-end
-
-"""
-Given the number of seconds past J2000, return the position vector (KM) relative to 
-the observer defined by `wrt`. See `spkez` for more information about the underlying 
-implementation.
-"""
-function pos(body::BodyLike, j2000s::Real; frame="J2000", aberration="none", wrt=0) 
-    starg, lt = spkezp(naifcode(body), j2000s, frame, aberration, naifcode(wrt))
-    return starg
-end
-
-"""
-Given an epoch, return the velocity vector (KM/S) of the body relative to the 
-observer defined by `wrt`. See `spkez` for more information about the underlying 
-implementation.
-"""
-function vel(body::BodyLike, epoch::Epoch; frame="J2000", aberration="none", wrt=0) 
-    et = j2000s(epoch)
-
-    starg, lt = spkez(naifcode(body), et, frame, aberration, naifcode(wrt))
-    x, y, z, ẋ, ẏ, ż = starg
-    return [ẋ, ẏ, ż]
-end
-
-"""
-Given the number of seconds past J2000, return the velocity vector (KM/S) relative to 
-the observer defined by `wrt`. See `spkez` for more information about the underlying 
-implementation.
-"""
-function vel(body::BodyLike, j2000s::Real; frame="J2000", aberration="none", wrt=0) 
-    starg, lt = spkez(naifcode(body), j2000s, frame, aberration, naifcode(wrt))
-    x, y, z, ẋ, ẏ, ż = starg
-    return [ẋ, ẏ, ż]
+    elseif dimension isa Val{position}
+        starg, lt = spkezp(naifcode(body), et, frame, aberration, naifcode(wrt))
+        x, y, z = starg
+        return (; x, y, z)
+    else
+        error("invalid requested dimension '$dimension'; provide `Val(:all)`, `Val(:position)`, or `Val(:velocity)`.")
+    end
 end
 
 """
@@ -182,6 +145,11 @@ Return the radii vector of the body (KM).
 function radii(body::BodyLike)
     R = bodvcd(naifcode(body), "RADII", 3)
     return R
-end 
+end
+
+"""
+Return the two-norm of the radius vector of the body (KM).
+"""
+radius(body::BodyLike) = norm(radii(body))
 
 end # module SPICEBodies
