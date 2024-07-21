@@ -52,6 +52,6 @@ figure = plot(
 );
 ```
 
-```@example horizons-examples
+```@repl horizons-examples
 figure # hide
 ```
