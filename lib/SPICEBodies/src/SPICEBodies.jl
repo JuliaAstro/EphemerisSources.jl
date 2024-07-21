@@ -13,7 +13,7 @@ $(EXPORTS)
 """
 module SPICEBodies
 
-export KernelBody, pos, vel, gm, radii
+export KernelBody, gm, radii
 
 import Dates
 using AstroTime
