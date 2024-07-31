@@ -11,7 +11,7 @@ pkg> add SPICEBodies
 ## Usage
 
 This package requires [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl);  
-[`SPICEKernels.jl`](https://github.com/cadojo/SPICEKernels.jl). Once you load your desired
+[`SPICEKernels.jl`](https://github.com/JuliaAstro/SPICEKernels.jl). Once you load your desired
 SPICE kernels, you _could_ interact with each kernel object (satellite, planet, barycenter,
 lagrange point, etc.) using the SPICE interface. In fact, if you want to do anything more
 complicated than retrieve some physical parameters, and request Cartesian-state ephemeris

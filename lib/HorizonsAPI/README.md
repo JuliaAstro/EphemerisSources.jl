@@ -1,5 +1,5 @@
-[![Tests](https://github.com/cadojo/HorizonsAPI.jl/workflows/Tests/badge.svg)](https://github.com/cadojo/HorizonsAPI.jl/actions?query=workflow%3ATests)
-[![Docs](https://github.com/cadojo/HorizonsAPI.jl/workflows/Documentation/badge.svg)](https://docs.loopy.software/HorizonsAPI.jl)
+[![Tests](https://github.com/JuliaAstro/HorizonsAPI.jl/workflows/Tests/badge.svg)](https://github.com/JuliaAstro/HorizonsAPI.jl/actions?query=workflow%3ATests)
+[![Docs](https://github.com/JuliaAstro/HorizonsAPI.jl/workflows/Documentation/badge.svg)](https://docs.loopy.software/HorizonsAPI.jl)
 [![SciML Code Style](https://img.shields.io/static/v1?label=Style&message=SciML&color=9668e2&labelColor=3E474F)](https://github.com/SciML/SciMLStyle)
 
 # `HorizonsAPI`
@@ -54,7 +54,7 @@ requests described in the HORIZONS
 [documentation](https://ssd-api.jpl.nasa.gov/doc/horizons.html). In addition, a
 more Julian syntax for ephemeris downloading and processing is provided in a
 separate interface:
-[`HorizonsEphemeris.jl`](https://github.com/cadojo/HorizonsEphemeris.jl).
+[`HorizonsEphemeris.jl`](https://github.com/JuliaAstro/HorizonsEphemeris.jl).
 
 ## Credits
 

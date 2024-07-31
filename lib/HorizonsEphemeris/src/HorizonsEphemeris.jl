@@ -45,7 +45,7 @@ The Horizons API can only process so many discrete time points at once!
 
 # Extended Help
 
-See [#2](https://github.com/cadojo/HorizonsEphemeris.jl/issues/2).
+See [#2](https://github.com/JuliaAstro/HorizonsEphemeris.jl/issues/2).
 """
 const MAX_TLIST_LENGTH = 30
 

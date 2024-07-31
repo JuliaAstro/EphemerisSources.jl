@@ -1,5 +1,5 @@
-[![Tests](https://github.com/cadojo/SPICEBodies.jl/workflows/Tests/badge.svg)](https://github.com/cadojo/SPICEBodies.jl/actions?query=workflow%3ATests)
-[![Docs](https://github.com/cadojo/SPICEBodies.jl/workflows/Documentation/badge.svg)](https://cadojo.github.io/SPICEBodies.jl)
+[![Tests](https://github.com/JuliaAstro/SPICEBodies.jl/workflows/Tests/badge.svg)](https://github.com/JuliaAstro/SPICEBodies.jl/actions?query=workflow%3ATests)
+[![Docs](https://github.com/JuliaAstro/SPICEBodies.jl/workflows/Documentation/badge.svg)](https://JuliaAstro.github.io/SPICEBodies.jl)
 [![SciML Code Style](https://img.shields.io/static/v1?label=Style&message=SciML&color=9668e2&labelColor=3E474F)](https://github.com/SciML/SciMLStyle)
 
 # `SPICEBodies`
@@ -20,7 +20,7 @@ bodies, spacecraft, stationary points, barycenters, and more; all referred to un
 umbrella term _bodies_. When used with [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl),
 this package provides a thin wrapper around SPICE toolkit functions that retrieve state vector
 data, and physical parameters from the SPICE kernel pool. When combined with 
-[`SPICEKernels.jl`](https://github.com/cadojo/SPICEKernels.jl), you can download, load, 
+[`SPICEKernels.jl`](https://github.com/JuliaAstro/SPICEKernels.jl), you can download, load, 
 and use SPICE kernels all from within Julia!
 
 ## Installation

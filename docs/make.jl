@@ -1,7 +1,7 @@
 using Documenter
 
 makedocs(
-    sitename = "ephemeris.loopy.codes",
+    sitename = "juliaastro.github.io/docs/EphemerisSources.jl",
     format = Documenter.HTML(),
     pages = [
         "Overview" => [
@@ -23,7 +23,7 @@ function package(name; path = joinpath("lib", name), branch)
         path = path,
         name = name,
         branch = branch,
-        giturl = "https://github.com/cadojo/EphemerisSources.jl.git",
+        giturl = "https://github.com/JuliaAstro/EphemerisSources.jl.git",
         fix_canonical_url = false,
     )
 end
@@ -81,8 +81,8 @@ Base.cp(
 
 Documenter.deploydocs(
     target = outpath,
-    repo = "github.com/cadojo/EphemerisSources.jl.git",
+    repo = "github.com/JuliaAstro/EphemerisSources.jl.git",
     branch = "gh-pages",
     versions = nothing,
-    cname = "ephemeris.loopy.codes",
+    cname = "juliaastro.github.io/docs/EphemerisSources.jl",
 )

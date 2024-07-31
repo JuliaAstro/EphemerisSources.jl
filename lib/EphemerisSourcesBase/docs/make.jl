@@ -11,7 +11,7 @@ makedocs(
 deploydocs(
     target = "build",
     branch = "ephemeris-sources-base",
-    repo = "github.com/cadojo/EphemerisSources.jl",
+    repo = "github.com/JuliaAstro/EphemerisSources.jl",
     devbranch = "main",
     tag_prefix = "EphemerisSourcesBase-",
     versions = [

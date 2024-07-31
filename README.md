@@ -1,5 +1,5 @@
-[![Tests](https://github.com/cadojo/EphemerisSources.jl/actions/workflows/Tests.yml/badge.svg)](https://github.com/cadojo/EphemerisSources.jl/actions/workflows/Tests.yml)
-[![Documentation](https://github.com/cadojo/EphemerisSources.jl/actions/workflows/Documentation.yml/badge.svg)](https://github.com/cadojo/EphemerisSources.jl/actions/workflows/Documentation.yml)
+[![Tests](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml/badge.svg)](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml)
+[![Documentation](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Documentation.yml/badge.svg)](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Documentation.yml)
 
 # 🪐 `EphemerisSources.jl`
 
@@ -14,7 +14,7 @@
 This repository includes the top-level documentation for several solar system
 ephemeris tools, all written with the Julia Programming Language. To learn
 more about how to use these tools, consult the
-[documentation website](https://ephemeris.loopy.codes), or visit each package
+[documentation website](https://juliaastro.github.io/docs/EphemerisSources.jl), or visit each package
 repository.
 
 > [!NOTE]
@@ -22,8 +22,8 @@ repository.
 > At this time, there is no package named `EphemerisSources.jl`. This repository
 > hosts all of the packages shown below.
 
-| Package                                                                  | Description                                                                                                  |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| Package                                         | Description                                                                                                  |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | [`HorizonsAPI.jl`](lib/HorizonsAPI)             | A precise JPL HORIZONS REST API client implementation, with keyword arguments for each acceptable parameter. |
 | [`HorizonsEphemeris.jl`](lib/HorizonsEphemeris) | Convenience wrappers around the JPL HORIZONS REST API.                                                       |
 | [`SPICEKernels.jl`](lib/SPICEKernels)           | All [generic kernels](https://naif.jpl.nasa.gov/naif/data_generic.html) exported as variable constants.      |
@@ -33,7 +33,7 @@ repository.
 
 This repository holds a [JOSS](https://joss.theoj.org) submission under
 [`paper/`](paper/paper.md). The paper is published to as a pre-print to
-HTML, PDF, and Markdown on the [`gh-pages` branch](https://ephemeris.loopy.codes/paper).
+HTML, PDF, and Markdown on the [`gh-pages` branch](https://juliaastro.github.io/docs/EphemerisSources.jl/paper).
 
 ## External Resources
 

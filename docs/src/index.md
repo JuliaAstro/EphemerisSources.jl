@@ -20,8 +20,8 @@ with [`ephemeris.loopy.codes`](index.md).
 
 | Package                                                                  | Description                                                                                                  | Location     |
 | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------ |
-| [`HorizonsAPI.jl`](https://github.com/cadojo/HorizonsAPI.jl)             | A precise JPL HORIZONS REST API client implementation, with keyword arguments for each acceptable parameter. |              |
-| [`HorizonsEphemeris.jl`](https://github.com/cadojo/HorizonsEphemeris.jl) | Convenience wrappers around the JPL HORIZONS REST API.                                                       |              |
+| [`HorizonsAPI.jl`](https://github.com/JuliaAstro/HorizonsAPI.jl)             | A precise JPL HORIZONS REST API client implementation, with keyword arguments for each acceptable parameter. |              |
+| [`HorizonsEphemeris.jl`](https://github.com/JuliaAstro/HorizonsEphemeris.jl) | Convenience wrappers around the JPL HORIZONS REST API.                                                       |              |
 | [`Horizons.jl`](https://github.com/PerezHz/HORIZONS.jl)                  | Functions for spawning the `telnet` interface, and querying files.                                           | **external** |
 
 ## SPICE Toolkit
@@ -34,9 +34,9 @@ Julia Programming Language can call `CSPICE` routines from within Julia with
 
 | Package                                                                       | Description                                                                                             | Location     |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------ |
-| [`SPICEKernels.jl`](https://github.com/cadojo/SPICEKernels.jl)                | All [generic kernels](https://naif.jpl.nasa.gov/naif/data_generic.html) exported as variable constants. |              |
-| [`SPICEBodies.jl`](https://github.com/cadojo/SPICEBodies.jl)                  | Idiomatic wrappers around SPICE and [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl) methods.       |              |
-| [`SPICEApplications.jl`](https://github.com/cadojo/SPICEApplications.jl)      | Function interfaces to the SPICE Toolkit executables from within Julia.                                 |              |
+| [`SPICEKernels.jl`](https://github.com/JuliaAstro/SPICEKernels.jl)                | All [generic kernels](https://naif.jpl.nasa.gov/naif/data_generic.html) exported as variable constants. |              |
+| [`SPICEBodies.jl`](https://github.com/JuliaAstro/SPICEBodies.jl)                  | Idiomatic wrappers around SPICE and [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl) methods.       |              |
+| [`SPICEApplications.jl`](https://github.com/JuliaAstro/SPICEApplications.jl)      | Function interfaces to the SPICE Toolkit executables from within Julia.                                 |              |
 | [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl)                          | A Julia interface to the `CSPICE` library provided by NASA JPL.                                         | **external** |
 | [`Ephemerides.jl`](https://github.com/JuliaSpaceMissionDesign/Ephemerides.jl) | Ephemeris kernel reading and interpolation in pure Julia.                                               | **external** |
 

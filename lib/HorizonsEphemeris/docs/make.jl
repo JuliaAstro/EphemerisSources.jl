@@ -14,7 +14,7 @@ makedocs(
 deploydocs(
     target = "build",
     branch = "horizons-ephemeris",
-    repo = "github.com/cadojo/EphemerisSources.jl",
+    repo = "github.com/JuliaAstro/EphemerisSources.jl",
     devbranch = "main",
     tag_prefix = "HorizonsEphemeris-",
     versions = [

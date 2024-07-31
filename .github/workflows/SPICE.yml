@@ -47,4 +47,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: NASA Generic Kernel Updates
-          body: This PR was [automatically](https://github.com/cadojo/SPICEKernels.jl/blob/main/.github/workflows/SPICE.yml) generated because the generic kernel files on <nasa.gov> have changed.
+          body: This PR was [automatically](https://github.com/JuliaAstro/SPICEKernels.jl/blob/main/.github/workflows/SPICE.yml) generated because the generic kernel files on <nasa.gov> have changed.
