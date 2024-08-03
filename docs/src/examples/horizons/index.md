@@ -63,5 +63,5 @@ their respective documentation pages, which are linked above in the website's
 navigation bar. For convenience, their pages are each linked below as well. 
 
 | Documentation |
-| [`HorizonsAPI.jl`](docs/HorizonsAPI.jl/docs/stable) |
-| [`HorizonsEphemeris.jl`](docs/HorizonsEphemeris.jl/docs/stable) |
+| [`HorizonsAPI.jl`](https://juliaastro.org/EphemerisSources.jl/lib/HorizonsAPI/stable) |
+| [`HorizonsEphemeris.jl`](https://juliaastro.org/EphemerisSources.jl/lib/SPICEKernels/stable) |

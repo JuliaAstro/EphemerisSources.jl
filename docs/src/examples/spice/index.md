@@ -6,7 +6,7 @@ from the SPICE kernel pool. First, download some common generic kernels (such as
 want more information about what's in each kernel, inspect each kernel's
 docstring; for example, `@doc de432s`, or `help?> de432s` in Julia's REPL. For 
 a complete list of kernels available, look at the `SPICEKernels.jl`
-[reference](docs/SPICEKernels/docs/stable/reference#SPICEKernels).
+[reference](https://juliaastro.org/EphemerisSources.jl/lib/SPICEKernels/dev/reference/#SPICEKernels.SPICEKernels).
 
 ```@repl quickstart
 using SPICE, SPICEKernels, SPICEBodies
@@ -61,5 +61,5 @@ their respective documentation pages, which are linked above in the website's
 navigation bar. For convenience, their pages are each linked below as well. 
 
 | Documentation |
-| [`SPICEKernels.jl`](docs/SPICEKernels.jl/docs/stable) |
-| [`SPICEBodies.jl`](docs/SPICEBodies.jl/docs/stable) |
+| [`SPICEKernels.jl`](https://juliaastro.org/EphemerisSources.jl/lib/SPICEKernels/stable) |
+| [`SPICEBodies.jl`](https://juliaastro.org/EphemerisSources.jl/lib/SPICEBodies/stable) |

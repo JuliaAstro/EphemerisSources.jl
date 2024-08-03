@@ -12,7 +12,8 @@
 		"ghcr.io/julialang/devcontainer-features/julia:1": {},
 		"ghcr.io/devcontainers/features/python:1": {},
 		"ghcr.io/devcontainers/features/github-cli": {},
-		"ghcr.io/devcontainers-contrib/features/starship": {}
+		"ghcr.io/devcontainers-contrib/features/starship": {},
+		"ghcr.io/devcontainers/features/node": {}
 	},
 	"customizations": {
 		"vscode": {
