@@ -42,12 +42,13 @@ All subtypes must implement the following method.
 
 The type then has access to the following method implementations.
 
-1. body(epoch, ...)     # full state vector (KM, KM/S)
-4. gm(body)             # "GM" mass parameter (KM^3/S^2)
-4. radii(body)          # radii vector (KM)
+1. body(epoch, ...)     # full state vector: x, y, z, ẋ, ẏ, ż (KM, KM/S)
+2. gm(body)             # scalar "GM" mass parameter (KM^3/S^2)
+3. radii(body)          # radii vector x, y, z (KM)
+
 
 """
-abstract type AbstractKernelBody end
+abstract type AbstractKernelBody end 
 
 """
 Given an ephemeris body, a NAIF ID code, or a body name, return the corresponding NAIF ID.
@@ -98,11 +99,17 @@ function naifcode(name::Union{<:AbstractString, Symbol})
 end
 
 """
-Given an epoch, return the full state vector (KM,KM/s) of the body relative to the 
-observer defined by `wrt`. See `spkez` for more information about the underlying 
-implementation.
+Given an epoch, return the state vector `[x, y, z, ẋ, ẏ, ż]` (KM,KM/s) of 
+the body relative to the observer defined by `wrt`. See `spkez` for more 
+information about the underlying implementation. Use the `dimension` keyword
+argument to specify whether you want the full state vector, the `Val(:position)`,
+or the `Val(:velocity)`.
+
+```julia
+body(epoch; frame = "J2000", aberration = "none", wrt = naifcode("ssb"), dimension = Val(:all))
+```
 """
-function (body::BodyLike)(epoch::Union{<:Real, <:Dates.AbstractDateTime}; frame = "J2000",
+function (body::KernelBody)(epoch::Union{<:Real, <:Dates.AbstractDateTime}; frame = "J2000",
                           aberration = "none", wrt = 0, dimension = Val(:all))
     if epoch isa Real
         et = epoch

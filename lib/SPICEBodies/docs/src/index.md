@@ -4,8 +4,15 @@ _Interact with SPICE kernels without learning the SPICE interface in-full!_
 
 ## Installation
 
+Choose one of the following!
+
 ```julia
 pkg> add SPICEBodies
+```
+
+```julia
+import Pkg
+Pkg.add("SPICEBodies")
 ```
 
 ## Usage

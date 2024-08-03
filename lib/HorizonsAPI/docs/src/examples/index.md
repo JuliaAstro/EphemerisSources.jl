@@ -1,8 +1,8 @@
 # Examples
 
-The HORIZONS REST API accepts specific key-words for each type of command. Some
+The Horizons REST API accepts specific key-words for each type of command. Some
 keywords are common to all commands, but most keywords are only valid for some
-subset of available HORIZONS REST API commands. Thanks to Julia's
+subset of available Horizons REST API commands. Thanks to Julia's
 metaprogramming, and [helpful community](https://discourse.julialang.org/t/unpack-namedtuple-into-a-function-definition/97500/2),
 these keyword arguments are specified precisely in the signature of each
 `fetch_*` function. This allows users to simply press `TAB` in their chosen
@@ -16,7 +16,7 @@ fetch_vectors(COMMAND; file, AIRMASS, ANG_FORMAT, ANG_RATE_CUTOFF, APPARENT, CAL
 ```
 
 Take a look at each of the following examples for ideas about how to use the
-HORIZONS REST API from within Julia.
+Horizons REST API from within Julia.
 
 ### Cartesian States
 
@@ -49,7 +49,7 @@ fetch_elements(
 
 ### Idiomatic Julia
 
-You'll notice that `HorizonsAPI` only offers a Julia interface to the JPL HORIZONS
+You'll notice that `HorizonsAPI` only offers a Julia interface to the JPL Horizons
 REST API; without other packages, you'll need to parse the resulting ephemeris data
 on your own. Thankfully, `HorizonsEphemeris` provides ephemeris fetching methods
 which are fully abstracted from the REST API. For more information, see the

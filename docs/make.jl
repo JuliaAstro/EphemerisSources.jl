@@ -1,14 +1,14 @@
 using Documenter
 
 makedocs(
-    sitename = "juliaastro.github.io/docs/EphemerisSources.jl",
+    sitename = "juliaastro.org/EphemerisSources.jl",
     format = Documenter.HTML(),
     pages = [
         "Overview" => [
             "About Ephemeris" => "index.md",
             "Quick Start" => [
                 "SPICE" => "examples/spice/index.md",
-                "HORIZONS" => "examples/horizons/index.md",
+                "Horizons" => "examples/horizons/index.md",
             ],
         ],
     ],
@@ -47,7 +47,7 @@ content = [
         ],
     ),
     MultiDocumenter.DropdownNav(
-        "HORIZONS",
+        "Horizons",
         [
             package("HorizonsAPI"; branch = "horizons-api"),
             package("HorizonsEphemeris"; branch = "horizons-ephemeris"),
@@ -84,5 +84,5 @@ Documenter.deploydocs(
     repo = "github.com/JuliaAstro/EphemerisSources.jl.git",
     branch = "gh-pages",
     versions = nothing,
-    cname = "juliaastro.github.io/docs/EphemerisSources.jl",
+    cname = "juliaastro.org/EphemerisSources.jl",
 )

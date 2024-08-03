@@ -8,8 +8,15 @@ _Fetch NASA's generic SPICE kernels from within Julia!_
 
 ## Installation
 
+Choose one of the following!
+
 ```julia
-pkg> add SPICEKernels # or `Pkg.add("SPICEKernels")`
+pkg> add SPICEKernels
+```
+
+```julia
+import Pkg
+Pkg.add("SPICEKernels")
 ```
 
 ## Motivation

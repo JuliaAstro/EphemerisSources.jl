@@ -1,5 +1,5 @@
 [![Tests](https://github.com/JuliaAstro/SPICEBodies.jl/workflows/Tests/badge.svg)](https://github.com/JuliaAstro/SPICEBodies.jl/actions?query=workflow%3ATests)
-[![Docs](https://github.com/JuliaAstro/SPICEBodies.jl/workflows/Documentation/badge.svg)](https://JuliaAstro.github.io/SPICEBodies.jl)
+[![Docs](https://github.com/JuliaAstro/SPICEBodies.jl/workflows/Documentation/badge.svg)](https://juliaastro.org/SPICEBodies.jl)
 [![SciML Code Style](https://img.shields.io/static/v1?label=Style&message=SciML&color=9668e2&labelColor=3E474F)](https://github.com/SciML/SciMLStyle)
 
 # `SPICEBodies`
@@ -31,7 +31,7 @@ pkg> add SPICEBodies
 
 ## Getting Stated
 
-Please refer to the [documentation](https://docs.loopy.codes/SPICEBodies.jl) for more 
+Please refer to the [documentation](https://juliaastro.org/SPICEBodies.jl) for more 
 detailed instructions, and usage examples.
 
 ```julia

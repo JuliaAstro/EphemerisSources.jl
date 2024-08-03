@@ -1,6 +1,6 @@
 # Examples
 
-`HorizonsEphemeris.jl` provides an idiomatic Julia interface to the JPL HORIZONS
+`HorizonsEphemeris.jl` provides an idiomatic Julia interface to the JPL Horizons
 REST API. Rather than recall specific queries REST API queries, or describe your
 desired ephemeris data in the verbose REST interface through `HorizonsAPI.jl`,
 you can use the [`ephemeris`](@ref HorizonsEphemeris.ephemeris) method to fetch
@@ -8,7 +8,7 @@ send the correct REST query (using `HorizonsAPI.jl` under the hood), and return
 the data parsed into a `NamedTuple` for convenient data processing.
 
 Take a look at each of the following examples for ideas about how to use the
-HORIZONS platform idiomatically from within Julia.
+Horizons platform idiomatically from within Julia.
 
 !!! warning
     At this time, only Cartesian state vectors are supported in
