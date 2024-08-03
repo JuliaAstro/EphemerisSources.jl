@@ -1,5 +1,5 @@
 [![Tests](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml/badge.svg)](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml)
-[![Documentation](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Documentation.yml/badge.svg)](https://juliaastro.org/EphemerisSources.jl/stable)
+[![Documentation](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Documentation.yml/badge.svg)](https://juliaastro.org/EphemerisSources.jl/docs/stable)
 
 # 🪐 `EphemerisSources.jl`
 
