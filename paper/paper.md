@@ -64,18 +64,18 @@ The packages presented in this paper may be used by students and professionals
 to idiomatically inspect and use ephemeris data, without prior knowledge of SPICE
 Toolkit utilities or REST APIs.
 
-### JPL HORIZONS
+### JPL Horizons
 
-The two HORIZONS-related packages presented in this paper ---
+The two Horizons-related packages presented in this paper ---
 [`HorizonsAPI.jl`](https://github.com/JuliaAstro/EphemerisSources.jl/tree/main/lib/HorizonsAPI)
 and [`HorizonsEphemeris.jl`](https://github.com/JuliaAstro/EphemerisSources.jl/tree/main/lib/HorizonsEphemeris) ---
 are respectively the first Julia packages to precisely match the REST API with
 tab-completion through _static keyword arguments_[^1], and the first to offer
 automatic response parsing into `NamedTuple` types. The `NamedTuple` output of
 `HorizonsEphemeris.ephemeris`, the top-level method for fetching Cartesian state
-vectors from the HORIZONS platform, allows for easy plotting, file-saving, and
+vectors from the Horizons platform, allows for easy plotting, file-saving, and
 `DataFrame` construction. Both `HorizonsAPI.jl` and `HorizonsEphemeris.jl` offer
-users a simple, repeatable way to query and parse HORIZONS ephemeris data.
+users a simple, repeatable way to query and parse Horizons ephemeris data.
 
 [^1]:
     The code required to support static keyword arguments was provided by
@@ -110,7 +110,7 @@ a provided instance in time.
 # Usage
 
 For detailed usage examples for, consult the common
-[documentation site](https://juliaastro.github.io/docs/EphemerisSources.jl).
+[documentation site](https://juliaastro.org/EphemerisSources.jl).
 
 # External Packages
 
@@ -120,10 +120,10 @@ or another SPICE-compatible kernel loading tool. Support for other SPICE
 kernel management packages, such as
 [`Ephemerides.jl`](https://github.com/JuliaSpaceMissionDesign/Ephemerides.jl),
 may be added in the future.
-In addition to the packages in this paper which interface with the JPL HORIZONS
-ephemeris platform, the [`HORIZONS.JL`](https://github.com/PerezHz/HORIZONS.jl)
+In addition to the packages in this paper which interface with the JPL Horizons
+ephemeris platform, the [`Horizons.JL`](https://github.com/PerezHz/Horizons.jl)
 package offers simplified interfaces for constructing and sending queries to the
-JPL HORIZONS REST API.
+JPL Horizons REST API.
 
 # Acknowledgements {#sec-acknowledgements}
 

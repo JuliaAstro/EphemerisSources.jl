@@ -1,11 +1,11 @@
 [![Tests](https://github.com/JuliaAstro/HorizonsEphemeris.jl/workflows/UnitTests/badge.svg)](https://github.com/JuliaAstro/HorizonsEphemeris.jl/actions?query=workflow%3AUnitTests)
-[![Docs](https://github.com/JuliaAstro/HorizonsEphemeris.jl/workflows/Documentation/badge.svg)](https://JuliaAstro.github.io/HorizonsEphemeris.jl)
+[![Docs](https://github.com/JuliaAstro/HorizonsEphemeris.jl/workflows/Documentation/badge.svg)](https://juliaastro.org/HorizonsEphemeris.jl)
 [![SciML Code Style](https://img.shields.io/static/v1?label=Style&message=SciML&color=9668e2&labelColor=3E474F)](https://github.com/SciML/SciMLStyle)
 
 # `HorizonsEphemeris`
 
 _A wrapper around the [wrapper](https://github.com/JuliaAstro/HorizonsAPI.jl) around
-JPL's REST API for the HORIZONS solar system ephemeris platform!_
+JPL's REST API for the Horizons solar system ephemeris platform!_
 
 **Please consider all minor changes breaking until `v1.0`!**
 

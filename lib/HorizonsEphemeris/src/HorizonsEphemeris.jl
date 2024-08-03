@@ -1,5 +1,5 @@
 """
-Interact with the JPL HORIZONS REST API.
+Interact with the JPL Horizons REST API.
 
 # Extended Help
 

@@ -18,6 +18,7 @@
 		"vscode": {
 			"extensions": [
 				"GitHub.codespaces",
+				"GitHub.vscode-pull-request-github",
 				"github.vscode-github-actions",
 				"julialang.language-julia",
 				"ms-toolsai.jupyter",

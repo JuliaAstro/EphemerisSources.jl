@@ -1,5 +1,5 @@
 """
-Interact with the JPL HORIZONS REST API.
+Interact with the JPL Horizons REST API.
 
 # Extended Help
 
@@ -237,7 +237,7 @@ end
 @eval begin
 
     """
-    Return the requested HORIZONS data in the form of an `HTTP.Response`.
+    Return the requested Horizons data in the form of an `HTTP.Response`.
     """
     function request(COMMAND; file=nothing, $(
         to_kwargs(

@@ -7,6 +7,16 @@ _Common types and methods for `EphemerisSources.jl`!_
 > other organization! This is an independently written package by an
 > astrodynamics hobbyist.
 
-## Overview
+# Overview
 
-Coming soon.
+This package is sparse... for now. By providing this lightweight dependency, 
+future versions of `EphemerisSources.jl` can provide more robust interfaces.
+
+# Reference
+
+```@autodocs
+Modules = [
+    EphemerisSourcesBase,
+]
+Order = [:module, :type, :function, :constant]
+```

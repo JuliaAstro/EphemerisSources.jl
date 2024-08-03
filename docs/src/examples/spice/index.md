@@ -4,7 +4,9 @@ The `SPICEBodies.KernelBody` type allows us to idiomatically query information
 from the SPICE kernel pool. First, download some common generic kernels (such as
 `de432s` below) and load them into the kernel pool with `SPICE.furnsh`. If you
 want more information about what's in each kernel, inspect each kernel's
-docstring; for example, `@doc de432s`, or `help?> de432s` in Julia's REPL.
+docstring; for example, `@doc de432s`, or `help?> de432s` in Julia's REPL. For 
+a complete list of kernels available, look at the `SPICEKernels.jl`
+[reference](docs/SPICEKernels/stable/reference#SPICEKernels).
 
 ```@repl quickstart
 using SPICE, SPICEKernels, SPICEBodies
@@ -50,3 +52,14 @@ end
 ```@repl quickstart
 figure # hide
 ```
+
+
+# Reference
+
+You can find more information about `SPICEKernels` and `SPICEBodies` at 
+their respective documentation pages, which are linked above in the website's 
+navigation bar. For convenience, their pages are each linked below as well. 
+
+| Documentation |
+| [`SPICEKernels.jl`](docs/SPICEKernels.jl/stable) |
+| [`SPICEBodies.jl`](docs/SPICEBodies.jl/stable) |

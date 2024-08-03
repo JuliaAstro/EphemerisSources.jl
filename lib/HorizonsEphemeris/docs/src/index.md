@@ -2,6 +2,21 @@
 
 _Solar system ephemeris data for free!_
 
+## Installation
+
+Choose one of the following!
+
+```julia
+pkg> add HorizonsEphemeris
+```
+
+```julia
+import Pkg
+Pkg.add("HorizonsEphemeris")
+```
+
+## Overview
+
 While `HorizonsAPI.jl` provides a precise interface which matches the JPL Horizons API,
 `HorizonsEphemeris.jl` provides a more user-friendly way to request solar system ephemeris
 data. At this time, only Cartesian state vector ephemeris data is available

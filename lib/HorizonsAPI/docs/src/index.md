@@ -2,11 +2,27 @@
 
 _Solar system ephemeris data for free!_
 
+
+## Installation
+
+Choose one of the following!
+
+```julia
+pkg> add HorizonsEphemeris
+```
+
+```julia
+import Pkg
+Pkg.add("HorizonsEphemeris")
+```
+
+## Overview
+
 This project aims to implement the publicly accessible REST API for JPL's
-[HORIZONS](https://ssd-api.jpl.nasa.gov/horizons.html) ephemeris platform. Once
+[Horizons](https://ssd-api.jpl.nasa.gov/doc/horizons.html) ephemeris platform. Once
 development is complete, this package will allow you to download physical
 attribute information, position and velocity data, binary files, and more from
-HORIZONS.
+Horizons.
 
 !!! warning 
     This project is not affiliated with or endorsed by NASA, JPL, Caltech, or any
