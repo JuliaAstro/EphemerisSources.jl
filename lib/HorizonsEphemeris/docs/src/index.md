@@ -28,3 +28,34 @@ through the `HorizonsEphemeris.jl` interface.
 
 For more information, read on to the [**Examples**](examples/index.md) page,
 or the package [**Reference**](reference/index.md).
+
+## NAIF IDs
+
+Internally, `HorizonsEphemeris` converts provided names to NAIF IDs. All 
+compatible bodies are shown below.
+
+<details>
+
+<summary>Supported NAIF IDs</summary>
+
+```@setup
+using SPICE, DataFrames
+
+names = (; ID=Int[], Name=String[])
+
+for id in range(-100000, 100000)
+    name = bodc2n(id)
+    isnothing(name) && continue
+    push!(names.ID, id)
+    push!(names.Name, name)
+end
+
+DataFrame(names)
+```
+
+</details>
+
+
+
+
+</details>

@@ -4,6 +4,7 @@ authors = ["Joe Carpinelli <joseph.d.carpinelli@loopy.codes>"]
 version = "1.0.1"
 
 [deps]
+AstroTime = "c61b5328-d09d-5e37-a9a8-0eb41c39009c"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
@@ -18,6 +19,7 @@ SPICEApplications = "e12e0822-0612-48d4-a4bb-92984dd6b6ec"
 CSV = "0.10"
 DocStringExtensions = "0.9"
 HTTP = "^1.8"
+AstroTime = "0.7"
 HorizonsAPI = "1"
 JSON = "^0.21"
 SPICE = "0.2"

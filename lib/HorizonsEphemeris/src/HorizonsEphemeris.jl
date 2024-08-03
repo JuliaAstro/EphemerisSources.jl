@@ -36,6 +36,7 @@ import HTTP
 
 using CSV
 using Dates
+using AstroTime
 using Printf
 using SPICE: bodc2n, bodn2c
 using HorizonsAPI: fetch_vectors
@@ -53,14 +54,14 @@ const MAX_TLIST_LENGTH = 30
 Given a NAIF ID, return the associated name, if one exists. If the ID provided cannot be
 found, a `KeyError` is thrown.
 """
-function NAIF(name::AbstractString)::Int
+function NAIF(name::Union{Symbol, <:AbstractString})::Int
 
-    code = bodn2c(name)
+    code = bodn2c(string(name))
 
     if !isnothing(code)
         return code
     else
-        throw(KeyError(name))
+        throw(KeyError(string(name)))
     end
 
 end
@@ -118,8 +119,9 @@ end
 Given any timestamp, return the corresponding modified Julian date.
 """
 MJD(timestamp) = datetime2julian(DateTime(timestamp)) - 2400000.5
+MJD(timestamp::AstroTime.AstroDates.DateTime) = AstroTime.julian(timestamp)
 MJD(timestamp::AbstractFloat) = timestamp - 2400000.5 < zero(timestamp) ? timestamp : timestamp - 2400000.5
-MJD(timestamp::Tuple) = MJD([timestamp...])
+MJD(timestamp::Tuple) = MJD(collect(timestamp))
 MJD(timestamp::AbstractVector) = map(MJD, timestamp)
 
 """
@@ -130,7 +132,7 @@ function ephemeris(
     site="",
     wrt="ssb",
     file=nothing,
-    units="AU-D",
+    units="KM-S",
     frame="ICRF",
     header=[:t, :cal, :x, :y, :z, :ẋ, :ẏ, :ż],
 )

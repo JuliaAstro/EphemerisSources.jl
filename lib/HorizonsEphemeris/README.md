@@ -57,7 +57,7 @@ julia> earth = let start = now() - Year(50), stop = now() + Year(50), step = Day
   # 6.376672 seconds (19.78 k allocations: 21.253 MiB)
 
 julia> plot(
-           earth.X, earth.Y;
+           earth.x, earth.y;
            aspect_ratio = 1,
            linewidth = 1.5,
            border = :none,
