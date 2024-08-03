@@ -67,8 +67,8 @@ MultiDocumenter.make(
         engine = MultiDocumenter.FlexSearch,
     ),
     brand_image = MultiDocumenter.BrandImage(
-        "https://loopy.codes",
-        "https://loopy.codes/images/orbits.png",
+        "https://juliaastro.org",
+        "http://juliaastro.org/dev/assets/logo.svg",
     ),
 )
 
