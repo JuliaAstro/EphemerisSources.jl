@@ -57,4 +57,4 @@ jobs:
           directories: lib/${{ matrix.group }}/src
       - uses: codecov/codecov-action@v4
         env:
-          CODECOV_TOKEN: ${{ secrets.CODECOV_ORG_TOKEN }}
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
