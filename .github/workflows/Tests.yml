@@ -52,3 +52,9 @@ jobs:
       - uses: julia-actions/julia-runtest@v1
         env:
           GROUP: ${{ matrix.group }}
+      - uses: julia-actions/julia-processcoverage@v1
+        with:
+          directories: lib/${{ matrix.group }}/src
+      - uses: codecov/codecov-action@v4
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_ORG_TOKEN }}
