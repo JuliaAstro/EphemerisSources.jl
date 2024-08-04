@@ -58,3 +58,4 @@ jobs:
       - uses: codecov/codecov-action@v4
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+          slug: JuliaAstro/${{ matrix.group }}.jl
