@@ -62,7 +62,7 @@ urlify(x::AbstractVector) = join(urlify.(x), " ")
 Common parameters, as specified by the Horizons API documentation.
 """
 const COMMON_PARAMETERS = (;
-    format="json",
+    format="text",
     OBJ_DATA=true,
     MAKE_EPHEM=true,
     EPHEM_TYPE="OBSERVER",
