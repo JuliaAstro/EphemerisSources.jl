@@ -1,8 +1,9 @@
-using Documenter
+using EphemerisSources, Documenter
 
 makedocs(
-    sitename = "juliaastro.org/EphemerisSources.jl",
+    sitename = "EphemerisSources.jl",
     format = Documenter.HTML(),
+    modules = [EphemerisSources],
     pages = [
         "Overview" => [
             "About Ephemeris" => "index.md",
@@ -79,8 +80,4 @@ Base.cp(
     follow_symlinks = true,
 )
 
-Documenter.deploydocs(
-    target = outpath,
-    repo = "github.com/JuliaAstro/EphemerisSources.jl.git",
-    branch = "gh-pages",
-)
+Documenter.deploydocs(target = outpath)
