@@ -83,5 +83,4 @@ Documenter.deploydocs(
     target = outpath,
     repo = "github.com/JuliaAstro/EphemerisSources.jl.git",
     branch = "gh-pages",
-    cname = "juliaastro.org/EphemerisSources.jl",
 )
