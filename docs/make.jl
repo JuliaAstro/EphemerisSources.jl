@@ -8,6 +8,7 @@ makedocs(
         "Overview" => [
             "About Ephemeris" => "index.md",
             "Quick Start" => [
+                "EphemerisSources.jl" => "metapackage/index.md",
                 "SPICE" => "examples/spice/index.md",
                 "Horizons" => "examples/horizons/index.md",
             ],
@@ -80,4 +81,4 @@ Base.cp(
     follow_symlinks = true,
 )
 
-Documenter.deploydocs(target = outpath)
+Documenter.deploydocs(target = outpath, repo = "github.com/JuliaAstro/EphemerisSources.jl")
