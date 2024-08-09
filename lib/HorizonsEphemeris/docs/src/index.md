@@ -34,11 +34,7 @@ or the package [**Reference**](reference/index.md).
 Internally, `HorizonsEphemeris` converts provided names to NAIF IDs. All 
 compatible bodies are shown below.
 
-<details>
-
-<summary>Supported NAIF IDs</summary>
-
-```@setup
+```@example
 using SPICE, DataFrames
 
 names = (; ID=Int[], Name=String[])
@@ -52,10 +48,3 @@ end
 
 DataFrame(names)
 ```
-
-</details>
-
-
-
-
-</details>
