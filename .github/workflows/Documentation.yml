@@ -98,7 +98,7 @@ jobs:
         run: pip install jupyter
 
       - name: Install Documentation Dependencies
-        run: julia --project=docs -e 'using Pkg; Pkg.instantiate()'
+        run: julia --project=docs -e 'using Pkg; Pkg.develop(PackageSpec(path = @__DIR__)); Pkg.instantiate()'
 
       - name: Build and deploy
         env:
