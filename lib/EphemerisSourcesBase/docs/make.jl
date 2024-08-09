@@ -14,9 +14,4 @@ deploydocs(
     repo = "github.com/JuliaAstro/EphemerisSources.jl",
     devbranch = "main",
     tag_prefix = "EphemerisSourcesBase-",
-    versions = [
-        "stable" => "EphemerisSourcesBase-v^",
-        "EphemerisSourcesBase-v#.#",
-        "EphemerisSourcesBase-v#.#.#",
-    ],
 )

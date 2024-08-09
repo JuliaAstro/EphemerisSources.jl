@@ -13,5 +13,4 @@ deploydocs(
     repo = "github.com/JuliaAstro/EphemerisSources.jl",
     devbranch = "main",
     tag_prefix = "SPICEKernels-",
-    versions = ["stable" => "SPICEKernels-v^", "SPICEKernels-v#.#", "SPICEKernels-v#.#.#"],
 )

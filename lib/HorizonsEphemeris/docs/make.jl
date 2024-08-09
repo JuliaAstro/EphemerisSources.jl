@@ -17,9 +17,4 @@ deploydocs(
     repo = "github.com/JuliaAstro/EphemerisSources.jl",
     devbranch = "main",
     tag_prefix = "HorizonsEphemeris-",
-    versions = [
-        "stable" => "HorizonsEphemeris-v^",
-        "HorizonsEphemeris-v#.#",
-        "HorizonsEphemeris-v#.#.#",
-    ],
 )
