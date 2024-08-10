@@ -1,12 +1,12 @@
 {
 	"name": "Julia",
-	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"image": "mcr.microsoft.com/devcontainers/base:noble",
 	"features": {
-		"ghcr.io/devcontainers/features/git": {},
+		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/julialang/devcontainer-features/julia:1": {},
 		"ghcr.io/devcontainers/features/python:1": {},
-		"ghcr.io/devcontainers/features/node": {},
-		"ghcr.io/devcontainers-contrib/features/starship": {}
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers-contrib/features/starship:1": {}
 	},
 	"customizations": {
 		"vscode": {

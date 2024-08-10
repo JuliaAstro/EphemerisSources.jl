@@ -1,1 +1,34 @@
 /*-- scss:defaults --*/
+
+$text: lighten($text, 10%);
+$navbar-fg: $text;
+$navbar-bg: $body-bg;
+$navbar-hl: $lavender;
+
+$link-color: $lavender;
+$code-color: $link-color;
+$code-bg: transparent;
+
+.nav-item {
+    color: $text;
+}
+
+footer.footer div.nav-footer p {
+    color: $text;
+}
+
+.bi-envelope::before { 
+    color: white;
+}
+
+.h1 {
+    color: $text;
+}
+
+.h2 {
+    color: $text;
+}
+
+p {
+    color: $text;
+}
