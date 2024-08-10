@@ -54,7 +54,7 @@ const MAX_TLIST_LENGTH = 30
 Given a NAIF ID, return the associated name, if one exists. If the ID provided cannot be
 found, a `KeyError` is thrown.
 """
-function NAIF(name::Union{Symbol, <:AbstractString})::Int
+function NAIF(name::Union{Symbol,<:AbstractString})::Int
 
     code = bodn2c(string(name))
 
@@ -62,6 +62,23 @@ function NAIF(name::Union{Symbol, <:AbstractString})::Int
         return code
     else
         throw(KeyError(string(name)))
+    end
+
+end
+
+"""
+Given a name, return the associated NAIF ID. If this fails, return the name.
+"""
+function trynaif(name::Union{Symbol,<:AbstractString})
+
+    try
+        return NAIF(name)
+    catch e
+        if e isa KeyError
+            return string(name)
+        else
+            throw(e)
+        end
     end
 
 end
@@ -85,7 +102,7 @@ end
 """
 Parse the body of a `HTTP.Response` for CSV content, and any returned notes about the CSV content.
 """
-function parse_response(response::HTTP.Response; start="\$\$SOE", stop="\$\$EOE")
+function parse_response(response::HTTP.Response; start = "\$\$SOE", stop = "\$\$EOE")
 
     content = JSON.parse(String(response.body))
 
@@ -97,17 +114,21 @@ function parse_response(response::HTTP.Response; start="\$\$SOE", stop="\$\$EOE"
 
         ephemeris = strip(ephemeris)
 
-        notes = join(
-            filter(
-                line -> !all(char -> char == '*', collect(strip(line))),
-                collect(eachline(IOBuffer(notes))),
-            ), "\n"
-        ) |> strip
+        notes =
+            join(
+                filter(
+                    line -> !all(char -> char == '*', collect(strip(line))),
+                    collect(eachline(IOBuffer(notes))),
+                ),
+                "\n",
+            ) |> strip
 
         return ephemeris, notes
     else
         if "error" in keys(content)
-            error("The data delimiters ($start, $stop) were not found in the response! \n\n\t$(content["error"])")
+            error(
+                "The data delimiters ($start, $stop) were not found in the response! \n\n\t$(content["error"])",
+            )
         else
             error("The data delimiters ($start, $stop) were not found in the response!")
         end
@@ -120,7 +141,8 @@ Given any timestamp, return the corresponding modified Julian date.
 """
 MJD(timestamp) = datetime2julian(DateTime(timestamp)) - 2400000.5
 MJD(timestamp::AstroTime.AstroDates.DateTime) = AstroTime.julian(timestamp)
-MJD(timestamp::AbstractFloat) = timestamp - 2400000.5 < zero(timestamp) ? timestamp : timestamp - 2400000.5
+MJD(timestamp::AbstractFloat) =
+    timestamp - 2400000.5 < zero(timestamp) ? timestamp : timestamp - 2400000.5
 MJD(timestamp::Tuple) = MJD(collect(timestamp))
 MJD(timestamp::AbstractVector) = map(MJD, timestamp)
 
@@ -128,51 +150,57 @@ MJD(timestamp::AbstractVector) = map(MJD, timestamp)
 Pull ephemeris data for the provided celestial body, or celestial system.
 """
 function ephemeris(
-    body, start, stop, intervol;
-    site="",
-    wrt="ssb",
-    file=nothing,
-    units="KM-S",
-    frame="ICRF",
-    header=[:t, :cal, :x, :y, :z, :ẋ, :ẏ, :ż],
+    body,
+    start,
+    stop,
+    intervol;
+    site = "",
+    wrt = "ssb",
+    file = nothing,
+    units = "KM-S",
+    frame = "ICRF",
+    header = [:t, :cal, :x, :y, :z, :ẋ, :ẏ, :ż],
 )
-    code = body isa Integer ? body : NAIF(body)
+    code = body isa Integer ? body : trynaif(body)
 
     if !(uppercase(strip(units)) in ("AU-D", "KM-D", "KM-S"))
-        error("The only acceptable inputs for the units keyword argument are: KM-S, KM-D, AU-D.")
+        error(
+            "The only acceptable inputs for the units keyword argument are: KM-S, KM-D, AU-D.",
+        )
     end
 
     response = fetch_vectors(
         code;
-        format="json",
-        CENTER="$(site)@$(NAIF(wrt))",
-        START_TIME=Dates.format(DateTime(start), "yyyy-mm-dd HH:MM:SS.sss"),
-        STOP_TIME=Dates.format(DateTime(stop), "yyyy-mm-dd HH:MM:SS.sss"),
-        STEP_SIZE=string(intervol),
-        REF_SYSTEM=string(frame),
-        CSV_FORMAT=true,
-        VEC_TABLE=2,
-        VEC_CORR="NONE",
-        OUT_UNITS=units,
-        VEC_LABELS=false,
-        VEC_DELTA_T=false,
-        TIME_DIGITS="FRACSEC"
+        format = "json",
+        CENTER = "$(site)@$(trynaif(wrt))",
+        START_TIME = Dates.format(DateTime(start), "yyyy-mm-dd HH:MM:SS.sss"),
+        STOP_TIME = Dates.format(DateTime(stop), "yyyy-mm-dd HH:MM:SS.sss"),
+        STEP_SIZE = string(intervol),
+        REF_SYSTEM = string(frame),
+        CSV_FORMAT = true,
+        VEC_TABLE = 2,
+        VEC_CORR = "NONE",
+        OUT_UNITS = units,
+        VEC_LABELS = false,
+        VEC_DELTA_T = false,
+        TIME_DIGITS = "FRACSEC",
     )
 
-    ephemeris, notes = parse_response(response; start="\$\$SOE", stop="\$\$EOE")
+    ephemeris, notes = parse_response(response; start = "\$\$SOE", stop = "\$\$EOE")
 
-    csv = CSV.File(IOBuffer(ephemeris); header=false, drop=[9])
+    csv = CSV.File(IOBuffer(ephemeris); header = false, drop = [9])
 
     output = NamedTuple(label => csv[column] for (label, column) in zip(header, csv.names))
 
     if !isnothing(file)
         _, cal, _, _, _, _, _, _ = csv.names
         text = NamedTuple(
-            label => column != cal ? map(f -> @sprintf("%f", f), csv[column]) : csv[column]
+            label =>
+                column != cal ? map(f -> @sprintf("%f", f), csv[column]) : csv[column]
             for (label, column) in zip(header, csv.names)
         )
 
-        CSV.write(file, text; header=header)
+        CSV.write(file, text; header = header)
         @info "Ephemeris data for object with NAIF ID $code has been written to $file."
     end
 
@@ -180,20 +208,23 @@ function ephemeris(
 end
 
 function ephemeris(
-    body, times::Base.AbstractVecOrTuple;
-    site="",
-    wrt="ssb",
-    mjd=true,
-    file=nothing,
-    units="AU-D",
-    frame="ICRF",
-    header=[:t, :cal, :x, :y, :z, :ẋ, :ẏ, :ż]
+    body,
+    times::Base.AbstractVecOrTuple;
+    site = "",
+    wrt = "ssb",
+    mjd = true,
+    file = nothing,
+    units = "AU-D",
+    frame = "ICRF",
+    header = [:t, :cal, :x, :y, :z, :ẋ, :ẏ, :ż],
 )
 
-    code = body isa Integer ? body : NAIF(body)
+    code = body isa Integer ? body : trynaif(body)
 
     if !(uppercase(strip(units)) in ("AU-D", "KM-D", "KM-S"))
-        error("The only acceptable inputs for the units keyword argument are: KM-S, KM-D, AU-D.")
+        error(
+            "The only acceptable inputs for the units keyword argument are: KM-S, KM-D, AU-D.",
+        )
     end
 
     mjdtimes = MJD(times)
@@ -201,34 +232,31 @@ function ephemeris(
     request(ts) = begin
         response = fetch_vectors(
             code;
-            format="json",
-            CENTER="$(site)@$(NAIF(wrt))",
-            REF_SYSTEM=string(frame),
-            REF_PLANE="FRAME",
-            CSV_FORMAT=true,
-            VEC_TABLE=2,
-            VEC_CORR="NONE",
-            OUT_UNITS=units,
-            VEC_LABELS=false,
-            VEC_DELTA_T=false,
-            TIME_DIGITS="FRACSEC",
-            TLIST=[mjd ? ts : ts .+ 2400000.5],
-            TLIST_TYPE=(mjd ? "MJD" : "JD")
+            format = "json",
+            CENTER = "$(site)@$(trynaif(wrt))",
+            REF_SYSTEM = string(frame),
+            REF_PLANE = "FRAME",
+            CSV_FORMAT = true,
+            VEC_TABLE = 2,
+            VEC_CORR = "NONE",
+            OUT_UNITS = units,
+            VEC_LABELS = false,
+            VEC_DELTA_T = false,
+            TIME_DIGITS = "FRACSEC",
+            TLIST = [mjd ? ts : ts .+ 2400000.5],
+            TLIST_TYPE = (mjd ? "MJD" : "JD"),
         )
 
-        ephemeris, notes = parse_response(response; start="\$\$SOE", stop="\$\$EOE")
+        ephemeris, notes = parse_response(response; start = "\$\$SOE", stop = "\$\$EOE")
 
-        csv = CSV.File(IOBuffer(ephemeris); header=false, drop=[9])
+        csv = CSV.File(IOBuffer(ephemeris); header = false, drop = [9])
 
         NamedTuple(label => csv[column] for (label, column) in zip(header, csv.names))
     end
 
     combine(x, y) = begin
         for column in header
-            append!(
-                getproperty(x, column),
-                getproperty(y, column),
-            )
+            append!(getproperty(x, column), getproperty(y, column))
         end
 
         x
@@ -242,36 +270,38 @@ function ephemeris(
 
         response = fetch_vectors(
             code;
-            format="json",
-            CENTER="$(site)@$(NAIF(wrt))",
-            REF_SYSTEM=string(frame),
-            REF_PLANE="FRAME",
-            CSV_FORMAT=true,
-            VEC_TABLE=2,
-            VEC_CORR="NONE",
-            OUT_UNITS=units,
-            VEC_LABELS=false,
-            VEC_DELTA_T=false,
-            TIME_DIGITS="FRACSEC",
-            TLIST=[mjd ? mjdtimes : mjdtimes .+ 2400000.5],
-            TLIST_TYPE=(mjd ? "MJD" : "JD")
+            format = "json",
+            CENTER = "$(site)@$(trynaif(wrt))",
+            REF_SYSTEM = string(frame),
+            REF_PLANE = "FRAME",
+            CSV_FORMAT = true,
+            VEC_TABLE = 2,
+            VEC_CORR = "NONE",
+            OUT_UNITS = units,
+            VEC_LABELS = false,
+            VEC_DELTA_T = false,
+            TIME_DIGITS = "FRACSEC",
+            TLIST = [mjd ? mjdtimes : mjdtimes .+ 2400000.5],
+            TLIST_TYPE = (mjd ? "MJD" : "JD"),
         )
 
-        ephemeris, notes = parse_response(response; start="\$\$SOE", stop="\$\$EOE")
+        ephemeris, notes = parse_response(response; start = "\$\$SOE", stop = "\$\$EOE")
 
-        csv = CSV.File(IOBuffer(ephemeris); header=false, drop=[9])
-        output = NamedTuple(label => csv[column] for (label, column) in zip(header, csv.names))
+        csv = CSV.File(IOBuffer(ephemeris); header = false, drop = [9])
+        output =
+            NamedTuple(label => csv[column] for (label, column) in zip(header, csv.names))
 
     end
 
     if !isnothing(file)
         _, cal, _, _, _, _, _, _ = csv.names
         text = NamedTuple(
-            label => column != cal ? map(f -> @sprintf("%f", f), csv[column]) : csv[column]
+            label =>
+                column != cal ? map(f -> @sprintf("%f", f), csv[column]) : csv[column]
             for (label, column) in zip(header, csv.names)
         )
 
-        CSV.write(file, text; header=header)
+        CSV.write(file, text; header = header)
         @info "Ephemeris data for object with NAIF ID $code has been written to $file."
     end
 
@@ -280,54 +310,58 @@ function ephemeris(
 end
 
 function ephemeris(
-    body, time;
-    site="",
-    wrt="ssb",
-    mjd=true,
-    file=nothing,
-    units="AU-D",
-    frame="ICRF",
-    header=[:t, :cal, :x, :y, :z, :ẋ, :ẏ, :ż]
+    body,
+    time;
+    site = "",
+    wrt = "ssb",
+    mjd = true,
+    file = nothing,
+    units = "AU-D",
+    frame = "ICRF",
+    header = [:t, :cal, :x, :y, :z, :ẋ, :ẏ, :ż],
 )
 
-    code = body isa Integer ? body : NAIF(body)
+    code = body isa Integer ? body : trynaif(body)
 
     if !(uppercase(strip(units)) in ("AU-D", "KM-D", "KM-S"))
-        error("The only acceptable inputs for the units keyword argument are: KM-S, KM-D, AU-D.")
+        error(
+            "The only acceptable inputs for the units keyword argument are: KM-S, KM-D, AU-D.",
+        )
     end
 
     mjdtime = MJD(time)
 
     response = fetch_vectors(
         code;
-        format="json",
-        CENTER="$(site)@$(NAIF(wrt))",
-        REF_PLANE="FRAME",
-        REF_SYSTEM=string(frame),
-        CSV_FORMAT=true,
-        VEC_TABLE=2,
-        VEC_CORR="NONE",
-        OUT_UNITS=units,
-        VEC_LABELS=false,
-        VEC_DELTA_T=false,
-        TIME_DIGITS="FRACSEC",
-        TLIST=[mjd ? mjdtime : mjdtime + 2400000.5],
-        TLIST_TYPE=(mjd ? "MJD" : "JD")
+        format = "json",
+        CENTER = "$(site)@$(trynaif(wrt))",
+        REF_PLANE = "FRAME",
+        REF_SYSTEM = string(frame),
+        CSV_FORMAT = true,
+        VEC_TABLE = 2,
+        VEC_CORR = "NONE",
+        OUT_UNITS = units,
+        VEC_LABELS = false,
+        VEC_DELTA_T = false,
+        TIME_DIGITS = "FRACSEC",
+        TLIST = [mjd ? mjdtime : mjdtime + 2400000.5],
+        TLIST_TYPE = (mjd ? "MJD" : "JD"),
     )
 
-    ephemeris, notes = parse_response(response; start="\$\$SOE", stop="\$\$EOE")
+    ephemeris, notes = parse_response(response; start = "\$\$SOE", stop = "\$\$EOE")
 
-    csv = CSV.File(IOBuffer(ephemeris); header=false, drop=[9])
+    csv = CSV.File(IOBuffer(ephemeris); header = false, drop = [9])
     output = NamedTuple(label => csv[column] for (label, column) in zip(header, csv.names))
 
     if !isnothing(file)
         _, cal, _, _, _, _, _, _ = csv.names
         text = NamedTuple(
-            label => column != cal ? map(f -> @sprintf("%f", f), csv[column]) : csv[column]
+            label =>
+                column != cal ? map(f -> @sprintf("%f", f), csv[column]) : csv[column]
             for (label, column) in zip(header, csv.names)
         )
 
-        CSV.write(file, text; header=header)
+        CSV.write(file, text; header = header)
         @info "Ephemeris data for object with NAIF ID $code has been written to $file."
 
     end
