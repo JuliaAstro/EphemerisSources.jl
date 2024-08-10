@@ -19,15 +19,7 @@ import Pkg
 Pkg.add("SPICEKernels")
 ```
 
-## Motivation
-
-NASA provides generic SPICE kernels with the most common solar system bodies. These kernels,
-which are available for download at <https://naif.jpl.nasa.gov/pub/naif/>, allow you to
-use the SPICE Toolkit to query solar system ephemeris data _locally_ in your kernel pool.
-You can fetch position and velocity data for spacecraft and solar system bodies, get shapes
-and mass parameters for celestial bodies, convert to and from different coordinate frames,
-and more. But how do you know which kernel to download? And how can you reliably access
-each kernel, and ensure your colleagues are downloading _the same_ kernel?
+## Overview
 
 `SPICEKernels.jl` provides a simple interface for downloading, caching, and inspecting
 all of NASA's publicly available Generic Kernels. A continuous integration pipeline is

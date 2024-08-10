@@ -1,4 +1,4 @@
-# About Ephemeris
+## Motivation
 
 The positions, velocities, and other attributes of physical objects in our
 solar system are tracked by professionals around the world. NASA maintains two
@@ -6,6 +6,25 @@ sources for solar system ephemeris data: the
 [Horizons](https://ssd.jpl.nasa.gov/horizons/) platform, and
 [Generic SPICE Kernels](https://naif.jpl.nasa.gov/pub/naif/generic_kernels/)
 updated (roughly) daily.
+
+NASA provides generic SPICE kernels with the most common solar system bodies. These kernels,
+which are available for download at <https://naif.jpl.nasa.gov/pub/naif/>, allow you to
+use the SPICE Toolkit to query solar system ephemeris data _locally_ in your kernel pool.
+You can fetch position and velocity data for spacecraft and solar system bodies, get shapes
+and mass parameters for celestial bodies, convert to and from different coordinate frames,
+and more. But how do you know which kernel to download? And how can you reliably access
+each kernel, and ensure your colleagues are downloading _the same_ kernel?
+
+NASA also provides ephemeris through the Horizons ephemeris platform's REST API. 
+You can query for information about thousands of celestial bodies in our solar 
+system, but the REST interface may be unfamiliar, and the query responses require
+custom parsing for numerical applications. 
+
+The `EphemerisSources.jl` super-package allows users to idiomatically fetch 
+ephemeris data, and parse the results for Cartesian state vector information. 
+The ability to parse the ephemeris data in other formats, including observer 
+tables and osculating orbital elements, is not yet implemented. Pull requests 
+are welcome!
 
 ## JPL Horizons
 
