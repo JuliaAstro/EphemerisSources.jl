@@ -85,18 +85,6 @@ jobs:
         working-directory: lib/SPICEBodies
         run: julia --project=docs/ docs/make.jl
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          version: "1.4.555"
-          tinytex: true
-
-      - name: Setup Python
-        uses: actions/setup-python@v3
-
-      - name: Install Jupyter
-        run: pip install jupyter
-
       - name: Install Documentation Dependencies
         run: julia --project=docs -e 'using Pkg; Pkg.develop(PackageSpec(path = @__DIR__)); Pkg.instantiate()'
 
