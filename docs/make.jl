@@ -16,10 +16,17 @@ makedocs(
     ],
 )
 
+deploydocs(
+    target = "build",
+    branch = "ephemeris-sources",
+    repo = "github.com/JuliaAstro/EphemerisSources.jl",
+    devbranch = "main",
+)
+
 using MultiDocumenter
 
 clonedir = mktempdir()
-function package(name; path = joinpath("lib", name), branch)
+function package(name; path = joinpath("docs", name), branch)
     MultiDocumenter.MultiDocRef(
         upstream = joinpath(clonedir, name),
         path = path,
@@ -40,7 +47,14 @@ function docs(name; path = name, root = "")
 end
 
 content = [
-    docs("Overview"; path = "docs"),
+    MultiDocumenter.MultiDocRef(
+        upstream = joinpath(clonedir, "EphemerisSources.jl"),
+        path = "docs",
+        name = "EphemerisSources.jl",
+        branch = "ephemeris-sources",
+        giturl = "https://github.com/JuliaAstro/EphemerisSources.jl.git",
+        fix_canonical_url = false,
+    ),
     MultiDocumenter.DropdownNav(
         "SPICE",
         [
