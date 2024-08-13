@@ -27,14 +27,7 @@ using Dates
 using Scratch
 using Downloads
 
-export 
-    DSK,
-    PCK,
-    SPK,
-    LSK,
-    FK,
-    kernel,
-    fetchkernel
+export DSK, PCK, SPK, LSK, FK, kernel, fetchkernel
 
 """
 The directory where all SPICE kernels are cached, by default.
@@ -44,7 +37,7 @@ SPICE_KERNEL_DIR = ""
 """
 The URL of NASA's generic kernel HTTP server.
 """
-const GENERIC_KERNEL_URL = "https://naif.jpl.nasa.gov/pub/naif/generic_kernels"
+const NAIF_KERNELS = "https://naif.jpl.nasa.gov/pub/naif"
 
 function __init__()
     global SPICE_KERNEL_DIR = @get_scratch!("kernels")
@@ -65,10 +58,10 @@ in the `SPICEKernels.jl` scratch space. If `directory` is set to something other
 instead of the `SPICEKernels.jl` scratch space. 
 """
 function fetchkernel(
-        kernel::AbstractString;
-        directory::AbstractString = SPICE_KERNEL_DIR,
-        ignorecache::Bool = false
-    )
+    kernel::AbstractString;
+    directory::AbstractString = SPICE_KERNEL_DIR,
+    ignorecache::Bool = false,
+)
 
     global SPICE_KERNEL_DIR
     local kernelpath
@@ -92,15 +85,15 @@ function fetchkernel(
         return filename
     elseif isfile(kernelpath) # if local
         @debug "Copying $kernelpath to $filename"
-        Base.cp(kernelpath, filename; follow_symlinks=true, force=false)
+        Base.cp(kernelpath, filename; follow_symlinks = true, force = false)
     elseif !ignorecache && isfile(cachename) # if already cached
         @debug "Copying $cachename to $filename"
-        Base.cp(cachename, filename; follow_symlinks=true, force=false)
+        Base.cp(cachename, filename; follow_symlinks = true, force = false)
     else # if download necessary
         @debug "Downloading $kernelpath to $filename"
         Downloads.download(kernelpath, filename)
     end
-    
+
     return filename
 end
 
