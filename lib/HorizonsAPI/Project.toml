@@ -1,7 +1,7 @@
 name = "HorizonsAPI"
 uuid = "c15253bb-5e94-4b8b-9a02-579bb6c8e3ce"
 authors = ["Joe Carpinelli <joseph.d.carpinelli@loopy.codes"]
-version = "1.0.0"
+version = "1.0.1"
 
 [deps]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
