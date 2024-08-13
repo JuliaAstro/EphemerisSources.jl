@@ -48,7 +48,7 @@ end
 
 content = [
     MultiDocumenter.MultiDocRef(
-        upstream = joinpath(clonedir, "EphemerisSources.jl"),
+        upstream = joinpath(clonedir, "EphemerisSources.jl", "docs"),
         path = "docs",
         name = "EphemerisSources.jl",
         branch = "ephemeris-sources",
@@ -86,13 +86,6 @@ MultiDocumenter.make(
         "https://juliaastro.org",
         "http://juliaastro.org/dev/assets/logo.svg",
     ),
-)
-
-run(Cmd(`quarto render`, dir = joinpath(@__DIR__, "..", "paper")))
-Base.cp(
-    joinpath(@__DIR__, "..", "paper", "_manuscript", "paper"),
-    joinpath(outpath, "paper");
-    follow_symlinks = true,
 )
 
 Documenter.deploydocs(target = outpath, repo = "github.com/JuliaAstro/EphemerisSources.jl")
