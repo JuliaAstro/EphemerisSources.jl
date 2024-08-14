@@ -15,7 +15,11 @@ Call the `lynx` commandline program in a non-interactive context.
 """
 function lynx(url::AbstractString)
     contents = IOCapture.capture() do
-        run(`lynx -dump -listonly -nonumbers "$url"`)
+        try
+            run(`lynx -dump -listonly -nonumbers "$url"`)
+        catch
+            println("")
+        end
     end
 
     lines = split(contents.output)
