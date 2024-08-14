@@ -8,7 +8,7 @@ makedocs(
         "Overview" => [
             "About Ephemeris" => "index.md",
             "Quick Start" => [
-                "EphemerisSources.jl" => "metapackage/index.md",
+                "EphemerisSources.jl" => "reference/index.md",
                 "SPICE" => "examples/spice/index.md",
                 "Horizons" => "examples/horizons/index.md",
             ],
@@ -48,7 +48,7 @@ end
 
 content = [
     MultiDocumenter.MultiDocRef(
-        upstream = joinpath(clonedir, "EphemerisSources.jl", "docs"),
+        upstream = joinpath(clonedir, "EphemerisSources.jl"),
         path = "docs",
         name = "EphemerisSources.jl",
         branch = "ephemeris-sources",
@@ -76,7 +76,6 @@ outpath = joinpath(@__DIR__, "build")
 MultiDocumenter.make(
     outpath,
     content;
-    rootpath = outpath,
     prettyurls = true,
     search_engine = MultiDocumenter.SearchConfig(
         index_versions = ["stable", "dev"],
