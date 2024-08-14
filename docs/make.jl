@@ -4,7 +4,6 @@ makedocs(
     sitename = "EphemerisSources.jl",
     format = Documenter.HTML(),
     modules = [EphemerisSources],
-    build = joinpath("build", "docs"),
     pages = [
         "Overview" => [
             "About Ephemeris" => "index.md",
@@ -77,7 +76,7 @@ outpath = joinpath(@__DIR__, "build")
 MultiDocumenter.make(
     outpath,
     content;
-    rootpath = "docs",
+    rootpath = "/docs",
     prettyurls = true,
     search_engine = MultiDocumenter.SearchConfig(
         index_versions = ["stable", "dev"],
