@@ -29,7 +29,7 @@ function search(
     url::AbstractString;
     ignore = ("?", "LYNXIMGMAP", "#", "old_versions", "README"),
     accept = (
-        SPICEKernels.GENERIC_KERNEL_URL,
+        SPICEKernels.NAIF_KERNELS_URL,
         "dsk",
         "fk",
         "lsk",
@@ -84,7 +84,7 @@ Write all current kernel paths to the provided file name.
 """
 function code!(kernels::AbstractSet{<:AbstractString}; force::Bool = false)
     kernellist = collect(kernels)
-    oldkernels = collect(values(SPICEKernels.NAIF_KERNELS))
+    oldkernels = collect(values(SPICEKernels.NAIF_KERNELS_URL))
     difference = setdiff(kernellist, oldkernels)
 
     if isempty(difference)
@@ -242,4 +242,4 @@ end
 # The script portion!
 # 
 
-code!(traverse(SPICEKernels.GENERIC_KERNEL_URL); force = "force" in lowercase.(ARGS))
+code!(traverse(SPICEKernels.NAIF_KERNELS_URL); force = "force" in lowercase.(ARGS))

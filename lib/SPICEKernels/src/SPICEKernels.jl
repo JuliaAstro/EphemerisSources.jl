@@ -37,7 +37,7 @@ SPICE_KERNEL_DIR = ""
 """
 The URL of NASA's generic kernel HTTP server.
 """
-const NAIF_KERNELS = "https://naif.jpl.nasa.gov/pub/naif"
+const NAIF_KERNELS_URL = "https://naif.jpl.nasa.gov/pub/naif"
 
 function __init__()
     global SPICE_KERNEL_DIR = @get_scratch!("kernels")

@@ -76,6 +76,7 @@ outpath = joinpath(@__DIR__, "build")
 MultiDocumenter.make(
     outpath,
     content;
+    rootpath = "docs",
     prettyurls = true,
     search_engine = MultiDocumenter.SearchConfig(
         index_versions = ["stable", "dev"],
