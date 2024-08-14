@@ -76,7 +76,6 @@ outpath = joinpath(@__DIR__, "build")
 MultiDocumenter.make(
     outpath,
     content;
-    rootpath = "/docs",
     prettyurls = true,
     search_engine = MultiDocumenter.SearchConfig(
         index_versions = ["stable", "dev"],
@@ -88,4 +87,4 @@ MultiDocumenter.make(
     ),
 )
 
-Documenter.deploydocs(target = outpath, repo = "github.com/JuliaAstro/EphemerisSources.jl")
+Documenter.deploydocs(target = outpath, versions = nothing, repo = "github.com/JuliaAstro/EphemerisSources.jl")
