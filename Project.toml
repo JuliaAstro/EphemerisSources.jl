@@ -21,7 +21,7 @@ HorizonsEphemeris = "1"
 Reexport = "1.2"
 SPICE = "0.2"
 SPICEBodies = "1.1"
-SPICEKernels = "1.4"
+SPICEKernels = "1.4, 2"
 julia = "1.6"
 
 [extras]
