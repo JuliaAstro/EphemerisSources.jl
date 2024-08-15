@@ -33,7 +33,7 @@ more about how to use these tools, consult the
 
 | Package                                         | Description                                                                                                                           |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| [`EphemerisSources.jl`](/lib/EphemerisSources)   | A top-level package which provides, and re-exports, names from `HorizonsAPI`, `HorizonsEphemeris`, `SPICEKernels`, and `SPICEBodies`. |
+| [`EphemerisSources.jl`](/)   | A top-level package which provides, and re-exports, names from `HorizonsAPI`, `HorizonsEphemeris`, `SPICEKernels`, and `SPICEBodies`. |
 | [`HorizonsAPI.jl`](/lib/HorizonsAPI)             | A precise JPL Horizons REST API client implementation, with keyword arguments for each acceptable parameter.                          |
 | [`HorizonsEphemeris.jl`](/lib/HorizonsEphemeris) | Convenience wrappers around the JPL Horizons REST API.                                                                                |
 | [`SPICEKernels.jl`](/lib/SPICEKernels)           | All [generic kernels](https://naif.jpl.nasa.gov/naif/data_generic.html) exported as variable constants.                               |
