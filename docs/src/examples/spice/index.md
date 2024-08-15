@@ -61,5 +61,6 @@ their respective documentation pages, which are linked above in the website's
 navigation bar. For convenience, their pages are each linked below as well. 
 
 | Documentation |
+|---|
 | [`SPICEKernels.jl`](https://juliaastro.org/EphemerisSources.jl/lib/SPICEKernels/stable) |
 | [`SPICEBodies.jl`](https://juliaastro.org/EphemerisSources.jl/lib/SPICEBodies/stable) |
