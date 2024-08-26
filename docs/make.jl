@@ -11,6 +11,7 @@ makedocs(
                 "EphemerisSources.jl" => "reference/index.md",
                 "SPICE" => "examples/spice/index.md",
                 "Horizons" => "examples/horizons/index.md",
+                "Case Study" => "examples/study/index.md",
             ],
         ],
     ],
@@ -87,4 +88,8 @@ MultiDocumenter.make(
     ),
 )
 
-Documenter.deploydocs(target = outpath, versions = nothing, repo = "github.com/JuliaAstro/EphemerisSources.jl")
+Documenter.deploydocs(
+    target = outpath,
+    versions = nothing,
+    repo = "github.com/JuliaAstro/EphemerisSources.jl",
+)

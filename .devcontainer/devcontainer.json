@@ -1,6 +1,6 @@
 {
 	"name": "Julia",
-	"image": "mcr.microsoft.com/devcontainers/base:noble",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/julialang/devcontainer-features/julia:1": {},
