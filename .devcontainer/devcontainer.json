@@ -20,5 +20,8 @@
 				"quarto.quarto"
 			]
 		}
+	},
+	"postCreateCommand": {
+		"Starship Configuration": "echo 'eval $(starship init bash)' >> ~/.bashrc"
 	}
 }
