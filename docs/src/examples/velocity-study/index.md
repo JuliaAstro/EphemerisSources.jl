@@ -48,7 +48,7 @@ pesky ex-planet. A perfectly circular orbit will have an eccentricity of zero.
 ```@example orbit
 using Dates
 using DataFrames
-using AstrodynmicalCalculations
+using AstrodynamicalCalculations
 
 average_eccentricity(planet) = let epoch = now()
     times = epoch - Year(15) : Day(1) : epoch + Year(15)
