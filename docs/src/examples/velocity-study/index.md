@@ -111,8 +111,15 @@ end
 
 actual = scatter(; title = "Measured Orbital Speed", artsy...)
 for planet in planets
-    scatter!(ideal, [radius(planet)], [actual_speed(planet)]; label = name(planet))
+    scatter!(actual, [radius(planet)], [actual_speed(planet)]; label = name(planet))
 end
-
-plot([ideal, actual])
 ```
+
+```@example orbit
+ideal # hide
+```
+
+```@example orbit
+actual # hide
+```
+
