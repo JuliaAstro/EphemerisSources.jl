@@ -23,12 +23,50 @@
  (x = 1.4811370063122842e8, y = 1.821453232052046e7, z = 7.902587114713652e6, ẋ = -4.51509370125112, ẏ = 26.974236732165476, ż = 11.69211923153682)
  (x = 1.1586107551621568e8, y = 8.44408385916219e7, z = 3.660667737006641e7, ẋ = -19.038036915484867, ẏ = 21.276038055926627, ż = 9.221812706044332)
  (x = 5.3172643192910545e7, y = 1.2568721481573243e8, z = 5.448400122407259e7, ẋ = -28.245680832165448, ẏ = 9.798827709455324, ż = 4.246680091504465)
- (x = -2.652440650869857e7, y = 1.3229950354878967e8, z = 5.735002431569345e7, ẋ = -29.793459658981774, ẏ = -4.989871774104861, ż = -2.1638229459886342)</code></pre><p>Finally, let's plot the data we just collected.</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using Plots</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; figure = let x = map(u -&gt; u[begin], states), y = map(u -&gt; u[begin+1], states)
-           scatter(
-               x, y;
-               label=nothing, markersize=1,
-               xlabel="X (KM)", ylabel="Y (KM)", zlabel="Z (KM)",
-               title="Earth's Position w.r.t. SSB",
-               aspect_ratio=1,
-           );
-       end</code><code class="nohighlight hljs ansi" style="display:block;">Plot{Plots.GRBackend() n=1}</code><code class="nohighlight hljs ansi" style="display:block;"></code></pre><h1 id="Reference"><a class="docs-heading-anchor" href="#Reference">Reference</a><a id="Reference-1"></a><a class="docs-heading-anchor-permalink" href="#Reference" title="Permalink"></a></h1><p>You can find more information about <code>SPICEKernels</code> and <code>SPICEBodies</code> at  their respective documentation pages, which are linked above in the website's  navigation bar. For convenience, their pages are each linked below as well. </p><table><tbody><tr><th style="text-align: right">Documentation</th></tr><tr><td style="text-align: right"><a href="https://juliaastro.org/EphemerisSources.jl/lib/SPICEKernels/stable"><code>SPICEKernels.jl</code></a></td></tr><tr><td style="text-align: right"><a href="https://juliaastro.org/EphemerisSources.jl/lib/SPICEBodies/stable"><code>SPICEBodies.jl</code></a></td></tr></tbody></table></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../../reference/">« EphemerisSources.jl</a><a class="docs-footer-nextpage" href="../horizons/">Horizons »</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label></p><div class="select"><select id="documenter-themepicker"><option value="auto">Automatic (OS)</option><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option><option value="catppuccin-latte">catppuccin-latte</option><option value="catppuccin-frappe">catppuccin-frappe</option><option value="catppuccin-macchiato">catppuccin-macchiato</option><option value="catppuccin-mocha">catppuccin-mocha</option></select></div><p></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 1.7.0 on <span class="colophon-date" title="Sunday 8 September 2024 02:16">Sunday 8 September 2024</span>. Using Julia version 1.10.5.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></HTML>
+ (x = -2.652440650869857e7, y = 1.3229950354878967e8, z = 5.735002431569345e7, ẋ = -29.793459658981774, ẏ = -4.989871774104861, ż = -2.1638229459886342)</code></pre><p>Finally, let's plot the data we just collected.</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; using Plots</code><code class="nohighlight hljs ansi" style="display:block;"></code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; x = map(u -&gt; u[begin], states)</code><code class="nohighlight hljs ansi" style="display:block;">1189-element Vector{Float64}:
+ -2.720318046700959e7
+ -9.902833382017332e7
+ -1.3966845566407815e8
+ -1.4646614073234868e8
+ -1.1412223453041473e8
+ -5.0254058086600736e7
+  2.45855429651294e7
+  9.530566342897053e7
+  1.4063767822966304e8
+  1.4831704591675627e8
+  ⋮
+ -1.1479127662543999e8
+ -5.0970398412952796e7
+  2.3901537283196002e7
+  9.473252736073178e7
+  1.4023667750423107e8
+  1.4811370063122842e8
+  1.1586107551621568e8
+  5.3172643192910545e7
+ -2.652440650869857e7</code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; y = map(u -&gt; u[begin+1], states)</code><code class="nohighlight hljs ansi" style="display:block;">1189-element Vector{Float64}:
+  1.329407955300235e8
+  1.0040652826781224e8
+  4.5616557443582095e7
+ -2.681254099998115e7
+ -9.00012171516033e7
+ -1.3104251646834615e8
+ -1.3746019509427235e8
+ -1.0822207396061464e8
+ -5.01483309106074e7
+  1.9154263066786677e7
+  ⋮
+ -9.046661246165085e7
+ -1.3164011643425582e8
+ -1.3819892269296312e8
+ -1.090858920467224e8
+ -5.1085996288589984e7
+  1.821453232052046e7
+  8.44408385916219e7
+  1.2568721481573243e8
+  1.3229950354878967e8</code><br/><code class="language-julia-repl hljs" style="display:block;">julia&gt; fig = scatter(
+           x, y;
+           label=nothing, markersize=1,
+           xlabel="X (KM)", ylabel="Y (KM)", zlabel="Z (KM)",
+           title="Earth's Position w.r.t. SSB",
+           aspect_ratio=1, dpi = 125,
+       )</code><code class="nohighlight hljs ansi" style="display:block;">Plot{Plots.GRBackend() n=1}</code></pre><h1 id="Reference"><a class="docs-heading-anchor" href="#Reference">Reference</a><a id="Reference-1"></a><a class="docs-heading-anchor-permalink" href="#Reference" title="Permalink"></a></h1><p>You can find more information about <code>SPICEKernels</code> and <code>SPICEBodies</code> at  their respective documentation pages, which are linked above in the website's  navigation bar. For convenience, their pages are each linked below as well. </p><table><tbody><tr><th style="text-align: right">Documentation</th></tr><tr><td style="text-align: right"><a href="https://juliaastro.org/EphemerisSources.jl/lib/SPICEKernels/stable"><code>SPICEKernels.jl</code></a></td></tr><tr><td style="text-align: right"><a href="https://juliaastro.org/EphemerisSources.jl/lib/SPICEBodies/stable"><code>SPICEBodies.jl</code></a></td></tr></tbody></table></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../../reference/">« EphemerisSources.jl</a><a class="docs-footer-nextpage" href="../horizons/">Horizons »</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label></p><div class="select"><select id="documenter-themepicker"><option value="auto">Automatic (OS)</option><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option><option value="catppuccin-latte">catppuccin-latte</option><option value="catppuccin-frappe">catppuccin-frappe</option><option value="catppuccin-macchiato">catppuccin-macchiato</option><option value="catppuccin-mocha">catppuccin-mocha</option></select></div><p></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 1.7.0 on <span class="colophon-date" title="Sunday 8 September 2024 02:33">Sunday 8 September 2024</span>. Using Julia version 1.10.5.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></HTML>
