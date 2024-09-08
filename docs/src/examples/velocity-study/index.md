@@ -66,7 +66,10 @@ eccentricities = Dict(
     for planet in planets
 )
 
-DataFrame(eccentricities) # hide
+DataFrame(
+    Name = [pair.first for pair in eccentricities], 
+    Eccentricity = [pair.second for pair in eccentricities]
+)
 ```
 
 With their (mostly) near-circular orbits established, let's choose an epoch at 

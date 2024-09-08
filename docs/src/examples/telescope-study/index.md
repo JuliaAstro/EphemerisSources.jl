@@ -48,7 +48,6 @@ fig = plot(; artsy...)
 plot!(fig, earth.x, earth.y, label="Earth")
 plot!(fig, JWST.x, JWST.y, label="JWST")
 plot!(fig, GAIA.x, GAIA.y, label="GAIA")
-
 fig # hide
 ```
 
@@ -65,6 +64,7 @@ plot(
     @. distance(JWST.x - GAIA.x, JWST.y - GAIA.y, JWST.z - GAIA.z);
     xlabel = "Days",
     ylabel = "Distance (KM)",
+    label = :none,
     artsy...
 )
 ```
