@@ -38,17 +38,16 @@ Finally, let's plot the data we just collected.
 ```@repl quickstart
 using Plots
 
-figure = let x = map(u -> u[begin], states), y = map(u -> u[begin+1], states)
-    scatter(
-        x, y;
-        label=nothing, markersize=1,
-        xlabel="X (KM)", ylabel="Y (KM)", zlabel="Z (KM)",
-        title="Earth's Position w.r.t. SSB",
-        aspect_ratio=1,
-    );
-end
+x = map(u -> u[begin], states)
+y = map(u -> u[begin+1], states)
 
-figure # hide
+fig = scatter(
+    x, y;
+    label=nothing, markersize=1,
+    xlabel="X (KM)", ylabel="Y (KM)", zlabel="Z (KM)",
+    title="Earth's Position w.r.t. SSB",
+    aspect_ratio=1, dpi = 125,
+)
 ```
 
 # Reference
