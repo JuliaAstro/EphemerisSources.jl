@@ -2,9 +2,8 @@ using EphemerisSources, Documenter
 
 makedocs(
     sitename = "EphemerisSources.jl",
-    format = Documenter.HTML(),
+    format = Documenter.HTML(size_threshold = nothing),
     modules = [EphemerisSources],
-    clean = false,
     pages = [
         "Overview" => [
             "About Ephemeris" => "index.md",
