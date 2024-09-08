@@ -8,7 +8,7 @@ docstring; for example, `@doc de432s`, or `help?> de432s` in Julia's REPL. For
 a complete list of kernels available, look at the `SPICEKernels.jl`
 [reference](https://juliaastro.org/EphemerisSources.jl/lib/SPICEKernels/dev/reference/#SPICEKernels.SPICEKernels).
 
-```@repl quickstart
+```@example quickstart
 using SPICE, SPICEKernels, SPICEBodies
 
 return furnsh(
@@ -25,7 +25,7 @@ We can now call the `earth` variable like a function of time, and get back the
 positions (and velocities) interpolated by `CSPICE` from the data in the kernel
 pool.
 
-```@repl quickstart
+```@example quickstart
 using Dates
 
 timepoints = DateTime(1950,1,1) : Month(1) : DateTime(2049,1,1)
@@ -35,7 +35,7 @@ states = earth.(timepoints)
 
 Finally, let's plot the data we just collected.
 
-```@repl quickstart
+```@example quickstart
 using Plots
 
 x = map(u -> u[begin], states)
