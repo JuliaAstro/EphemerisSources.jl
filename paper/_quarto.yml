@@ -9,7 +9,6 @@ manuscript:
 
 format:
   html:
-    title-block-style: manuscript
     include-in-header: 
       text: |
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css">
@@ -39,7 +38,7 @@ format:
 
     css: static.css
 
-    mainfont: "'Computer Modern Serif', serif;"
+    mainfont: "'Computer Modern Sans', sans-serif;"
     monofont: "'Noto Sans Mono', monospace;"
 
 execute: 
