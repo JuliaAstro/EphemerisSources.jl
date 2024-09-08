@@ -1,7 +1,6 @@
 project:
   type: manuscript
   output-dir: _manuscript
-  post-render: ./post.sh
 
 manuscript:
   article: paper.md
@@ -36,11 +35,11 @@ format:
         - _extensions/cadojo/catppuccin/latte.scss
       dark: 
         - _style/dark.scss
-        - _extensions/cadojo/catppuccin/oled.scss
+        - _extensions/cadojo/catppuccin/mocha.scss
 
     css: static.css
 
-    mainfont: "'Ariel', sans-serif"
+    mainfont: "'Computer Modern Serif', serif;"
     monofont: "'Noto Sans Mono', monospace;"
 
 execute: 
