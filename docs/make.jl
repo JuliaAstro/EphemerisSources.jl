@@ -4,6 +4,7 @@ makedocs(
     sitename = "EphemerisSources.jl",
     format = Documenter.HTML(),
     modules = [EphemerisSources],
+    clean = false,
     pages = [
         "Overview" => [
             "About Ephemeris" => "index.md",
