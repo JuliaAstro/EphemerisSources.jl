@@ -87,9 +87,9 @@ allows for easy plotting, file-saving, and `DataFrame` construction.
 Both `HorizonsAPI.jl` and `HorizonsEphemeris.jl` offer users a simple,
 repeatable way to query and parse Horizons state vector data. Other
 ephemeris types, including observer tables and osculating orbital
-element tables, are unsupported at this time. For sending Horizons
-requests for these other ephemeris types, see
-[`Horizons.jl`](https://github.com/PerezHz/Horizons.jl)`.`
+element tables, are desired features but are not yet implemented. For
+sending Horizons requests for these other ephemeris types, see
+[`Horizons.jl`](https://github.com/PerezHz/Horizons.jl).
 
 [^1]: The code required to support static keyword arguments was provided
     by Joseph Wilson, as described in the **Acknowledgements** section.
@@ -117,17 +117,17 @@ mapped to variables within `SPICEKernels.jl`. SPICE Toolkit executables
 (provided by
 [`SPICEApplications.jl`](https://github.com/JuliaAstro/SPICE.jl/tree/main/lib/SPICEApplications))
 are used to retrieve a description of each kernel's contents, and place
-that description in the Julia variable's docstring. As a result of this
-continuous integration workflow, users can use tab-completion and
-Julia's built-in documentation tools to inspect kernel contents, and
-download the correct kernel for their application. Once each kernel is
-downloaded and loaded into the SPICE kernel pool with `SPICE.jl`, users
-can use `SPICEBodies.jl` to idiomatically fetch state vector data at a
-provided instance in time.
+that description in the Julia variable's documentation string. As a
+result of this continuous integration workflow, users can use
+tab-completion and Julia's built-in documentation tools to inspect
+kernel contents, and download the correct kernel for their application.
+Once each kernel is downloaded and loaded into the SPICE kernel pool
+with `SPICE.jl`, users can use `SPICEBodies.jl` to idiomatically fetch
+state vector data at a provided instance in time.
 
 # Usage
 
-For detailed usage examples for, consult the common [documentation
+For detailed usage examples, consult the common [documentation
 site](https://juliaastro.org/EphemerisSources.jl).
 
 # External Packages
@@ -151,8 +151,7 @@ state vector data.
 
 # Acknowledgements {#sec-acknowledgements}
 
-Joseph Wilson (user `@jollywatt` on
-[GitHub](https://github.com/jollywatt) and Julia's
+Joseph Wilson (user `@jollywatt` on Julia's
 [Discourse](https://discourse.julialang.org/u/Jollywatt/summary)),
 provided incredibly helpful [guidance and
 code](https://discourse.julialang.org/t/unpack-namedtuple-into-a-function-definition/97500)
