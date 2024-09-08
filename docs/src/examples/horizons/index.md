@@ -64,5 +64,5 @@ navigation bar. For convenience, their pages are each linked below as well.
 
 | Documentation |
 |---|
-| [`HorizonsAPI.jl`](https://juliaastro.org/EphemerisSources.jl/lib/HorizonsAPI/stable) |
-| [`HorizonsEphemeris.jl`](https://juliaastro.org/EphemerisSources.jl/lib/SPICEKernels/stable) |
+| [`HorizonsAPI.jl`](https://juliaastro.org/EphemerisSources.jl/docs/HorizonsAPI/stable/) |
+| [`HorizonsEphemeris.jl`](https://juliaastro.org/EphemerisSources.jl/docs/HorizonsEphemeris/stable/) |

@@ -103,23 +103,11 @@ artsy = (;
     xaxis=:log
 )
 
+fig = plot(; title = "Measured Orbital Speed", artsy...)
 
-ideal = scatter(; title = "Idealized Orbital speed", artsy...)
 for planet in planets
-    scatter!(ideal, [radius(planet)], [ideal_speed(planet)]; label = name(planet))
+    scatter!(fig, [radius(planet)], [actual_speed(planet)]; label = name(planet))
 end
 
-actual = scatter(; title = "Measured Orbital Speed", artsy...)
-for planet in planets
-    scatter!(actual, [radius(planet)], [actual_speed(planet)]; label = name(planet))
-end
+plot!(r -> sqrt(gm(:sun)/r); label = "Theoretical Speed")
 ```
-
-```@example orbit
-ideal # hide
-```
-
-```@example orbit
-actual # hide
-```
-

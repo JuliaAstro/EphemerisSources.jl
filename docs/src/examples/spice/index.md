@@ -47,12 +47,9 @@ figure = let x = map(u -> u[begin], states), y = map(u -> u[begin+1], states)
         aspect_ratio=1,
     );
 end
-```
 
-```@repl quickstart
 figure # hide
 ```
-
 
 # Reference
 
