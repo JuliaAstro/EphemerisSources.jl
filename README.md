@@ -53,6 +53,6 @@ with this repository, or this documentation's author.
 
 | Package                                                                       | Description                                                        |
 | ----------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| [`Horizons.jl`](https://github.com/PerezHz/Horizons.jl)                       | Functions for spawning the `telnet` interface, and querying files. |
+| [`HORIZONS.jl`](https://github.com/PerezHz/Horizons.jl)                       | Functions for spawning the `telnet` interface, and querying files. |
 | [`SPICE.jl`](https://github.com/JuliaAstro/SPICE.jl)                          | A Julia interface to the `CSPICE` library provided by NASA JPL.    |
 | [`Ephemerides.jl`](https://github.com/JuliaSpaceMissionDesign/Ephemerides.jl) | Ephemeris kernel reading and interpolation in pure Julia.          |
