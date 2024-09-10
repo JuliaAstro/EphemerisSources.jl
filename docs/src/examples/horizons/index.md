@@ -36,7 +36,7 @@ keyword argument as well; it is a simplified interface to the Horizons API
 using DataFrames
 
 data = DataFrame(
-    ephemeris("earth", now() - Year(50), now() + Year(5), Day(1); wrt="jupiter")
+    ephemeris("earth", now() - Year(5), now() + Year(5), Day(14); wrt="jupiter")
 )
 ```
 

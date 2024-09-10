@@ -55,7 +55,7 @@ the `NamedTuple` output of the `ephemeris` method.
 using Dates, HorizonsEphemeris
 using DataFrames
 
-data = ephemeris("earth", now() - Year(1), now() + Year(1), Day(1); wrt="sun")
+data = ephemeris("earth", now() - Year(1), now() + Year(1), Day(3); wrt="sun")
 
 DataFrame(data)
 ```
