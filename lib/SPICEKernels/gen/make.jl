@@ -60,7 +60,7 @@ Given a top-level directory, return the set of all kernel file paths found in al
 """
 function traverse(
     url::AbstractString;
-    searched::AbstractSet{<:AbstractString} = Vector{String}(),
+    searched::AbstractVector{<:AbstractString} = Vector{String}(),
     parallel = false,
 )
     url = HTTP.safer_joinpath(url, "")
@@ -85,6 +85,8 @@ function traverse(
         end
 
     if parallel
+        @warn """About to search the traverse the following paths in parallel:\n\t- $(join(string.(paths), "\n\t- "))"""
+        sleep(5) # if interactive, give some time to CTRL+C!
         Threads.@threads for path in paths
             traverse_path!(path)
         end
