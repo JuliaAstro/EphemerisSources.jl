@@ -1,6 +1,5 @@
-[![Tests](https://github.com/JuliaAstro/HorizonsAPI.jl/workflows/Tests/badge.svg)](https://github.com/JuliaAstro/HorizonsAPI.jl/actions?query=workflow%3ATests)
-[![Docs](https://github.com/JuliaAstro/HorizonsAPI.jl/workflows/Documentation/badge.svg)](https://juliaastro.org/HorizonsAPI.jl)
-[![SciML Code Style](https://img.shields.io/static/v1?label=Style&message=SciML&color=9668e2&labelColor=3E474F)](https://github.com/SciML/SciMLStyle)
+[![Tests](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml/badge.svg)](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml)
+[![Documentation](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Documentation.yml/badge.svg)](https://juliaastro.org/EphemerisSources.jl/docs/HorizonsAPI/stable)
 
 # `HorizonsAPI`
 
