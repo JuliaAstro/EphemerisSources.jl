@@ -23,7 +23,7 @@ function lynx(url::AbstractString)
     end
 
     lines = split(contents.output)
-    return Set(map(String, lines))
+    return map(String, lines)
 end
 
 """
@@ -60,23 +60,37 @@ Given a top-level directory, return the set of all kernel file paths found in al
 """
 function traverse(
     url::AbstractString;
-    searched::AbstractSet{<:AbstractString} = Set{String}(),
+    searched::AbstractSet{<:AbstractString} = Vector{String}(),
+    parallel = false,
 )
     url = HTTP.safer_joinpath(url, "")
     @debug "Searching for kernels in $url"
 
-    found = Set{String}()
+    found = Vector{String}()
     paths = search(url)
     push!(searched, url)
 
     setdiff!(paths, searched)
 
-    for path in paths
-        push!(searched, path)
-        if any(endswith(basename(path), ext) for ext in keys(SPICEKernels.SPICE_EXTENSIONS))
-            push!(found, path)
-        elseif !occursin(".", basename(path))
-            union!(found, traverse(path; searched = searched))
+    traverse_path!(path) =
+        let
+            push!(searched, path)
+            if any(
+                endswith(basename(path), ext) for ext in keys(SPICEKernels.SPICE_EXTENSIONS)
+            )
+                push!(found, path)
+            elseif !occursin(".", basename(path))
+                union!(found, traverse(path; searched = searched, parallel = false))
+            end
+        end
+
+    if parallel
+        Threads.@threads for path in paths
+            traverse_path!(path)
+        end
+    else
+        for path in paths
+            traverse_path!(path)
         end
     end
 
@@ -86,7 +100,7 @@ end
 """
 Write all current kernel paths to the provided file name.
 """
-function code!(kernels::AbstractSet{<:AbstractString}; force::Bool = false)
+function code!(kernels::AbstractVector{<:AbstractString}; force::Bool = false)
     kernellist = collect(kernels)
     oldkernels = collect(values(SPICEKernels.NAIF_KERNELS_URL))
     difference = setdiff(kernellist, oldkernels)
@@ -246,4 +260,5 @@ end
 # The script portion!
 # 
 
-code!(traverse(SPICEKernels.NAIF_KERNELS_URL); force = "force" in lowercase.(ARGS))
+kernels = traverse(SPICEKernels.NAIF_KERNELS_URL, parallel = true)
+code!(kernels, force = "force" in lowercase.(ARGS))
