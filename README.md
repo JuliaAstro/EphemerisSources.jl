@@ -56,7 +56,7 @@ comments about the project's capabilities and code, please file an
 treat all contributors with respect, as described in the project's 
 [Code of Conduct](CODE_OF_CONDUCT.md).
 
-## Packages {#packages}
+## Packages
 
 This repository includes the top-level documentation for several solar
 system ephemeris tools, all written with the Julia Programming Language.
