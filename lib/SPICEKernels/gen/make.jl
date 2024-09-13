@@ -73,7 +73,7 @@ function traverse(
 
     for path in paths
         push!(searched, path)
-        if any(occursin(ext, basename(path)) for ext in keys(SPICEKernels.SPICE_EXTENSIONS))
+        if any(endswith(basename(path), ext) for ext in keys(SPICEKernels.SPICE_EXTENSIONS))
             push!(found, path)
         elseif !occursin(".", basename(path))
             union!(found, traverse(path; searched = searched))
