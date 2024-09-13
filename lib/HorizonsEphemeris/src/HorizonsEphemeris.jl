@@ -161,6 +161,38 @@ function ephemeris(
     frame = "ICRF",
     header = [:t, :cal, :x, :y, :z, :ẋ, :ẏ, :ż],
 )
+
+    if intervol isa AstroTime.Periods.AstroPeriod
+        val = AstroTime.Periods.value(intervol)
+
+        try
+            val = Int(val)
+        catch e
+            if e isa InexactError
+                error(
+                    "The intervol you provided, $intervol, has a value which is not a whole number. Please specify a whole number of minutes or days.",
+                )
+            else
+                throw(e)
+            end
+        end
+
+        unit = ""
+        try
+            unit = join(split(string(intervol))[begin+1:end], " ")
+        catch e
+            if e isa BoundsError
+                error(
+                    "failed to parse intervol '$intervol'; please file an issue: https://GitHub.com/JuliaAstro/EphemerisSources.jl/issues/new.",
+                )
+            else
+                throw(e)
+            end
+        end
+
+        intervol = "$val $unit"
+    end
+
     code = body isa Integer ? body : trynaif(body)
 
     if !(uppercase(strip(units)) in ("AU-D", "KM-D", "KM-S"))

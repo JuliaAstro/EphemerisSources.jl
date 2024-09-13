@@ -18,9 +18,8 @@ end
     # AstroTime (dependency)
     ep = TTEpoch(59235.0days, origin = :modified_julian)
 
-    earth = let start = ep - 50years, stop = ep + 50years, step = 1days
-        @time ephemeris("earth", start, stop, step; wrt = "jupiter", units = "AU-D")
-        # what are my units choices, what are my named bodies options?
+    earth = let start = ep - 5years, stop = ep + 5years, step = 5days
+        ephemeris("earth", start, stop, step; wrt = "jupiter", units = "AU-D")
     end
 
     @test earth isa NamedTuple
