@@ -23,7 +23,7 @@ function lynx(url::AbstractString)
     end
 
     lines = split(contents.output)
-    return map(String, lines)
+    return Set(map(String, lines))
 end
 
 """
@@ -60,13 +60,13 @@ Given a top-level directory, return the set of all kernel file paths found in al
 """
 function traverse(
     url::AbstractString;
-    searched::AbstractVector{<:AbstractString} = Vector{String}(),
+    searched::AbstractSet{<:AbstractString} = Set{String}(),
     parallel = false,
 )
     url = HTTP.safer_joinpath(url, "")
     @debug "Searching for kernels in $url"
 
-    found = Vector{String}()
+    found = Set{String}()
     paths = search(url)
     push!(searched, url)
 
@@ -102,7 +102,7 @@ end
 """
 Write all current kernel paths to the provided file name.
 """
-function code!(kernels::AbstractVector{<:AbstractString}; force::Bool = false)
+function code!(kernels::AbstractSet{<:AbstractString}; force::Bool = false)
     kernellist = collect(kernels)
     oldkernels = collect(values(SPICEKernels.NAIF_KERNELS_URL))
     difference = setdiff(kernellist, oldkernels)
