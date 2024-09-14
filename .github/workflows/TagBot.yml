@@ -29,37 +29,37 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Tag EphemerisSourcesBase.jl
-        uses: JuliaRegistries/TagBot@v1
+        uses: JuliaRegistries/TagBot@ib/is_backport_monorepo
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ssh: ${{ secrets.DOCUMENTER_KEY }}
           subdir: lib/EphemerisSourcesBase
       - name: Tag HorizonsAPI.jl
-        uses: JuliaRegistries/TagBot@v1
+        uses: JuliaRegistries/TagBot@ib/is_backport_monorepo
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ssh: ${{ secrets.DOCUMENTER_KEY }}
           subdir: lib/HorizonsAPI
       - name: Tag HorizonsEphemeris.jl
-        uses: JuliaRegistries/TagBot@v1
+        uses: JuliaRegistries/TagBot@ib/is_backport_monorepo
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ssh: ${{ secrets.DOCUMENTER_KEY }}
           subdir: lib/HorizonsEphemeris
       - name: Tag SPICEKernels.jl
-        uses: JuliaRegistries/TagBot@v1
+        uses: JuliaRegistries/TagBot@ib/is_backport_monorepo
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ssh: ${{ secrets.DOCUMENTER_KEY }}
           subdir: lib/SPICEKernels
       - name: Tag SPICEBodies.jl
-        uses: JuliaRegistries/TagBot@v1
+        uses: JuliaRegistries/TagBot@ib/is_backport_monorepo
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ssh: ${{ secrets.DOCUMENTER_KEY }}
           subdir: lib/SPICEBodies
       - name: Tag EphemerisSources.jl
-        uses: JuliaRegistries/TagBot@v1
+        uses: JuliaRegistries/TagBot@ib/is_backport_monorepo
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ssh: ${{ secrets.DOCUMENTER_KEY }}
