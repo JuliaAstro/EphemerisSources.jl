@@ -102,7 +102,7 @@ function fetchkernel(
     return filename
 end
 
-# include("types.jl")
+include("types.jl")
 # include("gen/projects.jl")
 
 # using Reexport
