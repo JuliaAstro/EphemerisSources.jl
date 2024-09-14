@@ -102,12 +102,12 @@ function fetchkernel(
     return filename
 end
 
-include("types.jl")
-include("gen/projects.jl")
+# include("types.jl")
+# include("gen/projects.jl")
 
-using Reexport
+# using Reexport
 
-@reexport using .GENERIC
+# @reexport using .GENERIC
 
 """
 Construct a `SPICEKernel` instance, with the type informed by the provided file's extension.
