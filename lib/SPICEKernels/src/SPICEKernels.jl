@@ -39,6 +39,11 @@ The URL of NASA's generic kernel HTTP server.
 """
 const NAIF_KERNELS_URL = "https://naif.jpl.nasa.gov/pub/naif"
 
+"""
+The URL of the kernel listing on NASA's HTTP server.
+"""
+const NAIF_LS_LR_URL = "https://naif.jpl.nasa.gov/pub/ls-lR.gz"
+
 function __init__()
     global SPICE_KERNEL_DIR = @get_scratch!("kernels")
 end
@@ -98,7 +103,11 @@ function fetchkernel(
 end
 
 include("types.jl")
-include("gen/kernels.jl")
+include("gen/projects.jl")
+
+using Reexport
+
+@reexport using .GENERIC
 
 """
 Construct a `SPICEKernel` instance, with the type informed by the provided file's extension.

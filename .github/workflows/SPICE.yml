@@ -20,8 +20,6 @@ jobs:
           - x64
     steps:
       - uses: actions/checkout@v3
-      - name: Install Lynx
-        run: bash -c 'sudo apt install lynx'
       - uses: julia-actions/setup-julia@v1
         with:
           version: ${{ matrix.version }}
@@ -36,12 +34,9 @@ jobs:
             ${{ runner.os }}-auto-${{ env.cache-name }}-
             ${{ runner.os }}-auto-
             ${{ runner.os }}-
-      - name: Julia Dependencies
-        working-directory: lib/SPICEKernels
-        run: julia --project=gen/ -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
       - name: Run Regression
-        working-directory: lib/SPICEKernels
-        run: JULIA_DEBUG=Main,SPICEKernels julia --project=gen gen/make.jl
+        working-directory: lib/SPICEKernels/gen
+        run: make
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
