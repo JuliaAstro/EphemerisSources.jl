@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-JULIA_NUM_THREADS = $(shell nproc --all)
+JULIA_NUM_THREADS := $(shell nproc --all)
 
 all:
 	which jc || pipx install jc

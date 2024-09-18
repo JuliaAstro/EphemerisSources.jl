@@ -103,6 +103,9 @@ function fetchkernel(
 end
 
 include("types.jl")
+include("gen/kernels.jl")
+include("gen/map.jl")
+
 # include("gen/projects.jl")
 
 # using Reexport
