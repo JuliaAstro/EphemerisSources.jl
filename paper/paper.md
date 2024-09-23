@@ -102,28 +102,31 @@ and
 [`SPICEBodies.jl`](https://github.com/JuliaAstro/EphemerisSources.jl/tree/main/lib/SPICEBodies)
 --- provide idiomatic kernel fetching, inspection, and caching from
 within Julia. Previously, Julia users interacted with SPICE kernels by
-manually downloading publicly-available [Generic
-Kernels](https://naif.jpl.nasa.gov/pub/naif/generic_kernels/), and
+manually downloading publicly-available [generic
+kernels](https://naif.jpl.nasa.gov/pub/naif/generic_kernels/), and
 parsing the data using `SPICE.jl`, or another ephemeris parsing source.
 This workflow requires that users know how to find the correct generic
 kernels for their chosen application, and that they know how to use
 CSPICE functions to retrieve their desired data. `SPICEKernels.jl` and
 `SPICEBodies.jl` offer idiomatic interfaces to ephemeris fetching and
-parsing parsing respectively. Continuous integration runs in the
-[`SPICEKernels.jl`
-repository](https://github.com/JuliaAstro/EphemerisSources.jl/tree/main/.github/workflows/SPICE.yml)
-daily and generates a pull request with all available generic kernels
-mapped to variables within `SPICEKernels.jl`. SPICE Toolkit executables
-(provided by
-[`SPICEApplications.jl`](https://github.com/JuliaAstro/SPICE.jl/tree/main/lib/SPICEApplications))
-are used to retrieve a description of each kernel's contents, and place
-that description in the Julia variable's documentation string. As a
-result of this continuous integration workflow, users can use
-tab-completion and Julia's built-in documentation tools to inspect
-kernel contents, and download the correct kernel for their application.
-Once each kernel is downloaded and loaded into the SPICE kernel pool
-with `SPICE.jl`, users can use `SPICEBodies.jl` to idiomatically fetch
-state vector data at a provided instance in time.
+parsing parsing respectively. The `SPICEKernels.jl` project uses
+continuous integration to fetch and parse publicly available
+[kernels](https://naif.jpl.nasa.gov/pub/naif/), and expose each kernel
+as a variable in a new release version. Tens of thousands of kernels are
+available. Due to the large number of available kernel files, a subset —
+the [generic
+kernels](https://naif.jpl.nasa.gov/pub/naif/generic_kernels/) — are
+parsed for additional information; SPICE Toolkit executables, provided
+by
+[`SPICEApplications.jl`](https://github.com/JuliaAstro/SPICE.jl/tree/main/lib/SPICEApplications),
+are used to retrieve a description of each kernel file's contents, and
+place that description in the corresponding variable's docstring.
+`SPICEKernels.jl` users can utilize tab-completion and Julia's built-in
+documentation tools to inspect kernel contents, and download the correct
+generic kernel for their application. Once each kernel is downloaded and
+loaded into the SPICE kernel pool with `SPICE.jl`, users can use
+`SPICEBodies.jl` to idiomatically fetch state vector data at a provided
+instance in time.
 
 # Usage
 
@@ -157,6 +160,8 @@ provided incredibly helpful [guidance and
 code](https://discourse.julialang.org/t/unpack-namedtuple-into-a-function-definition/97500)
 to support static keyword arguments. This contribution substantially
 improved the usability of `HorizonsAPI.jl`.
+
+# Disclaimers 
 
 The software developed in this paper, and the paper itself, was written
 by the author in a personal capacity. This work does not reflect the
