@@ -216,7 +216,14 @@ function code!(kernels; project = nothing, download = nothing, document = nothin
             for kernel in kernellist
                 if !occursin("old_versions", kernel) && !endswith(kernel, ".pc")
                     if occursin("generic_kernels", kernel)
-                        path = SPICEKernels.fetchkernel(kernel, ignorecache = true)
+                        local path
+                        try
+                            path = SPICEKernels.fetchkernel(kernel, ignorecache = true)
+                        catch e
+                            @error "failed to fetch $kernel: \"$e\""
+                            continue
+                        end
+
                         name = sanitize(basename(kernel))
                         type = implement(kernel)
 
