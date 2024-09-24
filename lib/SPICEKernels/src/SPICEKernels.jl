@@ -48,8 +48,6 @@ function __init__()
     global SPICE_KERNEL_DIR = @get_scratch!("kernels")
 end
 
-include(joinpath("gen", "map.jl"))
-
 """
 Given the ephemeris file name, download the file to the `SPICEKernels.jl` scratch space, 
 and return a path to the file location. If a full URL or path is provided, that path will 
@@ -69,17 +67,7 @@ function fetchkernel(
 )
 
     global SPICE_KERNEL_DIR
-    local kernelpath
-
-    try
-        kernelpath = GENERIC_KERNELS[kernel]
-    catch e
-        if e isa KeyError
-            kernelpath = kernel
-        else
-            rethrow(e)
-        end
-    end
+    local kernelpath = kernel
 
     Base.mkpath(directory)
     cachename = joinpath(SPICE_KERNEL_DIR, basename(kernelpath))
@@ -103,14 +91,10 @@ function fetchkernel(
 end
 
 include("types.jl")
-include("gen/kernels.jl")
-include("gen/map.jl")
-
 # include("gen/projects.jl")
 
-# using Reexport
-
-# @reexport using .GENERIC
+using Reexport
+@reexport using .Types
 
 """
 Construct a `SPICEKernel` instance, with the type informed by the provided file's extension.

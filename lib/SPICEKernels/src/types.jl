@@ -2,6 +2,7 @@
 # Abstract and concrete types, and methods, for SPICE kernels
 #
 
+module Types
 
 """
 A supertype for all SPICE Kernels! To satisfy the `SPICEKernel` interface, your new type
@@ -13,8 +14,8 @@ must implement each of the methods below.
 abstract type SPICEKernel end
 
 
-function (kernel::SPICEKernel)(; ignorecache=false, directory=SPICE_KERNEL_DIR)
-    return fetchkernel(path(kernel); ignorecache=ignorecache, directory=directory)
+function (kernel::SPICEKernel)(; ignorecache = false, directory = SPICE_KERNEL_DIR)
+    return fetchkernel(path(kernel); ignorecache = ignorecache, directory = directory)
 end
 
 """
@@ -70,7 +71,7 @@ Fallback method to inspect the file extension of the provided kernel, and
 return the expected kernel type. If the file extension is not recognized, 
 a `KeyError` is thrown.
 """
-function type(kernel::Union{<:SPICEKernel, <:AbstractString})
+function type(kernel::Union{<:SPICEKernel,<:AbstractString})
     if kernel isa SPICEKernel
         name = basename(path(kernel))
     else
@@ -85,7 +86,7 @@ end
 """
 A planetary & spacecraft ephemeris kernel.
 """
-struct SPK <: EphemerisKernel 
+struct SPK <: EphemerisKernel
     source::String
     SPK(source::AbstractString) = new(convert(String, source))
 end
@@ -131,3 +132,20 @@ struct LSK <: LeapSecondsKernel
 end
 type(::LSK) = LeapSecondsKernel
 path(kernel::LSK) = kernel.source
+
+export EphemerisKernel,
+    FramesKernel,
+    PlanetaryConstantsKernel,
+    LeapSecondsKernel,
+    DigitalShapeKernel,
+    SPICEKernel,
+    SPICE_EXTENSIONS,
+    type,
+    path,
+    SPK,
+    DSK,
+    LSK,
+    PCK,
+    FK
+
+end
