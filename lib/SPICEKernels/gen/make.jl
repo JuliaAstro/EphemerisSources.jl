@@ -310,7 +310,7 @@ function code!(kernels; project = nothing, download = nothing, document = nothin
 
             write(
                 file,
-                """\n\"\"\"\nAll $name kernels, linked from https://naif.jpl.nasa.gov.\n\"\"\"\n""",
+                """\n\"\"\"\nAll $(basename(replace(project, "_kernels" => "", ".jl" => ""))) kernels, linked from https://naif.jpl.nasa.gov.\n\"\"\"\n""",
             )
 
             if project == "generic_kernels"
