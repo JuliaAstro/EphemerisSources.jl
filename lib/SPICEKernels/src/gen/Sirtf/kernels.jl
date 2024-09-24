@@ -30,8 +30,9 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/spk/SIRTF_bright_obj_1.bsp
 """
-const spk_de405_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/fk/sirtf_v03.tf")
-const spk_de405_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/spk/SIRTF_bright_obj_1.bsp")
+const spk_de405_fk = FK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/fk/sirtf_v03.tf")
+const spk_de405_bsp =
+    SPK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/spk/SIRTF_bright_obj_1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -61,7 +62,7 @@ This kernel's link was sourced on 2024-09-24.
 [1] https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0011.tls
 """
 const de405s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/spk/spk_de405.bsp")
-const de405s_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0011.tls")
+const de405s_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0011.tls")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -91,7 +92,8 @@ This kernel's link was sourced on 2024-09-24.
 [1] https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0007.tls
 """
 const naif0012_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/spk/de405s.bsp")
-const naif0012_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0007.tls")
+const naif0012_tls =
+    LSK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0007.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -106,7 +108,8 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0012.tls
 """
-const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0012.tls")
+const naif0008_tls =
+    LSK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0012.tls")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -136,7 +139,8 @@ This kernel's link was sourced on 2024-09-24.
 [1] https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0008.tls
 """
 const pck00006_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/spk/encke97.bsp")
-const pck00006_tpc = LSK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0008.tls")
+const pck00006_tpc =
+    LSK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0008.tls")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -151,7 +155,8 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/pck/pck00006.tpc
 """
-const naif0009_tls = PCK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/pck/pck00006.tpc")
+const naif0009_tls =
+    PCK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/pck/pck00006.tpc")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -166,7 +171,8 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0009.tls
 """
-const pck00007_tpc = LSK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0009.tls")
+const pck00007_tpc =
+    LSK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0009.tls")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -181,7 +187,8 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/spk/spk_030825_200134_220101.bsp
 """
-const naif0010_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/spk/spk_030825_200134_220101.bsp")
+const naif0010_tls =
+    SPK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/spk/spk_030825_200134_220101.bsp")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -196,7 +203,8 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0010.tls
 """
-const spk_191101_200134_220101_short_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0010.tls")
+const spk_191101_200134_220101_short_bsp =
+    LSK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/lsk/naif0010.tls")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -211,7 +219,8 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/pck/pck00007.tpc
 """
-const spk_191101_200134_220101_short_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/pck/pck00007.tpc")
+const spk_191101_200134_220101_short_bsp_pck =
+    PCK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/pck/pck00007.tpc")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -226,7 +235,9 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/spk/spk_191101_200134_220101_short.bsp
 """
-const pck00008_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/spk/spk_191101_200134_220101_short.bsp")
+const pck00008_tpc = SPK(
+    "https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/spk/spk_191101_200134_220101_short.bsp",
+)
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -241,10 +252,10 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/pck/pck00008.tpc
 """
-const pck00008_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/pck/pck00008.tpc")
+const pck00008_tpc =
+    PCK("https://naif.jpl.nasa.gov/pub/naif/SIRTF/kernels/pck/pck00008.tpc")
 
-export
-    de405s_bsp,
+export de405s_bsp,
     de405s_bsp,
     naif0008_tls,
     naif0009_tls,

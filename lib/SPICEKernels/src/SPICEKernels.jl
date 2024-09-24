@@ -95,6 +95,7 @@ include("types.jl")
 
 using Reexport
 @reexport using .Types
+# @reexport using .Generic
 
 """
 Construct a `SPICEKernel` instance, with the type informed by the provided file's extension.
