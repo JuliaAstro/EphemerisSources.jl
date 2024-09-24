@@ -14,9 +14,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOBOS88/kernels/spk/p88mrg.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOBOS88/kernels/spk/iam_r2.bsp
 """
-const p88mrg_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOBOS88/kernels/spk/p88mrg.bsp")
+const iam_r2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOBOS88/kernels/spk/iam_r2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -29,10 +29,10 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOBOS88/kernels/spk/iam_r2.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOBOS88/kernels/spk/p88mrg.bsp
 """
-const p88mrg_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOBOS88/kernels/spk/iam_r2.bsp")
+const p88mrg_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOBOS88/kernels/spk/p88mrg.bsp")
 
 export
-    p88mrg_bsp,
+    iam_r2_bsp,
     p88mrg_bsp

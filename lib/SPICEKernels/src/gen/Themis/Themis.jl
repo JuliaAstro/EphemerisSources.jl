@@ -4,7 +4,7 @@
 
 
 """
-All THEMIS_D_2013_039_055_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All THEMIS kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Themis
 

@@ -4,20 +4,6 @@
 
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/TDRSS/kernels/spk/TDRSS.bsp
-"""
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -30,9 +16,23 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/TDRSS/kernels/fk/tdrss_names_v01.tf
 """
+const tdrss_names_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/TDRSS/kernels/fk/tdrss_names_v01.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/TDRSS/kernels/spk/TDRSS.bsp
+"""
 const TDRSS_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/TDRSS/kernels/spk/TDRSS.bsp")
-const TDRSS_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/TDRSS/kernels/fk/tdrss_names_v01.tf")
 
 export
     TDRSS_bsp,
-    TDRSS_bsp
+    tdrss_names_v01_tf

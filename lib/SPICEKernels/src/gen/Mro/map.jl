@@ -250,6 +250,7 @@ const MRO_KERNELS = Base.ImmutableDict(
     "spk_psp_rec85029_84923_85029_r-v1.bsp" => "https://naif.jpl.nasa.gov/pub/naif/MRO/kernels/spk/spk_psp_rec85029_84923_85029_r-v1.bsp",
     "spk_psp_rec85038_85034_85398_p-v1.bsp" => "https://naif.jpl.nasa.gov/pub/naif/MRO/kernels/spk/spk_psp_rec85038_85034_85398_p-v1.bsp",
     "spk_psp_rec85077_85072_85848_p-v1.bsp" => "https://naif.jpl.nasa.gov/pub/naif/MRO/kernels/spk/spk_psp_rec85077_85072_85848_p-v1.bsp",
+    "spk_psp_rec85128_85122_85488_p-v1.bsp" => "https://naif.jpl.nasa.gov/pub/naif/MRO/kernels/spk/spk_psp_rec85128_85122_85488_p-v1.bsp",
     "spk_psp_20270101-20280102_20180305_252pmInSight_330pmM2020_reftraj_p10_cltest.bsp" => "https://naif.jpl.nasa.gov/pub/naif/MRO/kernels/spk/zzarchive/spk_psp_20270101-20280102_20180305_252pmInSight_330pmM2020_reftraj_p10_cltest.bsp",
     "mro_v10_draft053107.tf" => "https://naif.jpl.nasa.gov/pub/naif/MRO/misc/crism/mro_v10_draft053107.tf",
     "mro_v04.tf" => "https://naif.jpl.nasa.gov/pub/naif/MRO/misc/fk_update/mro_v04.tf",

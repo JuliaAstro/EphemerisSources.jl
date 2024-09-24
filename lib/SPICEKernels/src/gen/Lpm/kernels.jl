@@ -14,8 +14,24 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
+[1] https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_980111-980531.bsp
+"""
+const lp_ask_980111_980531_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_980111-980531.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
 [1] https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_980601-981031.bsp
 """
+const lp_ask_980601_981031_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_980601-981031.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -30,23 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_981101-990331.bsp
 """
-const lp_ask_990401_990730_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_980601-981031.bsp")
-const lp_ask_990401_990730_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_981101-990331.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_980111-980531.bsp
-"""
-const lp_ask_990401_990730_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_980111-980531.bsp")
+const lp_ask_981101_990331_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_981101-990331.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -61,10 +61,10 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_990401-990730.bsp
 """
-const lp_ask_990401_990730_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_990401-990730.bsp")
+const lp_ask_990401_990730_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LPM/kernels/spk/lp_ask_990401-990730.bsp")
 
 export
+    lp_ask_980111_980531_bsp,
+    lp_ask_980601_981031_bsp,
     lp_ask_981101_990331_bsp,
-    lp_ask_981101_990331_bsp,
-    lp_ask_990401_990730_bsp_spk,
-    lp_ask_990401_990730_bsp_spk
+    lp_ask_990401_990730_bsp

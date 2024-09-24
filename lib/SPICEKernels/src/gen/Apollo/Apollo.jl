@@ -4,7 +4,7 @@
 
 
 """
-All apollo15_1_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All APOLLO kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Apollo
 

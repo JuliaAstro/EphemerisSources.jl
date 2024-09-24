@@ -4,7 +4,7 @@
 
 
 """
-All giotto_19860305_19860317_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All GIOTTO kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Giotto
 

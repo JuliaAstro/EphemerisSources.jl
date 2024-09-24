@@ -4,7 +4,7 @@
 
 
 """
-All mex_v05_tf_spk kernels, linked from https://naif.jpl.nasa.gov.
+All MEX kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Mex
 

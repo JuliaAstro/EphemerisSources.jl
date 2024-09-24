@@ -4,20 +4,6 @@
 
 
 """
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/naif0008.tls
-"""
-
-"""
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -30,52 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/2011-OCT-03-GRAIL-AB_Complete_84_191_CBE.bsp
 """
-const grail_v03_tf_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/naif0008.tls")
-const grail_v03_tf_lsk_fk = SPK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/2011-OCT-03-GRAIL-AB_Complete_84_191_CBE.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v05.tf
-"""
-const pck00008_tpc = FK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v05.tf")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v03.tf
-"""
-const grail_v06_tf = FK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v03.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/pck00008.tpc
-"""
+const _2011_OCT_03_GRAIL_AB_Complete_84_191_CBE_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/2011-OCT-03-GRAIL-AB_Complete_84_191_CBE.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -90,38 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/de403.bsp
 """
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v06.tf
-"""
-const grail_v04_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/pck00008.tpc")
-const grail_v04_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/de403.bsp")
-const grail_v04_tf = FK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v06.tf")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v04.tf
-"""
-const grail_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v04.tf")
+const de403_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/de403.bsp")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -138,13 +48,103 @@ This kernel's link was sourced on 2024-09-24.
 """
 const grail_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/grail_v00.tf")
 
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/naif0008.tls
+"""
+const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/naif0008.tls")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/pck00008.tpc
+"""
+const pck00008_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/20070716/pck00008.tpc")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v03.tf
+"""
+const grail_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v03.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v04.tf
+"""
+const grail_v04_tf = FK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v04.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v05.tf
+"""
+const grail_v05_tf = FK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v05.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v06.tf
+"""
+const grail_v06_tf = FK("https://naif.jpl.nasa.gov/pub/naif/GRAIL/misc/updated/grail_v06.tf")
+
 export
-    grail_v00_tf,
+    _2011_OCT_03_GRAIL_AB_Complete_84_191_CBE_bsp,
+    de403_bsp,
     grail_v00_tf,
     grail_v03_tf,
-    grail_v03_tf_lsk,
-    grail_v03_tf_lsk_fk,
     grail_v04_tf,
-    grail_v04_tf,
-    grail_v04_tf,
-    grail_v06_tf
+    grail_v05_tf,
+    grail_v06_tf,
+    naif0008_tls,
+    pck00008_tpc

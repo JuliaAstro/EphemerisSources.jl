@@ -4,7 +4,7 @@
 
 
 """
-All premoi_bsp_spk kernels, linked from https://naif.jpl.nasa.gov.
+All MESSENGER kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Messenger
 

@@ -4,7 +4,7 @@
 
 
 """
-All hst_edited_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All HST kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Hst
 

@@ -4,7 +4,7 @@
 
 
 """
-All planetb_pb98_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All NOZOMI kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Nozomi
 

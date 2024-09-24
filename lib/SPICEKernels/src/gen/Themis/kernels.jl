@@ -14,54 +14,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_D_definitive_trajectory.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_A_definitive_trajectory.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
 [1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/ARTEMIS_P1_DEF_2009022_2012022.bsp
 """
-const THEMIS_C_2013_039_055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_D_definitive_trajectory.bsp")
-const THEMIS_C_2013_039_055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_A_definitive_trajectory.bsp")
-const THEMIS_C_2013_039_055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/ARTEMIS_P1_DEF_2009022_2012022.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_C_2013_039_055.bsp
-"""
-const ARTEMIS_P2_DEF_2009022_2012022_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_C_2013_039_055.bsp")
+const ARTEMIS_P1_DEF_2009022_2012022_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/ARTEMIS_P1_DEF_2009022_2012022.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -76,52 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/ARTEMIS_P2_DEF_2009022_2012022.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_B_2013_039_055.bsp
-"""
-const THEMIS_C_definitive_trajectory_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/ARTEMIS_P2_DEF_2009022_2012022.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_E_2013_039_055.bsp
-"""
-const THEMIS_C_definitive_trajectory_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_B_2013_039_055.bsp")
-const THEMIS_C_definitive_trajectory_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_E_2013_039_055.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_C_definitive_trajectory.bsp
-"""
-const THEMIS_E_definitive_trajectory_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_C_definitive_trajectory.bsp")
+const ARTEMIS_P2_DEF_2009022_2012022_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/ARTEMIS_P2_DEF_2009022_2012022.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -136,7 +46,37 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_A_2013_039_055.bsp
 """
-const THEMIS_D_2013_039_055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_A_2013_039_055.bsp")
+const THEMIS_A_2013_039_055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_A_2013_039_055.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_A_definitive_trajectory.bsp
+"""
+const THEMIS_A_definitive_trajectory_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_A_definitive_trajectory.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_B_2013_039_055.bsp
+"""
+const THEMIS_B_2013_039_055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_B_2013_039_055.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -151,6 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_B_definitive_trajectory.bsp
 """
+const THEMIS_B_definitive_trajectory_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_B_definitive_trajectory.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -163,10 +104,24 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_E_definitive_trajectory.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_C_2013_039_055.bsp
 """
-const THEMIS_D_2013_039_055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_B_definitive_trajectory.bsp")
-const THEMIS_D_2013_039_055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_E_definitive_trajectory.bsp")
+const THEMIS_C_2013_039_055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_C_2013_039_055.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_C_definitive_trajectory.bsp
+"""
+const THEMIS_C_definitive_trajectory_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_C_definitive_trajectory.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -183,16 +138,61 @@ This kernel's link was sourced on 2024-09-24.
 """
 const THEMIS_D_2013_039_055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_D_2013_039_055.bsp")
 
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_D_definitive_trajectory.bsp
+"""
+const THEMIS_D_definitive_trajectory_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_D_definitive_trajectory.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_E_2013_039_055.bsp
+"""
+const THEMIS_E_2013_039_055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_E_2013_039_055.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_E_definitive_trajectory.bsp
+"""
+const THEMIS_E_definitive_trajectory_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/THEMIS/kernels/spk/THEMIS_E_definitive_trajectory.bsp")
+
 export
+    ARTEMIS_P1_DEF_2009022_2012022_bsp,
     ARTEMIS_P2_DEF_2009022_2012022_bsp,
+    THEMIS_A_2013_039_055_bsp,
+    THEMIS_A_definitive_trajectory_bsp,
+    THEMIS_B_2013_039_055_bsp,
+    THEMIS_B_definitive_trajectory_bsp,
     THEMIS_C_2013_039_055_bsp,
-    THEMIS_C_2013_039_055_bsp,
-    THEMIS_C_2013_039_055_bsp,
-    THEMIS_C_definitive_trajectory_bsp_spk,
-    THEMIS_C_definitive_trajectory_bsp_spk,
-    THEMIS_C_definitive_trajectory_bsp_spk_spk,
+    THEMIS_C_definitive_trajectory_bsp,
     THEMIS_D_2013_039_055_bsp,
-    THEMIS_D_2013_039_055_bsp,
-    THEMIS_D_2013_039_055_bsp,
-    THEMIS_D_2013_039_055_bsp,
-    THEMIS_E_definitive_trajectory_bsp_spk
+    THEMIS_D_definitive_trajectory_bsp,
+    THEMIS_E_2013_039_055_bsp,
+    THEMIS_E_definitive_trajectory_bsp

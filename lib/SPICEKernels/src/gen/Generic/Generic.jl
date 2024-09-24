@@ -4,7 +4,7 @@
 
 
 """
-All tnosat_v001b_20136108_jpl110_20221014_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All generic kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Generic
 

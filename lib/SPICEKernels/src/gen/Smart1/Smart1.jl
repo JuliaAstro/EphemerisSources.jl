@@ -4,7 +4,7 @@
 
 
 """
-All smart_1_tpc kernels, linked from https://naif.jpl.nasa.gov.
+All SMART1 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Smart1
 

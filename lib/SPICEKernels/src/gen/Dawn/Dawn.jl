@@ -4,7 +4,7 @@
 
 
 """
-All dawn_ql_180724_181021_180807_v1_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All DAWN kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Dawn
 

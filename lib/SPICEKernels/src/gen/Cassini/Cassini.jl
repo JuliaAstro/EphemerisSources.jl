@@ -4,7 +4,7 @@
 
 
 """
-All _091203AP_SK_09337_09350_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All CASSINI kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Cassini
 

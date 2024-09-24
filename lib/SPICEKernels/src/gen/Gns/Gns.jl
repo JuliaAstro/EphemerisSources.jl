@@ -4,7 +4,7 @@
 
 
 """
-All Genesis_SRC_47900_20040809_20040908_out_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All GNS kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Gns
 

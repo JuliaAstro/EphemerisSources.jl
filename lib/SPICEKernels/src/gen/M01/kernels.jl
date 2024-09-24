@@ -4,36 +4,6 @@
 
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext26.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map.bsp
-"""
-const m01_ext50_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext26.bsp")
-const m01_ext50_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map.bsp")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -46,52 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v11.tf
 """
-const m01_ext26_ipng_mgs95j_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v11.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext50.bsp
-"""
-const m01_v20_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext50.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext26_ipng_mgs95j.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1.bsp
-"""
-const m01_ext50_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext26_ipng_mgs95j.bsp")
-const m01_ext50_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1.bsp")
+const m01_v11_tf = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v11.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -106,52 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v20.tf
 """
-const m01_ext26_ssd_mro110c_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v20.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext50_ipng_mgs95j.bsp
-"""
-const m01_v21_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext50_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map10.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext26_ssd_mro110c.bsp
-"""
-const m01_ext51_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext26_ssd_mro110c.bsp")
-const m01_ext51_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map10.bsp")
+const m01_v20_tf = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v20.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -166,52 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v21.tf
 """
-const m01_map10_ipng_mgs95j_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v21.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext51.bsp
-"""
-const m01_v22_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext51.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext27.bsp
-"""
-const m01_ext51_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext27.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map10_ipng_mgs95j.bsp
-"""
-const m01_ext27_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map10_ipng_mgs95j.bsp")
+const m01_v21_tf = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v21.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -226,51 +61,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v22.tf
 """
-const m01_map10_ssd_mro110c_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v22.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext51_ipng_mgs95j.bsp
-"""
-const m01_v23_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext51_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map10_ssd_mro110c.bsp
-"""
-const m01_ext52_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map10_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext27_ipng_mgs95j.bsp
-"""
+const m01_v22_tf = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v22.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -285,53 +76,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v23.tf
 """
-const m01_map11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext27_ipng_mgs95j.bsp")
-const m01_map11_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v23.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext52.bsp
-"""
-const m01_v24_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext52.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map11.bsp
-"""
-const m01_ext52_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map11.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext27_ssd_mro110c.bsp
-"""
-const m01_ext52_ipng_mgs95j_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext27_ssd_mro110c.bsp")
+const m01_v23_tf = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v23.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -346,52 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v24.tf
 """
-const m01_ext28_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v24.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext52_ipng_mgs95j.bsp
-"""
-const m01_v26_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext52_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map11_ipng_mgs95j.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext28.bsp
-"""
-const m01_ext53_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map11_ipng_mgs95j.bsp")
-const m01_ext53_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext28.bsp")
+const m01_v24_tf = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/archive/m01_v24.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -406,67 +106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/m01_v26.tf
 """
-const m01_ext28_ipng_mgs95j_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/m01_v26.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext53.bsp
-"""
-const m01_v27_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext53.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext28_ipng_mgs95j.bsp
-"""
-const m01_ext53_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext28_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map11_ssd_mro110c.bsp
-"""
-const m01_ext28_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map11_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext53_ipng_mgs95j.bsp
-"""
-const m01_map1_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext53_ipng_mgs95j.bsp")
+const m01_v26_tf = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/m01_v26.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -481,52 +121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/m01_v27.tf
 """
-const m01_ext54_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/m01_v27.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext28_ssd_mro110c.bsp
-"""
-const m01_v28_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext28_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1_ipng_mgs95j.bsp
-"""
-const m01_ext29_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext54.bsp
-"""
-const m01_map1_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext54.bsp")
+const m01_v27_tf = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/m01_v27.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -541,52 +136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/m01_v28.tf
 """
-const m01_ext54_ipng_mgs95j_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/m01_v28.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext29.bsp
-"""
-const naif0007_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext29.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1_ssd_mro110c.bsp
-"""
-const m01_ext29_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext54_ipng_mgs95j.bsp
-"""
-const m01_map1_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext54_ipng_mgs95j.bsp")
+const m01_v28_tf = FK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/fk/m01_v28.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -601,52 +151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0007.tls
 """
-const m01_ext55_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0007.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext29_ipng_mgs95j.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1_v2.bsp
-"""
-const naif0008_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext29_ipng_mgs95j.bsp")
-const naif0008_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext55.bsp
-"""
-const m01_ext29_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext55.bsp")
+const naif0007_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0007.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -661,52 +166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0008.tls
 """
-const m01_ext55_ipng_mgs95j_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0008.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map2.bsp
-"""
-const naif0009_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext29_ssd_mro110c.bsp
-"""
-const m01_map2_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext29_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext55_ipng_mgs95j.bsp
-"""
-const m01_ext2_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext55_ipng_mgs95j.bsp")
+const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0008.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -721,52 +181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0009.tls
 """
-const m01_ext56_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0009.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map2_ipng_mgs95j.bsp
-"""
-const naif0010_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map2_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext2_ipng_mgs95j.bsp
-"""
-const m01_map2_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext2_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext56.bsp
-"""
-const m01_ext2_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext56.bsp")
+const naif0009_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0009.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -781,52 +196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0010.tls
 """
-const m01_ext56_ipng_mgs95j_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0010.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map2_ssd_mro110c.bsp
-"""
-const naif0011_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map2_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext2_ssd_mro110c.bsp
-"""
-const m01_map3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext2_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext56_ipng_mgs95j.bsp
-"""
-const m01_ext3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext56_ipng_mgs95j.bsp")
+const naif0010_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0010.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -841,52 +211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0011.tls
 """
-const m01_ext57_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0011.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map3.bsp
-"""
-const naif0012_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map3.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext3.bsp
-"""
-const m01_map3_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext3.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext57.bsp
-"""
-const m01_ext30_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext57.bsp")
+const naif0011_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0011.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -901,52 +226,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0012.tls
 """
-const m01_ext57_ipng_mgs95j_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0012.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map3_ipng_mgs95j.bsp
-"""
-const mars_iau2000_v0_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map3_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext30.bsp
-"""
-const m01_map3_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext30.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext57_ipng_mgs95j.bsp
-"""
-const m01_ext30_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext57_ipng_mgs95j.bsp")
+const naif0012_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/lsk/naif0012.tls")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -961,52 +241,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/pck/mars_iau2000_v0.tpc
 """
-const m01_ext58_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/pck/mars_iau2000_v0.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map3_ssd_mro110c.bsp
-"""
-const pck00009_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map3_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext30_ipng_mgs95j.bsp
-"""
-const m01_map4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext30_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext58.bsp
-"""
-const m01_ext30_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext58.bsp")
+const mars_iau2000_v0_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/pck/mars_iau2000_v0.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1021,52 +256,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/pck/pck00009.tpc
 """
-const m01_ext58_ipng_mgs95j_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/pck/pck00009.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map4.bsp
-"""
-const de405s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext30_ssd_mro110c.bsp
-"""
-const m01_map4_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext30_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext58_ipng_mgs95j.bsp
-"""
-const m01_ext31_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext58_ipng_mgs95j.bsp")
+const pck00009_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/pck/pck00009.tpc")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1081,52 +271,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/de405s.bsp
 """
-const m01_ext59_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/de405s.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map4_ipng_mgs95j.bsp
-"""
-const m01_ab_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map4_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext31.bsp
-"""
-const m01_map4_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext31.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext59.bsp
-"""
-const m01_ext31_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext59.bsp")
+const de405s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/de405s.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1141,37 +286,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ab.bsp
 """
-const m01_ext59_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ab.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map4_ssd_mro110c.bsp
-"""
-const m01_ab_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map4_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext31_ipng_mgs95j.bsp
-"""
-const m01_map5_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext31_ipng_mgs95j.bsp")
+const m01_ab_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ab.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1186,52 +301,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ab_v2.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext59_ipng_mgs95j.bsp
-"""
-const m01_ext31_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ab_v2.bsp")
-const m01_ext31_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext59_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map5.bsp
-"""
-const m01_ext5_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map5.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext31_ssd_mro110c.bsp
-"""
-const m01_map5_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext31_ssd_mro110c.bsp")
+const m01_ab_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ab_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1246,52 +316,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_cruise.bsp
 """
-const m01_ext32_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_cruise.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext5_ipng_mgs95j.bsp
-"""
-const m01_ext1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext5_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map5_ipng_mgs95j.bsp
-"""
-const m01_ext5_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map5_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext32.bsp
-"""
-const m01_map5_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext32.bsp")
+const m01_cruise_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_cruise.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1306,52 +331,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext1.bsp
 """
-const m01_ext32_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext5_ssd_mro110c.bsp
-"""
-const m01_ext10_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext5_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map5_ssd_mro110c.bsp
-"""
-const m01_ext6_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map5_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext32_ipng_mgs95j.bsp
-"""
-const m01_map6_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext32_ipng_mgs95j.bsp")
+const m01_ext1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1366,52 +346,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext10.bsp
 """
-const m01_ext32_ssd_mro110c_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext10.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext6.bsp
-"""
-const m01_ext10_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext6.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map6.bsp
-"""
-const m01_ext60_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map6.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext32_ssd_mro110c.bsp
-"""
-const m01_map6_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext32_ssd_mro110c.bsp")
+const m01_ext10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext10.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1426,52 +361,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext10_ipng_mgs95j.bsp
 """
-const m01_ext33_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext10_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext60.bsp
-"""
-const m01_ext10_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext60.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map6_ipng_mgs95j.bsp
-"""
-const m01_ext60_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map6_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext33.bsp
-"""
-const m01_map6_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext33.bsp")
+const m01_ext10_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext10_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1486,52 +376,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext10_ssd_mro110c.bsp
 """
-const m01_ext33_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext10_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext60_ipng_mgs95j.bsp
-"""
-const m01_ext11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext60_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map6_ssd_mro110c.bsp
-"""
-const m01_ext61_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map6_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext33_ipng_mgs95j.bsp
-"""
-const m01_map7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext33_ipng_mgs95j.bsp")
+const m01_ext10_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext10_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1546,52 +391,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext11.bsp
 """
-const m01_ext33_ssd_mro110c_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext11.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext61.bsp
-"""
-const m01_ext11_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext61.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map7.bsp
-"""
-const m01_ext61_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map7.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext33_ssd_mro110c.bsp
-"""
-const m01_map7_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext33_ssd_mro110c.bsp")
+const m01_ext11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext11.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1606,52 +406,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext11_ipng_mgs95j.bsp
 """
-const m01_ext34_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext11_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext61_ipng_mgs95j.bsp
-"""
-const m01_ext11_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext61_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext34.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map7_ipng_mgs95j.bsp
-"""
-const m01_ext62_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map7_ipng_mgs95j.bsp")
-const m01_ext62_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext34.bsp")
+const m01_ext11_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext11_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1666,52 +421,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext11_ssd_mro110c.bsp
 """
-const m01_map7_ssd_mro110c_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext11_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext62.bsp
-"""
-const m01_ext12_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext62.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext34_ipng_mgs95j.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map7_ssd_mro110c.bsp
-"""
-const m01_ext62_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map7_ssd_mro110c.bsp")
-const m01_ext62_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext34_ipng_mgs95j.bsp")
+const m01_ext11_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext11_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1726,52 +436,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext12.bsp
 """
-const m01_ext34_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext12.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext62_ipng_mgs95j.bsp
-"""
-const m01_ext12_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext62_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext34_ssd_mro110c.bsp
-"""
-const m01_ext63_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext34_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map8.bsp
-"""
-const m01_ext35_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map8.bsp")
+const m01_ext12_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext12.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1786,52 +451,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext12_ipng_mgs95j.bsp
 """
-const m01_map8_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext12_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext63.bsp
-"""
-const m01_ext12_ssd_mro110c_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext63.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext35.bsp
-"""
-const m01_ext63_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext35.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map8_ipng_mgs95j.bsp
-"""
-const m01_ext35_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map8_ipng_mgs95j.bsp")
+const m01_ext12_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext12_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1846,52 +466,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext12_ssd_mro110c.bsp
 """
-const m01_map8_ssd_mro110c_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext12_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext63_ipng_mgs95j.bsp
-"""
-const m01_ext13_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext63_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext35_ipng_mgs95j.bsp
-"""
-const m01_ext64_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext35_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map8_ssd_mro110c.bsp
-"""
-const m01_ext35_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map8_ssd_mro110c.bsp")
+const m01_ext12_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext12_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1906,52 +481,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext13.bsp
 """
-const m01_map9_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext13.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext64.bsp
-"""
-const m01_ext13_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext64.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext35_ssd_mro110c.bsp
-"""
-const m01_ext64_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext35_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map9.bsp
-"""
-const m01_ext36_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map9.bsp")
+const m01_ext13_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext13.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1966,52 +496,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext13_ipng_mgs95j.bsp
 """
-const m01_map9_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext13_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext64_ipng_mgs95j.bsp
-"""
-const m01_ext13_ssd_mro110c_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext64_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext36.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map9_ipng_mgs95j.bsp
-"""
-const m01_ext65_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext36.bsp")
-const m01_ext65_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map9_ipng_mgs95j.bsp")
+const m01_ext13_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext13_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2026,52 +511,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext13_ssd_mro110c.bsp
 """
-const m01_map9_ssd_mro110c_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext13_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext65.bsp
-"""
-const m01_ext14_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext65.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map9_ssd_mro110c.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext36_ipng_mgs95j.bsp
-"""
-const m01_ext65_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map9_ssd_mro110c.bsp")
-const m01_ext65_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext36_ipng_mgs95j.bsp")
+const m01_ext13_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext13_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2086,52 +526,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext14.bsp
 """
-const m01_ext36_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext14.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext65_ipng_mgs95j.bsp
-"""
-const m01_ext14_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext65_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext36_ssd_mro110c.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map_rec.bsp
-"""
-const m01_ext66_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext36_ssd_mro110c.bsp")
-const m01_ext66_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map_rec.bsp")
+const m01_ext14_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext14.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2146,52 +541,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext14_ipng_mgs95j.bsp
 """
-const m01_struct_v10_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext14_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext66.bsp
-"""
-const m01_ext14_ssd_mro110c_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext66.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext37.bsp
-"""
-const m01_ext66_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext37.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_struct_v10.bsp
-"""
-const m01_ext37_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_struct_v10.bsp")
+const m01_ext14_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext14_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2206,52 +556,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext14_ssd_mro110c.bsp
 """
-const mar033_5_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext14_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext66_ipng_mgs95j.bsp
-"""
-const m01_ext15_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext66_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext37_ipng_mgs95j.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/mar033-5.bsp
-"""
-const m01_ext67_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/mar033-5.bsp")
-const m01_ext67_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext37_ipng_mgs95j.bsp")
+const m01_ext14_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext14_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2266,52 +571,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext15.bsp
 """
-const m01_ext37_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext15.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext67.bsp
-"""
-const m01_ext15_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext67.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext37_ssd_mro110c.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/mar033_2000-2025.bsp
-"""
-const m01_ext67_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext37_ssd_mro110c.bsp")
-const m01_ext67_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/mar033_2000-2025.bsp")
+const m01_ext15_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext15.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2326,52 +586,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext15_ipng_mgs95j.bsp
 """
-const m01_ext38_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext15_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext67_ipng_mgs95j.bsp
-"""
-const m01_ext15_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext67_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/mar063.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext38.bsp
-"""
-const m01_ext68_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/mar063.bsp")
-const m01_ext68_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext38.bsp")
+const m01_ext15_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext15_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2386,52 +601,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext15_ssd_mro110c.bsp
 """
-const m01_ext38_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext15_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext68.bsp
-"""
-const m01_ext16_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext68.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100004-100008_100349_v1.bsp
-"""
-const m01_ext68_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100004-100008_100349_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext38_ipng_mgs95j.bsp
-"""
-const spk_m_od100025_100123_rec_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext38_ipng_mgs95j.bsp")
+const m01_ext15_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext15_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2446,52 +616,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext16.bsp
 """
-const m01_ext38_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext16.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext68_ipng_mgs95j.bsp
-"""
-const m01_ext16_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext68_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100025-100123_rec_v1.bsp
-"""
-const m01_ext69_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100025-100123_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext38_ssd_mro110c.bsp
-"""
-const spk_m_od100083_100089_101211_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext38_ssd_mro110c.bsp")
+const m01_ext16_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext16.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2506,52 +631,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext16_ipng_mgs95j.bsp
 """
-const m01_ext39_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext16_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext69.bsp
-"""
-const m01_ext16_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext69.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100083-100089_101211_v1.bsp
-"""
-const m01_ext69_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100083-100089_101211_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext39.bsp
-"""
-const spk_m_od100122_100210_rec_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext39.bsp")
+const m01_ext16_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext16_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2566,52 +646,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext16_ssd_mro110c.bsp
 """
-const m01_ext39_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext16_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext69_ipng_mgs95j.bsp
-"""
-const m01_ext17_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext69_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100122-100210_rec_v1.bsp
-"""
-const m01_ext6_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100122-100210_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext39_ipng_mgs95j.bsp
-"""
-const spk_m_od100169_100174_100519_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext39_ipng_mgs95j.bsp")
+const m01_ext16_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext16_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2626,52 +661,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext17.bsp
 """
-const m01_ext39_ssd_mro110c_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext17.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext6_ipng_mgs95j.bsp
-"""
-const m01_ext17_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext6_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100169-100174_100519_v1.bsp
-"""
-const m01_ext6_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100169-100174_100519_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext39_ssd_mro110c.bsp
-"""
-const spk_m_od100208_100309_rec_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext39_ssd_mro110c.bsp")
+const m01_ext17_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext17.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2686,52 +676,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext17_ipng_mgs95j.bsp
 """
-const m01_ext3_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext17_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext6_ssd_mro110c.bsp
-"""
-const m01_ext17_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext6_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100208-100309_rec_v1.bsp
-"""
-const m01_ext7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100208-100309_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext3_ipng_mgs95j.bsp
-"""
-const spk_m_od100258_100261_101745_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext3_ipng_mgs95j.bsp")
+const m01_ext17_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext17_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2746,52 +691,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext17_ssd_mro110c.bsp
 """
-const m01_ext3_ssd_mro110c_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext17_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext7.bsp
-"""
-const m01_ext18_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext7.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100258-100261_101745_v1.bsp
-"""
-const m01_ext70_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100258-100261_101745_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext3_ssd_mro110c.bsp
-"""
-const spk_m_od100307_100388_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext3_ssd_mro110c.bsp")
+const m01_ext17_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext17_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2806,52 +706,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext18.bsp
 """
-const m01_ext4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext18.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext70.bsp
-"""
-const m01_ext18_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext70.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext4.bsp
-"""
-const m01_ext70_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100307-100388_rec_v1.bsp
-"""
-const m01_ext40_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100307-100388_rec_v1.bsp")
+const m01_ext18_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext18.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2866,52 +721,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext18_ipng_mgs95j.bsp
 """
-const spk_m_od100352_100356_100689_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext18_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext70_ipng_mgs95j.bsp
-"""
-const m01_ext18_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext70_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext40.bsp
-"""
-const m01_ext71_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext40.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100352-100356_100689_v1.bsp
-"""
-const m01_ext40_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100352-100356_100689_v1.bsp")
+const m01_ext18_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext18_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2926,37 +736,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext18_ssd_mro110c.bsp
 """
-const spk_m_od100387_100477_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext18_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext71.bsp
-"""
-const m01_ext19_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext71.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext40_ipng_mgs95j.bsp
-"""
-const m01_ext71_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext40_ipng_mgs95j.bsp")
+const m01_ext18_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext18_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2971,52 +751,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext19.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100387-100477_rec_v1.bsp
-"""
-const m01_ext40_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext19.bsp")
-const m01_ext40_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100387-100477_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext71_ipng_mgs95j.bsp
-"""
-const spk_m_od100431_100436_101551_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext71_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext40_ssd_mro110c.bsp
-"""
-const m01_ext72_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext40_ssd_mro110c.bsp")
+const m01_ext19_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext19.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3031,52 +766,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext19_ipng_mgs95j.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100431-100436_101551_v1.bsp
-"""
-const m01_ext41_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext19_ipng_mgs95j.bsp")
-const m01_ext41_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100431-100436_101551_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext72.bsp
-"""
-const spk_m_od100475_100561_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext72.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext41.bsp
-"""
-const m01_ext72_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext41.bsp")
+const m01_ext19_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext19_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3091,52 +781,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext19_ssd_mro110c.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100475-100561_rec_v1.bsp
-"""
-const m01_ext41_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext19_ssd_mro110c.bsp")
-const m01_ext41_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100475-100561_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext72_ipng_mgs95j.bsp
-"""
-const spk_m_od100521_100526_100859_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext72_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext41_ipng_mgs95j.bsp
-"""
-const m01_ext73_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext41_ipng_mgs95j.bsp")
+const m01_ext19_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext19_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3151,52 +796,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext1_ipng_mgs95j.bsp
 """
-const m01_ext41_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext1_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100521-100526_100859_v1.bsp
-"""
-const m01_ext1_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100521-100526_100859_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext73.bsp
-"""
-const spk_m_od100558_100630_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext73.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext41_ssd_mro110c.bsp
-"""
-const m01_ext73_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext41_ssd_mro110c.bsp")
+const m01_ext1_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext1_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3211,52 +811,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext1_ssd_mro110c.bsp
 """
-const m01_ext42_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext1_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100558-100630_rec_v1.bsp
-"""
-const m01_ext2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100558-100630_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext73_ipng_mgs95j.bsp
-"""
-const spk_m_od100606_100611_102085_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext73_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext42.bsp
-"""
-const m01_ext74_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext42.bsp")
+const m01_ext1_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext1_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3271,52 +826,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext2.bsp
 """
-const m01_ext42_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100606-100611_102085_v1.bsp
-"""
-const m01_ext20_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100606-100611_102085_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext74.bsp
-"""
-const spk_m_od100629_100727_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext74.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext42_ipng_mgs95j.bsp
-"""
-const m01_ext74_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext42_ipng_mgs95j.bsp")
+const m01_ext2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3331,37 +841,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext20.bsp
 """
-const m01_ext43_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext20.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100629-100727_rec_v1.bsp
-"""
-const m01_ext20_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100629-100727_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext74_ipng_mgs95j.bsp
-"""
-const spk_m_od100690_100696_101029_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext74_ipng_mgs95j.bsp")
+const m01_ext20_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext20.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3376,52 +856,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext20_ipng_mgs95j.bsp
 """
-const m01_ext75_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext20_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext43.bsp
-"""
-const m01_ext20_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext43.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100690-100696_101029_v1.bsp
-"""
-const m01_ext43_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100690-100696_101029_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext75.bsp
-"""
-const spk_m_od100726_100812_rec_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext75.bsp")
+const m01_ext20_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext20_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3436,52 +871,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext20_ssd_mro110c.bsp
 """
-const m01_ext75_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext20_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext43_ipng_mgs95j.bsp
-"""
-const m01_ext21_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext43_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100726-100812_rec_v1.bsp
-"""
-const m01_ext44_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100726-100812_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext75_ipng_mgs95j.bsp
-"""
-const spk_m_od100789_100792_101891_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext75_ipng_mgs95j.bsp")
+const m01_ext20_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext20_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3496,52 +886,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext21.bsp
 """
-const m01_ext76_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext21.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext44.bsp
-"""
-const m01_ext21_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext44.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100789-100792_101891_v1.bsp
-"""
-const m01_ext44_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100789-100792_101891_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext76.bsp
-"""
-const spk_m_od100811_100901_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext76.bsp")
+const m01_ext21_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext21.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3556,52 +901,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext21_ipng_mgs95j.bsp
 """
-const m01_ext76_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext21_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext44_ipng_mgs95j.bsp
-"""
-const m01_ext21_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext44_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100811-100901_rec_v1.bsp
-"""
-const m01_ext45_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100811-100901_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext76_ipng_mgs95j.bsp
-"""
-const spk_m_od100860_100864_101199_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext76_ipng_mgs95j.bsp")
+const m01_ext21_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext21_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3616,82 +916,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext21_ssd_mro110c.bsp
 """
-const m01_ext77_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext21_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext45.bsp
-"""
-const m01_ext22_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext45.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100860-100864_101199_v1.bsp
-"""
-const m01_ext45_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100860-100864_101199_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext77.bsp
-"""
-const spk_m_od100900_100985_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext77.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext45_ipng_mgs95j.bsp
-"""
-const m01_ext77_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext45_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100900-100985_rec_v1.bsp
-"""
-const m01_ext46_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100900-100985_rec_v1.bsp")
+const m01_ext21_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext21_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3706,52 +931,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext22.bsp
 """
-const spk_m_od100941_100947_102425_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext22.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext77_ipng_mgs95j.bsp
-"""
-const m01_ext22_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext77_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext46.bsp
-"""
-const m01_ext78_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext46.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100941-100947_102425_v1.bsp
-"""
-const m01_ext46_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100941-100947_102425_v1.bsp")
+const m01_ext22_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext22.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3766,52 +946,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext22_ipng_mgs95j.bsp
 """
-const spk_m_od180521_310101_180522_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext22_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext78.bsp
-"""
-const m01_ext22_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext78.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext46_ipng_mgs95j.bsp
-"""
-const m01_ext78_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext46_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od180521-310101_180522.bsp
-"""
-const m01_ext47_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od180521-310101_180522.bsp")
+const m01_ext22_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext22_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3826,52 +961,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext22_ssd_mro110c.bsp
 """
-const spk_m_od99958_100026_rec_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext22_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext78_ipng_mgs95j.bsp
-"""
-const m01_ext23_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext78_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext47.bsp
-"""
-const m01_ext79_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext47.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od99958-100026_rec_v1.bsp
-"""
-const m01_ext47_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od99958-100026_rec_v1.bsp")
+const m01_ext22_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext22_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3886,52 +976,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext23.bsp
 """
-const css_horizons_141110_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext23.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext79.bsp
-"""
-const m01_ext23_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext79.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext47_ipng_mgs95j.bsp
-"""
-const m01_ext7_ipng_mgs95j_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext47_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/css_horizons_141110.bsp
-"""
-const m01_ext48_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/css_horizons_141110.bsp")
+const m01_ext23_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext23.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3946,52 +991,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext23_ipng_mgs95j.bsp
 """
-const mars_3389_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext23_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext7_ipng_mgs95j.bsp
-"""
-const m01_ext23_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext7_ipng_mgs95j.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/mars_3389.tpc
-"""
-const m01_ext7_ssd_mro110c_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/mars_3389.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext48.bsp
-"""
-const siding_spring_dir_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext48.bsp")
+const m01_ext23_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext23_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4006,52 +1006,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext23_ssd_mro110c.bsp
 """
-const m01_ext48_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext23_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext7_ssd_mro110c.bsp
-"""
-const m01_ext24_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext7_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir.bsp
-"""
-const m01_ext8_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext48_ipng_mgs95j.bsp
-"""
-const siding_spring_dir_2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext48_ipng_mgs95j.bsp")
+const m01_ext23_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext23_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4066,52 +1021,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext24.bsp
 """
-const m01_ext49_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext24.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext8.bsp
-"""
-const m01_ext24_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext8.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir_2.bsp
-"""
-const m01_ext8_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir_2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext49.bsp
-"""
-const siding_spring_dir_3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext49.bsp")
+const m01_ext24_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext24.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4126,52 +1036,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext24_ipng_mgs95j.bsp
 """
-const m01_ext49_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext24_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext8_ipng_mgs95j.bsp
-"""
-const m01_ext24_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext8_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir_3.bsp
-"""
-const m01_ext8_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir_3.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext49_ipng_mgs95j.bsp
-"""
-const siding_spring_dir_4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext49_ipng_mgs95j.bsp")
+const m01_ext24_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext24_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4186,52 +1051,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext24_ssd_mro110c.bsp
 """
-const m01_ext4_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext24_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext8_ssd_mro110c.bsp
-"""
-const m01_ext25_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext8_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir_4.bsp
-"""
-const m01_ext9_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir_4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext4_ipng_mgs95j.bsp
-"""
-const siding_spring_names_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext4_ipng_mgs95j.bsp")
+const m01_ext24_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext24_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4246,37 +1066,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext25.bsp
 """
-const m01_ext4_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext25.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext9.bsp
-"""
-const m01_ext25_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext9.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_names.tf
-"""
-const m01_ext9_ipng_mgs95j_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_names.tf")
+const m01_ext25_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext25.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4291,52 +1081,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext25_ipng_mgs95j.bsp
 """
-const siding_spring_names_3_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext25_ipng_mgs95j.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext4_ssd_mro110c.bsp
-"""
-const m01_ext25_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext4_ssd_mro110c.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext9_ipng_mgs95j.bsp
-"""
-const m01_ext5_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext9_ipng_mgs95j.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_names_3.tf
-"""
-const m01_ext9_ssd_mro110c_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_names_3.tf")
+const m01_ext25_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext25_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4351,7 +1096,1087 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext25_ssd_mro110c.bsp
 """
-const m01_ext9_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext25_ssd_mro110c.bsp")
+const m01_ext25_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext25_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext26.bsp
+"""
+const m01_ext26_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext26.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext26_ipng_mgs95j.bsp
+"""
+const m01_ext26_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext26_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext26_ssd_mro110c.bsp
+"""
+const m01_ext26_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext26_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext27.bsp
+"""
+const m01_ext27_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext27.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext27_ipng_mgs95j.bsp
+"""
+const m01_ext27_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext27_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext27_ssd_mro110c.bsp
+"""
+const m01_ext27_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext27_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext28.bsp
+"""
+const m01_ext28_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext28.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext28_ipng_mgs95j.bsp
+"""
+const m01_ext28_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext28_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext28_ssd_mro110c.bsp
+"""
+const m01_ext28_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext28_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext29.bsp
+"""
+const m01_ext29_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext29.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext29_ipng_mgs95j.bsp
+"""
+const m01_ext29_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext29_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext29_ssd_mro110c.bsp
+"""
+const m01_ext29_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext29_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext2_ipng_mgs95j.bsp
+"""
+const m01_ext2_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext2_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext2_ssd_mro110c.bsp
+"""
+const m01_ext2_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext2_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext3.bsp
+"""
+const m01_ext3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext3.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext30.bsp
+"""
+const m01_ext30_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext30.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext30_ipng_mgs95j.bsp
+"""
+const m01_ext30_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext30_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext30_ssd_mro110c.bsp
+"""
+const m01_ext30_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext30_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext31.bsp
+"""
+const m01_ext31_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext31.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext31_ipng_mgs95j.bsp
+"""
+const m01_ext31_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext31_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext31_ssd_mro110c.bsp
+"""
+const m01_ext31_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext31_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext32.bsp
+"""
+const m01_ext32_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext32.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext32_ipng_mgs95j.bsp
+"""
+const m01_ext32_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext32_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext32_ssd_mro110c.bsp
+"""
+const m01_ext32_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext32_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext33.bsp
+"""
+const m01_ext33_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext33.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext33_ipng_mgs95j.bsp
+"""
+const m01_ext33_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext33_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext33_ssd_mro110c.bsp
+"""
+const m01_ext33_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext33_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext34.bsp
+"""
+const m01_ext34_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext34.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext34_ipng_mgs95j.bsp
+"""
+const m01_ext34_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext34_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext34_ssd_mro110c.bsp
+"""
+const m01_ext34_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext34_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext35.bsp
+"""
+const m01_ext35_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext35.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext35_ipng_mgs95j.bsp
+"""
+const m01_ext35_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext35_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext35_ssd_mro110c.bsp
+"""
+const m01_ext35_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext35_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext36.bsp
+"""
+const m01_ext36_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext36.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext36_ipng_mgs95j.bsp
+"""
+const m01_ext36_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext36_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext36_ssd_mro110c.bsp
+"""
+const m01_ext36_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext36_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext37.bsp
+"""
+const m01_ext37_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext37.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext37_ipng_mgs95j.bsp
+"""
+const m01_ext37_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext37_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext37_ssd_mro110c.bsp
+"""
+const m01_ext37_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext37_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext38.bsp
+"""
+const m01_ext38_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext38.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext38_ipng_mgs95j.bsp
+"""
+const m01_ext38_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext38_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext38_ssd_mro110c.bsp
+"""
+const m01_ext38_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext38_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext39.bsp
+"""
+const m01_ext39_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext39.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext39_ipng_mgs95j.bsp
+"""
+const m01_ext39_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext39_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext39_ssd_mro110c.bsp
+"""
+const m01_ext39_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext39_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext3_ipng_mgs95j.bsp
+"""
+const m01_ext3_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext3_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext3_ssd_mro110c.bsp
+"""
+const m01_ext3_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext3_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext4.bsp
+"""
+const m01_ext4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext4.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext40.bsp
+"""
+const m01_ext40_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext40.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext40_ipng_mgs95j.bsp
+"""
+const m01_ext40_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext40_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext40_ssd_mro110c.bsp
+"""
+const m01_ext40_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext40_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext41.bsp
+"""
+const m01_ext41_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext41.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext41_ipng_mgs95j.bsp
+"""
+const m01_ext41_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext41_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext41_ssd_mro110c.bsp
+"""
+const m01_ext41_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext41_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext42.bsp
+"""
+const m01_ext42_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext42.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext42_ipng_mgs95j.bsp
+"""
+const m01_ext42_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext42_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext43.bsp
+"""
+const m01_ext43_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext43.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext43_ipng_mgs95j.bsp
+"""
+const m01_ext43_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext43_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext44.bsp
+"""
+const m01_ext44_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext44.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext44_ipng_mgs95j.bsp
+"""
+const m01_ext44_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext44_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext45.bsp
+"""
+const m01_ext45_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext45.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext45_ipng_mgs95j.bsp
+"""
+const m01_ext45_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext45_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext46.bsp
+"""
+const m01_ext46_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext46.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext46_ipng_mgs95j.bsp
+"""
+const m01_ext46_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext46_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext47.bsp
+"""
+const m01_ext47_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext47.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext47_ipng_mgs95j.bsp
+"""
+const m01_ext47_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext47_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext48.bsp
+"""
+const m01_ext48_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext48.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext48_ipng_mgs95j.bsp
+"""
+const m01_ext48_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext48_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext49.bsp
+"""
+const m01_ext49_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext49.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext49_ipng_mgs95j.bsp
+"""
+const m01_ext49_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext49_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext4_ipng_mgs95j.bsp
+"""
+const m01_ext4_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext4_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext4_ssd_mro110c.bsp
+"""
+const m01_ext4_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext4_ssd_mro110c.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4366,7 +2191,1087 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext5.bsp
 """
-const m01_ext9_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext5.bsp")
+const m01_ext5_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext5.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext50.bsp
+"""
+const m01_ext50_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext50.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext50_ipng_mgs95j.bsp
+"""
+const m01_ext50_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext50_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext51.bsp
+"""
+const m01_ext51_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext51.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext51_ipng_mgs95j.bsp
+"""
+const m01_ext51_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext51_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext52.bsp
+"""
+const m01_ext52_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext52.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext52_ipng_mgs95j.bsp
+"""
+const m01_ext52_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext52_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext53.bsp
+"""
+const m01_ext53_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext53.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext53_ipng_mgs95j.bsp
+"""
+const m01_ext53_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext53_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext54.bsp
+"""
+const m01_ext54_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext54.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext54_ipng_mgs95j.bsp
+"""
+const m01_ext54_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext54_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext55.bsp
+"""
+const m01_ext55_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext55.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext55_ipng_mgs95j.bsp
+"""
+const m01_ext55_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext55_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext56.bsp
+"""
+const m01_ext56_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext56.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext56_ipng_mgs95j.bsp
+"""
+const m01_ext56_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext56_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext57.bsp
+"""
+const m01_ext57_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext57.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext57_ipng_mgs95j.bsp
+"""
+const m01_ext57_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext57_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext58.bsp
+"""
+const m01_ext58_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext58.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext58_ipng_mgs95j.bsp
+"""
+const m01_ext58_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext58_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext59.bsp
+"""
+const m01_ext59_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext59.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext59_ipng_mgs95j.bsp
+"""
+const m01_ext59_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext59_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext5_ipng_mgs95j.bsp
+"""
+const m01_ext5_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext5_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext5_ssd_mro110c.bsp
+"""
+const m01_ext5_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext5_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext6.bsp
+"""
+const m01_ext6_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext6.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext60.bsp
+"""
+const m01_ext60_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext60.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext60_ipng_mgs95j.bsp
+"""
+const m01_ext60_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext60_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext61.bsp
+"""
+const m01_ext61_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext61.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext61_ipng_mgs95j.bsp
+"""
+const m01_ext61_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext61_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext62.bsp
+"""
+const m01_ext62_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext62.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext62_ipng_mgs95j.bsp
+"""
+const m01_ext62_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext62_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext63.bsp
+"""
+const m01_ext63_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext63.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext63_ipng_mgs95j.bsp
+"""
+const m01_ext63_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext63_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext64.bsp
+"""
+const m01_ext64_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext64.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext64_ipng_mgs95j.bsp
+"""
+const m01_ext64_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext64_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext65.bsp
+"""
+const m01_ext65_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext65.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext65_ipng_mgs95j.bsp
+"""
+const m01_ext65_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext65_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext66.bsp
+"""
+const m01_ext66_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext66.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext66_ipng_mgs95j.bsp
+"""
+const m01_ext66_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext66_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext67.bsp
+"""
+const m01_ext67_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext67.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext67_ipng_mgs95j.bsp
+"""
+const m01_ext67_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext67_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext68.bsp
+"""
+const m01_ext68_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext68.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext68_ipng_mgs95j.bsp
+"""
+const m01_ext68_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext68_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext69.bsp
+"""
+const m01_ext69_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext69.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext69_ipng_mgs95j.bsp
+"""
+const m01_ext69_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext69_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext6_ipng_mgs95j.bsp
+"""
+const m01_ext6_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext6_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext6_ssd_mro110c.bsp
+"""
+const m01_ext6_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext6_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext7.bsp
+"""
+const m01_ext7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext7.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext70.bsp
+"""
+const m01_ext70_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext70.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext70_ipng_mgs95j.bsp
+"""
+const m01_ext70_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext70_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext71.bsp
+"""
+const m01_ext71_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext71.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext71_ipng_mgs95j.bsp
+"""
+const m01_ext71_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext71_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext72.bsp
+"""
+const m01_ext72_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext72.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext72_ipng_mgs95j.bsp
+"""
+const m01_ext72_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext72_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext73.bsp
+"""
+const m01_ext73_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext73.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext73_ipng_mgs95j.bsp
+"""
+const m01_ext73_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext73_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext74.bsp
+"""
+const m01_ext74_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext74.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext74_ipng_mgs95j.bsp
+"""
+const m01_ext74_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext74_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext75.bsp
+"""
+const m01_ext75_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext75.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext75_ipng_mgs95j.bsp
+"""
+const m01_ext75_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext75_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext76.bsp
+"""
+const m01_ext76_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext76.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext76_ipng_mgs95j.bsp
+"""
+const m01_ext76_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext76_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext77.bsp
+"""
+const m01_ext77_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext77.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext77_ipng_mgs95j.bsp
+"""
+const m01_ext77_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext77_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext78.bsp
+"""
+const m01_ext78_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext78.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext78_ipng_mgs95j.bsp
+"""
+const m01_ext78_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext78_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext79.bsp
+"""
+const m01_ext79_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext79.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext7_ipng_mgs95j.bsp
+"""
+const m01_ext7_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext7_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext7_ssd_mro110c.bsp
+"""
+const m01_ext7_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext7_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext8.bsp
+"""
+const m01_ext8_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext8.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext8_ipng_mgs95j.bsp
+"""
+const m01_ext8_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext8_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext8_ssd_mro110c.bsp
+"""
+const m01_ext8_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext8_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext9.bsp
+"""
+const m01_ext9_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext9.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext9_ipng_mgs95j.bsp
+"""
+const m01_ext9_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext9_ipng_mgs95j.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4383,27 +3288,1138 @@ This kernel's link was sourced on 2024-09-24.
 """
 const m01_ext9_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_ext9_ssd_mro110c.bsp")
 
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map.bsp
+"""
+const m01_map_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1.bsp
+"""
+const m01_map1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map10.bsp
+"""
+const m01_map10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map10_ipng_mgs95j.bsp
+"""
+const m01_map10_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map10_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map10_ssd_mro110c.bsp
+"""
+const m01_map10_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map10_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map11.bsp
+"""
+const m01_map11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map11.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map11_ipng_mgs95j.bsp
+"""
+const m01_map11_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map11_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map11_ssd_mro110c.bsp
+"""
+const m01_map11_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map11_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1_ipng_mgs95j.bsp
+"""
+const m01_map1_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1_ssd_mro110c.bsp
+"""
+const m01_map1_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1_v2.bsp
+"""
+const m01_map1_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map1_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map2.bsp
+"""
+const m01_map2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map2_ipng_mgs95j.bsp
+"""
+const m01_map2_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map2_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map2_ssd_mro110c.bsp
+"""
+const m01_map2_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map2_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map3.bsp
+"""
+const m01_map3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map3.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map3_ipng_mgs95j.bsp
+"""
+const m01_map3_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map3_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map3_ssd_mro110c.bsp
+"""
+const m01_map3_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map3_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map4.bsp
+"""
+const m01_map4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map4.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map4_ipng_mgs95j.bsp
+"""
+const m01_map4_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map4_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map4_ssd_mro110c.bsp
+"""
+const m01_map4_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map4_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map5.bsp
+"""
+const m01_map5_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map5.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map5_ipng_mgs95j.bsp
+"""
+const m01_map5_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map5_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map5_ssd_mro110c.bsp
+"""
+const m01_map5_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map5_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map6.bsp
+"""
+const m01_map6_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map6.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map6_ipng_mgs95j.bsp
+"""
+const m01_map6_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map6_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map6_ssd_mro110c.bsp
+"""
+const m01_map6_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map6_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map7.bsp
+"""
+const m01_map7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map7.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map7_ipng_mgs95j.bsp
+"""
+const m01_map7_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map7_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map7_ssd_mro110c.bsp
+"""
+const m01_map7_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map7_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map8.bsp
+"""
+const m01_map8_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map8.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map8_ipng_mgs95j.bsp
+"""
+const m01_map8_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map8_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map8_ssd_mro110c.bsp
+"""
+const m01_map8_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map8_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map9.bsp
+"""
+const m01_map9_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map9.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map9_ipng_mgs95j.bsp
+"""
+const m01_map9_ipng_mgs95j_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map9_ipng_mgs95j.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map9_ssd_mro110c.bsp
+"""
+const m01_map9_ssd_mro110c_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map9_ssd_mro110c.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map_rec.bsp
+"""
+const m01_map_rec_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_map_rec.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_struct_v10.bsp
+"""
+const m01_struct_v10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/m01_struct_v10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/mar033-5.bsp
+"""
+const mar033_5_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/mar033-5.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/mar033_2000-2025.bsp
+"""
+const mar033_2000_2025_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/mar033_2000-2025.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/mar063.bsp
+"""
+const mar063_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/mar063.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100004-100008_100349_v1.bsp
+"""
+const spk_m_od100004_100008_100349_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100004-100008_100349_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100025-100123_rec_v1.bsp
+"""
+const spk_m_od100025_100123_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100025-100123_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100083-100089_101211_v1.bsp
+"""
+const spk_m_od100083_100089_101211_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100083-100089_101211_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100122-100210_rec_v1.bsp
+"""
+const spk_m_od100122_100210_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100122-100210_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100169-100174_100519_v1.bsp
+"""
+const spk_m_od100169_100174_100519_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100169-100174_100519_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100208-100309_rec_v1.bsp
+"""
+const spk_m_od100208_100309_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100208-100309_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100258-100261_101745_v1.bsp
+"""
+const spk_m_od100258_100261_101745_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100258-100261_101745_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100307-100388_rec_v1.bsp
+"""
+const spk_m_od100307_100388_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100307-100388_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100352-100356_100689_v1.bsp
+"""
+const spk_m_od100352_100356_100689_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100352-100356_100689_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100387-100477_rec_v1.bsp
+"""
+const spk_m_od100387_100477_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100387-100477_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100431-100436_101551_v1.bsp
+"""
+const spk_m_od100431_100436_101551_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100431-100436_101551_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100475-100561_rec_v1.bsp
+"""
+const spk_m_od100475_100561_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100475-100561_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100521-100526_100859_v1.bsp
+"""
+const spk_m_od100521_100526_100859_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100521-100526_100859_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100558-100630_rec_v1.bsp
+"""
+const spk_m_od100558_100630_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100558-100630_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100606-100611_102085_v1.bsp
+"""
+const spk_m_od100606_100611_102085_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100606-100611_102085_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100629-100727_rec_v1.bsp
+"""
+const spk_m_od100629_100727_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100629-100727_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100690-100696_101029_v1.bsp
+"""
+const spk_m_od100690_100696_101029_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100690-100696_101029_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100726-100812_rec_v1.bsp
+"""
+const spk_m_od100726_100812_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100726-100812_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100789-100792_101891_v1.bsp
+"""
+const spk_m_od100789_100792_101891_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100789-100792_101891_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100811-100901_rec_v1.bsp
+"""
+const spk_m_od100811_100901_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100811-100901_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100860-100864_101199_v1.bsp
+"""
+const spk_m_od100860_100864_101199_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100860-100864_101199_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100900-100985_rec_v1.bsp
+"""
+const spk_m_od100900_100985_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100900-100985_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100941-100947_102425_v1.bsp
+"""
+const spk_m_od100941_100947_102425_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od100941-100947_102425_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od101031-101034_101369_v1.bsp
+"""
+const spk_m_od101031_101034_101369_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od101031-101034_101369_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od180521-310101_180522.bsp
+"""
+const spk_m_od180521_310101_180522_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od180521-310101_180522.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od99958-100026_rec_v1.bsp
+"""
+const spk_m_od99958_100026_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/kernels/spk/spk_m_od99958-100026_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/css_horizons_141110.bsp
+"""
+const css_horizons_141110_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/css_horizons_141110.bsp")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/mars_3389.tpc
+"""
+const mars_3389_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/mars_3389.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir.bsp
+"""
+const siding_spring_dir_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir_2.bsp
+"""
+const siding_spring_dir_2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir_2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir_3.bsp
+"""
+const siding_spring_dir_3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir_3.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir_4.bsp
+"""
+const siding_spring_dir_4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_dir_4.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_names.tf
+"""
+const siding_spring_names_tf = FK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_names.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_names_3.tf
+"""
+const siding_spring_names_3_tf = FK("https://naif.jpl.nasa.gov/pub/naif/M01/misc/ss/siding_spring_names_3.tf")
+
 export
-    css_horizons_141110_bsp_spk,
+    css_horizons_141110_bsp,
     de405s_bsp,
     m01_ab_bsp,
     m01_ab_v2_bsp,
-    m01_ext10_bsp_spk,
+    m01_cruise_bsp,
+    m01_ext10_bsp,
     m01_ext10_ipng_mgs95j_bsp,
     m01_ext10_ssd_mro110c_bsp,
     m01_ext11_bsp,
     m01_ext11_ipng_mgs95j_bsp,
     m01_ext11_ssd_mro110c_bsp,
-    m01_ext12_bsp_spk,
+    m01_ext12_bsp,
     m01_ext12_ipng_mgs95j_bsp,
-    m01_ext12_ssd_mro110c_bsp_spk,
-    m01_ext13_bsp_spk,
-    m01_ext13_ipng_mgs95j_bsp_spk,
-    m01_ext13_ssd_mro110c_bsp_spk,
-    m01_ext14_bsp_spk,
+    m01_ext12_ssd_mro110c_bsp,
+    m01_ext13_bsp,
+    m01_ext13_ipng_mgs95j_bsp,
+    m01_ext13_ssd_mro110c_bsp,
+    m01_ext14_bsp,
     m01_ext14_ipng_mgs95j_bsp,
-    m01_ext14_ssd_mro110c_bsp_spk,
-    m01_ext15_bsp_spk,
+    m01_ext14_ssd_mro110c_bsp,
+    m01_ext15_bsp,
     m01_ext15_ipng_mgs95j_bsp,
     m01_ext15_ssd_mro110c_bsp,
     m01_ext16_bsp,
@@ -4416,7 +4432,10 @@ export
     m01_ext18_ipng_mgs95j_bsp,
     m01_ext18_ssd_mro110c_bsp,
     m01_ext19_bsp,
-    m01_ext1_bsp_spk,
+    m01_ext19_ipng_mgs95j_bsp,
+    m01_ext19_ssd_mro110c_bsp,
+    m01_ext1_bsp,
+    m01_ext1_ipng_mgs95j_bsp,
     m01_ext1_ssd_mro110c_bsp,
     m01_ext20_bsp,
     m01_ext20_ipng_mgs95j_bsp,
@@ -4424,7 +4443,6 @@ export
     m01_ext21_bsp,
     m01_ext21_ipng_mgs95j_bsp,
     m01_ext21_ssd_mro110c_bsp,
-    m01_ext22_bsp,
     m01_ext22_bsp,
     m01_ext22_ipng_mgs95j_bsp,
     m01_ext22_ssd_mro110c_bsp,
@@ -4436,10 +4454,18 @@ export
     m01_ext24_ssd_mro110c_bsp,
     m01_ext25_bsp,
     m01_ext25_ipng_mgs95j_bsp,
-    m01_ext28_bsp_fk,
-    m01_ext28_ipng_mgs95j_bsp_fk,
+    m01_ext25_ssd_mro110c_bsp,
+    m01_ext26_bsp,
+    m01_ext26_ipng_mgs95j_bsp,
+    m01_ext26_ssd_mro110c_bsp,
+    m01_ext27_bsp,
+    m01_ext27_ipng_mgs95j_bsp,
+    m01_ext27_ssd_mro110c_bsp,
+    m01_ext28_bsp,
+    m01_ext28_ipng_mgs95j_bsp,
     m01_ext28_ssd_mro110c_bsp,
     m01_ext29_bsp,
+    m01_ext29_ipng_mgs95j_bsp,
     m01_ext29_ssd_mro110c_bsp,
     m01_ext2_bsp,
     m01_ext2_ipng_mgs95j_bsp,
@@ -4449,20 +4475,23 @@ export
     m01_ext30_ssd_mro110c_bsp,
     m01_ext31_bsp,
     m01_ext31_ipng_mgs95j_bsp,
-    m01_ext31_ipng_mgs95j_bsp,
-    m01_ext31_ssd_mro110c_bsp,
     m01_ext31_ssd_mro110c_bsp,
     m01_ext32_bsp,
-    m01_ext32_ipng_mgs95j_bsp_spk,
-    m01_ext32_ssd_mro110c_bsp_spk,
-    m01_ext33_bsp_spk,
-    m01_ext33_ipng_mgs95j_bsp_spk,
-    m01_ext33_ssd_mro110c_bsp_spk,
+    m01_ext32_ipng_mgs95j_bsp,
+    m01_ext32_ssd_mro110c_bsp,
+    m01_ext33_bsp,
+    m01_ext33_ipng_mgs95j_bsp,
+    m01_ext33_ssd_mro110c_bsp,
     m01_ext34_bsp,
+    m01_ext34_ipng_mgs95j_bsp,
     m01_ext34_ssd_mro110c_bsp,
+    m01_ext35_bsp,
+    m01_ext35_ipng_mgs95j_bsp,
     m01_ext35_ssd_mro110c_bsp,
     m01_ext36_bsp,
+    m01_ext36_ipng_mgs95j_bsp,
     m01_ext36_ssd_mro110c_bsp,
+    m01_ext37_bsp,
     m01_ext37_ipng_mgs95j_bsp,
     m01_ext37_ssd_mro110c_bsp,
     m01_ext38_bsp,
@@ -4470,19 +4499,14 @@ export
     m01_ext38_ssd_mro110c_bsp,
     m01_ext39_bsp,
     m01_ext39_ipng_mgs95j_bsp,
-    m01_ext39_ssd_mro110c_bsp_spk,
+    m01_ext39_ssd_mro110c_bsp,
     m01_ext3_bsp,
     m01_ext3_ipng_mgs95j_bsp,
-    m01_ext3_ssd_mro110c_bsp_spk,
-    m01_ext40_bsp,
+    m01_ext3_ssd_mro110c_bsp,
     m01_ext40_bsp,
     m01_ext40_ipng_mgs95j_bsp,
-    m01_ext40_ipng_mgs95j_bsp,
-    m01_ext40_ssd_mro110c_bsp,
     m01_ext40_ssd_mro110c_bsp,
     m01_ext41_bsp,
-    m01_ext41_bsp,
-    m01_ext41_ipng_mgs95j_bsp,
     m01_ext41_ipng_mgs95j_bsp,
     m01_ext41_ssd_mro110c_bsp,
     m01_ext42_bsp,
@@ -4492,9 +4516,12 @@ export
     m01_ext44_bsp,
     m01_ext44_ipng_mgs95j_bsp,
     m01_ext45_bsp,
-    m01_ext46_ipng_mgs95j_bsp_spk,
-    m01_ext47_bsp_spk,
-    m01_ext47_ipng_mgs95j_bsp_spk,
+    m01_ext45_ipng_mgs95j_bsp,
+    m01_ext46_bsp,
+    m01_ext46_ipng_mgs95j_bsp,
+    m01_ext47_bsp,
+    m01_ext47_ipng_mgs95j_bsp,
+    m01_ext48_bsp,
     m01_ext48_ipng_mgs95j_bsp,
     m01_ext49_bsp,
     m01_ext49_ipng_mgs95j_bsp,
@@ -4502,24 +4529,14 @@ export
     m01_ext4_ipng_mgs95j_bsp,
     m01_ext4_ssd_mro110c_bsp,
     m01_ext50_bsp,
-    m01_ext50_bsp,
-    m01_ext50_bsp,
-    m01_ext50_ipng_mgs95j_bsp_spk,
-    m01_ext50_ipng_mgs95j_bsp_spk,
-    m01_ext50_ipng_mgs95j_bsp_spk_fk,
-    m01_ext51_bsp,
+    m01_ext50_ipng_mgs95j_bsp,
     m01_ext51_bsp,
     m01_ext51_ipng_mgs95j_bsp,
-    m01_ext51_ipng_mgs95j_bsp,
     m01_ext52_bsp,
-    m01_ext52_bsp,
-    m01_ext52_bsp_fk,
-    m01_ext52_ipng_mgs95j_bsp_spk,
-    m01_ext52_ipng_mgs95j_bsp_spk_spk,
+    m01_ext52_ipng_mgs95j_bsp,
     m01_ext53_bsp,
-    m01_ext53_bsp_spk,
     m01_ext53_ipng_mgs95j_bsp,
-    m01_ext54_bsp_fk,
+    m01_ext54_bsp,
     m01_ext54_ipng_mgs95j_bsp,
     m01_ext55_bsp,
     m01_ext55_ipng_mgs95j_bsp,
@@ -4530,6 +4547,7 @@ export
     m01_ext58_bsp,
     m01_ext58_ipng_mgs95j_bsp,
     m01_ext59_bsp,
+    m01_ext59_ipng_mgs95j_bsp,
     m01_ext5_bsp,
     m01_ext5_ipng_mgs95j_bsp,
     m01_ext5_ssd_mro110c_bsp,
@@ -4538,33 +4556,23 @@ export
     m01_ext61_bsp,
     m01_ext61_ipng_mgs95j_bsp,
     m01_ext62_bsp,
-    m01_ext62_bsp,
-    m01_ext62_ipng_mgs95j_bsp,
     m01_ext62_ipng_mgs95j_bsp,
     m01_ext63_bsp,
-    m01_ext63_bsp,
-    m01_ext63_ipng_mgs95j_bsp,
     m01_ext63_ipng_mgs95j_bsp,
     m01_ext64_bsp,
     m01_ext64_ipng_mgs95j_bsp,
     m01_ext65_bsp,
-    m01_ext65_bsp,
     m01_ext65_ipng_mgs95j_bsp,
-    m01_ext65_ipng_mgs95j_bsp,
-    m01_ext66_bsp,
     m01_ext66_bsp,
     m01_ext66_ipng_mgs95j_bsp,
     m01_ext67_bsp,
-    m01_ext67_bsp,
-    m01_ext67_ipng_mgs95j_bsp_spk,
-    m01_ext67_ipng_mgs95j_bsp_spk,
-    m01_ext68_bsp_spk,
-    m01_ext68_bsp_spk_spk,
-    m01_ext68_ipng_mgs95j_bsp_spk,
-    m01_ext69_bsp_spk,
-    m01_ext69_ipng_mgs95j_bsp_spk,
+    m01_ext67_ipng_mgs95j_bsp,
+    m01_ext68_bsp,
+    m01_ext68_ipng_mgs95j_bsp,
+    m01_ext69_bsp,
+    m01_ext69_ipng_mgs95j_bsp,
     m01_ext6_bsp,
-    m01_ext6_ipng_mgs95j_bsp_spk,
+    m01_ext6_ipng_mgs95j_bsp,
     m01_ext6_ssd_mro110c_bsp,
     m01_ext70_bsp,
     m01_ext70_ipng_mgs95j_bsp,
@@ -4574,39 +4582,37 @@ export
     m01_ext72_ipng_mgs95j_bsp,
     m01_ext73_bsp,
     m01_ext73_ipng_mgs95j_bsp,
-    m01_ext74_bsp_spk,
-    m01_ext74_ipng_mgs95j_bsp_spk,
+    m01_ext74_bsp,
+    m01_ext74_ipng_mgs95j_bsp,
     m01_ext75_bsp,
     m01_ext75_ipng_mgs95j_bsp,
     m01_ext76_bsp,
     m01_ext76_ipng_mgs95j_bsp,
     m01_ext77_bsp,
     m01_ext77_ipng_mgs95j_bsp,
-    m01_ext77_ipng_mgs95j_bsp,
-    m01_ext77_ipng_mgs95j_bsp,
-    m01_ext78_bsp_spk,
-    m01_ext78_ipng_mgs95j_bsp_spk,
-    m01_ext79_bsp_spk,
+    m01_ext78_bsp,
+    m01_ext78_ipng_mgs95j_bsp,
+    m01_ext79_bsp,
     m01_ext7_bsp,
-    m01_ext7_ipng_mgs95j_bsp_spk,
-    m01_ext7_ipng_mgs95j_bsp_spk_spk,
-    m01_ext7_ssd_mro110c_bsp_pck,
-    m01_ext7_ssd_mro110c_bsp_pck_spk,
-    m01_ext8_bsp_spk,
-    m01_ext8_ipng_mgs95j_bsp,
+    m01_ext7_ipng_mgs95j_bsp,
+    m01_ext7_ssd_mro110c_bsp,
+    m01_ext8_bsp,
     m01_ext8_ipng_mgs95j_bsp,
     m01_ext8_ssd_mro110c_bsp,
     m01_ext9_bsp,
     m01_ext9_ipng_mgs95j_bsp,
-    m01_ext9_ipng_mgs95j_bsp,
     m01_ext9_ssd_mro110c_bsp,
-    m01_ext9_ssd_mro110c_bsp,
-    m01_ext9_ssd_mro110c_bsp,
-    m01_ext9_ssd_mro110c_bsp,
-    m01_map10_ipng_mgs95j_bsp_fk,
-    m01_map10_ssd_mro110c_bsp_fk,
+    m01_map10_bsp,
+    m01_map10_ipng_mgs95j_bsp,
+    m01_map10_ssd_mro110c_bsp,
+    m01_map11_bsp,
+    m01_map11_ipng_mgs95j_bsp,
+    m01_map11_ssd_mro110c_bsp,
+    m01_map1_bsp,
     m01_map1_ipng_mgs95j_bsp,
+    m01_map1_ssd_mro110c_bsp,
     m01_map1_v2_bsp,
+    m01_map2_bsp,
     m01_map2_ipng_mgs95j_bsp,
     m01_map2_ssd_mro110c_bsp,
     m01_map3_bsp,
@@ -4623,13 +4629,17 @@ export
     m01_map6_ssd_mro110c_bsp,
     m01_map7_bsp,
     m01_map7_ipng_mgs95j_bsp,
-    m01_map7_ssd_mro110c_bsp_spk,
-    m01_map8_ipng_mgs95j_bsp_spk,
-    m01_map8_ssd_mro110c_bsp_spk,
-    m01_map9_bsp_spk,
-    m01_map9_ipng_mgs95j_bsp_spk,
-    m01_map9_ssd_mro110c_bsp_spk,
-    m01_struct_v10_bsp_spk,
+    m01_map7_ssd_mro110c_bsp,
+    m01_map8_bsp,
+    m01_map8_ipng_mgs95j_bsp,
+    m01_map8_ssd_mro110c_bsp,
+    m01_map9_bsp,
+    m01_map9_ipng_mgs95j_bsp,
+    m01_map9_ssd_mro110c_bsp,
+    m01_map_bsp,
+    m01_map_rec_bsp,
+    m01_struct_v10_bsp,
+    m01_v11_tf,
     m01_v20_tf,
     m01_v21_tf,
     m01_v22_tf,
@@ -4638,13 +4648,12 @@ export
     m01_v26_tf,
     m01_v27_tf,
     m01_v28_tf,
-    m01_v28_tf,
-    mar033_5_bsp_spk,
-    mars_3389_tpc_spk,
+    mar033_2000_2025_bsp,
+    mar033_5_bsp,
+    mar063_bsp,
+    mars_3389_tpc,
     mars_iau2000_v0_tpc,
     naif0007_tls,
-    naif0007_tls,
-    naif0008_tls,
     naif0008_tls,
     naif0009_tls,
     naif0010_tls,
@@ -4652,16 +4661,21 @@ export
     naif0012_tls,
     pck00009_tpc,
     siding_spring_dir_2_bsp,
+    siding_spring_dir_3_bsp,
     siding_spring_dir_4_bsp,
-    siding_spring_names_3_tf_spk,
-    siding_spring_names_tf_spk,
-    spk_m_od100025_100123_rec_v1_bsp_spk,
-    spk_m_od100083_100089_101211_v1_bsp_spk,
-    spk_m_od100122_100210_rec_v1_bsp_spk,
-    spk_m_od100169_100174_100519_v1_bsp_spk,
-    spk_m_od100208_100309_rec_v1_bsp_spk,
-    spk_m_od100258_100261_101745_v1_bsp_spk,
+    siding_spring_dir_bsp,
+    siding_spring_names_3_tf,
+    siding_spring_names_tf,
+    spk_m_od100004_100008_100349_v1_bsp,
+    spk_m_od100025_100123_rec_v1_bsp,
+    spk_m_od100083_100089_101211_v1_bsp,
+    spk_m_od100122_100210_rec_v1_bsp,
+    spk_m_od100169_100174_100519_v1_bsp,
+    spk_m_od100208_100309_rec_v1_bsp,
+    spk_m_od100258_100261_101745_v1_bsp,
     spk_m_od100307_100388_rec_v1_bsp,
+    spk_m_od100352_100356_100689_v1_bsp,
+    spk_m_od100387_100477_rec_v1_bsp,
     spk_m_od100431_100436_101551_v1_bsp,
     spk_m_od100475_100561_rec_v1_bsp,
     spk_m_od100521_100526_100859_v1_bsp,
@@ -4669,10 +4683,12 @@ export
     spk_m_od100606_100611_102085_v1_bsp,
     spk_m_od100629_100727_rec_v1_bsp,
     spk_m_od100690_100696_101029_v1_bsp,
-    spk_m_od100726_100812_rec_v1_bsp_spk,
-    spk_m_od100789_100792_101891_v1_bsp_spk,
+    spk_m_od100726_100812_rec_v1_bsp,
+    spk_m_od100789_100792_101891_v1_bsp,
     spk_m_od100811_100901_rec_v1_bsp,
     spk_m_od100860_100864_101199_v1_bsp,
     spk_m_od100900_100985_rec_v1_bsp,
-    spk_m_od180521_310101_180522_bsp_spk,
-    spk_m_od99958_100026_rec_v1_bsp_spk
+    spk_m_od100941_100947_102425_v1_bsp,
+    spk_m_od101031_101034_101369_v1_bsp,
+    spk_m_od180521_310101_180522_bsp,
+    spk_m_od99958_100026_rec_v1_bsp

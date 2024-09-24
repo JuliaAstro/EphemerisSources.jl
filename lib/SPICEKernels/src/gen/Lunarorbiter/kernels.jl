@@ -4,36 +4,6 @@
 
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo2_ssd_lp150q.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo5_ssd_lp150q.bsp
-"""
-const lo4_ssd_lp150q_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo5_ssd_lp150q.bsp")
-const lo4_ssd_lp150q_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo2_ssd_lp150q.bsp")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -46,22 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/fk/lo_naif_ids.tf
 """
-const lo4_ssd_lp150q_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/fk/lo_naif_ids.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo4_ssd_lp150q.bsp
-"""
-const lo1_ssd_lp150q_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo4_ssd_lp150q.bsp")
+const lo_naif_ids_tf = FK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/fk/lo_naif_ids.tf")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -76,6 +31,22 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo1_ssd_lp150q.bsp
 """
+const lo1_ssd_lp150q_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo1_ssd_lp150q.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo2_ssd_lp150q.bsp
+"""
+const lo2_ssd_lp150q_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo2_ssd_lp150q.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -90,8 +61,22 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo3_ssd_lp150q.bsp
 """
-const lo4_ssd_lp150q_v2_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo3_ssd_lp150q.bsp")
-const lo4_ssd_lp150q_v2_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo1_ssd_lp150q.bsp")
+const lo3_ssd_lp150q_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo3_ssd_lp150q.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo4_ssd_lp150q.bsp
+"""
+const lo4_ssd_lp150q_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo4_ssd_lp150q.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -106,13 +91,28 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo4_ssd_lp150q_v2.bsp
 """
-const lo4_ssd_lp150q_v2_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo4_ssd_lp150q_v2.bsp")
+const lo4_ssd_lp150q_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo4_ssd_lp150q_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo5_ssd_lp150q.bsp
+"""
+const lo5_ssd_lp150q_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LUNARORBITER/kernels/spk/lo5_ssd_lp150q.bsp")
 
 export
     lo1_ssd_lp150q_bsp,
+    lo2_ssd_lp150q_bsp,
+    lo3_ssd_lp150q_bsp,
     lo4_ssd_lp150q_bsp,
-    lo4_ssd_lp150q_bsp,
-    lo4_ssd_lp150q_bsp,
-    lo4_ssd_lp150q_v2_bsp_spk,
-    lo4_ssd_lp150q_v2_bsp_spk_spk,
-    lo4_ssd_lp150q_v2_bsp_spk_spk
+    lo4_ssd_lp150q_v2_bsp,
+    lo5_ssd_lp150q_bsp,
+    lo_naif_ids_tf

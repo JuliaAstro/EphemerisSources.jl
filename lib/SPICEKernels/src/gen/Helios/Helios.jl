@@ -4,7 +4,7 @@
 
 
 """
-All _100607R_helios2_76016_80068_bsp_spk kernels, linked from https://naif.jpl.nasa.gov.
+All HELIOS kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Helios
 

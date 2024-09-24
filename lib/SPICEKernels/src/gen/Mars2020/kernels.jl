@@ -4,20 +4,6 @@
 
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchive/m2020_surf_rover_tlm_0000_0089_v1.bsp
-"""
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -30,52 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020.tf
 """
-const m2020_surf_rover_tlm_0419_0539_v1_bsp_fk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchive/m2020_surf_rover_tlm_0000_0089_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0419_0539_v1.bsp
-"""
-const m2020_surf_rover_tlm_0419_0539_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020.tf")
-const m2020_surf_rover_tlm_0419_0539_v1_bsp_fk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0419_0539_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_nom_nes_v2.bsp
-"""
-const m2020_surf_rover_tlm_0539_0659_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_nom_nes_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel2/m2020_surf_rover_loc_0089_0179_v1.bsp
-"""
+const m2020_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -90,52 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_clh_iau2000_v1.tf
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0539_0659_v1.bsp
-"""
-const m2020_cruise_od138_v1_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel2/m2020_surf_rover_loc_0089_0179_v1.bsp")
-const m2020_cruise_od138_v1_bsp_spk_spk = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_clh_iau2000_v1.tf")
-const m2020_cruise_od138_v1_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0539_0659_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_od138_v1.bsp
-"""
-const m2020_surf_rover_tlm_0659_0779_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_od138_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0659_0779_v1.bsp
-"""
+const m2020_tp_clh_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_clh_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -150,52 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_clh_iau2000_v2.tf
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel2/m2020_surf_rover_tlm_0089_0179_v1.bsp
-"""
-const m2020_edl_nom_clh_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0659_0779_v1.bsp")
-const m2020_edl_nom_clh_v2_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_clh_iau2000_v2.tf")
-const m2020_edl_nom_clh_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel2/m2020_surf_rover_tlm_0089_0179_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_nom_clh_v2.bsp
-"""
-const m2020_surf_rover_loc_0179_0299_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_nom_clh_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0779_0899_v1.bsp
-"""
+const m2020_tp_clh_iau2000_v2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_clh_iau2000_v2.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -210,52 +61,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_jez_iau2000_v1.tf
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel3/m2020_surf_rover_loc_0179_0299_v1.bsp
-"""
-const m2020_edl_nom_jez_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0779_0899_v1.bsp")
-const m2020_edl_nom_jez_v2_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_jez_iau2000_v1.tf")
-const m2020_edl_nom_jez_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel3/m2020_surf_rover_loc_0179_0299_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_nom_jez_v2.bsp
-"""
-const m2020_surf_rover_tlm_0179_0299_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_nom_jez_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0899_1019_v1.bsp
-"""
+const m2020_tp_jez_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_jez_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -270,52 +76,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_jez_iau2000_v2.tf
 """
-const m2020_edl_nom_nes_v2_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_jez_iau2000_v2.tf")
-const m2020_edl_nom_nes_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0899_1019_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel3/m2020_surf_rover_tlm_0179_0299_v1.bsp
-"""
-const m2020_tp_jez_iau2000_v3_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel3/m2020_surf_rover_tlm_0179_0299_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_nom_nes_v2.bsp
-"""
-const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_nom_nes_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_1019_1139_v1.bsp
-"""
+const m2020_tp_jez_iau2000_v2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_jez_iau2000_v2.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -330,38 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_jez_iau2000_v3.tf
 """
-const m2020_edl_v01_bsp_spk = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_jez_iau2000_v3.tf")
-const m2020_edl_v01_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_1019_1139_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes/m2020_surf_rover_loc.bsp
-"""
-const m2020_trajCEDLS_6DOF_ops_od020v1_AL23_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes/m2020_surf_rover_loc.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_v01.bsp
-"""
-const m2020_surf_rover_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_v01.bsp")
+const m2020_tp_jez_iau2000_v3_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_jez_iau2000_v3.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -376,66 +106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_jez_iau2000_v4.tf
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_trajCEDLS-6DOF_ops_od020v1_AL23.bsp
-"""
-const m2020_ls_clh_iau2000_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_jez_iau2000_v4.tf")
-const m2020_ls_clh_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_trajCEDLS-6DOF_ops_od020v1_AL23.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211014/m2020_surf_rover_runout.bsp
-"""
-const m2020_trajCEDLS_6DOF_ops_od069v1_AL4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211014/m2020_surf_rover_runout.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_clh_iau2000_v1.bsp
-"""
-const m2020_surf_rover_tlm_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_clh_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_trajCEDLS-6DOF_ops_od069v1_AL4.bsp
-"""
+const m2020_tp_jez_iau2000_v4_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_jez_iau2000_v4.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -450,53 +121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_nes_iau2000_v1.tf
 """
-const m2020_ls_clh_iau2000_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_trajCEDLS-6DOF_ops_od069v1_AL4.bsp")
-const m2020_ls_clh_iau2000_v2_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_nes_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211014/m2020_surf_rover_tlm.bsp
-"""
-const m2020_tp_nes_iau2000_v2_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211014/m2020_surf_rover_tlm.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_clh_iau2000_v2.bsp
-"""
-const m2020_surf_rover_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_clh_iau2000_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/mar097.bsp
-"""
-const m2020_ls_jez_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/mar097.bsp")
+const m2020_tp_nes_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_nes_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -511,52 +136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_nes_iau2000_v2.tf
 """
-const m2020_ls_jez_iau2000_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_nes_iau2000_v2.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211018/m2020_surf_rover_runout.bsp
-"""
-const m2020_tp_ops210303_iau2000_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211018/m2020_surf_rover_runout.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v1.bsp
-"""
-const m2020_surf_rover_tlm_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/mar097s.bsp
-"""
-const m2020_ls_jez_iau2000_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/mar097s.bsp")
+const m2020_tp_nes_iau2000_v2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_nes_iau2000_v2.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -571,52 +151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_ops210303_iau2000_v1.tf
 """
-const de438s_w_mar097_mars_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_ops210303_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211018/m2020_surf_rover_tlm.bsp
-"""
-const m2020_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211018/m2020_surf_rover_tlm.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v2.bsp
-"""
-const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/cpong/de438s_w_mar097_mars.bsp
-"""
-const m2020_ls_jez_iau2000_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/cpong/de438s_w_mar097_mars.bsp")
+const m2020_tp_ops210303_iau2000_v1_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_tp_ops210303_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -631,51 +166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_v01.tf
 """
-const de438_2015_2050_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_loc.bsp
-"""
-const m2020_v02_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_loc.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v3.bsp
-"""
-const m2020_surf_rover_loc_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v3.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/fridenhour/de438_2015_2050.bsp
-"""
+const m2020_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -690,52 +181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_v02.tf
 """
-const m2020_ls_jez_iau2000_v4_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/fridenhour/de438_2015_2050.bsp")
-const m2020_ls_jez_iau2000_v4_bsp_spk = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_v02.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_loc_runout.bsp
-"""
-const m2020_v04_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_loc_runout.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v4.bsp
-"""
-const m2020_surf_rover_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/fridenhour/mar097_2015_2050.bsp
-"""
+const m2020_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -750,52 +196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_v04.tf
 """
-const m2020_ls_nes_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/fridenhour/mar097_2015_2050.bsp")
-const m2020_ls_nes_iau2000_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_v04.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_runout.bsp
-"""
-const m2020_v03_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_runout.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_nes_iau2000_v1.bsp
-"""
-const m2020_surf_rover_tlm_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_nes_iau2000_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/hlee/m2020_v03.tf
-"""
+const m2020_v04_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/fk/m2020_v04.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -810,38 +211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/lsk/m2020.tls
 """
-const m2020_ls_nes_iau2000_v2_bsp_lsk = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/hlee/m2020_v03.tf")
-const m2020_ls_nes_iau2000_v2_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/lsk/m2020.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_tlm.bsp
-"""
-const m2020_surf_rover_loc_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_tlm.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_nes_iau2000_v2.bsp
-"""
-const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_nes_iau2000_v2.bsp")
+const m2020_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/lsk/m2020.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -856,66 +226,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/lsk/naif0012.tls
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jarballo/m2020_surf_rover_loc.bsp
-"""
-const m2020_ls_ops210303_iau2000_v1_bsp_spk = LSK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/lsk/naif0012.tls")
-const m2020_ls_ops210303_iau2000_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jarballo/m2020_surf_rover_loc.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_loc.bsp
-"""
-const m2020_surf_rover_loc_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_loc.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_ops210303_iau2000_v1.bsp
-"""
-const m2020_surf_rover_loc_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_ops210303_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jarballo/m2020_surf_rover_loc_runout.bsp
-"""
+const naif0012_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/lsk/naif0012.tls")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -930,52 +241,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/pck/pck00010.tpc
 """
-const m2020_struct_v01_bsp_pck = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jarballo/m2020_surf_rover_loc_runout.bsp")
-const m2020_struct_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/pck/pck00010.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_loc_runout.bsp
-"""
-const de430s_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_loc_runout.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_struct_v01.bsp
-"""
-const m2020_surf_rover_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_struct_v01.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200717_P000.cruise.bsp
-"""
+const pck00010_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/pck/pck00010.tpc")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -990,37 +256,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/de430s.bsp
 """
-const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/de430s.bsp")
-const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200717_P000.cruise.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_runout.bsp
-"""
-const m2020_FMAresponse_JEZ_20200717_P000_edl_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_runout.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200717_P000.edl.bsp
-"""
+const de430s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/de430s.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1035,52 +271,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/de438s.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc.bsp
-"""
-const m2020_surf_rover_tlm_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/de438s.bsp")
-const m2020_surf_rover_tlm_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200717_P000.edl.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_tlm.bsp
-"""
-const m2020_surf_rover_tlm_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc.bsp")
-const m2020_surf_rover_tlm_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_tlm.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200815_P000.cruise.bsp
-"""
+const de438s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/de438s.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1095,52 +286,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_FMAresponse_JEZ_20200717_P000.cruise.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/msullivan/220608/m2020_surf_rover_loc.bsp
-"""
-const m2020_surf_rover_loc_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200815_P000.cruise.bsp")
-const m2020_surf_rover_loc_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_FMAresponse_JEZ_20200717_P000.cruise.bsp")
-const m2020_surf_rover_loc_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/msullivan/220608/m2020_surf_rover_loc.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0000_0089_v1.bsp
-"""
-const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0000_0089_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200815_P000.edl.bsp
-"""
+const m2020_FMAresponse_JEZ_20200717_P000_cruise_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_FMAresponse_JEZ_20200717_P000.cruise.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1155,38 +301,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_FMAresponse_JEZ_20200717_P000.edl.bsp
 """
-const m2020_surf_rover_loc_0089_0179_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200815_P000.edl.bsp")
-const m2020_surf_rover_loc_0089_0179_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_FMAresponse_JEZ_20200717_P000.edl.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/msullivan/220920/m2020_surf_rover_loc.bsp
-"""
-const m2020_atls_TestSurfOnlyJez190404_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/msullivan/220920/m2020_surf_rover_loc.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0089_0179_v1.bsp
-"""
-const m2020_struct_rimfax_draft1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0089_0179_v1.bsp")
+const m2020_FMAresponse_JEZ_20200717_P000_edl_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_FMAresponse_JEZ_20200717_P000.edl.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1201,66 +316,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_TestSurfOnlyJez190404_v1.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_trajCEDLS-6DOF_ops_od005v1_AL123_LatCal_v4.bsp
-"""
-const m2020_surf_rover_loc_0179_0299_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_TestSurfOnlyJez190404_v1.bsp")
-const m2020_surf_rover_loc_0179_0299_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_trajCEDLS-6DOF_ops_od005v1_AL123_LatCal_v4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/msullivan/m2020_struct_rimfax_draft1.bsp
-"""
-const m2020_atls_clh_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/msullivan/m2020_struct_rimfax_draft1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0179_0299_v1.bsp
-"""
-const m2020_tp_ops210303_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0179_0299_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/220608/m2020_surf_rover_loc.bsp
-"""
+const m2020_atls_TestSurfOnlyJez190404_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_TestSurfOnlyJez190404_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1275,52 +331,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_clh_v1.bsp
 """
-const m2020_surf_rover_loc_0299_0419_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/220608/m2020_surf_rover_loc.bsp")
-const m2020_surf_rover_loc_0299_0419_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_clh_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/fk/m2020_tp_ops210303_iau2000_v1.tf
-"""
-const m2020_surf_rover_loc_0299_0419_v1_bsp_spk_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/fk/m2020_tp_ops210303_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0299_0419_v1.bsp
-"""
-const m2020_atls_ops210303_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0299_0419_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/220608/m2020_surf_rover_tlm.bsp
-"""
+const m2020_atls_clh_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_clh_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1335,52 +346,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_clh_v2.bsp
 """
-const m2020_surf_rover_loc_0419_0539_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/220608/m2020_surf_rover_tlm.bsp")
-const m2020_surf_rover_loc_0419_0539_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_clh_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/spk/m2020_atls_ops210303_v1.bsp
-"""
-const m2020_atls_jez_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/spk/m2020_atls_ops210303_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0419_0539_v1.bsp
-"""
-const m2020_ls_ops210303_iau2000_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0419_0539_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/old/m2020_surf_rover_runout.bsp
-"""
+const m2020_atls_clh_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_clh_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1395,38 +361,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_jez_v1.bsp
 """
-const m2020_surf_rover_loc_0539_0659_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/old/m2020_surf_rover_runout.bsp")
-const m2020_surf_rover_loc_0539_0659_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_jez_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/spk/m2020_ls_ops210303_iau2000_v1.bsp
-"""
-const m2020_surf_rover_tlm_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/spk/m2020_ls_ops210303_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0539_0659_v1.bsp
-"""
-const m2020_trajCEDLS_6DOF_ops_od069v1_AL4_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0539_0659_v1.bsp")
+const m2020_atls_jez_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_jez_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1441,66 +376,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_jez_v2.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/old/m2020_surf_rover_tlm.bsp
-"""
-const m2020_surf_rover_loc_0659_0779_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/old/m2020_surf_rover_tlm.bsp")
-const m2020_surf_rover_loc_0659_0779_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_jez_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/spk/m2020_trajCEDLS-6DOF_ops_od069v1_AL4.bsp
-"""
-const m2020_surf_rover_loc_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/spk/m2020_trajCEDLS-6DOF_ops_od069v1_AL4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0659_0779_v1.bsp
-"""
-const m2020_at_dss_190101_200730_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0659_0779_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_loc.bsp
-"""
+const m2020_atls_jez_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_jez_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1515,52 +391,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_jez_v3.bsp
 """
-const m2020_surf_rover_loc_0779_0899_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_loc.bsp")
-const m2020_surf_rover_loc_0779_0899_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_jez_v3.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/prelaunch/m2020_at_dss_190101_200730_v1.bsp
-"""
-const m2020_surf_rover_loc_runout_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/prelaunch/m2020_at_dss_190101_200730_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0779_0899_v1.bsp
-"""
-const m2020_cruise_od138_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0779_0899_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_loc_runout.bsp
-"""
+const m2020_atls_jez_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_jez_v3.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1575,52 +406,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_jez_v4.bsp
 """
-const m2020_surf_rover_loc_0899_1019_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_loc_runout.bsp")
-const m2020_surf_rover_loc_0899_1019_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_jez_v4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_cruise_od138_v1.bsp
-"""
-const m2020_atls_nes_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_cruise_od138_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0899_1019_v1.bsp
-"""
-const m2020_edl_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0899_1019_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_runout.bsp
-"""
+const m2020_atls_jez_v4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_jez_v4.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1635,38 +421,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_nes_v1.bsp
 """
-const m2020_surf_rover_loc_1019_1139_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_nes_v1.bsp")
-const m2020_surf_rover_loc_1019_1139_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_runout.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_edl_v01.bsp
-"""
-const m2020_atls_nes_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_edl_v01.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_1019_1139_v1.bsp
-"""
-const m2020_struct_v01_draft1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_1019_1139_v1.bsp")
+const m2020_atls_nes_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_nes_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1681,52 +436,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_nes_v2.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_tlm.bsp
-"""
-const m2020_surf_rover_loc_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_nes_v2.bsp")
-const m2020_surf_rover_loc_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_tlm.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_struct_v01_draft1.bsp
-"""
-const m2020_at_dss_190101_200717_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_struct_v01_draft1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_runout.bsp
-"""
-const m2020_test_bsights_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_runout.bsp")
+const m2020_atls_nes_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_nes_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1741,52 +451,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_ops210303_v1.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lsu/m2020_at_dss_190101_200717_v1.bsp
-"""
-const m2020_surf_rover_tlm_0000_0089_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_ops210303_v1.bsp")
-const m2020_surf_rover_tlm_0000_0089_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lsu/m2020_at_dss_190101_200717_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_test_bsights_v1.bsp
-"""
-const m2020_at_dss_190101_200717_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_test_bsights_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0000_0089_v1.bsp
-"""
-const m2020_v04_draft210713_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0000_0089_v1.bsp")
+const m2020_atls_ops210303_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_atls_ops210303_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1801,52 +466,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_nom_clh_v2.bsp
 """
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lsu/m2020_at_dss_190101_200717_v1.tf
-"""
-const m2020_surf_rover_tlm_0089_0179_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lsu/m2020_at_dss_190101_200717_v1.tf")
-const m2020_surf_rover_tlm_0089_0179_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_nom_clh_v2.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_v04_draft210713.tf
-"""
-const m2020_surf_rover_loc_0000_0089_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_v04_draft210713.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0089_0179_v1.bsp
-"""
-const m2020_v04_draft210726_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0089_0179_v1.bsp")
+const m2020_cruise_nom_clh_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_nom_clh_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1861,6 +481,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_nom_jez_v2.bsp
 """
+const m2020_cruise_nom_jez_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_nom_jez_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1873,13 +494,12 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchive/m2020_surf_rover_loc_0000_0089_v1.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_nom_nes_v2.bsp
 """
-const m2020_surf_rover_tlm_0179_0299_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_nom_jez_v2.bsp")
-const m2020_surf_rover_tlm_0179_0299_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchive/m2020_surf_rover_loc_0000_0089_v1.bsp")
+const m2020_cruise_nom_nes_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_nom_nes_v2.bsp")
 
 """
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
@@ -1889,9 +509,429 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_v04_draft210726.tf
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_od138_v1.bsp
 """
-const m2020_surf_rover_tlm_0179_0299_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_v04_draft210726.tf")
+const m2020_cruise_od138_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_cruise_od138_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_nom_clh_v2.bsp
+"""
+const m2020_edl_nom_clh_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_nom_clh_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_nom_jez_v2.bsp
+"""
+const m2020_edl_nom_jez_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_nom_jez_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_nom_nes_v2.bsp
+"""
+const m2020_edl_nom_nes_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_nom_nes_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_v01.bsp
+"""
+const m2020_edl_v01_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_edl_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_clh_iau2000_v1.bsp
+"""
+const m2020_ls_clh_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_clh_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_clh_iau2000_v2.bsp
+"""
+const m2020_ls_clh_iau2000_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_clh_iau2000_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v1.bsp
+"""
+const m2020_ls_jez_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v2.bsp
+"""
+const m2020_ls_jez_iau2000_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v3.bsp
+"""
+const m2020_ls_jez_iau2000_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v3.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v4.bsp
+"""
+const m2020_ls_jez_iau2000_v4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_jez_iau2000_v4.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_nes_iau2000_v1.bsp
+"""
+const m2020_ls_nes_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_nes_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_nes_iau2000_v2.bsp
+"""
+const m2020_ls_nes_iau2000_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_nes_iau2000_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_ops210303_iau2000_v1.bsp
+"""
+const m2020_ls_ops210303_iau2000_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_ls_ops210303_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_struct_v01.bsp
+"""
+const m2020_struct_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_struct_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc.bsp
+"""
+const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0000_0089_v1.bsp
+"""
+const m2020_surf_rover_loc_0000_0089_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0000_0089_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0089_0179_v1.bsp
+"""
+const m2020_surf_rover_loc_0089_0179_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0089_0179_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0179_0299_v1.bsp
+"""
+const m2020_surf_rover_loc_0179_0299_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0179_0299_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0299_0419_v1.bsp
+"""
+const m2020_surf_rover_loc_0299_0419_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0299_0419_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0419_0539_v1.bsp
+"""
+const m2020_surf_rover_loc_0419_0539_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0419_0539_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0539_0659_v1.bsp
+"""
+const m2020_surf_rover_loc_0539_0659_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0539_0659_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0659_0779_v1.bsp
+"""
+const m2020_surf_rover_loc_0659_0779_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0659_0779_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0779_0899_v1.bsp
+"""
+const m2020_surf_rover_loc_0779_0899_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0779_0899_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0899_1019_v1.bsp
+"""
+const m2020_surf_rover_loc_0899_1019_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_0899_1019_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_1019_1139_v1.bsp
+"""
+const m2020_surf_rover_loc_1019_1139_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_1019_1139_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_runout.bsp
+"""
+const m2020_surf_rover_loc_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_loc_runout.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0000_0089_v1.bsp
+"""
+const m2020_surf_rover_tlm_0000_0089_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0000_0089_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0089_0179_v1.bsp
+"""
+const m2020_surf_rover_tlm_0089_0179_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0089_0179_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1923,82 +963,1027 @@ This kernel's link was sourced on 2024-09-24.
 """
 const m2020_surf_rover_tlm_0299_0419_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0299_0419_v1.bsp")
 
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0419_0539_v1.bsp
+"""
+const m2020_surf_rover_tlm_0419_0539_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0419_0539_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0539_0659_v1.bsp
+"""
+const m2020_surf_rover_tlm_0539_0659_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0539_0659_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0659_0779_v1.bsp
+"""
+const m2020_surf_rover_tlm_0659_0779_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0659_0779_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0779_0899_v1.bsp
+"""
+const m2020_surf_rover_tlm_0779_0899_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0779_0899_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0899_1019_v1.bsp
+"""
+const m2020_surf_rover_tlm_0899_1019_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_0899_1019_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_1019_1139_v1.bsp
+"""
+const m2020_surf_rover_tlm_1019_1139_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_surf_rover_tlm_1019_1139_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_trajCEDLS-6DOF_ops_od020v1_AL23.bsp
+"""
+const m2020_trajCEDLS_6DOF_ops_od020v1_AL23_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_trajCEDLS-6DOF_ops_od020v1_AL23.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_trajCEDLS-6DOF_ops_od069v1_AL4.bsp
+"""
+const m2020_trajCEDLS_6DOF_ops_od069v1_AL4_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/m2020_trajCEDLS-6DOF_ops_od069v1_AL4.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/mar097.bsp
+"""
+const mar097_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/mar097.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/mar097s.bsp
+"""
+const mar097s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/kernels/spk/mar097s.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/cpong/de438s_w_mar097_mars.bsp
+"""
+const de438s_w_mar097_mars_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/cpong/de438s_w_mar097_mars.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/fridenhour/de438_2015_2050.bsp
+"""
+const de438_2015_2050_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/fridenhour/de438_2015_2050.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/fridenhour/mar097_2015_2050.bsp
+"""
+const mar097_2015_2050_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/fridenhour/mar097_2015_2050.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/hlee/m2020_v03.tf
+"""
+const m2020_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/hlee/m2020_v03.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jarballo/m2020_surf_rover_loc.bsp
+"""
+const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jarballo/m2020_surf_rover_loc.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jarballo/m2020_surf_rover_loc_runout.bsp
+"""
+const m2020_surf_rover_loc_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jarballo/m2020_surf_rover_loc_runout.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200717_P000.cruise.bsp
+"""
+const m2020_FMAresponse_JEZ_20200717_P000_cruise_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200717_P000.cruise.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200717_P000.edl.bsp
+"""
+const m2020_FMAresponse_JEZ_20200717_P000_edl_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200717_P000.edl.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200815_P000.cruise.bsp
+"""
+const m2020_FMAresponse_JEZ_20200815_P000_cruise_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200815_P000.cruise.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200815_P000.edl.bsp
+"""
+const m2020_FMAresponse_JEZ_20200815_P000_edl_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_FMAresponse_JEZ_20200815_P000.edl.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_trajCEDLS-6DOF_ops_od005v1_AL123_LatCal_v4.bsp
+"""
+const m2020_trajCEDLS_6DOF_ops_od005v1_AL123_LatCal_v4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/jgilbert/m2020_trajCEDLS-6DOF_ops_od005v1_AL123_LatCal_v4.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/220608/m2020_surf_rover_loc.bsp
+"""
+const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/220608/m2020_surf_rover_loc.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/220608/m2020_surf_rover_tlm.bsp
+"""
+const m2020_surf_rover_tlm_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/220608/m2020_surf_rover_tlm.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/old/m2020_surf_rover_runout.bsp
+"""
+const m2020_surf_rover_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/old/m2020_surf_rover_runout.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/old/m2020_surf_rover_tlm.bsp
+"""
+const m2020_surf_rover_tlm_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora/old/m2020_surf_rover_tlm.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_loc.bsp
+"""
+const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_loc.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_loc_runout.bsp
+"""
+const m2020_surf_rover_loc_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_loc_runout.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_runout.bsp
+"""
+const m2020_surf_rover_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_runout.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_tlm.bsp
+"""
+const m2020_surf_rover_tlm_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lmora210726/m2020_surf_rover_tlm.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lsu/m2020_at_dss_190101_200717_v1.bsp
+"""
+const m2020_at_dss_190101_200717_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lsu/m2020_at_dss_190101_200717_v1.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lsu/m2020_at_dss_190101_200717_v1.tf
+"""
+const m2020_at_dss_190101_200717_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/lsu/m2020_at_dss_190101_200717_v1.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchive/m2020_surf_rover_loc_0000_0089_v1.bsp
+"""
+const m2020_surf_rover_loc_0000_0089_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchive/m2020_surf_rover_loc_0000_0089_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchive/m2020_surf_rover_tlm_0000_0089_v1.bsp
+"""
+const m2020_surf_rover_tlm_0000_0089_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchive/m2020_surf_rover_tlm_0000_0089_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel2/m2020_surf_rover_loc_0089_0179_v1.bsp
+"""
+const m2020_surf_rover_loc_0089_0179_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel2/m2020_surf_rover_loc_0089_0179_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel2/m2020_surf_rover_tlm_0089_0179_v1.bsp
+"""
+const m2020_surf_rover_tlm_0089_0179_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel2/m2020_surf_rover_tlm_0089_0179_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel3/m2020_surf_rover_loc_0179_0299_v1.bsp
+"""
+const m2020_surf_rover_loc_0179_0299_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel3/m2020_surf_rover_loc_0179_0299_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel3/m2020_surf_rover_tlm_0179_0299_v1.bsp
+"""
+const m2020_surf_rover_tlm_0179_0299_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarchiverel3/m2020_surf_rover_tlm_0179_0299_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes/m2020_surf_rover_loc.bsp
+"""
+const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes/m2020_surf_rover_loc.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211014/m2020_surf_rover_runout.bsp
+"""
+const m2020_surf_rover_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211014/m2020_surf_rover_runout.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211014/m2020_surf_rover_tlm.bsp
+"""
+const m2020_surf_rover_tlm_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211014/m2020_surf_rover_tlm.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211018/m2020_surf_rover_runout.bsp
+"""
+const m2020_surf_rover_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211018/m2020_surf_rover_runout.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211018/m2020_surf_rover_tlm.bsp
+"""
+const m2020_surf_rover_tlm_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211018/m2020_surf_rover_tlm.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_loc.bsp
+"""
+const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_loc.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_loc_runout.bsp
+"""
+const m2020_surf_rover_loc_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_loc_runout.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_runout.bsp
+"""
+const m2020_surf_rover_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_runout.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_tlm.bsp
+"""
+const m2020_surf_rover_tlm_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211021/m2020_surf_rover_tlm.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_loc.bsp
+"""
+const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_loc.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_loc_runout.bsp
+"""
+const m2020_surf_rover_loc_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_loc_runout.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_runout.bsp
+"""
+const m2020_surf_rover_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_runout.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_tlm.bsp
+"""
+const m2020_surf_rover_tlm_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/mbarnes211229/m2020_surf_rover_tlm.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/msullivan/220608/m2020_surf_rover_loc.bsp
+"""
+const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/msullivan/220608/m2020_surf_rover_loc.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/msullivan/220920/m2020_surf_rover_loc.bsp
+"""
+const m2020_surf_rover_loc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/msullivan/220920/m2020_surf_rover_loc.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/msullivan/m2020_struct_rimfax_draft1.bsp
+"""
+const m2020_struct_rimfax_draft1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/msullivan/m2020_struct_rimfax_draft1.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/fk/m2020_tp_ops210303_iau2000_v1.tf
+"""
+const m2020_tp_ops210303_iau2000_v1_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/fk/m2020_tp_ops210303_iau2000_v1.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/spk/m2020_atls_ops210303_v1.bsp
+"""
+const m2020_atls_ops210303_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/spk/m2020_atls_ops210303_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/spk/m2020_ls_ops210303_iau2000_v1.bsp
+"""
+const m2020_ls_ops210303_iau2000_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/spk/m2020_ls_ops210303_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/spk/m2020_trajCEDLS-6DOF_ops_od069v1_AL4.bsp
+"""
+const m2020_trajCEDLS_6DOF_ops_od069v1_AL4_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/ops210303/kernels/spk/m2020_trajCEDLS-6DOF_ops_od069v1_AL4.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/prelaunch/m2020_at_dss_190101_200730_v1.bsp
+"""
+const m2020_at_dss_190101_200730_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/prelaunch/m2020_at_dss_190101_200730_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_cruise_od138_v1.bsp
+"""
+const m2020_cruise_od138_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_cruise_od138_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_edl_v01.bsp
+"""
+const m2020_edl_v01_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_edl_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_struct_v01_draft1.bsp
+"""
+const m2020_struct_v01_draft1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_struct_v01_draft1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_test_bsights_v1.bsp
+"""
+const m2020_test_bsights_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_test_bsights_v1.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_v04_draft210713.tf
+"""
+const m2020_v04_draft210713_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_v04_draft210713.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_v04_draft210726.tf
+"""
+const m2020_v04_draft210726_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MARS2020/misc/staging/m2020_v04_draft210726.tf")
+
 export
-    de430s_bsp_spk,
+    de430s_bsp,
+    de438_2015_2050_bsp,
+    de438s_bsp,
+    de438s_w_mar097_mars_bsp,
+    m2020_FMAresponse_JEZ_20200717_P000_cruise_bsp_spk,
+    m2020_FMAresponse_JEZ_20200717_P000_cruise_bsp_spk,
     m2020_FMAresponse_JEZ_20200717_P000_edl_bsp_spk,
-    m2020_at_dss_190101_200717_v1_bsp_spk,
+    m2020_FMAresponse_JEZ_20200717_P000_edl_bsp_spk,
+    m2020_FMAresponse_JEZ_20200815_P000_cruise_bsp,
+    m2020_FMAresponse_JEZ_20200815_P000_edl_bsp,
+    m2020_at_dss_190101_200717_v1_bsp,
     m2020_at_dss_190101_200717_v1_tf,
-    m2020_at_dss_190101_200730_v1_bsp_spk,
+    m2020_at_dss_190101_200730_v1_bsp,
+    m2020_atls_TestSurfOnlyJez190404_v1_bsp,
+    m2020_atls_clh_v1_bsp,
+    m2020_atls_clh_v2_bsp,
     m2020_atls_jez_v1_bsp,
-    m2020_atls_nes_v1_bsp_spk,
+    m2020_atls_jez_v2_bsp,
+    m2020_atls_jez_v3_bsp,
+    m2020_atls_jez_v4_bsp,
+    m2020_atls_nes_v1_bsp,
     m2020_atls_nes_v2_bsp,
     m2020_atls_ops210303_v1_bsp_spk,
-    m2020_cruise_od138_v1_bsp_fk,
+    m2020_atls_ops210303_v1_bsp_spk,
+    m2020_cruise_nom_clh_v2_bsp,
+    m2020_cruise_nom_jez_v2_bsp,
+    m2020_cruise_nom_nes_v2_bsp,
     m2020_cruise_od138_v1_bsp_spk,
     m2020_cruise_od138_v1_bsp_spk,
-    m2020_cruise_od138_v1_bsp_spk_spk,
-    m2020_edl_nom_clh_v2_bsp,
-    m2020_edl_nom_clh_v2_bsp,
     m2020_edl_nom_clh_v2_bsp,
     m2020_edl_nom_jez_v2_bsp,
-    m2020_edl_nom_jez_v2_bsp,
-    m2020_edl_nom_jez_v2_bsp,
     m2020_edl_nom_nes_v2_bsp,
-    m2020_edl_nom_nes_v2_bsp,
-    m2020_edl_nom_nes_v2_bsp,
-    m2020_edl_v01_bsp,
     m2020_edl_v01_bsp_spk,
     m2020_edl_v01_bsp_spk,
-    m2020_edl_v01_bsp_spk_spk,
-    m2020_ls_clh_iau2000_v1_bsp,
     m2020_ls_clh_iau2000_v1_bsp,
     m2020_ls_clh_iau2000_v2_bsp,
-    m2020_ls_clh_iau2000_v2_bsp,
-    m2020_ls_jez_iau2000_v1_bsp,
     m2020_ls_jez_iau2000_v1_bsp,
     m2020_ls_jez_iau2000_v2_bsp,
-    m2020_ls_jez_iau2000_v2_bsp,
     m2020_ls_jez_iau2000_v3_bsp,
-    m2020_ls_jez_iau2000_v3_bsp,
-    m2020_ls_jez_iau2000_v4_bsp_spk,
-    m2020_ls_jez_iau2000_v4_bsp_spk,
+    m2020_ls_jez_iau2000_v4_bsp,
     m2020_ls_nes_iau2000_v1_bsp,
-    m2020_ls_nes_iau2000_v1_bsp,
-    m2020_ls_nes_iau2000_v2_bsp_lsk,
-    m2020_ls_nes_iau2000_v2_bsp_lsk,
+    m2020_ls_nes_iau2000_v2_bsp,
     m2020_ls_ops210303_iau2000_v1_bsp_spk,
     m2020_ls_ops210303_iau2000_v1_bsp_spk,
-    m2020_ls_ops210303_iau2000_v1_bsp_spk,
-    m2020_struct_rimfax_draft1_bsp_spk,
-    m2020_struct_v01_bsp_pck,
-    m2020_struct_v01_bsp_spk,
+    m2020_struct_rimfax_draft1_bsp,
+    m2020_struct_v01_bsp,
     m2020_struct_v01_draft1_bsp,
-    m2020_surf_rover_loc_0000_0089_v1_bsp,
-    m2020_surf_rover_loc_0089_0179_v1_bsp,
+    m2020_surf_rover_loc_0000_0089_v1_bsp_spk,
+    m2020_surf_rover_loc_0000_0089_v1_bsp_spk,
     m2020_surf_rover_loc_0089_0179_v1_bsp_spk,
     m2020_surf_rover_loc_0089_0179_v1_bsp_spk,
-    m2020_surf_rover_loc_0089_0179_v1_bsp_spk_spk,
-    m2020_surf_rover_loc_0179_0299_v1_bsp,
     m2020_surf_rover_loc_0179_0299_v1_bsp_spk,
     m2020_surf_rover_loc_0179_0299_v1_bsp_spk,
-    m2020_surf_rover_loc_0179_0299_v1_bsp_spk_spk,
-    m2020_surf_rover_loc_0299_0419_v1_bsp_spk,
-    m2020_surf_rover_loc_0299_0419_v1_bsp_spk,
-    m2020_surf_rover_loc_0299_0419_v1_bsp_spk_fk,
-    m2020_surf_rover_loc_0419_0539_v1_bsp,
+    m2020_surf_rover_loc_0299_0419_v1_bsp,
     m2020_surf_rover_loc_0419_0539_v1_bsp,
     m2020_surf_rover_loc_0539_0659_v1_bsp,
-    m2020_surf_rover_loc_0539_0659_v1_bsp,
-    m2020_surf_rover_loc_0659_0779_v1_bsp,
     m2020_surf_rover_loc_0659_0779_v1_bsp,
     m2020_surf_rover_loc_0779_0899_v1_bsp,
-    m2020_surf_rover_loc_0779_0899_v1_bsp,
-    m2020_surf_rover_loc_0899_1019_v1_bsp,
     m2020_surf_rover_loc_0899_1019_v1_bsp,
     m2020_surf_rover_loc_1019_1139_v1_bsp,
-    m2020_surf_rover_loc_1019_1139_v1_bsp,
-    m2020_surf_rover_loc_bsp,
-    m2020_surf_rover_loc_bsp,
     m2020_surf_rover_loc_bsp_spk,
     m2020_surf_rover_loc_bsp_spk,
     m2020_surf_rover_loc_bsp_spk,
@@ -2007,8 +1992,7 @@ export
     m2020_surf_rover_loc_bsp_spk,
     m2020_surf_rover_loc_bsp_spk,
     m2020_surf_rover_loc_bsp_spk,
-    m2020_surf_rover_loc_bsp_spk_spk,
-    m2020_surf_rover_loc_runout_bsp,
+    m2020_surf_rover_loc_bsp_spk,
     m2020_surf_rover_loc_runout_bsp_spk,
     m2020_surf_rover_loc_runout_bsp_spk,
     m2020_surf_rover_loc_runout_bsp_spk,
@@ -2018,37 +2002,53 @@ export
     m2020_surf_rover_runout_bsp_spk,
     m2020_surf_rover_runout_bsp_spk,
     m2020_surf_rover_runout_bsp_spk,
-    m2020_surf_rover_tlm_0000_0089_v1_bsp,
-    m2020_surf_rover_tlm_0000_0089_v1_bsp,
-    m2020_surf_rover_tlm_0089_0179_v1_bsp,
-    m2020_surf_rover_tlm_0089_0179_v1_bsp,
-    m2020_surf_rover_tlm_0179_0299_v1_bsp,
-    m2020_surf_rover_tlm_0179_0299_v1_bsp,
-    m2020_surf_rover_tlm_0179_0299_v1_bsp,
-    m2020_surf_rover_tlm_0179_0299_v1_bsp,
+    m2020_surf_rover_runout_bsp_spk,
+    m2020_surf_rover_runout_bsp_spk,
+    m2020_surf_rover_tlm_0000_0089_v1_bsp_spk,
+    m2020_surf_rover_tlm_0000_0089_v1_bsp_spk,
+    m2020_surf_rover_tlm_0089_0179_v1_bsp_spk,
+    m2020_surf_rover_tlm_0089_0179_v1_bsp_spk,
+    m2020_surf_rover_tlm_0179_0299_v1_bsp_spk,
     m2020_surf_rover_tlm_0179_0299_v1_bsp_spk,
     m2020_surf_rover_tlm_0299_0419_v1_bsp,
     m2020_surf_rover_tlm_0419_0539_v1_bsp,
-    m2020_surf_rover_tlm_0419_0539_v1_bsp_fk,
-    m2020_surf_rover_tlm_0419_0539_v1_bsp_fk,
+    m2020_surf_rover_tlm_0539_0659_v1_bsp,
     m2020_surf_rover_tlm_0659_0779_v1_bsp,
-    m2020_surf_rover_tlm_bsp,
+    m2020_surf_rover_tlm_0779_0899_v1_bsp,
+    m2020_surf_rover_tlm_0899_1019_v1_bsp,
+    m2020_surf_rover_tlm_1019_1139_v1_bsp,
     m2020_surf_rover_tlm_bsp_spk,
     m2020_surf_rover_tlm_bsp_spk,
     m2020_surf_rover_tlm_bsp_spk,
     m2020_surf_rover_tlm_bsp_spk,
     m2020_surf_rover_tlm_bsp_spk,
     m2020_surf_rover_tlm_bsp_spk,
-    m2020_surf_rover_tlm_bsp_spk_spk,
+    m2020_surf_rover_tlm_bsp_spk,
     m2020_test_bsights_v1_bsp,
+    m2020_tf,
+    m2020_tls,
+    m2020_tp_clh_iau2000_v1_tf,
+    m2020_tp_clh_iau2000_v2_tf,
+    m2020_tp_jez_iau2000_v1_tf,
+    m2020_tp_jez_iau2000_v2_tf,
+    m2020_tp_jez_iau2000_v3_tf,
+    m2020_tp_jez_iau2000_v4_tf,
+    m2020_tp_nes_iau2000_v1_tf,
     m2020_tp_nes_iau2000_v2_tf,
-    m2020_tp_ops210303_iau2000_v1_tf,
-    m2020_tp_ops210303_iau2000_v1_tf_spk,
-    m2020_trajCEDLS_6DOF_ops_od069v1_AL4_bsp,
+    m2020_tp_ops210303_iau2000_v1_tf_fk,
+    m2020_tp_ops210303_iau2000_v1_tf_fk,
+    m2020_trajCEDLS_6DOF_ops_od005v1_AL123_LatCal_v4_bsp,
+    m2020_trajCEDLS_6DOF_ops_od020v1_AL23_bsp,
+    m2020_trajCEDLS_6DOF_ops_od069v1_AL4_bsp_spk,
     m2020_trajCEDLS_6DOF_ops_od069v1_AL4_bsp_spk,
     m2020_v01_tf,
     m2020_v02_tf,
     m2020_v03_tf,
     m2020_v04_draft210713_tf,
-    m2020_v04_draft210726_tf_spk,
-    m2020_v04_tf
+    m2020_v04_draft210726_tf,
+    m2020_v04_tf,
+    mar097_2015_2050_bsp,
+    mar097_bsp,
+    mar097s_bsp,
+    naif0012_tls,
+    pck00010_tpc

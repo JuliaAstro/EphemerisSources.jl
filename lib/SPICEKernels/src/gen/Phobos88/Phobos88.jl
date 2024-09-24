@@ -4,7 +4,7 @@
 
 
 """
-All p88mrg_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All PHOBOS88 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Phobos88
 

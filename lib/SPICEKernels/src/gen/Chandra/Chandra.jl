@@ -4,7 +4,7 @@
 
 
 """
-All chandra_merged_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All CHANDRA kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Chandra
 

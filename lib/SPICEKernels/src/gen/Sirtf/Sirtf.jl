@@ -4,7 +4,7 @@
 
 
 """
-All pck00008_tpc kernels, linked from https://naif.jpl.nasa.gov.
+All SIRTF kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Sirtf
 

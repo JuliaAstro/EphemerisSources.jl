@@ -4,7 +4,7 @@
 
 
 """
-All m9_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All M9 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module M9
 

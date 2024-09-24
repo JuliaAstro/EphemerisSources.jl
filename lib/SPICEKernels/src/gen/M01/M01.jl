@@ -4,7 +4,7 @@
 
 
 """
-All m01_ext9_ssd_mro110c_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All M01 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module M01
 

@@ -4,7 +4,7 @@
 
 
 """
-All mpl_surf_target_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All MPL kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Mpl
 

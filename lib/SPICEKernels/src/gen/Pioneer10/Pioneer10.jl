@@ -4,7 +4,7 @@
 
 
 """
-All p10_a_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All PIONEER10 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Pioneer10
 

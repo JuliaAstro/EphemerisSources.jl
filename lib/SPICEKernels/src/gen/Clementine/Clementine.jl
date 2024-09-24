@@ -4,7 +4,7 @@
 
 
 """
-All clemdef_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All CLEMENTINE kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Clementine
 

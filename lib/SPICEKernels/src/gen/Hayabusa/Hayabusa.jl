@@ -4,7 +4,7 @@
 
 
 """
-All hayabusa_20051108_20051108_v01_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All HAYABUSA kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Hayabusa
 

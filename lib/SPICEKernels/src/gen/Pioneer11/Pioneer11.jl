@@ -4,7 +4,7 @@
 
 
 """
-All p11_sat336_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All PIONEER11 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Pioneer11
 

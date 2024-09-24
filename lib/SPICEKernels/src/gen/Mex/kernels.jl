@@ -4,21 +4,6 @@
 
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031223062213_00030.bsp
-"""
-const mex_v08_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031223062213_00030.bsp")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -31,52 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v00.tf
 """
-const ORMM_PSTPIX_DB_031230000000_00000_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v00.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_041101000000_00000.bsp
-"""
-const ORMM_PSTPIX_DB_031230000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_041101000000_00000.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20040916/mex_v08.tf
-"""
-const ORMM_PSTPIX_DB_041201000000_00000_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20040916/mex_v08.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031230000000_00000.bsp
-"""
-const mex_stat_001110_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031230000000_00000.bsp")
+const mex_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -91,52 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v01.tf
 """
-const mex_stat_001110_bsp_spk_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_041201000000_00000.bsp
-"""
-const mex_v02_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_041201000000_00000.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/jguinn/spk001110/mex_stat_001110.bsp
-"""
-const ORMM_PSTPIX_DB_050101000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/jguinn/spk001110/mex_stat_001110.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00000.bsp
-"""
-const mars_orbits_jselle021025_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00000.bsp")
+const mex_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -151,52 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v02.tf
 """
-const ORMM_PSTPIX_DB_040201000000_00044_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v02.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_050101000000_00000.bsp
-"""
-const mex_v03_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_050101000000_00000.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/jselle/mars_orbits_jselle021025.bsp
-"""
-const ORMM_PSTPIX_DB_050201000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/jselle/mars_orbits_jselle021025.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00044.bsp
-"""
-const mex_map_sample_v4_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00044.bsp")
+const mex_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -211,52 +61,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v03.tf
 """
-const mex_map_sample_v4_bsp_spk_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v03.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_050201000000_00000.bsp
-"""
-const mex_v04_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_050201000000_00000.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/jzender/spk020916/mex_map_sample_v4.bsp
-"""
-const ORMM_PSTPIX_DB_050301000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/jzender/spk020916/mex_map_sample_v4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00047.bsp
-"""
-const lainey_pho_dei_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00047.bsp")
+const mex_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v03.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -271,52 +76,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v04.tf
 """
-const ORMM_PSTPIX_DB_040201000000_00049_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v04.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_050301000000_00000.bsp
-"""
-const EarthHighPrecision_2003Jun10_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_050301000000_00000.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/lainey/lainey_pho_dei.bsp
-"""
-const beagle2_sample_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/lainey/lainey_pho_dei.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00049.bsp
-"""
-const mex_nadir_v2_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00049.bsp")
+const mex_v04_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/fk/former_versions/mex_v04.tf")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -331,52 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/pck/former_versions/EarthHighPrecision_2003Jun10.bpc
 """
-const ORMM_PSTPIX_DB_040201000000_00051_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/pck/former_versions/EarthHighPrecision_2003Jun10.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/beagle2_sample_v2.bsp
-"""
-const EarthHighPrecision_2003Jun29_bpc = SPK(!Sys.iswindows() ? "https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/beagle2_sample_v2.bsp" : "https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/beagle2_sample_v2.bsp.pc")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/nadirfk/mex_nadir_v2.tf
-"""
-const EarthHighPrecision_2003Jun29_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/nadirfk/mex_nadir_v2.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00051.bsp
-"""
-const mex_v06_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00051.bsp")
+const EarthHighPrecision_2003Jun10_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/pck/former_versions/EarthHighPrecision_2003Jun10.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -391,52 +106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/pck/former_versions/EarthHighPrecision_2003Jun29.bpc
 """
-const ORMM_PSTPIX_DB_040201000000_00052_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/pck/former_versions/EarthHighPrecision_2003Jun29.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20030910/mex_aspera_struct_v10.bsp
-"""
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/nmanaud/mex_v06.tf
-"""
-const pck00007_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20030910/mex_aspera_struct_v10.bsp")
-const pck00007_tpc = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/nmanaud/mex_v06.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00052.bsp
-"""
-const mex_frozen_track_021122_utc_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00052.bsp")
+const EarthHighPrecision_2003Jun29_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/pck/former_versions/EarthHighPrecision_2003Jun29.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -451,52 +121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/pck/former_versions/pck00007.tpc
 """
-const ORMM_PSTPIX_DB_040201000000_00055_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/pck/former_versions/pck00007.tpc")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20030910/mex_v04.tf
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/pmartin/mex_frozen_track_021122_utc.bsp
-"""
-const ORHM_PSTPIX_DB______________00017_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20030910/mex_v04.tf")
-const ORHM_PSTPIX_DB______________00017_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/pmartin/mex_frozen_track_021122_utc.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00055.bsp
-"""
-const marxxx_01_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00055.bsp")
+const pck00007_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/pck/former_versions/pck00007.tpc")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -511,52 +136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORHM_PSTPIX_DB______________00017.bsp
 """
-const ORMM_PSTPIX_DB_040201000000_00056_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORHM_PSTPIX_DB______________00017.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20030910/mex_v04_draft_rev2.tf
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rpischel/marxxx_01.bsp
-"""
-const ORHM_PSTPIX_DB______________00021_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20030910/mex_v04_draft_rev2.tf")
-const ORHM_PSTPIX_DB______________00021_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rpischel/marxxx_01.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00056.bsp
-"""
-const marxxx_01_sun_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00056.bsp")
+const ORHM_PSTPIX_DB______________00017_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORHM_PSTPIX_DB______________00017.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -571,52 +151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORHM_PSTPIX_DB______________00021.bsp
 """
-const ORMM_PSTPIX_DB_040201000000_00057_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORHM_PSTPIX_DB______________00021.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/mex_aspera_struct_v11.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rpischel/marxxx_01.sun.bsp
-"""
-const ORHM_PSTPIX_DB______________00027_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/mex_aspera_struct_v11.bsp")
-const ORHM_PSTPIX_DB______________00027_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rpischel/marxxx_01.sun.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00057.bsp
-"""
-const ORMM__060401000000_00232_60sec_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00057.bsp")
+const ORHM_PSTPIX_DB______________00021_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORHM_PSTPIX_DB______________00021.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -631,52 +166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORHM_PSTPIX_DB______________00027.bsp
 """
-const ORMM_PSTPIX_DB_040301000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORHM_PSTPIX_DB______________00027.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/mex_v05.tf
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rpischel/resample/ORMM__060401000000_00232.60sec.bsp
-"""
-const ORMF_PSTPIX_DB______________00000_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/mex_v05.tf")
-const ORMF_PSTPIX_DB______________00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rpischel/resample/ORMM__060401000000_00232.60sec.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00000.bsp
-"""
-const mex_hga_struct_v10_dish_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00000.bsp")
+const ORHM_PSTPIX_DB______________00027_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORHM_PSTPIX_DB______________00027.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -691,52 +181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMF_PSTPIX_DB______________00000.bsp
 """
-const ORMM_PSTPIX_DB_040301000000_00055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMF_PSTPIX_DB______________00000.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/scanner_ck_example/mex_v05.tf
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_dish.bsp
-"""
-const ORMF_PSTPIX_DB______________00001_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/scanner_ck_example/mex_v05.tf")
-const ORMF_PSTPIX_DB______________00001_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_dish.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00055.bsp
-"""
-const mex_hga_struct_v10_edge_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00055.bsp")
+const ORMF_PSTPIX_DB______________00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMF_PSTPIX_DB______________00000.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -751,52 +196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMF_PSTPIX_DB______________00001.bsp
 """
-const ORMM_PSTPIX_DB_040301000000_00056_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMF_PSTPIX_DB______________00001.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_edge.bsp
-"""
-
-"""
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/scanner_ck_example/naif0007.tls
-"""
-const ORMM_PSTPIX_DB_031222180906_00037_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_edge.bsp")
-const ORMM_PSTPIX_DB_031222180906_00037_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/scanner_ck_example/naif0007.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00056.bsp
-"""
-const mex_hga_struct_v10_rim_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00056.bsp")
+const ORMF_PSTPIX_DB______________00001_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMF_PSTPIX_DB______________00001.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -811,37 +211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00037.bsp
 """
-const ORMM_PSTPIX_DB_040301000000_00057_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00037.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00057.bsp
-"""
-const ORMM_PSTPIX_DB_031222180906_00038_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00057.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_rim.bsp
-"""
-const ORMM_PSTPIX_DB_040301000000_00060_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_rim.bsp")
+const ORMM_PSTPIX_DB_031222180906_00037_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00037.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -856,7 +226,337 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00038.bsp
 """
-const mex_hga_struct_v10_rim2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00038.bsp")
+const ORMM_PSTPIX_DB_031222180906_00038_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00038.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00039.bsp
+"""
+const ORMM_PSTPIX_DB_031222180906_00039_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00039.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00041.bsp
+"""
+const ORMM_PSTPIX_DB_031222180906_00041_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00041.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00042.bsp
+"""
+const ORMM_PSTPIX_DB_031222180906_00042_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00042.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00044.bsp
+"""
+const ORMM_PSTPIX_DB_031222180906_00044_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00044.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00047.bsp
+"""
+const ORMM_PSTPIX_DB_031222180906_00047_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00047.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00049.bsp
+"""
+const ORMM_PSTPIX_DB_031222180906_00049_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00049.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00051.bsp
+"""
+const ORMM_PSTPIX_DB_031222180906_00051_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00051.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031223062213_00030.bsp
+"""
+const ORMM_PSTPIX_DB_031223062213_00030_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031223062213_00030.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031230000000_00000.bsp
+"""
+const ORMM_PSTPIX_DB_031230000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031230000000_00000.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00000.bsp
+"""
+const ORMM_PSTPIX_DB_040201000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00000.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00044.bsp
+"""
+const ORMM_PSTPIX_DB_040201000000_00044_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00044.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00047.bsp
+"""
+const ORMM_PSTPIX_DB_040201000000_00047_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00047.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00049.bsp
+"""
+const ORMM_PSTPIX_DB_040201000000_00049_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00049.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00051.bsp
+"""
+const ORMM_PSTPIX_DB_040201000000_00051_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00051.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00052.bsp
+"""
+const ORMM_PSTPIX_DB_040201000000_00052_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00052.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00055.bsp
+"""
+const ORMM_PSTPIX_DB_040201000000_00055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00055.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00056.bsp
+"""
+const ORMM_PSTPIX_DB_040201000000_00056_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00056.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00057.bsp
+"""
+const ORMM_PSTPIX_DB_040201000000_00057_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040201000000_00057.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00000.bsp
+"""
+const ORMM_PSTPIX_DB_040301000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00000.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00055.bsp
+"""
+const ORMM_PSTPIX_DB_040301000000_00055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00055.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00056.bsp
+"""
+const ORMM_PSTPIX_DB_040301000000_00056_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00056.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00057.bsp
+"""
+const ORMM_PSTPIX_DB_040301000000_00057_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00057.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -871,7 +571,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00060.bsp
 """
-const ORMM_PSTPIX_DB_031222180906_00039_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00060.bsp")
+const ORMM_PSTPIX_DB_040301000000_00060_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040301000000_00060.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -899,39 +599,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_rim2.bsp
-"""
-const ORMM_PSTPIX_DB_040501000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_rim2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00039.bsp
-"""
-const naif0007_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00039.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040501000000_00000.bsp
 """
-const ORMM_PSTPIX_DB_031222180906_00041_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040501000000_00000.bsp")
+const ORMM_PSTPIX_DB_040501000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040501000000_00000.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -949,36 +619,6 @@ This kernel's link was sourced on 2024-09-24.
 const ORMM_PSTPIX_DB_040601000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040601000000_00000.bsp")
 
 """
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/svt_sclk/20030219/naif0007.tls
-"""
-const ORMM_PSTPIX_DB_040701000000_00000_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/svt_sclk/20030219/naif0007.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00041.bsp
-"""
-const mex_stat_001105_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00041.bsp")
-
-"""
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -991,22 +631,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040701000000_00000.bsp
 """
-const ORMM_PSTPIX_DB_031222180906_00042_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040701000000_00000.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk001105/mex_stat_001105.bsp
-"""
-const ORMM_PSTPIX_DB_040801000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk001105/mex_stat_001105.bsp")
+const ORMM_PSTPIX_DB_040701000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040701000000_00000.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1021,22 +646,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040801000000_00000.bsp
 """
-const mex_stat_001110_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040801000000_00000.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00042.bsp
-"""
-const ORMM_PSTPIX_DB_040901000000_00000_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00042.bsp")
+const ORMM_PSTPIX_DB_040801000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040801000000_00000.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1051,22 +661,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040901000000_00000.bsp
 """
-const ORMM_PSTPIX_DB_031222180906_00044_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040901000000_00000.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk001110/mex_stat_001110.bsp
-"""
-const ORMM_PSTPIX_DB_041001000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk001110/mex_stat_001110.bsp")
+const ORMM_PSTPIX_DB_040901000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_040901000000_00000.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1081,7 +676,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_041001000000_00000.bsp
 """
-const mex_map_sample_v4_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_041001000000_00000.bsp")
+const ORMM_PSTPIX_DB_041001000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_041001000000_00000.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1094,9 +689,459 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00044.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_041101000000_00000.bsp
 """
-const mex_map_sample_v4_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00044.bsp")
+const ORMM_PSTPIX_DB_041101000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_041101000000_00000.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_041201000000_00000.bsp
+"""
+const ORMM_PSTPIX_DB_041201000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_041201000000_00000.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_050101000000_00000.bsp
+"""
+const ORMM_PSTPIX_DB_050101000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_050101000000_00000.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_050201000000_00000.bsp
+"""
+const ORMM_PSTPIX_DB_050201000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_050201000000_00000.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_050301000000_00000.bsp
+"""
+const ORMM_PSTPIX_DB_050301000000_00000_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_050301000000_00000.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/beagle2_sample_v2.bsp
+"""
+const beagle2_sample_v2_bsp = SPK(!Sys.iswindows() ? "https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/beagle2_sample_v2.bsp" : "https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/beagle2_sample_v2.bsp.pc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20030910/mex_aspera_struct_v10.bsp
+"""
+const mex_aspera_struct_v10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20030910/mex_aspera_struct_v10.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20030910/mex_v04.tf
+"""
+const mex_v04_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20030910/mex_v04.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20030910/mex_v04_draft_rev2.tf
+"""
+const mex_v04_draft_rev2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20030910/mex_v04_draft_rev2.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/mex_aspera_struct_v11.bsp
+"""
+const mex_aspera_struct_v11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/mex_aspera_struct_v11.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/mex_v05.tf
+"""
+const mex_v05_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/mex_v05.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/scanner_ck_example/mex_v05.tf
+"""
+const mex_v05_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/scanner_ck_example/mex_v05.tf")
+
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/scanner_ck_example/naif0007.tls
+"""
+const naif0007_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20031123/scanner_ck_example/naif0007.tls")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20040916/mex_v08.tf
+"""
+const mex_v08_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/aspera/20040916/mex_v08.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/jguinn/spk001110/mex_stat_001110.bsp
+"""
+const mex_stat_001110_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/jguinn/spk001110/mex_stat_001110.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/jselle/mars_orbits_jselle021025.bsp
+"""
+const mars_orbits_jselle021025_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/jselle/mars_orbits_jselle021025.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/jzender/spk020916/mex_map_sample_v4.bsp
+"""
+const mex_map_sample_v4_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/jzender/spk020916/mex_map_sample_v4.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/lainey/lainey_pho_dei.bsp
+"""
+const lainey_pho_dei_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/lainey/lainey_pho_dei.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/nadirfk/mex_nadir_v2.tf
+"""
+const mex_nadir_v2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/nadirfk/mex_nadir_v2.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/nmanaud/mex_v06.tf
+"""
+const mex_v06_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/nmanaud/mex_v06.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/pmartin/mex_frozen_track_021122_utc.bsp
+"""
+const mex_frozen_track_021122_utc_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/pmartin/mex_frozen_track_021122_utc.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rpischel/marxxx_01.bsp
+"""
+const marxxx_01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rpischel/marxxx_01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rpischel/marxxx_01.sun.bsp
+"""
+const marxxx_01_sun_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rpischel/marxxx_01.sun.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rpischel/resample/ORMM__060401000000_00232.60sec.bsp
+"""
+const ORMM__060401000000_00232_60sec_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rpischel/resample/ORMM__060401000000_00232.60sec.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_dish.bsp
+"""
+const mex_hga_struct_v10_dish_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_dish.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_edge.bsp
+"""
+const mex_hga_struct_v10_edge_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_edge.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_rim.bsp
+"""
+const mex_hga_struct_v10_rim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_rim.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_rim2.bsp
+"""
+const mex_hga_struct_v10_rim2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/rsimpson/mex_hga_struct_v10_rim2.bsp")
+
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/svt_sclk/20030219/naif0007.tls
+"""
+const naif0007_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/svt_sclk/20030219/naif0007.tls")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk001105/mex_stat_001105.bsp
+"""
+const mex_stat_001105_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk001105/mex_stat_001105.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk001110/mex_stat_001110.bsp
+"""
+const mex_stat_001110_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk001110/mex_stat_001110.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1111,22 +1156,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk020916/mex_map_sample_v4.bsp
 """
-const ORMM_PSTPIX_DB_031222180906_00047_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk020916/mex_map_sample_v4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00047.bsp
-"""
-const MEPM_030613OAS_PREDICT__0001_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00047.bsp")
+const mex_map_sample_v4_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk020916/mex_map_sample_v4.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1141,22 +1171,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk030703/MEPM_030613OAS_PREDICT__0001.bsp
 """
-const ORMM_PSTPIX_DB_031222180906_00049_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk030703/MEPM_030613OAS_PREDICT__0001.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00049.bsp
-"""
-const mex_v04_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00049.bsp")
+const MEPM_030613OAS_PREDICT__0001_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/tduxbury/spk030703/MEPM_030613OAS_PREDICT__0001.bsp")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1171,22 +1186,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/troatsch/20030907/mex_v04.tf
 """
-const ORMM_PSTPIX_DB_031222180906_00051_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/troatsch/20030907/mex_v04.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00051.bsp
-"""
-const mex_v05_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MEX/kernels/spk/former_versions/ORMM_PSTPIX_DB_031222180906_00051.bsp")
+const mex_v04_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/troatsch/20030907/mex_v04.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1201,27 +1201,18 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MEX/misc/troatsch/20031216/mex_v05.tf
 """
-const mex_v05_tf_spk = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/troatsch/20031216/mex_v05.tf")
+const mex_v05_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MEX/misc/troatsch/20031216/mex_v05.tf")
 
 export
     EarthHighPrecision_2003Jun10_bpc,
-    EarthHighPrecision_2003Jun10_bpc,
     EarthHighPrecision_2003Jun29_bpc,
-    EarthHighPrecision_2003Jun29_bpc,
-    MEPM_030613OAS_PREDICT__0001_bsp_spk,
-    ORHM_PSTPIX_DB______________00017_bsp,
+    MEPM_030613OAS_PREDICT__0001_bsp,
     ORHM_PSTPIX_DB______________00017_bsp,
     ORHM_PSTPIX_DB______________00021_bsp,
-    ORHM_PSTPIX_DB______________00021_bsp,
-    ORHM_PSTPIX_DB______________00027_bsp,
     ORHM_PSTPIX_DB______________00027_bsp,
     ORMF_PSTPIX_DB______________00000_bsp,
-    ORMF_PSTPIX_DB______________00000_bsp,
-    ORMF_PSTPIX_DB______________00001_bsp,
     ORMF_PSTPIX_DB______________00001_bsp,
     ORMM_PSTPIX_DB_031222180906_00037_bsp,
-    ORMM_PSTPIX_DB_031222180906_00037_bsp,
-    ORMM_PSTPIX_DB_031222180906_00038_bsp,
     ORMM_PSTPIX_DB_031222180906_00038_bsp,
     ORMM_PSTPIX_DB_031222180906_00039_bsp,
     ORMM_PSTPIX_DB_031222180906_00041_bsp,
@@ -1229,58 +1220,67 @@ export
     ORMM_PSTPIX_DB_031222180906_00044_bsp,
     ORMM_PSTPIX_DB_031222180906_00047_bsp,
     ORMM_PSTPIX_DB_031222180906_00049_bsp,
-    ORMM_PSTPIX_DB_031222180906_00051_bsp_fk,
+    ORMM_PSTPIX_DB_031222180906_00051_bsp,
+    ORMM_PSTPIX_DB_031223062213_00030_bsp,
     ORMM_PSTPIX_DB_031230000000_00000_bsp,
+    ORMM_PSTPIX_DB_040201000000_00000_bsp,
     ORMM_PSTPIX_DB_040201000000_00044_bsp,
-    ORMM_PSTPIX_DB_040201000000_00049_bsp_fk,
-    ORMM_PSTPIX_DB_040201000000_00051_bsp_pck,
-    ORMM_PSTPIX_DB_040201000000_00052_bsp_pck,
-    ORMM_PSTPIX_DB_040201000000_00055_bsp_pck,
-    ORMM_PSTPIX_DB_040201000000_00056_bsp_spk,
-    ORMM_PSTPIX_DB_040201000000_00057_bsp_spk,
+    ORMM_PSTPIX_DB_040201000000_00047_bsp,
+    ORMM_PSTPIX_DB_040201000000_00049_bsp,
+    ORMM_PSTPIX_DB_040201000000_00051_bsp,
+    ORMM_PSTPIX_DB_040201000000_00052_bsp,
+    ORMM_PSTPIX_DB_040201000000_00055_bsp,
+    ORMM_PSTPIX_DB_040201000000_00056_bsp,
+    ORMM_PSTPIX_DB_040201000000_00057_bsp,
     ORMM_PSTPIX_DB_040301000000_00000_bsp,
     ORMM_PSTPIX_DB_040301000000_00055_bsp,
     ORMM_PSTPIX_DB_040301000000_00056_bsp,
     ORMM_PSTPIX_DB_040301000000_00057_bsp,
+    ORMM_PSTPIX_DB_040301000000_00060_bsp,
     ORMM_PSTPIX_DB_040401000000_00000_bsp,
-    ORMM_PSTPIX_DB_040401000000_00000_bsp,
+    ORMM_PSTPIX_DB_040501000000_00000_bsp,
     ORMM_PSTPIX_DB_040601000000_00000_bsp,
     ORMM_PSTPIX_DB_040701000000_00000_bsp,
     ORMM_PSTPIX_DB_040801000000_00000_bsp,
-    ORMM_PSTPIX_DB_040901000000_00000_bsp_spk,
+    ORMM_PSTPIX_DB_040901000000_00000_bsp,
     ORMM_PSTPIX_DB_041001000000_00000_bsp,
+    ORMM_PSTPIX_DB_041101000000_00000_bsp,
     ORMM_PSTPIX_DB_041201000000_00000_bsp,
     ORMM_PSTPIX_DB_050101000000_00000_bsp,
-    ORMM__060401000000_00232_60sec_bsp_spk,
-    lainey_pho_dei_bsp_spk,
+    ORMM_PSTPIX_DB_050201000000_00000_bsp,
+    ORMM_PSTPIX_DB_050301000000_00000_bsp,
+    ORMM__060401000000_00232_60sec_bsp,
+    beagle2_sample_v2_bsp,
+    lainey_pho_dei_bsp,
     mars_orbits_jselle021025_bsp,
-    marxxx_01_bsp_spk,
-    marxxx_01_sun_bsp_spk,
-    mex_frozen_track_021122_utc_bsp_spk,
-    mex_hga_struct_v10_dish_bsp_spk,
-    mex_hga_struct_v10_edge_bsp_spk,
-    mex_hga_struct_v10_rim2_bsp_spk,
-    mex_hga_struct_v10_rim_bsp_spk,
+    marxxx_01_bsp,
+    marxxx_01_sun_bsp,
+    mex_aspera_struct_v10_bsp,
+    mex_aspera_struct_v11_bsp,
+    mex_frozen_track_021122_utc_bsp,
+    mex_hga_struct_v10_dish_bsp,
+    mex_hga_struct_v10_edge_bsp,
+    mex_hga_struct_v10_rim2_bsp,
+    mex_hga_struct_v10_rim_bsp,
     mex_map_sample_v4_bsp_spk,
     mex_map_sample_v4_bsp_spk,
-    mex_map_sample_v4_bsp_spk_fk,
-    mex_map_sample_v4_bsp_spk_spk,
-    mex_nadir_v2_tf_spk,
-    mex_stat_001105_bsp_spk,
+    mex_nadir_v2_tf,
+    mex_stat_001105_bsp,
     mex_stat_001110_bsp_spk,
     mex_stat_001110_bsp_spk,
-    mex_stat_001110_bsp_spk_fk,
-    mex_stat_001110_bsp_spk_fk,
+    mex_v00_tf,
+    mex_v01_tf,
+    mex_v02_tf,
     mex_v03_tf,
-    mex_v03_tf,
-    mex_v04_tf,
-    mex_v04_tf,
-    mex_v04_tf_spk,
-    mex_v05_tf_spk,
-    mex_v05_tf_spk,
-    mex_v06_tf_spk,
+    mex_v04_draft_rev2_tf,
+    mex_v04_tf_fk,
+    mex_v04_tf_fk,
+    mex_v04_tf_fk,
+    mex_v05_tf_fk,
+    mex_v05_tf_fk,
+    mex_v05_tf_fk,
+    mex_v06_tf,
     mex_v08_tf,
-    mex_v08_tf,
-    naif0007_tls_spk,
-    pck00007_tpc,
+    naif0007_tls_lsk,
+    naif0007_tls_lsk,
     pck00007_tpc

@@ -4,7 +4,7 @@
 
 
 """
-All earth_000101_240325_231231_bpc kernels, linked from https://naif.jpl.nasa.gov.
+All JUICE kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Juice
 

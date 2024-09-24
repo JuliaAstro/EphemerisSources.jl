@@ -4,7 +4,7 @@
 
 
 """
-All DSK_LL30N240E_UR50N270E_20131024_GMTED2010_M_v000_bds kernels, linked from https://naif.jpl.nasa.gov.
+All SMAP kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Smap
 

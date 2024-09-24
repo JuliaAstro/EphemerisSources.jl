@@ -4,7 +4,7 @@
 
 
 """
-All grail_v00_tf kernels, linked from https://naif.jpl.nasa.gov.
+All GRAIL kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Grail
 

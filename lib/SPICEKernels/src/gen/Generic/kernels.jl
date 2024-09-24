@@ -4,90 +4,6 @@
 
 
 """
-A SPK kernel of size 51.9 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup344-s2003_j24.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const jup344_s2003_j24_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup344-s2003_j24.bsp")
-
-"""
-A SPK kernel of size 59.0 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/codes_300ast_20100725.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const codes_300ast_20100725_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/codes_300ast_20100725.bsp")
-
-"""
-A FK kernel of size 25.0 KB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/codes_300ast_20100725.tf
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const codes_300ast_20100725_tf = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/codes_300ast_20100725.tf")
-
-"""
-A SPK kernel of size 143.0 KB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/C_G_1000012_2012_2017.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const C_G_1000012_2012_2017_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/C_G_1000012_2012_2017.bsp")
-
-"""
 A DSK kernel of size 106.3 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -109,27 +25,6 @@ No description could be found for this kernel. Download it, and use `SPICEApplic
 const near_a_msi_5_erosshape_v1_0_512q_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/eros/near-a-msi-5-erosshape-v1_0_512q.bds")
 
 """
-A SPK kernel of size 14.2 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/c2013a1_s105_merged.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const c2013a1_s105_merged_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/c2013a1_s105_merged.bsp")
-
-"""
 A DSK kernel of size 3.7 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -149,153 +44,6 @@ No description could be found for this kernel. Download it, and use `SPICEApplic
 ```
 """
 const near_a_msi_5_erosshape_v1_0_64q_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/eros/near-a-msi-5-erosshape-v1_0_64q.bds")
-
-"""
-A SPK kernel of size 123.0 KB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/ison.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const ison_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/ison.bsp")
-
-"""
-A SPK kernel of size 86.0 KB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/siding_spring_8-19-14.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const siding_spring_8_19_14_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/siding_spring_8-19-14.bsp")
-
-"""
-A SPK kernel of size 37.1 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/siding_spring_s46.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const siding_spring_s46_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/siding_spring_s46.bsp")
-
-"""
-A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L1_de431.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const L1_de431_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L1_de431.bsp")
-
-"""
-A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L2_de431.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const L2_de431_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L2_de431.bsp")
-
-"""
-A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L4_de431.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const L4_de431_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L4_de431.bsp")
-
-"""
-A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L5_de431.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const L5_de431_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L5_de431.bsp")
 
 """
 A DSK kernel of size 148.8 MB, linked from https://naif.jpl.nasa.gov [1].
@@ -340,48 +88,6 @@ No description could be found for this kernel. Download it, and use `SPICEApplic
 const hay_a_amica_5_itokawashape_v1_0_64q_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/itokawa/hay_a_amica_5_itokawashape_v1_0_64q.bds")
 
 """
-A SPK kernel of size 114.2 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de430.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const de430_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de430.bsp")
-
-"""
-A SPK kernel of size 297.5 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup344.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const jup344_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup344.bsp")
-
-"""
 A DSK kernel of size 39.4 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -422,27 +128,6 @@ No description could be found for this kernel. Download it, and use `SPICEApplic
 ```
 """
 const vesta_thomas_1997_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/vesta/vesta_thomas_1997.bds")
-
-"""
-A SPK kernel of size 96.3 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup346.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const jup346_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup346.bsp")
 
 """
 A DSK kernel of size 149.4 MB, linked from https://naif.jpl.nasa.gov [1].
@@ -1096,6 +781,27 @@ No description could be found for this kernel. Download it, and use `SPICEApplic
 const de_403_masses_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/de-403-masses.tpc")
 
 """
+A PCK kernel of size 4.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_241216_240923.bpc
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const earth_000101_241216_240923_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_241216_240923.bpc")
+
+"""
 A PCK kernel of size 29.5 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -1241,27 +947,6 @@ No description could be found for this kernel. Download it, and use `SPICEApplic
 ```
 """
 const gm_de440_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/gm_de440.tpc")
-
-"""
-A SPK kernel of size 1.1 GB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const mars_iau2000_v1_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.bsp")
 
 """
 A PCK kernel of size 12.3 KB, linked from https://naif.jpl.nasa.gov [1].
@@ -1432,6 +1117,258 @@ No description could be found for this kernel. Download it, and use `SPICEApplic
 const pck00011_n0066_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011_n0066.tpc")
 
 """
+A SPK kernel of size 59.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/codes_300ast_20100725.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const codes_300ast_20100725_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/codes_300ast_20100725.bsp")
+
+"""
+A FK kernel of size 25.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/codes_300ast_20100725.tf
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const codes_300ast_20100725_tf = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/codes_300ast_20100725.tf")
+
+"""
+A SPK kernel of size 143.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/C_G_1000012_2012_2017.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const C_G_1000012_2012_2017_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/C_G_1000012_2012_2017.bsp")
+
+"""
+A SPK kernel of size 14.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/c2013a1_s105_merged.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const c2013a1_s105_merged_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/c2013a1_s105_merged.bsp")
+
+"""
+A SPK kernel of size 123.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/ison.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const ison_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/ison.bsp")
+
+"""
+A SPK kernel of size 86.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/siding_spring_8-19-14.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const siding_spring_8_19_14_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/siding_spring_8-19-14.bsp")
+
+"""
+A SPK kernel of size 37.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/siding_spring_s46.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const siding_spring_s46_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/siding_spring_s46.bsp")
+
+"""
+A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L1_de431.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const L1_de431_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L1_de431.bsp")
+
+"""
+A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L2_de431.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const L2_de431_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L2_de431.bsp")
+
+"""
+A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L4_de431.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const L4_de431_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L4_de431.bsp")
+
+"""
+A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L5_de431.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const L5_de431_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L5_de431.bsp")
+
+"""
+A SPK kernel of size 114.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de430.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const de430_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de430.bsp")
+
+"""
 A SPK kernel of size 1.3 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -1451,27 +1388,6 @@ No description could be found for this kernel. Download it, and use `SPICEApplic
 ```
 """
 const de431_part_1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de431_part-1.bsp")
-
-"""
-A SPK kernel of size 448.1 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar097.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const mar097_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar097.bsp")
 
 """
 A SPK kernel of size 1.7 GB, linked from https://naif.jpl.nasa.gov [1].
@@ -1514,48 +1430,6 @@ No description could be found for this kernel. Download it, and use `SPICEApplic
 ```
 """
 const de432s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de432s.bsp")
-
-"""
-A SPK kernel of size 1.5 GB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep095.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const nep095_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep095.bsp")
-
-"""
-A SPK kernel of size 100.4 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const nep097_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.bsp")
 
 """
 A SPK kernel of size 114.2 MB, linked from https://naif.jpl.nasa.gov [1].
@@ -1663,6 +1537,174 @@ No description could be found for this kernel. Download it, and use `SPICEApplic
 const de441_part_1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de441_part-1.bsp")
 
 """
+A SPK kernel of size 1.5 GB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de441_part-2.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const de441_part_2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de441_part-2.bsp")
+
+"""
+A SPK kernel of size 51.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup344-s2003_j24.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const jup344_s2003_j24_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup344-s2003_j24.bsp")
+
+"""
+A SPK kernel of size 297.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup344.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const jup344_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup344.bsp")
+
+"""
+A SPK kernel of size 96.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup346.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const jup346_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup346.bsp")
+
+"""
+A SPK kernel of size 1.1 GB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const jup365_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.bsp")
+
+"""
+A SPK kernel of size 448.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar097.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const mar097_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar097.bsp")
+
+"""
+A SPK kernel of size 1.5 GB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep095.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const nep095_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep095.bsp")
+
+"""
+A SPK kernel of size 100.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.bsp
+
+## Description
+
+```
+No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
+```
+"""
+const nep097_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.bsp")
+
+"""
 A SPK kernel of size 2.0 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -1724,27 +1766,6 @@ No description could be found for this kernel. Download it, and use `SPICEApplic
 ```
 """
 const nep101xl_802_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep101xl-802.bsp")
-
-"""
-A SPK kernel of size 1.5 GB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de441_part-2.bsp
-
-## Description
-
-```
-No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!
-```
-"""
-const de441_part_2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de441_part-2.bsp")
 
 """
 A SPK kernel of size 1.5 GB, linked from https://naif.jpl.nasa.gov [1].
@@ -2681,6 +2702,7 @@ export
     dss_59_prelim_itrf93_220921_tf,
     dss_69_prelim_itrf93_201215_bsp,
     dss_69_prelim_itrf93_201215_tf,
+    earth_000101_241216_240923_bpc,
     earth_1962_240827_2124_combined_bpc,
     earth_200101_990827_predict_bpc,
     earth_620120_240827_bpc,
@@ -2701,9 +2723,9 @@ export
     jup344_s2003_j24_nameid_tf,
     jup346_bsp,
     jup346_nameid_tf,
+    jup365_bsp,
     latest_leapseconds_tls,
     mar097_bsp,
-    mars_iau2000_v1_tpc,
     mars_iau2000_v1_tpc,
     moon_080317_tf,
     moon_assoc_me_tf,

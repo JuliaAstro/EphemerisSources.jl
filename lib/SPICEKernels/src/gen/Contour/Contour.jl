@@ -4,7 +4,7 @@
 
 
 """
-All naif0008_tls kernels, linked from https://naif.jpl.nasa.gov.
+All CONTOUR kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Contour
 

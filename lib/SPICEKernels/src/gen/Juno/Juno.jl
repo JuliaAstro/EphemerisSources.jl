@@ -4,7 +4,7 @@
 
 
 """
-All spk_pre_200116_200601_200304_bpo25_p_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All JUNO kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Juno
 

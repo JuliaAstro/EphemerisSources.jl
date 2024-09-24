@@ -4,7 +4,7 @@
 
 
 """
-All lp_ask_990401_990730_bsp_spk kernels, linked from https://naif.jpl.nasa.gov.
+All LPM kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Lpm
 

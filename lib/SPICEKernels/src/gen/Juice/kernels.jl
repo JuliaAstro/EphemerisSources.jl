@@ -4,36 +4,6 @@
 
 
 """
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241127_240903.bpc
-"""
-const earth_000101_241127_240903_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241127_240903.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230726_230502.bpc
-"""
-const earth_000101_241128_240904_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230726_230502.bpc")
-
-"""
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -46,37 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_europa_plasma_torus_v01.bds
 """
-const earth_000101_230727_230503_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_europa_plasma_torus_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240326_240101.bpc
-"""
-const juice_europa_plasma_torus_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240326_240101.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241128_240904.bpc
-"""
-const earth_000101_240327_240103_bpc_dsk = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241128_240904.bpc")
+const juice_europa_plasma_torus_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_europa_plasma_torus_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -91,37 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_europa_plasma_torus_v02.bds
 """
-const earth_000101_241128_240905_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_europa_plasma_torus_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230727_230503.bpc
-"""
-const juice_europa_plasma_torus_v03_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230727_230503.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240327_240103.bpc
-"""
-const earth_000101_230727_230504_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240327_240103.bpc")
+const juice_europa_plasma_torus_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_europa_plasma_torus_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -136,52 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_europa_plasma_torus_v03.bds
 """
-const earth_000101_240327_240104_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_europa_plasma_torus_v03.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241128_240905.bpc
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240327_240104.bpc
-"""
-const juice_io_plasma_torus_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241128_240905.bpc")
-const juice_io_plasma_torus_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240327_240104.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230727_230504.bpc
-"""
-const earth_000101_240329_240105_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230727_230504.bpc")
+const juice_europa_plasma_torus_v03_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_europa_plasma_torus_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -196,52 +61,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_io_plasma_torus_v01.bds
 """
-const earth_000101_230729_230505_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_io_plasma_torus_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240329_240105.bpc
-"""
-const juice_io_plasma_torus_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240329_240105.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241130_240906.bpc
-"""
-const earth_000101_240330_240105_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241130_240906.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230729_230505.bpc
-"""
-const earth_000101_241201_240907_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230729_230505.bpc")
+const juice_io_plasma_torus_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_io_plasma_torus_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -256,52 +76,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_io_plasma_torus_v02.bds
 """
-const earth_000101_230730_230506_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_io_plasma_torus_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240330_240105.bpc
-"""
-const juice_io_plasma_torus_v04_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240330_240105.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241201_240907.bpc
-"""
-const earth_000101_240331_240106_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241201_240907.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230730_230506.bpc
-"""
-const earth_000101_241202_240908_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230730_230506.bpc")
+const juice_io_plasma_torus_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_io_plasma_torus_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -316,52 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_io_plasma_torus_v04.bds
 """
-const earth_000101_230731_230507_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_io_plasma_torus_v04.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240331_240106.bpc
-"""
-const juice_io_plasma_torus_v05_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240331_240106.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241202_240908.bpc
-"""
-const earth_000101_240401_240107_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241202_240908.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230731_230507.bpc
-"""
-const earth_000101_241203_240909_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230731_230507.bpc")
+const juice_io_plasma_torus_v04_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_io_plasma_torus_v04.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -376,52 +106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_io_plasma_torus_v05.bds
 """
-const earth_000101_230801_230508_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_io_plasma_torus_v05.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240401_240107.bpc
-"""
-const juice_jup_ama_gos_ring_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240401_240107.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241203_240909.bpc
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230801_230508.bpc
-"""
-const earth_000101_240402_240109_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241203_240909.bpc")
-const earth_000101_241203_240910_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230801_230508.bpc")
+const juice_io_plasma_torus_v05_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_io_plasma_torus_v05.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -436,52 +121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_ama_gos_ring_v01.bds
 """
-const earth_000101_230801_230509_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_ama_gos_ring_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240402_240109.bpc
-"""
-const juice_jup_ama_gos_ring_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240402_240109.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241203_240910.bpc
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230801_230509.bpc
-"""
-const earth_000101_240403_240109_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241203_240910.bpc")
-const earth_000101_240403_240109_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230801_230509.bpc")
+const juice_jup_ama_gos_ring_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_ama_gos_ring_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -496,52 +136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_ama_gos_ring_v02.bds
 """
-const earth_000101_241204_240911_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_ama_gos_ring_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240403_240109.bpc
-"""
-const juice_jup_amalthea_ring_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240403_240109.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241204_240911.bpc
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230803_230510.bpc
-"""
-const earth_000101_240403_240111_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230803_230510.bpc")
-const earth_000101_240403_240111_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241204_240911.bpc")
+const juice_jup_ama_gos_ring_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_ama_gos_ring_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -556,52 +151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_amalthea_ring_v01.bds
 """
-const earth_000101_230804_230511_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_amalthea_ring_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240403_240111.bpc
-"""
-const juice_jup_amalthea_ring_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240403_240111.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230804_230511.bpc
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241206_240912.bpc
-"""
-const earth_000101_240405_240112_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230804_230511.bpc")
-const earth_000101_240405_240112_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241206_240912.bpc")
+const juice_jup_amalthea_ring_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_amalthea_ring_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -616,52 +166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_amalthea_ring_v02.bds
 """
-const earth_000101_241207_240913_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_amalthea_ring_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240405_240112.bpc
-"""
-const juice_jup_halo_ring_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240405_240112.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241207_240913.bpc
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230805_230512.bpc
-"""
-const earth_000101_240406_240112_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241207_240913.bpc")
-const earth_000101_240406_240112_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230805_230512.bpc")
+const juice_jup_amalthea_ring_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_amalthea_ring_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -676,52 +181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_halo_ring_v01.bds
 """
-const earth_000101_230806_230513_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_halo_ring_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240406_240112.bpc
-"""
-const juice_jup_halo_ring_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240406_240112.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230806_230513.bpc
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241208_240914.bpc
-"""
-const earth_000101_240407_240113_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241208_240914.bpc")
-const earth_000101_240407_240113_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230806_230513.bpc")
+const juice_jup_halo_ring_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_halo_ring_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -736,52 +196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_halo_ring_v02.bds
 """
-const earth_000101_241209_240915_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_halo_ring_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240407_240113.bpc
-"""
-const juice_jup_halo_ring_v03_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240407_240113.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230807_230514.bpc
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241209_240915.bpc
-"""
-const earth_000101_240408_240114_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241209_240915.bpc")
-const earth_000101_240408_240114_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230807_230514.bpc")
+const juice_jup_halo_ring_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_halo_ring_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -796,52 +211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_halo_ring_v03.bds
 """
-const earth_000101_241210_240916_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_halo_ring_v03.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240408_240114.bpc
-"""
-const juice_jup_halo_ring_v04_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240408_240114.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230808_230515.bpc
-"""
-const earth_000101_240409_240116_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230808_230515.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241210_240916.bpc
-"""
-const earth_000101_230809_230516_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241210_240916.bpc")
+const juice_jup_halo_ring_v03_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_halo_ring_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -856,52 +226,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_halo_ring_v04.bds
 """
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240409_240116.bpc
-"""
-const earth_070425_370426_predict_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_halo_ring_v04.bds")
-const juice_jup_main_ring_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240409_240116.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230809_230516.bpc
-"""
-const earth_000101_240410_240117_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230809_230516.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_070425_370426_predict.bpc
-"""
-const earth_000101_230810_230517_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_070425_370426_predict.bpc")
+const juice_jup_halo_ring_v04_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_halo_ring_v04.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -916,52 +241,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_main_ring_v01.bds
 """
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240410_240117.bpc
-"""
-const gm_de431_tpc_dsk_pck = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_main_ring_v01.bds")
-const juice_jup_main_ring_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240410_240117.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230810_230517.bpc
-"""
-const earth_000101_240411_240118_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230810_230517.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/gm_de431.tpc
-"""
-const earth_000101_230811_230518_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/gm_de431.tpc")
+const juice_jup_main_ring_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_main_ring_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -976,52 +256,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_main_ring_v02.bds
 """
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240411_240118.bpc
-"""
-const inpop19a_moon_pa_v01_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_main_ring_v02.bds")
-const inpop19a_moon_pa_v01_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240411_240118.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230811_230518.bpc
-"""
-const earth_000101_240412_240119_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230811_230518.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/inpop19a_moon_pa_v01.bpc
-"""
-const earth_000101_230812_230519_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/inpop19a_moon_pa_v01.bpc")
+const juice_jup_main_ring_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_main_ring_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1036,37 +271,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_main_ring_v03.bds
 """
-const juice_jup000_tpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_main_ring_v03.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240412_240119.bpc
-"""
-const juice_jup_main_ring_v04_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240412_240119.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230812_230519.bpc
-"""
-const earth_000101_240413_240120_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230812_230519.bpc")
+const juice_jup_main_ring_v03_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_main_ring_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1081,52 +286,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_main_ring_v04.bds
 """
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup000.tpc
-"""
-const earth_000101_230813_230520_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_main_ring_v04.bds")
-const earth_000101_230813_230520_bpc_dsk = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup000.tpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240413_240120.bpc
-"""
-const juice_jup001_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240413_240120.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230813_230520.bpc
-"""
-const earth_000101_240414_240121_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230813_230520.bpc")
+const juice_jup_main_ring_v04_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_main_ring_v04.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1141,52 +301,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_the_ext_ring_v01.bds
 """
-const earth_000101_230814_230521_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_the_ext_ring_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup001.tpc
-"""
-const juice_jup_the_gos_ring_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup001.tpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240414_240121.bpc
-"""
-const juice_jup002_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240414_240121.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230814_230521.bpc
-"""
-const earth_000101_240414_240122_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230814_230521.bpc")
+const juice_jup_the_ext_ring_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_the_ext_ring_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1201,52 +316,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_the_gos_ring_v01.bds
 """
-const earth_000101_230815_230522_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_the_gos_ring_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240414_240122.bpc
-"""
-const juice_jup_the_gos_ring_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240414_240122.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup002.tpc
-"""
-const earth_000101_240416_240123_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup002.tpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230815_230522.bpc
-"""
-const juice_jup003_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230815_230522.bpc")
+const juice_jup_the_gos_ring_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_the_gos_ring_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1261,52 +331,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_the_gos_ring_v02.bds
 """
-const earth_000101_230816_230523_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_the_gos_ring_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240416_240123.bpc
-"""
-const juice_jup_the_ring_ext_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240416_240123.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup003.tpc
-"""
-const earth_000101_240418_240124_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup003.tpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230816_230523.bpc
-"""
-const juice_jup004_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230816_230523.bpc")
+const juice_jup_the_gos_ring_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_the_gos_ring_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1321,52 +346,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_the_ring_ext_v01.bds
 """
-const earth_000101_230817_230524_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_the_ring_ext_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240418_240124.bpc
-"""
-const juice_jup_thebe_ring_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240418_240124.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup004.tpc
-"""
-const earth_000101_240419_240125_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup004.tpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230817_230524.bpc
-"""
-const juice_jup005_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230817_230524.bpc")
+const juice_jup_the_ring_ext_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_the_ring_ext_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1381,52 +361,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_thebe_ring_v01.bds
 """
-const earth_000101_230818_230526_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_thebe_ring_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240419_240125.bpc
-"""
-const juice_jup_thebe_ring_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240419_240125.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup005.tpc
-"""
-const earth_000101_240420_240126_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup005.tpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230818_230526.bpc
-"""
-const juice_jup006_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230818_230526.bpc")
+const juice_jup_thebe_ring_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_thebe_ring_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1441,37 +376,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_thebe_ring_v02.bds
 """
-const earth_000101_230819_230526_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_thebe_ring_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240420_240126.bpc
-"""
-const juice_sc_bus_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240420_240126.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup006.tpc
-"""
-const earth_000101_240420_240127_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup006.tpc")
+const juice_jup_thebe_ring_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_jup_thebe_ring_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1486,52 +391,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v01.bds
 """
-const juice_jup007_tpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230819_230526.bpc
-"""
-const juice_sc_bus_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230819_230526.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240420_240127.bpc
-"""
-const earth_000101_230820_230527_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240420_240127.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup007.tpc
-"""
-const earth_000101_240421_240128_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup007.tpc")
+const juice_sc_bus_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1546,52 +406,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v02.bds
 """
-const juice_jup008_tpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230820_230527.bpc
-"""
-const juice_sc_bus_v03_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230820_230527.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240421_240128.bpc
-"""
-const earth_000101_230821_230528_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240421_240128.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup008.tpc
-"""
-const earth_000101_240423_240129_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup008.tpc")
+const juice_sc_bus_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1606,52 +421,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v03.bds
 """
-const juice_jup009_tpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v03.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230821_230528.bpc
-"""
-const juice_sc_bus_v04_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230821_230528.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup009.tpc
-"""
-const earth_000101_230822_230529_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup009.tpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240423_240129.bpc
-"""
-const juice_jup010_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240423_240129.bpc")
+const juice_sc_bus_v03_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1666,22 +436,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v04.bds
 """
-const earth_000101_240424_240130_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v04.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230822_230529.bpc
-"""
-const juice_sc_bus_v05_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230822_230529.bpc")
+const juice_sc_bus_v04_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v04.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1696,52 +451,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v05.bds
 """
-const earth_000101_230823_230530_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v05.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup010.tpc
-"""
-const juice_sc_bus_v06_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup010.tpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240424_240130.bpc
-"""
-const juice_sc_bus_v06_bds_pck_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240424_240130.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230823_230530.bpc
-"""
-const earth_000101_240424_240131_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230823_230530.bpc")
+const juice_sc_bus_v05_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v05.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1756,52 +466,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v06.bds
 """
-const earth_000101_230824_230601_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v06.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup011.tpc
-"""
-const juice_sc_bus_v07_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup011.tpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240424_240131.bpc
-"""
-const juice_roi_v00_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240424_240131.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230824_230601.bpc
-"""
-const earth_000101_240426_240201_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230824_230601.bpc")
+const juice_sc_bus_v06_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v06.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1816,52 +481,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v07.bds
 """
-const earth_000101_230825_230601_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v07.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_roi_v00.tpc
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240426_240201.bpc
-"""
-const juice_sc_fixed_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_roi_v00.tpc")
-const juice_roi_v01_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240426_240201.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230825_230601.bpc
-"""
-const earth_000101_240427_240202_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230825_230601.bpc")
+const juice_sc_bus_v07_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_bus_v07.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1876,52 +496,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_fixed_v01.bds
 """
-const earth_000101_230826_230602_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_fixed_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_roi_v01.tpc
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240427_240202.bpc
-"""
-const juice_sc_gala_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_roi_v01.tpc")
-const pck00010_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240427_240202.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230826_230602.bpc
-"""
-const earth_000101_240427_240203_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230826_230602.bpc")
+const juice_sc_fixed_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_fixed_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1936,52 +511,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_gala_v01.bds
 """
-const earth_000101_230826_230603_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_gala_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240427_240203.bpc
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/pck00010.tpc
-"""
-const juice_sc_gala_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240427_240203.bpc")
-const juice_sc_gala_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/pck00010.tpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230826_230603.bpc
-"""
-const pck00011_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230826_230603.bpc")
+const juice_sc_gala_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_gala_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1996,52 +526,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_gala_v02.bds
 """
-const earth_000101_230828_230604_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_gala_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240429_240204.bpc
-"""
-const juice_sc_janus_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240429_240204.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/pck00011.tpc
-"""
-const earth_000101_240430_240205_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/pck00011.tpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230828_230604.bpc
-"""
-const de405_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230828_230604.bpc")
+const juice_sc_gala_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_gala_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2056,37 +541,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_janus_v01.bds
 """
-const earth_000101_230829_230606_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_janus_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240430_240205.bpc
-"""
-const juice_sc_janus_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240430_240205.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/de405.bsp
-"""
-const earth_000101_240501_240206_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/de405.bsp")
+const juice_sc_janus_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_janus_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2101,52 +556,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_janus_v02.bds
 """
-const de430_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_janus_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230829_230606.bpc
-"""
-const juice_sc_jmc1_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230829_230606.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240501_240206.bpc
-"""
-const earth_000101_230830_230606_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240501_240206.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/de430.bsp
-"""
-const earth_000101_240502_240207_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/de430.bsp")
+const juice_sc_janus_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_janus_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2161,22 +571,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_jmc1_v01.bds
 """
-const de432s_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_jmc1_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230830_230606.bpc
-"""
-const juice_sc_jmc1_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230830_230606.bpc")
+const juice_sc_jmc1_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_jmc1_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2191,52 +586,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_jmc1_v02.bds
 """
-const earth_000101_230830_230607_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_jmc1_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240502_240207.bpc
-"""
-const juice_sc_jmc2_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240502_240207.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/de432s.bsp
-"""
-const earth_000101_240503_240208_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/de432s.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230830_230607.bpc
-"""
-const earthstns_fx_050714_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230830_230607.bpc")
+const juice_sc_jmc1_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_jmc1_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2251,52 +601,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_jmc2_v01.bds
 """
-const earth_000101_230901_230609_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_jmc2_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240503_240208.bpc
-"""
-const juice_sc_jmc2_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240503_240208.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/earthstns_fx_050714.bsp
-"""
-const earth_000101_240504_240209_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/earthstns_fx_050714.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230901_230609.bpc
-"""
-const earthstns_fx_201023_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230901_230609.bpc")
+const juice_sc_jmc2_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_jmc2_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2311,52 +616,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_jmc2_v02.bds
 """
-const earth_000101_230902_230609_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_jmc2_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240504_240209.bpc
-"""
-const juice_sc_lpb1_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240504_240209.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/earthstns_fx_201023.bsp
-"""
-const earth_000101_240505_240210_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/earthstns_fx_201023.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230902_230609.bpc
-"""
-const earthstns_itrf93_050714_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230902_230609.bpc")
+const juice_sc_jmc2_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_jmc2_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2371,52 +631,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb1_v01.bds
 """
-const earth_000101_230903_230610_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb1_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240505_240210.bpc
-"""
-const juice_sc_lpb1_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240505_240210.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/earthstns_itrf93_050714.bsp
-"""
-const earth_000101_240506_240211_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/earthstns_itrf93_050714.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230903_230610.bpc
-"""
-const estrack_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230903_230610.bpc")
+const juice_sc_lpb1_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb1_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2431,52 +646,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb1_v02.bds
 """
-const earth_000101_230904_230611_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb1_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240506_240211.bpc
-"""
-const juice_sc_lpb2_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240506_240211.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/estrack_v01.bsp
-"""
-const earth_000101_240507_240212_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/estrack_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230904_230611.bpc
-"""
-const estrack_v03_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230904_230611.bpc")
+const juice_sc_lpb1_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb1_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2491,51 +661,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb2_v01.bds
 """
-const earth_000101_230905_230613_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb2_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240507_240212.bpc
-"""
-const juice_sc_lpb2_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240507_240212.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/estrack_v03.bsp
-"""
-const earth_000101_240508_240213_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/estrack_v03.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230905_230613.bpc
-"""
+const juice_sc_lpb2_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb2_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2550,38 +676,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb2_v02.bds
 """
-const estrack_v04_bsp_dsk = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230905_230613.bpc")
-const estrack_v04_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb2_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240508_240213.bpc
-"""
-const juice_sc_lpb3_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240508_240213.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/estrack_v04.bsp
-"""
-const earth_000101_240509_240214_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/estrack_v04.bsp")
+const juice_sc_lpb2_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb2_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2596,52 +691,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb3_v01.bds
 """
-const inpop19a_19900101_20500101_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb3_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230906_230613.bpc
-"""
-const juice_sc_lpb3_v02_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230906_230613.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240509_240214.bpc
-"""
-const earth_000101_230907_230615_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240509_240214.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/inpop19a_19900101_20500101.bsp
-"""
-const earth_000101_240510_240215_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/inpop19a_19900101_20500101.bsp")
+const juice_sc_lpb3_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb3_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2656,22 +706,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb3_v02.bds
 """
-const juice_cog_000031_230416_230419_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb3_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230907_230615.bpc
-"""
-const juice_sc_lpb4_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230907_230615.bpc")
+const juice_sc_lpb3_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb3_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2686,52 +721,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb4_v01.bds
 """
-const earth_000101_230908_230615_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb4_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240510_240215.bpc
-"""
-const juice_sc_lpb4_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240510_240215.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v01.bsp
-"""
-const earth_000101_240511_240216_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230908_230615.bpc
-"""
-const juice_cog_000031_230416_230419_v02_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230908_230615.bpc")
+const juice_sc_lpb4_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb4_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2746,52 +736,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb4_v02.bds
 """
-const earth_000101_230909_230616_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb4_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240511_240216.bpc
-"""
-const juice_sc_mag_boom_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240511_240216.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v02.bsp
-"""
-const earth_000101_240512_240217_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v02.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230909_230616.bpc
-"""
-const juice_cog_000031_230416_230419_v03_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230909_230616.bpc")
+const juice_sc_lpb4_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_lpb4_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2806,52 +751,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_boom_v01.bds
 """
-const earth_000101_230910_230617_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_boom_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240512_240217.bpc
-"""
-const juice_sc_mag_v03_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240512_240217.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v03.bsp
-"""
-const earth_000101_240513_240218_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v03.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230910_230617.bpc
-"""
-const juice_cog_000031_230416_230419_v04_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230910_230617.bpc")
+const juice_sc_mag_boom_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_boom_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2866,52 +766,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_v03.bds
 """
-const earth_000101_230910_230618_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_v03.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240513_240218.bpc
-"""
-const juice_sc_mag_v04_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240513_240218.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v04.bsp
-"""
-const earth_000101_240514_240219_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v04.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230910_230618.bpc
-"""
-const juice_cog_000032_230416_230420_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230910_230618.bpc")
+const juice_sc_mag_v03_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2926,37 +781,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_v04.bds
 """
-const earth_000101_230912_230620_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_v04.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240514_240219.bpc
-"""
-const juice_sc_mag_v05_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240514_240219.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000032_230416_230420_v01.bsp
-"""
-const earth_000101_240515_240220_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000032_230416_230420_v01.bsp")
+const juice_sc_mag_v04_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_v04.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2971,52 +796,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_v05.bds
 """
-const juice_cog_000033_230416_230429_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_v05.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230912_230620.bpc
-"""
-const juice_sc_mag_v06_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230912_230620.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240515_240220.bpc
-"""
-const earth_000101_230913_230620_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240515_240220.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000033_230416_230429_v01.bsp
-"""
-const earth_000101_240516_240221_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000033_230416_230429_v01.bsp")
+const juice_sc_mag_v05_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_v05.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3031,52 +811,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_v06.bds
 """
-const juice_cog_000034_230416_230506_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_v06.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230913_230620.bpc
-"""
-const juice_sc_majis_v01_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230913_230620.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240516_240221.bpc
-"""
-const earth_000101_230913_230621_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240516_240221.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000034_230416_230506_v01.bsp
-"""
-const earth_000101_240516_240222_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000034_230416_230506_v01.bsp")
+const juice_sc_mag_v06_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mag_v06.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3091,37 +826,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_majis_v01.bds
 """
-const juice_cog_000035_230416_230513_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_majis_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230913_230621.bpc
-"""
-const juice_sc_majis_v02_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230913_230621.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240516_240222.bpc
-"""
-const earth_000101_230915_230622_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240516_240222.bpc")
+const juice_sc_majis_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_majis_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3136,37 +841,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_majis_v02.bds
 """
-const earth_000101_240518_240223_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_majis_v02.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000035_230416_230513_v01.bsp
-"""
-const juice_sc_mga_apm_v01_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000035_230416_230513_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230915_230622.bpc
-"""
-const juice_cog_000035_230416_230513_v02_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230915_230622.bpc")
+const juice_sc_majis_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_majis_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3181,52 +856,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_apm_v01.bds
 """
-const earth_000101_230916_230623_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_apm_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240518_240223.bpc
-"""
-const juice_sc_mga_apm_v03_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240518_240223.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000035_230416_230513_v02.bsp
-"""
-const earth_000101_240519_240224_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000035_230416_230513_v02.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230916_230623.bpc
-"""
-const juice_cog_000036_230416_230520_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230916_230623.bpc")
+const juice_sc_mga_apm_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_apm_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3241,52 +871,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_apm_v03.bds
 """
-const earth_000101_230916_230624_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_apm_v03.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240519_240224.bpc
-"""
-const juice_sc_mga_apm_v04_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240519_240224.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000036_230416_230520_v01.bsp
-"""
-const earth_000101_240520_240225_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000036_230416_230520_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230916_230624.bpc
-"""
-const juice_cog_000036_230416_230520_v02_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230916_230624.bpc")
+const juice_sc_mga_apm_v03_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_apm_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3301,52 +886,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_apm_v04.bds
 """
-const earth_000101_230918_230626_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_apm_v04.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240520_240225.bpc
-"""
-const juice_sc_mga_dish_v03_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240520_240225.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000036_230416_230520_v02.bsp
-"""
-const earth_000101_240521_240226_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000036_230416_230520_v02.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230918_230626.bpc
-"""
-const juice_cog_000037_230416_230527_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230918_230626.bpc")
+const juice_sc_mga_apm_v04_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_apm_v04.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3361,37 +901,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_dish_v03.bds
 """
-const earth_000101_230919_230626_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_dish_v03.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240521_240226.bpc
-"""
-const juice_sc_mga_dish_v04_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240521_240226.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000037_230416_230527_v01.bsp
-"""
-const earth_000101_240521_240227_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000037_230416_230527_v01.bsp")
+const juice_sc_mga_dish_v03_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_dish_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3406,52 +916,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_dish_v04.bds
 """
-const juice_cog_000037_230416_230527_v02_bsp_dsk_pck = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_dish_v04.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230919_230626.bpc
-"""
-const juice_sc_mga_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230919_230626.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240521_240227.bpc
-"""
-const earth_000101_230919_230627_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240521_240227.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000037_230416_230527_v02.bsp
-"""
-const earth_000101_240523_240228_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000037_230416_230527_v02.bsp")
+const juice_sc_mga_dish_v04_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_dish_v04.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3466,52 +931,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_v01.bds
 """
-const juice_cog_000038_230416_230603_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230919_230627.bpc
-"""
-const juice_sc_navcam1_v01_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230919_230627.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240523_240228.bpc
-"""
-const earth_000101_230921_230628_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240523_240228.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000038_230416_230603_v01.bsp
-"""
-const earth_000101_240524_240229_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000038_230416_230603_v01.bsp")
+const juice_sc_mga_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_mga_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3526,52 +946,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_navcam1_v01.bds
 """
-const juice_cog_000039_230416_230610_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_navcam1_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230921_230628.bpc
-"""
-const juice_sc_navcam2_v01_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230921_230628.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240524_240229.bpc
-"""
-const earth_000101_230922_230630_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240524_240229.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000039_230416_230610_v01.bsp
-"""
-const earth_000101_240525_240301_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000039_230416_230610_v01.bsp")
+const juice_sc_navcam1_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_navcam1_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3586,22 +961,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_navcam2_v01.bds
 """
-const juice_cog_000040_230416_230617_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_navcam2_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230922_230630.bpc
-"""
-const juice_sc_pep_jdc_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230922_230630.bpc")
+const juice_sc_navcam2_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_navcam2_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3616,52 +976,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jdc_v01.bds
 """
-const earth_000101_230923_230630_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jdc_v01.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000040_230416_230617_v01.bsp
-"""
-const juice_sc_pep_jdc_v02_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000040_230416_230617_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240525_240301.bpc
-"""
-const juice_cog_000041_230416_230624_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240525_240301.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230923_230630.bpc
-"""
-const earth_000101_240526_240302_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230923_230630.bpc")
+const juice_sc_pep_jdc_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jdc_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3676,52 +991,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jdc_v02.bds
 """
-const earth_000101_230924_230701_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jdc_v02.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000041_230416_230624_v01.bsp
-"""
-const juice_sc_pep_jei_v01_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000041_230416_230624_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240526_240302.bpc
-"""
-const juice_cog_000042_230416_230701_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240526_240302.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230924_230701.bpc
-"""
-const earth_000101_240526_240303_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230924_230701.bpc")
+const juice_sc_pep_jdc_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jdc_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3736,52 +1006,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jei_v01.bds
 """
-const earth_000101_230925_230703_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jei_v01.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000042_230416_230701_v01.bsp
-"""
-const juice_sc_pep_jei_v02_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000042_230416_230701_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240526_240303.bpc
-"""
-const juice_cog_000043_230416_230708_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240526_240303.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230925_230703.bpc
-"""
-const earth_000101_240528_240304_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230925_230703.bpc")
+const juice_sc_pep_jei_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jei_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3796,52 +1021,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jei_v02.bds
 """
-const earth_000101_230927_230704_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jei_v02.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000043_230416_230708_v01.bsp
-"""
-const juice_sc_pep_jeni_v01_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000043_230416_230708_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240528_240304.bpc
-"""
-const juice_cog_000044_230416_230715_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240528_240304.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230927_230704.bpc
-"""
-const earth_000101_240528_240305_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230927_230704.bpc")
+const juice_sc_pep_jei_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jei_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3856,37 +1036,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jeni_v01.bds
 """
-const earth_000101_230928_230706_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jeni_v01.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000044_230416_230715_v01.bsp
-"""
-const juice_sc_pep_jeni_v02_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000044_230416_230715_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240528_240305.bpc
-"""
-const juice_cog_000045_230416_230729_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240528_240305.bpc")
+const juice_sc_pep_jeni_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jeni_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3901,52 +1051,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jeni_v02.bds
 """
-const earth_000101_240530_240306_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jeni_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230928_230706.bpc
-"""
-const juice_sc_pep_jna_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230928_230706.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000045_230416_230729_v01.bsp
-"""
-const earth_000101_230929_230707_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000045_230416_230729_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240530_240306.bpc
-"""
-const juice_cog_000046_230416_230825_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240530_240306.bpc")
+const juice_sc_pep_jeni_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jeni_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3961,37 +1066,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jna_v01.bds
 """
-const earth_000101_240531_240307_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jna_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230929_230707.bpc
-"""
-const juice_sc_pep_jna_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230929_230707.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000046_230416_230825_v01.bsp
-"""
-const earth_000101_230930_230707_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000046_230416_230825_v01.bsp")
+const juice_sc_pep_jna_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jna_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4006,51 +1081,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jna_v02.bds
 """
-const juice_cog_000047_230416_230922_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jna_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240531_240307.bpc
-"""
-const juice_sc_pep_nim_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240531_240307.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230930_230707.bpc
-"""
-const earth_000101_240601_240308_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230930_230707.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000047_230416_230922_v01.bsp
-"""
+const juice_sc_pep_jna_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_jna_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4065,38 +1096,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_nim_v01.bds
 """
-const earth_000101_231001_230708_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000047_230416_230922_v01.bsp")
-const earth_000101_231001_230708_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_nim_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240601_240308.bpc
-"""
-const juice_sc_pep_nim_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240601_240308.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231001_230708.bpc
-"""
-const earth_000101_240602_240309_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231001_230708.bpc")
+const juice_sc_pep_nim_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_nim_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4111,52 +1111,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_nim_v02.bds
 """
-const earth_000101_231002_230710_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_nim_v02.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000048_230416_231021_v01.bsp
-"""
-const juice_sc_rimemx_v01_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000048_230416_231021_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240602_240309.bpc
-"""
-const juice_cog_000049_230416_231114_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240602_240309.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231002_230710.bpc
-"""
-const earth_000101_240603_240310_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231002_230710.bpc")
+const juice_sc_pep_nim_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_pep_nim_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4171,52 +1126,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimemx_v01.bds
 """
-const earth_000101_231003_230710_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimemx_v01.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000049_230416_231114_v01.bsp
-"""
-const juice_sc_rimemx_v02_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000049_230416_231114_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240603_240310.bpc
-"""
-const juice_cog_000050_230416_231128_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240603_240310.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231003_230710.bpc
-"""
-const earth_000101_240604_240311_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231003_230710.bpc")
+const juice_sc_rimemx_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimemx_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4231,52 +1141,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimemx_v02.bds
 """
-const earth_000101_231004_230711_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimemx_v02.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000050_230416_231128_v01.bsp
-"""
-const juice_sc_rimemx_v03_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000050_230416_231128_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240604_240311.bpc
-"""
-const juice_cog_000051_230416_231130_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240604_240311.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231004_230711.bpc
-"""
-const earth_000101_240604_240312_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231004_230711.bpc")
+const juice_sc_rimemx_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimemx_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4291,37 +1156,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimemx_v03.bds
 """
-const earth_000101_231005_230712_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimemx_v03.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000051_230416_231130_v01.bsp
-"""
-const juice_sc_rimepx_v01_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000051_230416_231130_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240604_240312.bpc
-"""
-const juice_cog_000052_230416_231213_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240604_240312.bpc")
+const juice_sc_rimemx_v03_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimemx_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4336,52 +1171,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimepx_v01.bds
 """
-const earth_000101_240606_240313_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimepx_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231005_230712.bpc
-"""
-const juice_sc_rimepx_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231005_230712.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000052_230416_231213_v01.bsp
-"""
-const earth_000101_231006_230713_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000052_230416_231213_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240606_240313.bpc
-"""
-const juice_cog_000053_230416_240112_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240606_240313.bpc")
+const juice_sc_rimepx_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimepx_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4396,37 +1186,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimepx_v02.bds
 """
-const earth_000101_240606_240314_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimepx_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231006_230713.bpc
-"""
-const juice_sc_rimepx_v03_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231006_230713.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000053_230416_240112_v01.bsp
-"""
-const earth_000101_231006_230714_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000053_230416_240112_v01.bsp")
+const juice_sc_rimepx_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimepx_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4441,52 +1201,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimepx_v03.bds
 """
-const juice_cog_000054_230416_240215_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimepx_v03.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240606_240314.bpc
-"""
-const juice_sc_rwi_v01_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240606_240314.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231006_230714.bpc
-"""
-const earth_000101_240608_240315_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231006_230714.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000054_230416_240215_v01.bsp
-"""
-const earth_000101_231008_230715_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000054_230416_240215_v01.bsp")
+const juice_sc_rimepx_v03_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rimepx_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4501,37 +1216,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rwi_v01.bds
 """
-const juice_cog_000055_230416_240303_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rwi_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240608_240315.bpc
-"""
-const juice_sc_rwi_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240608_240315.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231008_230715.bpc
-"""
-const earth_000101_240609_240316_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231008_230715.bpc")
+const juice_sc_rwi_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rwi_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4546,52 +1231,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rwi_v02.bds
 """
-const earth_000101_231009_230717_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rwi_v02.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000055_230416_240303_v01.bsp
-"""
-const juice_sc_rwi_v03_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000055_230416_240303_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240609_240316.bpc
-"""
-const juice_cog_000056_230416_240417_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240609_240316.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231009_230717.bpc
-"""
-const earth_000101_240610_240317_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231009_230717.bpc")
+const juice_sc_rwi_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rwi_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4606,52 +1246,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rwi_v03.bds
 """
-const earth_000101_231010_230717_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rwi_v03.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000056_230416_240417_v01.bsp
-"""
-const juice_sc_rwi_v04_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000056_230416_240417_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240610_240317.bpc
-"""
-const juice_cog_000059_230416_240826_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240610_240317.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231010_230717.bpc
-"""
-const earth_000101_240610_240318_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231010_230717.bpc")
+const juice_sc_rwi_v03_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rwi_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4666,52 +1261,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rwi_v04.bds
 """
-const earth_000101_231011_230718_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rwi_v04.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000059_230416_240826_v01.bsp
-"""
-const juice_sc_sa_y_v01_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000059_230416_240826_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240610_240318.bpc
-"""
-const juice_cog_000060_230416_240516_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240610_240318.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231011_230718.bpc
-"""
-const earth_000101_240612_240319_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231011_230718.bpc")
+const juice_sc_rwi_v04_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_rwi_v04.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4726,52 +1276,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v01.bds
 """
-const earth_000101_231012_230719_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v01.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000060_230416_240516_v01.bsp
-"""
-const juice_sc_sa_y_v02_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000060_230416_240516_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240612_240319.bpc
-"""
-const juice_cog_000061_230416_240613_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240612_240319.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231012_230719.bpc
-"""
-const earth_000101_240612_240320_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231012_230719.bpc")
+const juice_sc_sa_y_v01_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4786,37 +1291,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v02.bds
 """
-const earth_000101_231013_230721_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v02.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000061_230416_240613_v01.bsp
-"""
-const juice_sc_sa_y_v03_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000061_230416_240613_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240612_240320.bpc
-"""
-const juice_cog_000062_230416_240705_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240612_240320.bpc")
+const juice_sc_sa_y_v02_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4831,37 +1306,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v03.bds
 """
-const earth_000101_240614_240321_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v03.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231013_230721.bpc
-"""
-const juice_sc_sa_y_v04_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231013_230721.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000062_230416_240705_v01.bsp
-"""
-const earth_000101_231014_230721_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000062_230416_240705_v01.bsp")
+const juice_sc_sa_y_v03_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4876,52 +1321,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v04.bds
 """
-const juice_cog_000063_230416_240721_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v04.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240614_240321.bpc
-"""
-const juice_sc_sa_y_v05_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240614_240321.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231014_230721.bpc
-"""
-const earth_000101_240615_240322_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231014_230721.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000063_230416_240721_v01.bsp
-"""
-const earth_000101_231015_230722_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000063_230416_240721_v01.bsp")
+const juice_sc_sa_y_v04_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v04.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4936,37 +1336,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v05.bds
 """
-const juice_cog_000064_230416_240819_v01_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v05.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240615_240322.bpc
-"""
-const juice_sc_sa_y_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240615_240322.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231015_230722.bpc
-"""
-const earth_000101_240616_240323_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231015_230722.bpc")
+const juice_sc_sa_y_v05_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa+y_v05.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4981,52 +1351,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v01.bds
 """
-const earth_000101_231016_230724_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v01.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000064_230416_240819_v01.bsp
-"""
-const juice_sc_sa_y_v02_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000064_230416_240819_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240616_240323.bpc
-"""
-const juice_cog_000067_230416_240804_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240616_240323.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231016_230724.bpc
-"""
-const earth_000101_240617_240324_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231016_230724.bpc")
+const juice_sc_sa_y_v01_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5041,52 +1366,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v02.bds
 """
-const earth_000101_231017_230725_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v02.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000067_230416_240804_v01.bsp
-"""
-const juice_sc_sa_y_v03_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000067_230416_240804_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240617_240324.bpc
-"""
-const juice_cog_000068_230416_240811_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240617_240324.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231017_230725.bpc
-"""
-const earth_000101_240618_240325_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231017_230725.bpc")
+const juice_sc_sa_y_v02_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5101,52 +1381,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v03.bds
 """
-const earth_000101_231018_230725_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v03.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000068_230416_240811_v01.bsp
-"""
-const juice_sc_sa_y_v04_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000068_230416_240811_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231018_230725.bpc
-"""
-const juice_cog_000069_230416_240816_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231018_230725.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240618_240325.bpc
-"""
-const earth_000101_231019_230726_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240618_240325.bpc")
+const juice_sc_sa_y_v03_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5161,52 +1396,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v04.bds
 """
-const earth_000101_240618_240326_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v04.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000069_230416_240816_v01.bsp
-"""
-const juice_sc_sa_y_v05_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000069_230416_240816_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231019_230726.bpc
-"""
-const juice_cog_000070_230416_240818_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231019_230726.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240618_240326.bpc
-"""
-const earth_000101_231020_230728_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240618_240326.bpc")
+const juice_sc_sa_y_v04_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v04.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5221,22 +1411,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v05.bds
 """
-const earth_000101_231020_230728_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v05.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000070_230416_240818_v01.bsp
-"""
-const juice_sc_samy_v01_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000070_230416_240818_v01.bsp")
+const juice_sc_sa_y_v05_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sa-y_v05.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5251,52 +1426,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_samy_v01.bds
 """
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231020_230728.bpc
-"""
-const juice_cog_000071_230416_240826_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_samy_v01.bds")
-const juice_cog_000071_230416_240826_v01_bsp_dsk = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231020_230728.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240620_240327.bpc
-"""
-const earth_000101_231021_230728_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240620_240327.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000071_230416_240826_v01.bsp
-"""
-const earth_000101_240621_240328_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000071_230416_240826_v01.bsp")
+const juice_sc_samy_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_samy_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5311,52 +1441,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_samy_v02.bds
 """
-const juice_cog_000072_230416_240905_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_samy_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231021_230728.bpc
-"""
-const juice_sc_sapy_v01_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231021_230728.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240621_240328.bpc
-"""
-const earth_000101_231021_230729_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240621_240328.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000072_230416_240905_v01.bsp
-"""
-const earth_000101_240622_240329_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000072_230416_240905_v01.bsp")
+const juice_sc_samy_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_samy_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5371,52 +1456,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sapy_v01.bds
 """
-const juice_cog_000073_230416_241002_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sapy_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231021_230729.bpc
-"""
-const juice_sc_sapy_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231021_230729.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240622_240329.bpc
-"""
-const earth_000101_231023_230730_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240622_240329.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000073_230416_241002_v01.bsp
-"""
-const earth_000101_240623_240330_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000073_230416_241002_v01.bsp")
+const juice_sc_sapy_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sapy_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5431,37 +1471,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sapy_v02.bds
 """
-const juice_cog_v00_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sapy_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231023_230730.bpc
-"""
-const juice_sc_scm_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231023_230730.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240623_240330.bpc
-"""
-const earth_000101_231024_230801_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240623_240330.bpc")
+const juice_sc_sapy_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_sapy_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5476,52 +1486,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_scm_v01.bds
 """
-const earth_000101_240624_240331_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_scm_v01.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_v00.bsp
-"""
-const juice_sc_scm_v02_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_v00.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231024_230801.bpc
-"""
-const juice_crema_5_0_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231024_230801.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240624_240331.bpc
-"""
-const earth_000101_231025_230801_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240624_240331.bpc")
+const juice_sc_scm_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_scm_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5536,52 +1501,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_scm_v02.bds
 """
-const earth_000101_240625_240401_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_scm_v02.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_0_v01.bsp
-"""
-const juice_sc_scm_v03_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_0_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231025_230801.bpc
-"""
-const juice_crema_5_0b23_1_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231025_230801.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240625_240401.bpc
-"""
-const earth_000101_231026_230802_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240625_240401.bpc")
+const juice_sc_scm_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_scm_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5596,52 +1516,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_scm_v03.bds
 """
-const earth_000101_240626_240402_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_scm_v03.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_0b23_1_v01.bsp
-"""
-const juice_sc_str1_v01_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_0b23_1_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231026_230802.bpc
-"""
-const juice_crema_5_1_150la_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231026_230802.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240626_240402.bpc
-"""
-const earth_000101_231027_230804_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240626_240402.bpc")
+const juice_sc_scm_v03_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_scm_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5656,37 +1531,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str1_v01.bds
 """
-const earth_000101_240627_240403_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str1_v01.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150la_v01.bsp
-"""
-const juice_sc_str1_v02_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150la_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231027_230804.bpc
-"""
-const juice_crema_5_1_150lb_23_1_a3_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231027_230804.bpc")
+const juice_sc_str1_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str1_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5701,37 +1546,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str1_v02.bds
 """
-const earth_000101_231028_230804_bpc_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str1_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240627_240403.bpc
-"""
-const juice_sc_str2_v01_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240627_240403.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_a3_v01.bsp
-"""
-const earth_000101_240627_240404_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_a3_v01.bsp")
+const juice_sc_str1_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str1_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5746,52 +1561,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str2_v01.bds
 """
-const juice_crema_5_1_150lb_23_1_b2_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str2_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231028_230804.bpc
-"""
-const juice_sc_str2_v02_bds_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231028_230804.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240627_240404.bpc
-"""
-const earth_000101_231029_230805_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240627_240404.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_b2_v01.bsp
-"""
-const earth_000101_240629_240405_bpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_b2_v01.bsp")
+const juice_sc_str2_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str2_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5806,37 +1576,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str2_v02.bds
 """
-const juice_crema_5_1_150lb_23_1_plan_v01_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str2_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240629_240405.bpc
-"""
-const juice_sc_str3_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240629_240405.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_plan_v01.bsp
-"""
-const earth_000101_240630_240406_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_plan_v01.bsp")
+const juice_sc_str2_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str2_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5851,52 +1591,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str3_v01.bds
 """
-const juice_crema_5_1_150lb_23_1_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str3_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240630_240406.bpc
-"""
-const juice_sc_str3_v02_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240630_240406.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231029_230805.bpc
-"""
-const earth_000101_240630_240407_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231029_230805.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_v01.bsp
-"""
-const earth_000101_231030_230806_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_v01.bsp")
+const juice_sc_str3_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str3_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5911,37 +1606,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str3_v02.bds
 """
-const juice_crema_5_1_150lb_v01_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str3_v02.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240630_240407.bpc
-"""
-const juice_sc_swi_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240630_240407.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231030_230806.bpc
-"""
-const earth_000101_240702_240408_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231030_230806.bpc")
+const juice_sc_str3_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_str3_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5956,37 +1621,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_swi_v01.bds
 """
-const earth_000101_231030_230808_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_swi_v01.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_v01.bsp
-"""
-const juice_sc_swi_v02_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240702_240408.bpc
-"""
-const juice_earthstns_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240702_240408.bpc")
+const juice_sc_swi_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_swi_v01.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6001,37 +1636,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_swi_v02.bds
 """
-const earth_000101_240703_240409_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_swi_v02.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_earthstns_v01.bsp
-"""
-const juice_sc_swi_v03_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_earthstns_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240703_240409.bpc
-"""
-const juice_mat_150l0a_20220904_20310717_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240703_240409.bpc")
+const juice_sc_swi_v02_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_swi_v02.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6046,37 +1651,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_swi_v03.bds
 """
-const earth_000101_240704_240410_bpc = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_swi_v03.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231030_230808.bpc
-"""
-const juice_sc_uvs_v01_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231030_230808.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_150l0a_20220904_20310717_v01.bsp
-"""
-const earth_000101_231031_230808_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_150l0a_20220904_20310717_v01.bsp")
+const juice_sc_swi_v03_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_swi_v03.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6091,37 +1666,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_uvs_v01.bds
 """
-const juice_mat_crema_2_0_20220604_20330705_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_uvs_v01.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231031_230808.bpc
-"""
-const earth_topo_050714_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231031_230808.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_2_0_20220604_20330705_v01.bsp
-"""
-const earth_000101_231102_230809_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_2_0_20220604_20330705_v01.bsp")
+const juice_sc_uvs_v01_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/dsk/juice_sc_uvs_v01.bds")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6136,52 +1681,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/earth_topo_050714.tf
 """
-const juice_mat_crema_3_0_20220601_20330604_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/earth_topo_050714.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240704_240410.bpc
-"""
-const earth_topo_201023_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240704_240410.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231102_230809.bpc
-"""
-const earth_000101_240705_240411_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231102_230809.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_3_0_20220601_20330604_v01.bsp
-"""
-const earth_000101_231103_230811_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_3_0_20220601_20330604_v01.bsp")
+const earth_topo_050714_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/earth_topo_050714.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6196,52 +1696,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/earth_topo_201023.tf
 """
-const juice_mat_crema_3_1_20220531_20330911_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/earth_topo_201023.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240705_240411.bpc
-"""
-const earthfixediau_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240705_240411.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231103_230811.bpc
-"""
-const earth_000101_240705_240412_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231103_230811.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_3_1_20220531_20330911_v01.bsp
-"""
-const earth_000101_231104_230811_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_3_1_20220531_20330911_v01.bsp")
+const earth_topo_201023_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/earth_topo_201023.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6256,7 +1711,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/earthfixediau.tf
 """
-const juice_mat_crema_3_2_20220601_20330626_v01_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/earthfixediau.tf")
+const earthfixediau_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/earthfixediau.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6274,36 +1729,6 @@ This kernel's link was sourced on 2024-09-24.
 const earthfixeditrf93_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/earthfixeditrf93.tf")
 
 """
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231104_230811.bpc
-"""
-const estrack_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231104_230811.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_3_2_20220601_20330626_v01.bsp
-"""
-const earth_000101_231105_230812_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_3_2_20220601_20330626_v01.bsp")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -6316,52 +1741,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/estrack_v01.tf
 """
-const juice_mat_crema_4_0_20220601_20330626_v01_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/estrack_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231105_230812.bpc
-"""
-const estrack_v03_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231105_230812.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0_20220601_20330626_v01.bsp
-"""
-const earth_000101_231106_230813_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0_20220601_20330626_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240705_240412.bpc
-"""
-const juice_mat_crema_4_0_20220601_20330626_v02_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240705_240412.bpc")
+const estrack_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/estrack_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6376,37 +1756,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/estrack_v03.tf
 """
-const earth_000101_240706_240413_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/estrack_v03.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231106_230813.bpc
-"""
-const estrack_v04_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231106_230813.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0_20220601_20330626_v02.bsp
-"""
-const earth_000101_231107_230814_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0_20220601_20330626_v02.bsp")
+const estrack_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/estrack_v03.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6421,37 +1771,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/estrack_v04.tf
 """
-const juice_mat_crema_4_0b_20230809_20360821_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/estrack_v04.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231107_230814.bpc
-"""
-const juice_dsk_surfaces_v00_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231107_230814.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0b_20230809_20360821_v01.bsp
-"""
-const earth_000101_231108_230815_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0b_20230809_20360821_v01.bsp")
+const estrack_v04_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/estrack_v04.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6466,52 +1786,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v00.tf
 """
-const juice_mat_crema_4_0b_20230809_20360821_v02_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v00.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240706_240413.bpc
-"""
-const juice_dsk_surfaces_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240706_240413.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231108_230815.bpc
-"""
-const earth_000101_240708_240414_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231108_230815.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0b_20230809_20360821_v02.bsp
-"""
-const earth_000101_231109_230817_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0b_20230809_20360821_v02.bsp")
+const juice_dsk_surfaces_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6526,22 +1801,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v01.tf
 """
-const juice_mat_crema_4_1_N56_Pp5_Q19_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231109_230817.bpc
-"""
-const juice_dsk_surfaces_v02_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231109_230817.bpc")
+const juice_dsk_surfaces_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6556,22 +1816,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v02.tf
 """
-const earth_000101_231110_230817_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v02.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_1_N56_Pp5_Q19_v01.bsp
-"""
-const juice_dsk_surfaces_v03_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_1_N56_Pp5_Q19_v01.bsp")
+const juice_dsk_surfaces_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6586,52 +1831,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v03.tf
 """
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240708_240414.bpc
-"""
-const juice_mat_crema_4_2_N54_Pp5_Q19_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v03.tf")
-const juice_dsk_surfaces_v04_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240708_240414.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231110_230817.bpc
-"""
-const earth_000101_240709_240415_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231110_230817.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2_N54_Pp5_Q19_v01.bsp
-"""
-const earth_000101_231111_230818_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2_N54_Pp5_Q19_v01.bsp")
+const juice_dsk_surfaces_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v03.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6646,52 +1846,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v04.tf
 """
-const juice_mat_crema_4_2_N56_Pn5_Q19_v01_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v04.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240709_240415.bpc
-"""
-const juice_dsk_surfaces_v05_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240709_240415.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231111_230818.bpc
-"""
-const earth_000101_240710_240416_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231111_230818.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2_N56_Pn5_Q19_v01.bsp
-"""
-const earth_000101_231112_230819_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2_N56_Pn5_Q19_v01.bsp")
+const juice_dsk_surfaces_v04_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v04.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6706,37 +1861,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v05.tf
 """
-const juice_mat_crema_4_2_N56_Pp5_Q19_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v05.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231112_230819.bpc
-"""
-const juice_dsk_surfaces_v06_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231112_230819.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2_N56_Pp5_Q19_v01.bsp
-"""
-const earth_000101_231113_230820_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2_N56_Pp5_Q19_v01.bsp")
+const juice_dsk_surfaces_v05_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v05.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6751,52 +1876,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v06.tf
 """
-const juice_mat_crema_4_2b22_1_20310717_20351005_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v06.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231113_230820.bpc
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240710_240416.bpc
-"""
-const juice_dsk_surfaces_v07_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231113_230820.bpc")
-const earth_000101_231114_230821_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240710_240416.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2b22_1_20310717_20351005_v01.bsp
-"""
-const earth_000101_240716_240422_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2b22_1_20310717_20351005_v01.bsp")
+const juice_dsk_surfaces_v06_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v06.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6811,52 +1891,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v07.tf
 """
-const juice_mat_crema_5_0_20220826_20351005_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v07.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240716_240422.bpc
-"""
-const juice_dsk_surfaces_v08_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240716_240422.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231114_230821.bpc
-"""
-const earth_000101_240717_240423_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231114_230821.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_0_20220826_20351005_v01.bsp
-"""
-const earth_000101_231115_230823_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_0_20220826_20351005_v01.bsp")
+const juice_dsk_surfaces_v07_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v07.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6871,37 +1906,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v08.tf
 """
-const juice_mat_crema_5_0b23_1_20230405_20351005_v01_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v08.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240717_240423.bpc
-"""
-const juice_dsk_surfaces_v09_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240717_240423.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231115_230823.bpc
-"""
-const earth_000101_240718_240424_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231115_230823.bpc")
+const juice_dsk_surfaces_v08_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v08.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6916,37 +1921,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v09.tf
 """
-const earth_000101_231116_230823_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v09.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_0b23_1_20230405_20351005_v01.bsp
-"""
-const juice_dsk_surfaces_v10_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_0b23_1_20230405_20351005_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240718_240424.bpc
-"""
-const juice_mat_crema_5_1_150la_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240718_240424.bpc")
+const juice_dsk_surfaces_v09_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v09.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6961,37 +1936,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v10.tf
 """
-const earth_000101_240719_240425_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v10.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231116_230823.bpc
-"""
-const juice_dsk_surfaces_v11_tf_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231116_230823.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_1_150la_v01.bsp
-"""
-const earth_000101_231117_230824_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_1_150la_v01.bsp")
+const juice_dsk_surfaces_v10_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v10.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7006,52 +1951,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v11.tf
 """
-const juice_mat_crema_5_1_150lb_v01_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v11.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240719_240425.bpc
-"""
-const juice_events_crema_5_0_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240719_240425.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231117_230824.bpc
-"""
-const earth_000101_240720_240426_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231117_230824.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_1_150lb_v01.bsp
-"""
-const earth_000101_231118_230825_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_1_150lb_v01.bsp")
+const juice_dsk_surfaces_v11_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_dsk_surfaces_v11.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7066,52 +1966,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_0_v01.tf
 """
-const juice_orbc_000003_230405_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_0_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240720_240426.bpc
-"""
-const juice_events_crema_5_0b23_1_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240720_240426.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231118_230825.bpc
-"""
-const earth_000101_240721_240427_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231118_230825.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000003_230405_310721_v01.bsp
-"""
-const earth_000101_231119_230826_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000003_230405_310721_v01.bsp")
+const juice_events_crema_5_0_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_0_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7126,52 +1981,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_0b23_1_v01.tf
 """
-const juice_orbc_000010_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_0b23_1_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240721_240427.bpc
-"""
-const juice_events_crema_5_1_150lb_23_1_a3_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240721_240427.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231119_230826.bpc
-"""
-const earth_000101_240722_240428_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231119_230826.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000010_230414_310721_v01.bsp
-"""
-const earth_000101_231120_230827_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000010_230414_310721_v01.bsp")
+const juice_events_crema_5_0b23_1_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_0b23_1_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7186,52 +1996,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_a3_v01.tf
 """
-const juice_orbc_000010_230414_310721_v02_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_a3_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240722_240428.bpc
-"""
-const juice_events_crema_5_1_150lb_23_1_a3_v02_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240722_240428.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231120_230827.bpc
-"""
-const earth_000101_240723_240429_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231120_230827.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000010_230414_310721_v02.bsp
-"""
-const earth_000101_231121_230829_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000010_230414_310721_v02.bsp")
+const juice_events_crema_5_1_150lb_23_1_a3_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_a3_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7246,37 +2011,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_a3_v02.tf
 """
-const juice_orbc_000010_230414_310721_v03_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_a3_v02.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240723_240429.bpc
-"""
-const juice_events_crema_5_1_150lb_23_1_a3_v03_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240723_240429.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231121_230829.bpc
-"""
-const earth_000101_240724_240430_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231121_230829.bpc")
+const juice_events_crema_5_1_150lb_23_1_a3_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_a3_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7291,52 +2026,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_a3_v03.tf
 """
-const earth_000101_231122_230829_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_a3_v03.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000010_230414_310721_v03.bsp
-"""
-const juice_events_crema_5_1_150lb_23_1_b2_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000010_230414_310721_v03.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240724_240430.bpc
-"""
-const juice_orbc_000025_230414_310721_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240724_240430.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231122_230829.bpc
-"""
-const earth_000101_240725_240501_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231122_230829.bpc")
+const juice_events_crema_5_1_150lb_23_1_a3_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_a3_v03.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7351,52 +2041,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_b2_v01.tf
 """
-const earth_000101_231123_230830_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_b2_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000025_230414_310721_v01.bsp
-"""
-const juice_events_crema_5_1_150lb_23_1_b2_v02_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000025_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240725_240501.bpc
-"""
-const juice_orbc_000026_230413_310721_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240725_240501.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231123_230830.bpc
-"""
-const earth_000101_240726_240502_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231123_230830.bpc")
+const juice_events_crema_5_1_150lb_23_1_b2_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_b2_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7411,37 +2056,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_b2_v02.tf
 """
-const earth_000101_231124_230901_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_b2_v02.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v01.bsp
-"""
-const juice_events_crema_5_1_150lb_23_1_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240726_240502.bpc
-"""
-const juice_orbc_000026_230413_310721_v02_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240726_240502.bpc")
+const juice_events_crema_5_1_150lb_23_1_b2_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_b2_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7456,52 +2071,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_v01.tf
 """
-const earth_000101_240727_240503_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231124_230901.bpc
-"""
-const juice_events_crema_5_1_150lb_23_1_v02_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231124_230901.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v02.bsp
-"""
-const earth_000101_231125_230901_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v02.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240727_240503.bpc
-"""
-const juice_orbc_000026_230413_310721_v03_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240727_240503.bpc")
+const juice_events_crema_5_1_150lb_23_1_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7516,52 +2086,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_v02.tf
 """
-const earth_000101_240727_240504_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_v02.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231125_230901.bpc
-"""
-const juice_ops_v00_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231125_230901.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v03.bsp
-"""
-const earth_000101_231126_230902_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v03.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240727_240504.bpc
-"""
-const juice_orbc_000026_230413_310721_v04_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240727_240504.bpc")
+const juice_events_crema_5_1_150lb_23_1_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_events_crema_5_1_150lb_23_1_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7576,52 +2101,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v00.tf
 """
-const earth_000101_240729_240505_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v00.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231126_230902.bpc
-"""
-const juice_ops_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231126_230902.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v04.bsp
-"""
-const earth_000101_231127_230903_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v04.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240729_240505.bpc
-"""
-const juice_orbc_000027_230414_310721_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240729_240505.bpc")
+const juice_ops_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7636,52 +2116,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v01.tf
 """
-const earth_000101_240730_240506_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231127_230903.bpc
-"""
-const juice_ops_v02_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231127_230903.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v01.bsp
-"""
-const earth_000101_231128_230904_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240730_240506.bpc
-"""
-const juice_orbc_000027_230414_310721_v02_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240730_240506.bpc")
+const juice_ops_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7696,52 +2131,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v02.tf
 """
-const earth_000101_240731_240507_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v02.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231128_230904.bpc
-"""
-const juice_ops_v03_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231128_230904.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v02.bsp
-"""
-const earth_000101_231129_230905_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v02.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240731_240507.bpc
-"""
-const juice_orbc_000027_230414_310721_v03_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240731_240507.bpc")
+const juice_ops_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7756,52 +2146,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v03.tf
 """
-const earth_000101_240801_240508_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v03.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231129_230905.bpc
-"""
-const juice_ops_v04_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231129_230905.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v03.bsp
-"""
-const earth_000101_231130_230906_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v03.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240801_240508.bpc
-"""
-const juice_orbc_000027_230414_310721_v04_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240801_240508.bpc")
+const juice_ops_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v03.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7816,52 +2161,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v04.tf
 """
-const earth_000101_240802_240509_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v04.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231130_230906.bpc
-"""
-const juice_ops_v05_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231130_230906.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v04.bsp
-"""
-const earth_000101_231201_230907_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v04.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240802_240509.bpc
-"""
-const juice_orbc_000027_230414_310721_v05_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240802_240509.bpc")
+const juice_ops_v04_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v04.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7876,52 +2176,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v05.tf
 """
-const earth_000101_240803_240510_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v05.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231201_230907.bpc
-"""
-const juice_ops_v06_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231201_230907.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v05.bsp
-"""
-const earth_000101_231201_230908_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v05.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240803_240510.bpc
-"""
-const juice_orbc_000027_230414_310721_v06_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240803_240510.bpc")
+const juice_ops_v05_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v05.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7936,52 +2191,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v06.tf
 """
-const earth_000101_240804_240511_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v06.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231201_230908.bpc
-"""
-const juice_ops_v07_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231201_230908.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v06.bsp
-"""
-const earth_000101_231203_230909_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v06.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240804_240511.bpc
-"""
-const juice_orbc_000030_230414_310721_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240804_240511.bpc")
+const juice_ops_v06_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v06.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7996,51 +2206,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v07.tf
 """
-const earth_000101_240805_240512_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v07.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231203_230909.bpc
-"""
-const juice_ops_v08_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231203_230909.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v01.bsp
-"""
-const earth_000101_231203_230910_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240805_240512.bpc
-"""
+const juice_ops_v07_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v07.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8055,52 +2221,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v08.tf
 """
-const juice_orbc_000030_230414_310721_v02_bsp_pck_fk = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240805_240512.bpc")
-const earth_000101_240806_240513_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v08.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231203_230910.bpc
-"""
-const juice_ops_v09_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231203_230910.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v02.bsp
-"""
-const earth_000101_231205_230912_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v02.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240806_240513.bpc
-"""
+const juice_ops_v08_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v08.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8115,38 +2236,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v09.tf
 """
-const juice_orbc_000030_230414_310721_v03_bsp_pck_fk = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240806_240513.bpc")
-const earth_000101_240807_240514_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v09.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231205_230912.bpc
-"""
-const juice_ops_v10_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231205_230912.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v03.bsp
-"""
-const earth_000101_231206_230912_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v03.bsp")
+const juice_ops_v09_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v09.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8161,52 +2251,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v10.tf
 """
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240807_240514.bpc
-"""
-const juice_orbc_000030_230414_310721_v04_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v10.tf")
-const juice_orbc_000030_230414_310721_v04_bsp_fk = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240807_240514.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231206_230912.bpc
-"""
-const earth_000101_240808_240515_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231206_230912.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v04.bsp
-"""
-const earth_000101_231207_230914_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v04.bsp")
+const juice_ops_v10_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v10.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8221,66 +2266,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v11.tf
 """
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240808_240515.bpc
-"""
-const juice_orbc_000030_230414_310721_v05_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v11.tf")
-const juice_orbc_000030_230414_310721_v05_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240808_240515.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231207_230914.bpc
-"""
-const earth_000101_240809_240516_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231207_230914.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v05.bsp
-"""
-const earth_000101_231208_230915_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v05.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240809_240516.bpc
-"""
+const juice_ops_v11_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_ops_v11.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8295,23 +2281,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_pride_topo_v01.tf
 """
-const juice_orbc_000031_230414_310721_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240809_240516.bpc")
-const juice_orbc_000031_230414_310721_v01_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_pride_topo_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231208_230915.bpc
-"""
-const earth_000101_240810_240517_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231208_230915.bpc")
+const juice_pride_topo_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_pride_topo_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8326,52 +2296,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_roi_v00.tf
 """
-const earth_000101_231209_230915_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_roi_v00.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240810_240517.bpc
-"""
-const juice_roi_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240810_240517.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v01.bsp
-"""
-const earth_000101_240811_240518_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231209_230915.bpc
-"""
-const juice_orbc_000031_230414_310721_v02_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231209_230915.bpc")
+const juice_roi_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_roi_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8386,52 +2311,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_roi_v01.tf
 """
-const earth_000101_231210_230916_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_roi_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240811_240518.bpc
-"""
-const juice_roi_v02_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240811_240518.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v02.bsp
-"""
-const earth_000101_240811_240519_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v02.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231210_230916.bpc
-"""
-const juice_orbc_000031_230414_310721_v03_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231210_230916.bpc")
+const juice_roi_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_roi_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8446,52 +2326,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_roi_v02.tf
 """
-const earth_000101_231211_230917_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_roi_v02.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240811_240519.bpc
-"""
-const juice_sa_default_v00_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240811_240519.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v03.bsp
-"""
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231211_230917.bpc
-"""
-const earth_000101_240813_240520_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v03.bsp")
-const earth_000101_240813_240520_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231211_230917.bpc")
+const juice_roi_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_roi_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8506,52 +2341,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sa_default_v00.tf
 """
-const juice_orbc_000031_230414_310721_v04_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sa_default_v00.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240813_240520.bpc
-"""
-const juice_sa_default_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240813_240520.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231211_230919.bpc
-"""
-const earth_000101_240813_240521_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231211_230919.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v04.bsp
-"""
-const earth_000101_231213_230919_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v04.bsp")
+const juice_sa_default_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sa_default_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8566,52 +2356,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sa_default_v01.tf
 """
-const juice_orbc_000032_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sa_default_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240813_240521.bpc
-"""
-const juice_sc_cal_noa_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240813_240521.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231213_230919.bpc
-"""
-const earth_000101_240815_240522_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231213_230919.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000032_230414_310721_v01.bsp
-"""
-const earth_000101_231214_230921_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000032_230414_310721_v01.bsp")
+const juice_sa_default_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sa_default_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8626,52 +2371,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_cal_noa_v01.tf
 """
-const juice_orbc_000033_230414_310721_v01_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_cal_noa_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240815_240522.bpc
-"""
-const juice_sc_cal_npo_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240815_240522.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231214_230921.bpc
-"""
-const earth_000101_240816_240523_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231214_230921.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000033_230414_310721_v01.bsp
-"""
-const earth_000101_231215_230921_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000033_230414_310721_v01.bsp")
+const juice_sc_cal_noa_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_cal_noa_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8686,52 +2386,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_cal_npo_v01.tf
 """
-const juice_orbc_000034_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_cal_npo_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240816_240523.bpc
-"""
-const juice_sc_eur_noa_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240816_240523.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231215_230921.bpc
-"""
-const earth_000101_240817_240524_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231215_230921.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000034_230414_310721_v01.bsp
-"""
-const earth_000101_231215_230922_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000034_230414_310721_v01.bsp")
+const juice_sc_cal_npo_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_cal_npo_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8746,52 +2401,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_eur_noa_v01.tf
 """
-const juice_orbc_000035_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_eur_noa_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240817_240524.bpc
-"""
-const juice_sc_eur_npo_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240817_240524.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231215_230922.bpc
-"""
-const earth_000101_240818_240525_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231215_230922.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000035_230414_310721_v01.bsp
-"""
-const earth_000101_231217_230923_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000035_230414_310721_v01.bsp")
+const juice_sc_eur_noa_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_eur_noa_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8806,37 +2416,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_eur_npo_v01.tf
 """
-const juice_orbc_000035_230414_310721_v02_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_eur_npo_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240818_240525.bpc
-"""
-const juice_sc_gan_noa_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240818_240525.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231217_230923.bpc
-"""
-const earth_000101_240819_240526_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231217_230923.bpc")
+const juice_sc_eur_npo_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_eur_npo_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8851,52 +2431,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_gan_noa_v01.tf
 """
-const earth_000101_231218_230924_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_gan_noa_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000035_230414_310721_v02.bsp
-"""
-const juice_sc_gan_npo_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000035_230414_310721_v02.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231218_230924.bpc
-"""
-const juice_orbc_000036_230414_310721_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231218_230924.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240819_240526.bpc
-"""
-const earth_000101_231219_230925_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240819_240526.bpc")
+const juice_sc_gan_noa_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_gan_noa_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8911,52 +2446,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_gan_npo_v01.tf
 """
-const earth_000101_240820_240527_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_gan_npo_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000036_230414_310721_v01.bsp
-"""
-const juice_sc_io_npo_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000036_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231219_230925.bpc
-"""
-const juice_orbc_000036_230414_310721_v02_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231219_230925.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240820_240527.bpc
-"""
-const earth_000101_231220_230927_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240820_240527.bpc")
+const juice_sc_gan_npo_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_gan_npo_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8971,52 +2461,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_io_npo_v01.tf
 """
-const earth_000101_240821_240528_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_io_npo_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000036_230414_310721_v02.bsp
-"""
-const juice_sc_jup_noa_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000036_230414_310721_v02.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231220_230927.bpc
-"""
-const juice_orbc_000037_230414_310721_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231220_230927.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240821_240528.bpc
-"""
-const earth_000101_231221_230927_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240821_240528.bpc")
+const juice_sc_io_npo_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_io_npo_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9031,22 +2476,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_jup_noa_v01.tf
 """
-const earth_000101_240822_240529_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_jup_noa_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000037_230414_310721_v01.bsp
-"""
-const juice_sc_jup_npo_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000037_230414_310721_v01.bsp")
+const juice_sc_jup_noa_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_jup_noa_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9061,52 +2491,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_jup_npo_v01.tf
 """
-const juice_orbc_000037_230414_310721_v02_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_jup_npo_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231221_230927.bpc
-"""
-const juice_sc_meas_v01_tf_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231221_230927.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240822_240529.bpc
-"""
-const earth_000101_231222_230929_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240822_240529.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000037_230414_310721_v02.bsp
-"""
-const earth_000101_240823_240530_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000037_230414_310721_v02.bsp")
+const juice_sc_jup_npo_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_jup_npo_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9121,52 +2506,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_meas_v01.tf
 """
-const juice_orbc_000038_230414_310721_v01_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_meas_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231222_230929.bpc
-"""
-const juice_sc_meas_v02_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231222_230929.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240823_240530.bpc
-"""
-const earth_000101_231223_230929_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240823_240530.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000038_230414_310721_v01.bsp
-"""
-const earth_000101_240824_240531_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000038_230414_310721_v01.bsp")
+const juice_sc_meas_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_meas_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9181,52 +2521,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_meas_v02.tf
 """
-const juice_orbc_000039_230414_310721_v01_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_meas_v02.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231223_230929.bpc
-"""
-const juice_sc_plan_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231223_230929.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240824_240531.bpc
-"""
-const earth_000101_231224_230930_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240824_240531.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000039_230414_310721_v01.bsp
-"""
-const earth_000101_240825_240601_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000039_230414_310721_v01.bsp")
+const juice_sc_meas_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_meas_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9241,52 +2536,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_plan_v01.tf
 """
-const juice_orbc_000040_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_plan_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231224_230930.bpc
-"""
-const juice_sci_v00_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231224_230930.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240825_240601.bpc
-"""
-const earth_000101_231225_231001_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240825_240601.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000040_230414_310721_v01.bsp
-"""
-const earth_000101_240826_240602_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000040_230414_310721_v01.bsp")
+const juice_sc_plan_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sc_plan_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9301,52 +2551,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v00.tf
 """
-const juice_orbc_000041_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v00.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231225_231001.bpc
-"""
-const juice_sci_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231225_231001.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240826_240602.bpc
-"""
-const earth_000101_231226_231003_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240826_240602.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000041_230414_310721_v01.bsp
-"""
-const earth_000101_240827_240603_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000041_230414_310721_v01.bsp")
+const juice_sci_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9361,52 +2566,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v01.tf
 """
-const juice_orbc_000042_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231226_231003.bpc
-"""
-const juice_sci_v02_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231226_231003.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240827_240603.bpc
-"""
-const earth_000101_231228_231004_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240827_240603.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000042_230414_310721_v01.bsp
-"""
-const earth_000101_240828_240604_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000042_230414_310721_v01.bsp")
+const juice_sci_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9421,52 +2581,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v02.tf
 """
-const juice_orbc_000043_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v02.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231228_231004.bpc
-"""
-const juice_sci_v03_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231228_231004.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240828_240604.bpc
-"""
-const earth_000101_231229_231006_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240828_240604.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000043_230414_310721_v01.bsp
-"""
-const earth_000101_240829_240605_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000043_230414_310721_v01.bsp")
+const juice_sci_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9481,37 +2596,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v03.tf
 """
-const juice_orbc_000044_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v03.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231229_231006.bpc
-"""
-const juice_sci_v04_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231229_231006.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240829_240605.bpc
-"""
-const earth_000101_231231_231007_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240829_240605.bpc")
+const juice_sci_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v03.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9526,52 +2611,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v04.tf
 """
-const earth_000101_240830_240606_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v04.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000044_230414_310721_v01.bsp
-"""
-const juice_sci_v05_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000044_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240830_240606.bpc
-"""
-const juice_orbc_000045_230414_310721_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240830_240606.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231231_231007.bpc
-"""
-const earth_000101_240831_240607_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231231_231007.bpc")
+const juice_sci_v04_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v04.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9586,37 +2626,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v05.tf
 """
-const earth_000101_240101_231008_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v05.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000045_230414_310721_v01.bsp
-"""
-const juice_sci_v06_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000045_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240831_240607.bpc
-"""
-const juice_orbc_000046_230414_310721_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240831_240607.bpc")
+const juice_sci_v05_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v05.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9631,37 +2641,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v06.tf
 """
-const earth_000101_240901_240608_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v06.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240101_231008.bpc
-"""
-const juice_sci_v07_tf_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240101_231008.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000046_230414_310721_v01.bsp
-"""
-const earth_000101_240102_231010_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000046_230414_310721_v01.bsp")
+const juice_sci_v06_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v06.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9676,52 +2656,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v07.tf
 """
-const juice_orbc_000047_230414_310721_v01_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v07.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240901_240608.bpc
-"""
-const juice_sci_v08_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240901_240608.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240102_231010.bpc
-"""
-const earth_000101_240902_240609_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240102_231010.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000047_230414_310721_v01.bsp
-"""
-const earth_000101_240103_231010_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000047_230414_310721_v01.bsp")
+const juice_sci_v07_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v07.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9736,52 +2671,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v08.tf
 """
-const juice_orbc_000048_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v08.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240902_240609.bpc
-"""
-const juice_sci_v09_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240902_240609.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231010.bpc
-"""
-const earth_000101_240903_240610_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231010.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000048_230414_310721_v01.bsp
-"""
-const earth_000101_240103_231011_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000048_230414_310721_v01.bsp")
+const juice_sci_v08_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v08.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9796,52 +2686,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v09.tf
 """
-const juice_orbc_000049_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v09.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240903_240610.bpc
-"""
-const juice_sci_v10_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240903_240610.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231011.bpc
-"""
-const earth_000101_240903_240611_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231011.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000049_230414_310721_v01.bsp
-"""
-const earth_000101_240103_231013_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000049_230414_310721_v01.bsp")
+const juice_sci_v09_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v09.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9856,52 +2701,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v10.tf
 """
-const juice_orbc_000050_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v10.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240903_240611.bpc
-"""
-const juice_sci_v11_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240903_240611.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231013.bpc
-"""
-const earth_000101_240905_240612_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231013.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000050_230414_310721_v01.bsp
-"""
-const earth_000101_240103_231014_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000050_230414_310721_v01.bsp")
+const juice_sci_v10_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v10.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9916,51 +2716,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v11.tf
 """
-const juice_orbc_000051_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v11.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240905_240612.bpc
-"""
-const juice_sci_v12_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240905_240612.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231014.bpc
-"""
-const earth_000101_240906_240613_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231014.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000051_230414_310721_v01.bsp
-"""
+const juice_sci_v11_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v11.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9975,38 +2731,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v12.tf
 """
-const earth_000101_240103_231015_bpc_spk_fk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000051_230414_310721_v01.bsp")
-const earth_000101_240103_231015_bpc_spk_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v12.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240906_240613.bpc
-"""
-const juice_sci_v13_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240906_240613.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231015.bpc
-"""
-const earth_000101_240907_240614_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231015.bpc")
+const juice_sci_v12_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v12.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10021,37 +2746,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v13.tf
 """
-const earth_000101_240109_231016_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v13.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000052_230414_310721_v01.bsp
-"""
-const juice_sci_v14_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000052_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240907_240614.bpc
-"""
-const juice_orbc_000053_230414_310721_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240907_240614.bpc")
+const juice_sci_v13_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v13.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10066,52 +2761,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v14.tf
 """
-const earth_000101_240908_240615_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v14.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240109_231016.bpc
-"""
-const juice_sci_v15_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240109_231016.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000053_230414_310721_v01.bsp
-"""
-const earth_000101_240109_231018_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000053_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240908_240615.bpc
-"""
-const juice_orbc_000054_230414_310721_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240908_240615.bpc")
+const juice_sci_v14_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v14.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10126,37 +2776,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v15.tf
 """
-const earth_000101_240909_240616_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v15.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240109_231018.bpc
-"""
-const juice_sci_v16_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240109_231018.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000054_230414_310721_v01.bsp
-"""
-const earth_000101_240111_231018_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000054_230414_310721_v01.bsp")
+const juice_sci_v15_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v15.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10171,52 +2791,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v16.tf
 """
-const juice_orbc_000055_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v16.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240909_240616.bpc
-"""
-const juice_sci_v17_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240909_240616.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240111_231018.bpc
-"""
-const earth_000101_240910_240617_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240111_231018.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000055_230414_310721_v01.bsp
-"""
-const earth_000101_240112_231019_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000055_230414_310721_v01.bsp")
+const juice_sci_v16_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v16.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10231,52 +2806,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v17.tf
 """
-const juice_orbc_000056_230414_310721_v01_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v17.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240910_240617.bpc
-"""
-const juice_stations_topo_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240910_240617.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240112_231019.bpc
-"""
-const earth_000101_240911_240618_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240112_231019.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000056_230414_310721_v01.bsp
-"""
-const earth_000101_240113_231020_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000056_230414_310721_v01.bsp")
+const juice_sci_v17_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_sci_v17.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10291,52 +2821,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_stations_topo_v01.tf
 """
-const juice_orbc_000060_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_stations_topo_v01.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240911_240618.bpc
-"""
-const juice_v00_draft_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240911_240618.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240113_231020.bpc
-"""
-const earth_000101_240912_240619_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240113_231020.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000060_230414_310721_v01.bsp
-"""
-const earth_000101_240114_231021_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000060_230414_310721_v01.bsp")
+const juice_stations_topo_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_stations_topo_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10351,52 +2836,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v00-draft.tf
 """
-const juice_orbc_000061_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v00-draft.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240912_240619.bpc
-"""
-const juice_v00_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240912_240619.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240114_231021.bpc
-"""
-const earth_000101_240913_240620_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240114_231021.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000061_230414_310721_v01.bsp
-"""
-const earth_000101_240115_231022_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000061_230414_310721_v01.bsp")
+const juice_v00_draft_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v00-draft.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10411,37 +2851,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v00.tf
 """
-const juice_orbc_000062_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v00.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240913_240620.bpc
-"""
-const juice_v01_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240913_240620.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240115_231022.bpc
-"""
-const earth_000101_240913_240621_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240115_231022.bpc")
+const juice_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10456,37 +2866,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v01.tf
 """
-const earth_000101_240913_240621_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000062_230414_310721_v01.bsp
-"""
-const juice_v02_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000062_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240913_240621.bpc
-"""
-const juice_orbc_000063_230414_310721_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240913_240621.bpc")
+const juice_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10501,52 +2881,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v02.tf
 """
-const earth_000101_240915_240622_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v02.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240116_231024.bpc
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000063_230414_310721_v01.bsp
-"""
-const juice_v03_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240116_231024.bpc")
-const juice_v03_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000063_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240915_240622.bpc
-"""
-const juice_orbc_000067_230414_310721_v01_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240915_240622.bpc")
+const juice_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10561,37 +2896,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v03.tf
 """
-const earth_000101_240916_240623_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v03.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000067_230414_310721_v01.bsp
-"""
-const juice_v04_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000067_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240118_231025.bpc
-"""
-const juice_orbc_000068_230414_310721_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240118_231025.bpc")
+const juice_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v03.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10606,52 +2911,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v04.tf
 """
-const earth_000101_240118_231027_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v04.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240916_240623.bpc
-"""
-const juice_v05_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240916_240623.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000068_230414_310721_v01.bsp
-"""
-const earth_000101_240916_240624_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000068_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240118_231027.bpc
-"""
-const juice_orbc_000069_230414_310721_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240118_231027.bpc")
+const juice_v04_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v04.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10666,52 +2926,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v05.tf
 """
-const earth_000101_240120_231027_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v05.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240916_240624.bpc
-"""
-const juice_v06_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240916_240624.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000069_230414_310721_v01.bsp
-"""
-const earth_000101_240919_240626_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000069_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240120_231027.bpc
-"""
-const juice_orbc_000070_230414_310721_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240120_231027.bpc")
+const juice_v05_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v05.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10726,52 +2941,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v06.tf
 """
-const earth_000101_240121_231028_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v06.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240919_240626.bpc
-"""
-const juice_v07_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240919_240626.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000070_230414_310721_v01.bsp
-"""
-const earth_000101_240920_240627_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000070_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240121_231028.bpc
-"""
-const juice_orbc_000071_230414_310721_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240121_231028.bpc")
+const juice_v06_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v06.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10786,52 +2956,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v07.tf
 """
-const earth_000101_240122_231029_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v07.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240920_240627.bpc
-"""
-const juice_v08_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240920_240627.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000071_230414_310721_v01.bsp
-"""
-const earth_000101_240921_240628_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000071_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240122_231029.bpc
-"""
-const juice_orbc_000072_230414_310721_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240122_231029.bpc")
+const juice_v07_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v07.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10846,37 +2971,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v08.tf
 """
-const earth_000101_240123_231030_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v08.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240921_240628.bpc
-"""
-const juice_v09_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240921_240628.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000072_230414_310721_v01.bsp
-"""
-const earth_000101_240922_240629_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000072_230414_310721_v01.bsp")
+const juice_v08_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v08.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10891,37 +2986,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v09.tf
 """
-const juice_orbc_000073_230414_310721_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v09.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240123_231030.bpc
-"""
-const juice_v10_tf_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240123_231030.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240922_240629.bpc
-"""
-const earth_000101_240124_231031_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240922_240629.bpc")
+const juice_v09_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v09.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10936,52 +3001,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v10.tf
 """
-const earth_000101_240923_240630_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v10.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000073_230414_310721_v01.bsp
-"""
-const juice_v11_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000073_230414_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240124_231031.bpc
-"""
-const juice_orbm_000059_240701_310721_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240124_231031.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240923_240630.bpc
-"""
-const earth_000101_240125_231101_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240923_240630.bpc")
+const juice_v10_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v10.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10996,37 +3016,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v11.tf
 """
-const earth_000101_240924_240701_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v11.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbm_000059_240701_310721_v01.bsp
-"""
-const juice_v12_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbm_000059_240701_310721_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240125_231101.bpc
-"""
-const juice_orbm_000059_240817_240827_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240125_231101.bpc")
+const juice_v11_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v11.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11041,52 +3031,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v12.tf
 """
-const earth_000101_240126_231102_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v12.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240924_240701.bpc
-"""
-const juice_v14_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240924_240701.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbm_000059_240817_240827_v01.bsp
-"""
-const earth_000101_240925_240702_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbm_000059_240817_240827_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240126_231102.bpc
-"""
-const juice_pride_earthstns_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240126_231102.bpc")
+const juice_v12_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v12.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11101,52 +3046,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v14.tf
 """
-const earth_000101_240126_231103_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v14.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240925_240702.bpc
-"""
-const juice_v15_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240925_240702.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_pride_earthstns_v01.bsp
-"""
-const earth_000101_240926_240703_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_pride_earthstns_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240126_231103.bpc
-"""
-const juice_roi_v00_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240126_231103.bpc")
+const juice_v14_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v14.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11161,52 +3061,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v15.tf
 """
-const earth_000101_240127_231104_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v15.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240926_240703.bpc
-"""
-const juice_v16_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240926_240703.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_roi_v00.bsp
-"""
-const earth_000101_240927_240704_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_roi_v00.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240127_231104.bpc
-"""
-const juice_roi_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240127_231104.bpc")
+const juice_v15_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v15.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11221,52 +3076,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v16.tf
 """
-const earth_000101_240129_231105_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v16.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240927_240704.bpc
-"""
-const juice_v17_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240927_240704.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_roi_v01.bsp
-"""
-const earth_000101_240928_240705_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_roi_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240129_231105.bpc
-"""
-const juice_roi_v02_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240129_231105.bpc")
+const juice_v16_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v16.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11281,37 +3091,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v17.tf
 """
-const juice_roi_v02_bsp_pck_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v17.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240928_240705.bpc
-"""
-const juice_v18_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240928_240705.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_roi_v02.bsp
-"""
-const earth_000101_240929_240706_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_roi_v02.bsp")
+const juice_v17_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v17.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11326,37 +3106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v18.tf
 """
-const juice_sci_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v18.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240130_231107.bpc
-"""
-const juice_v19_tf_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240130_231107.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240929_240706.bpc
-"""
-const earth_000101_240131_231107_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240929_240706.bpc")
+const juice_v18_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v18.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11371,52 +3121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v19.tf
 """
-const earth_000101_240930_240707_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v19.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v01.bsp
-"""
-const juice_v20_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240131_231107.bpc
-"""
-const juice_sci_v02_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240131_231107.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240930_240707.bpc
-"""
-const earth_000101_240131_231109_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240930_240707.bpc")
+const juice_v19_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v19.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11431,37 +3136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v20.tf
 """
-const earth_000101_241001_240709_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v20.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v02.bsp
-"""
-const juice_v21_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v02.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240131_231109.bpc
-"""
-const juice_sci_v03_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240131_231109.bpc")
+const juice_v20_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v20.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11476,52 +3151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v21.tf
 """
-const earth_000101_240131_231110_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v21.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241001_240709.bpc
-"""
-const juice_v22_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241001_240709.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v03.bsp
-"""
-const earth_000101_241003_240710_bpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v03.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240131_231110.bpc
-"""
-const juice_sci_v04_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240131_231110.bpc")
+const juice_v21_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v21.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11536,52 +3166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v22.tf
 """
-const earth_000101_240203_231110_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v22.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241003_240710.bpc
-"""
-const juice_v23_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241003_240710.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v04.bsp
-"""
-const earth_000101_241004_240711_bpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v04.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240203_231110.bpc
-"""
-const juice_struct_internal_v01_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240203_231110.bpc")
+const juice_v22_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v22.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11596,52 +3181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v23.tf
 """
-const earth_000101_240203_231111_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v23.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241004_240711.bpc
-"""
-const juice_v24_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241004_240711.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_internal_v01.bsp
-"""
-const earth_000101_241005_240712_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_internal_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240203_231111.bpc
-"""
-const juice_struct_v00_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240203_231111.bpc")
+const juice_v23_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v23.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11656,37 +3196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v24.tf
 """
-const earth_000101_240205_231112_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v24.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241005_240712.bpc
-"""
-const juice_v25_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241005_240712.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v00.bsp
-"""
-const earth_000101_241005_240713_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v00.bsp")
+const juice_v24_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v24.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11701,37 +3211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v25.tf
 """
-const juice_struct_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v25.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240205_231112.bpc
-"""
-const juice_v26_tf_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240205_231112.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241005_240713.bpc
-"""
-const earth_000101_240206_231113_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241005_240713.bpc")
+const juice_v25_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v25.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11746,52 +3226,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v26.tf
 """
-const earth_000101_241007_240714_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v26.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v01.bsp
-"""
-const juice_v27_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v01.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240206_231113.bpc
-"""
-const juice_struct_v02_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240206_231113.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241007_240714.bpc
-"""
-const earth_000101_240207_231114_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241007_240714.bpc")
+const juice_v26_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v26.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11806,52 +3241,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v27.tf
 """
-const earth_000101_241008_240715_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v27.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v02.bsp
-"""
-const juice_v28_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v02.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240207_231114.bpc
-"""
-const juice_struct_v03_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240207_231114.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241008_240715.bpc
-"""
-const earth_000101_240208_231115_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241008_240715.bpc")
+const juice_v27_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v27.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11866,52 +3256,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v28.tf
 """
-const earth_000101_241009_240716_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v28.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v03.bsp
-"""
-const juice_v29_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v03.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240208_231115.bpc
-"""
-const juice_struct_v04_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240208_231115.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241009_240716.bpc
-"""
-const earth_000101_240208_231117_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241009_240716.bpc")
+const juice_v28_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v28.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11926,37 +3271,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v29.tf
 """
-const earth_000101_241010_240717_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v29.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v04.bsp
-"""
-const juice_v30_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v04.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240208_231117.bpc
-"""
-const juice_struct_v05_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240208_231117.bpc")
+const juice_v29_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v29.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11971,52 +3286,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v30.tf
 """
-const earth_000101_240210_231117_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v30.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241010_240717.bpc
-"""
-const juice_v31_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241010_240717.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v05.bsp
-"""
-const earth_000101_241011_240718_bpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v05.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240210_231117.bpc
-"""
-const juice_struct_v06_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240210_231117.bpc")
+const juice_v30_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v30.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12031,52 +3301,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v31.tf
 """
-const earth_000101_240211_231118_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v31.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241011_240718.bpc
-"""
-const juice_v32_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241011_240718.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v06.bsp
-"""
-const earth_000101_241012_240719_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v06.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240211_231118.bpc
-"""
-const juice_struct_v07_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240211_231118.bpc")
+const juice_v31_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v31.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12091,52 +3316,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v32.tf
 """
-const earth_000101_240212_231119_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v32.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241012_240719.bpc
-"""
-const juice_v33_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241012_240719.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v07.bsp
-"""
-const earth_000101_241013_240720_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v07.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240212_231119.bpc
-"""
-const juice_struct_v08_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240212_231119.bpc")
+const juice_v32_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v32.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12151,37 +3331,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v33.tf
 """
-const earth_000101_240213_231121_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v33.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241013_240720.bpc
-"""
-const juice_v34_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241013_240720.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v08.bsp
-"""
-const earth_000101_241014_240721_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v08.bsp")
+const juice_v33_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v33.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12196,37 +3346,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v34.tf
 """
-const juice_struct_v09_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v34.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240213_231121.bpc
-"""
-const juice_v35_tf_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240213_231121.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241014_240721.bpc
-"""
-const earth_000101_240215_231122_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241014_240721.bpc")
+const juice_v34_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v34.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12241,52 +3361,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v35.tf
 """
-const earth_000101_241014_240722_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v35.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v09.bsp
-"""
-const juice_v36_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v09.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240215_231122.bpc
-"""
-const juice_struct_v10_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240215_231122.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241014_240722.bpc
-"""
-const earth_000101_240215_231123_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241014_240722.bpc")
+const juice_v35_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v35.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12301,37 +3376,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v36.tf
 """
-const earth_000101_241016_240723_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v36.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v10.bsp
-"""
-const juice_v37_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v10.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240215_231123.bpc
-"""
-const juice_struct_v11_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240215_231123.bpc")
+const juice_v36_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v36.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12346,52 +3391,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v37.tf
 """
-const earth_000101_240217_231124_bpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v37.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241016_240723.bpc
-"""
-const juice_v38_tf_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241016_240723.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v11.bsp
-"""
-const earth_000101_241017_240724_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v11.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240217_231124.bpc
-"""
-const juice_struct_v12_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240217_231124.bpc")
+const juice_v37_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v37.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12406,52 +3406,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v38.tf
 """
-const earth_000101_240218_231125_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v38.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241017_240724.bpc
-"""
-const juice_v39_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241017_240724.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v12.bsp
-"""
-const earth_000101_241018_240725_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v12.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240218_231125.bpc
-"""
-const juice_struct_v13_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240218_231125.bpc")
+const juice_v38_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v38.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12466,52 +3421,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v39.tf
 """
-const earth_000101_240219_231126_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v39.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241018_240725.bpc
-"""
-const juice_v40_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241018_240725.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v13.bsp
-"""
-const earth_000101_241019_240726_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v13.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240219_231126.bpc
-"""
-const juice_struct_v14_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240219_231126.bpc")
+const juice_v39_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v39.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12526,51 +3436,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v40.tf
 """
-const earth_000101_240220_231127_bpc = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v40.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241019_240726.bpc
-"""
-const rssd0002_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241019_240726.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v14.bsp
-"""
-const earth_000101_241020_240727_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v14.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240220_231127.bpc
-"""
+const juice_v40_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/juice_v40.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12585,38 +3451,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/rssd0002.tf
 """
-const juice_struct_v15_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240220_231127.bpc")
-const juice_struct_v15_bsp_pck = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/rssd0002.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241020_240727.bpc
-"""
-const naif0007_tls = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241020_240727.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v15.bsp
-"""
-const earth_000101_241021_240728_bpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v15.bsp")
+const rssd0002_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/fk/rssd0002.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12631,37 +3466,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0007.tls
 """
-const juice_struct_v16_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0007.tls")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240220_231128.bpc
-"""
-const naif0008_tls_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240220_231128.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241021_240728.bpc
-"""
-const earth_000101_240222_231129_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241021_240728.bpc")
+const naif0007_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0007.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12676,52 +3481,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0008.tls
 """
-const earth_000101_241022_240729_bpc = LSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0008.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v16.bsp
-"""
-const naif0009_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v16.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240222_231129.bpc
-"""
-const juice_struct_v17_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240222_231129.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241022_240729.bpc
-"""
-const earth_000101_240223_231201_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241022_240729.bpc")
+const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0008.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12736,37 +3496,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0009.tls
 """
-const earth_000101_241023_240730_bpc = LSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0009.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v17.bsp
-"""
-const naif0010_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v17.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240223_231201.bpc
-"""
-const juice_struct_v18_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240223_231201.bpc")
+const naif0009_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0009.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12781,52 +3511,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0010.tls
 """
-const earth_000101_240224_231201_bpc = LSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0010.tls")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241023_240730.bpc
-"""
-const naif0011_tls = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241023_240730.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v18.bsp
-"""
-const earth_000101_241024_240731_bpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v18.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240224_231201.bpc
-"""
-const juice_struct_v19_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240224_231201.bpc")
+const naif0010_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0010.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12841,52 +3526,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0011.tls
 """
-const earth_000101_240225_231202_bpc = LSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0011.tls")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241024_240731.bpc
-"""
-const naif0012_tls = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241024_240731.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v19.bsp
-"""
-const earth_000101_241025_240801_bpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v19.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240225_231202.bpc
-"""
-const juice_struct_v20_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240225_231202.bpc")
+const naif0011_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0011.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12901,52 +3541,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0012.tls
 """
-const earth_000101_240226_231203_bpc = LSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0012.tls")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241025_240801.bpc
-"""
-const de_403_masses_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241025_240801.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v20.bsp
-"""
-const earth_000101_241025_240802_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v20.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240226_231203.bpc
-"""
-const juice_struct_v21_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240226_231203.bpc")
+const naif0012_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/lsk/naif0012.tls")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12961,52 +3556,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/de-403-masses.tpc
 """
-const earth_000101_240227_231204_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/de-403-masses.tpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241025_240802.bpc
-"""
-const earth_000101_230725_230501_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241025_240802.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v21.bsp
-"""
-const earth_000101_241027_240803_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v21.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240227_231204.bpc
-"""
-const jup230_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240227_231204.bpc")
+const de_403_masses_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/de-403-masses.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13021,7 +3571,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230725_230501.bpc
 """
-const earth_000101_240228_231205_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230725_230501.bpc")
+const earth_000101_230725_230501_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230725_230501.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13034,12 +3584,12 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241027_240803.bpc
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230726_230502.bpc
 """
-const earth_000101_240228_231205_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241027_240803.bpc")
+const earth_000101_230726_230502_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230726_230502.bpc")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
@@ -13049,9 +3599,3144 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup230.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230727_230503.bpc
 """
-const earth_000101_241028_240804_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup230.bsp")
+const earth_000101_230727_230503_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230727_230503.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230727_230504.bpc
+"""
+const earth_000101_230727_230504_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230727_230504.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230729_230505.bpc
+"""
+const earth_000101_230729_230505_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230729_230505.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230730_230506.bpc
+"""
+const earth_000101_230730_230506_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230730_230506.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230731_230507.bpc
+"""
+const earth_000101_230731_230507_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230731_230507.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230801_230508.bpc
+"""
+const earth_000101_230801_230508_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230801_230508.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230801_230509.bpc
+"""
+const earth_000101_230801_230509_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230801_230509.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230803_230510.bpc
+"""
+const earth_000101_230803_230510_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230803_230510.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230804_230511.bpc
+"""
+const earth_000101_230804_230511_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230804_230511.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230805_230512.bpc
+"""
+const earth_000101_230805_230512_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230805_230512.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230806_230513.bpc
+"""
+const earth_000101_230806_230513_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230806_230513.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230807_230514.bpc
+"""
+const earth_000101_230807_230514_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230807_230514.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230808_230515.bpc
+"""
+const earth_000101_230808_230515_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230808_230515.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230809_230516.bpc
+"""
+const earth_000101_230809_230516_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230809_230516.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230810_230517.bpc
+"""
+const earth_000101_230810_230517_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230810_230517.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230811_230518.bpc
+"""
+const earth_000101_230811_230518_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230811_230518.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230812_230519.bpc
+"""
+const earth_000101_230812_230519_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230812_230519.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230813_230520.bpc
+"""
+const earth_000101_230813_230520_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230813_230520.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230814_230521.bpc
+"""
+const earth_000101_230814_230521_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230814_230521.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230815_230522.bpc
+"""
+const earth_000101_230815_230522_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230815_230522.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230816_230523.bpc
+"""
+const earth_000101_230816_230523_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230816_230523.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230817_230524.bpc
+"""
+const earth_000101_230817_230524_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230817_230524.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230818_230526.bpc
+"""
+const earth_000101_230818_230526_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230818_230526.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230819_230526.bpc
+"""
+const earth_000101_230819_230526_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230819_230526.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230820_230527.bpc
+"""
+const earth_000101_230820_230527_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230820_230527.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230821_230528.bpc
+"""
+const earth_000101_230821_230528_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230821_230528.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230822_230529.bpc
+"""
+const earth_000101_230822_230529_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230822_230529.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230823_230530.bpc
+"""
+const earth_000101_230823_230530_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230823_230530.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230824_230601.bpc
+"""
+const earth_000101_230824_230601_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230824_230601.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230825_230601.bpc
+"""
+const earth_000101_230825_230601_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230825_230601.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230826_230602.bpc
+"""
+const earth_000101_230826_230602_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230826_230602.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230826_230603.bpc
+"""
+const earth_000101_230826_230603_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230826_230603.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230828_230604.bpc
+"""
+const earth_000101_230828_230604_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230828_230604.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230829_230606.bpc
+"""
+const earth_000101_230829_230606_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230829_230606.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230830_230606.bpc
+"""
+const earth_000101_230830_230606_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230830_230606.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230830_230607.bpc
+"""
+const earth_000101_230830_230607_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230830_230607.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230901_230609.bpc
+"""
+const earth_000101_230901_230609_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230901_230609.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230902_230609.bpc
+"""
+const earth_000101_230902_230609_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230902_230609.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230903_230610.bpc
+"""
+const earth_000101_230903_230610_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230903_230610.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230904_230611.bpc
+"""
+const earth_000101_230904_230611_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230904_230611.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230905_230613.bpc
+"""
+const earth_000101_230905_230613_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230905_230613.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230906_230613.bpc
+"""
+const earth_000101_230906_230613_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230906_230613.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230907_230615.bpc
+"""
+const earth_000101_230907_230615_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230907_230615.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230908_230615.bpc
+"""
+const earth_000101_230908_230615_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230908_230615.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230909_230616.bpc
+"""
+const earth_000101_230909_230616_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230909_230616.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230910_230617.bpc
+"""
+const earth_000101_230910_230617_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230910_230617.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230910_230618.bpc
+"""
+const earth_000101_230910_230618_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230910_230618.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230912_230620.bpc
+"""
+const earth_000101_230912_230620_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230912_230620.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230913_230620.bpc
+"""
+const earth_000101_230913_230620_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230913_230620.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230913_230621.bpc
+"""
+const earth_000101_230913_230621_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230913_230621.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230915_230622.bpc
+"""
+const earth_000101_230915_230622_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230915_230622.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230916_230623.bpc
+"""
+const earth_000101_230916_230623_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230916_230623.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230916_230624.bpc
+"""
+const earth_000101_230916_230624_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230916_230624.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230918_230626.bpc
+"""
+const earth_000101_230918_230626_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230918_230626.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230919_230626.bpc
+"""
+const earth_000101_230919_230626_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230919_230626.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230919_230627.bpc
+"""
+const earth_000101_230919_230627_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230919_230627.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230921_230628.bpc
+"""
+const earth_000101_230921_230628_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230921_230628.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230922_230630.bpc
+"""
+const earth_000101_230922_230630_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230922_230630.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230923_230630.bpc
+"""
+const earth_000101_230923_230630_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230923_230630.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230924_230701.bpc
+"""
+const earth_000101_230924_230701_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230924_230701.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230925_230703.bpc
+"""
+const earth_000101_230925_230703_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230925_230703.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230927_230704.bpc
+"""
+const earth_000101_230927_230704_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230927_230704.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230928_230706.bpc
+"""
+const earth_000101_230928_230706_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230928_230706.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230929_230707.bpc
+"""
+const earth_000101_230929_230707_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230929_230707.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230930_230707.bpc
+"""
+const earth_000101_230930_230707_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_230930_230707.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231001_230708.bpc
+"""
+const earth_000101_231001_230708_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231001_230708.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231002_230710.bpc
+"""
+const earth_000101_231002_230710_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231002_230710.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231003_230710.bpc
+"""
+const earth_000101_231003_230710_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231003_230710.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231004_230711.bpc
+"""
+const earth_000101_231004_230711_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231004_230711.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231005_230712.bpc
+"""
+const earth_000101_231005_230712_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231005_230712.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231006_230713.bpc
+"""
+const earth_000101_231006_230713_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231006_230713.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231006_230714.bpc
+"""
+const earth_000101_231006_230714_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231006_230714.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231008_230715.bpc
+"""
+const earth_000101_231008_230715_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231008_230715.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231009_230717.bpc
+"""
+const earth_000101_231009_230717_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231009_230717.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231010_230717.bpc
+"""
+const earth_000101_231010_230717_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231010_230717.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231011_230718.bpc
+"""
+const earth_000101_231011_230718_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231011_230718.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231012_230719.bpc
+"""
+const earth_000101_231012_230719_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231012_230719.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231013_230721.bpc
+"""
+const earth_000101_231013_230721_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231013_230721.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231014_230721.bpc
+"""
+const earth_000101_231014_230721_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231014_230721.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231015_230722.bpc
+"""
+const earth_000101_231015_230722_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231015_230722.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231016_230724.bpc
+"""
+const earth_000101_231016_230724_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231016_230724.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231017_230725.bpc
+"""
+const earth_000101_231017_230725_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231017_230725.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231018_230725.bpc
+"""
+const earth_000101_231018_230725_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231018_230725.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231019_230726.bpc
+"""
+const earth_000101_231019_230726_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231019_230726.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231020_230728.bpc
+"""
+const earth_000101_231020_230728_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231020_230728.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231021_230728.bpc
+"""
+const earth_000101_231021_230728_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231021_230728.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231021_230729.bpc
+"""
+const earth_000101_231021_230729_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231021_230729.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231023_230730.bpc
+"""
+const earth_000101_231023_230730_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231023_230730.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231024_230801.bpc
+"""
+const earth_000101_231024_230801_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231024_230801.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231025_230801.bpc
+"""
+const earth_000101_231025_230801_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231025_230801.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231026_230802.bpc
+"""
+const earth_000101_231026_230802_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231026_230802.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231027_230804.bpc
+"""
+const earth_000101_231027_230804_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231027_230804.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231028_230804.bpc
+"""
+const earth_000101_231028_230804_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231028_230804.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231029_230805.bpc
+"""
+const earth_000101_231029_230805_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231029_230805.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231030_230806.bpc
+"""
+const earth_000101_231030_230806_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231030_230806.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231030_230808.bpc
+"""
+const earth_000101_231030_230808_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231030_230808.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231031_230808.bpc
+"""
+const earth_000101_231031_230808_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231031_230808.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231102_230809.bpc
+"""
+const earth_000101_231102_230809_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231102_230809.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231103_230811.bpc
+"""
+const earth_000101_231103_230811_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231103_230811.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231104_230811.bpc
+"""
+const earth_000101_231104_230811_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231104_230811.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231105_230812.bpc
+"""
+const earth_000101_231105_230812_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231105_230812.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231106_230813.bpc
+"""
+const earth_000101_231106_230813_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231106_230813.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231107_230814.bpc
+"""
+const earth_000101_231107_230814_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231107_230814.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231108_230815.bpc
+"""
+const earth_000101_231108_230815_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231108_230815.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231109_230817.bpc
+"""
+const earth_000101_231109_230817_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231109_230817.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231110_230817.bpc
+"""
+const earth_000101_231110_230817_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231110_230817.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231111_230818.bpc
+"""
+const earth_000101_231111_230818_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231111_230818.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231112_230819.bpc
+"""
+const earth_000101_231112_230819_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231112_230819.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231113_230820.bpc
+"""
+const earth_000101_231113_230820_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231113_230820.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231114_230821.bpc
+"""
+const earth_000101_231114_230821_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231114_230821.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231115_230823.bpc
+"""
+const earth_000101_231115_230823_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231115_230823.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231116_230823.bpc
+"""
+const earth_000101_231116_230823_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231116_230823.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231117_230824.bpc
+"""
+const earth_000101_231117_230824_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231117_230824.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231118_230825.bpc
+"""
+const earth_000101_231118_230825_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231118_230825.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231119_230826.bpc
+"""
+const earth_000101_231119_230826_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231119_230826.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231120_230827.bpc
+"""
+const earth_000101_231120_230827_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231120_230827.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231121_230829.bpc
+"""
+const earth_000101_231121_230829_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231121_230829.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231122_230829.bpc
+"""
+const earth_000101_231122_230829_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231122_230829.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231123_230830.bpc
+"""
+const earth_000101_231123_230830_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231123_230830.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231124_230901.bpc
+"""
+const earth_000101_231124_230901_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231124_230901.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231125_230901.bpc
+"""
+const earth_000101_231125_230901_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231125_230901.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231126_230902.bpc
+"""
+const earth_000101_231126_230902_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231126_230902.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231127_230903.bpc
+"""
+const earth_000101_231127_230903_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231127_230903.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231128_230904.bpc
+"""
+const earth_000101_231128_230904_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231128_230904.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231129_230905.bpc
+"""
+const earth_000101_231129_230905_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231129_230905.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231130_230906.bpc
+"""
+const earth_000101_231130_230906_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231130_230906.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231201_230907.bpc
+"""
+const earth_000101_231201_230907_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231201_230907.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231201_230908.bpc
+"""
+const earth_000101_231201_230908_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231201_230908.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231203_230909.bpc
+"""
+const earth_000101_231203_230909_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231203_230909.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231203_230910.bpc
+"""
+const earth_000101_231203_230910_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231203_230910.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231205_230912.bpc
+"""
+const earth_000101_231205_230912_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231205_230912.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231206_230912.bpc
+"""
+const earth_000101_231206_230912_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231206_230912.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231207_230914.bpc
+"""
+const earth_000101_231207_230914_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231207_230914.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231208_230915.bpc
+"""
+const earth_000101_231208_230915_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231208_230915.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231209_230915.bpc
+"""
+const earth_000101_231209_230915_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231209_230915.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231210_230916.bpc
+"""
+const earth_000101_231210_230916_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231210_230916.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231211_230917.bpc
+"""
+const earth_000101_231211_230917_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231211_230917.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231211_230919.bpc
+"""
+const earth_000101_231211_230919_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231211_230919.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231213_230919.bpc
+"""
+const earth_000101_231213_230919_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231213_230919.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231214_230921.bpc
+"""
+const earth_000101_231214_230921_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231214_230921.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231215_230921.bpc
+"""
+const earth_000101_231215_230921_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231215_230921.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231215_230922.bpc
+"""
+const earth_000101_231215_230922_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231215_230922.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231217_230923.bpc
+"""
+const earth_000101_231217_230923_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231217_230923.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231218_230924.bpc
+"""
+const earth_000101_231218_230924_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231218_230924.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231219_230925.bpc
+"""
+const earth_000101_231219_230925_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231219_230925.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231220_230927.bpc
+"""
+const earth_000101_231220_230927_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231220_230927.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231221_230927.bpc
+"""
+const earth_000101_231221_230927_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231221_230927.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231222_230929.bpc
+"""
+const earth_000101_231222_230929_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231222_230929.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231223_230929.bpc
+"""
+const earth_000101_231223_230929_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231223_230929.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231224_230930.bpc
+"""
+const earth_000101_231224_230930_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231224_230930.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231225_231001.bpc
+"""
+const earth_000101_231225_231001_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231225_231001.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231226_231003.bpc
+"""
+const earth_000101_231226_231003_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231226_231003.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231228_231004.bpc
+"""
+const earth_000101_231228_231004_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231228_231004.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231229_231006.bpc
+"""
+const earth_000101_231229_231006_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231229_231006.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231231_231007.bpc
+"""
+const earth_000101_231231_231007_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_231231_231007.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240101_231008.bpc
+"""
+const earth_000101_240101_231008_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240101_231008.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240102_231010.bpc
+"""
+const earth_000101_240102_231010_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240102_231010.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231010.bpc
+"""
+const earth_000101_240103_231010_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231010.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231011.bpc
+"""
+const earth_000101_240103_231011_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231011.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231013.bpc
+"""
+const earth_000101_240103_231013_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231013.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231014.bpc
+"""
+const earth_000101_240103_231014_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231014.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231015.bpc
+"""
+const earth_000101_240103_231015_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240103_231015.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240109_231016.bpc
+"""
+const earth_000101_240109_231016_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240109_231016.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240109_231018.bpc
+"""
+const earth_000101_240109_231018_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240109_231018.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240111_231018.bpc
+"""
+const earth_000101_240111_231018_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240111_231018.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240112_231019.bpc
+"""
+const earth_000101_240112_231019_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240112_231019.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240113_231020.bpc
+"""
+const earth_000101_240113_231020_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240113_231020.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240114_231021.bpc
+"""
+const earth_000101_240114_231021_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240114_231021.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240115_231022.bpc
+"""
+const earth_000101_240115_231022_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240115_231022.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240116_231024.bpc
+"""
+const earth_000101_240116_231024_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240116_231024.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240118_231025.bpc
+"""
+const earth_000101_240118_231025_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240118_231025.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240118_231027.bpc
+"""
+const earth_000101_240118_231027_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240118_231027.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240120_231027.bpc
+"""
+const earth_000101_240120_231027_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240120_231027.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240121_231028.bpc
+"""
+const earth_000101_240121_231028_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240121_231028.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240122_231029.bpc
+"""
+const earth_000101_240122_231029_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240122_231029.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240123_231030.bpc
+"""
+const earth_000101_240123_231030_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240123_231030.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240124_231031.bpc
+"""
+const earth_000101_240124_231031_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240124_231031.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240125_231101.bpc
+"""
+const earth_000101_240125_231101_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240125_231101.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240126_231102.bpc
+"""
+const earth_000101_240126_231102_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240126_231102.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240126_231103.bpc
+"""
+const earth_000101_240126_231103_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240126_231103.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240127_231104.bpc
+"""
+const earth_000101_240127_231104_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240127_231104.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240129_231105.bpc
+"""
+const earth_000101_240129_231105_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240129_231105.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240130_231107.bpc
+"""
+const earth_000101_240130_231107_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240130_231107.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240131_231107.bpc
+"""
+const earth_000101_240131_231107_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240131_231107.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240131_231109.bpc
+"""
+const earth_000101_240131_231109_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240131_231109.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240131_231110.bpc
+"""
+const earth_000101_240131_231110_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240131_231110.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240203_231110.bpc
+"""
+const earth_000101_240203_231110_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240203_231110.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240203_231111.bpc
+"""
+const earth_000101_240203_231111_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240203_231111.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240205_231112.bpc
+"""
+const earth_000101_240205_231112_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240205_231112.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240206_231113.bpc
+"""
+const earth_000101_240206_231113_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240206_231113.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240207_231114.bpc
+"""
+const earth_000101_240207_231114_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240207_231114.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240208_231115.bpc
+"""
+const earth_000101_240208_231115_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240208_231115.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240208_231117.bpc
+"""
+const earth_000101_240208_231117_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240208_231117.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240210_231117.bpc
+"""
+const earth_000101_240210_231117_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240210_231117.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240211_231118.bpc
+"""
+const earth_000101_240211_231118_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240211_231118.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240212_231119.bpc
+"""
+const earth_000101_240212_231119_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240212_231119.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240213_231121.bpc
+"""
+const earth_000101_240213_231121_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240213_231121.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240215_231122.bpc
+"""
+const earth_000101_240215_231122_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240215_231122.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240215_231123.bpc
+"""
+const earth_000101_240215_231123_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240215_231123.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240217_231124.bpc
+"""
+const earth_000101_240217_231124_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240217_231124.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240218_231125.bpc
+"""
+const earth_000101_240218_231125_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240218_231125.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240219_231126.bpc
+"""
+const earth_000101_240219_231126_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240219_231126.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240220_231127.bpc
+"""
+const earth_000101_240220_231127_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240220_231127.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240220_231128.bpc
+"""
+const earth_000101_240220_231128_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240220_231128.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240222_231129.bpc
+"""
+const earth_000101_240222_231129_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240222_231129.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240223_231201.bpc
+"""
+const earth_000101_240223_231201_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240223_231201.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240224_231201.bpc
+"""
+const earth_000101_240224_231201_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240224_231201.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240225_231202.bpc
+"""
+const earth_000101_240225_231202_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240225_231202.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240226_231203.bpc
+"""
+const earth_000101_240226_231203_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240226_231203.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240227_231204.bpc
+"""
+const earth_000101_240227_231204_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240227_231204.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13066,7 +6751,3517 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240228_231205.bpc
 """
-const jup230_20200101_20400101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240228_231205.bpc")
+const earth_000101_240228_231205_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240228_231205.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240229_231206.bpc
+"""
+const earth_000101_240229_231206_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240229_231206.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240301_231207.bpc
+"""
+const earth_000101_240301_231207_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240301_231207.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240302_231208.bpc
+"""
+const earth_000101_240302_231208_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240302_231208.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240303_231209.bpc
+"""
+const earth_000101_240303_231209_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240303_231209.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240304_231210.bpc
+"""
+const earth_000101_240304_231210_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240304_231210.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240305_231211.bpc
+"""
+const earth_000101_240305_231211_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240305_231211.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240306_231213.bpc
+"""
+const earth_000101_240306_231213_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240306_231213.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240306_231214.bpc
+"""
+const earth_000101_240306_231214_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240306_231214.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240308_231215.bpc
+"""
+const earth_000101_240308_231215_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240308_231215.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240309_231215.bpc
+"""
+const earth_000101_240309_231215_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240309_231215.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240310_231216.bpc
+"""
+const earth_000101_240310_231216_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240310_231216.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240310_231217.bpc
+"""
+const earth_000101_240310_231217_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240310_231217.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240312_231219.bpc
+"""
+const earth_000101_240312_231219_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240312_231219.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240313_231219.bpc
+"""
+const earth_000101_240313_231219_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240313_231219.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240314_231221.bpc
+"""
+const earth_000101_240314_231221_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240314_231221.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240315_231221.bpc
+"""
+const earth_000101_240315_231221_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240315_231221.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240315_231222.bpc
+"""
+const earth_000101_240315_231222_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240315_231222.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240317_231223.bpc
+"""
+const earth_000101_240317_231223_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240317_231223.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240318_231224.bpc
+"""
+const earth_000101_240318_231224_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240318_231224.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240319_231225.bpc
+"""
+const earth_000101_240319_231225_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240319_231225.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240320_231226.bpc
+"""
+const earth_000101_240320_231226_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240320_231226.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240321_231228.bpc
+"""
+const earth_000101_240321_231228_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240321_231228.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240322_231228.bpc
+"""
+const earth_000101_240322_231228_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240322_231228.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240323_231229.bpc
+"""
+const earth_000101_240323_231229_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240323_231229.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240324_231230.bpc
+"""
+const earth_000101_240324_231230_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240324_231230.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240325_231231.bpc
+"""
+const earth_000101_240325_231231_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240325_231231.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240326_240101.bpc
+"""
+const earth_000101_240326_240101_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240326_240101.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240327_240103.bpc
+"""
+const earth_000101_240327_240103_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240327_240103.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240327_240104.bpc
+"""
+const earth_000101_240327_240104_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240327_240104.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240329_240105.bpc
+"""
+const earth_000101_240329_240105_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240329_240105.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240330_240105.bpc
+"""
+const earth_000101_240330_240105_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240330_240105.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240331_240106.bpc
+"""
+const earth_000101_240331_240106_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240331_240106.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240401_240107.bpc
+"""
+const earth_000101_240401_240107_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240401_240107.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240402_240109.bpc
+"""
+const earth_000101_240402_240109_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240402_240109.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240403_240109.bpc
+"""
+const earth_000101_240403_240109_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240403_240109.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240403_240111.bpc
+"""
+const earth_000101_240403_240111_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240403_240111.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240405_240112.bpc
+"""
+const earth_000101_240405_240112_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240405_240112.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240406_240112.bpc
+"""
+const earth_000101_240406_240112_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240406_240112.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240407_240113.bpc
+"""
+const earth_000101_240407_240113_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240407_240113.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240408_240114.bpc
+"""
+const earth_000101_240408_240114_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240408_240114.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240409_240116.bpc
+"""
+const earth_000101_240409_240116_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240409_240116.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240410_240117.bpc
+"""
+const earth_000101_240410_240117_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240410_240117.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240411_240118.bpc
+"""
+const earth_000101_240411_240118_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240411_240118.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240412_240119.bpc
+"""
+const earth_000101_240412_240119_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240412_240119.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240413_240120.bpc
+"""
+const earth_000101_240413_240120_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240413_240120.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240414_240121.bpc
+"""
+const earth_000101_240414_240121_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240414_240121.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240414_240122.bpc
+"""
+const earth_000101_240414_240122_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240414_240122.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240416_240123.bpc
+"""
+const earth_000101_240416_240123_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240416_240123.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240418_240124.bpc
+"""
+const earth_000101_240418_240124_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240418_240124.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240419_240125.bpc
+"""
+const earth_000101_240419_240125_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240419_240125.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240420_240126.bpc
+"""
+const earth_000101_240420_240126_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240420_240126.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240420_240127.bpc
+"""
+const earth_000101_240420_240127_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240420_240127.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240421_240128.bpc
+"""
+const earth_000101_240421_240128_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240421_240128.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240423_240129.bpc
+"""
+const earth_000101_240423_240129_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240423_240129.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240424_240130.bpc
+"""
+const earth_000101_240424_240130_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240424_240130.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240424_240131.bpc
+"""
+const earth_000101_240424_240131_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240424_240131.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240426_240201.bpc
+"""
+const earth_000101_240426_240201_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240426_240201.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240427_240202.bpc
+"""
+const earth_000101_240427_240202_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240427_240202.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240427_240203.bpc
+"""
+const earth_000101_240427_240203_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240427_240203.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240429_240204.bpc
+"""
+const earth_000101_240429_240204_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240429_240204.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240430_240205.bpc
+"""
+const earth_000101_240430_240205_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240430_240205.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240501_240206.bpc
+"""
+const earth_000101_240501_240206_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240501_240206.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240502_240207.bpc
+"""
+const earth_000101_240502_240207_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240502_240207.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240503_240208.bpc
+"""
+const earth_000101_240503_240208_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240503_240208.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240504_240209.bpc
+"""
+const earth_000101_240504_240209_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240504_240209.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240505_240210.bpc
+"""
+const earth_000101_240505_240210_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240505_240210.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240506_240211.bpc
+"""
+const earth_000101_240506_240211_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240506_240211.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240507_240212.bpc
+"""
+const earth_000101_240507_240212_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240507_240212.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240508_240213.bpc
+"""
+const earth_000101_240508_240213_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240508_240213.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240509_240214.bpc
+"""
+const earth_000101_240509_240214_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240509_240214.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240510_240215.bpc
+"""
+const earth_000101_240510_240215_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240510_240215.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240511_240216.bpc
+"""
+const earth_000101_240511_240216_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240511_240216.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240512_240217.bpc
+"""
+const earth_000101_240512_240217_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240512_240217.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240513_240218.bpc
+"""
+const earth_000101_240513_240218_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240513_240218.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240514_240219.bpc
+"""
+const earth_000101_240514_240219_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240514_240219.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240515_240220.bpc
+"""
+const earth_000101_240515_240220_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240515_240220.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240516_240221.bpc
+"""
+const earth_000101_240516_240221_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240516_240221.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240516_240222.bpc
+"""
+const earth_000101_240516_240222_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240516_240222.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240518_240223.bpc
+"""
+const earth_000101_240518_240223_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240518_240223.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240519_240224.bpc
+"""
+const earth_000101_240519_240224_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240519_240224.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240520_240225.bpc
+"""
+const earth_000101_240520_240225_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240520_240225.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240521_240226.bpc
+"""
+const earth_000101_240521_240226_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240521_240226.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240521_240227.bpc
+"""
+const earth_000101_240521_240227_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240521_240227.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240523_240228.bpc
+"""
+const earth_000101_240523_240228_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240523_240228.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240524_240229.bpc
+"""
+const earth_000101_240524_240229_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240524_240229.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240525_240301.bpc
+"""
+const earth_000101_240525_240301_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240525_240301.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240526_240302.bpc
+"""
+const earth_000101_240526_240302_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240526_240302.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240526_240303.bpc
+"""
+const earth_000101_240526_240303_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240526_240303.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240528_240304.bpc
+"""
+const earth_000101_240528_240304_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240528_240304.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240528_240305.bpc
+"""
+const earth_000101_240528_240305_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240528_240305.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240530_240306.bpc
+"""
+const earth_000101_240530_240306_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240530_240306.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240531_240307.bpc
+"""
+const earth_000101_240531_240307_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240531_240307.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240601_240308.bpc
+"""
+const earth_000101_240601_240308_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240601_240308.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240602_240309.bpc
+"""
+const earth_000101_240602_240309_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240602_240309.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240603_240310.bpc
+"""
+const earth_000101_240603_240310_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240603_240310.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240604_240311.bpc
+"""
+const earth_000101_240604_240311_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240604_240311.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240604_240312.bpc
+"""
+const earth_000101_240604_240312_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240604_240312.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240606_240313.bpc
+"""
+const earth_000101_240606_240313_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240606_240313.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240606_240314.bpc
+"""
+const earth_000101_240606_240314_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240606_240314.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240608_240315.bpc
+"""
+const earth_000101_240608_240315_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240608_240315.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240609_240316.bpc
+"""
+const earth_000101_240609_240316_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240609_240316.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240610_240317.bpc
+"""
+const earth_000101_240610_240317_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240610_240317.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240610_240318.bpc
+"""
+const earth_000101_240610_240318_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240610_240318.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240612_240319.bpc
+"""
+const earth_000101_240612_240319_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240612_240319.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240612_240320.bpc
+"""
+const earth_000101_240612_240320_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240612_240320.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240614_240321.bpc
+"""
+const earth_000101_240614_240321_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240614_240321.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240615_240322.bpc
+"""
+const earth_000101_240615_240322_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240615_240322.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240616_240323.bpc
+"""
+const earth_000101_240616_240323_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240616_240323.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240617_240324.bpc
+"""
+const earth_000101_240617_240324_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240617_240324.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240618_240325.bpc
+"""
+const earth_000101_240618_240325_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240618_240325.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240618_240326.bpc
+"""
+const earth_000101_240618_240326_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240618_240326.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240620_240327.bpc
+"""
+const earth_000101_240620_240327_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240620_240327.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240621_240328.bpc
+"""
+const earth_000101_240621_240328_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240621_240328.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240622_240329.bpc
+"""
+const earth_000101_240622_240329_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240622_240329.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240623_240330.bpc
+"""
+const earth_000101_240623_240330_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240623_240330.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240624_240331.bpc
+"""
+const earth_000101_240624_240331_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240624_240331.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240625_240401.bpc
+"""
+const earth_000101_240625_240401_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240625_240401.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240626_240402.bpc
+"""
+const earth_000101_240626_240402_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240626_240402.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240627_240403.bpc
+"""
+const earth_000101_240627_240403_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240627_240403.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240627_240404.bpc
+"""
+const earth_000101_240627_240404_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240627_240404.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240629_240405.bpc
+"""
+const earth_000101_240629_240405_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240629_240405.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240630_240406.bpc
+"""
+const earth_000101_240630_240406_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240630_240406.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240630_240407.bpc
+"""
+const earth_000101_240630_240407_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240630_240407.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240702_240408.bpc
+"""
+const earth_000101_240702_240408_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240702_240408.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240703_240409.bpc
+"""
+const earth_000101_240703_240409_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240703_240409.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240704_240410.bpc
+"""
+const earth_000101_240704_240410_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240704_240410.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240705_240411.bpc
+"""
+const earth_000101_240705_240411_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240705_240411.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240705_240412.bpc
+"""
+const earth_000101_240705_240412_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240705_240412.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240706_240413.bpc
+"""
+const earth_000101_240706_240413_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240706_240413.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240708_240414.bpc
+"""
+const earth_000101_240708_240414_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240708_240414.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240709_240415.bpc
+"""
+const earth_000101_240709_240415_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240709_240415.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240710_240416.bpc
+"""
+const earth_000101_240710_240416_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240710_240416.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240716_240422.bpc
+"""
+const earth_000101_240716_240422_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240716_240422.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240717_240423.bpc
+"""
+const earth_000101_240717_240423_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240717_240423.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240718_240424.bpc
+"""
+const earth_000101_240718_240424_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240718_240424.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240719_240425.bpc
+"""
+const earth_000101_240719_240425_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240719_240425.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240720_240426.bpc
+"""
+const earth_000101_240720_240426_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240720_240426.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240721_240427.bpc
+"""
+const earth_000101_240721_240427_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240721_240427.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240722_240428.bpc
+"""
+const earth_000101_240722_240428_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240722_240428.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240723_240429.bpc
+"""
+const earth_000101_240723_240429_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240723_240429.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240724_240430.bpc
+"""
+const earth_000101_240724_240430_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240724_240430.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240725_240501.bpc
+"""
+const earth_000101_240725_240501_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240725_240501.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240726_240502.bpc
+"""
+const earth_000101_240726_240502_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240726_240502.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240727_240503.bpc
+"""
+const earth_000101_240727_240503_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240727_240503.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240727_240504.bpc
+"""
+const earth_000101_240727_240504_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240727_240504.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240729_240505.bpc
+"""
+const earth_000101_240729_240505_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240729_240505.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240730_240506.bpc
+"""
+const earth_000101_240730_240506_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240730_240506.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240731_240507.bpc
+"""
+const earth_000101_240731_240507_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240731_240507.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240801_240508.bpc
+"""
+const earth_000101_240801_240508_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240801_240508.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240802_240509.bpc
+"""
+const earth_000101_240802_240509_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240802_240509.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240803_240510.bpc
+"""
+const earth_000101_240803_240510_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240803_240510.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240804_240511.bpc
+"""
+const earth_000101_240804_240511_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240804_240511.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240805_240512.bpc
+"""
+const earth_000101_240805_240512_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240805_240512.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240806_240513.bpc
+"""
+const earth_000101_240806_240513_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240806_240513.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240807_240514.bpc
+"""
+const earth_000101_240807_240514_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240807_240514.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240808_240515.bpc
+"""
+const earth_000101_240808_240515_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240808_240515.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240809_240516.bpc
+"""
+const earth_000101_240809_240516_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240809_240516.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240810_240517.bpc
+"""
+const earth_000101_240810_240517_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240810_240517.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240811_240518.bpc
+"""
+const earth_000101_240811_240518_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240811_240518.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240811_240519.bpc
+"""
+const earth_000101_240811_240519_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240811_240519.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240813_240520.bpc
+"""
+const earth_000101_240813_240520_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240813_240520.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240813_240521.bpc
+"""
+const earth_000101_240813_240521_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240813_240521.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240815_240522.bpc
+"""
+const earth_000101_240815_240522_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240815_240522.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240816_240523.bpc
+"""
+const earth_000101_240816_240523_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240816_240523.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240817_240524.bpc
+"""
+const earth_000101_240817_240524_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240817_240524.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240818_240525.bpc
+"""
+const earth_000101_240818_240525_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240818_240525.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240819_240526.bpc
+"""
+const earth_000101_240819_240526_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240819_240526.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240820_240527.bpc
+"""
+const earth_000101_240820_240527_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240820_240527.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240821_240528.bpc
+"""
+const earth_000101_240821_240528_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240821_240528.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240822_240529.bpc
+"""
+const earth_000101_240822_240529_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240822_240529.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240823_240530.bpc
+"""
+const earth_000101_240823_240530_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240823_240530.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240824_240531.bpc
+"""
+const earth_000101_240824_240531_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240824_240531.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240825_240601.bpc
+"""
+const earth_000101_240825_240601_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240825_240601.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240826_240602.bpc
+"""
+const earth_000101_240826_240602_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240826_240602.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240827_240603.bpc
+"""
+const earth_000101_240827_240603_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240827_240603.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240828_240604.bpc
+"""
+const earth_000101_240828_240604_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240828_240604.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240829_240605.bpc
+"""
+const earth_000101_240829_240605_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240829_240605.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240830_240606.bpc
+"""
+const earth_000101_240830_240606_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240830_240606.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240831_240607.bpc
+"""
+const earth_000101_240831_240607_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240831_240607.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240901_240608.bpc
+"""
+const earth_000101_240901_240608_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240901_240608.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240902_240609.bpc
+"""
+const earth_000101_240902_240609_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240902_240609.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240903_240610.bpc
+"""
+const earth_000101_240903_240610_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240903_240610.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240903_240611.bpc
+"""
+const earth_000101_240903_240611_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240903_240611.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240905_240612.bpc
+"""
+const earth_000101_240905_240612_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240905_240612.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240906_240613.bpc
+"""
+const earth_000101_240906_240613_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240906_240613.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240907_240614.bpc
+"""
+const earth_000101_240907_240614_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240907_240614.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240908_240615.bpc
+"""
+const earth_000101_240908_240615_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240908_240615.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240909_240616.bpc
+"""
+const earth_000101_240909_240616_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240909_240616.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240910_240617.bpc
+"""
+const earth_000101_240910_240617_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240910_240617.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240911_240618.bpc
+"""
+const earth_000101_240911_240618_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240911_240618.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240912_240619.bpc
+"""
+const earth_000101_240912_240619_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240912_240619.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240913_240620.bpc
+"""
+const earth_000101_240913_240620_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240913_240620.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240913_240621.bpc
+"""
+const earth_000101_240913_240621_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240913_240621.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240915_240622.bpc
+"""
+const earth_000101_240915_240622_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240915_240622.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240916_240623.bpc
+"""
+const earth_000101_240916_240623_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240916_240623.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240916_240624.bpc
+"""
+const earth_000101_240916_240624_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240916_240624.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240919_240626.bpc
+"""
+const earth_000101_240919_240626_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240919_240626.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240920_240627.bpc
+"""
+const earth_000101_240920_240627_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240920_240627.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240921_240628.bpc
+"""
+const earth_000101_240921_240628_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240921_240628.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240922_240629.bpc
+"""
+const earth_000101_240922_240629_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240922_240629.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240923_240630.bpc
+"""
+const earth_000101_240923_240630_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240923_240630.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240924_240701.bpc
+"""
+const earth_000101_240924_240701_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240924_240701.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240925_240702.bpc
+"""
+const earth_000101_240925_240702_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240925_240702.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240926_240703.bpc
+"""
+const earth_000101_240926_240703_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240926_240703.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240927_240704.bpc
+"""
+const earth_000101_240927_240704_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240927_240704.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240928_240705.bpc
+"""
+const earth_000101_240928_240705_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240928_240705.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240929_240706.bpc
+"""
+const earth_000101_240929_240706_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240929_240706.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240930_240707.bpc
+"""
+const earth_000101_240930_240707_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240930_240707.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241001_240709.bpc
+"""
+const earth_000101_241001_240709_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241001_240709.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241003_240710.bpc
+"""
+const earth_000101_241003_240710_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241003_240710.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241004_240711.bpc
+"""
+const earth_000101_241004_240711_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241004_240711.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241005_240712.bpc
+"""
+const earth_000101_241005_240712_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241005_240712.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241005_240713.bpc
+"""
+const earth_000101_241005_240713_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241005_240713.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241007_240714.bpc
+"""
+const earth_000101_241007_240714_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241007_240714.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241008_240715.bpc
+"""
+const earth_000101_241008_240715_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241008_240715.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241009_240716.bpc
+"""
+const earth_000101_241009_240716_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241009_240716.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241010_240717.bpc
+"""
+const earth_000101_241010_240717_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241010_240717.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241011_240718.bpc
+"""
+const earth_000101_241011_240718_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241011_240718.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241012_240719.bpc
+"""
+const earth_000101_241012_240719_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241012_240719.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241013_240720.bpc
+"""
+const earth_000101_241013_240720_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241013_240720.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241014_240721.bpc
+"""
+const earth_000101_241014_240721_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241014_240721.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241014_240722.bpc
+"""
+const earth_000101_241014_240722_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241014_240722.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241016_240723.bpc
+"""
+const earth_000101_241016_240723_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241016_240723.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241017_240724.bpc
+"""
+const earth_000101_241017_240724_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241017_240724.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241018_240725.bpc
+"""
+const earth_000101_241018_240725_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241018_240725.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241019_240726.bpc
+"""
+const earth_000101_241019_240726_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241019_240726.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241020_240727.bpc
+"""
+const earth_000101_241020_240727_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241020_240727.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241021_240728.bpc
+"""
+const earth_000101_241021_240728_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241021_240728.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241022_240729.bpc
+"""
+const earth_000101_241022_240729_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241022_240729.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241023_240730.bpc
+"""
+const earth_000101_241023_240730_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241023_240730.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241024_240731.bpc
+"""
+const earth_000101_241024_240731_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241024_240731.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241025_240801.bpc
+"""
+const earth_000101_241025_240801_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241025_240801.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241025_240802.bpc
+"""
+const earth_000101_241025_240802_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241025_240802.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241027_240803.bpc
+"""
+const earth_000101_241027_240803_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241027_240803.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13081,7 +10276,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241028_240804.bpc
 """
-const earth_000101_240229_231206_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241028_240804.bpc")
+const earth_000101_241028_240804_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241028_240804.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13099,36 +10294,6 @@ This kernel's link was sourced on 2024-09-24.
 const earth_000101_241029_240805_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241029_240805.bpc")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup230_20200101_20400101.bsp
-"""
-const earth_000101_241030_240806_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup230_20200101_20400101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240229_231206.bpc
-"""
-const jup282_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240229_231206.bpc")
-
-"""
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -13141,7 +10306,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241030_240806.bpc
 """
-const earth_000101_240301_231207_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241030_240806.bpc")
+const earth_000101_241030_240806_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241030_240806.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13159,36 +10324,6 @@ This kernel's link was sourced on 2024-09-24.
 const earth_000101_241031_240807_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241031_240807.bpc")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup282.bsp
-"""
-const earth_000101_241101_240808_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup282.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240301_231207.bpc
-"""
-const jup282_20200101_20400101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240301_231207.bpc")
-
-"""
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -13201,7 +10336,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241101_240808.bpc
 """
-const earth_000101_240302_231208_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241101_240808.bpc")
+const earth_000101_241101_240808_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241101_240808.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13219,36 +10354,6 @@ This kernel's link was sourced on 2024-09-24.
 const earth_000101_241102_240809_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241102_240809.bpc")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup282_20200101_20400101.bsp
-"""
-const earth_000101_241103_240810_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup282_20200101_20400101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240302_231208.bpc
-"""
-const jup300_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240302_231208.bpc")
-
-"""
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -13261,22 +10366,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241103_240810.bpc
 """
-const earth_000101_240303_231209_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241103_240810.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup300.bsp
-"""
-const earth_000101_241104_240811_bpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup300.bsp")
+const earth_000101_241103_240810_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241103_240810.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13291,22 +10381,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241104_240811.bpc
 """
-const jup300_20200101_20400101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241104_240811.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240303_231209.bpc
-"""
-const earth_000101_241105_240812_bpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240303_231209.bpc")
+const earth_000101_241104_240811_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241104_240811.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13321,37 +10396,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241105_240812.bpc
 """
-const earth_000101_240304_231210_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241105_240812.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup300_20200101_20400101.bsp
-"""
-const earth_000101_241106_240813_bpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup300_20200101_20400101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240304_231210.bpc
-"""
-const jup310_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240304_231210.bpc")
+const earth_000101_241105_240812_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241105_240812.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13366,7 +10411,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241106_240813.bpc
 """
-const earth_000101_240305_231211_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241106_240813.bpc")
+const earth_000101_241106_240813_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241106_240813.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13384,36 +10429,6 @@ This kernel's link was sourced on 2024-09-24.
 const earth_000101_241107_240814_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241107_240814.bpc")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310.bsp
-"""
-const earth_000101_241108_240815_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240305_231211.bpc
-"""
-const jup310_19900101_20500101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240305_231211.bpc")
-
-"""
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -13426,7 +10441,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241108_240815.bpc
 """
-const earth_000101_240306_231213_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241108_240815.bpc")
+const earth_000101_241108_240815_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241108_240815.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13444,36 +10459,6 @@ This kernel's link was sourced on 2024-09-24.
 const earth_000101_241109_240816_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241109_240816.bpc")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310_19900101_20500101.bsp
-"""
-const earth_000101_241109_240817_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310_19900101_20500101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240306_231213.bpc
-"""
-const jup310_20200101_20400101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240306_231213.bpc")
-
-"""
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -13486,7 +10471,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241109_240817.bpc
 """
-const earth_000101_240306_231214_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241109_240817.bpc")
+const earth_000101_241109_240817_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241109_240817.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13504,36 +10489,6 @@ This kernel's link was sourced on 2024-09-24.
 const earth_000101_241110_240818_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241110_240818.bpc")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310_20200101_20400101.bsp
-"""
-const earth_000101_241112_240819_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310_20200101_20400101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240306_231214.bpc
-"""
-const jup310_20200101_20500101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240306_231214.bpc")
-
-"""
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -13546,22 +10501,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241112_240819.bpc
 """
-const earth_000101_240308_231215_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241112_240819.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310_20200101_20500101.bsp
-"""
-const earth_000101_241113_240820_bpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310_20200101_20500101.bsp")
+const earth_000101_241112_240819_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241112_240819.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13576,22 +10516,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241113_240820.bpc
 """
-const jup341_20200101_20400101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241113_240820.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240308_231215.bpc
-"""
-const earth_000101_241114_240821_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240308_231215.bpc")
+const earth_000101_241113_240820_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241113_240820.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13606,37 +10531,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241114_240821.bpc
 """
-const earth_000101_240309_231215_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241114_240821.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup341_20200101_20400101.bsp
-"""
-const earth_000101_241115_240822_bpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup341_20200101_20400101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240309_231215.bpc
-"""
-const jup343_19900101_20500101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240309_231215.bpc")
+const earth_000101_241114_240821_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241114_240821.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13651,7 +10546,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241115_240822.bpc
 """
-const earth_000101_240310_231216_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241115_240822.bpc")
+const earth_000101_241115_240822_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241115_240822.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13669,36 +10564,6 @@ This kernel's link was sourced on 2024-09-24.
 const earth_000101_241116_240823_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241116_240823.bpc")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup343_19900101_20500101.bsp
-"""
-const earth_000101_241117_240824_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup343_19900101_20500101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240310_231216.bpc
-"""
-const jup343_20200101_20400101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240310_231216.bpc")
-
-"""
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -13711,7 +10576,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241117_240824.bpc
 """
-const earth_000101_240310_231217_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241117_240824.bpc")
+const earth_000101_241117_240824_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241117_240824.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13729,36 +10594,6 @@ This kernel's link was sourced on 2024-09-24.
 const earth_000101_241118_240825_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241118_240825.bpc")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup343_20200101_20400101.bsp
-"""
-const earth_000101_241119_240826_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup343_20200101_20400101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240310_231217.bpc
-"""
-const jup343_20200101_20500101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240310_231217.bpc")
-
-"""
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -13771,7 +10606,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241119_240826.bpc
 """
-const earth_000101_240312_231219_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241119_240826.bpc")
+const earth_000101_241119_240826_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241119_240826.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13789,36 +10624,6 @@ This kernel's link was sourced on 2024-09-24.
 const earth_000101_241120_240827_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241120_240827.bpc")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup343_20200101_20500101.bsp
-"""
-const earth_000101_241121_240828_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup343_20200101_20500101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240312_231219.bpc
-"""
-const jup344_s2003_j24_19900101_20500101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240312_231219.bpc")
-
-"""
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -13831,37 +10636,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241121_240828.bpc
 """
-const earth_000101_240313_231219_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241121_240828.bpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup344-s2003_j24_19900101_20500101.bsp
-"""
-const earth_000101_241122_240829_bpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup344-s2003_j24_19900101_20500101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240313_231219.bpc
-"""
-const jup346_19900101_20500101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240313_231219.bpc")
+const earth_000101_241121_240828_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241121_240828.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13876,7 +10651,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241122_240829.bpc
 """
-const earth_000101_240314_231221_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241122_240829.bpc")
+const earth_000101_241122_240829_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241122_240829.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13894,36 +10669,6 @@ This kernel's link was sourced on 2024-09-24.
 const earth_000101_241123_240830_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241123_240830.bpc")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup346_19900101_20500101.bsp
-"""
-const earth_000101_241124_240831_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup346_19900101_20500101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240314_231221.bpc
-"""
-const jup365_19900101_20500101_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240314_231221.bpc")
-
-"""
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -13936,7 +10681,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241124_240831.bpc
 """
-const earth_000101_240315_231221_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241124_240831.bpc")
+const earth_000101_241124_240831_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241124_240831.bpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13964,9 +10709,3429 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240315_231221.bpc
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241126_240902.bpc
 """
-const earth_000101_241126_240902_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240315_231221.bpc")
+const earth_000101_241126_240902_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241126_240902.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241127_240903.bpc
+"""
+const earth_000101_241127_240903_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241127_240903.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241128_240904.bpc
+"""
+const earth_000101_241128_240904_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241128_240904.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241128_240905.bpc
+"""
+const earth_000101_241128_240905_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241128_240905.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241130_240906.bpc
+"""
+const earth_000101_241130_240906_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241130_240906.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241201_240907.bpc
+"""
+const earth_000101_241201_240907_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241201_240907.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241202_240908.bpc
+"""
+const earth_000101_241202_240908_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241202_240908.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241203_240909.bpc
+"""
+const earth_000101_241203_240909_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241203_240909.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241203_240910.bpc
+"""
+const earth_000101_241203_240910_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241203_240910.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241204_240911.bpc
+"""
+const earth_000101_241204_240911_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241204_240911.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241206_240912.bpc
+"""
+const earth_000101_241206_240912_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241206_240912.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241207_240913.bpc
+"""
+const earth_000101_241207_240913_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241207_240913.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241208_240914.bpc
+"""
+const earth_000101_241208_240914_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241208_240914.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241209_240915.bpc
+"""
+const earth_000101_241209_240915_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241209_240915.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241210_240916.bpc
+"""
+const earth_000101_241210_240916_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241210_240916.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_070425_370426_predict.bpc
+"""
+const earth_070425_370426_predict_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_070425_370426_predict.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/gm_de431.tpc
+"""
+const gm_de431_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/gm_de431.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/inpop19a_moon_pa_v01.bpc
+"""
+const inpop19a_moon_pa_v01_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/inpop19a_moon_pa_v01.bpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup000.tpc
+"""
+const juice_jup000_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup000.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup001.tpc
+"""
+const juice_jup001_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup001.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup002.tpc
+"""
+const juice_jup002_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup002.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup003.tpc
+"""
+const juice_jup003_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup003.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup004.tpc
+"""
+const juice_jup004_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup004.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup005.tpc
+"""
+const juice_jup005_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup005.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup006.tpc
+"""
+const juice_jup006_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup006.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup007.tpc
+"""
+const juice_jup007_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup007.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup008.tpc
+"""
+const juice_jup008_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup008.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup009.tpc
+"""
+const juice_jup009_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup009.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup010.tpc
+"""
+const juice_jup010_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup010.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup011.tpc
+"""
+const juice_jup011_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_jup011.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_roi_v00.tpc
+"""
+const juice_roi_v00_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_roi_v00.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_roi_v01.tpc
+"""
+const juice_roi_v01_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/juice_roi_v01.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/pck00010.tpc
+"""
+const pck00010_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/pck00010.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/pck00011.tpc
+"""
+const pck00011_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/pck00011.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/de405.bsp
+"""
+const de405_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/de405.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/de430.bsp
+"""
+const de430_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/de430.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/de432s.bsp
+"""
+const de432s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/de432s.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/earthstns_fx_050714.bsp
+"""
+const earthstns_fx_050714_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/earthstns_fx_050714.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/earthstns_fx_201023.bsp
+"""
+const earthstns_fx_201023_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/earthstns_fx_201023.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/earthstns_itrf93_050714.bsp
+"""
+const earthstns_itrf93_050714_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/earthstns_itrf93_050714.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/estrack_v01.bsp
+"""
+const estrack_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/estrack_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/estrack_v03.bsp
+"""
+const estrack_v03_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/estrack_v03.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/estrack_v04.bsp
+"""
+const estrack_v04_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/estrack_v04.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/inpop19a_19900101_20500101.bsp
+"""
+const inpop19a_19900101_20500101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/inpop19a_19900101_20500101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v01.bsp
+"""
+const juice_cog_000031_230416_230419_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v02.bsp
+"""
+const juice_cog_000031_230416_230419_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v03.bsp
+"""
+const juice_cog_000031_230416_230419_v03_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v03.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v04.bsp
+"""
+const juice_cog_000031_230416_230419_v04_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000031_230416_230419_v04.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000032_230416_230420_v01.bsp
+"""
+const juice_cog_000032_230416_230420_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000032_230416_230420_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000033_230416_230429_v01.bsp
+"""
+const juice_cog_000033_230416_230429_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000033_230416_230429_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000034_230416_230506_v01.bsp
+"""
+const juice_cog_000034_230416_230506_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000034_230416_230506_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000035_230416_230513_v01.bsp
+"""
+const juice_cog_000035_230416_230513_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000035_230416_230513_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000035_230416_230513_v02.bsp
+"""
+const juice_cog_000035_230416_230513_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000035_230416_230513_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000036_230416_230520_v01.bsp
+"""
+const juice_cog_000036_230416_230520_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000036_230416_230520_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000036_230416_230520_v02.bsp
+"""
+const juice_cog_000036_230416_230520_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000036_230416_230520_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000037_230416_230527_v01.bsp
+"""
+const juice_cog_000037_230416_230527_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000037_230416_230527_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000037_230416_230527_v02.bsp
+"""
+const juice_cog_000037_230416_230527_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000037_230416_230527_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000038_230416_230603_v01.bsp
+"""
+const juice_cog_000038_230416_230603_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000038_230416_230603_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000039_230416_230610_v01.bsp
+"""
+const juice_cog_000039_230416_230610_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000039_230416_230610_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000040_230416_230617_v01.bsp
+"""
+const juice_cog_000040_230416_230617_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000040_230416_230617_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000041_230416_230624_v01.bsp
+"""
+const juice_cog_000041_230416_230624_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000041_230416_230624_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000042_230416_230701_v01.bsp
+"""
+const juice_cog_000042_230416_230701_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000042_230416_230701_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000043_230416_230708_v01.bsp
+"""
+const juice_cog_000043_230416_230708_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000043_230416_230708_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000044_230416_230715_v01.bsp
+"""
+const juice_cog_000044_230416_230715_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000044_230416_230715_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000045_230416_230729_v01.bsp
+"""
+const juice_cog_000045_230416_230729_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000045_230416_230729_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000046_230416_230825_v01.bsp
+"""
+const juice_cog_000046_230416_230825_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000046_230416_230825_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000047_230416_230922_v01.bsp
+"""
+const juice_cog_000047_230416_230922_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000047_230416_230922_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000048_230416_231021_v01.bsp
+"""
+const juice_cog_000048_230416_231021_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000048_230416_231021_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000049_230416_231114_v01.bsp
+"""
+const juice_cog_000049_230416_231114_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000049_230416_231114_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000050_230416_231128_v01.bsp
+"""
+const juice_cog_000050_230416_231128_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000050_230416_231128_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000051_230416_231130_v01.bsp
+"""
+const juice_cog_000051_230416_231130_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000051_230416_231130_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000052_230416_231213_v01.bsp
+"""
+const juice_cog_000052_230416_231213_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000052_230416_231213_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000053_230416_240112_v01.bsp
+"""
+const juice_cog_000053_230416_240112_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000053_230416_240112_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000054_230416_240215_v01.bsp
+"""
+const juice_cog_000054_230416_240215_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000054_230416_240215_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000055_230416_240303_v01.bsp
+"""
+const juice_cog_000055_230416_240303_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000055_230416_240303_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000056_230416_240417_v01.bsp
+"""
+const juice_cog_000056_230416_240417_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000056_230416_240417_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000059_230416_240826_v01.bsp
+"""
+const juice_cog_000059_230416_240826_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000059_230416_240826_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000060_230416_240516_v01.bsp
+"""
+const juice_cog_000060_230416_240516_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000060_230416_240516_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000061_230416_240613_v01.bsp
+"""
+const juice_cog_000061_230416_240613_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000061_230416_240613_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000062_230416_240705_v01.bsp
+"""
+const juice_cog_000062_230416_240705_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000062_230416_240705_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000063_230416_240721_v01.bsp
+"""
+const juice_cog_000063_230416_240721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000063_230416_240721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000064_230416_240819_v01.bsp
+"""
+const juice_cog_000064_230416_240819_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000064_230416_240819_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000067_230416_240804_v01.bsp
+"""
+const juice_cog_000067_230416_240804_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000067_230416_240804_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000068_230416_240811_v01.bsp
+"""
+const juice_cog_000068_230416_240811_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000068_230416_240811_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000069_230416_240816_v01.bsp
+"""
+const juice_cog_000069_230416_240816_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000069_230416_240816_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000070_230416_240818_v01.bsp
+"""
+const juice_cog_000070_230416_240818_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000070_230416_240818_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000071_230416_240826_v01.bsp
+"""
+const juice_cog_000071_230416_240826_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000071_230416_240826_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000072_230416_240905_v01.bsp
+"""
+const juice_cog_000072_230416_240905_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000072_230416_240905_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000073_230416_241002_v01.bsp
+"""
+const juice_cog_000073_230416_241002_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_000073_230416_241002_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_v00.bsp
+"""
+const juice_cog_v00_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_cog_v00.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_0_v01.bsp
+"""
+const juice_crema_5_0_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_0_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_0b23_1_v01.bsp
+"""
+const juice_crema_5_0b23_1_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_0b23_1_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150la_v01.bsp
+"""
+const juice_crema_5_1_150la_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150la_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_a3_v01.bsp
+"""
+const juice_crema_5_1_150lb_23_1_a3_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_a3_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_b2_v01.bsp
+"""
+const juice_crema_5_1_150lb_23_1_b2_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_b2_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_plan_v01.bsp
+"""
+const juice_crema_5_1_150lb_23_1_plan_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_plan_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_v01.bsp
+"""
+const juice_crema_5_1_150lb_23_1_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_23_1_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_v01.bsp
+"""
+const juice_crema_5_1_150lb_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_crema_5_1_150lb_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_earthstns_v01.bsp
+"""
+const juice_earthstns_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_earthstns_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_150l0a_20220904_20310717_v01.bsp
+"""
+const juice_mat_150l0a_20220904_20310717_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_150l0a_20220904_20310717_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_2_0_20220604_20330705_v01.bsp
+"""
+const juice_mat_crema_2_0_20220604_20330705_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_2_0_20220604_20330705_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_3_0_20220601_20330604_v01.bsp
+"""
+const juice_mat_crema_3_0_20220601_20330604_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_3_0_20220601_20330604_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_3_1_20220531_20330911_v01.bsp
+"""
+const juice_mat_crema_3_1_20220531_20330911_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_3_1_20220531_20330911_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_3_2_20220601_20330626_v01.bsp
+"""
+const juice_mat_crema_3_2_20220601_20330626_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_3_2_20220601_20330626_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0_20220601_20330626_v01.bsp
+"""
+const juice_mat_crema_4_0_20220601_20330626_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0_20220601_20330626_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0_20220601_20330626_v02.bsp
+"""
+const juice_mat_crema_4_0_20220601_20330626_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0_20220601_20330626_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0b_20230809_20360821_v01.bsp
+"""
+const juice_mat_crema_4_0b_20230809_20360821_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0b_20230809_20360821_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0b_20230809_20360821_v02.bsp
+"""
+const juice_mat_crema_4_0b_20230809_20360821_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_0b_20230809_20360821_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_1_N56_Pp5_Q19_v01.bsp
+"""
+const juice_mat_crema_4_1_N56_Pp5_Q19_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_1_N56_Pp5_Q19_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2_N54_Pp5_Q19_v01.bsp
+"""
+const juice_mat_crema_4_2_N54_Pp5_Q19_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2_N54_Pp5_Q19_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2_N56_Pn5_Q19_v01.bsp
+"""
+const juice_mat_crema_4_2_N56_Pn5_Q19_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2_N56_Pn5_Q19_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2_N56_Pp5_Q19_v01.bsp
+"""
+const juice_mat_crema_4_2_N56_Pp5_Q19_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2_N56_Pp5_Q19_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2b22_1_20310717_20351005_v01.bsp
+"""
+const juice_mat_crema_4_2b22_1_20310717_20351005_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_4_2b22_1_20310717_20351005_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_0_20220826_20351005_v01.bsp
+"""
+const juice_mat_crema_5_0_20220826_20351005_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_0_20220826_20351005_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_0b23_1_20230405_20351005_v01.bsp
+"""
+const juice_mat_crema_5_0b23_1_20230405_20351005_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_0b23_1_20230405_20351005_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_1_150la_v01.bsp
+"""
+const juice_mat_crema_5_1_150la_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_1_150la_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_1_150lb_v01.bsp
+"""
+const juice_mat_crema_5_1_150lb_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_mat_crema_5_1_150lb_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000003_230405_310721_v01.bsp
+"""
+const juice_orbc_000003_230405_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000003_230405_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000010_230414_310721_v01.bsp
+"""
+const juice_orbc_000010_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000010_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000010_230414_310721_v02.bsp
+"""
+const juice_orbc_000010_230414_310721_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000010_230414_310721_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000010_230414_310721_v03.bsp
+"""
+const juice_orbc_000010_230414_310721_v03_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000010_230414_310721_v03.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000025_230414_310721_v01.bsp
+"""
+const juice_orbc_000025_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000025_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v01.bsp
+"""
+const juice_orbc_000026_230413_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v02.bsp
+"""
+const juice_orbc_000026_230413_310721_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v03.bsp
+"""
+const juice_orbc_000026_230413_310721_v03_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v03.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v04.bsp
+"""
+const juice_orbc_000026_230413_310721_v04_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000026_230413_310721_v04.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v01.bsp
+"""
+const juice_orbc_000027_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v02.bsp
+"""
+const juice_orbc_000027_230414_310721_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v03.bsp
+"""
+const juice_orbc_000027_230414_310721_v03_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v03.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v04.bsp
+"""
+const juice_orbc_000027_230414_310721_v04_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v04.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v05.bsp
+"""
+const juice_orbc_000027_230414_310721_v05_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v05.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v06.bsp
+"""
+const juice_orbc_000027_230414_310721_v06_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000027_230414_310721_v06.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v01.bsp
+"""
+const juice_orbc_000030_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v02.bsp
+"""
+const juice_orbc_000030_230414_310721_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v03.bsp
+"""
+const juice_orbc_000030_230414_310721_v03_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v03.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v04.bsp
+"""
+const juice_orbc_000030_230414_310721_v04_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v04.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v05.bsp
+"""
+const juice_orbc_000030_230414_310721_v05_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000030_230414_310721_v05.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v01.bsp
+"""
+const juice_orbc_000031_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v02.bsp
+"""
+const juice_orbc_000031_230414_310721_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v03.bsp
+"""
+const juice_orbc_000031_230414_310721_v03_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v03.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v04.bsp
+"""
+const juice_orbc_000031_230414_310721_v04_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000031_230414_310721_v04.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000032_230414_310721_v01.bsp
+"""
+const juice_orbc_000032_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000032_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000033_230414_310721_v01.bsp
+"""
+const juice_orbc_000033_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000033_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000034_230414_310721_v01.bsp
+"""
+const juice_orbc_000034_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000034_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000035_230414_310721_v01.bsp
+"""
+const juice_orbc_000035_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000035_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000035_230414_310721_v02.bsp
+"""
+const juice_orbc_000035_230414_310721_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000035_230414_310721_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000036_230414_310721_v01.bsp
+"""
+const juice_orbc_000036_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000036_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000036_230414_310721_v02.bsp
+"""
+const juice_orbc_000036_230414_310721_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000036_230414_310721_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000037_230414_310721_v01.bsp
+"""
+const juice_orbc_000037_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000037_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000037_230414_310721_v02.bsp
+"""
+const juice_orbc_000037_230414_310721_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000037_230414_310721_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000038_230414_310721_v01.bsp
+"""
+const juice_orbc_000038_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000038_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000039_230414_310721_v01.bsp
+"""
+const juice_orbc_000039_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000039_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000040_230414_310721_v01.bsp
+"""
+const juice_orbc_000040_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000040_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000041_230414_310721_v01.bsp
+"""
+const juice_orbc_000041_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000041_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000042_230414_310721_v01.bsp
+"""
+const juice_orbc_000042_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000042_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000043_230414_310721_v01.bsp
+"""
+const juice_orbc_000043_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000043_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000044_230414_310721_v01.bsp
+"""
+const juice_orbc_000044_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000044_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000045_230414_310721_v01.bsp
+"""
+const juice_orbc_000045_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000045_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000046_230414_310721_v01.bsp
+"""
+const juice_orbc_000046_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000046_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000047_230414_310721_v01.bsp
+"""
+const juice_orbc_000047_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000047_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000048_230414_310721_v01.bsp
+"""
+const juice_orbc_000048_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000048_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000049_230414_310721_v01.bsp
+"""
+const juice_orbc_000049_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000049_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000050_230414_310721_v01.bsp
+"""
+const juice_orbc_000050_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000050_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000051_230414_310721_v01.bsp
+"""
+const juice_orbc_000051_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000051_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000052_230414_310721_v01.bsp
+"""
+const juice_orbc_000052_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000052_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000053_230414_310721_v01.bsp
+"""
+const juice_orbc_000053_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000053_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000054_230414_310721_v01.bsp
+"""
+const juice_orbc_000054_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000054_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000055_230414_310721_v01.bsp
+"""
+const juice_orbc_000055_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000055_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000056_230414_310721_v01.bsp
+"""
+const juice_orbc_000056_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000056_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000060_230414_310721_v01.bsp
+"""
+const juice_orbc_000060_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000060_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000061_230414_310721_v01.bsp
+"""
+const juice_orbc_000061_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000061_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000062_230414_310721_v01.bsp
+"""
+const juice_orbc_000062_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000062_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000063_230414_310721_v01.bsp
+"""
+const juice_orbc_000063_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000063_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000067_230414_310721_v01.bsp
+"""
+const juice_orbc_000067_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000067_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000068_230414_310721_v01.bsp
+"""
+const juice_orbc_000068_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000068_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000069_230414_310721_v01.bsp
+"""
+const juice_orbc_000069_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000069_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000070_230414_310721_v01.bsp
+"""
+const juice_orbc_000070_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000070_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000071_230414_310721_v01.bsp
+"""
+const juice_orbc_000071_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000071_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000072_230414_310721_v01.bsp
+"""
+const juice_orbc_000072_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000072_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000073_230414_310721_v01.bsp
+"""
+const juice_orbc_000073_230414_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbc_000073_230414_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbm_000059_240701_310721_v01.bsp
+"""
+const juice_orbm_000059_240701_310721_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbm_000059_240701_310721_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbm_000059_240817_240827_v01.bsp
+"""
+const juice_orbm_000059_240817_240827_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_orbm_000059_240817_240827_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_pride_earthstns_v01.bsp
+"""
+const juice_pride_earthstns_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_pride_earthstns_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_roi_v00.bsp
+"""
+const juice_roi_v00_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_roi_v00.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_roi_v01.bsp
+"""
+const juice_roi_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_roi_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_roi_v02.bsp
+"""
+const juice_roi_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_roi_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v01.bsp
+"""
+const juice_sci_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v02.bsp
+"""
+const juice_sci_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v03.bsp
+"""
+const juice_sci_v03_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v03.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v04.bsp
+"""
+const juice_sci_v04_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_sci_v04.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_internal_v01.bsp
+"""
+const juice_struct_internal_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_internal_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v00.bsp
+"""
+const juice_struct_v00_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v00.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v01.bsp
+"""
+const juice_struct_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v02.bsp
+"""
+const juice_struct_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v03.bsp
+"""
+const juice_struct_v03_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v03.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v04.bsp
+"""
+const juice_struct_v04_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v04.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v05.bsp
+"""
+const juice_struct_v05_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v05.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v06.bsp
+"""
+const juice_struct_v06_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v06.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v07.bsp
+"""
+const juice_struct_v07_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v07.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v08.bsp
+"""
+const juice_struct_v08_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v08.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v09.bsp
+"""
+const juice_struct_v09_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v09.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v10.bsp
+"""
+const juice_struct_v10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v11.bsp
+"""
+const juice_struct_v11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v11.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v12.bsp
+"""
+const juice_struct_v12_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v12.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v13.bsp
+"""
+const juice_struct_v13_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v13.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v14.bsp
+"""
+const juice_struct_v14_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v14.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v15.bsp
+"""
+const juice_struct_v15_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v15.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v16.bsp
+"""
+const juice_struct_v16_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v16.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v17.bsp
+"""
+const juice_struct_v17_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v17.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v18.bsp
+"""
+const juice_struct_v18_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v18.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v19.bsp
+"""
+const juice_struct_v19_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v19.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v20.bsp
+"""
+const juice_struct_v20_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v20.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v21.bsp
+"""
+const juice_struct_v21_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/juice_struct_v21.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup230.bsp
+"""
+const jup230_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup230.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup230_20200101_20400101.bsp
+"""
+const jup230_20200101_20400101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup230_20200101_20400101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup282.bsp
+"""
+const jup282_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup282.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup282_20200101_20400101.bsp
+"""
+const jup282_20200101_20400101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup282_20200101_20400101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup300.bsp
+"""
+const jup300_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup300.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup300_20200101_20400101.bsp
+"""
+const jup300_20200101_20400101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup300_20200101_20400101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310.bsp
+"""
+const jup310_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310_19900101_20500101.bsp
+"""
+const jup310_19900101_20500101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310_19900101_20500101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310_20200101_20400101.bsp
+"""
+const jup310_20200101_20400101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310_20200101_20400101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310_20200101_20500101.bsp
+"""
+const jup310_20200101_20500101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup310_20200101_20500101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup341_20200101_20400101.bsp
+"""
+const jup341_20200101_20400101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup341_20200101_20400101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup343_19900101_20500101.bsp
+"""
+const jup343_19900101_20500101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup343_19900101_20500101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup343_20200101_20400101.bsp
+"""
+const jup343_20200101_20400101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup343_20200101_20400101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup343_20200101_20500101.bsp
+"""
+const jup343_20200101_20500101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup343_20200101_20500101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup344-s2003_j24_19900101_20500101.bsp
+"""
+const jup344_s2003_j24_19900101_20500101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup344-s2003_j24_19900101_20500101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup346_19900101_20500101.bsp
+"""
+const jup346_19900101_20500101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup346_19900101_20500101.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13981,37 +14146,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup365_19900101_20500101.bsp
 """
-const earth_000101_240315_231222_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup365_19900101_20500101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241126_240902.bpc
-"""
-const mar085_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_241126_240902.bpc")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240315_231222.bpc
-"""
-const mar085_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240315_231222.bpc")
+const jup365_19900101_20500101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/jup365_19900101_20500101.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14026,22 +14161,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/mar085.bsp
 """
-const earth_000101_240317_231223_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/mar085.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240317_231223.bpc
-"""
-const mar085_20200101_20400101_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240317_231223.bpc")
+const mar085_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/mar085.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14056,22 +14176,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/mar085_20200101_20400101.bsp
 """
-const earth_000101_240318_231224_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/mar085_20200101_20400101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240318_231224.bpc
-"""
-const new_norcia_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240318_231224.bpc")
+const mar085_20200101_20400101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/mar085_20200101_20400101.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14086,22 +14191,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/new_norcia.bsp
 """
-const earth_000101_240319_231225_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/new_norcia.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240319_231225.bpc
-"""
-const noe_5_2010_gal_a2_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240319_231225.bpc")
+const new_norcia_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/new_norcia.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14116,22 +14206,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2010-gal-a2.bsp
 """
-const earth_000101_240320_231226_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2010-gal-a2.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240320_231226.bpc
-"""
-const noe_5_2010_gal_a2_20200101_20380902_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240320_231226.bpc")
+const noe_5_2010_gal_a2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2010-gal-a2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14146,22 +14221,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2010-gal-a2_20200101_20380902.bsp
 """
-const earth_000101_240321_231228_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2010-gal-a2_20200101_20380902.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240321_231228.bpc
-"""
-const noe_5_2017_gal_a_reduced_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240321_231228.bpc")
+const noe_5_2010_gal_a2_20200101_20380902_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2010-gal-a2_20200101_20380902.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14176,22 +14236,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2017-gal-a-reduced.bsp
 """
-const earth_000101_240322_231228_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2017-gal-a-reduced.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240322_231228.bpc
-"""
-const noe_5_2017_gal_a_reduced_20200101_20380902_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240322_231228.bpc")
+const noe_5_2017_gal_a_reduced_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2017-gal-a-reduced.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14206,22 +14251,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2017-gal-a-reduced_20200101_20380902.bsp
 """
-const earth_000101_240323_231229_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2017-gal-a-reduced_20200101_20380902.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240323_231229.bpc
-"""
-const noe_5_2021_19900101_20500101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240323_231229.bpc")
+const noe_5_2017_gal_a_reduced_20200101_20380902_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2017-gal-a-reduced_20200101_20380902.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14236,22 +14266,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2021_19900101_20500101.bsp
 """
-const earth_000101_240324_231230_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2021_19900101_20500101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240324_231230.bpc
-"""
-const noe_5_2021_19900101_20500101_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240324_231230.bpc")
+const noe_5_2021_19900101_20500101_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe-5-2021_19900101_20500101.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14266,122 +14281,108 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe_5_2021_19900101_20500101.bsp
 """
-const earth_000101_240325_231231_bpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe_5_2021_19900101_20500101.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240325_231231.bpc
-"""
-const earth_000101_240325_231231_bpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/pck/earth_000101_240325_231231.bpc")
+const noe_5_2021_19900101_20500101_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUICE/kernels/spk/noe_5_2021_19900101_20500101.bsp")
 
 export
     de405_bsp,
     de430_bsp,
-    de430_bsp,
     de432s_bsp,
     de_403_masses_tpc,
     earth_000101_230725_230501_bpc,
+    earth_000101_230726_230502_bpc,
     earth_000101_230727_230503_bpc,
     earth_000101_230727_230504_bpc,
-    earth_000101_230729_230505_bpc_dsk,
-    earth_000101_230730_230506_bpc_dsk,
-    earth_000101_230731_230507_bpc_dsk,
-    earth_000101_230801_230508_bpc_dsk,
-    earth_000101_230801_230509_bpc_dsk,
+    earth_000101_230729_230505_bpc,
+    earth_000101_230730_230506_bpc,
+    earth_000101_230731_230507_bpc,
+    earth_000101_230801_230508_bpc,
+    earth_000101_230801_230509_bpc,
+    earth_000101_230803_230510_bpc,
     earth_000101_230804_230511_bpc,
+    earth_000101_230805_230512_bpc,
     earth_000101_230806_230513_bpc,
+    earth_000101_230807_230514_bpc,
+    earth_000101_230808_230515_bpc,
     earth_000101_230809_230516_bpc,
     earth_000101_230810_230517_bpc,
     earth_000101_230811_230518_bpc,
     earth_000101_230812_230519_bpc,
-    earth_000101_230813_230520_bpc_dsk,
-    earth_000101_230813_230520_bpc_dsk,
+    earth_000101_230813_230520_bpc,
     earth_000101_230814_230521_bpc,
-    earth_000101_230815_230522_bpc_dsk,
-    earth_000101_230816_230523_bpc_dsk,
-    earth_000101_230817_230524_bpc_dsk,
-    earth_000101_230818_230526_bpc_dsk,
-    earth_000101_230819_230526_bpc_dsk,
+    earth_000101_230815_230522_bpc,
+    earth_000101_230816_230523_bpc,
+    earth_000101_230817_230524_bpc,
+    earth_000101_230818_230526_bpc,
+    earth_000101_230819_230526_bpc,
     earth_000101_230820_230527_bpc,
     earth_000101_230821_230528_bpc,
     earth_000101_230822_230529_bpc,
-    earth_000101_230822_230529_bpc,
-    earth_000101_230823_230530_bpc_dsk,
+    earth_000101_230823_230530_bpc,
     earth_000101_230824_230601_bpc,
     earth_000101_230825_230601_bpc,
     earth_000101_230826_230602_bpc,
-    earth_000101_230826_230603_bpc_dsk,
+    earth_000101_230826_230603_bpc,
     earth_000101_230828_230604_bpc,
-    earth_000101_230829_230606_bpc_dsk,
+    earth_000101_230829_230606_bpc,
     earth_000101_230830_230606_bpc,
-    earth_000101_230830_230607_bpc_dsk,
+    earth_000101_230830_230607_bpc,
     earth_000101_230901_230609_bpc,
     earth_000101_230902_230609_bpc,
     earth_000101_230903_230610_bpc,
     earth_000101_230904_230611_bpc,
-    earth_000101_230905_230613_bpc_dsk,
+    earth_000101_230905_230613_bpc,
+    earth_000101_230906_230613_bpc,
     earth_000101_230907_230615_bpc,
     earth_000101_230908_230615_bpc,
     earth_000101_230909_230616_bpc,
     earth_000101_230910_230617_bpc,
     earth_000101_230910_230618_bpc,
-    earth_000101_230912_230620_bpc_dsk,
+    earth_000101_230912_230620_bpc,
     earth_000101_230913_230620_bpc,
     earth_000101_230913_230621_bpc,
     earth_000101_230915_230622_bpc,
     earth_000101_230916_230623_bpc,
     earth_000101_230916_230624_bpc,
     earth_000101_230918_230626_bpc,
-    earth_000101_230919_230626_bpc_dsk,
+    earth_000101_230919_230626_bpc,
     earth_000101_230919_230627_bpc,
     earth_000101_230921_230628_bpc,
     earth_000101_230922_230630_bpc,
     earth_000101_230923_230630_bpc,
     earth_000101_230924_230701_bpc,
-    earth_000101_230925_230703_bpc_dsk,
-    earth_000101_230927_230704_bpc_dsk,
+    earth_000101_230925_230703_bpc,
+    earth_000101_230927_230704_bpc,
     earth_000101_230928_230706_bpc,
     earth_000101_230929_230707_bpc,
     earth_000101_230930_230707_bpc,
     earth_000101_231001_230708_bpc,
-    earth_000101_231001_230708_bpc,
     earth_000101_231002_230710_bpc,
-    earth_000101_231003_230710_bpc_dsk,
-    earth_000101_231004_230711_bpc_dsk,
+    earth_000101_231003_230710_bpc,
+    earth_000101_231004_230711_bpc,
     earth_000101_231005_230712_bpc,
     earth_000101_231006_230713_bpc,
     earth_000101_231006_230714_bpc,
     earth_000101_231008_230715_bpc,
     earth_000101_231009_230717_bpc,
-    earth_000101_231010_230717_bpc_dsk,
-    earth_000101_231011_230718_bpc_dsk,
-    earth_000101_231012_230719_bpc_dsk,
-    earth_000101_231013_230721_bpc_dsk,
+    earth_000101_231010_230717_bpc,
+    earth_000101_231011_230718_bpc,
+    earth_000101_231012_230719_bpc,
+    earth_000101_231013_230721_bpc,
     earth_000101_231014_230721_bpc,
     earth_000101_231015_230722_bpc,
-    earth_000101_231016_230724_bpc_dsk,
+    earth_000101_231016_230724_bpc,
     earth_000101_231017_230725_bpc,
-    earth_000101_231018_230725_bpc_dsk,
+    earth_000101_231018_230725_bpc,
     earth_000101_231019_230726_bpc,
     earth_000101_231020_230728_bpc,
-    earth_000101_231020_230728_bpc_dsk,
-    earth_000101_231021_230728_bpc_pck,
+    earth_000101_231021_230728_bpc,
     earth_000101_231021_230729_bpc,
     earth_000101_231023_230730_bpc,
     earth_000101_231024_230801_bpc,
     earth_000101_231025_230801_bpc,
     earth_000101_231026_230802_bpc,
     earth_000101_231027_230804_bpc,
-    earth_000101_231028_230804_bpc_dsk,
+    earth_000101_231028_230804_bpc,
     earth_000101_231029_230805_bpc,
     earth_000101_231030_230806_bpc,
     earth_000101_231030_230808_bpc,
@@ -14398,6 +14399,7 @@ export
     earth_000101_231111_230818_bpc,
     earth_000101_231112_230819_bpc,
     earth_000101_231113_230820_bpc,
+    earth_000101_231114_230821_bpc,
     earth_000101_231115_230823_bpc,
     earth_000101_231116_230823_bpc,
     earth_000101_231117_230824_bpc,
@@ -14425,6 +14427,7 @@ export
     earth_000101_231209_230915_bpc,
     earth_000101_231210_230916_bpc,
     earth_000101_231211_230917_bpc,
+    earth_000101_231211_230919_bpc,
     earth_000101_231213_230919_bpc,
     earth_000101_231214_230921_bpc,
     earth_000101_231215_230921_bpc,
@@ -14433,8 +14436,8 @@ export
     earth_000101_231218_230924_bpc,
     earth_000101_231219_230925_bpc,
     earth_000101_231220_230927_bpc,
-    earth_000101_231221_230927_bpc_pck,
-    earth_000101_231222_230929_bpc_pck,
+    earth_000101_231221_230927_bpc,
+    earth_000101_231222_230929_bpc,
     earth_000101_231223_230929_bpc,
     earth_000101_231224_230930_bpc,
     earth_000101_231225_231001_bpc,
@@ -14448,8 +14451,7 @@ export
     earth_000101_240103_231011_bpc,
     earth_000101_240103_231013_bpc,
     earth_000101_240103_231014_bpc,
-    earth_000101_240103_231015_bpc_spk,
-    earth_000101_240103_231015_bpc_spk_fk,
+    earth_000101_240103_231015_bpc,
     earth_000101_240109_231016_bpc,
     earth_000101_240109_231018_bpc,
     earth_000101_240111_231018_bpc,
@@ -14457,23 +14459,26 @@ export
     earth_000101_240113_231020_bpc,
     earth_000101_240114_231021_bpc,
     earth_000101_240115_231022_bpc,
-    earth_000101_240118_231027_bpc_fk,
+    earth_000101_240116_231024_bpc,
+    earth_000101_240118_231025_bpc,
+    earth_000101_240118_231027_bpc,
     earth_000101_240120_231027_bpc,
     earth_000101_240121_231028_bpc,
-    earth_000101_240122_231029_bpc_fk,
-    earth_000101_240123_231030_bpc_fk,
+    earth_000101_240122_231029_bpc,
+    earth_000101_240123_231030_bpc,
     earth_000101_240124_231031_bpc,
     earth_000101_240125_231101_bpc,
-    earth_000101_240126_231102_bpc_fk,
+    earth_000101_240126_231102_bpc,
     earth_000101_240126_231103_bpc,
     earth_000101_240127_231104_bpc,
-    earth_000101_240129_231105_bpc_fk,
+    earth_000101_240129_231105_bpc,
+    earth_000101_240130_231107_bpc,
     earth_000101_240131_231107_bpc,
     earth_000101_240131_231109_bpc,
     earth_000101_240131_231110_bpc,
     earth_000101_240203_231110_bpc,
     earth_000101_240203_231111_bpc,
-    earth_000101_240205_231112_bpc_fk,
+    earth_000101_240205_231112_bpc,
     earth_000101_240206_231113_bpc,
     earth_000101_240207_231114_bpc,
     earth_000101_240208_231115_bpc,
@@ -14481,22 +14486,21 @@ export
     earth_000101_240210_231117_bpc,
     earth_000101_240211_231118_bpc,
     earth_000101_240212_231119_bpc,
-    earth_000101_240213_231121_bpc_fk,
+    earth_000101_240213_231121_bpc,
     earth_000101_240215_231122_bpc,
-    earth_000101_240215_231123_bpc_pck,
-    earth_000101_240217_231124_bpc_fk,
+    earth_000101_240215_231123_bpc,
+    earth_000101_240217_231124_bpc,
     earth_000101_240218_231125_bpc,
     earth_000101_240219_231126_bpc,
     earth_000101_240220_231127_bpc,
+    earth_000101_240220_231128_bpc,
     earth_000101_240222_231129_bpc,
     earth_000101_240223_231201_bpc,
-    earth_000101_240224_231201_bpc,
     earth_000101_240224_231201_bpc,
     earth_000101_240225_231202_bpc,
     earth_000101_240226_231203_bpc,
     earth_000101_240227_231204_bpc,
-    earth_000101_240228_231205_bpc_pck,
-    earth_000101_240228_231205_bpc_pck,
+    earth_000101_240228_231205_bpc,
     earth_000101_240229_231206_bpc,
     earth_000101_240301_231207_bpc,
     earth_000101_240302_231208_bpc,
@@ -14513,6 +14517,7 @@ export
     earth_000101_240313_231219_bpc,
     earth_000101_240314_231221_bpc,
     earth_000101_240315_231221_bpc,
+    earth_000101_240315_231222_bpc,
     earth_000101_240317_231223_bpc,
     earth_000101_240318_231224_bpc,
     earth_000101_240319_231225_bpc,
@@ -14522,36 +14527,27 @@ export
     earth_000101_240323_231229_bpc,
     earth_000101_240324_231230_bpc,
     earth_000101_240325_231231_bpc,
-    earth_000101_240325_231231_bpc,
+    earth_000101_240326_240101_bpc,
     earth_000101_240327_240103_bpc,
-    earth_000101_240327_240103_bpc_dsk,
-    earth_000101_240327_240104_bpc_dsk,
+    earth_000101_240327_240104_bpc,
     earth_000101_240329_240105_bpc,
     earth_000101_240330_240105_bpc,
     earth_000101_240331_240106_bpc,
     earth_000101_240401_240107_bpc,
-    earth_000101_240401_240107_bpc,
-    earth_000101_240402_240109_bpc,
     earth_000101_240402_240109_bpc,
     earth_000101_240403_240109_bpc,
-    earth_000101_240403_240109_bpc,
-    earth_000101_240403_240111_bpc,
     earth_000101_240403_240111_bpc,
     earth_000101_240405_240112_bpc,
-    earth_000101_240405_240112_bpc,
-    earth_000101_240406_240112_bpc,
     earth_000101_240406_240112_bpc,
     earth_000101_240407_240113_bpc,
-    earth_000101_240407_240113_bpc,
-    earth_000101_240408_240114_bpc,
     earth_000101_240408_240114_bpc,
     earth_000101_240409_240116_bpc,
     earth_000101_240410_240117_bpc,
     earth_000101_240411_240118_bpc,
     earth_000101_240412_240119_bpc,
-    earth_000101_240413_240120_bpc_pck,
-    earth_000101_240414_240121_bpc_pck,
-    earth_000101_240414_240122_bpc_pck,
+    earth_000101_240413_240120_bpc,
+    earth_000101_240414_240121_bpc,
+    earth_000101_240414_240122_bpc,
     earth_000101_240416_240123_bpc,
     earth_000101_240418_240124_bpc,
     earth_000101_240419_240125_bpc,
@@ -14559,11 +14555,13 @@ export
     earth_000101_240420_240127_bpc,
     earth_000101_240421_240128_bpc,
     earth_000101_240423_240129_bpc,
-    earth_000101_240424_240130_bpc_dsk,
+    earth_000101_240424_240130_bpc,
     earth_000101_240424_240131_bpc,
     earth_000101_240426_240201_bpc,
     earth_000101_240427_240202_bpc,
     earth_000101_240427_240203_bpc,
+    earth_000101_240429_240204_bpc,
+    earth_000101_240430_240205_bpc,
     earth_000101_240501_240206_bpc,
     earth_000101_240502_240207_bpc,
     earth_000101_240503_240208_bpc,
@@ -14594,50 +14592,51 @@ export
     earth_000101_240528_240304_bpc,
     earth_000101_240528_240305_bpc,
     earth_000101_240530_240306_bpc,
-    earth_000101_240531_240307_bpc_dsk,
+    earth_000101_240531_240307_bpc,
     earth_000101_240601_240308_bpc,
     earth_000101_240602_240309_bpc,
     earth_000101_240603_240310_bpc,
     earth_000101_240604_240311_bpc,
     earth_000101_240604_240312_bpc,
-    earth_000101_240606_240313_bpc_dsk,
-    earth_000101_240606_240314_bpc_dsk,
+    earth_000101_240606_240313_bpc,
+    earth_000101_240606_240314_bpc,
     earth_000101_240608_240315_bpc,
     earth_000101_240609_240316_bpc,
-    earth_000101_240610_240317_bpc_pck,
-    earth_000101_240610_240318_bpc_pck,
+    earth_000101_240610_240317_bpc,
+    earth_000101_240610_240318_bpc,
     earth_000101_240612_240319_bpc,
     earth_000101_240612_240320_bpc,
-    earth_000101_240614_240321_bpc_dsk,
+    earth_000101_240614_240321_bpc,
     earth_000101_240615_240322_bpc,
     earth_000101_240616_240323_bpc,
-    earth_000101_240617_240324_bpc_pck,
-    earth_000101_240618_240325_bpc_pck,
-    earth_000101_240618_240326_bpc_dsk,
+    earth_000101_240617_240324_bpc,
+    earth_000101_240618_240325_bpc,
+    earth_000101_240618_240326_bpc,
+    earth_000101_240620_240327_bpc,
     earth_000101_240621_240328_bpc,
     earth_000101_240622_240329_bpc,
     earth_000101_240623_240330_bpc,
-    earth_000101_240624_240331_bpc_dsk,
+    earth_000101_240624_240331_bpc,
     earth_000101_240625_240401_bpc,
     earth_000101_240626_240402_bpc,
-    earth_000101_240627_240403_bpc_dsk,
+    earth_000101_240627_240403_bpc,
     earth_000101_240627_240404_bpc,
-    earth_000101_240629_240405_bpc_spk,
+    earth_000101_240629_240405_bpc,
     earth_000101_240630_240406_bpc,
-    earth_000101_240630_240407_bpc_pck,
+    earth_000101_240630_240407_bpc,
     earth_000101_240702_240408_bpc,
     earth_000101_240703_240409_bpc,
     earth_000101_240704_240410_bpc,
     earth_000101_240705_240411_bpc,
     earth_000101_240705_240412_bpc,
-    earth_000101_240706_240413_bpc_fk,
+    earth_000101_240706_240413_bpc,
     earth_000101_240708_240414_bpc,
-    earth_000101_240709_240415_bpc_pck,
+    earth_000101_240709_240415_bpc,
     earth_000101_240710_240416_bpc,
     earth_000101_240716_240422_bpc,
     earth_000101_240717_240423_bpc,
     earth_000101_240718_240424_bpc,
-    earth_000101_240719_240425_bpc_fk,
+    earth_000101_240719_240425_bpc,
     earth_000101_240720_240426_bpc,
     earth_000101_240721_240427_bpc,
     earth_000101_240722_240428_bpc,
@@ -14645,21 +14644,23 @@ export
     earth_000101_240724_240430_bpc,
     earth_000101_240725_240501_bpc,
     earth_000101_240726_240502_bpc,
-    earth_000101_240727_240503_bpc_fk,
-    earth_000101_240727_240503_bpc_fk_pck,
+    earth_000101_240727_240503_bpc,
     earth_000101_240727_240504_bpc,
     earth_000101_240729_240505_bpc,
     earth_000101_240730_240506_bpc,
-    earth_000101_240731_240507_bpc_fk,
-    earth_000101_240801_240508_bpc_fk,
-    earth_000101_240802_240509_bpc_fk,
-    earth_000101_240803_240510_bpc_fk,
+    earth_000101_240731_240507_bpc,
+    earth_000101_240801_240508_bpc,
+    earth_000101_240802_240509_bpc,
+    earth_000101_240803_240510_bpc,
+    earth_000101_240804_240511_bpc,
+    earth_000101_240805_240512_bpc,
+    earth_000101_240806_240513_bpc,
+    earth_000101_240807_240514_bpc,
     earth_000101_240808_240515_bpc,
     earth_000101_240809_240516_bpc,
     earth_000101_240810_240517_bpc,
     earth_000101_240811_240518_bpc,
     earth_000101_240811_240519_bpc,
-    earth_000101_240813_240520_bpc,
     earth_000101_240813_240520_bpc,
     earth_000101_240813_240521_bpc,
     earth_000101_240815_240522_bpc,
@@ -14669,7 +14670,7 @@ export
     earth_000101_240819_240526_bpc,
     earth_000101_240820_240527_bpc,
     earth_000101_240821_240528_bpc,
-    earth_000101_240822_240529_bpc_fk,
+    earth_000101_240822_240529_bpc,
     earth_000101_240823_240530_bpc,
     earth_000101_240824_240531_bpc,
     earth_000101_240825_240601_bpc,
@@ -14679,7 +14680,7 @@ export
     earth_000101_240829_240605_bpc,
     earth_000101_240830_240606_bpc,
     earth_000101_240831_240607_bpc,
-    earth_000101_240901_240608_bpc_fk,
+    earth_000101_240901_240608_bpc,
     earth_000101_240902_240609_bpc,
     earth_000101_240903_240610_bpc,
     earth_000101_240903_240611_bpc,
@@ -14693,7 +14694,6 @@ export
     earth_000101_240912_240619_bpc,
     earth_000101_240913_240620_bpc,
     earth_000101_240913_240621_bpc,
-    earth_000101_240913_240621_bpc_fk,
     earth_000101_240915_240622_bpc,
     earth_000101_240916_240623_bpc,
     earth_000101_240916_240624_bpc,
@@ -14710,15 +14710,15 @@ export
     earth_000101_240929_240706_bpc,
     earth_000101_240930_240707_bpc,
     earth_000101_241001_240709_bpc,
-    earth_000101_241003_240710_bpc_spk,
-    earth_000101_241004_240711_bpc_spk,
+    earth_000101_241003_240710_bpc,
+    earth_000101_241004_240711_bpc,
     earth_000101_241005_240712_bpc,
     earth_000101_241005_240713_bpc,
-    earth_000101_241007_240714_bpc_fk,
+    earth_000101_241007_240714_bpc,
     earth_000101_241008_240715_bpc,
     earth_000101_241009_240716_bpc,
     earth_000101_241010_240717_bpc,
-    earth_000101_241011_240718_bpc_spk,
+    earth_000101_241011_240718_bpc,
     earth_000101_241012_240719_bpc,
     earth_000101_241013_240720_bpc,
     earth_000101_241014_240721_bpc,
@@ -14728,11 +14728,11 @@ export
     earth_000101_241018_240725_bpc,
     earth_000101_241019_240726_bpc,
     earth_000101_241020_240727_bpc,
-    earth_000101_241021_240728_bpc_spk,
+    earth_000101_241021_240728_bpc,
     earth_000101_241022_240729_bpc,
     earth_000101_241023_240730_bpc,
-    earth_000101_241024_240731_bpc_spk,
-    earth_000101_241025_240801_bpc_spk,
+    earth_000101_241024_240731_bpc,
+    earth_000101_241025_240801_bpc,
     earth_000101_241025_240802_bpc,
     earth_000101_241027_240803_bpc,
     earth_000101_241028_240804_bpc,
@@ -14742,39 +14742,43 @@ export
     earth_000101_241101_240808_bpc,
     earth_000101_241102_240809_bpc,
     earth_000101_241103_240810_bpc,
-    earth_000101_241104_240811_bpc_spk,
-    earth_000101_241105_240812_bpc_pck,
-    earth_000101_241106_240813_bpc_spk,
+    earth_000101_241104_240811_bpc,
+    earth_000101_241105_240812_bpc,
+    earth_000101_241106_240813_bpc,
     earth_000101_241107_240814_bpc,
     earth_000101_241108_240815_bpc,
     earth_000101_241109_240816_bpc,
     earth_000101_241109_240817_bpc,
     earth_000101_241110_240818_bpc,
     earth_000101_241112_240819_bpc,
-    earth_000101_241113_240820_bpc_spk,
+    earth_000101_241113_240820_bpc,
     earth_000101_241114_240821_bpc,
-    earth_000101_241115_240822_bpc_spk,
+    earth_000101_241115_240822_bpc,
     earth_000101_241116_240823_bpc,
     earth_000101_241117_240824_bpc,
     earth_000101_241118_240825_bpc,
     earth_000101_241119_240826_bpc,
     earth_000101_241120_240827_bpc,
     earth_000101_241121_240828_bpc,
-    earth_000101_241122_240829_bpc_spk,
+    earth_000101_241122_240829_bpc,
     earth_000101_241123_240830_bpc,
     earth_000101_241124_240831_bpc,
     earth_000101_241125_240901_bpc,
     earth_000101_241126_240902_bpc,
-    earth_000101_241126_240902_bpc,
     earth_000101_241127_240903_bpc,
     earth_000101_241128_240904_bpc,
+    earth_000101_241128_240905_bpc,
+    earth_000101_241130_240906_bpc,
     earth_000101_241201_240907_bpc,
     earth_000101_241202_240908_bpc,
-    earth_000101_241204_240911_bpc_dsk,
-    earth_000101_241207_240913_bpc_dsk,
-    earth_000101_241209_240915_bpc_dsk,
-    earth_000101_241210_240916_bpc_dsk,
-    earth_070425_370426_predict_bpc,
+    earth_000101_241203_240909_bpc,
+    earth_000101_241203_240910_bpc,
+    earth_000101_241204_240911_bpc,
+    earth_000101_241206_240912_bpc,
+    earth_000101_241207_240913_bpc,
+    earth_000101_241208_240914_bpc,
+    earth_000101_241209_240915_bpc,
+    earth_000101_241210_240916_bpc,
     earth_070425_370426_predict_bpc,
     earth_topo_050714_tf,
     earth_topo_201023_tf,
@@ -14788,81 +14792,78 @@ export
     estrack_v03_bsp,
     estrack_v03_tf,
     estrack_v04_bsp,
-    estrack_v04_bsp_dsk,
     estrack_v04_tf,
-    gm_de431_tpc_dsk,
-    gm_de431_tpc_dsk_pck,
+    gm_de431_tpc,
     inpop19a_19900101_20500101_bsp,
     inpop19a_moon_pa_v01_bpc,
-    inpop19a_moon_pa_v01_bpc,
-    juice_cog_000031_230416_230419_v01_bsp_dsk,
-    juice_cog_000031_230416_230419_v02_bsp_pck,
-    juice_cog_000031_230416_230419_v03_bsp_pck,
-    juice_cog_000031_230416_230419_v04_bsp_pck,
+    juice_cog_000031_230416_230419_v01_bsp,
+    juice_cog_000031_230416_230419_v02_bsp,
+    juice_cog_000031_230416_230419_v03_bsp,
+    juice_cog_000031_230416_230419_v04_bsp,
     juice_cog_000032_230416_230420_v01_bsp,
-    juice_cog_000033_230416_230429_v01_bsp_dsk,
-    juice_cog_000034_230416_230506_v01_bsp_dsk,
-    juice_cog_000035_230416_230513_v01_bsp_dsk,
-    juice_cog_000035_230416_230513_v02_bsp_pck,
-    juice_cog_000036_230416_230520_v01_bsp_pck,
-    juice_cog_000036_230416_230520_v02_bsp_pck,
-    juice_cog_000037_230416_230527_v01_bsp_pck,
-    juice_cog_000037_230416_230527_v02_bsp_dsk,
-    juice_cog_000037_230416_230527_v02_bsp_dsk_pck,
-    juice_cog_000038_230416_230603_v01_bsp_dsk,
-    juice_cog_000039_230416_230610_v01_bsp_dsk,
-    juice_cog_000040_230416_230617_v01_bsp_dsk,
+    juice_cog_000033_230416_230429_v01_bsp,
+    juice_cog_000034_230416_230506_v01_bsp,
+    juice_cog_000035_230416_230513_v01_bsp,
+    juice_cog_000035_230416_230513_v02_bsp,
+    juice_cog_000036_230416_230520_v01_bsp,
+    juice_cog_000036_230416_230520_v02_bsp,
+    juice_cog_000037_230416_230527_v01_bsp,
+    juice_cog_000037_230416_230527_v02_bsp,
+    juice_cog_000038_230416_230603_v01_bsp,
+    juice_cog_000039_230416_230610_v01_bsp,
+    juice_cog_000040_230416_230617_v01_bsp,
     juice_cog_000041_230416_230624_v01_bsp,
     juice_cog_000042_230416_230701_v01_bsp,
     juice_cog_000043_230416_230708_v01_bsp,
     juice_cog_000044_230416_230715_v01_bsp,
     juice_cog_000045_230416_230729_v01_bsp,
     juice_cog_000046_230416_230825_v01_bsp,
-    juice_cog_000047_230416_230922_v01_bsp_dsk,
+    juice_cog_000047_230416_230922_v01_bsp,
+    juice_cog_000048_230416_231021_v01_bsp,
     juice_cog_000049_230416_231114_v01_bsp,
     juice_cog_000050_230416_231128_v01_bsp,
-    juice_cog_000051_230416_231130_v01_bsp_pck,
+    juice_cog_000051_230416_231130_v01_bsp,
     juice_cog_000052_230416_231213_v01_bsp,
-    juice_cog_000053_230416_240112_v01_bsp_pck,
-    juice_cog_000054_230416_240215_v01_bsp_dsk,
-    juice_cog_000055_230416_240303_v01_bsp_dsk,
-    juice_cog_000056_230416_240417_v01_bsp_pck,
-    juice_cog_000059_230416_240826_v01_bsp_pck,
-    juice_cog_000060_230416_240516_v01_bsp_pck,
+    juice_cog_000053_230416_240112_v01_bsp,
+    juice_cog_000054_230416_240215_v01_bsp,
+    juice_cog_000055_230416_240303_v01_bsp,
+    juice_cog_000056_230416_240417_v01_bsp,
+    juice_cog_000059_230416_240826_v01_bsp,
+    juice_cog_000060_230416_240516_v01_bsp,
     juice_cog_000061_230416_240613_v01_bsp,
     juice_cog_000062_230416_240705_v01_bsp,
-    juice_cog_000063_230416_240721_v01_bsp_dsk,
+    juice_cog_000063_230416_240721_v01_bsp,
     juice_cog_000064_230416_240819_v01_bsp,
-    juice_cog_000067_230416_240804_v01_bsp_pck,
-    juice_cog_000068_230416_240811_v01_bsp_pck,
-    juice_cog_000069_230416_240816_v01_bsp_pck,
+    juice_cog_000067_230416_240804_v01_bsp,
+    juice_cog_000068_230416_240811_v01_bsp,
+    juice_cog_000069_230416_240816_v01_bsp,
     juice_cog_000070_230416_240818_v01_bsp,
-    juice_cog_000071_230416_240826_v01_bsp_dsk,
-    juice_cog_000071_230416_240826_v01_bsp_dsk,
-    juice_cog_000072_230416_240905_v01_bsp_dsk,
-    juice_cog_000073_230416_241002_v01_bsp_dsk,
-    juice_cog_v00_bsp_dsk,
+    juice_cog_000071_230416_240826_v01_bsp,
+    juice_cog_000072_230416_240905_v01_bsp,
+    juice_cog_000073_230416_241002_v01_bsp,
+    juice_cog_v00_bsp,
     juice_crema_5_0_v01_bsp,
     juice_crema_5_0b23_1_v01_bsp,
     juice_crema_5_1_150la_v01_bsp,
     juice_crema_5_1_150lb_23_1_a3_v01_bsp,
-    juice_crema_5_1_150lb_23_1_b2_v01_bsp_dsk,
+    juice_crema_5_1_150lb_23_1_b2_v01_bsp,
     juice_crema_5_1_150lb_23_1_plan_v01_bsp,
-    juice_crema_5_1_150lb_23_1_v01_bsp_dsk,
+    juice_crema_5_1_150lb_23_1_v01_bsp,
     juice_crema_5_1_150lb_v01_bsp,
     juice_dsk_surfaces_v00_tf,
     juice_dsk_surfaces_v01_tf,
     juice_dsk_surfaces_v02_tf,
     juice_dsk_surfaces_v03_tf,
+    juice_dsk_surfaces_v04_tf,
     juice_dsk_surfaces_v05_tf,
     juice_dsk_surfaces_v06_tf,
-    juice_dsk_surfaces_v07_tf,
     juice_dsk_surfaces_v07_tf,
     juice_dsk_surfaces_v08_tf,
     juice_dsk_surfaces_v09_tf,
     juice_dsk_surfaces_v10_tf,
-    juice_dsk_surfaces_v11_tf_pck,
-    juice_earthstns_v01_bsp_pck,
+    juice_dsk_surfaces_v11_tf,
+    juice_earthstns_v01_bsp,
+    juice_europa_plasma_torus_v01_bds,
     juice_europa_plasma_torus_v02_bds,
     juice_europa_plasma_torus_v03_bds,
     juice_events_crema_5_0_v01_tf,
@@ -14873,7 +14874,7 @@ export
     juice_events_crema_5_1_150lb_23_1_b2_v01_tf,
     juice_events_crema_5_1_150lb_23_1_b2_v02_tf,
     juice_events_crema_5_1_150lb_23_1_v01_tf,
-    juice_io_plasma_torus_v01_bds,
+    juice_events_crema_5_1_150lb_23_1_v02_tf,
     juice_io_plasma_torus_v01_bds,
     juice_io_plasma_torus_v02_bds,
     juice_io_plasma_torus_v04_bds,
@@ -14885,10 +14886,11 @@ export
     juice_jup004_tpc,
     juice_jup005_tpc,
     juice_jup006_tpc,
-    juice_jup007_tpc_dsk,
-    juice_jup007_tpc_dsk,
+    juice_jup007_tpc,
     juice_jup008_tpc,
-    juice_jup009_tpc_dsk,
+    juice_jup009_tpc,
+    juice_jup010_tpc,
+    juice_jup011_tpc,
     juice_jup_ama_gos_ring_v01_bds,
     juice_jup_ama_gos_ring_v02_bds,
     juice_jup_amalthea_ring_v01_bds,
@@ -14897,28 +14899,31 @@ export
     juice_jup_halo_ring_v02_bds,
     juice_jup_halo_ring_v03_bds,
     juice_jup_halo_ring_v04_bds,
+    juice_jup_main_ring_v01_bds,
+    juice_jup_main_ring_v02_bds,
+    juice_jup_main_ring_v03_bds,
     juice_jup_main_ring_v04_bds,
+    juice_jup_the_ext_ring_v01_bds,
     juice_jup_the_gos_ring_v01_bds,
     juice_jup_the_gos_ring_v02_bds,
     juice_jup_the_ring_ext_v01_bds,
     juice_jup_thebe_ring_v01_bds,
     juice_jup_thebe_ring_v02_bds,
     juice_mat_150l0a_20220904_20310717_v01_bsp,
-    juice_mat_crema_2_0_20220604_20330705_v01_bsp_dsk,
-    juice_mat_crema_3_0_20220601_20330604_v01_bsp_fk,
-    juice_mat_crema_3_1_20220531_20330911_v01_bsp_fk,
+    juice_mat_crema_2_0_20220604_20330705_v01_bsp,
+    juice_mat_crema_3_0_20220601_20330604_v01_bsp,
+    juice_mat_crema_3_1_20220531_20330911_v01_bsp,
     juice_mat_crema_3_2_20220601_20330626_v01_bsp,
     juice_mat_crema_4_0_20220601_20330626_v01_bsp,
     juice_mat_crema_4_0_20220601_20330626_v02_bsp,
-    juice_mat_crema_4_0b_20230809_20360821_v01_bsp_fk,
-    juice_mat_crema_4_0b_20230809_20360821_v02_bsp_fk,
-    juice_mat_crema_4_1_N56_Pp5_Q19_v01_bsp_fk,
-    juice_mat_crema_4_2_N54_Pp5_Q19_v01_bsp_fk,
-    juice_mat_crema_4_2_N54_Pp5_Q19_v01_bsp_fk,
+    juice_mat_crema_4_0b_20230809_20360821_v01_bsp,
+    juice_mat_crema_4_0b_20230809_20360821_v02_bsp,
+    juice_mat_crema_4_1_N56_Pp5_Q19_v01_bsp,
+    juice_mat_crema_4_2_N54_Pp5_Q19_v01_bsp,
     juice_mat_crema_4_2_N56_Pn5_Q19_v01_bsp,
-    juice_mat_crema_4_2_N56_Pp5_Q19_v01_bsp_fk,
-    juice_mat_crema_4_2b22_1_20310717_20351005_v01_bsp_fk,
-    juice_mat_crema_5_0_20220826_20351005_v01_bsp_fk,
+    juice_mat_crema_4_2_N56_Pp5_Q19_v01_bsp,
+    juice_mat_crema_4_2b22_1_20310717_20351005_v01_bsp,
+    juice_mat_crema_5_0_20220826_20351005_v01_bsp,
     juice_mat_crema_5_0b23_1_20230405_20351005_v01_bsp,
     juice_mat_crema_5_1_150la_v01_bsp,
     juice_mat_crema_5_1_150lb_v01_bsp,
@@ -14933,110 +14938,104 @@ export
     juice_ops_v08_tf,
     juice_ops_v09_tf,
     juice_ops_v10_tf,
-    juice_orbc_000003_230405_310721_v01_bsp_fk,
-    juice_orbc_000010_230414_310721_v01_bsp_fk,
-    juice_orbc_000010_230414_310721_v02_bsp_fk,
-    juice_orbc_000010_230414_310721_v03_bsp_fk,
+    juice_ops_v11_tf,
+    juice_orbc_000003_230405_310721_v01_bsp,
+    juice_orbc_000010_230414_310721_v01_bsp,
+    juice_orbc_000010_230414_310721_v02_bsp,
+    juice_orbc_000010_230414_310721_v03_bsp,
     juice_orbc_000025_230414_310721_v01_bsp,
     juice_orbc_000026_230413_310721_v01_bsp,
     juice_orbc_000026_230413_310721_v02_bsp,
     juice_orbc_000026_230413_310721_v03_bsp,
     juice_orbc_000026_230413_310721_v04_bsp,
     juice_orbc_000027_230414_310721_v01_bsp,
-    juice_orbc_000027_230414_310721_v02_bsp_pck,
-    juice_orbc_000027_230414_310721_v03_bsp_pck,
-    juice_orbc_000027_230414_310721_v04_bsp_pck,
-    juice_orbc_000027_230414_310721_v05_bsp_pck,
-    juice_orbc_000027_230414_310721_v06_bsp_pck,
-    juice_orbc_000027_230414_310721_v06_bsp_pck_fk,
-    juice_orbc_000030_230414_310721_v01_bsp_pck,
-    juice_orbc_000030_230414_310721_v01_bsp_pck_fk,
-    juice_orbc_000030_230414_310721_v02_bsp_pck,
-    juice_orbc_000030_230414_310721_v02_bsp_pck_fk,
-    juice_orbc_000030_230414_310721_v03_bsp_pck,
-    juice_orbc_000030_230414_310721_v03_bsp_pck_fk,
-    juice_orbc_000030_230414_310721_v04_bsp_fk,
-    juice_orbc_000030_230414_310721_v04_bsp_pck,
-    juice_orbc_000030_230414_310721_v05_bsp,
+    juice_orbc_000027_230414_310721_v02_bsp,
+    juice_orbc_000027_230414_310721_v03_bsp,
+    juice_orbc_000027_230414_310721_v04_bsp,
+    juice_orbc_000027_230414_310721_v05_bsp,
+    juice_orbc_000027_230414_310721_v06_bsp,
+    juice_orbc_000030_230414_310721_v01_bsp,
+    juice_orbc_000030_230414_310721_v02_bsp,
+    juice_orbc_000030_230414_310721_v03_bsp,
+    juice_orbc_000030_230414_310721_v04_bsp,
     juice_orbc_000030_230414_310721_v05_bsp,
     juice_orbc_000031_230414_310721_v01_bsp,
-    juice_orbc_000031_230414_310721_v01_bsp,
-    juice_orbc_000031_230414_310721_v02_bsp_pck,
+    juice_orbc_000031_230414_310721_v02_bsp,
     juice_orbc_000031_230414_310721_v03_bsp,
-    juice_orbc_000031_230414_310721_v04_bsp_fk,
-    juice_orbc_000032_230414_310721_v01_bsp_fk,
+    juice_orbc_000031_230414_310721_v04_bsp,
+    juice_orbc_000032_230414_310721_v01_bsp,
     juice_orbc_000033_230414_310721_v01_bsp,
-    juice_orbc_000034_230414_310721_v01_bsp_fk,
-    juice_orbc_000035_230414_310721_v01_bsp_fk,
-    juice_orbc_000035_230414_310721_v02_bsp_fk,
+    juice_orbc_000034_230414_310721_v01_bsp,
+    juice_orbc_000035_230414_310721_v01_bsp,
+    juice_orbc_000035_230414_310721_v02_bsp,
     juice_orbc_000036_230414_310721_v01_bsp,
     juice_orbc_000036_230414_310721_v02_bsp,
     juice_orbc_000037_230414_310721_v01_bsp,
-    juice_orbc_000037_230414_310721_v02_bsp_fk,
+    juice_orbc_000037_230414_310721_v02_bsp,
     juice_orbc_000038_230414_310721_v01_bsp,
     juice_orbc_000039_230414_310721_v01_bsp,
-    juice_orbc_000040_230414_310721_v01_bsp_fk,
-    juice_orbc_000041_230414_310721_v01_bsp_fk,
-    juice_orbc_000042_230414_310721_v01_bsp_fk,
-    juice_orbc_000043_230414_310721_v01_bsp_fk,
-    juice_orbc_000044_230414_310721_v01_bsp_fk,
+    juice_orbc_000040_230414_310721_v01_bsp,
+    juice_orbc_000041_230414_310721_v01_bsp,
+    juice_orbc_000042_230414_310721_v01_bsp,
+    juice_orbc_000043_230414_310721_v01_bsp,
+    juice_orbc_000044_230414_310721_v01_bsp,
     juice_orbc_000045_230414_310721_v01_bsp,
-    juice_orbc_000046_230414_310721_v01_bsp_pck,
+    juice_orbc_000046_230414_310721_v01_bsp,
     juice_orbc_000047_230414_310721_v01_bsp,
-    juice_orbc_000048_230414_310721_v01_bsp_fk,
-    juice_orbc_000049_230414_310721_v01_bsp_fk,
-    juice_orbc_000050_230414_310721_v01_bsp_fk,
-    juice_orbc_000051_230414_310721_v01_bsp_fk,
+    juice_orbc_000048_230414_310721_v01_bsp,
+    juice_orbc_000049_230414_310721_v01_bsp,
+    juice_orbc_000050_230414_310721_v01_bsp,
+    juice_orbc_000051_230414_310721_v01_bsp,
+    juice_orbc_000052_230414_310721_v01_bsp,
     juice_orbc_000053_230414_310721_v01_bsp,
-    juice_orbc_000054_230414_310721_v01_bsp_pck,
-    juice_orbc_000055_230414_310721_v01_bsp_fk,
+    juice_orbc_000054_230414_310721_v01_bsp,
+    juice_orbc_000055_230414_310721_v01_bsp,
     juice_orbc_000056_230414_310721_v01_bsp,
-    juice_orbc_000060_230414_310721_v01_bsp_fk,
-    juice_orbc_000061_230414_310721_v01_bsp_fk,
-    juice_orbc_000062_230414_310721_v01_bsp_fk,
+    juice_orbc_000060_230414_310721_v01_bsp,
+    juice_orbc_000061_230414_310721_v01_bsp,
+    juice_orbc_000062_230414_310721_v01_bsp,
     juice_orbc_000063_230414_310721_v01_bsp,
     juice_orbc_000067_230414_310721_v01_bsp,
-    juice_orbc_000068_230414_310721_v01_bsp_pck,
-    juice_orbc_000069_230414_310721_v01_bsp_pck,
-    juice_orbc_000070_230414_310721_v01_bsp_pck,
-    juice_orbc_000071_230414_310721_v01_bsp_pck,
-    juice_orbc_000072_230414_310721_v01_bsp_pck,
-    juice_orbc_000073_230414_310721_v01_bsp_fk,
-    juice_orbm_000059_240701_310721_v01_bsp_pck,
-    juice_orbm_000059_240817_240827_v01_bsp_pck,
-    juice_pride_earthstns_v01_bsp_pck,
-    juice_roi_v00_bsp_pck,
-    juice_roi_v01_bsp_pck,
+    juice_orbc_000068_230414_310721_v01_bsp,
+    juice_orbc_000069_230414_310721_v01_bsp,
+    juice_orbc_000070_230414_310721_v01_bsp,
+    juice_orbc_000071_230414_310721_v01_bsp,
+    juice_orbc_000072_230414_310721_v01_bsp,
+    juice_orbc_000073_230414_310721_v01_bsp,
+    juice_orbm_000059_240701_310721_v01_bsp,
+    juice_orbm_000059_240817_240827_v01_bsp,
+    juice_pride_earthstns_v01_bsp,
+    juice_pride_topo_v01_tf,
+    juice_roi_v00_bsp,
+    juice_roi_v00_tf,
+    juice_roi_v00_tpc,
+    juice_roi_v01_bsp,
     juice_roi_v01_tf,
-    juice_roi_v02_bsp_pck,
-    juice_roi_v02_bsp_pck_fk,
+    juice_roi_v01_tpc,
+    juice_roi_v02_bsp,
     juice_roi_v02_tf,
     juice_sa_default_v00_tf,
     juice_sa_default_v01_tf,
     juice_sc_bus_v01_bds,
-    juice_sc_bus_v03_bds_pck,
+    juice_sc_bus_v02_bds,
+    juice_sc_bus_v03_bds,
     juice_sc_bus_v04_bds,
     juice_sc_bus_v05_bds,
-    juice_sc_bus_v06_bds_pck,
-    juice_sc_bus_v06_bds_pck_pck,
-    juice_sc_bus_v07_bds,
+    juice_sc_bus_v06_bds,
     juice_sc_bus_v07_bds,
     juice_sc_cal_noa_v01_tf,
     juice_sc_cal_npo_v01_tf,
     juice_sc_eur_noa_v01_tf,
     juice_sc_eur_npo_v01_tf,
     juice_sc_fixed_v01_bds,
-    juice_sc_fixed_v01_bds,
     juice_sc_gala_v01_bds,
-    juice_sc_gala_v01_bds,
-    juice_sc_gala_v02_bds,
     juice_sc_gala_v02_bds,
     juice_sc_gan_noa_v01_tf,
     juice_sc_gan_npo_v01_tf,
     juice_sc_io_npo_v01_tf,
     juice_sc_janus_v01_bds,
-    juice_sc_janus_v01_bds,
     juice_sc_janus_v02_bds,
+    juice_sc_jmc1_v01_bds,
     juice_sc_jmc1_v02_bds,
     juice_sc_jmc2_v01_bds,
     juice_sc_jmc2_v02_bds,
@@ -15047,7 +15046,7 @@ export
     juice_sc_lpb2_v01_bds,
     juice_sc_lpb2_v02_bds,
     juice_sc_lpb3_v01_bds,
-    juice_sc_lpb3_v02_bds_pck,
+    juice_sc_lpb3_v02_bds,
     juice_sc_lpb4_v01_bds,
     juice_sc_lpb4_v02_bds,
     juice_sc_mag_boom_v01_bds,
@@ -15055,17 +15054,18 @@ export
     juice_sc_mag_v04_bds,
     juice_sc_mag_v05_bds,
     juice_sc_mag_v06_bds,
-    juice_sc_majis_v01_bds_pck,
-    juice_sc_majis_v02_bds_pck,
-    juice_sc_meas_v01_tf_pck,
+    juice_sc_majis_v01_bds,
+    juice_sc_majis_v02_bds,
+    juice_sc_meas_v01_tf,
     juice_sc_meas_v02_tf,
     juice_sc_mga_apm_v01_bds,
     juice_sc_mga_apm_v03_bds,
     juice_sc_mga_apm_v04_bds,
     juice_sc_mga_dish_v03_bds,
     juice_sc_mga_dish_v04_bds,
-    juice_sc_navcam1_v01_bds_pck,
-    juice_sc_navcam2_v01_bds_pck,
+    juice_sc_mga_v01_bds,
+    juice_sc_navcam1_v01_bds,
+    juice_sc_navcam2_v01_bds,
     juice_sc_pep_jdc_v01_bds,
     juice_sc_pep_jdc_v02_bds,
     juice_sc_pep_jei_v01_bds,
@@ -15082,31 +15082,32 @@ export
     juice_sc_rimemx_v03_bds,
     juice_sc_rimepx_v01_bds,
     juice_sc_rimepx_v02_bds,
-    juice_sc_rimepx_v03_bds_pck,
-    juice_sc_rwi_v01_bds_pck,
+    juice_sc_rimepx_v03_bds,
+    juice_sc_rwi_v01_bds,
     juice_sc_rwi_v02_bds,
     juice_sc_rwi_v03_bds,
     juice_sc_rwi_v04_bds,
-    juice_sc_sa_y_v01_bds,
-    juice_sc_sa_y_v01_bds,
-    juice_sc_sa_y_v02_bds,
-    juice_sc_sa_y_v02_bds_spk,
-    juice_sc_sa_y_v03_bds,
-    juice_sc_sa_y_v03_bds,
-    juice_sc_sa_y_v04_bds,
-    juice_sc_sa_y_v04_bds_pck,
-    juice_sc_sa_y_v05_bds,
-    juice_sc_sa_y_v05_bds_pck,
+    juice_sc_sa_y_v01_bds_dsk,
+    juice_sc_sa_y_v01_bds_dsk,
+    juice_sc_sa_y_v02_bds_dsk,
+    juice_sc_sa_y_v02_bds_dsk,
+    juice_sc_sa_y_v03_bds_dsk,
+    juice_sc_sa_y_v03_bds_dsk,
+    juice_sc_sa_y_v04_bds_dsk,
+    juice_sc_sa_y_v04_bds_dsk,
+    juice_sc_sa_y_v05_bds_dsk,
+    juice_sc_sa_y_v05_bds_dsk,
     juice_sc_samy_v01_bds,
-    juice_sc_sapy_v01_bds_pck,
+    juice_sc_samy_v02_bds,
+    juice_sc_sapy_v01_bds,
     juice_sc_sapy_v02_bds,
     juice_sc_scm_v01_bds,
-    juice_sc_scm_v02_bds_spk,
+    juice_sc_scm_v02_bds,
     juice_sc_scm_v03_bds,
     juice_sc_str1_v01_bds,
     juice_sc_str1_v02_bds,
-    juice_sc_str2_v01_bds_pck,
-    juice_sc_str2_v02_bds_pck,
+    juice_sc_str2_v01_bds,
+    juice_sc_str2_v02_bds,
     juice_sc_str3_v01_bds,
     juice_sc_str3_v02_bds,
     juice_sc_swi_v01_bds,
@@ -15114,57 +15115,55 @@ export
     juice_sc_swi_v03_bds,
     juice_sc_uvs_v01_bds,
     juice_sci_v00_tf,
-    juice_sci_v01_bsp_fk,
+    juice_sci_v01_bsp,
     juice_sci_v01_tf,
-    juice_sci_v02_bsp_pck,
+    juice_sci_v02_bsp,
     juice_sci_v02_tf,
-    juice_sci_v03_bsp_pck,
+    juice_sci_v03_bsp,
     juice_sci_v03_tf,
-    juice_sci_v04_bsp_pck,
+    juice_sci_v04_bsp,
     juice_sci_v04_tf,
     juice_sci_v05_tf,
     juice_sci_v06_tf,
-    juice_sci_v07_tf_pck,
+    juice_sci_v07_tf,
     juice_sci_v08_tf,
     juice_sci_v09_tf,
     juice_sci_v10_tf,
     juice_sci_v11_tf,
     juice_sci_v12_tf,
     juice_sci_v13_tf,
-    juice_sci_v14_tf_spk,
+    juice_sci_v14_tf,
     juice_sci_v15_tf,
     juice_sci_v16_tf,
     juice_sci_v17_tf,
     juice_stations_topo_v01_tf,
-    juice_struct_internal_v01_bsp_pck,
-    juice_struct_v00_bsp_pck,
-    juice_struct_v01_bsp_fk,
-    juice_struct_v02_bsp_pck,
-    juice_struct_v03_bsp_pck,
+    juice_struct_internal_v01_bsp,
+    juice_struct_v00_bsp,
+    juice_struct_v01_bsp,
+    juice_struct_v02_bsp,
+    juice_struct_v03_bsp,
     juice_struct_v04_bsp,
     juice_struct_v05_bsp,
-    juice_struct_v06_bsp_pck,
-    juice_struct_v07_bsp_pck,
-    juice_struct_v08_bsp_pck,
-    juice_struct_v09_bsp_fk,
-    juice_struct_v10_bsp_pck,
-    juice_struct_v11_bsp_pck,
-    juice_struct_v12_bsp_pck,
-    juice_struct_v13_bsp_pck,
-    juice_struct_v14_bsp_pck,
-    juice_struct_v15_bsp_fk,
-    juice_struct_v15_bsp_pck,
-    juice_struct_v16_bsp_lsk,
-    juice_struct_v17_bsp_pck,
-    juice_struct_v18_bsp_pck,
-    juice_struct_v19_bsp_pck,
-    juice_struct_v20_bsp_pck,
-    juice_struct_v21_bsp_pck,
+    juice_struct_v06_bsp,
+    juice_struct_v07_bsp,
+    juice_struct_v08_bsp,
+    juice_struct_v09_bsp,
+    juice_struct_v10_bsp,
+    juice_struct_v11_bsp,
+    juice_struct_v12_bsp,
+    juice_struct_v13_bsp,
+    juice_struct_v14_bsp,
+    juice_struct_v15_bsp,
+    juice_struct_v16_bsp,
+    juice_struct_v17_bsp,
+    juice_struct_v18_bsp,
+    juice_struct_v19_bsp,
+    juice_struct_v20_bsp,
+    juice_struct_v21_bsp,
     juice_v00_draft_tf,
     juice_v00_tf,
     juice_v01_tf,
-    juice_v02_tf_spk,
-    juice_v03_tf,
+    juice_v02_tf,
     juice_v03_tf,
     juice_v04_tf,
     juice_v05_tf,
@@ -15172,7 +15171,7 @@ export
     juice_v07_tf,
     juice_v08_tf,
     juice_v09_tf,
-    juice_v10_tf_pck,
+    juice_v10_tf,
     juice_v11_tf,
     juice_v12_tf,
     juice_v14_tf,
@@ -15180,59 +15179,60 @@ export
     juice_v16_tf,
     juice_v17_tf,
     juice_v18_tf,
-    juice_v19_tf_pck,
-    juice_v20_tf_spk,
-    juice_v21_tf_spk,
+    juice_v19_tf,
+    juice_v20_tf,
+    juice_v21_tf,
     juice_v22_tf,
     juice_v23_tf,
     juice_v24_tf,
     juice_v25_tf,
-    juice_v26_tf_pck,
-    juice_v27_tf_spk,
-    juice_v28_tf_spk,
-    juice_v29_tf_spk,
+    juice_v26_tf,
+    juice_v27_tf,
+    juice_v28_tf,
+    juice_v29_tf,
     juice_v30_tf,
     juice_v31_tf,
     juice_v32_tf,
     juice_v33_tf,
     juice_v34_tf,
-    juice_v35_tf_pck,
+    juice_v35_tf,
     juice_v36_tf,
     juice_v37_tf,
-    juice_v38_tf_pck,
+    juice_v38_tf,
     juice_v39_tf,
     juice_v40_tf,
-    jup230_20200101_20400101_bsp_pck,
-    jup230_bsp_pck,
-    jup282_20200101_20400101_bsp_pck,
-    jup282_bsp_pck,
-    jup300_20200101_20400101_bsp_pck,
-    jup300_bsp_pck,
-    jup310_19900101_20500101_bsp_pck,
-    jup310_20200101_20400101_bsp_pck,
-    jup310_20200101_20500101_bsp_pck,
-    jup310_bsp_pck,
-    jup341_20200101_20400101_bsp_pck,
-    jup343_19900101_20500101_bsp_pck,
-    jup343_20200101_20400101_bsp_pck,
-    jup343_20200101_20500101_bsp_pck,
-    jup344_s2003_j24_19900101_20500101_bsp_pck,
-    jup346_19900101_20500101_bsp_pck,
+    jup230_20200101_20400101_bsp,
+    jup230_bsp,
+    jup282_20200101_20400101_bsp,
+    jup282_bsp,
+    jup300_20200101_20400101_bsp,
+    jup300_bsp,
+    jup310_19900101_20500101_bsp,
+    jup310_20200101_20400101_bsp,
+    jup310_20200101_20500101_bsp,
+    jup310_bsp,
+    jup341_20200101_20400101_bsp,
+    jup343_19900101_20500101_bsp,
+    jup343_20200101_20400101_bsp,
+    jup343_20200101_20500101_bsp,
+    jup344_s2003_j24_19900101_20500101_bsp,
+    jup346_19900101_20500101_bsp,
     jup365_19900101_20500101_bsp,
     mar085_20200101_20400101_bsp,
     mar085_bsp,
-    mar085_bsp,
     naif0007_tls,
-    naif0008_tls_pck,
-    naif0009_tls_spk,
-    naif0010_tls_spk,
+    naif0008_tls,
+    naif0009_tls,
+    naif0010_tls,
+    naif0011_tls,
     naif0012_tls,
     new_norcia_bsp,
     noe_5_2010_gal_a2_20200101_20380902_bsp,
     noe_5_2010_gal_a2_bsp,
     noe_5_2017_gal_a_reduced_20200101_20380902_bsp,
     noe_5_2017_gal_a_reduced_bsp,
-    noe_5_2021_19900101_20500101_bsp_pck,
-    noe_5_2021_19900101_20500101_bsp_pck,
+    noe_5_2021_19900101_20500101_bsp_spk,
+    noe_5_2021_19900101_20500101_bsp_spk,
+    pck00010_tpc,
     pck00011_tpc,
     rssd0002_tf

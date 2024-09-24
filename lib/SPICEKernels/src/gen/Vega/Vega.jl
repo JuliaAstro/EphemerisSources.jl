@@ -4,7 +4,7 @@
 
 
 """
-All vega_1_17_04_1984_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All VEGA kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Vega
 

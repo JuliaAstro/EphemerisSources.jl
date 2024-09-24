@@ -14,23 +14,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/LRO/misc/jbarrett/arecibo_131018.tf
-"""
-const lro_dyn_so_tf = FK("https://naif.jpl.nasa.gov/pub/naif/LRO/misc/jbarrett/arecibo_131018.tf")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
 [1] https://naif.jpl.nasa.gov/pub/naif/LRO/kernels/fk/lro_frames_2014049_v01.tf
 """
+const lro_frames_2014049_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/LRO/kernels/fk/lro_frames_2014049_v01.tf")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -45,8 +31,22 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/LRO/misc/jbarrett/arecibo_131018.bsp
 """
-const lro_dyn_so_tf_spk = FK("https://naif.jpl.nasa.gov/pub/naif/LRO/kernels/fk/lro_frames_2014049_v01.tf")
-const lro_dyn_so_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/LRO/misc/jbarrett/arecibo_131018.bsp")
+const arecibo_131018_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/LRO/misc/jbarrett/arecibo_131018.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/LRO/misc/jbarrett/arecibo_131018.tf
+"""
+const arecibo_131018_tf = FK("https://naif.jpl.nasa.gov/pub/naif/LRO/misc/jbarrett/arecibo_131018.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -61,10 +61,10 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/LRO/misc/lso/lro_dyn_so.tf
 """
-const lro_dyn_so_tf_spk = FK("https://naif.jpl.nasa.gov/pub/naif/LRO/misc/lso/lro_dyn_so.tf")
+const lro_dyn_so_tf = FK("https://naif.jpl.nasa.gov/pub/naif/LRO/misc/lso/lro_dyn_so.tf")
 
 export
     arecibo_131018_bsp,
-    lro_dyn_so_tf_fk,
-    lro_dyn_so_tf_spk,
-    lro_dyn_so_tf_spk
+    arecibo_131018_tf,
+    lro_dyn_so_tf,
+    lro_frames_2014049_v01_tf

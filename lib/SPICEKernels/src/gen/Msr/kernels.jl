@@ -4,36 +4,6 @@
 
 
 """
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/pck/pck00010.tpc
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_atls_gz4a_late_v1.bsp
-"""
-const msr_srl_cedl_280724_301111_gz4a_req_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/pck/pck00010.tpc")
-const msr_srl_cedl_280724_301111_gz4a_req_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_atls_gz4a_late_v1.bsp")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -46,36 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/fk/msr_srl_tp_iau2000_gz4a_early_v1.tf
 """
-const msr_srl_cedl_280724_301111_gz4a_req_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/fk/msr_srl_tp_iau2000_gz4a_early_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_cedl_280724_301111_gz4a_req_v1.bsp
-"""
-const msr_srl_tp_iau2000_gz4a_late_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_cedl_280724_301111_gz4a_req_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_atls_gz4a_req_v1.bsp
-"""
+const msr_srl_tp_iau2000_gz4a_early_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/fk/msr_srl_tp_iau2000_gz4a_early_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -90,38 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/fk/msr_srl_tp_iau2000_gz4a_late_v1.tf
 """
-const msr_srl_ls_iau2000_gz4a_early_v1_bsp_fk = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_atls_gz4a_req_v1.bsp")
-const msr_srl_ls_iau2000_gz4a_early_v1_bsp_fk_spk = FK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/fk/msr_srl_tp_iau2000_gz4a_late_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/de438_2015_2050.bsp
-"""
-const msr_srl_ls_iau2000_gz4a_early_v1_bsp_fk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/de438_2015_2050.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_ls_iau2000_gz4a_early_v1.bsp
-"""
-const mar097_2015_2050_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_ls_iau2000_gz4a_early_v1.bsp")
+const msr_srl_tp_iau2000_gz4a_late_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/fk/msr_srl_tp_iau2000_gz4a_late_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -136,66 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/fk/msr_srl_tp_iau2000_gz4a_req_v1.tf
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_cedl_280701_301011_gz4a_early_v1.bsp
-"""
-const msr_srl_ls_iau2000_gz4a_late_v1_bsp_spk = FK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/fk/msr_srl_tp_iau2000_gz4a_req_v1.tf")
-const msr_srl_ls_iau2000_gz4a_late_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_cedl_280701_301011_gz4a_early_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/mar097_2015_2050.bsp
-"""
-const msr_srl_cedl_280718_301103_gz4a_late_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/mar097_2015_2050.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_ls_iau2000_gz4a_late_v1.bsp
-"""
-const msr_srl_atls_gz4a_early_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_ls_iau2000_gz4a_late_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_cedl_280718_301103_gz4a_late_v1.bsp
-"""
+const msr_srl_tp_iau2000_gz4a_req_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/fk/msr_srl_tp_iau2000_gz4a_req_v1.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -210,8 +61,52 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/lsk/naif0012.tls
 """
-const msr_srl_ls_iau2000_gz4a_req_v1_bsp_lsk = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_cedl_280718_301103_gz4a_late_v1.bsp")
-const msr_srl_ls_iau2000_gz4a_req_v1_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/lsk/naif0012.tls")
+const naif0012_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/lsk/naif0012.tls")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/pck/pck00010.tpc
+"""
+const pck00010_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/pck/pck00010.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/de438_2015_2050.bsp
+"""
+const de438_2015_2050_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/de438_2015_2050.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/mar097_2015_2050.bsp
+"""
+const mar097_2015_2050_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/mar097_2015_2050.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -226,7 +121,112 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_atls_gz4a_early_v1.bsp
 """
-const msr_srl_ls_iau2000_gz4a_req_v1_bsp_lsk = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_atls_gz4a_early_v1.bsp")
+const msr_srl_atls_gz4a_early_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_atls_gz4a_early_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_atls_gz4a_late_v1.bsp
+"""
+const msr_srl_atls_gz4a_late_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_atls_gz4a_late_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_atls_gz4a_req_v1.bsp
+"""
+const msr_srl_atls_gz4a_req_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_atls_gz4a_req_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_cedl_280701_301011_gz4a_early_v1.bsp
+"""
+const msr_srl_cedl_280701_301011_gz4a_early_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_cedl_280701_301011_gz4a_early_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_cedl_280718_301103_gz4a_late_v1.bsp
+"""
+const msr_srl_cedl_280718_301103_gz4a_late_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_cedl_280718_301103_gz4a_late_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_cedl_280724_301111_gz4a_req_v1.bsp
+"""
+const msr_srl_cedl_280724_301111_gz4a_req_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_cedl_280724_301111_gz4a_req_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_ls_iau2000_gz4a_early_v1.bsp
+"""
+const msr_srl_ls_iau2000_gz4a_early_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_ls_iau2000_gz4a_early_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_ls_iau2000_gz4a_late_v1.bsp
+"""
+const msr_srl_ls_iau2000_gz4a_late_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_ls_iau2000_gz4a_late_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -241,22 +241,22 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_ls_iau2000_gz4a_req_v1.bsp
 """
-const msr_srl_ls_iau2000_gz4a_req_v1_bsp_lsk = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_ls_iau2000_gz4a_req_v1.bsp")
+const msr_srl_ls_iau2000_gz4a_req_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MSR/kernels/spk/msr_srl_ls_iau2000_gz4a_req_v1.bsp")
 
 export
+    de438_2015_2050_bsp,
     mar097_2015_2050_bsp,
     msr_srl_atls_gz4a_early_v1_bsp,
+    msr_srl_atls_gz4a_late_v1_bsp,
+    msr_srl_atls_gz4a_req_v1_bsp,
+    msr_srl_cedl_280701_301011_gz4a_early_v1_bsp,
+    msr_srl_cedl_280718_301103_gz4a_late_v1_bsp,
     msr_srl_cedl_280724_301111_gz4a_req_v1_bsp,
-    msr_srl_cedl_280724_301111_gz4a_req_v1_bsp,
-    msr_srl_cedl_280724_301111_gz4a_req_v1_bsp,
-    msr_srl_ls_iau2000_gz4a_early_v1_bsp_fk,
-    msr_srl_ls_iau2000_gz4a_early_v1_bsp_fk_spk,
-    msr_srl_ls_iau2000_gz4a_early_v1_bsp_spk,
-    msr_srl_ls_iau2000_gz4a_late_v1_bsp_fk,
-    msr_srl_ls_iau2000_gz4a_late_v1_bsp_spk,
-    msr_srl_ls_iau2000_gz4a_late_v1_bsp_spk,
-    msr_srl_ls_iau2000_gz4a_req_v1_bsp_lsk,
-    msr_srl_ls_iau2000_gz4a_req_v1_bsp_lsk,
-    msr_srl_ls_iau2000_gz4a_req_v1_bsp_lsk,
-    msr_srl_ls_iau2000_gz4a_req_v1_bsp_lsk,
-    msr_srl_tp_iau2000_gz4a_late_v1_tf
+    msr_srl_ls_iau2000_gz4a_early_v1_bsp,
+    msr_srl_ls_iau2000_gz4a_late_v1_bsp,
+    msr_srl_ls_iau2000_gz4a_req_v1_bsp,
+    msr_srl_tp_iau2000_gz4a_early_v1_tf,
+    msr_srl_tp_iau2000_gz4a_late_v1_tf,
+    msr_srl_tp_iau2000_gz4a_req_v1_tf,
+    naif0012_tls,
+    pck00010_tpc

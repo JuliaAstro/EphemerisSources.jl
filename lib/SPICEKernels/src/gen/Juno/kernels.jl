@@ -16,52 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v01.tf
 """
-const spk_pre_240409_240821_240529_jm0630_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240409_240821_240529_jm0630.bsp
-"""
-const juno_v02_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240409_240821_240529_jm0630.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170710_170316_otm05_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200601_200305_bpo25_f.bsp
-"""
-const spk_pre_240528_240821_240620_apo62_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170710_170316_otm05_p.bsp")
-const spk_pre_240528_240821_240620_apo62_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200601_200305_bpo25_f.bsp")
+const juno_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -76,52 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v02.tf
 """
-const spk_pre_161212_170710_170321_otm05_f_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v02.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240821_240620_apo62_p.bsp
-"""
-const juno_v07_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240821_240620_apo62_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170710_170321_otm05_f.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200605_200316_jm0262.bsp
-"""
-const spk_pre_240528_240821_240624_bpo62_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170710_170321_otm05_f.bsp")
-const spk_pre_240528_240821_240624_bpo62_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200605_200316_jm0262.bsp")
+const juno_v02_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -136,52 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v07.tf
 """
-const spk_pre_161212_170710_170323_btm05_p_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v07.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240821_240624_bpo62_p.bsp
-"""
-const juno_v08_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240821_240624_bpo62_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170710_170323_btm05_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200317_otm26_p.bsp
-"""
-const spk_pre_240528_240821_240625_bpo62_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170710_170323_btm05_p.bsp")
-const spk_pre_240528_240821_240625_bpo62_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200317_otm26_p.bsp")
+const juno_v07_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v07.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -196,52 +61,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v08.tf
 """
-const spk_pre_200116_200724_200320_otm26_f_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v08.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240821_240625_bpo62_f.bsp
-"""
-const juno_v09_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240821_240625_bpo62_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170203_170714_170329_jm0061.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200320_otm26_f.bsp
-"""
-const spk_pre_240528_240923_240708_jm0640_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170203_170714_170329_jm0061.bsp")
-const spk_pre_240528_240923_240708_jm0640_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200320_otm26_f.bsp")
+const juno_v08_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v08.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -256,52 +76,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v09.tf
 """
-const spk_pre_200116_200724_200402_btm26_p_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v09.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240923_240708_jm0640.bsp
-"""
-const juno_v10_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240923_240708_jm0640.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170203_170714_170426_jm0062.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200402_btm26_p.bsp
-"""
-const spk_pre_240528_240923_240708_otm63_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170203_170714_170426_jm0062.bsp")
-const spk_pre_240528_240923_240708_otm63_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200402_btm26_p.bsp")
+const juno_v09_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v09.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -316,52 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v10.tf
 """
-const spk_pre_200116_200724_200408_btm26_f_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v10.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240923_240708_otm63_p.bsp
-"""
-const juno_v11_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240923_240708_otm63_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170714_170516_jm0071.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200408_btm26_f.bsp
-"""
-const spk_pre_240528_240923_240710_otm63_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170714_170516_jm0071.bsp")
-const spk_pre_170228_170901_170508_otm06_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200408_btm26_f.bsp")
+const juno_v10_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v10.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -376,7 +106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v11.tf
 """
-const spk_pre_200116_200728_200402_jm0271_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v11.tf")
+const juno_v11_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v11.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -394,51 +124,6 @@ This kernel's link was sourced on 2024-09-24.
 const juno_v12_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/fk/juno_v12.tf")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240923_240710_otm63_f.bsp
-"""
-const naif0009_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240923_240710_otm63_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170508_otm06_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200728_200402_jm0271.bsp
-"""
-const spk_pre_240614_240923_240725_apo63_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170508_otm06_p.bsp")
-const spk_pre_240614_240923_240725_apo63_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200728_200402_jm0271.bsp")
-
-"""
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -451,52 +136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/lsk/naif0009.tls
 """
-const spk_pre_200218_200724_200413_apo26_p_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/lsk/naif0009.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240614_240923_240725_apo63_p.bsp
-"""
-const naif0010_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240614_240923_240725_apo63_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170510_otm06_f.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200413_apo26_p.bsp
-"""
-const spk_pre_240614_240923_240729_apo63_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200413_apo26_p.bsp")
-const spk_pre_240614_240923_240729_apo63_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170510_otm06_f.bsp")
+const naif0009_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/lsk/naif0009.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -511,52 +151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/lsk/naif0010.tls
 """
-const spk_pre_170228_170901_170516_btm06_p_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/lsk/naif0010.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240614_240923_240729_apo63_f.bsp
-"""
-const naif0011_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240614_240923_240729_apo63_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170516_btm06_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200414_apo26_f.bsp
-"""
-const spk_pre_240614_241025_240802_jm0650_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170516_btm06_p.bsp")
-const spk_pre_240614_241025_240802_jm0650_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200414_apo26_f.bsp")
+const naif0010_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/lsk/naif0010.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -571,52 +166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/lsk/naif0011.tls
 """
-const spk_pre_200218_200724_200428_bpo26_p_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/lsk/naif0011.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240614_241025_240802_jm0650.bsp
-"""
-const naif0012_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240614_241025_240802_jm0650.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170518_btm06_f.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200428_bpo26_p.bsp
-"""
-const spk_pre_240716_241025_240826_apo64_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170518_btm06_f.bsp")
-const spk_pre_240716_241025_240826_apo64_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200428_bpo26_p.bsp")
+const naif0011_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/lsk/naif0011.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -631,52 +181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/lsk/naif0012.tls
 """
-const spk_pre_200218_200724_200430_bpo26_f_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/lsk/naif0012.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241025_240826_apo64_p.bsp
-"""
-const pck00008_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241025_240826_apo64_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170904_170516_jm0071.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200430_bpo26_f.bsp
-"""
-const spk_pre_240716_241025_240827_apo64_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200430_bpo26_f.bsp")
-const spk_pre_240716_241025_240827_apo64_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170904_170516_jm0071.bsp")
+const naif0012_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/lsk/naif0012.tls")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -691,52 +196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/pck/pck00008.tpc
 """
-const spk_pre_170327_170901_170525_apo06_p_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/pck/pck00008.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241025_240827_apo64_f.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170525_apo06_p.bsp
-"""
-const pck00009_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241025_240827_apo64_f.bsp")
-const pck00009_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170525_apo06_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200728_200501_jm0272.bsp
-"""
-const spk_pre_170327_170901_170531_apo06_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200728_200501_jm0272.bsp")
+const pck00008_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/pck/pck00008.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -751,52 +211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/pck/pck00009.tpc
 """
-const spk_pre_200218_200915_200507_otm27_p_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/pck/pck00009.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241127_240909_jm0660.bsp
-"""
-const pck00010_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241127_240909_jm0660.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200915_200507_otm27_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170531_apo06_f.bsp
-"""
-const spk_pre_240716_241127_240909_otm65_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170531_apo06_f.bsp")
-const spk_pre_240716_241127_240909_otm65_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200915_200507_otm27_p.bsp")
+const pck00009_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/pck/pck00009.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -811,7 +226,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/pck/pck00010.tpc
 """
-const spk_pre_200311_200915_200511_otm27_f_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/pck/pck00010.tpc")
+const pck00010_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/pck/pck00010.tpc")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -839,114 +254,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241127_240909_otm65_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170605_bpo06_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200311_200915_200511_otm27_f.bsp
-"""
-const de434s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241127_240909_otm65_p.bsp")
-const de434s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170605_bpo06_p.bsp")
-const spk_pre_240716_241127_240911_otm65_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200311_200915_200511_otm27_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200311_200915_200528_btm27_f.bsp
-"""
-const spk_pre_200311_200915_200528_btm27_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200311_200915_200528_btm27_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/de434s.bsp
 """
-const spk_pre_200411_200915_200608_apo27_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/de434s.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170607_bpo06_f.bsp
-"""
-const de436s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170607_bpo06_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241127_240911_otm65_f.bsp
-"""
-const spk_pre_170327_170904_170605_jm0072_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241127_240911_otm65_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200411_200915_200608_apo27_p.bsp
-"""
-const spk_rec_110805_111026_120302_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200411_200915_200608_apo27_p.bsp")
+const de434s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/de434s.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -961,52 +271,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/de436s.bsp
 """
-const spk_pre_200411_200915_200610_apo27_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/de436s.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170904_170605_jm0072.bsp
-"""
-const de438s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170904_170605_jm0072.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_110805_111026_120302.bsp
-"""
-const spk_pre_170327_171024_170626_otm07_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_110805_111026_120302.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200411_200915_200610_apo27_f.bsp
-"""
-const spk_rec_111026_120308_120726_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200411_200915_200610_apo27_f.bsp")
+const de436s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/de436s.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1021,52 +286,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/de438s.bsp
 """
-const spk_pre_200411_200919_200611_jm0281_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/de438s.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_171024_170626_otm07_p.bsp
-"""
-const de440s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_171024_170626_otm07_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_111026_120308_120726.bsp
-"""
-const spk_pre_170327_171024_170627_otm07_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_111026_120308_120726.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200411_200919_200611_jm0281.bsp
-"""
-const spk_rec_120308_120825_121109_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200411_200919_200611_jm0281.bsp")
+const de438s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/de438s.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1081,52 +301,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/de440s.bsp
 """
-const spk_pre_200504_200919_200706_jm0282_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/de440s.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_171024_170627_otm07_f.bsp
-"""
-const juno_pred_orbit_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_171024_170627_otm07_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_120308_120825_121109.bsp
-"""
-const spk_pre_170421_171024_170706_btm07_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_120308_120825_121109.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_200919_200706_jm0282.bsp
-"""
-const spk_rec_120825_130515_130708_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_200919_200706_jm0282.bsp")
+const de440s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/de440s.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1141,52 +316,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_pred_orbit.bsp
 """
-const spk_pre_200504_201107_200706_otm28_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_pred_orbit.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170421_171024_170706_btm07_p.bsp
-"""
-const juno_rec_orbit_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170421_171024_170706_btm07_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_120825_130515_130708.bsp
-"""
-const spk_pre_170421_171027_170711_jm0081_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_120825_130515_130708.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_201107_200706_otm28_p.bsp
-"""
-const spk_rec_130515_131005_131031_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_201107_200706_otm28_p.bsp")
+const juno_pred_orbit_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_pred_orbit.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1201,52 +331,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_rec_orbit.bsp
 """
-const spk_pre_200504_201107_200708_otm28_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_rec_orbit.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170421_171027_170711_jm0081.bsp
-"""
-const juno_struct_v00_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170421_171027_170711_jm0081.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_130515_131005_131031.bsp
-"""
-const spk_pre_170519_171024_170724_apo07_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_130515_131005_131031.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_201107_200708_otm28_f.bsp
-"""
-const spk_rec_130515_131005_151210_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_201107_200708_otm28_f.bsp")
+const juno_rec_orbit_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_rec_orbit.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1261,52 +346,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v00.bsp
 """
-const spk_pre_200504_201107_200724_btm28_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v00.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170724_apo07_p.bsp
-"""
-const juno_struct_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170724_apo07_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_130515_131005_151210.bsp
-"""
-const spk_pre_170519_171024_170725_apo07_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_130515_131005_151210.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_201107_200724_btm28_f.bsp
-"""
-const spk_rec_131005_131014_131101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_201107_200724_btm28_f.bsp")
+const juno_struct_v00_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v00.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1321,52 +361,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v01.bsp
 """
-const spk_pre_200602_201107_200730_apo28_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v01.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170725_apo07_f.bsp
-"""
-const juno_struct_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170725_apo07_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131005_131014_131101.bsp
-"""
-const spk_pre_170519_171024_170731_bpo07_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131005_131014_131101.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200602_201107_200730_apo28_p.bsp
-"""
-const spk_rec_131014_131114_140222_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200602_201107_200730_apo28_p.bsp")
+const juno_struct_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v01.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1381,52 +376,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v02.bsp
 """
-const spk_pre_200602_201107_200804_apo28_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v02.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170731_bpo07_p.bsp
-"""
-const juno_struct_v03_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170731_bpo07_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131014_131114_140222.bsp
-"""
-const spk_pre_170519_171024_170801_bpo07_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131014_131114_140222.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200602_201107_200804_apo28_f.bsp
-"""
-const spk_rec_131114_140918_141208_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200602_201107_200804_apo28_f.bsp")
+const juno_struct_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v02.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1441,52 +391,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v03.bsp
 """
-const spk_pre_200602_201111_200730_jm0291_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v03.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170801_bpo07_f.bsp
-"""
-const juno_struct_v04_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170801_bpo07_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131114_140918_141208.bsp
-"""
-const spk_pre_170519_171027_170801_jm0082_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131114_140918_141208.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200602_201111_200730_jm0291.bsp
-"""
-const spk_rec_131114_140918_141208_reconstruction_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200602_201111_200730_jm0291.bsp")
+const juno_struct_v03_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v03.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1501,52 +406,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v04.bsp
 """
-const spk_pre_200625_201111_200831_jm0292_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v04.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171027_170801_jm0082.bsp
-"""
-const jup230_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171027_170801_jm0082.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131114_140918_141208_reconstruction.bsp
-"""
-const spk_pre_170609_171216_170821_otm08_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131114_140918_141208_reconstruction.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201111_200831_jm0292.bsp
-"""
-const spk_rec_140903_151003_160118_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201111_200831_jm0292.bsp")
+const juno_struct_v04_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/juno_struct_v04.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1561,52 +421,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup230.bsp
 """
-const spk_pre_200625_201230_200827_otm29_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup230.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170821_otm08_p.bsp
-"""
-const jup310_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170821_otm08_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_140903_151003_160118.bsp
-"""
-const spk_pre_170609_171216_170822_otm08_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_140903_151003_160118.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201230_200827_otm29_p.bsp
-"""
-const spk_rec_151003_160312_160418_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201230_200827_otm29_p.bsp")
+const jup230_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup230.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1621,52 +436,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup310.bsp
 """
-const spk_pre_200625_201230_200901_otm29_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup310.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170822_otm08_f.bsp
-"""
-const jup363_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170822_otm08_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_151003_160312_160418.bsp
-"""
-const spk_pre_170609_171216_170830_btm08_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_151003_160312_160418.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201230_200901_otm29_f.bsp
-"""
-const spk_rec_160312_160522_160614_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201230_200901_otm29_f.bsp")
+const jup310_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup310.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1681,52 +451,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup363.bsp
 """
-const spk_pre_200625_201230_200914_btm29_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup363.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170830_btm08_p.bsp
-"""
-const jup380s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170830_btm08_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160312_160522_160614.bsp
-"""
-const spk_pre_170609_171216_170831_btm08_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160312_160522_160614.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201230_200914_btm29_f.bsp
-"""
-const spk_rec_160522_160729_160909_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201230_200914_btm29_f.bsp")
+const jup363_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup363.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1741,52 +466,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup380s.bsp
 """
-const spk_pre_200725_201230_200921_apo29_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup380s.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170831_btm08_f.bsp
-"""
-const jup388s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170831_btm08_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160522_160729_160909.bsp
-"""
-const spk_pre_170609_171219_170905_jm0091_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160522_160729_160909.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200725_201230_200921_apo29_p.bsp
-"""
-const spk_rec_160729_160923_161027_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200725_201230_200921_apo29_p.bsp")
+const jup380s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup380s.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1801,52 +481,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup388s.bsp
 """
-const spk_pre_200725_201230_200923_apo29_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup388s.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171219_170905_jm0091.bsp
-"""
-const spk_merge_110805_171017_130515_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171219_170905_jm0091.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160729_160923_161027.bsp
-"""
-const spk_pre_170711_171219_170925_jm0092_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160729_160923_161027.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200725_201230_200923_apo29_f.bsp
-"""
-const spk_rec_160729_160924_161026_pj01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200725_201230_200923_apo29_f.bsp")
+const jup388s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/jup388s.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1861,52 +496,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_merge_110805_171017_130515.bsp
 """
-const spk_pre_200725_210102_200924_jm0301_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_merge_110805_171017_130515.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170711_171219_170925_jm0092.bsp
-"""
-const spk_nob_110805_111031_110806_60day_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170711_171219_170925_jm0092.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160729_160924_161026_pj01.bsp
-"""
-const spk_pre_170803_180207_171017_otm09_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160729_160924_161026_pj01.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200725_210102_200924_jm0301.bsp
-"""
-const spk_rec_160923_161115_161121_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200725_210102_200924_jm0301.bsp")
+const spk_merge_110805_171017_130515_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_merge_110805_171017_130515.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1921,52 +511,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_110805_111031_110806_60day.bsp
 """
-const spk_pre_200818_210102_201019_jm0302_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_110805_111031_110806_60day.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171017_otm09_p.bsp
-"""
-const spk_nob_160413_161209_160712_PRM_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171017_otm09_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160923_161115_161121.bsp
-"""
-const spk_pre_170803_180207_171017_otm09_p_juno_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160923_161115_161121.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210102_201019_jm0302.bsp
-"""
-const spk_rec_161115_170106_170113_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210102_201019_jm0302.bsp")
+const spk_nob_110805_111031_110806_60day_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_110805_111031_110806_60day.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1981,52 +526,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_160413_161209_160712_PRM.bsp
 """
-const spk_pre_200818_210221_201019_otm30_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_160413_161209_160712_PRM.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171017_otm09_p_juno.bsp
-"""
-const spk_nob_160413_161209_160803_PRM_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171017_otm09_p_juno.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210221_201019_otm30_p.bsp
-"""
-const spk_pre_170803_180207_171023_otm09_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210221_201019_otm30_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_161115_170106_170113.bsp
-"""
-const spk_pre_200818_210221_201021_otm30_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_161115_170106_170113.bsp")
+const spk_nob_160413_161209_160712_PRM_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_160413_161209_160712_PRM.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2041,52 +541,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_160413_161209_160803_PRM.bsp
 """
-const spk_rec_170106_170228_170307_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_160413_161209_160803_PRM.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171023_otm09_f.bsp
-"""
-const spk_nob_160705_161210_160901_jm0005_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171023_otm09_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210221_201021_otm30_f.bsp
-"""
-const spk_pre_170803_180207_171030_btm09_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210221_201021_otm30_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170106_170228_170307.bsp
-"""
-const spk_pre_200818_210221_201029_btm30_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170106_170228_170307.bsp")
+const spk_nob_160413_161209_160803_PRM_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_160413_161209_160803_PRM.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2101,37 +556,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_160705_161210_160901_jm0005.bsp
 """
-const spk_rec_170228_170422_170427_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_160705_161210_160901_jm0005.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210221_201029_btm30_f.bsp
-"""
-const spk_nob_160705_170105_161003_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210221_201029_btm30_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171030_btm09_p.bsp
-"""
-const spk_pre_200818_210224_201105_jm0311_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171030_btm09_p.bsp")
+const spk_nob_160705_161210_160901_jm0005_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_160705_161210_160901_jm0005.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2146,52 +571,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_160705_170105_161003.bsp
 """
-const spk_pre_170803_180207_171031_btm09_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_160705_170105_161003.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170228_170422_170427.bsp
-"""
-const spk_pre_0805_1625_launch_0808_0629_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170228_170422_170427.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210224_201105_jm0311.bsp
-"""
-const spk_rec_170422_170608_170621_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210224_201105_jm0311.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171031_btm09_f.bsp
-"""
-const spk_pre_200917_210221_201110_apo30_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171031_btm09_f.bsp")
+const spk_nob_160705_170105_161003_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_nob_160705_170105_161003.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2206,52 +586,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_0805-1625-launch_0808_0629.bsp
 """
-const spk_pre_170803_180210_171016_jm0101_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_0805-1625-launch_0808_0629.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170422_170608_170621.bsp
-"""
-const spk_pre_110806_101210_110926_jc004_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170422_170608_170621.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200917_210221_201110_apo30_p.bsp
-"""
-const spk_rec_170608_170728_170803_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200917_210221_201110_apo30_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180210_171016_jm0101.bsp
-"""
-const spk_pre_200917_210221_201111_apo30_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180210_171016_jm0101.bsp")
+const spk_pre_0805_1625_launch_0808_0629_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_0805-1625-launch_0808_0629.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2266,52 +601,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_110806_101210_110926_jc004.bsp
 """
-const spk_pre_170902_180210_171114_jm0102_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_110806_101210_110926_jc004.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170608_170728_170803.bsp
-"""
-const spk_pre_110806_111231_111018_jc005_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170608_170728_170803.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200917_210221_201111_apo30_f.bsp
-"""
-const spk_rec_170728_170918_170922_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200917_210221_201111_apo30_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170902_180210_171114_jm0102.bsp
-"""
-const spk_pre_200917_210224_201125_jm0312_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170902_180210_171114_jm0102.bsp")
+const spk_pre_110806_101210_110926_jc004_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_110806_101210_110926_jc004.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2326,52 +616,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_110806_111231_111018_jc005.bsp
 """
-const spk_pre_170929_180331_171206_otm10_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_110806_111231_111018_jc005.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170728_170918_170922.bsp
-"""
-const spk_pre_110806_120129_111115_jc006_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170728_170918_170922.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200917_210224_201125_jm0312.bsp
-"""
-const spk_rec_170918_171121_171127_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200917_210224_201125_jm0312.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171206_otm10_p.bsp
-"""
-const spk_pre_201008_210415_201207_otm31_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171206_otm10_p.bsp")
+const spk_pre_110806_111231_111018_jc005_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_110806_111231_111018_jc005.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2386,37 +631,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_110806_120129_111115_jc006.bsp
 """
-const spk_pre_170929_180331_171211_otm10_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_110806_120129_111115_jc006.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170918_171121_171127.bsp
-"""
-const spk_pre_110806_131031_110829_jc003_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170918_171121_171127.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201207_otm31_p.bsp
-"""
-const spk_rec_171121_180113_180117_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201207_otm31_p.bsp")
+const spk_pre_110806_120129_111115_jc006_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_110806_120129_111115_jc006.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2431,52 +646,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_110806_131031_110829_jc003.bsp
 """
-const spk_pre_201008_210415_201209_otm31_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_110806_131031_110829_jc003.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171211_otm10_f.bsp
-"""
-const spk_pre_111026_110531_120312_jc010_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171211_otm10_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_171121_180113_180117.bsp
-"""
-const spk_pre_170929_180331_171213_btm10_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_171121_180113_180117.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201209_otm31_f.bsp
-"""
-const spk_rec_180113_180307_180312_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201209_otm31_f.bsp")
+const spk_pre_110806_131031_110829_jc003_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_110806_131031_110829_jc003.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2491,52 +661,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_110531_120312_jc010.bsp
 """
-const spk_pre_201008_210415_201216_btm31_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_110531_120312_jc010.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171213_btm10_p.bsp
-"""
-const spk_pre_111026_120229_111214_jc007_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171213_btm10_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180113_180307_180312.bsp
-"""
-const spk_pre_170929_180331_171214_btm10_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180113_180307_180312.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201216_btm31_p.bsp
-"""
-const spk_rec_180307_180429_180504_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201216_btm31_p.bsp")
+const spk_pre_111026_110531_120312_jc010_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_110531_120312_jc010.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2551,37 +676,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120229_111214_jc007.bsp
 """
-const spk_pre_201008_210415_201217_btm31_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120229_111214_jc007.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171214_btm10_f.bsp
-"""
-const spk_pre_111026_120331_120112_jc008_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171214_btm10_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180307_180429_180504.bsp
-"""
-const spk_pre_170929_180404_171212_jm0111_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180307_180429_180504.bsp")
+const spk_pre_111026_120229_111214_jc007_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120229_111214_jc007.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2596,52 +691,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120331_120112_jc008.bsp
 """
-const spk_rec_180429_180621_180626_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120331_120112_jc008.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201217_btm31_f.bsp
-"""
-const spk_pre_111026_12043_120208_jc009_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201217_btm31_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180404_171212_jm0111.bsp
-"""
-const spk_pre_201108_210418_210111_jm0321_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180404_171212_jm0111.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180429_180621_180626.bsp
-"""
-const spk_pre_171110_180331_171229_apo10_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180429_180621_180626.bsp")
+const spk_pre_111026_120331_120112_jc008_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120331_120112_jc008.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2656,37 +706,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_12043_120208_jc009.bsp
 """
-const spk_rec_180620_180812_180821_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_12043_120208_jc009.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210418_210111_jm0321.bsp
-"""
-const spk_pre_111026_120628_120409_jc011_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210418_210111_jm0321.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_171229_apo10_p.bsp
-"""
-const spk_pre_201108_210418_210205_jm0322_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_171229_apo10_p.bsp")
+const spk_pre_111026_12043_120208_jc009_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_12043_120208_jc009.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2701,52 +721,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120628_120409_jc011.bsp
 """
-const spk_pre_171110_180331_180102_apo10_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120628_120409_jc011.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180620_180812_180821.bsp
-"""
-const spk_pre_111026_120731_120507_jc012_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180620_180812_180821.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_180102_apo10_f.bsp
-"""
-const spk_rec_180812_181004_181011_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_180102_apo10_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210418_210205_jm0322.bsp
-"""
-const spk_pre_171110_180331_180104_bpo10_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210418_210205_jm0322.bsp")
+const spk_pre_111026_120628_120409_jc011_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120628_120409_jc011.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2761,52 +736,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120731_120507_jc012.bsp
 """
-const spk_pre_201108_210607_210205_otm32_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120731_120507_jc012.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180812_181004_181011.bsp
-"""
-const spk_pre_111026_120830_111209_tcm2plim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180812_181004_181011.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_180104_bpo10_p.bsp
-"""
-const spk_rec_181004_181126_181205_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_180104_bpo10_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210607_210205_otm32_p.bsp
-"""
-const spk_pre_171110_180331_180108_bpo10_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210607_210205_otm32_p.bsp")
+const spk_pre_111026_120731_120507_jc012_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120731_120507_jc012.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2821,52 +751,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120830_111209_tcm2plim.bsp
 """
-const spk_pre_201108_210607_210208_otm32_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120830_111209_tcm2plim.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_181004_181126_181205.bsp
-"""
-const spk_pre_111026_120830_120103_tcm2rhl_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_181004_181126_181205.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_180108_bpo10_f.bsp
-"""
-const spk_rec_181126_190118_190124_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_180108_bpo10_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210607_210208_otm32_f.bsp
-"""
-const spk_pre_171110_180404_180109_jm0112_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210607_210208_otm32_f.bsp")
+const spk_pre_111026_120830_111209_tcm2plim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120830_111209_tcm2plim.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2881,52 +766,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120830_120103_tcm2rhl.bsp
 """
-const spk_pre_201108_210607_210219_btm32_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120830_120103_tcm2rhl.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_181126_190118_190124.bsp
-"""
-const spk_pre_111026_120830_120124_tcm2fin_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_181126_190118_190124.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180404_180109_jm0112.bsp
-"""
-const spk_rec_190118_190312_190319_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180404_180109_jm0112.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210607_210219_btm32_f.bsp
-"""
-const spk_pre_171110_180523_180126_otm11_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210607_210219_btm32_f.bsp")
+const spk_pre_111026_120830_120103_tcm2rhl_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120830_120103_tcm2rhl.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2941,52 +781,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120830_120124_tcm2fin.bsp
 """
-const spk_pre_201231_210607_210225_apo32_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120830_120124_tcm2fin.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190118_190312_190319.bsp
-"""
-const spk_pre_111026_120831_120525_jc013_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190118_190312_190319.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180126_otm11_p.bsp
-"""
-const spk_rec_190312_190504_190509_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180126_otm11_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210607_210225_apo32_p.bsp
-"""
-const spk_pre_171110_180523_180130_otm11_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210607_210225_apo32_p.bsp")
+const spk_pre_111026_120830_120124_tcm2fin_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120830_120124_tcm2fin.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3001,52 +796,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120831_120525_jc013.bsp
 """
-const spk_pre_201231_210607_210302_apo32_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120831_120525_jc013.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190312_190504_190509.bsp
-"""
-const spk_pre_111026_120930_120209_DSMpreB_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190312_190504_190509.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180130_otm11_f.bsp
-"""
-const spk_rec_190504_190626_190627_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180130_otm11_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210607_210302_apo32_f.bsp
-"""
-const spk_pre_171110_180523_180205_btm11_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210607_210302_apo32_f.bsp")
+const spk_pre_111026_120831_120525_jc013_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120831_120525_jc013.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3061,37 +811,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120930_120209_DSMpreB.bsp
 """
-const spk_pre_201231_210611_210225_jm0331_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120930_120209_DSMpreB.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190504_190626_190627.bsp
-"""
-const spk_pre_111026_120930_120418_DSMpreC_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190504_190626_190627.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180205_btm11_f.bsp
-"""
-const spk_rec_190626_190817_190822_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180205_btm11_f.bsp")
+const spk_pre_111026_120930_120209_DSMpreB_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120930_120209_DSMpreB.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3106,37 +826,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120930_120418_DSMpreC.bsp
 """
-const spk_pre_171110_180523_180205_btm11_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120930_120418_DSMpreC.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210611_210225_jm0331.bsp
-"""
-const spk_pre_111026_120930_120521_DSMfinalC_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210611_210225_jm0331.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190626_190817_190822.bsp
-"""
-const spk_pre_201231_210611_210324_jm0332_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190626_190817_190822.bsp")
+const spk_pre_111026_120930_120418_DSMpreC_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120930_120418_DSMpreC.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3151,37 +841,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120930_120521_DSMfinalC.bsp
 """
-const spk_rec_190817_191010_191022_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120930_120521_DSMfinalC.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180205_btm11_p.bsp
-"""
-const spk_pre_111026_120930_120625_jc014_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180205_btm11_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210611_210324_jm0332.bsp
-"""
-const spk_pre_171110_180527_180206_jm0121_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210611_210324_jm0332.bsp")
+const spk_pre_111026_120930_120521_DSMfinalC_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120930_120521_DSMfinalC.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3196,52 +856,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120930_120625_jc014.bsp
 """
-const spk_pre_201231_210720_210405_otm33_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120930_120625_jc014.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190817_191010_191022.bsp
-"""
-const spk_pre_111026_121001_120111_DSMpreA_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190817_191010_191022.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180527_180206_jm0121.bsp
-"""
-const spk_rec_191010_191201_191210_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180527_180206_jm0121.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210720_210405_otm33_p.bsp
-"""
-const spk_pre_171217_180523_180215_apo11_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210720_210405_otm33_p.bsp")
+const spk_pre_111026_120930_120625_jc014_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_120930_120625_jc014.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3256,52 +871,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_121001_120111_DSMpreA.bsp
 """
-const spk_pre_201231_210720_210407_otm33_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_121001_120111_DSMpreA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_191010_191201_191210.bsp
-"""
-const spk_pre_120308_121031_120723_jc015_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_191010_191201_191210.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180215_apo11_p.bsp
-"""
-const spk_rec_191201_200124_200129_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180215_apo11_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210720_210407_otm33_f.bsp
-"""
-const spk_pre_171217_180523_180220_apo11_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210720_210407_otm33_f.bsp")
+const spk_pre_111026_121001_120111_DSMpreA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_111026_121001_120111_DSMpreA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3316,52 +886,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120308_121031_120723_jc015.bsp
 """
-const spk_pre_201231_210720_210414_btm33_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120308_121031_120723_jc015.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_191201_200124_200129.bsp
-"""
-const spk_pre_120308_121130_120827_dsm1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_191201_200124_200129.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180220_apo11_f.bsp
-"""
-const spk_rec_200124_200316_200324_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180220_apo11_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210720_210414_btm33_f.bsp
-"""
-const spk_pre_171217_180523_180226_bpo11_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210720_210414_btm33_f.bsp")
+const spk_pre_120308_121031_120723_jc015_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120308_121031_120723_jc015.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3376,52 +901,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120308_121130_120827_dsm1.bsp
 """
-const spk_pre_210222_210724_210426_jm0340_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120308_121130_120827_dsm1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200124_200316_200324.bsp
-"""
-const spk_pre_120825_121130_120902_DSM2_delay_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200124_200316_200324.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180226_bpo11_p.bsp
-"""
-const spk_rec_200316_200508_200512_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180226_bpo11_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210222_210724_210426_jm0340.bsp
-"""
-const spk_pre_171217_180523_180227_bpo11_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210222_210724_210426_jm0340.bsp")
+const spk_pre_120308_121130_120827_dsm1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120308_121130_120827_dsm1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3436,52 +916,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_121130_120902_DSM2_delay.bsp
 """
-const spk_pre_210222_210902_210526_btm34_i_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_121130_120902_DSM2_delay.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200316_200508_200512.bsp
-"""
-const spk_pre_120825_121231_120924_jc017_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200316_200508_200512.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180227_bpo11_f.bsp
-"""
-const spk_rec_200508_200629_200709_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180227_bpo11_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210222_210902_210526_btm34_i.bsp
-"""
-const spk_pre_171217_180527_180306_jm0122_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210222_210902_210526_btm34_i.bsp")
+const spk_pre_120825_121130_120902_DSM2_delay_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_121130_120902_DSM2_delay.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3496,52 +931,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_121231_120924_jc017.bsp
 """
-const spk_pre_210222_210905_210604_jm0350_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_121231_120924_jc017.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200508_200629_200709.bsp
-"""
-const spk_pre_120825_130131_121022_jc018_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200508_200629_200709.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180527_180306_jm0122.bsp
-"""
-const spk_rec_200629_200822_200826_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180527_180306_jm0122.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210222_210905_210604_jm0350.bsp
-"""
-const spk_pre_180111_180715_180321_otm12_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210222_210905_210604_jm0350.bsp")
+const spk_pre_120825_121231_120924_jc017_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_121231_120924_jc017.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3556,37 +946,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_130131_121022_jc018.bsp
 """
-const spk_pre_210416_210902_210608_btm34_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_130131_121022_jc018.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200629_200822_200826.bsp
-"""
-const spk_pre_120825_131010_120918_TCM5prelim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200629_200822_200826.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180321_otm12_p.bsp
-"""
-const spk_rec_200822_201014_201016_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180321_otm12_p.bsp")
+const spk_pre_120825_130131_121022_jc018_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_130131_121022_jc018.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3601,37 +961,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_131010_120918_TCM5prelim.bsp
 """
-const spk_pre_180111_180715_180323_otm12_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_131010_120918_TCM5prelim.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210416_210902_210608_btm34_p.bsp
-"""
-const spk_pre_120825_131010_120924_TCM5final_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210416_210902_210608_btm34_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200822_201014_201016.bsp
-"""
-const spk_pre_210607_210902_210614_apo34_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200822_201014_201016.bsp")
+const spk_pre_120825_131010_120918_TCM5prelim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_131010_120918_TCM5prelim.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3646,37 +976,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_131010_120924_TCM5final.bsp
 """
-const spk_rec_201014_201205_201208_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_131010_120924_TCM5final.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180323_otm12_f.bsp
-"""
-const spk_pre_120915_130228_121119_jc019_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180323_otm12_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_210902_210614_apo34_p.bsp
-"""
-const spk_pre_180111_180715_180329_btm12_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_210902_210614_apo34_p.bsp")
+const spk_pre_120825_131010_120924_TCM5final_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120825_131010_120924_TCM5final.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3691,52 +991,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130228_121119_jc019.bsp
 """
-const spk_pre_210607_210902_210616_apo34_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130228_121119_jc019.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_201014_201205_201208.bsp
-"""
-const spk_pre_120915_130331_121207_jc020_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_201014_201205_201208.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180329_btm12_f.bsp
-"""
-const spk_rec_201205_210127_210210_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180329_btm12_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_210902_210616_apo34_f.bsp
-"""
-const spk_pre_180111_180715_180329_btm12_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_210902_210616_apo34_f.bsp")
+const spk_pre_120915_130228_121119_jc019_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130228_121119_jc019.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3751,52 +1006,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130331_121207_jc020.bsp
 """
-const spk_pre_210607_211016_210712_otm35_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130331_121207_jc020.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_201205_210127_210210.bsp
-"""
-const spk_pre_120915_130430_130114_jc021_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_201205_210127_210210.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180329_btm12_p.bsp
-"""
-const spk_rec_210127_210321_210329_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180329_btm12_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211016_210712_otm35_p.bsp
-"""
-const spk_pre_180111_180719_180402_jm0131_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211016_210712_otm35_p.bsp")
+const spk_pre_120915_130331_121207_jc020_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130331_121207_jc020.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3811,52 +1021,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130430_130114_jc021.bsp
 """
-const spk_pre_210607_211016_210723_apo35_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130430_130114_jc021.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210127_210321_210329.bsp
-"""
-const spk_pre_120915_130430_130206_jc022_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210127_210321_210329.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180719_180402_jm0131.bsp
-"""
-const spk_rec_210321_210513_210517_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180719_180402_jm0131.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211016_210723_apo35_p.bsp
-"""
-const spk_pre_180208_180715_180412_apo12_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211016_210723_apo35_p.bsp")
+const spk_pre_120915_130430_130114_jc021_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130430_130114_jc021.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3871,52 +1036,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130430_130206_jc022.bsp
 """
-const spk_pre_210607_211016_210726_apo35_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130430_130206_jc022.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210321_210513_210517.bsp
-"""
-const spk_pre_120915_130530_130304_jc023_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210321_210513_210517.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180412_apo12_p.bsp
-"""
-const spk_rec_210513_210630_210707_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180412_apo12_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211016_210726_apo35_f.bsp
-"""
-const spk_pre_180208_180715_180416_apo12_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211016_210726_apo35_f.bsp")
+const spk_pre_120915_130430_130206_jc022_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130430_130206_jc022.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3931,52 +1051,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130530_130304_jc023.bsp
 """
-const spk_pre_210607_211019_210719_jm0360_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130530_130304_jc023.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210513_210630_210707.bsp
-"""
-const spk_pre_120915_130630_130408_jc024_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210513_210630_210707.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180416_apo12_f.bsp
-"""
-const spk_rec_210630_210813_210825_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180416_apo12_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211019_210719_jm0360.bsp
-"""
-const spk_pre_180208_180715_180418_bpo12_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211019_210719_jm0360.bsp")
+const spk_pre_120915_130530_130304_jc023_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130530_130304_jc023.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3991,37 +1066,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130630_130408_jc024.bsp
 """
-const spk_pre_210626_211129_210823_otm36_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130630_130408_jc024.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210630_210813_210825.bsp
-"""
-const spk_pre_130123_130731_130506_jc025_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210630_210813_210825.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180418_bpo12_p.bsp
-"""
-const spk_rec_210813_210925_211005_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180418_bpo12_p.bsp")
+const spk_pre_120915_130630_130408_jc024_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_120915_130630_130408_jc024.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4036,37 +1081,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_130731_130506_jc025.bsp
 """
-const spk_pre_180208_180715_180419_bpo12_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_130731_130506_jc025.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210626_211129_210823_otm36_p.bsp
-"""
-const spk_pre_130123_130831_130603_jc026_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210626_211129_210823_otm36_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210813_210925_211005.bsp
-"""
-const spk_pre_210626_211129_210824_otm36_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210813_210925_211005.bsp")
+const spk_pre_130123_130731_130506_jc025_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_130731_130506_jc025.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4081,52 +1096,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_130831_130603_jc026.bsp
 """
-const spk_rec_210925_211108_211115_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_130831_130603_jc026.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180419_bpo12_f.bsp
-"""
-const spk_pre_130123_130930_130702_jc027_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180419_bpo12_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210626_211129_210824_otm36_f.bsp
-"""
-const spk_pre_180208_180719_180423_jm0132_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210626_211129_210824_otm36_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210925_211108_211115.bsp
-"""
-const spk_pre_210626_211202_210825_jm0370_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210925_211108_211115.bsp")
+const spk_pre_130123_130831_130603_jc026_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_130831_130603_jc026.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4141,37 +1111,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_130930_130702_jc027.bsp
 """
-const spk_rec_211108_211222_220104_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_130930_130702_jc027.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180719_180423_jm0132.bsp
-"""
-const spk_pre_130123_130930_130702_jc027_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180719_180423_jm0132.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210626_211202_210825_jm0370.bsp
-"""
-const spk_pre_180302_180906_180514_otm13_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210626_211202_210825_jm0370.bsp")
+const spk_pre_130123_130930_130702_jc027_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_130930_130702_jc027.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4186,52 +1126,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_130930_130702_jc027_v2.bsp
 """
-const spk_pre_210721_211129_210907_apo36_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_130930_130702_jc027_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_211108_211222_220104.bsp
-"""
-const spk_pre_130123_131031_130718_junoONLY_TCM6_prelimPA_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_211108_211222_220104.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180514_otm13_p.bsp
-"""
-const spk_rec_211222_220204_220210_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180514_otm13_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_211129_210907_apo36_p.bsp
-"""
-const spk_pre_180302_180906_180515_otm13_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_211129_210907_apo36_p.bsp")
+const spk_pre_130123_130930_130702_jc027_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_130930_130702_jc027_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4246,52 +1141,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_131031_130718_junoONLY_TCM6_prelimPA.bsp
 """
-const spk_pre_210721_211129_210913_apo36_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_131031_130718_junoONLY_TCM6_prelimPA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_211222_220204_220210.bsp
-"""
-const spk_pre_130123_131031_130729_jc028_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_211222_220204_220210.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180515_otm13_f.bsp
-"""
-const spk_rec_220204_220319_220330_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180515_otm13_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_211129_210913_apo36_f.bsp
-"""
-const spk_pre_180302_180906_180522_btm13_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_211129_210913_apo36_f.bsp")
+const spk_pre_130123_131031_130718_junoONLY_TCM6_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_131031_130718_junoONLY_TCM6_prelimPA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4306,52 +1156,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_131031_130729_jc028.bsp
 """
-const spk_pre_210721_220111_210929_otm37_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_131031_130729_jc028.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220204_220319_220330.bsp
-"""
-const spk_pre_130502_131031_130812_postTCM06_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220204_220319_220330.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180522_btm13_f.bsp
-"""
-const spk_rec_220319_220502_220510_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180522_btm13_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_220111_210929_otm37_p.bsp
-"""
-const spk_pre_180302_180906_180522_btm13_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_220111_210929_otm37_p.bsp")
+const spk_pre_130123_131031_130729_jc028_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130123_131031_130729_jc028.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4366,52 +1171,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130502_131031_130812_postTCM06.bsp
 """
-const spk_pre_210721_220111_211001_otm37_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130502_131031_130812_postTCM06.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220319_220502_220510.bsp
-"""
-const spk_pre_130502_131031_130820_jc029_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220319_220502_220510.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180522_btm13_p.bsp
-"""
-const spk_rec_220502_220614_220622_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180522_btm13_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_220111_211001_otm37_f.bsp
-"""
-const spk_pre_180302_180910_180521_jm0141_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_220111_211001_otm37_f.bsp")
+const spk_pre_130502_131031_130812_postTCM06_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130502_131031_130812_postTCM06.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4426,22 +1186,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130502_131031_130820_jc029.bsp
 """
-const spk_pre_210812_220111_211021_apo37_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130502_131031_130820_jc029.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220502_220614_220622.bsp
-"""
-const spk_pre_130502_131031_130923_jc030_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220502_220614_220622.bsp")
+const spk_pre_130502_131031_130820_jc029_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130502_131031_130820_jc029.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4456,52 +1201,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130502_131031_130923_jc030.bsp
 """
-const spk_rec_220614_220728_220805_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130502_131031_130923_jc030.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180910_180521_jm0141.bsp
-"""
-const spk_pre_130502_131130_130924_jc030_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180910_180521_jm0141.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210812_220111_211021_apo37_p.bsp
-"""
-const spk_pre_180402_180906_180604_apo13_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210812_220111_211021_apo37_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220614_220728_220805.bsp
-"""
-const spk_pre_210812_220111_211027_apo37_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220614_220728_220805.bsp")
+const spk_pre_130502_131031_130923_jc030_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130502_131031_130923_jc030.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4516,52 +1216,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130502_131130_130924_jc030.bsp
 """
-const spk_rec_220728_220909_220913_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130502_131130_130924_jc030.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180604_apo13_p.bsp
-"""
-const spk_pre_130611_131031_130611_cam_m1_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180604_apo13_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210812_220111_211027_apo37_f.bsp
-"""
-const spk_pre_180402_180906_180606_apo13_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210812_220111_211027_apo37_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220728_220909_220913.bsp
-"""
-const spk_pre_210812_220115_211018_jm0380_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220728_220909_220913.bsp")
+const spk_pre_130502_131130_130924_jc030_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130502_131130_130924_jc030.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4576,37 +1231,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130611_131031_130611_cam_m1_prelimPA.bsp
 """
-const spk_rec_220909_221019_221027_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130611_131031_130611_cam_m1_prelimPA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180606_apo13_f.bsp
-"""
-const spk_pre_130611_131031_130611_cam_p1_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180606_apo13_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210812_220115_211018_jm0380.bsp
-"""
-const spk_pre_180402_180906_180611_bpo13_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210812_220115_211018_jm0380.bsp")
+const spk_pre_130611_131031_130611_cam_m1_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130611_131031_130611_cam_m1_prelimPA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4621,52 +1246,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130611_131031_130611_cam_p1_prelimPA.bsp
 """
-const spk_pre_210903_220224_211112_apo38_i_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130611_131031_130611_cam_p1_prelimPA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220909_221019_221027.bsp
-"""
-const spk_pre_130619_131031_130619_cam_m1_finalPA_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220909_221019_221027.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180611_bpo13_p.bsp
-"""
-const spk_rec_221019_221127_221208_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180611_bpo13_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210903_220224_211112_apo38_i.bsp
-"""
-const spk_pre_180402_180906_180614_bpo13_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210903_220224_211112_apo38_i.bsp")
+const spk_pre_130611_131031_130611_cam_p1_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130611_131031_130611_cam_p1_prelimPA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4681,52 +1261,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130619_131031_130619_cam_m1_finalPA.bsp
 """
-const spk_pre_210903_220228_211115_jm0390_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130619_131031_130619_cam_m1_finalPA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_221019_221127_221208.bsp
-"""
-const spk_pre_130619_131031_130619_cam_p1_finalPA_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_221019_221127_221208.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180614_bpo13_f.bsp
-"""
-const spk_rec_221127_230104_230111_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180614_bpo13_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210903_220228_211115_jm0390.bsp
-"""
-const spk_pre_180402_180910_180611_jm0142_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210903_220228_211115_jm0390.bsp")
+const spk_pre_130619_131031_130619_cam_m1_finalPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130619_131031_130619_cam_m1_finalPA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4741,52 +1276,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130619_131031_130619_cam_p1_finalPA.bsp
 """
-const spk_pre_211017_220224_211202_apo38_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130619_131031_130619_cam_p1_finalPA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_221127_230104_230111.bsp
-"""
-const spk_pre_130718_131031_130718_TCM6_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_221127_230104_230111.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180910_180611_jm0142.bsp
-"""
-const spk_rec_230104_230211_230221_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180910_180611_jm0142.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220224_211202_apo38_p.bsp
-"""
-const spk_pre_180423_181029_180705_otm14_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220224_211202_apo38_p.bsp")
+const spk_pre_130619_131031_130619_cam_p1_finalPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130619_131031_130619_cam_p1_finalPA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4801,52 +1291,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130718_131031_130718_TCM6_prelimPA.bsp
 """
-const spk_pre_211017_220224_211207_apo38_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130718_131031_130718_TCM6_prelimPA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230104_230211_230221.bsp
-"""
-const spk_pre_130801_131031_130801_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230104_230211_230221.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180705_otm14_p.bsp
-"""
-const spk_rec_230211_230321_230327_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180705_otm14_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220224_211207_apo38_f.bsp
-"""
-const spk_pre_180423_181029_180709_otm14_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220224_211207_apo38_f.bsp")
+const spk_pre_130718_131031_130718_TCM6_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130718_131031_130718_TCM6_prelimPA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4861,22 +1306,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130801_131031_130801.bsp
 """
-const spk_pre_211017_220409_211229_otm39_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130801_131031_130801.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230211_230321_230327.bsp
-"""
-const spk_pre_130827_131017_130827_TCM7_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230211_230321_230327.bsp")
+const spk_pre_130801_131031_130801_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130801_131031_130801.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4891,52 +1321,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130827_131017_130827_TCM7_prelimPA.bsp
 """
-const spk_rec_230321_230428_230504_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130827_131017_130827_TCM7_prelimPA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180709_otm14_f.bsp
-"""
-const spk_pre_130903_131017_130903_TCM7_finalPA_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180709_otm14_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220409_211229_otm39_p.bsp
-"""
-const spk_pre_180423_181029_180712_btm14_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220409_211229_otm39_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230321_230428_230504.bsp
-"""
-const spk_pre_211017_220409_220104_otm39_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230321_230428_230504.bsp")
+const spk_pre_130827_131017_130827_TCM7_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130827_131017_130827_TCM7_prelimPA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4951,52 +1336,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130903_131017_130903_TCM7_finalPA.bsp
 """
-const spk_rec_230428_230605_230613_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130903_131017_130903_TCM7_finalPA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180712_btm14_f.bsp
-"""
-const spk_pre_130909_140102_131021_jc031_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180712_btm14_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220409_220104_otm39_f.bsp
-"""
-const spk_pre_180423_181029_180712_btm14_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220409_220104_otm39_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230428_230605_230613.bsp
-"""
-const spk_pre_211017_220412_220107_jm0400_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230428_230605_230613.bsp")
+const spk_pre_130903_131017_130903_TCM7_finalPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130903_131017_130903_TCM7_finalPA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5011,37 +1351,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130909_140102_131021_jc031.bsp
 """
-const spk_rec_230605_230713_230720_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130909_140102_131021_jc031.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180712_btm14_p.bsp
-"""
-const spk_pre_130917_131031_130917_TCM8_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180712_btm14_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220412_220107_jm0400.bsp
-"""
-const spk_pre_180423_181101_180710_jm0151_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220412_220107_jm0400.bsp")
+const spk_pre_130909_140102_131021_jc031_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130909_140102_131021_jc031.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5056,52 +1366,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130917_131031_130917_TCM8_prelimPA.bsp
 """
-const spk_pre_211109_220409_220119_apo39_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130917_131031_130917_TCM8_prelimPA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230605_230713_230720.bsp
-"""
-const spk_pre_130917_131031_130917_TCM8_prelimPB_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230605_230713_230720.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181101_180710_jm0151.bsp
-"""
-const spk_rec_230713_230820_230823_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181101_180710_jm0151.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211109_220409_220119_apo39_p.bsp
-"""
-const spk_pre_180524_181029_180727_apo14_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211109_220409_220119_apo39_p.bsp")
+const spk_pre_130917_131031_130917_TCM8_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130917_131031_130917_TCM8_prelimPA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5116,52 +1381,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130917_131031_130917_TCM8_prelimPB.bsp
 """
-const spk_pre_211130_220409_220121_apo39_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130917_131031_130917_TCM8_prelimPB.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230713_230820_230823.bsp
-"""
-const spk_pre_130917_131031_130917_TCM8a_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230713_230820_230823.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180727_apo14_p.bsp
-"""
-const spk_rec_230820_230927_231003_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180727_apo14_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220409_220121_apo39_f.bsp
-"""
-const spk_pre_180524_181029_180731_apo14_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220409_220121_apo39_f.bsp")
+const spk_pre_130917_131031_130917_TCM8_prelimPB_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130917_131031_130917_TCM8_prelimPB.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5176,52 +1396,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130917_131031_130917_TCM8a_prelimPA.bsp
 """
-const spk_pre_211130_220522_220207_otm40_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130917_131031_130917_TCM8a_prelimPA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230820_230927_231003.bsp
-"""
-const spk_pre_131011_140129_131111_jc032_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230820_230927_231003.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180731_apo14_f.bsp
-"""
-const spk_rec_230927_231104_231109_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180731_apo14_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220522_220207_otm40_p.bsp
-"""
-const spk_pre_180524_181029_180806_bpo14_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220522_220207_otm40_p.bsp")
+const spk_pre_130917_131031_130917_TCM8a_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_130917_131031_130917_TCM8a_prelimPA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5236,52 +1411,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131011_140129_131111_jc032.bsp
 """
-const spk_pre_211130_220522_220209_otm40_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131011_140129_131111_jc032.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230927_231104_231109.bsp
-"""
-const spk_pre_131029_140301_131029_TCM9_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230927_231104_231109.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180806_bpo14_f.bsp
-"""
-const spk_rec_231104_231212_231220_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180806_bpo14_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220522_220209_otm40_f.bsp
-"""
-const spk_pre_180524_181029_180806_bpo14_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220522_220209_otm40_f.bsp")
+const spk_pre_131011_140129_131111_jc032_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131011_140129_131111_jc032.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5296,37 +1426,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131029_140301_131029_TCM9_prelimPA.bsp
 """
-const spk_pre_211130_220526_220210_jm0410_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131029_140301_131029_TCM9_prelimPA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_231104_231212_231220.bsp
-"""
-const spk_pre_131104_140301_131105_TCM9_finalPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_231104_231212_231220.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180806_bpo14_p.bsp
-"""
-const spk_rec_231212_240118_240119_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180806_bpo14_p.bsp")
+const spk_pre_131029_140301_131029_TCM9_prelimPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131029_140301_131029_TCM9_prelimPA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5341,37 +1441,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131104_140301_131105_TCM9_finalPA.bsp
 """
-const spk_pre_180524_181101_180807_jm0152_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131104_140301_131105_TCM9_finalPA.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220526_220210_jm0410.bsp
-"""
-const spk_pre_131114_140223_131205_jc033_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220526_220210_jm0410.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_231212_240118_240119.bsp
-"""
-const spk_pre_220113_220522_220228_apo40_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_231212_240118_240119.bsp")
+const spk_pre_131104_140301_131105_TCM9_finalPA_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131104_140301_131105_TCM9_finalPA.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5386,37 +1456,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140223_131205_jc033.bsp
 """
-const spk_rec_240118_240221_240226_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140223_131205_jc033.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181101_180807_jm0152.bsp
-"""
-const spk_pre_131114_140330_140113_jc034_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181101_180807_jm0152.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220522_220228_apo40_p.bsp
-"""
-const spk_pre_180615_181221_180823_otm15_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220522_220228_apo40_p.bsp")
+const spk_pre_131114_140223_131205_jc033_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140223_131205_jc033.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5431,52 +1471,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140330_140113_jc034.bsp
 """
-const spk_pre_220113_220522_220309_apo40_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140330_140113_jc034.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240118_240221_240226.bsp
-"""
-const spk_pre_131114_140427_140210_jc035_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240118_240221_240226.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180823_otm15_p.bsp
-"""
-const spk_rec_240221_240325_240401_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180823_otm15_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220522_220309_apo40_f.bsp
-"""
-const spk_pre_180615_181221_180828_otm15_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220522_220309_apo40_f.bsp")
+const spk_pre_131114_140330_140113_jc034_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140330_140113_jc034.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5491,52 +1486,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140427_140210_jc035.bsp
 """
-const spk_pre_220113_220704_220328_otm41_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140427_140210_jc035.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240221_240325_240401.bsp
-"""
-const spk_pre_131114_140525_140309_jc036_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240221_240325_240401.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180828_otm15_f.bsp
-"""
-const spk_rec_240325_240426_240430_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180828_otm15_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220704_220328_otm41_p.bsp
-"""
-const spk_pre_180615_181221_180829_btm15_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220704_220328_otm41_p.bsp")
+const spk_pre_131114_140427_140210_jc035_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140427_140210_jc035.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5551,52 +1501,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140525_140309_jc036.bsp
 """
-const spk_pre_220113_220704_220330_otm41_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140525_140309_jc036.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240325_240426_240430.bsp
-"""
-const spk_pre_131114_140626_140407_jc037_wMEF2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240325_240426_240430.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180829_btm15_p.bsp
-"""
-const spk_rec_240426_240529_240605_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180829_btm15_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220704_220330_otm41_f.bsp
-"""
-const spk_pre_180615_181221_180904_btm15_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220704_220330_otm41_f.bsp")
+const spk_pre_131114_140525_140309_jc036_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140525_140309_jc036.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5611,52 +1516,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140626_140407_jc037_wMEF2.bsp
 """
-const spk_pre_220125_220708_220411_jm0420_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140626_140407_jc037_wMEF2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240426_240529_240605.bsp
-"""
-const spk_pre_131114_140720_140505_jc038_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240426_240529_240605.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180904_btm15_f.bsp
-"""
-const spk_rec_240529_240701_240705_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180904_btm15_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220125_220708_220411_jm0420.bsp
-"""
-const spk_pre_180615_181224_180904_jm0161_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220125_220708_220411_jm0420.bsp")
+const spk_pre_131114_140626_140407_jc037_wMEF2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140626_140407_jc037_wMEF2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5671,52 +1531,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140720_140505_jc038.bsp
 """
-const spk_pre_220225_220704_220418_apo41_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140720_140505_jc038.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181224_180904_jm0161.bsp
-"""
-const spk_pre_131114_140820_140602_jc039_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181224_180904_jm0161.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220225_220704_220418_apo41_p.bsp
-"""
-const spk_pre_180716_181221_180917_apo15_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220225_220704_220418_apo41_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240529_240701_240705.bsp
-"""
-const spk_pre_220225_220704_220420_apo41_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240529_240701_240705.bsp")
+const spk_pre_131114_140720_140505_jc038_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140720_140505_jc038.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5731,7 +1546,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140820_140602_jc039.bsp
 """
-const spk_rec_240701_240802_240814_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140820_140602_jc039.bsp")
+const spk_pre_131114_140820_140602_jc039_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_140820_140602_jc039.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5759,99 +1574,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180917_apo15_p.bsp
-"""
-const spk_pre_131114_141011_140728_jc041_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180917_apo15_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220225_220704_220420_apo41_f.bsp
-"""
-const spk_pre_180716_181221_180918_apo15_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220225_220704_220420_apo41_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240701_240802_240814.bsp
-"""
-const spk_pre_220326_220817_220509_otm42_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240701_240802_240814.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_141011_140728_jc041.bsp
 """
-const spk_rec_240802_240904_240910_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_141011_140728_jc041.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180918_apo15_f.bsp
-"""
-const spk_pre_131114_141108_140825_jc042_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180918_apo15_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220817_220509_otm42_p.bsp
-"""
-const spk_pre_180716_181221_180924_bpo15_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220817_220509_otm42_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240802_240904_240910.bsp
-"""
-const spk_pre_220326_220817_220511_otm42_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240802_240904_240910.bsp")
+const spk_pre_131114_141011_140728_jc041_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_141011_140728_jc041.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5866,52 +1591,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_141108_140825_jc042.bsp
 """
-const spk_ref_110805_171016_110815_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_141108_140825_jc042.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180924_bpo15_f.bsp
-"""
-const spk_pre_131114_141207_140922_jc043_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180924_bpo15_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220817_220511_otm42_f.bsp
-"""
-const spk_pre_180716_181221_180924_bpo15_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220817_220511_otm42_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_110805_171016_110815.bsp
-"""
-const spk_pre_220326_220820_220512_jm0430_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_110805_171016_110815.bsp")
+const spk_pre_131114_141108_140825_jc042_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_141108_140825_jc042.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5926,52 +1606,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_141207_140922_jc043.bsp
 """
-const spk_ref_121015_171016_121023_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_141207_140922_jc043.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180924_bpo15_p.bsp
-"""
-const spk_pre_131114_150104_141020_jc044_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180924_bpo15_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220820_220512_jm0430.bsp
-"""
-const spk_pre_180716_181224_180926_jm0162_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220820_220512_jm0430.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_121015_171016_121023.bsp
-"""
-const spk_pre_220326_220820_220518_jm0430_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_121015_171016_121023.bsp")
+const spk_pre_131114_141207_140922_jc043_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_141207_140922_jc043.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5986,52 +1621,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_150104_141020_jc044.bsp
 """
-const spk_ref_130201_171016_130213_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_150104_141020_jc044.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181224_180926_jm0162.bsp
-"""
-const spk_pre_140512_140901_140512_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181224_180926_jm0162.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220820_220518_jm0430.bsp
-"""
-const spk_pre_180808_190212_181018_otm16_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220820_220518_jm0430.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_130201_171016_130213.bsp
-"""
-const spk_pre_220410_220817_220526_apo42_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_130201_171016_130213.bsp")
+const spk_pre_131114_150104_141020_jc044_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_131114_150104_141020_jc044.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6046,52 +1636,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140512_140901_140512.bsp
 """
-const spk_ref_130515_171017_130515_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140512_140901_140512.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181018_otm16_p.bsp
-"""
-const spk_pre_140703_160713_150818_joiPA_prelim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181018_otm16_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220410_220817_220526_apo42_p.bsp
-"""
-const spk_pre_180808_190212_181022_otm16_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220410_220817_220526_apo42_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_130515_171017_130515.bsp
-"""
-const spk_pre_220410_220817_220601_apo42_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_130515_171017_130515.bsp")
+const spk_pre_140512_140901_140512_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140512_140901_140512.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6106,52 +1651,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140703_160713_150818_joiPA_prelim.bsp
 """
-const spk_ref_131114_171017_140311_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140703_160713_150818_joiPA_prelim.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181022_otm16_f.bsp
-"""
-const spk_pre_140903_150126_141110_jc045_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181022_otm16_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220410_220817_220601_apo42_f.bsp
-"""
-const spk_pre_180808_190212_181023_btm16_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220410_220817_220601_apo42_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_131114_171017_140311.bsp
-"""
-const spk_pre_220410_220929_220615_otm43_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_131114_171017_140311.bsp")
+const spk_pre_140703_160713_150818_joiPA_prelim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140703_160713_150818_joiPA_prelim.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6166,22 +1666,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150126_141110_jc045.bsp
 """
-const spk_ref_150326_180221_150326_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150126_141110_jc045.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181023_btm16_p.bsp
-"""
-const spk_pre_140903_150213_141201_jc046_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181023_btm16_p.bsp")
+const spk_pre_140903_150126_141110_jc045_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150126_141110_jc045.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6196,37 +1681,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150213_141201_jc046.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220410_220929_220615_otm43_p.bsp
-"""
-const spk_pre_180808_190212_181026_btm16_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150213_141201_jc046.bsp")
-const spk_pre_180808_190212_181026_btm16_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220410_220929_220615_otm43_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_150326_180221_150326.bsp
-"""
-const spk_pre_220502_220929_220622_otm43_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_150326_180221_150326.bsp")
+const spk_pre_140903_150213_141201_jc046_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150213_141201_jc046.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6241,52 +1696,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150329_150112_jc047.bsp
 """
-const spk_ref_160226_180221_160226_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150329_150112_jc047.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181026_btm16_f.bsp
-"""
-const spk_pre_140903_150427_150208_jc048_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181026_btm16_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220502_220929_220622_otm43_f.bsp
-"""
-const spk_pre_180808_190215_181023_jm0171_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220502_220929_220622_otm43_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_160226_180221_160226.bsp
-"""
-const spk_pre_220502_221002_220624_jm0440_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_160226_180221_160226.bsp")
+const spk_pre_140903_150329_150112_jc047_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150329_150112_jc047.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6301,52 +1711,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150427_150208_jc048.bsp
 """
-const spk_ref_160829_190912_161027_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150427_150208_jc048.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190215_181023_jm0171.bsp
-"""
-const spk_pre_140903_150517_150303_jc049_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190215_181023_jm0171.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220502_221002_220624_jm0440.bsp
-"""
-const spk_pre_180907_190215_181112_jm0172_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220502_221002_220624_jm0440.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_160829_190912_161027.bsp
-"""
-const spk_pre_220614_221106_220803_otm44_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_160829_190912_161027.bsp")
+const spk_pre_140903_150427_150208_jc048_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150427_150208_jc048.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6361,52 +1726,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150517_150303_jc049.bsp
 """
-const spk_ref_161212_210731_170320_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150517_150303_jc049.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190215_181112_jm0172.bsp
-"""
-const spk_pre_140903_150625_150406_jc050_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190215_181112_jm0172.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221106_220803_otm44_p.bsp
-"""
-const spk_pre_180907_190406_181211_otm17_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221106_220803_otm44_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_161212_210731_170320.bsp
-"""
-const spk_pre_220614_221106_220805_otm44_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_161212_210731_170320.bsp")
+const spk_pre_140903_150517_150303_jc049_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150517_150303_jc049.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6421,52 +1741,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150625_150406_jc050.bsp
 """
-const spk_ref_171106_210731_171109_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150625_150406_jc050.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181211_otm17_p.bsp
-"""
-const spk_pre_140903_150723_150504_jc051_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181211_otm17_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221106_220805_otm44_f.bsp
-"""
-const spk_pre_180907_190406_181213_otm17_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221106_220805_otm44_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_171106_210731_171109.bsp
-"""
-const spk_pre_220614_221106_220810_btm44_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_171106_210731_171109.bsp")
+const spk_pre_140903_150625_150406_jc050_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150625_150406_jc050.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6481,37 +1756,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150723_150504_jc051.bsp
 """
-const spk_ref_180429_210731_180509_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150723_150504_jc051.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181213_otm17_f.bsp
-"""
-const spk_pre_140903_150818_150601_jc052_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181213_otm17_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221106_220810_btm44_f.bsp
-"""
-const spk_pre_180907_190406_181217_btm17_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221106_220810_btm44_f.bsp")
+const spk_pre_140903_150723_150504_jc051_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150723_150504_jc051.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6526,52 +1771,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150818_150601_jc052.bsp
 """
-const spk_pre_220614_221109_220810_jm0450_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150818_150601_jc052.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_180429_210731_180509.bsp
-"""
-const spk_pre_140903_150906_150619_jc053_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_180429_210731_180509.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181217_btm17_p.bsp
-"""
-const spk_ref_210111_251021_210111_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181217_btm17_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221109_220810_jm0450.bsp
-"""
-const spk_pre_180907_190406_181219_btm17_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221109_220810_jm0450.bsp")
+const spk_pre_140903_150818_150601_jc052_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150818_150601_jc052.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6586,52 +1786,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150906_150619_jc053.bsp
 """
-const spk_pre_220706_221106_220824_apo44_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150906_150619_jc053.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_210111_251021_210111.bsp
-"""
-const spk_pre_140903_151011_150723_jc054_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_210111_251021_210111.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181219_btm17_f.bsp
-"""
-const spk_ref_211112_251021_211112_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181219_btm17_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220824_apo44_p.bsp
-"""
-const spk_pre_180907_190409_181211_jm0181_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220824_apo44_p.bsp")
+const spk_pre_140903_150906_150619_jc053_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_150906_150619_jc053.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6646,22 +1801,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_151011_150723_jc054.bsp
 """
-const spk_pre_220706_221106_220829_apo44_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_151011_150723_jc054.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_211112_251021_211112.bsp
-"""
-const spk_pre_140903_151109_150824_jc055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_211112_251021_211112.bsp")
+const spk_pre_140903_151011_150723_jc054_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_151011_150723_jc054.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6676,52 +1816,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_151109_150824_jc055.bsp
 """
-const spk_ref_231110_251016_231110_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_151109_150824_jc055.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190409_181211_jm0181.bsp
-"""
-const spk_pre_140903_160713_150818_joiPA_prelim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190409_181211_jm0181.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220829_apo44_f.bsp
-"""
-const spk_pre_181030_190406_190102_apo17_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220829_apo44_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_231110_251016_231110.bsp
-"""
-const spk_pre_220706_221106_220908_stm44_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_231110_251016_231110.bsp")
+const spk_pre_140903_151109_150824_jc055_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_151109_150824_jc055.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6736,52 +1831,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_160713_150818_joiPA_prelim.bsp
 """
-const _110805LD_120918_0920DSM_160705AD_to_pj34_r090608_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_160713_150818_joiPA_prelim.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190102_apo17_p.bsp
-"""
-const spk_pre_140903_160713_150826_joiPA_final_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190102_apo17_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220908_stm44_p.bsp
-"""
-const spk_pre_181030_190406_190103_apo17_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220908_stm44_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/110805LD-120918-0920DSM-160705AD-to-pj34_r090608_v2.bsp
-"""
-const spk_pre_220706_221106_220912_stm44_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/110805LD-120918-0920DSM-160705AD-to-pj34_r090608_v2.bsp")
+const spk_pre_140903_160713_150818_joiPA_prelim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_160713_150818_joiPA_prelim.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6796,52 +1846,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_160713_150826_joiPA_final.bsp
 """
-const _110807LD_120928_0930DSM_160803AD_to_pj34_r081118_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_160713_150826_joiPA_final.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190103_apo17_f.bsp
-"""
-const spk_pre_150514_150901_150514_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190103_apo17_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220912_stm44_f.bsp
-"""
-const spk_pre_181030_190406_190107_bpo17_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220912_stm44_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/110807LD-120928-0930DSM-160803AD_to_pj34_r081118_v1.bsp
-"""
-const spk_pre_220726_221214_220930_btm45_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/110807LD-120928-0930DSM-160803AD_to_pj34_r081118_v1.bsp")
+const spk_pre_140903_160713_150826_joiPA_final_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_140903_160713_150826_joiPA_final.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6856,52 +1861,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150514_150901_150514.bsp
 """
-const spk_rec_111026_120326_120726_reconstruction_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150514_150901_150514.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190107_bpo17_p.bsp
-"""
-const spk_pre_150611_151206_150921_jc056_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190107_bpo17_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220726_221214_220930_btm45_p.bsp
-"""
-const spk_pre_181030_190406_190108_bpo17_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220726_221214_220930_btm45_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_rec_111026_120326_120726_reconstruction.bsp
-"""
-const spk_pre_220726_221218_220927_jm0460_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_rec_111026_120326_120726_reconstruction.bsp")
+const spk_pre_150514_150901_150514_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150514_150901_150514.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6916,37 +1876,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150611_151206_150921_jc056.bsp
 """
-const spk_rec_131005_131014_131101_reconstruction_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150611_151206_150921_jc056.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190108_bpo17_f.bsp
-"""
-const spk_pre_150611_160103_151016_jc057_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190108_bpo17_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220726_221218_220927_jm0460.bsp
-"""
-const spk_pre_181030_190409_190111_jm0182_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220726_221218_220927_jm0460.bsp")
+const spk_pre_150611_151206_150921_jc056_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150611_151206_150921_jc056.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6961,52 +1891,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150611_160103_151016_jc057.bsp
 """
-const spk_pre_220818_221214_221010_apo45_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150611_160103_151016_jc057.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_rec_131005_131014_131101_reconstruction.bsp
-"""
-const spk_pre_150611_160228_151107_jc058_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_rec_131005_131014_131101_reconstruction.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190409_190111_jm0182.bsp
-"""
-const spk_rec_210513_210630_210707_full_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190409_190111_jm0182.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220818_221214_221010_apo45_p.bsp
-"""
-const spk_pre_181206_190528_190204_otm18_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220818_221214_221010_apo45_p.bsp")
+const spk_pre_150611_160103_151016_jc057_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150611_160103_151016_jc057.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7021,52 +1906,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150611_160228_151107_jc058.bsp
 """
-const spk_pre_220818_221214_221011_apo45_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150611_160228_151107_jc058.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_rec_210513_210630_210707_full.bsp
-"""
-const spk_pre_150611_160228_151207_jc059_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_rec_210513_210630_210707_full.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190204_otm18_p.bsp
-"""
-const spk_ref_110805_111009_110608_1608mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190204_otm18_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220818_221214_221011_apo45_f.bsp
-"""
-const spk_pre_181206_190528_190205_otm18_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220818_221214_221011_apo45_f.bsp")
+const spk_pre_150611_160228_151107_jc058_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150611_160228_151107_jc058.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7081,22 +1921,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150611_160228_151207_jc059.bsp
 """
-const spk_pre_220904_230121_221026_otm46_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150611_160228_151207_jc059.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_111009_110608_1608mco.bsp
-"""
-const spk_pre_151003_160301_160115_tcm11PA_prelim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_111009_110608_1608mco.bsp")
+const spk_pre_150611_160228_151207_jc059_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_150611_160228_151207_jc059.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7111,52 +1936,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160301_160115_tcm11PA_prelim.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190205_otm18_f.bsp
-"""
-const spk_ref_110805_111009_110608_1643mco_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160301_160115_tcm11PA_prelim.bsp")
-const spk_pre_151003_160301_160126_tcm11PA_final_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190205_otm18_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220904_230121_221026_otm46_p.bsp
-"""
-const spk_pre_181206_190528_190208_btm18_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220904_230121_221026_otm46_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_111009_110608_1643mco.bsp
-"""
-const spk_pre_220904_230121_221028_otm46_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_111009_110608_1643mco.bsp")
+const spk_pre_151003_160301_160115_tcm11PA_prelim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160301_160115_tcm11PA_prelim.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7171,52 +1951,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160301_160126_tcm11PA_final.bsp
 """
-const spk_ref_110805_120804_110608_1534mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160301_160126_tcm11PA_final.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190208_btm18_p.bsp
-"""
-const spk_pre_151003_160331_160111_jc060_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190208_btm18_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220904_230121_221028_otm46_f.bsp
-"""
-const spk_pre_181206_190528_190211_btm18_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220904_230121_221028_otm46_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_120804_110608_1534mco.bsp
-"""
-const spk_pre_220904_230125_221031_jm0470_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_120804_110608_1534mco.bsp")
+const spk_pre_151003_160301_160126_tcm11PA_final_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160301_160126_tcm11PA_final.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7231,52 +1966,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160331_160111_jc060.bsp
 """
-const spk_ref_110805_171016_100527_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160331_160111_jc060.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190211_btm18_f.bsp
-"""
-const spk_pre_151003_160430_160121_jc061_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190211_btm18_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220904_230125_221031_jm0470.bsp
-"""
-const spk_pre_181206_190601_190204_jm0191_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220904_230125_221031_jm0470.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_171016_100527.bsp
-"""
-const spk_pre_220930_230121_221114_apo46_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_171016_100527.bsp")
+const spk_pre_151003_160331_160111_jc060_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160331_160111_jc060.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7291,52 +1981,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160430_160121_jc061.bsp
 """
-const spk_ref_110805_171016_101109_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160430_160121_jc061.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190601_190204_jm0191.bsp
-"""
-const spk_pre_151003_160601_160223_jc062_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190601_190204_jm0191.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220930_230121_221114_apo46_p.bsp
-"""
-const spk_pre_181222_190601_190312_jm0192_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220930_230121_221114_apo46_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_171016_101109.bsp
-"""
-const spk_pre_220930_230121_221116_apo46_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_171016_101109.bsp")
+const spk_pre_151003_160430_160121_jc061_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160430_160121_jc061.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7351,37 +1996,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160601_160223_jc062.bsp
 """
-const spk_ref_110806_111010_110608_1524mco_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160601_160223_jc062.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181222_190601_190312_jm0192.bsp
-"""
-const spk_pre_151003_160701_160317_jc063_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181222_190601_190312_jm0192.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220930_230121_221116_apo46_f.bsp
-"""
-const spk_pre_190111_190720_190325_otm19_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220930_230121_221116_apo46_f.bsp")
+const spk_pre_151003_160601_160223_jc062_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160601_160223_jc062.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7396,52 +2011,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160701_160317_jc063.bsp
 """
-const spk_pre_220930_230304_221122_jm0480_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160701_160317_jc063.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1524mco.bsp
-"""
-const spk_pre_151003_160713_160210_joiPB_prelim_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1524mco.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190325_otm19_p.bsp
-"""
-const spk_ref_110806_111010_110608_1524mco_wp_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190325_otm19_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220930_230304_221122_jm0480.bsp
-"""
-const spk_pre_190111_190720_190327_otm19_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220930_230304_221122_jm0480.bsp")
+const spk_pre_151003_160701_160317_jc063_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160701_160317_jc063.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7456,52 +2026,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160713_160210_joiPB_prelim.bsp
 """
-const spk_pre_221019_230228_221205_otm47_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160713_160210_joiPB_prelim.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1524mco_wp.bsp
-"""
-const spk_pre_151003_160713_160223_joiPB_final_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1524mco_wp.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190327_otm19_f.bsp
-"""
-const spk_ref_110806_111010_110608_1602mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190327_otm19_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221019_230228_221205_otm47_p.bsp
-"""
-const spk_pre_190111_190720_190402_btm19_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221019_230228_221205_otm47_p.bsp")
+const spk_pre_151003_160713_160210_joiPB_prelim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160713_160210_joiPB_prelim.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7516,52 +2041,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160713_160223_joiPB_final.bsp
 """
-const spk_pre_221019_230228_221207_otm47_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160713_160223_joiPB_final.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1602mco.bsp
-"""
-const spk_pre_160203_160701_160510_tcm12_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1602mco.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190402_btm19_p.bsp
-"""
-const spk_ref_110806_111010_110608_1641mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190402_btm19_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221019_230228_221207_otm47_f.bsp
-"""
-const spk_pre_190111_190720_190404_btm19_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221019_230228_221207_otm47_f.bsp")
+const spk_pre_151003_160713_160223_joiPB_final_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_151003_160713_160223_joiPB_final.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7576,22 +2056,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160203_160701_160510_tcm12_p.bsp
 """
-const spk_pre_221107_230228_221219_apo47_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160203_160701_160510_tcm12_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1641mco.bsp
-"""
-const spk_pre_160203_160801_160418_jc064_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1641mco.bsp")
+const spk_pre_160203_160701_160510_tcm12_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160203_160701_160510_tcm12_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7606,52 +2071,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160203_160801_160418_jc064.bsp
 """
-const spk_ref_110807_111011_110608_1515mco_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160203_160801_160418_jc064.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190404_btm19_f.bsp
-"""
-const spk_pre_160203_160815_160523_jm0001_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190404_btm19_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230228_221219_apo47_p.bsp
-"""
-const spk_pre_190213_190720_190422_apo19_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230228_221219_apo47_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1515mco.bsp
-"""
-const spk_pre_221107_230407_230109_otm48_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1515mco.bsp")
+const spk_pre_160203_160801_160418_jc064_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160203_160801_160418_jc064.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7666,52 +2086,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160203_160815_160523_jm0001.bsp
 """
-const spk_ref_110807_111011_110608_1515mco_wp_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160203_160815_160523_jm0001.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190422_apo19_p.bsp
-"""
-const spk_pre_160413_160826_160719_otm00_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190422_apo19_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230407_230109_otm48_p.bsp
-"""
-const spk_pre_190213_190720_190423_apo19_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230407_230109_otm48_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1515mco_wp.bsp
-"""
-const spk_pre_221107_230407_230111_otm48_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1515mco_wp.bsp")
+const spk_pre_160203_160815_160523_jm0001_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160203_160815_160523_jm0001.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7726,52 +2101,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_160826_160719_otm00_p.bsp
 """
-const spk_ref_110807_111011_110608_1557mco_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_160826_160719_otm00_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190423_apo19_f.bsp
-"""
-const spk_pre_160413_160910_160719_otm00_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190423_apo19_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230407_230111_otm48_f.bsp
-"""
-const spk_pre_190213_190720_190425_bpo19_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230407_230111_otm48_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1557mco.bsp
-"""
-const spk_pre_221107_230411_230111_jm0490_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1557mco.bsp")
+const spk_pre_160413_160826_160719_otm00_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_160826_160719_otm00_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7786,37 +2116,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_160910_160719_otm00_p.bsp
 """
-const spk_ref_110807_111011_110608_1639mco_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_160910_160719_otm00_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190425_bpo19_p.bsp
-"""
-const spk_pre_160413_160913_160613_jm0002_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190425_bpo19_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230411_230111_jm0490.bsp
-"""
-const spk_pre_190213_190720_190429_bpo19_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230411_230111_jm0490.bsp")
+const spk_pre_160413_160910_160719_otm00_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_160910_160719_otm00_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7831,52 +2131,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_160913_160613_jm0002.bsp
 """
-const spk_pre_221215_230407_230130_apo48_p_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_160913_160613_jm0002.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1639mco.bsp
-"""
-const spk_pre_160413_161001_160707_joicu_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1639mco.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190429_bpo19_f.bsp
-"""
-const spk_ref_110808_111012_110608_1509mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190429_bpo19_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221215_230407_230130_apo48_p.bsp
-"""
-const spk_pre_190213_190724_190409_jm0201_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221215_230407_230130_apo48_p.bsp")
+const spk_pre_160413_160913_160613_jm0002_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_160913_160613_jm0002.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7891,52 +2146,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161001_160707_joicu_p.bsp
 """
-const spk_pre_221215_230407_230201_apo48_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161001_160707_joicu_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1509mco.bsp
-"""
-const spk_pre_160413_161001_160708_joicu_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1509mco.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190724_190409_jm0201.bsp
-"""
-const spk_ref_110808_111012_110608_1509mco_wp_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190724_190409_jm0201.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221215_230407_230201_apo48_f.bsp
-"""
-const spk_pre_190213_191226_190409_apo22a_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221215_230407_230201_apo48_f.bsp")
+const spk_pre_160413_161001_160707_joicu_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161001_160707_joicu_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7951,52 +2161,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161001_160708_joicu_f.bsp
 """
-const spk_pre_230103_230515_230216_otm49_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161001_160708_joicu_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1509mco_wp.bsp
-"""
-const spk_pre_160413_161009_160708_jm0003_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1509mco_wp.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_191226_190409_apo22a_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230103_230515_230216_otm49_p.bsp
-"""
-const spk_ref_110808_111012_110608_1552mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_191226_190409_apo22a_p.bsp")
-const spk_pre_190213_191226_190411_apo22a_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230103_230515_230216_otm49_p.bsp")
+const spk_pre_160413_161001_160708_joicu_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161001_160708_joicu_f.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8011,22 +2176,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161009_160708_jm0003.bsp
 """
-const spk_pre_230103_230515_230221_otm49_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161009_160708_jm0003.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1552mco.bsp
-"""
-const spk_pre_160413_161016_160712_jm0003_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1552mco.bsp")
+const spk_pre_160413_161009_160708_jm0003_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161009_160708_jm0003.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8041,52 +2191,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161016_160712_jm0003.bsp
 """
-const spk_ref_110808_111012_110608_1636mco_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161016_160712_jm0003.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_191226_190411_apo22a_f.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230103_230515_230221_otm49_f.bsp
-"""
-const spk_pre_160413_161016_160818_pj01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_191226_190411_apo22a_f.bsp")
-const spk_pre_160413_161016_160818_pj01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230103_230515_230221_otm49_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1636mco.bsp
-"""
-const spk_pre_230103_230519_230223_jm0500_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1636mco.bsp")
+const spk_pre_160413_161016_160712_jm0003_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161016_160712_jm0003.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8101,52 +2206,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161016_160818_pj01.bsp
 """
-const spk_ref_110809_111013_110608_1504mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161016_160818_pj01.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190724_190506_jm0202.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230103_230519_230223_jm0500.bsp
-"""
-const spk_pre_160413_161101_160727_prm_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190724_190506_jm0202.bsp")
-const spk_pre_160413_161101_160727_prm_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230103_230519_230223_jm0500.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110809_111013_110608_1504mco.bsp
-"""
-const spk_pre_230123_230515_230309_apo49_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110809_111013_110608_1504mco.bsp")
+const spk_pre_160413_161016_160818_pj01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161016_160818_pj01.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8161,52 +2221,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161101_160727_prm_p.bsp
 """
-const spk_ref_110809_111013_110608_1548mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161101_160727_prm_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190515_otm20_p.bsp
-"""
-const spk_pre_160413_161101_160802_prm_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190515_otm20_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230515_230309_apo49_p.bsp
-"""
-const spk_pre_190307_190911_190517_otm20_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230515_230309_apo49_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110809_111013_110608_1548mco.bsp
-"""
-const spk_pre_230123_230515_230313_apo49_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110809_111013_110608_1548mco.bsp")
+const spk_pre_160413_161101_160727_prm_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161101_160727_prm_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8221,52 +2236,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161101_160802_prm_f.bsp
 """
-const spk_ref_110809_111013_110608_1633mco_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161101_160802_prm_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190517_otm20_f.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230515_230313_apo49_f.bsp
-"""
-const spk_pre_160413_161103_160803_jm0004_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230515_230313_apo49_f.bsp")
-const spk_pre_160413_161103_160803_jm0004_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190517_otm20_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110809_111013_110608_1633mco.bsp
-"""
-const spk_pre_190307_190911_190521_btm20_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110809_111013_110608_1633mco.bsp")
+const spk_pre_160413_161101_160802_prm_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161101_160802_prm_f.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8281,37 +2251,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161103_160803_jm0004.bsp
 """
-const spk_ref_121015_171017_121016_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161103_160803_jm0004.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190521_btm20_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230622_230417_apo50_p.bsp
-"""
-const spk_pre_160705_161216_160901_otm01_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190521_btm20_p.bsp")
-const spk_pre_160705_161216_160901_otm01_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230622_230417_apo50_p.bsp")
+const spk_pre_160413_161103_160803_jm0004_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160413_161103_160803_jm0004.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8326,52 +2266,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_161216_160901_otm01_p.bsp
 """
-const spk_pre_230123_230622_230418_apo50_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_161216_160901_otm01_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_121015_171017_121016.bsp
-"""
-const spk_pre_160705_161216_160907_otm01_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_121015_171017_121016.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190523_btm20_f.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230622_230418_apo50_f.bsp
-"""
-const juno_v03_draft1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190523_btm20_f.bsp")
-const juno_v03_draft1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230622_230418_apo50_f.bsp")
+const spk_pre_160705_161216_160901_otm01_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_161216_160901_otm01_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8386,52 +2281,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_161216_160907_otm01_f.bsp
 """
-const spk_pre_230123_230626_230403_jm0510_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_161216_160907_otm01_f.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v03_draft1.tf
-"""
-const spk_pre_160705_161216_160912_btm01_p_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v03_draft1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190915_190528_jm0211.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230626_230403_jm0510.bsp
-"""
-const juno_v06_draft1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190915_190528_jm0211.bsp")
-const juno_v06_draft1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230626_230403_jm0510.bsp")
+const spk_pre_160705_161216_160907_otm01_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_161216_160907_otm01_f.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8446,52 +2296,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_161216_160912_btm01_p.bsp
 """
-const spk_pre_230210_230730_230505_otm51_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_161216_160912_btm01_p.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v06_draft1.tf
-"""
-const spk_pre_160705_161216_160913_btm01_f_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v06_draft1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190611_apo20_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230210_230730_230505_otm51_p.bsp
-"""
-const juno_v06_draft2_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190611_apo20_p.bsp")
-const spk_pre_190407_190911_190612_apo20_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230210_230730_230505_otm51_p.bsp")
+const spk_pre_160705_161216_160912_btm01_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_161216_160912_btm01_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8506,22 +2311,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_161216_160913_btm01_f.bsp
 """
-const spk_pre_230210_230730_230509_otm51_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_161216_160913_btm01_f.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v06_draft2.tf
-"""
-const spk_pre_160705_170105_161003_jm0405_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v06_draft2.tf")
+const spk_pre_160705_161216_160913_btm01_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_161216_160913_btm01_f.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8536,52 +2326,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_170105_161003_jm0405.bsp
 """
-const juno_v06_draft3_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_170105_161003_jm0405.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190612_apo20_f.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230210_230730_230509_otm51_f.bsp
-"""
-const spk_pre_160729_170201_161017_otm02a_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190612_apo20_f.bsp")
-const spk_pre_160729_170201_161017_otm02a_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230210_230730_230509_otm51_f.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v06_draft3.tf
-"""
-const spk_pre_190407_190911_190617_bpo20_p_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v06_draft3.tf")
+const spk_pre_160705_170105_161003_jm0405_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160705_170105_161003_jm0405.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8596,52 +2341,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160729_170201_161017_otm02a_p.bsp
 """
-const juno_v07_draft1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160729_170201_161017_otm02a_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190617_bpo20_p.bsp
-"""
-const spk_pre_160729_170201_161019_otm02b_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190617_bpo20_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230210_230803_230508_jm0520.bsp
-"""
-const spk_pre_190407_190911_190618_bpo20_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230210_230803_230508_jm0520.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v07_draft1.tf
-"""
-const spk_pre_230427_230730_230522_apo51_p_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v07_draft1.tf")
+const spk_pre_160729_170201_161017_otm02a_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160729_170201_161017_otm02a_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8656,52 +2356,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160729_170201_161019_otm02b_f.bsp
 """
-const juno_v07_draft2_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160729_170201_161019_otm02b_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190618_bpo20_f.bsp
-"""
-const spk_pre_160729_170201_161019_otm02b_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190618_bpo20_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230730_230522_apo51_p.bsp
-"""
-const spk_pre_190407_190915_190613_jm0212_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230730_230522_apo51_p.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v07_draft2.tf
-"""
-const spk_pre_230427_230730_230524_apo51_f_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v07_draft2.tf")
+const spk_pre_160729_170201_161019_otm02b_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160729_170201_161019_otm02b_f.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8716,37 +2371,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160729_170201_161019_otm02b_p.bsp
 """
-const juno_v09_draft6_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160729_170201_161019_otm02b_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190915_190613_jm0212.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230730_230524_apo51_f.bsp
-"""
-const spk_pre_160829_170201_161024_btm02_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190915_190613_jm0212.bsp")
-const spk_pre_160829_170201_161024_btm02_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230730_230524_apo51_f.bsp")
+const spk_pre_160729_170201_161019_otm02b_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160729_170201_161019_otm02b_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8761,52 +2386,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170201_161024_btm02_p.bsp
 """
-const spk_pre_230427_230906_230612_otm52_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170201_161024_btm02_p.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v09_draft6.tf
-"""
-const spk_pre_160829_170201_161027_jm0031_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v09_draft6.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191103_190710_otm21_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230906_230612_otm52_p.bsp
-"""
-const spk_pre_190406_260101_191007_SAMPLE_7_GBS_passes_to_PJ66_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191103_190710_otm21_p.bsp")
-const spk_pre_190502_191103_190711_otm21_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230906_230612_otm52_p.bsp")
+const spk_pre_160829_170201_161024_btm02_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170201_161024_btm02_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8821,52 +2401,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170201_161027_jm0031.bsp
 """
-const spk_pre_230427_230906_230614_otm52_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170201_161027_jm0031.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_7gbs_191007/spk_pre_190406_260101_191007_SAMPLE_7_GBS_passes_to_PJ66.bsp
-"""
-const spk_pre_160829_170202_161031_jm0031_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_7gbs_191007/spk_pre_190406_260101_191007_SAMPLE_7_GBS_passes_to_PJ66.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230906_230614_otm52_f.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191103_190711_otm21_f.bsp
-"""
-const spk_SAMPLE_210221_250714_191231_EM_case_10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191103_190711_otm21_f.bsp")
-const spk_SAMPLE_210221_250714_191231_EM_case_10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230906_230614_otm52_f.bsp")
+const spk_pre_160829_170201_161027_jm0031_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170201_161027_jm0031.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8881,52 +2416,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170202_161031_jm0031.bsp
 """
-const spk_pre_230427_230910_230612_jm0530_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170202_161031_jm0031.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_case10_GRAV_200108/spk_SAMPLE_210221_250714_191231_EM_case_10.bsp
-"""
-const spk_pre_160829_170202_161119_jm0032_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_case10_GRAV_200108/spk_SAMPLE_210221_250714_191231_EM_case_10.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191106_190716_jm0221.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230910_230612_jm0530.bsp
-"""
-const spk_SAMPLE_210221_251021_200206_EM_Case_10plus_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191106_190716_jm0221.bsp")
-const spk_SAMPLE_210221_251021_200206_EM_Case_10plus_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230910_230612_jm0530.bsp")
+const spk_pre_160829_170202_161031_jm0031_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170202_161031_jm0031.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8941,22 +2431,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170202_161119_jm0032.bsp
 """
-const spk_pre_230517_230906_230628_apo52_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170202_161119_jm0032.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_case10plus_GRAV_200210/spk_SAMPLE_210221_251021_200206_EM_Case_10plus.bsp
-"""
-const spk_pre_160829_170205_161122_jm0032_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_case10plus_GRAV_200210/spk_SAMPLE_210221_251021_200206_EM_Case_10plus.bsp")
+const spk_pre_160829_170202_161119_jm0032_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170202_161119_jm0032.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8971,52 +2446,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170205_161122_jm0032.bsp
 """
-const spk_SAMPLE_210221_251202_191218_EM_case_9_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170205_161122_jm0032.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230517_230906_230628_apo52_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191226_190726_apo22b_p.bsp
-"""
-const spk_pre_160829_170326_161205_otm03_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191226_190726_apo22b_p.bsp")
-const spk_pre_160829_170326_161205_otm03_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230517_230906_230628_apo52_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_case9_GRAV_200108/spk_SAMPLE_210221_251202_191218_EM_case_9.bsp
-"""
-const spk_pre_190502_191226_190730_apo22b_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_case9_GRAV_200108/spk_SAMPLE_210221_251202_191218_EM_case_9.bsp")
+const spk_pre_160829_170205_161122_jm0032_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170205_161122_jm0032.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9031,52 +2461,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170326_161205_otm03_p.bsp
 """
-const spk_pre_190529_240819_191007_SAMPLE_double_flybys_42d_to_PJ62_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170326_161205_otm03_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230517_230906_230629_apo52_f.bsp
-"""
-const spk_pre_160829_170326_161207_otm03_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230517_230906_230629_apo52_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191226_190730_apo22b_f.bsp
-"""
-const spk_pre_230517_231018_230724_jm0540_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191226_190730_apo22b_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_df_42d_191007/spk_pre_190529_240819_191007_SAMPLE_double_flybys_42d_to_PJ62.bsp
-"""
-const spk_pre_190529_191103_190805_apo21_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_df_42d_191007/spk_pre_190529_240819_191007_SAMPLE_double_flybys_42d_to_PJ62.bsp")
+const spk_pre_160829_170326_161205_otm03_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170326_161205_otm03_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9091,52 +2476,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170326_161207_otm03_f.bsp
 """
-const spk_pre_190529_250204_191007_SAMPLE_double_flybys_50d_to_PJ61_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170326_161207_otm03_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230517_231018_230724_jm0540.bsp
-"""
-const spk_pre_160829_170326_161209_btm03_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230517_231018_230724_jm0540.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190805_apo21_p.bsp
-"""
-const spk_pre_230712_231122_230828_otm54_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190805_apo21_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_df_50d_191007/spk_pre_190529_250204_191007_SAMPLE_double_flybys_50d_to_PJ61.bsp
-"""
-const spk_pre_190529_191103_190806_apo21_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_df_50d_191007/spk_pre_190529_250204_191007_SAMPLE_double_flybys_50d_to_PJ61.bsp")
+const spk_pre_160829_170326_161207_otm03_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170326_161207_otm03_f.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9151,37 +2491,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170326_161209_btm03_f.bsp
 """
-const juno_v05_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170326_161209_btm03_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230712_231122_230828_otm54_p.bsp
-"""
-const spk_pre_160829_170326_161209_btm03_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230712_231122_230828_otm54_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190806_apo21_f.bsp
-"""
-const spk_pre_230712_231122_230829_otm54_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190806_apo21_f.bsp")
+const spk_pre_160829_170326_161209_btm03_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170326_161209_btm03_f.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9196,52 +2506,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170326_161209_btm03_p.bsp
 """
-const spk_pre_190529_191103_190807_bpo21_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170326_161209_btm03_p.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/fgm/20111129/juno_v05.tf
-"""
-const spk_pre_160829_170330_161212_jm0041_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/fgm/20111129/juno_v05.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230712_231122_230829_otm54_f.bsp
-"""
-const juno_v09_draft2_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230712_231122_230829_otm54_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190807_bpo21_p.bsp
-"""
-const spk_pre_230712_231125_230830_jm0550_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190807_bpo21_p.bsp")
+const spk_pre_160829_170326_161209_btm03_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170326_161209_btm03_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9256,52 +2521,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170330_161212_jm0041.bsp
 """
-const spk_pre_190529_191103_190812_bpo21_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170330_161212_jm0041.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/fgm/20111129/juno_v09_draft2.tf
-"""
-const spk_pre_161009_161029_151013_prmPA_prelim_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/fgm/20111129/juno_v09_draft2.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230712_231125_230830_jm0550.bsp
-"""
-const juno_v09_draft5_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230712_231125_230830_jm0550.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190812_bpo21_f.bsp
-"""
-const spk_pre_230731_231122_230914_apo54_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190812_bpo21_f.bsp")
+const spk_pre_160829_170330_161212_jm0041_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_160829_170330_161212_jm0041.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9316,52 +2536,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161009_161029_151013_prmPA_prelim.bsp
 """
-const spk_pre_190529_191106_190808_jm0222_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161009_161029_151013_prmPA_prelim.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/fgm/20111129/juno_v09_draft5.tf
-"""
-const spk_pre_161009_161029_151020_prmPA_final_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/fgm/20111129/juno_v09_draft5.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230731_231122_230914_apo54_p.bsp
-"""
-const juno_sunmag_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230731_231122_230914_apo54_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191106_190808_jm0222.bsp
-"""
-const spk_pre_230731_231122_230918_apo54_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191106_190808_jm0222.bsp")
+const spk_pre_161009_161029_151013_prmPA_prelim_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161009_161029_151013_prmPA_prelim.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9376,52 +2551,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161009_161029_151020_prmPA_final.bsp
 """
-const spk_pre_190620_191226_190829_otm22_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161009_161029_151020_prmPA_final.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/ihonkonen/juno_sunmag_v01.tf
-"""
-const spk_pre_161115_170330_170118_jm0042_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/ihonkonen/juno_sunmag_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230731_231122_230918_apo54_f.bsp
-"""
-const spk_pre_210607_210724_200817_jx0340_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230731_231122_230918_apo54_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190829_otm22_p.bsp
-"""
-const spk_pre_230819_231230_231002_otm55_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190829_otm22_p.bsp")
+const spk_pre_161009_161029_151020_prmPA_final_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161009_161029_151020_prmPA_final.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9436,22 +2566,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170330_170118_jm0042.bsp
 """
-const spk_pre_190620_191226_190903_otm22_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170330_170118_jm0042.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jiram/spk_pre_210607_210724_200817_jx0340.bsp
-"""
-const spk_pre_161115_170518_170124_otm04_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jiram/spk_pre_210607_210724_200817_jx0340.bsp")
+const spk_pre_161115_170330_170118_jm0042_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170330_170118_jm0042.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9466,52 +2581,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170518_170124_otm04_p.bsp
 """
-const juno_phi_o_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170518_170124_otm04_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230819_231230_231002_otm55_p.bsp
-"""
-const spk_pre_161115_170518_170125_otm04_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230819_231230_231002_otm55_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190903_otm22_f.bsp
-"""
-const spk_pre_230819_231230_231004_otm55_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190903_otm22_f.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_phi_o_v1.tf
-"""
-const spk_pre_190620_191226_190906_btm22_p_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_phi_o_v1.tf")
+const spk_pre_161115_170518_170124_otm04_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170518_170124_otm04_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9526,52 +2596,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170518_170125_otm04_f.bsp
 """
-const juno_v09_draft1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170518_170125_otm04_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230819_231230_231004_otm55_f.bsp
-"""
-const spk_pre_161115_170518_170130_btm04_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230819_231230_231004_otm55_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190906_btm22_p.bsp
-"""
-const spk_pre_230819_240102_231005_jm0560_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190906_btm22_p.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_v09_draft1.tf
-"""
-const spk_pre_190620_191226_190909_btm22_f_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_v09_draft1.tf")
+const spk_pre_161115_170518_170125_otm04_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170518_170125_otm04_f.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9586,37 +2611,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170518_170130_btm04_p.bsp
 """
-const juno_v09_draft3_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170518_170130_btm04_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190909_btm22_f.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230819_240102_231005_jm0560.bsp
-"""
-const spk_pre_161115_170518_170201_btm04_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190909_btm22_f.bsp")
-const spk_pre_161115_170518_170201_btm04_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230819_240102_231005_jm0560.bsp")
+const spk_pre_161115_170518_170130_btm04_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170518_170130_btm04_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9631,52 +2626,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170518_170201_btm04_f.bsp
 """
-const spk_pre_230907_240203_231113_otm56_f_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170518_170201_btm04_f.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_v09_draft3.tf
-"""
-const spk_pre_161212_170518_170214_apo04_p_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_v09_draft3.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191229_190906_jm0231.bsp
-"""
-const juno_v09_draft4_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191229_190906_jm0231.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230907_240203_231113_otm56_f.bsp
-"""
-const spk_pre_190721_191226_191003_cpo22_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230907_240203_231113_otm56_f.bsp")
+const spk_pre_161115_170518_170201_btm04_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161115_170518_170201_btm04_f.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9691,52 +2641,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170518_170214_apo04_p.bsp
 """
-const spk_pre_230907_240203_231113_otm56_p_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170518_170214_apo04_p.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_v09_draft4.tf
-"""
-const spk_pre_161212_170518_170215_apo04_f_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_v09_draft4.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190721_191226_191003_cpo22_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230907_240203_231113_otm56_p.bsp
-"""
-const spk_TEST_to_PJ67_170803_260319_180426_TEST_to_PJ67_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190721_191226_191003_cpo22_p.bsp")
-const spk_TEST_to_PJ67_170803_260319_180426_TEST_to_PJ67_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230907_240203_231113_otm56_p.bsp")
+const spk_pre_161212_170518_170214_apo04_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170518_170214_apo04_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9751,52 +2656,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170518_170215_apo04_f.bsp
 """
-const spk_pre_230907_240206_231113_jm0570_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170518_170215_apo04_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/mbrennan/spk_TEST_to_PJ67_170803_260319_180426_TEST_to_PJ67.bsp
-"""
-const spk_pre_161212_170518_170217_bpo04_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/mbrennan/spk_TEST_to_PJ67_170803_260319_180426_TEST_to_PJ67.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230907_240206_231113_jm0570.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190721_191226_191007_cpo22_f.bsp
-"""
-const _110807LD_120928_0930DSM_160803AD_to_pj34_r081118_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230907_240206_231113_jm0570.bsp")
-const _110807LD_120928_0930DSM_160803AD_to_pj34_r081118_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190721_191226_191007_cpo22_f.bsp")
+const spk_pre_161212_170518_170215_apo04_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170518_170215_apo04_f.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9811,52 +2671,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170518_170217_bpo04_p.bsp
 """
-const spk_pre_190721_191229_191008_jm0232_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170518_170217_bpo04_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/20090204/110807LD-120928-0930DSM-160803AD_to_pj34_r081118_v1.bsp
-"""
-const spk_pre_161212_170518_170221_bpo04_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/20090204/110807LD-120928-0930DSM-160803AD_to_pj34_r081118_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240203_231124_apo56_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190721_191229_191008_jm0232.bsp
-"""
-const juno_v00_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190721_191229_191008_jm0232.bsp")
-const juno_v00_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240203_231124_apo56_p.bsp")
+const spk_pre_161212_170518_170217_bpo04_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170518_170217_bpo04_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9871,22 +2686,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170518_170221_bpo04_f.bsp
 """
-const spk_pre_190816_200217_191023_otm23_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170518_170221_bpo04_f.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/20090204/juno_v00.tf
-"""
-const spk_pre_161212_170522_170207_jm0051_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/20090204/juno_v00.tf")
+const spk_pre_161212_170518_170221_bpo04_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170518_170221_bpo04_f.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9901,52 +2701,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170522_170207_jm0051.bsp
 """
-const juno_v02_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170522_170207_jm0051.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191023_otm23_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240203_231213_stm56_p.bsp
-"""
-const juno_v02_tf_spk_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191023_otm23_p.bsp")
-const juno_v02_tf_spk_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240203_231213_stm56_p.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/juno_v02.tf
-"""
-const spk_pre_231016_240203_231218_stm56_f_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/juno_v02.tf")
+const spk_pre_161212_170522_170207_jm0051_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170522_170207_jm0051.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9961,7 +2716,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170522_170307_jm0052.bsp
 """
-const naif0009_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170522_170307_jm0052.bsp")
+const spk_pre_161212_170522_170307_jm0052_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170522_170307_jm0052.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9974,8 +2729,2409 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240203_231218_stm56_f.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170710_170316_otm05_p.bsp
 """
+const spk_pre_161212_170710_170316_otm05_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170710_170316_otm05_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170710_170321_otm05_f.bsp
+"""
+const spk_pre_161212_170710_170321_otm05_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170710_170321_otm05_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170710_170323_btm05_p.bsp
+"""
+const spk_pre_161212_170710_170323_btm05_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_161212_170710_170323_btm05_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170203_170714_170329_jm0061.bsp
+"""
+const spk_pre_170203_170714_170329_jm0061_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170203_170714_170329_jm0061.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170203_170714_170426_jm0062.bsp
+"""
+const spk_pre_170203_170714_170426_jm0062_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170203_170714_170426_jm0062.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170714_170516_jm0071.bsp
+"""
+const spk_pre_170228_170714_170516_jm0071_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170714_170516_jm0071.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170508_otm06_p.bsp
+"""
+const spk_pre_170228_170901_170508_otm06_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170508_otm06_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170510_otm06_f.bsp
+"""
+const spk_pre_170228_170901_170510_otm06_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170510_otm06_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170516_btm06_p.bsp
+"""
+const spk_pre_170228_170901_170516_btm06_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170516_btm06_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170518_btm06_f.bsp
+"""
+const spk_pre_170228_170901_170518_btm06_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170901_170518_btm06_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170904_170516_jm0071.bsp
+"""
+const spk_pre_170228_170904_170516_jm0071_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170228_170904_170516_jm0071.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170525_apo06_p.bsp
+"""
+const spk_pre_170327_170901_170525_apo06_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170525_apo06_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170531_apo06_f.bsp
+"""
+const spk_pre_170327_170901_170531_apo06_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170531_apo06_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170605_bpo06_p.bsp
+"""
+const spk_pre_170327_170901_170605_bpo06_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170605_bpo06_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170607_bpo06_f.bsp
+"""
+const spk_pre_170327_170901_170607_bpo06_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170901_170607_bpo06_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170904_170605_jm0072.bsp
+"""
+const spk_pre_170327_170904_170605_jm0072_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_170904_170605_jm0072.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_171024_170626_otm07_p.bsp
+"""
+const spk_pre_170327_171024_170626_otm07_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_171024_170626_otm07_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_171024_170627_otm07_f.bsp
+"""
+const spk_pre_170327_171024_170627_otm07_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170327_171024_170627_otm07_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170421_171024_170706_btm07_p.bsp
+"""
+const spk_pre_170421_171024_170706_btm07_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170421_171024_170706_btm07_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170421_171027_170711_jm0081.bsp
+"""
+const spk_pre_170421_171027_170711_jm0081_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170421_171027_170711_jm0081.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170724_apo07_p.bsp
+"""
+const spk_pre_170519_171024_170724_apo07_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170724_apo07_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170725_apo07_f.bsp
+"""
+const spk_pre_170519_171024_170725_apo07_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170725_apo07_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170731_bpo07_p.bsp
+"""
+const spk_pre_170519_171024_170731_bpo07_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170731_bpo07_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170801_bpo07_f.bsp
+"""
+const spk_pre_170519_171024_170801_bpo07_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171024_170801_bpo07_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171027_170801_jm0082.bsp
+"""
+const spk_pre_170519_171027_170801_jm0082_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170519_171027_170801_jm0082.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170821_otm08_p.bsp
+"""
+const spk_pre_170609_171216_170821_otm08_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170821_otm08_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170822_otm08_f.bsp
+"""
+const spk_pre_170609_171216_170822_otm08_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170822_otm08_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170830_btm08_p.bsp
+"""
+const spk_pre_170609_171216_170830_btm08_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170830_btm08_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170831_btm08_f.bsp
+"""
+const spk_pre_170609_171216_170831_btm08_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171216_170831_btm08_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171219_170905_jm0091.bsp
+"""
+const spk_pre_170609_171219_170905_jm0091_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170609_171219_170905_jm0091.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170711_171219_170925_jm0092.bsp
+"""
+const spk_pre_170711_171219_170925_jm0092_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170711_171219_170925_jm0092.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171017_otm09_p.bsp
+"""
+const spk_pre_170803_180207_171017_otm09_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171017_otm09_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171017_otm09_p_juno.bsp
+"""
+const spk_pre_170803_180207_171017_otm09_p_juno_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171017_otm09_p_juno.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171023_otm09_f.bsp
+"""
+const spk_pre_170803_180207_171023_otm09_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171023_otm09_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171030_btm09_p.bsp
+"""
+const spk_pre_170803_180207_171030_btm09_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171030_btm09_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171031_btm09_f.bsp
+"""
+const spk_pre_170803_180207_171031_btm09_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180207_171031_btm09_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180210_171016_jm0101.bsp
+"""
+const spk_pre_170803_180210_171016_jm0101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170803_180210_171016_jm0101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170902_180210_171114_jm0102.bsp
+"""
+const spk_pre_170902_180210_171114_jm0102_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170902_180210_171114_jm0102.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171206_otm10_p.bsp
+"""
+const spk_pre_170929_180331_171206_otm10_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171206_otm10_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171211_otm10_f.bsp
+"""
+const spk_pre_170929_180331_171211_otm10_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171211_otm10_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171213_btm10_p.bsp
+"""
+const spk_pre_170929_180331_171213_btm10_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171213_btm10_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171214_btm10_f.bsp
+"""
+const spk_pre_170929_180331_171214_btm10_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180331_171214_btm10_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180404_171212_jm0111.bsp
+"""
+const spk_pre_170929_180404_171212_jm0111_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_170929_180404_171212_jm0111.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_171229_apo10_p.bsp
+"""
+const spk_pre_171110_180331_171229_apo10_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_171229_apo10_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_180102_apo10_f.bsp
+"""
+const spk_pre_171110_180331_180102_apo10_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_180102_apo10_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_180104_bpo10_p.bsp
+"""
+const spk_pre_171110_180331_180104_bpo10_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_180104_bpo10_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_180108_bpo10_f.bsp
+"""
+const spk_pre_171110_180331_180108_bpo10_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180331_180108_bpo10_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180404_180109_jm0112.bsp
+"""
+const spk_pre_171110_180404_180109_jm0112_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180404_180109_jm0112.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180126_otm11_p.bsp
+"""
+const spk_pre_171110_180523_180126_otm11_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180126_otm11_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180130_otm11_f.bsp
+"""
+const spk_pre_171110_180523_180130_otm11_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180130_otm11_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180205_btm11_f.bsp
+"""
+const spk_pre_171110_180523_180205_btm11_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180205_btm11_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180205_btm11_p.bsp
+"""
+const spk_pre_171110_180523_180205_btm11_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180523_180205_btm11_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180527_180206_jm0121.bsp
+"""
+const spk_pre_171110_180527_180206_jm0121_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171110_180527_180206_jm0121.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180215_apo11_p.bsp
+"""
+const spk_pre_171217_180523_180215_apo11_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180215_apo11_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180220_apo11_f.bsp
+"""
+const spk_pre_171217_180523_180220_apo11_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180220_apo11_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180226_bpo11_p.bsp
+"""
+const spk_pre_171217_180523_180226_bpo11_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180226_bpo11_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180227_bpo11_f.bsp
+"""
+const spk_pre_171217_180523_180227_bpo11_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180523_180227_bpo11_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180527_180306_jm0122.bsp
+"""
+const spk_pre_171217_180527_180306_jm0122_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_171217_180527_180306_jm0122.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180321_otm12_p.bsp
+"""
+const spk_pre_180111_180715_180321_otm12_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180321_otm12_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180323_otm12_f.bsp
+"""
+const spk_pre_180111_180715_180323_otm12_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180323_otm12_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180329_btm12_f.bsp
+"""
+const spk_pre_180111_180715_180329_btm12_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180329_btm12_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180329_btm12_p.bsp
+"""
+const spk_pre_180111_180715_180329_btm12_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180715_180329_btm12_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180719_180402_jm0131.bsp
+"""
+const spk_pre_180111_180719_180402_jm0131_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180111_180719_180402_jm0131.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180412_apo12_p.bsp
+"""
+const spk_pre_180208_180715_180412_apo12_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180412_apo12_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180416_apo12_f.bsp
+"""
+const spk_pre_180208_180715_180416_apo12_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180416_apo12_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180418_bpo12_p.bsp
+"""
+const spk_pre_180208_180715_180418_bpo12_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180418_bpo12_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180419_bpo12_f.bsp
+"""
+const spk_pre_180208_180715_180419_bpo12_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180715_180419_bpo12_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180719_180423_jm0132.bsp
+"""
+const spk_pre_180208_180719_180423_jm0132_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180208_180719_180423_jm0132.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180514_otm13_p.bsp
+"""
+const spk_pre_180302_180906_180514_otm13_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180514_otm13_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180515_otm13_f.bsp
+"""
+const spk_pre_180302_180906_180515_otm13_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180515_otm13_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180522_btm13_f.bsp
+"""
+const spk_pre_180302_180906_180522_btm13_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180522_btm13_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180522_btm13_p.bsp
+"""
+const spk_pre_180302_180906_180522_btm13_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180906_180522_btm13_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180910_180521_jm0141.bsp
+"""
+const spk_pre_180302_180910_180521_jm0141_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180302_180910_180521_jm0141.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180604_apo13_p.bsp
+"""
+const spk_pre_180402_180906_180604_apo13_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180604_apo13_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180606_apo13_f.bsp
+"""
+const spk_pre_180402_180906_180606_apo13_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180606_apo13_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180611_bpo13_p.bsp
+"""
+const spk_pre_180402_180906_180611_bpo13_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180611_bpo13_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180614_bpo13_f.bsp
+"""
+const spk_pre_180402_180906_180614_bpo13_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180906_180614_bpo13_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180910_180611_jm0142.bsp
+"""
+const spk_pre_180402_180910_180611_jm0142_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180402_180910_180611_jm0142.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180705_otm14_p.bsp
+"""
+const spk_pre_180423_181029_180705_otm14_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180705_otm14_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180709_otm14_f.bsp
+"""
+const spk_pre_180423_181029_180709_otm14_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180709_otm14_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180712_btm14_f.bsp
+"""
+const spk_pre_180423_181029_180712_btm14_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180712_btm14_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180712_btm14_p.bsp
+"""
+const spk_pre_180423_181029_180712_btm14_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181029_180712_btm14_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181101_180710_jm0151.bsp
+"""
+const spk_pre_180423_181101_180710_jm0151_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180423_181101_180710_jm0151.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180727_apo14_p.bsp
+"""
+const spk_pre_180524_181029_180727_apo14_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180727_apo14_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180731_apo14_f.bsp
+"""
+const spk_pre_180524_181029_180731_apo14_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180731_apo14_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180806_bpo14_f.bsp
+"""
+const spk_pre_180524_181029_180806_bpo14_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180806_bpo14_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180806_bpo14_p.bsp
+"""
+const spk_pre_180524_181029_180806_bpo14_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181029_180806_bpo14_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181101_180807_jm0152.bsp
+"""
+const spk_pre_180524_181101_180807_jm0152_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180524_181101_180807_jm0152.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180823_otm15_p.bsp
+"""
+const spk_pre_180615_181221_180823_otm15_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180823_otm15_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180828_otm15_f.bsp
+"""
+const spk_pre_180615_181221_180828_otm15_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180828_otm15_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180829_btm15_p.bsp
+"""
+const spk_pre_180615_181221_180829_btm15_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180829_btm15_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180904_btm15_f.bsp
+"""
+const spk_pre_180615_181221_180904_btm15_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181221_180904_btm15_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181224_180904_jm0161.bsp
+"""
+const spk_pre_180615_181224_180904_jm0161_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180615_181224_180904_jm0161.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180917_apo15_p.bsp
+"""
+const spk_pre_180716_181221_180917_apo15_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180917_apo15_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180918_apo15_f.bsp
+"""
+const spk_pre_180716_181221_180918_apo15_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180918_apo15_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180924_bpo15_f.bsp
+"""
+const spk_pre_180716_181221_180924_bpo15_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180924_bpo15_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180924_bpo15_p.bsp
+"""
+const spk_pre_180716_181221_180924_bpo15_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181221_180924_bpo15_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181224_180926_jm0162.bsp
+"""
+const spk_pre_180716_181224_180926_jm0162_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180716_181224_180926_jm0162.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181018_otm16_p.bsp
+"""
+const spk_pre_180808_190212_181018_otm16_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181018_otm16_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181022_otm16_f.bsp
+"""
+const spk_pre_180808_190212_181022_otm16_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181022_otm16_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181023_btm16_p.bsp
+"""
+const spk_pre_180808_190212_181023_btm16_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181023_btm16_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181026_btm16_f.bsp
+"""
+const spk_pre_180808_190212_181026_btm16_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190212_181026_btm16_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190215_181023_jm0171.bsp
+"""
+const spk_pre_180808_190215_181023_jm0171_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180808_190215_181023_jm0171.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190215_181112_jm0172.bsp
+"""
+const spk_pre_180907_190215_181112_jm0172_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190215_181112_jm0172.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181211_otm17_p.bsp
+"""
+const spk_pre_180907_190406_181211_otm17_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181211_otm17_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181213_otm17_f.bsp
+"""
+const spk_pre_180907_190406_181213_otm17_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181213_otm17_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181217_btm17_p.bsp
+"""
+const spk_pre_180907_190406_181217_btm17_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181217_btm17_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181219_btm17_f.bsp
+"""
+const spk_pre_180907_190406_181219_btm17_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190406_181219_btm17_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190409_181211_jm0181.bsp
+"""
+const spk_pre_180907_190409_181211_jm0181_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_180907_190409_181211_jm0181.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190102_apo17_p.bsp
+"""
+const spk_pre_181030_190406_190102_apo17_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190102_apo17_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190103_apo17_f.bsp
+"""
+const spk_pre_181030_190406_190103_apo17_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190103_apo17_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190107_bpo17_p.bsp
+"""
+const spk_pre_181030_190406_190107_bpo17_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190107_bpo17_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190108_bpo17_f.bsp
+"""
+const spk_pre_181030_190406_190108_bpo17_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190406_190108_bpo17_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190409_190111_jm0182.bsp
+"""
+const spk_pre_181030_190409_190111_jm0182_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181030_190409_190111_jm0182.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190204_otm18_p.bsp
+"""
+const spk_pre_181206_190528_190204_otm18_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190204_otm18_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190205_otm18_f.bsp
+"""
+const spk_pre_181206_190528_190205_otm18_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190205_otm18_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190208_btm18_p.bsp
+"""
+const spk_pre_181206_190528_190208_btm18_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190208_btm18_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190211_btm18_f.bsp
+"""
+const spk_pre_181206_190528_190211_btm18_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190528_190211_btm18_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190601_190204_jm0191.bsp
+"""
+const spk_pre_181206_190601_190204_jm0191_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181206_190601_190204_jm0191.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181222_190601_190312_jm0192.bsp
+"""
+const spk_pre_181222_190601_190312_jm0192_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_181222_190601_190312_jm0192.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190325_otm19_p.bsp
+"""
+const spk_pre_190111_190720_190325_otm19_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190325_otm19_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190327_otm19_f.bsp
+"""
+const spk_pre_190111_190720_190327_otm19_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190327_otm19_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190402_btm19_p.bsp
+"""
+const spk_pre_190111_190720_190402_btm19_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190402_btm19_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190404_btm19_f.bsp
+"""
+const spk_pre_190111_190720_190404_btm19_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190111_190720_190404_btm19_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190422_apo19_p.bsp
+"""
+const spk_pre_190213_190720_190422_apo19_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190422_apo19_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190423_apo19_f.bsp
+"""
+const spk_pre_190213_190720_190423_apo19_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190423_apo19_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190425_bpo19_p.bsp
+"""
+const spk_pre_190213_190720_190425_bpo19_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190425_bpo19_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190429_bpo19_f.bsp
+"""
+const spk_pre_190213_190720_190429_bpo19_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190720_190429_bpo19_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190724_190409_jm0201.bsp
+"""
+const spk_pre_190213_190724_190409_jm0201_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_190724_190409_jm0201.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_191226_190409_apo22a_p.bsp
+"""
+const spk_pre_190213_191226_190409_apo22a_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_191226_190409_apo22a_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_191226_190411_apo22a_f.bsp
+"""
+const spk_pre_190213_191226_190411_apo22a_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190213_191226_190411_apo22a_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190724_190506_jm0202.bsp
+"""
+const spk_pre_190307_190724_190506_jm0202_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190724_190506_jm0202.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190515_otm20_p.bsp
+"""
+const spk_pre_190307_190911_190515_otm20_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190515_otm20_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190517_otm20_f.bsp
+"""
+const spk_pre_190307_190911_190517_otm20_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190517_otm20_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190521_btm20_p.bsp
+"""
+const spk_pre_190307_190911_190521_btm20_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190521_btm20_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190523_btm20_f.bsp
+"""
+const spk_pre_190307_190911_190523_btm20_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190911_190523_btm20_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190915_190528_jm0211.bsp
+"""
+const spk_pre_190307_190915_190528_jm0211_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190307_190915_190528_jm0211.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190611_apo20_p.bsp
+"""
+const spk_pre_190407_190911_190611_apo20_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190611_apo20_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190612_apo20_f.bsp
+"""
+const spk_pre_190407_190911_190612_apo20_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190612_apo20_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190617_bpo20_p.bsp
+"""
+const spk_pre_190407_190911_190617_bpo20_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190617_bpo20_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190618_bpo20_f.bsp
+"""
+const spk_pre_190407_190911_190618_bpo20_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190911_190618_bpo20_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190915_190613_jm0212.bsp
+"""
+const spk_pre_190407_190915_190613_jm0212_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190407_190915_190613_jm0212.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191103_190710_otm21_p.bsp
+"""
+const spk_pre_190502_191103_190710_otm21_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191103_190710_otm21_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191103_190711_otm21_f.bsp
+"""
+const spk_pre_190502_191103_190711_otm21_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191103_190711_otm21_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191106_190716_jm0221.bsp
+"""
+const spk_pre_190502_191106_190716_jm0221_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191106_190716_jm0221.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191226_190726_apo22b_p.bsp
+"""
+const spk_pre_190502_191226_190726_apo22b_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191226_190726_apo22b_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191226_190730_apo22b_f.bsp
+"""
+const spk_pre_190502_191226_190730_apo22b_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190502_191226_190730_apo22b_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190805_apo21_p.bsp
+"""
+const spk_pre_190529_191103_190805_apo21_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190805_apo21_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190806_apo21_f.bsp
+"""
+const spk_pre_190529_191103_190806_apo21_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190806_apo21_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190807_bpo21_p.bsp
+"""
+const spk_pre_190529_191103_190807_bpo21_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190807_bpo21_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190812_bpo21_f.bsp
+"""
+const spk_pre_190529_191103_190812_bpo21_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191103_190812_bpo21_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191106_190808_jm0222.bsp
+"""
+const spk_pre_190529_191106_190808_jm0222_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190529_191106_190808_jm0222.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190829_otm22_p.bsp
+"""
+const spk_pre_190620_191226_190829_otm22_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190829_otm22_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190903_otm22_f.bsp
+"""
+const spk_pre_190620_191226_190903_otm22_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190903_otm22_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190906_btm22_p.bsp
+"""
+const spk_pre_190620_191226_190906_btm22_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190906_btm22_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190909_btm22_f.bsp
+"""
+const spk_pre_190620_191226_190909_btm22_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191226_190909_btm22_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191229_190906_jm0231.bsp
+"""
+const spk_pre_190620_191229_190906_jm0231_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190620_191229_190906_jm0231.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190721_191226_191003_cpo22_p.bsp
+"""
+const spk_pre_190721_191226_191003_cpo22_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190721_191226_191003_cpo22_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190721_191226_191007_cpo22_f.bsp
+"""
+const spk_pre_190721_191226_191007_cpo22_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190721_191226_191007_cpo22_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190721_191229_191008_jm0232.bsp
+"""
+const spk_pre_190721_191229_191008_jm0232_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190721_191229_191008_jm0232.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191023_otm23_p.bsp
+"""
+const spk_pre_190816_200217_191023_otm23_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191023_otm23_p.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9990,8 +5146,5407 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191024_otm23_f.bsp
 """
-const naif0009_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191024_otm23_f.bsp")
-const naif0009_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240203_231218_stm56_f.bsp")
+const spk_pre_190816_200217_191024_otm23_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191024_otm23_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191029_btm23_p.bsp
+"""
+const spk_pre_190816_200217_191029_btm23_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191029_btm23_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191031_btm23_f.bsp
+"""
+const spk_pre_190816_200217_191031_btm23_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191031_btm23_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200220_191029_jm0241.bsp
+"""
+const spk_pre_190816_200220_191029_jm0241_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200220_191029_jm0241.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200220_191119_jm0242.bsp
+"""
+const spk_pre_190816_200220_191119_jm0242_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200220_191119_jm0242.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190912_200410_191211_orb24_t.bsp
+"""
+const spk_pre_190912_200410_191211_orb24_t_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190912_200410_191211_orb24_t.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190912_200413_191213_jm0251.bsp
+"""
+const spk_pre_190912_200413_191213_jm0251_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190912_200413_191213_jm0251.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200107_apo24_p.bsp
+"""
+const spk_pre_191001_200410_200107_apo24_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200107_apo24_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200108_apo24_f.bsp
+"""
+const spk_pre_191001_200410_200108_apo24_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200108_apo24_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200113_bpo24_f.bsp
+"""
+const spk_pre_191001_200410_200113_bpo24_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200113_bpo24_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200113_bpo24_p.bsp
+"""
+const spk_pre_191001_200410_200113_bpo24_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200113_bpo24_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200413_200115_jm0252.bsp
+"""
+const spk_pre_191001_200413_200115_jm0252_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200413_200115_jm0252.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200203_otm25_p.bsp
+"""
+const spk_pre_191001_200601_200203_otm25_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200203_otm25_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200204_otm25_f.bsp
+"""
+const spk_pre_191001_200601_200204_otm25_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200204_otm25_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200207_btm25_p.bsp
+"""
+const spk_pre_191001_200601_200207_btm25_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200207_btm25_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200212_btm25_f.bsp
+"""
+const spk_pre_191001_200601_200212_btm25_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200212_btm25_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200605_200218_jm0261.bsp
+"""
+const spk_pre_191001_200605_200218_jm0261_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200605_200218_jm0261.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191104_200601_200226_apo25_p.bsp
+"""
+const spk_pre_191104_200601_200226_apo25_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191104_200601_200226_apo25_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200601_200302_apo25_f.bsp
+"""
+const spk_pre_200116_200601_200302_apo25_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200601_200302_apo25_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200601_200304_bpo25_p.bsp
+"""
+const spk_pre_200116_200601_200304_bpo25_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200601_200304_bpo25_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200601_200305_bpo25_f.bsp
+"""
+const spk_pre_200116_200601_200305_bpo25_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200601_200305_bpo25_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200605_200316_jm0262.bsp
+"""
+const spk_pre_200116_200605_200316_jm0262_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200605_200316_jm0262.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200317_otm26_p.bsp
+"""
+const spk_pre_200116_200724_200317_otm26_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200317_otm26_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200320_otm26_f.bsp
+"""
+const spk_pre_200116_200724_200320_otm26_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200320_otm26_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200402_btm26_p.bsp
+"""
+const spk_pre_200116_200724_200402_btm26_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200402_btm26_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200408_btm26_f.bsp
+"""
+const spk_pre_200116_200724_200408_btm26_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200724_200408_btm26_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200728_200402_jm0271.bsp
+"""
+const spk_pre_200116_200728_200402_jm0271_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200728_200402_jm0271.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200413_apo26_p.bsp
+"""
+const spk_pre_200218_200724_200413_apo26_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200413_apo26_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200414_apo26_f.bsp
+"""
+const spk_pre_200218_200724_200414_apo26_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200414_apo26_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200428_bpo26_p.bsp
+"""
+const spk_pre_200218_200724_200428_bpo26_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200428_bpo26_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200430_bpo26_f.bsp
+"""
+const spk_pre_200218_200724_200430_bpo26_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200724_200430_bpo26_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200728_200501_jm0272.bsp
+"""
+const spk_pre_200218_200728_200501_jm0272_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200728_200501_jm0272.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200915_200507_otm27_p.bsp
+"""
+const spk_pre_200218_200915_200507_otm27_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200218_200915_200507_otm27_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200311_200915_200511_otm27_f.bsp
+"""
+const spk_pre_200311_200915_200511_otm27_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200311_200915_200511_otm27_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200311_200915_200528_btm27_f.bsp
+"""
+const spk_pre_200311_200915_200528_btm27_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200311_200915_200528_btm27_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200411_200915_200608_apo27_p.bsp
+"""
+const spk_pre_200411_200915_200608_apo27_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200411_200915_200608_apo27_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200411_200915_200610_apo27_f.bsp
+"""
+const spk_pre_200411_200915_200610_apo27_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200411_200915_200610_apo27_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200411_200919_200611_jm0281.bsp
+"""
+const spk_pre_200411_200919_200611_jm0281_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200411_200919_200611_jm0281.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_200919_200706_jm0282.bsp
+"""
+const spk_pre_200504_200919_200706_jm0282_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_200919_200706_jm0282.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_201107_200706_otm28_p.bsp
+"""
+const spk_pre_200504_201107_200706_otm28_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_201107_200706_otm28_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_201107_200708_otm28_f.bsp
+"""
+const spk_pre_200504_201107_200708_otm28_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_201107_200708_otm28_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_201107_200724_btm28_f.bsp
+"""
+const spk_pre_200504_201107_200724_btm28_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200504_201107_200724_btm28_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200602_201107_200730_apo28_p.bsp
+"""
+const spk_pre_200602_201107_200730_apo28_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200602_201107_200730_apo28_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200602_201107_200804_apo28_f.bsp
+"""
+const spk_pre_200602_201107_200804_apo28_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200602_201107_200804_apo28_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200602_201111_200730_jm0291.bsp
+"""
+const spk_pre_200602_201111_200730_jm0291_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200602_201111_200730_jm0291.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201111_200831_jm0292.bsp
+"""
+const spk_pre_200625_201111_200831_jm0292_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201111_200831_jm0292.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201230_200827_otm29_p.bsp
+"""
+const spk_pre_200625_201230_200827_otm29_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201230_200827_otm29_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201230_200901_otm29_f.bsp
+"""
+const spk_pre_200625_201230_200901_otm29_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201230_200901_otm29_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201230_200914_btm29_f.bsp
+"""
+const spk_pre_200625_201230_200914_btm29_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200625_201230_200914_btm29_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200725_201230_200921_apo29_p.bsp
+"""
+const spk_pre_200725_201230_200921_apo29_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200725_201230_200921_apo29_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200725_201230_200923_apo29_f.bsp
+"""
+const spk_pre_200725_201230_200923_apo29_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200725_201230_200923_apo29_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200725_210102_200924_jm0301.bsp
+"""
+const spk_pre_200725_210102_200924_jm0301_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200725_210102_200924_jm0301.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210102_201019_jm0302.bsp
+"""
+const spk_pre_200818_210102_201019_jm0302_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210102_201019_jm0302.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210221_201019_otm30_p.bsp
+"""
+const spk_pre_200818_210221_201019_otm30_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210221_201019_otm30_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210221_201021_otm30_f.bsp
+"""
+const spk_pre_200818_210221_201021_otm30_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210221_201021_otm30_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210221_201029_btm30_f.bsp
+"""
+const spk_pre_200818_210221_201029_btm30_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210221_201029_btm30_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210224_201105_jm0311.bsp
+"""
+const spk_pre_200818_210224_201105_jm0311_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200818_210224_201105_jm0311.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200917_210221_201110_apo30_p.bsp
+"""
+const spk_pre_200917_210221_201110_apo30_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200917_210221_201110_apo30_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200917_210221_201111_apo30_f.bsp
+"""
+const spk_pre_200917_210221_201111_apo30_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200917_210221_201111_apo30_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200917_210224_201125_jm0312.bsp
+"""
+const spk_pre_200917_210224_201125_jm0312_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200917_210224_201125_jm0312.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201207_otm31_p.bsp
+"""
+const spk_pre_201008_210415_201207_otm31_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201207_otm31_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201209_otm31_f.bsp
+"""
+const spk_pre_201008_210415_201209_otm31_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201209_otm31_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201216_btm31_p.bsp
+"""
+const spk_pre_201008_210415_201216_btm31_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201216_btm31_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201217_btm31_f.bsp
+"""
+const spk_pre_201008_210415_201217_btm31_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201008_210415_201217_btm31_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210418_210111_jm0321.bsp
+"""
+const spk_pre_201108_210418_210111_jm0321_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210418_210111_jm0321.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210418_210205_jm0322.bsp
+"""
+const spk_pre_201108_210418_210205_jm0322_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210418_210205_jm0322.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210607_210205_otm32_p.bsp
+"""
+const spk_pre_201108_210607_210205_otm32_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210607_210205_otm32_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210607_210208_otm32_f.bsp
+"""
+const spk_pre_201108_210607_210208_otm32_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210607_210208_otm32_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210607_210219_btm32_f.bsp
+"""
+const spk_pre_201108_210607_210219_btm32_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201108_210607_210219_btm32_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210607_210225_apo32_p.bsp
+"""
+const spk_pre_201231_210607_210225_apo32_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210607_210225_apo32_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210607_210302_apo32_f.bsp
+"""
+const spk_pre_201231_210607_210302_apo32_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210607_210302_apo32_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210611_210225_jm0331.bsp
+"""
+const spk_pre_201231_210611_210225_jm0331_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210611_210225_jm0331.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210611_210324_jm0332.bsp
+"""
+const spk_pre_201231_210611_210324_jm0332_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210611_210324_jm0332.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210720_210405_otm33_p.bsp
+"""
+const spk_pre_201231_210720_210405_otm33_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210720_210405_otm33_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210720_210407_otm33_f.bsp
+"""
+const spk_pre_201231_210720_210407_otm33_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210720_210407_otm33_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210720_210414_btm33_f.bsp
+"""
+const spk_pre_201231_210720_210414_btm33_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_201231_210720_210414_btm33_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210222_210724_210426_jm0340.bsp
+"""
+const spk_pre_210222_210724_210426_jm0340_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210222_210724_210426_jm0340.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210222_210902_210526_btm34_i.bsp
+"""
+const spk_pre_210222_210902_210526_btm34_i_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210222_210902_210526_btm34_i.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210222_210905_210604_jm0350.bsp
+"""
+const spk_pre_210222_210905_210604_jm0350_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210222_210905_210604_jm0350.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210416_210902_210608_btm34_p.bsp
+"""
+const spk_pre_210416_210902_210608_btm34_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210416_210902_210608_btm34_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_210902_210614_apo34_p.bsp
+"""
+const spk_pre_210607_210902_210614_apo34_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_210902_210614_apo34_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_210902_210616_apo34_f.bsp
+"""
+const spk_pre_210607_210902_210616_apo34_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_210902_210616_apo34_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211016_210712_otm35_p.bsp
+"""
+const spk_pre_210607_211016_210712_otm35_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211016_210712_otm35_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211016_210723_apo35_p.bsp
+"""
+const spk_pre_210607_211016_210723_apo35_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211016_210723_apo35_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211016_210726_apo35_f.bsp
+"""
+const spk_pre_210607_211016_210726_apo35_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211016_210726_apo35_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211019_210719_jm0360.bsp
+"""
+const spk_pre_210607_211019_210719_jm0360_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210607_211019_210719_jm0360.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210626_211129_210823_otm36_p.bsp
+"""
+const spk_pre_210626_211129_210823_otm36_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210626_211129_210823_otm36_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210626_211129_210824_otm36_f.bsp
+"""
+const spk_pre_210626_211129_210824_otm36_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210626_211129_210824_otm36_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210626_211202_210825_jm0370.bsp
+"""
+const spk_pre_210626_211202_210825_jm0370_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210626_211202_210825_jm0370.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_211129_210907_apo36_p.bsp
+"""
+const spk_pre_210721_211129_210907_apo36_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_211129_210907_apo36_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_211129_210913_apo36_f.bsp
+"""
+const spk_pre_210721_211129_210913_apo36_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_211129_210913_apo36_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_220111_210929_otm37_p.bsp
+"""
+const spk_pre_210721_220111_210929_otm37_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_220111_210929_otm37_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_220111_211001_otm37_f.bsp
+"""
+const spk_pre_210721_220111_211001_otm37_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210721_220111_211001_otm37_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210812_220111_211021_apo37_p.bsp
+"""
+const spk_pre_210812_220111_211021_apo37_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210812_220111_211021_apo37_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210812_220111_211027_apo37_f.bsp
+"""
+const spk_pre_210812_220111_211027_apo37_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210812_220111_211027_apo37_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210812_220115_211018_jm0380.bsp
+"""
+const spk_pre_210812_220115_211018_jm0380_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210812_220115_211018_jm0380.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210903_220224_211112_apo38_i.bsp
+"""
+const spk_pre_210903_220224_211112_apo38_i_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210903_220224_211112_apo38_i.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210903_220228_211115_jm0390.bsp
+"""
+const spk_pre_210903_220228_211115_jm0390_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_210903_220228_211115_jm0390.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220224_211202_apo38_p.bsp
+"""
+const spk_pre_211017_220224_211202_apo38_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220224_211202_apo38_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220224_211207_apo38_f.bsp
+"""
+const spk_pre_211017_220224_211207_apo38_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220224_211207_apo38_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220409_211229_otm39_p.bsp
+"""
+const spk_pre_211017_220409_211229_otm39_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220409_211229_otm39_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220409_220104_otm39_f.bsp
+"""
+const spk_pre_211017_220409_220104_otm39_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220409_220104_otm39_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220412_220107_jm0400.bsp
+"""
+const spk_pre_211017_220412_220107_jm0400_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211017_220412_220107_jm0400.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211109_220409_220119_apo39_p.bsp
+"""
+const spk_pre_211109_220409_220119_apo39_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211109_220409_220119_apo39_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220409_220121_apo39_f.bsp
+"""
+const spk_pre_211130_220409_220121_apo39_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220409_220121_apo39_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220522_220207_otm40_p.bsp
+"""
+const spk_pre_211130_220522_220207_otm40_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220522_220207_otm40_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220522_220209_otm40_f.bsp
+"""
+const spk_pre_211130_220522_220209_otm40_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220522_220209_otm40_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220526_220210_jm0410.bsp
+"""
+const spk_pre_211130_220526_220210_jm0410_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_211130_220526_220210_jm0410.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220522_220228_apo40_p.bsp
+"""
+const spk_pre_220113_220522_220228_apo40_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220522_220228_apo40_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220522_220309_apo40_f.bsp
+"""
+const spk_pre_220113_220522_220309_apo40_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220522_220309_apo40_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220704_220328_otm41_p.bsp
+"""
+const spk_pre_220113_220704_220328_otm41_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220704_220328_otm41_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220704_220330_otm41_f.bsp
+"""
+const spk_pre_220113_220704_220330_otm41_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220113_220704_220330_otm41_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220125_220708_220411_jm0420.bsp
+"""
+const spk_pre_220125_220708_220411_jm0420_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220125_220708_220411_jm0420.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220225_220704_220418_apo41_p.bsp
+"""
+const spk_pre_220225_220704_220418_apo41_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220225_220704_220418_apo41_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220225_220704_220420_apo41_f.bsp
+"""
+const spk_pre_220225_220704_220420_apo41_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220225_220704_220420_apo41_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220817_220509_otm42_p.bsp
+"""
+const spk_pre_220326_220817_220509_otm42_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220817_220509_otm42_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220817_220511_otm42_f.bsp
+"""
+const spk_pre_220326_220817_220511_otm42_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220817_220511_otm42_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220820_220512_jm0430.bsp
+"""
+const spk_pre_220326_220820_220512_jm0430_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220820_220512_jm0430.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220820_220518_jm0430.bsp
+"""
+const spk_pre_220326_220820_220518_jm0430_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220326_220820_220518_jm0430.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220410_220817_220526_apo42_p.bsp
+"""
+const spk_pre_220410_220817_220526_apo42_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220410_220817_220526_apo42_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220410_220817_220601_apo42_f.bsp
+"""
+const spk_pre_220410_220817_220601_apo42_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220410_220817_220601_apo42_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220410_220929_220615_otm43_p.bsp
+"""
+const spk_pre_220410_220929_220615_otm43_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220410_220929_220615_otm43_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220502_220929_220622_otm43_f.bsp
+"""
+const spk_pre_220502_220929_220622_otm43_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220502_220929_220622_otm43_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220502_221002_220624_jm0440.bsp
+"""
+const spk_pre_220502_221002_220624_jm0440_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220502_221002_220624_jm0440.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221106_220803_otm44_p.bsp
+"""
+const spk_pre_220614_221106_220803_otm44_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221106_220803_otm44_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221106_220805_otm44_f.bsp
+"""
+const spk_pre_220614_221106_220805_otm44_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221106_220805_otm44_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221106_220810_btm44_f.bsp
+"""
+const spk_pre_220614_221106_220810_btm44_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221106_220810_btm44_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221109_220810_jm0450.bsp
+"""
+const spk_pre_220614_221109_220810_jm0450_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220614_221109_220810_jm0450.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220824_apo44_p.bsp
+"""
+const spk_pre_220706_221106_220824_apo44_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220824_apo44_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220829_apo44_f.bsp
+"""
+const spk_pre_220706_221106_220829_apo44_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220829_apo44_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220908_stm44_p.bsp
+"""
+const spk_pre_220706_221106_220908_stm44_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220908_stm44_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220912_stm44_f.bsp
+"""
+const spk_pre_220706_221106_220912_stm44_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220706_221106_220912_stm44_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220726_221214_220930_btm45_p.bsp
+"""
+const spk_pre_220726_221214_220930_btm45_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220726_221214_220930_btm45_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220726_221218_220927_jm0460.bsp
+"""
+const spk_pre_220726_221218_220927_jm0460_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220726_221218_220927_jm0460.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220818_221214_221010_apo45_p.bsp
+"""
+const spk_pre_220818_221214_221010_apo45_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220818_221214_221010_apo45_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220818_221214_221011_apo45_f.bsp
+"""
+const spk_pre_220818_221214_221011_apo45_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220818_221214_221011_apo45_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220904_230121_221026_otm46_p.bsp
+"""
+const spk_pre_220904_230121_221026_otm46_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220904_230121_221026_otm46_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220904_230121_221028_otm46_f.bsp
+"""
+const spk_pre_220904_230121_221028_otm46_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220904_230121_221028_otm46_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220904_230125_221031_jm0470.bsp
+"""
+const spk_pre_220904_230125_221031_jm0470_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220904_230125_221031_jm0470.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220930_230121_221114_apo46_p.bsp
+"""
+const spk_pre_220930_230121_221114_apo46_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220930_230121_221114_apo46_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220930_230121_221116_apo46_f.bsp
+"""
+const spk_pre_220930_230121_221116_apo46_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220930_230121_221116_apo46_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220930_230304_221122_jm0480.bsp
+"""
+const spk_pre_220930_230304_221122_jm0480_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_220930_230304_221122_jm0480.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221019_230228_221205_otm47_p.bsp
+"""
+const spk_pre_221019_230228_221205_otm47_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221019_230228_221205_otm47_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221019_230228_221207_otm47_f.bsp
+"""
+const spk_pre_221019_230228_221207_otm47_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221019_230228_221207_otm47_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230228_221219_apo47_p.bsp
+"""
+const spk_pre_221107_230228_221219_apo47_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230228_221219_apo47_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230407_230109_otm48_p.bsp
+"""
+const spk_pre_221107_230407_230109_otm48_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230407_230109_otm48_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230407_230111_otm48_f.bsp
+"""
+const spk_pre_221107_230407_230111_otm48_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230407_230111_otm48_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230411_230111_jm0490.bsp
+"""
+const spk_pre_221107_230411_230111_jm0490_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221107_230411_230111_jm0490.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221215_230407_230130_apo48_p.bsp
+"""
+const spk_pre_221215_230407_230130_apo48_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221215_230407_230130_apo48_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221215_230407_230201_apo48_f.bsp
+"""
+const spk_pre_221215_230407_230201_apo48_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_221215_230407_230201_apo48_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230103_230515_230216_otm49_p.bsp
+"""
+const spk_pre_230103_230515_230216_otm49_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230103_230515_230216_otm49_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230103_230515_230221_otm49_f.bsp
+"""
+const spk_pre_230103_230515_230221_otm49_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230103_230515_230221_otm49_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230103_230519_230223_jm0500.bsp
+"""
+const spk_pre_230103_230519_230223_jm0500_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230103_230519_230223_jm0500.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230515_230309_apo49_p.bsp
+"""
+const spk_pre_230123_230515_230309_apo49_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230515_230309_apo49_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230515_230313_apo49_f.bsp
+"""
+const spk_pre_230123_230515_230313_apo49_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230515_230313_apo49_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230622_230417_apo50_p.bsp
+"""
+const spk_pre_230123_230622_230417_apo50_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230622_230417_apo50_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230622_230418_apo50_f.bsp
+"""
+const spk_pre_230123_230622_230418_apo50_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230622_230418_apo50_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230626_230403_jm0510.bsp
+"""
+const spk_pre_230123_230626_230403_jm0510_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230123_230626_230403_jm0510.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230210_230730_230505_otm51_p.bsp
+"""
+const spk_pre_230210_230730_230505_otm51_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230210_230730_230505_otm51_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230210_230730_230509_otm51_f.bsp
+"""
+const spk_pre_230210_230730_230509_otm51_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230210_230730_230509_otm51_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230210_230803_230508_jm0520.bsp
+"""
+const spk_pre_230210_230803_230508_jm0520_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230210_230803_230508_jm0520.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230730_230522_apo51_p.bsp
+"""
+const spk_pre_230427_230730_230522_apo51_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230730_230522_apo51_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230730_230524_apo51_f.bsp
+"""
+const spk_pre_230427_230730_230524_apo51_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230730_230524_apo51_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230906_230612_otm52_p.bsp
+"""
+const spk_pre_230427_230906_230612_otm52_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230906_230612_otm52_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230906_230614_otm52_f.bsp
+"""
+const spk_pre_230427_230906_230614_otm52_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230906_230614_otm52_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230910_230612_jm0530.bsp
+"""
+const spk_pre_230427_230910_230612_jm0530_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230427_230910_230612_jm0530.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230517_230906_230628_apo52_p.bsp
+"""
+const spk_pre_230517_230906_230628_apo52_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230517_230906_230628_apo52_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230517_230906_230629_apo52_f.bsp
+"""
+const spk_pre_230517_230906_230629_apo52_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230517_230906_230629_apo52_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230517_231018_230724_jm0540.bsp
+"""
+const spk_pre_230517_231018_230724_jm0540_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230517_231018_230724_jm0540.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230712_231122_230828_otm54_p.bsp
+"""
+const spk_pre_230712_231122_230828_otm54_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230712_231122_230828_otm54_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230712_231122_230829_otm54_f.bsp
+"""
+const spk_pre_230712_231122_230829_otm54_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230712_231122_230829_otm54_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230712_231125_230830_jm0550.bsp
+"""
+const spk_pre_230712_231125_230830_jm0550_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230712_231125_230830_jm0550.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230731_231122_230914_apo54_p.bsp
+"""
+const spk_pre_230731_231122_230914_apo54_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230731_231122_230914_apo54_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230731_231122_230918_apo54_f.bsp
+"""
+const spk_pre_230731_231122_230918_apo54_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230731_231122_230918_apo54_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230819_231230_231002_otm55_p.bsp
+"""
+const spk_pre_230819_231230_231002_otm55_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230819_231230_231002_otm55_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230819_231230_231004_otm55_f.bsp
+"""
+const spk_pre_230819_231230_231004_otm55_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230819_231230_231004_otm55_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230819_240102_231005_jm0560.bsp
+"""
+const spk_pre_230819_240102_231005_jm0560_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230819_240102_231005_jm0560.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230907_240203_231113_otm56_f.bsp
+"""
+const spk_pre_230907_240203_231113_otm56_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230907_240203_231113_otm56_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230907_240203_231113_otm56_p.bsp
+"""
+const spk_pre_230907_240203_231113_otm56_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230907_240203_231113_otm56_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230907_240206_231113_jm0570.bsp
+"""
+const spk_pre_230907_240206_231113_jm0570_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_230907_240206_231113_jm0570.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240203_231124_apo56_p.bsp
+"""
+const spk_pre_231016_240203_231124_apo56_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240203_231124_apo56_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240203_231213_stm56_p.bsp
+"""
+const spk_pre_231016_240203_231213_stm56_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240203_231213_stm56_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240203_231218_stm56_f.bsp
+"""
+const spk_pre_231016_240203_231218_stm56_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240203_231218_stm56_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240310_231207_jm0580.bsp
+"""
+const spk_pre_231016_240310_231207_jm0580_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240310_231207_jm0580.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231123_240307_240101_btm57_p.bsp
+"""
+const spk_pre_231123_240307_240101_btm57_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231123_240307_240101_btm57_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231123_240307_240102_btm57_f.bsp
+"""
+const spk_pre_231123_240307_240102_btm57_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231123_240307_240102_btm57_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231227_240412_240119_jm0590.bsp
+"""
+const spk_pre_231227_240412_240119_jm0590_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231227_240412_240119_jm0590.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240408_240208_apo58_p.bsp
+"""
+const spk_pre_240107_240408_240208_apo58_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240408_240208_apo58_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240408_240212_apo58_f.bsp
+"""
+const spk_pre_240107_240408_240212_apo58_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240408_240212_apo58_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240412_240213_apo58_f.bsp
+"""
+const spk_pre_240107_240412_240213_apo58_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240412_240213_apo58_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240515_240226_jm0600.bsp
+"""
+const spk_pre_240107_240515_240226_jm0600_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240515_240226_jm0600.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240311_apo59_p.bsp
+"""
+const spk_pre_240204_240515_240311_apo59_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240311_apo59_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240313_apo59_f.bsp
+"""
+const spk_pre_240204_240515_240313_apo59_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240313_apo59_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240326_stm59_p.bsp
+"""
+const spk_pre_240204_240515_240326_stm59_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240326_stm59_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240328_stm59_f.bsp
+"""
+const spk_pre_240204_240515_240328_stm59_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240328_stm59_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240616_240401_jm0610.bsp
+"""
+const spk_pre_240204_240616_240401_jm0610_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240616_240401_jm0610.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240616_240415_apo60_f.bsp
+"""
+const spk_pre_240308_240616_240415_apo60_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240616_240415_apo60_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240616_240415_apo60_p.bsp
+"""
+const spk_pre_240308_240616_240415_apo60_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240616_240415_apo60_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240719_240429_jm0620.bsp
+"""
+const spk_pre_240308_240719_240429_jm0620_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240719_240429_jm0620.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240719_240429_otm61_p.bsp
+"""
+const spk_pre_240308_240719_240429_otm61_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240719_240429_otm61_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240719_240501_otm61_f.bsp
+"""
+const spk_pre_240308_240719_240501_otm61_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240719_240501_otm61_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240409_240821_240529_jm0630.bsp
+"""
+const spk_pre_240409_240821_240529_jm0630_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240409_240821_240529_jm0630.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240821_240620_apo62_p.bsp
+"""
+const spk_pre_240528_240821_240620_apo62_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240821_240620_apo62_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240821_240624_bpo62_p.bsp
+"""
+const spk_pre_240528_240821_240624_bpo62_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240821_240624_bpo62_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240821_240625_bpo62_f.bsp
+"""
+const spk_pre_240528_240821_240625_bpo62_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240821_240625_bpo62_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240923_240708_jm0640.bsp
+"""
+const spk_pre_240528_240923_240708_jm0640_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240923_240708_jm0640.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240923_240708_otm63_p.bsp
+"""
+const spk_pre_240528_240923_240708_otm63_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240923_240708_otm63_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240923_240710_otm63_f.bsp
+"""
+const spk_pre_240528_240923_240710_otm63_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240528_240923_240710_otm63_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240614_240923_240725_apo63_p.bsp
+"""
+const spk_pre_240614_240923_240725_apo63_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240614_240923_240725_apo63_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240614_240923_240729_apo63_f.bsp
+"""
+const spk_pre_240614_240923_240729_apo63_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240614_240923_240729_apo63_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240614_241025_240802_jm0650.bsp
+"""
+const spk_pre_240614_241025_240802_jm0650_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240614_241025_240802_jm0650.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241025_240826_apo64_p.bsp
+"""
+const spk_pre_240716_241025_240826_apo64_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241025_240826_apo64_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241025_240827_apo64_f.bsp
+"""
+const spk_pre_240716_241025_240827_apo64_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241025_240827_apo64_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241127_240909_jm0660.bsp
+"""
+const spk_pre_240716_241127_240909_jm0660_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241127_240909_jm0660.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241127_240909_otm65_p.bsp
+"""
+const spk_pre_240716_241127_240909_otm65_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241127_240909_otm65_p.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241127_240911_otm65_f.bsp
+"""
+const spk_pre_240716_241127_240911_otm65_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240716_241127_240911_otm65_f.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_110805_111026_120302.bsp
+"""
+const spk_rec_110805_111026_120302_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_110805_111026_120302.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_111026_120308_120726.bsp
+"""
+const spk_rec_111026_120308_120726_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_111026_120308_120726.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_120308_120825_121109.bsp
+"""
+const spk_rec_120308_120825_121109_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_120308_120825_121109.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_120825_130515_130708.bsp
+"""
+const spk_rec_120825_130515_130708_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_120825_130515_130708.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_130515_131005_131031.bsp
+"""
+const spk_rec_130515_131005_131031_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_130515_131005_131031.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_130515_131005_151210.bsp
+"""
+const spk_rec_130515_131005_151210_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_130515_131005_151210.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131005_131014_131101.bsp
+"""
+const spk_rec_131005_131014_131101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131005_131014_131101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131014_131114_140222.bsp
+"""
+const spk_rec_131014_131114_140222_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131014_131114_140222.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131114_140918_141208.bsp
+"""
+const spk_rec_131114_140918_141208_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131114_140918_141208.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131114_140918_141208_reconstruction.bsp
+"""
+const spk_rec_131114_140918_141208_reconstruction_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_131114_140918_141208_reconstruction.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_140903_151003_160118.bsp
+"""
+const spk_rec_140903_151003_160118_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_140903_151003_160118.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_151003_160312_160418.bsp
+"""
+const spk_rec_151003_160312_160418_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_151003_160312_160418.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160312_160522_160614.bsp
+"""
+const spk_rec_160312_160522_160614_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160312_160522_160614.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160522_160729_160909.bsp
+"""
+const spk_rec_160522_160729_160909_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160522_160729_160909.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160729_160923_161027.bsp
+"""
+const spk_rec_160729_160923_161027_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160729_160923_161027.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160729_160924_161026_pj01.bsp
+"""
+const spk_rec_160729_160924_161026_pj01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160729_160924_161026_pj01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160923_161115_161121.bsp
+"""
+const spk_rec_160923_161115_161121_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_160923_161115_161121.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_161115_170106_170113.bsp
+"""
+const spk_rec_161115_170106_170113_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_161115_170106_170113.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170106_170228_170307.bsp
+"""
+const spk_rec_170106_170228_170307_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170106_170228_170307.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170228_170422_170427.bsp
+"""
+const spk_rec_170228_170422_170427_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170228_170422_170427.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170422_170608_170621.bsp
+"""
+const spk_rec_170422_170608_170621_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170422_170608_170621.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170608_170728_170803.bsp
+"""
+const spk_rec_170608_170728_170803_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170608_170728_170803.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170728_170918_170922.bsp
+"""
+const spk_rec_170728_170918_170922_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170728_170918_170922.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170918_171121_171127.bsp
+"""
+const spk_rec_170918_171121_171127_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_170918_171121_171127.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_171121_180113_180117.bsp
+"""
+const spk_rec_171121_180113_180117_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_171121_180113_180117.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180113_180307_180312.bsp
+"""
+const spk_rec_180113_180307_180312_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180113_180307_180312.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180307_180429_180504.bsp
+"""
+const spk_rec_180307_180429_180504_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180307_180429_180504.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180429_180621_180626.bsp
+"""
+const spk_rec_180429_180621_180626_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180429_180621_180626.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180620_180812_180821.bsp
+"""
+const spk_rec_180620_180812_180821_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180620_180812_180821.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180812_181004_181011.bsp
+"""
+const spk_rec_180812_181004_181011_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_180812_181004_181011.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_181004_181126_181205.bsp
+"""
+const spk_rec_181004_181126_181205_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_181004_181126_181205.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_181126_190118_190124.bsp
+"""
+const spk_rec_181126_190118_190124_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_181126_190118_190124.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190118_190312_190319.bsp
+"""
+const spk_rec_190118_190312_190319_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190118_190312_190319.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190312_190504_190509.bsp
+"""
+const spk_rec_190312_190504_190509_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190312_190504_190509.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190504_190626_190627.bsp
+"""
+const spk_rec_190504_190626_190627_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190504_190626_190627.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190626_190817_190822.bsp
+"""
+const spk_rec_190626_190817_190822_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190626_190817_190822.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190817_191010_191022.bsp
+"""
+const spk_rec_190817_191010_191022_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_190817_191010_191022.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_191010_191201_191210.bsp
+"""
+const spk_rec_191010_191201_191210_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_191010_191201_191210.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_191201_200124_200129.bsp
+"""
+const spk_rec_191201_200124_200129_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_191201_200124_200129.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200124_200316_200324.bsp
+"""
+const spk_rec_200124_200316_200324_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200124_200316_200324.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200316_200508_200512.bsp
+"""
+const spk_rec_200316_200508_200512_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200316_200508_200512.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200508_200629_200709.bsp
+"""
+const spk_rec_200508_200629_200709_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200508_200629_200709.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200629_200822_200826.bsp
+"""
+const spk_rec_200629_200822_200826_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200629_200822_200826.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200822_201014_201016.bsp
+"""
+const spk_rec_200822_201014_201016_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_200822_201014_201016.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_201014_201205_201208.bsp
+"""
+const spk_rec_201014_201205_201208_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_201014_201205_201208.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_201205_210127_210210.bsp
+"""
+const spk_rec_201205_210127_210210_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_201205_210127_210210.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210127_210321_210329.bsp
+"""
+const spk_rec_210127_210321_210329_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210127_210321_210329.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210321_210513_210517.bsp
+"""
+const spk_rec_210321_210513_210517_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210321_210513_210517.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210513_210630_210707.bsp
+"""
+const spk_rec_210513_210630_210707_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210513_210630_210707.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210630_210813_210825.bsp
+"""
+const spk_rec_210630_210813_210825_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210630_210813_210825.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210813_210925_211005.bsp
+"""
+const spk_rec_210813_210925_211005_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210813_210925_211005.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210925_211108_211115.bsp
+"""
+const spk_rec_210925_211108_211115_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_210925_211108_211115.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_211108_211222_220104.bsp
+"""
+const spk_rec_211108_211222_220104_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_211108_211222_220104.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_211222_220204_220210.bsp
+"""
+const spk_rec_211222_220204_220210_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_211222_220204_220210.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220204_220319_220330.bsp
+"""
+const spk_rec_220204_220319_220330_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220204_220319_220330.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220319_220502_220510.bsp
+"""
+const spk_rec_220319_220502_220510_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220319_220502_220510.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220502_220614_220622.bsp
+"""
+const spk_rec_220502_220614_220622_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220502_220614_220622.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220614_220728_220805.bsp
+"""
+const spk_rec_220614_220728_220805_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220614_220728_220805.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220728_220909_220913.bsp
+"""
+const spk_rec_220728_220909_220913_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220728_220909_220913.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220909_221019_221027.bsp
+"""
+const spk_rec_220909_221019_221027_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_220909_221019_221027.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_221019_221127_221208.bsp
+"""
+const spk_rec_221019_221127_221208_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_221019_221127_221208.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_221127_230104_230111.bsp
+"""
+const spk_rec_221127_230104_230111_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_221127_230104_230111.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230104_230211_230221.bsp
+"""
+const spk_rec_230104_230211_230221_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230104_230211_230221.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230211_230321_230327.bsp
+"""
+const spk_rec_230211_230321_230327_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230211_230321_230327.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230321_230428_230504.bsp
+"""
+const spk_rec_230321_230428_230504_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230321_230428_230504.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230428_230605_230613.bsp
+"""
+const spk_rec_230428_230605_230613_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230428_230605_230613.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230605_230713_230720.bsp
+"""
+const spk_rec_230605_230713_230720_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230605_230713_230720.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230713_230820_230823.bsp
+"""
+const spk_rec_230713_230820_230823_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230713_230820_230823.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230820_230927_231003.bsp
+"""
+const spk_rec_230820_230927_231003_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230820_230927_231003.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230927_231104_231109.bsp
+"""
+const spk_rec_230927_231104_231109_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_230927_231104_231109.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_231104_231212_231220.bsp
+"""
+const spk_rec_231104_231212_231220_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_231104_231212_231220.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_231212_240118_240119.bsp
+"""
+const spk_rec_231212_240118_240119_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_231212_240118_240119.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240118_240221_240226.bsp
+"""
+const spk_rec_240118_240221_240226_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240118_240221_240226.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240221_240325_240401.bsp
+"""
+const spk_rec_240221_240325_240401_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240221_240325_240401.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240325_240426_240430.bsp
+"""
+const spk_rec_240325_240426_240430_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240325_240426_240430.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240426_240529_240605.bsp
+"""
+const spk_rec_240426_240529_240605_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240426_240529_240605.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240529_240701_240705.bsp
+"""
+const spk_rec_240529_240701_240705_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240529_240701_240705.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240701_240802_240814.bsp
+"""
+const spk_rec_240701_240802_240814_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240701_240802_240814.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240802_240904_240910.bsp
+"""
+const spk_rec_240802_240904_240910_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_rec_240802_240904_240910.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_110805_171016_110815.bsp
+"""
+const spk_ref_110805_171016_110815_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_110805_171016_110815.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_121015_171016_121023.bsp
+"""
+const spk_ref_121015_171016_121023_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_121015_171016_121023.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_130201_171016_130213.bsp
+"""
+const spk_ref_130201_171016_130213_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_130201_171016_130213.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_130515_171017_130515.bsp
+"""
+const spk_ref_130515_171017_130515_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_130515_171017_130515.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_131114_171017_140311.bsp
+"""
+const spk_ref_131114_171017_140311_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_131114_171017_140311.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_150326_180221_150326.bsp
+"""
+const spk_ref_150326_180221_150326_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_150326_180221_150326.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_160226_180221_160226.bsp
+"""
+const spk_ref_160226_180221_160226_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_160226_180221_160226.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_160829_190912_161027.bsp
+"""
+const spk_ref_160829_190912_161027_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_160829_190912_161027.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_161212_210731_170320.bsp
+"""
+const spk_ref_161212_210731_170320_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_161212_210731_170320.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_171106_210731_171109.bsp
+"""
+const spk_ref_171106_210731_171109_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_171106_210731_171109.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_180429_210731_180509.bsp
+"""
+const spk_ref_180429_210731_180509_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_180429_210731_180509.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_210111_251021_210111.bsp
+"""
+const spk_ref_210111_251021_210111_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_210111_251021_210111.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_211112_251021_211112.bsp
+"""
+const spk_ref_211112_251021_211112_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_211112_251021_211112.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_231110_251016_231110.bsp
+"""
+const spk_ref_231110_251016_231110_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_ref_231110_251016_231110.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/110805LD-120918-0920DSM-160705AD-to-pj34_r090608_v2.bsp
+"""
+const _110805LD_120918_0920DSM_160705AD_to_pj34_r090608_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/110805LD-120918-0920DSM-160705AD-to-pj34_r090608_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/110807LD-120928-0930DSM-160803AD_to_pj34_r081118_v1.bsp
+"""
+const _110807LD_120928_0930DSM_160803AD_to_pj34_r081118_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/110807LD-120928-0930DSM-160803AD_to_pj34_r081118_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_rec_111026_120326_120726_reconstruction.bsp
+"""
+const spk_rec_111026_120326_120726_reconstruction_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_rec_111026_120326_120726_reconstruction.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_rec_131005_131014_131101_reconstruction.bsp
+"""
+const spk_rec_131005_131014_131101_reconstruction_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_rec_131005_131014_131101_reconstruction.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_rec_210513_210630_210707_full.bsp
+"""
+const spk_rec_210513_210630_210707_full_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_rec_210513_210630_210707_full.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_111009_110608_1608mco.bsp
+"""
+const spk_ref_110805_111009_110608_1608mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_111009_110608_1608mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_111009_110608_1643mco.bsp
+"""
+const spk_ref_110805_111009_110608_1643mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_111009_110608_1643mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_120804_110608_1534mco.bsp
+"""
+const spk_ref_110805_120804_110608_1534mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_120804_110608_1534mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_171016_100527.bsp
+"""
+const spk_ref_110805_171016_100527_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_171016_100527.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_171016_101109.bsp
+"""
+const spk_ref_110805_171016_101109_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110805_171016_101109.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1524mco.bsp
+"""
+const spk_ref_110806_111010_110608_1524mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1524mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1524mco_wp.bsp
+"""
+const spk_ref_110806_111010_110608_1524mco_wp_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1524mco_wp.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1602mco.bsp
+"""
+const spk_ref_110806_111010_110608_1602mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1602mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1641mco.bsp
+"""
+const spk_ref_110806_111010_110608_1641mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110806_111010_110608_1641mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1515mco.bsp
+"""
+const spk_ref_110807_111011_110608_1515mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1515mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1515mco_wp.bsp
+"""
+const spk_ref_110807_111011_110608_1515mco_wp_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1515mco_wp.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1557mco.bsp
+"""
+const spk_ref_110807_111011_110608_1557mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1557mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1639mco.bsp
+"""
+const spk_ref_110807_111011_110608_1639mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110807_111011_110608_1639mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1509mco.bsp
+"""
+const spk_ref_110808_111012_110608_1509mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1509mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1509mco_wp.bsp
+"""
+const spk_ref_110808_111012_110608_1509mco_wp_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1509mco_wp.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1552mco.bsp
+"""
+const spk_ref_110808_111012_110608_1552mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1552mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1636mco.bsp
+"""
+const spk_ref_110808_111012_110608_1636mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110808_111012_110608_1636mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110809_111013_110608_1504mco.bsp
+"""
+const spk_ref_110809_111013_110608_1504mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110809_111013_110608_1504mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110809_111013_110608_1548mco.bsp
+"""
+const spk_ref_110809_111013_110608_1548mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110809_111013_110608_1548mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110809_111013_110608_1633mco.bsp
+"""
+const spk_ref_110809_111013_110608_1633mco_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_110809_111013_110608_1633mco.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_121015_171017_121016.bsp
+"""
+const spk_ref_121015_171017_121016_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/zzarchive/spk_ref_121015_171017_121016.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v03_draft1.tf
+"""
+const juno_v03_draft1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v03_draft1.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v06_draft1.tf
+"""
+const juno_v06_draft1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v06_draft1.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v06_draft2.tf
+"""
+const juno_v06_draft2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v06_draft2.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v06_draft3.tf
+"""
+const juno_v06_draft3_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v06_draft3.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v07_draft1.tf
+"""
+const juno_v07_draft1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v07_draft1.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v07_draft2.tf
+"""
+const juno_v07_draft2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v07_draft2.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v09_draft6.tf
+"""
+const juno_v09_draft6_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/draft/juno_v09_draft6.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_7gbs_191007/spk_pre_190406_260101_191007_SAMPLE_7_GBS_passes_to_PJ66.bsp
+"""
+const spk_pre_190406_260101_191007_SAMPLE_7_GBS_passes_to_PJ66_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_7gbs_191007/spk_pre_190406_260101_191007_SAMPLE_7_GBS_passes_to_PJ66.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_case10_GRAV_200108/spk_SAMPLE_210221_250714_191231_EM_case_10.bsp
+"""
+const spk_SAMPLE_210221_250714_191231_EM_case_10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_case10_GRAV_200108/spk_SAMPLE_210221_250714_191231_EM_case_10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_case10plus_GRAV_200210/spk_SAMPLE_210221_251021_200206_EM_Case_10plus.bsp
+"""
+const spk_SAMPLE_210221_251021_200206_EM_Case_10plus_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_case10plus_GRAV_200210/spk_SAMPLE_210221_251021_200206_EM_Case_10plus.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_case9_GRAV_200108/spk_SAMPLE_210221_251202_191218_EM_case_9.bsp
+"""
+const spk_SAMPLE_210221_251202_191218_EM_case_9_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_case9_GRAV_200108/spk_SAMPLE_210221_251202_191218_EM_case_9.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_df_42d_191007/spk_pre_190529_240819_191007_SAMPLE_double_flybys_42d_to_PJ62.bsp
+"""
+const spk_pre_190529_240819_191007_SAMPLE_double_flybys_42d_to_PJ62_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_df_42d_191007/spk_pre_190529_240819_191007_SAMPLE_double_flybys_42d_to_PJ62.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_df_50d_191007/spk_pre_190529_250204_191007_SAMPLE_double_flybys_50d_to_PJ61.bsp
+"""
+const spk_pre_190529_250204_191007_SAMPLE_double_flybys_50d_to_PJ61_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/emspkck/emspkck_df_50d_191007/spk_pre_190529_250204_191007_SAMPLE_double_flybys_50d_to_PJ61.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/fgm/20111129/juno_v05.tf
+"""
+const juno_v05_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/fgm/20111129/juno_v05.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/fgm/20111129/juno_v09_draft2.tf
+"""
+const juno_v09_draft2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/fgm/20111129/juno_v09_draft2.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/fgm/20111129/juno_v09_draft5.tf
+"""
+const juno_v09_draft5_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/fgm/20111129/juno_v09_draft5.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/ihonkonen/juno_sunmag_v01.tf
+"""
+const juno_sunmag_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/ihonkonen/juno_sunmag_v01.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jiram/spk_pre_210607_210724_200817_jx0340.bsp
+"""
+const spk_pre_210607_210724_200817_jx0340_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jiram/spk_pre_210607_210724_200817_jx0340.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_phi_o_v1.tf
+"""
+const juno_phi_o_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_phi_o_v1.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_v09_draft1.tf
+"""
+const juno_v09_draft1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_v09_draft1.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_v09_draft3.tf
+"""
+const juno_v09_draft3_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_v09_draft3.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_v09_draft4.tf
+"""
+const juno_v09_draft4_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/jszalay/juno_v09_draft4.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/mbrennan/spk_TEST_to_PJ67_170803_260319_180426_TEST_to_PJ67.bsp
+"""
+const spk_TEST_to_PJ67_170803_260319_180426_TEST_to_PJ67_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/mbrennan/spk_TEST_to_PJ67_170803_260319_180426_TEST_to_PJ67.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/20090204/110807LD-120928-0930DSM-160803AD_to_pj34_r081118_v1.bsp
+"""
+const _110807LD_120928_0930DSM_160803AD_to_pj34_r081118_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/20090204/110807LD-120928-0930DSM-160803AD_to_pj34_r081118_v1.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/20090204/juno_v00.tf
+"""
+const juno_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/20090204/juno_v00.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/juno_v02.tf
+"""
+const juno_v02_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/juno_v02.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10006,7 +10561,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/naif0009.tls
 """
-const spk_pre_190816_200217_191029_btm23_p_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/naif0009.tls")
+const naif0009_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck/naif0009.tls")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10034,69 +10589,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191029_btm23_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240310_231207_jm0580.bsp
-"""
-const _53_5d_14d_PJ38_impact_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231016_240310_231207_jm0580.bsp")
-const _53_5d_14d_PJ38_impact_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191029_btm23_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck140717/53_5d_14d_PJ38_impact.bsp
 """
-const spk_pre_190816_200217_191031_btm23_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck140717/53_5d_14d_PJ38_impact.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231123_240307_240101_btm57_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191031_btm23_f.bsp
-"""
-const _53_5d_20d_PJ38_impact_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231123_240307_240101_btm57_p.bsp")
-const _53_5d_20d_PJ38_impact_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200217_191031_btm23_f.bsp")
+const _53_5d_14d_PJ38_impact_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck140717/53_5d_14d_PJ38_impact.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10111,7 +10606,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck140717/53_5d_20d_PJ38_impact.bsp
 """
-const spk_pre_190816_200220_191029_jm0241_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck140717/53_5d_20d_PJ38_impact.bsp")
+const _53_5d_20d_PJ38_impact_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck140717/53_5d_20d_PJ38_impact.bsp")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10129,36 +10624,6 @@ This kernel's link was sourced on 2024-09-24.
 const juno_v02_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck140717/juno_v02.tf")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231123_240307_240102_btm57_f.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200220_191029_jm0241.bsp
-"""
-const naif0010_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200220_191029_jm0241.bsp")
-const naif0010_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231123_240307_240102_btm57_f.bsp")
-
-"""
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -10171,7 +10636,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck140717/naif0010.tls
 """
-const spk_pre_231227_240412_240119_jm0590_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck140717/naif0010.tls")
+const naif0010_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck140717/naif0010.tls")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10199,39 +10664,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231227_240412_240119_jm0590.bsp
-"""
-const spk_no_prm_53d_100deg_inc_161021_210731_161216_study_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_231227_240412_240119_jm0590.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200220_191119_jm0242.bsp
-"""
-const spk_pre_240107_240408_240208_apo58_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190816_200220_191119_jm0242.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck161230/spk_no_prm_53d_100deg_inc_161021_210731_161216_study.bsp
 """
-const spk_pre_190912_200410_191211_orb24_t_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck161230/spk_no_prm_53d_100deg_inc_161021_210731_161216_study.bsp")
+const spk_no_prm_53d_100deg_inc_161021_210731_161216_study_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck161230/spk_no_prm_53d_100deg_inc_161021_210731_161216_study.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10259,69 +10694,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240408_240208_apo58_p.bsp
-"""
-const spk_TEST_161212_210731_170228_STUDY_53d_105deg_inc_7950km_alt_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240408_240208_apo58_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190912_200410_191211_orb24_t.bsp
-"""
-const spk_pre_240107_240408_240212_apo58_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190912_200410_191211_orb24_t.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck170309/spk_TEST_161212_210731_170228_STUDY_53d_105deg_inc_7950km_alt.bsp
 """
-const spk_pre_190912_200413_191213_jm0251_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck170309/spk_TEST_161212_210731_170228_STUDY_53d_105deg_inc_7950km_alt.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240408_240212_apo58_f.bsp
-"""
-const spk_170803_210731_171005_STUDY_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240408_240212_apo58_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190912_200413_191213_jm0251.bsp
-"""
-const spk_pre_240107_240412_240213_apo58_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_190912_200413_191213_jm0251.bsp")
+const spk_TEST_161212_210731_170228_STUDY_53d_105deg_inc_7950km_alt_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck170309/spk_TEST_161212_210731_170228_STUDY_53d_105deg_inc_7950km_alt.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10336,7 +10711,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck171016/spk_170803_210731_171005_STUDY.bsp
 """
-const spk_pre_191001_200410_200107_apo24_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck171016/spk_170803_210731_171005_STUDY.bsp")
+const spk_170803_210731_171005_STUDY_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/nomck171016/spk_170803_210731_171005_STUDY.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10364,39 +10739,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240412_240213_apo58_f.bsp
-"""
-const jupiter_poles_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240412_240213_apo58_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200107_apo24_p.bsp
-"""
-const spk_pre_240107_240515_240226_jm0600_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200107_apo24_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/poles/jupiter_poles.bsp
 """
-const spk_pre_191001_200410_200108_apo24_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/poles/jupiter_poles.bsp")
+const jupiter_poles_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/poles/jupiter_poles.bsp")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10414,36 +10759,6 @@ This kernel's link was sourced on 2024-09-24.
 const jupiter_poles_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/poles/jupiter_poles.tf")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240515_240226_jm0600.bsp
-"""
-const juno_sc_earth_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240107_240515_240226_jm0600.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200108_apo24_f.bsp
-"""
-const spk_pre_240204_240515_240311_apo59_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200108_apo24_f.bsp")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -10456,7 +10771,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/tdrain/juno_sc_earth.tf
 """
-const spk_pre_191001_200410_200113_bpo24_f_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/tdrain/juno_sc_earth.tf")
+const juno_sc_earth_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/tdrain/juno_sc_earth.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10474,36 +10789,6 @@ This kernel's link was sourced on 2024-09-24.
 const juno_io_dyn_v0_tf = FK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/tmp/juno_io_dyn_v0.tf")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240311_apo59_p.bsp
-"""
-const pck_jup365_ver2_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240311_apo59_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200113_bpo24_f.bsp
-"""
-const spk_pre_240204_240515_240313_apo59_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200113_bpo24_f.bsp")
-
-"""
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -10516,7 +10801,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/tmp/pck.jup365.ver2.tpc
 """
-const spk_pre_191001_200410_200113_bpo24_p_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/tmp/pck.jup365.ver2.tpc")
+const pck_jup365_ver2_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/tmp/pck.jup365.ver2.tpc")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10544,69 +10829,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240313_apo59_f.bsp
-"""
-const jupiter_400km_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240313_apo59_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200113_bpo24_p.bsp
-"""
-const spk_pre_240204_240515_240326_stm59_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200410_200113_bpo24_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/vhue/jupiter_400km.bsp
 """
-const spk_pre_191001_200413_200115_jm0252_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/vhue/jupiter_400km.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200413_200115_jm0252.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240326_stm59_p.bsp
-"""
-const jupiter_400km_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200413_200115_jm0252.bsp")
-const jupiter_400km_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240326_stm59_p.bsp")
+const jupiter_400km_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/vhue/jupiter_400km.bsp")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10621,7 +10846,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/vhue/jupiter_400km.tpc
 """
-const spk_pre_240204_240515_240328_stm59_f_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/vhue/jupiter_400km.tpc")
+const jupiter_400km_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/vhue/jupiter_400km.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10638,249 +10863,20 @@ This kernel's link was sourced on 2024-09-24.
 """
 const jupiter_eq_plane_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/JUNO/misc/ws2023/jupiter_eq_plane.tpc")
 
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200203_otm25_p.bsp
-"""
-const jupiter_eq_plane_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200203_otm25_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240328_stm59_f.bsp
-"""
-const spk_pre_191001_200601_200204_otm25_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240515_240328_stm59_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240616_240401_jm0610.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200204_otm25_f.bsp
-"""
-const spk_pre_240204_240616_240401_jm0610_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240204_240616_240401_jm0610.bsp")
-const spk_pre_240204_240616_240401_jm0610_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200204_otm25_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200207_btm25_p.bsp
-"""
-const spk_pre_240308_240616_240415_apo60_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200207_btm25_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240616_240415_apo60_f.bsp
-"""
-const spk_pre_191001_200601_200212_btm25_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240616_240415_apo60_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200212_btm25_f.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240616_240415_apo60_p.bsp
-"""
-const spk_pre_240308_240616_240415_apo60_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200601_200212_btm25_f.bsp")
-const spk_pre_240308_240616_240415_apo60_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240616_240415_apo60_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240719_240429_jm0620.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200605_200218_jm0261.bsp
-"""
-const spk_pre_191001_200605_200218_jm0261_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240719_240429_jm0620.bsp")
-const spk_pre_191001_200605_200218_jm0261_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191001_200605_200218_jm0261.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191104_200601_200226_apo25_p.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240719_240429_otm61_p.bsp
-"""
-const spk_pre_191104_200601_200226_apo25_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240719_240429_otm61_p.bsp")
-const spk_pre_191104_200601_200226_apo25_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_191104_200601_200226_apo25_p.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200601_200302_apo25_f.bsp
-"""
-const spk_pre_240308_240719_240501_otm61_f_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200601_200302_apo25_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240719_240501_otm61_f.bsp
-"""
-const spk_pre_200116_200601_200304_bpo25_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_240308_240719_240501_otm61_f.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200601_200304_bpo25_p.bsp
-"""
-const spk_pre_200116_200601_200304_bpo25_p_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JUNO/kernels/spk/spk_pre_200116_200601_200304_bpo25_p.bsp")
-
 export
     _110805LD_120918_0920DSM_160705AD_to_pj34_r090608_v2_bsp,
     _110807LD_120928_0930DSM_160803AD_to_pj34_r081118_v1_bsp_spk,
     _110807LD_120928_0930DSM_160803AD_to_pj34_r081118_v1_bsp_spk,
-    _110807LD_120928_0930DSM_160803AD_to_pj34_r081118_v1_bsp_spk,
-    _53_5d_14d_PJ38_impact_bsp_spk,
-    _53_5d_14d_PJ38_impact_bsp_spk,
-    _53_5d_20d_PJ38_impact_bsp_spk,
-    _53_5d_20d_PJ38_impact_bsp_spk,
+    _53_5d_14d_PJ38_impact_bsp,
+    _53_5d_20d_PJ38_impact_bsp,
     de421_bsp,
     de434s_bsp,
-    de434s_bsp,
-    de434s_bsp,
+    de436s_bsp,
     de438s_bsp,
     de440s_bsp,
     juno_io_dyn_v0_tf,
     juno_nadir_tf,
-    juno_phi_o_v1_tf_spk,
+    juno_phi_o_v1_tf,
     juno_pred_orbit_bsp,
     juno_rec_orbit_bsp,
     juno_sc_earth_tf,
@@ -10891,31 +10887,25 @@ export
     juno_struct_v04_bsp,
     juno_sunmag_v01_tf,
     juno_v00_tf,
-    juno_v00_tf,
+    juno_v01_tf,
     juno_v02_tf_fk,
-    juno_v02_tf_spk,
-    juno_v02_tf_spk,
-    juno_v02_tf_spk_spk,
-    juno_v02_tf_spk_spk_spk,
+    juno_v02_tf_fk,
+    juno_v02_tf_fk,
     juno_v03_draft1_tf,
-    juno_v03_draft1_tf,
-    juno_v05_tf_spk,
-    juno_v06_draft1_tf,
+    juno_v05_tf,
     juno_v06_draft1_tf,
     juno_v06_draft2_tf,
-    juno_v06_draft2_tf,
-    juno_v06_draft3_tf_spk,
-    juno_v07_draft1_tf_spk,
-    juno_v07_draft2_tf_spk,
+    juno_v06_draft3_tf,
+    juno_v07_draft1_tf,
+    juno_v07_draft2_tf,
     juno_v07_tf,
     juno_v08_tf,
-    juno_v09_draft1_tf_spk,
-    juno_v09_draft2_tf_spk,
-    juno_v09_draft3_tf_spk,
-    juno_v09_draft4_tf,
+    juno_v09_draft1_tf,
+    juno_v09_draft2_tf,
+    juno_v09_draft3_tf,
     juno_v09_draft4_tf,
     juno_v09_draft5_tf,
-    juno_v09_draft6_tf_spk,
+    juno_v09_draft6_tf,
     juno_v09_tf,
     juno_v10_tf,
     juno_v11_tf,
@@ -10926,42 +10916,27 @@ export
     jup380s_bsp,
     jup388s_bsp,
     jupiter_400km_bsp,
-    jupiter_400km_bsp,
-    jupiter_400km_tpc_spk,
-    jupiter_400km_tpc_spk,
-    jupiter_eq_plane_tpc,
-    jupiter_eq_plane_tpc,
+    jupiter_400km_tpc,
     jupiter_eq_plane_tpc,
     jupiter_poles_bsp,
     jupiter_poles_tf,
-    naif0009_tls,
-    naif0009_tls_spk,
-    naif0009_tls_spk,
-    naif0009_tls_spk,
-    naif0010_tls,
-    naif0010_tls,
-    naif0010_tls_spk,
+    naif0009_tls_lsk,
+    naif0009_tls_lsk,
+    naif0010_tls_lsk,
+    naif0010_tls_lsk,
     naif0011_tls,
     naif0012_tls,
     pck00008_tpc,
     pck00009_tpc,
-    pck00009_tpc,
-    pck00009_tpc,
-    pck00010_tpc,
-    pck00010_tpc,
     pck00010_tpc,
     pck_jup365_ver2_tpc,
-    pck_jup365_ver2_tpc,
-    spk_170803_210731_171005_STUDY_bsp_spk,
-    spk_SAMPLE_210221_250714_191231_EM_case_10_bsp,
+    spk_170803_210731_171005_STUDY_bsp,
     spk_SAMPLE_210221_250714_191231_EM_case_10_bsp,
     spk_SAMPLE_210221_251021_200206_EM_Case_10plus_bsp,
-    spk_SAMPLE_210221_251021_200206_EM_Case_10plus_bsp,
-    spk_SAMPLE_210221_251202_191218_EM_case_9_bsp_spk,
+    spk_SAMPLE_210221_251202_191218_EM_case_9_bsp,
     spk_SAMPLE_to_PJ67_170803_260319_180426_SAMPLE_to_PJ67_bsp,
     spk_TEST_161212_210731_170228_STUDY_53d_105deg_inc_3500km_alt_bsp,
     spk_TEST_161212_210731_170228_STUDY_53d_105deg_inc_7950km_alt_bsp,
-    spk_TEST_to_PJ67_170803_260319_180426_TEST_to_PJ67_bsp,
     spk_TEST_to_PJ67_170803_260319_180426_TEST_to_PJ67_bsp,
     spk_merge_110805_171017_130515_bsp,
     spk_no_prm_53d_100deg_inc_161021_210731_161216_study_bsp,
@@ -10970,7 +10945,6 @@ export
     spk_nob_160413_161209_160803_PRM_bsp,
     spk_nob_160705_161210_160901_jm0005_bsp,
     spk_nob_160705_170105_161003_bsp,
-    spk_nob_160705_170105_161003_bsp,
     spk_nob_161001_170101_160516_no_PRM_test_bsp,
     spk_pre_0805_1625_launch_0808_0629_bsp,
     spk_pre_110806_101210_110926_jc004_bsp,
@@ -10978,61 +10952,61 @@ export
     spk_pre_110806_120129_111115_jc006_bsp,
     spk_pre_110806_131031_110829_jc003_bsp,
     spk_pre_111026_110531_120312_jc010_bsp,
-    spk_pre_111026_120229_111214_jc007_bsp_spk,
-    spk_pre_111026_120331_120112_jc008_bsp_spk,
-    spk_pre_111026_12043_120208_jc009_bsp_spk,
+    spk_pre_111026_120229_111214_jc007_bsp,
+    spk_pre_111026_120331_120112_jc008_bsp,
+    spk_pre_111026_12043_120208_jc009_bsp,
     spk_pre_111026_120628_120409_jc011_bsp,
-    spk_pre_111026_120731_120507_jc012_bsp_spk,
+    spk_pre_111026_120731_120507_jc012_bsp,
     spk_pre_111026_120830_111209_tcm2plim_bsp,
     spk_pre_111026_120830_120103_tcm2rhl_bsp,
     spk_pre_111026_120830_120124_tcm2fin_bsp,
     spk_pre_111026_120831_120525_jc013_bsp,
     spk_pre_111026_120930_120209_DSMpreB_bsp,
     spk_pre_111026_120930_120418_DSMpreC_bsp,
-    spk_pre_111026_120930_120521_DSMfinalC_bsp_spk,
-    spk_pre_111026_120930_120625_jc014_bsp_spk,
-    spk_pre_111026_121001_120111_DSMpreA_bsp_spk,
+    spk_pre_111026_120930_120521_DSMfinalC_bsp,
+    spk_pre_111026_120930_120625_jc014_bsp,
+    spk_pre_111026_121001_120111_DSMpreA_bsp,
     spk_pre_120308_121031_120723_jc015_bsp,
     spk_pre_120308_121130_120827_dsm1_bsp,
     spk_pre_120825_121130_120902_DSM2_delay_bsp,
     spk_pre_120825_121231_120924_jc017_bsp,
     spk_pre_120825_130131_121022_jc018_bsp,
     spk_pre_120825_131010_120918_TCM5prelim_bsp,
-    spk_pre_120825_131010_120924_TCM5final_bsp_spk,
-    spk_pre_120915_130228_121119_jc019_bsp_spk,
-    spk_pre_120915_130331_121207_jc020_bsp_spk,
+    spk_pre_120825_131010_120924_TCM5final_bsp,
+    spk_pre_120915_130228_121119_jc019_bsp,
+    spk_pre_120915_130331_121207_jc020_bsp,
     spk_pre_120915_130430_130114_jc021_bsp,
     spk_pre_120915_130430_130206_jc022_bsp,
     spk_pre_120915_130530_130304_jc023_bsp,
     spk_pre_120915_130630_130408_jc024_bsp,
     spk_pre_130123_130731_130506_jc025_bsp,
-    spk_pre_130123_130831_130603_jc026_bsp_spk,
-    spk_pre_130123_130930_130702_jc027_bsp_spk,
+    spk_pre_130123_130831_130603_jc026_bsp,
+    spk_pre_130123_130930_130702_jc027_bsp,
     spk_pre_130123_130930_130702_jc027_v2_bsp,
-    spk_pre_130123_131031_130718_junoONLY_TCM6_prelimPA_bsp_spk,
-    spk_pre_130123_131031_130729_jc028_bsp_spk,
-    spk_pre_130502_131031_130812_postTCM06_bsp_spk,
+    spk_pre_130123_131031_130718_junoONLY_TCM6_prelimPA_bsp,
+    spk_pre_130123_131031_130729_jc028_bsp,
+    spk_pre_130502_131031_130812_postTCM06_bsp,
     spk_pre_130502_131031_130820_jc029_bsp,
     spk_pre_130502_131031_130923_jc030_bsp,
     spk_pre_130502_131130_130924_jc030_bsp,
     spk_pre_130611_131031_130611_cam_m1_prelimPA_bsp,
     spk_pre_130611_131031_130611_cam_p1_prelimPA_bsp,
-    spk_pre_130619_131031_130619_cam_m1_finalPA_bsp_spk,
-    spk_pre_130619_131031_130619_cam_p1_finalPA_bsp_spk,
+    spk_pre_130619_131031_130619_cam_m1_finalPA_bsp,
+    spk_pre_130619_131031_130619_cam_p1_finalPA_bsp,
     spk_pre_130718_131031_130718_TCM6_prelimPA_bsp,
     spk_pre_130801_131031_130801_bsp,
     spk_pre_130827_131017_130827_TCM7_prelimPA_bsp,
-    spk_pre_130903_131017_130903_TCM7_finalPA_bsp_spk,
+    spk_pre_130903_131017_130903_TCM7_finalPA_bsp,
     spk_pre_130909_140102_131021_jc031_bsp,
     spk_pre_130917_131031_130917_TCM8_prelimPA_bsp,
-    spk_pre_130917_131031_130917_TCM8_prelimPB_bsp_spk,
+    spk_pre_130917_131031_130917_TCM8_prelimPB_bsp,
     spk_pre_130917_131031_130917_TCM8a_prelimPA_bsp,
     spk_pre_131011_140129_131111_jc032_bsp,
     spk_pre_131029_140301_131029_TCM9_prelimPA_bsp,
     spk_pre_131104_140301_131105_TCM9_finalPA_bsp,
-    spk_pre_131114_140223_131205_jc033_bsp_spk,
-    spk_pre_131114_140330_140113_jc034_bsp_spk,
-    spk_pre_131114_140427_140210_jc035_bsp_spk,
+    spk_pre_131114_140223_131205_jc033_bsp,
+    spk_pre_131114_140330_140113_jc034_bsp,
+    spk_pre_131114_140427_140210_jc035_bsp,
     spk_pre_131114_140525_140309_jc036_bsp,
     spk_pre_131114_140626_140407_jc037_wMEF2_bsp,
     spk_pre_131114_140720_140505_jc038_bsp,
@@ -11046,6 +11020,7 @@ export
     spk_pre_140703_160713_150818_joiPA_prelim_bsp,
     spk_pre_140903_150126_141110_jc045_bsp,
     spk_pre_140903_150213_141201_jc046_bsp,
+    spk_pre_140903_150329_150112_jc047_bsp,
     spk_pre_140903_150427_150208_jc048_bsp,
     spk_pre_140903_150517_150303_jc049_bsp,
     spk_pre_140903_150625_150406_jc050_bsp,
@@ -11054,77 +11029,81 @@ export
     spk_pre_140903_150906_150619_jc053_bsp,
     spk_pre_140903_151011_150723_jc054_bsp,
     spk_pre_140903_151109_150824_jc055_bsp,
+    spk_pre_140903_160713_150818_joiPA_prelim_bsp,
     spk_pre_140903_160713_150826_joiPA_final_bsp,
     spk_pre_150514_150901_150514_bsp,
     spk_pre_150611_151206_150921_jc056_bsp,
     spk_pre_150611_160103_151016_jc057_bsp,
-    spk_pre_150611_160228_151107_jc058_bsp_spk,
+    spk_pre_150611_160228_151107_jc058_bsp,
     spk_pre_150611_160228_151207_jc059_bsp,
     spk_pre_151003_160301_160115_tcm11PA_prelim_bsp,
+    spk_pre_151003_160301_160126_tcm11PA_final_bsp,
     spk_pre_151003_160331_160111_jc060_bsp,
     spk_pre_151003_160430_160121_jc061_bsp,
     spk_pre_151003_160601_160223_jc062_bsp,
     spk_pre_151003_160701_160317_jc063_bsp,
-    spk_pre_151003_160713_160210_joiPB_prelim_bsp_spk,
+    spk_pre_151003_160713_160210_joiPB_prelim_bsp,
     spk_pre_151003_160713_160223_joiPB_final_bsp,
     spk_pre_160203_160701_160510_tcm12_p_bsp,
     spk_pre_160203_160801_160418_jc064_bsp,
-    spk_pre_160203_160815_160523_jm0001_bsp_spk,
+    spk_pre_160203_160815_160523_jm0001_bsp,
     spk_pre_160413_160826_160719_otm00_p_bsp,
     spk_pre_160413_160910_160719_otm00_p_bsp,
     spk_pre_160413_160913_160613_jm0002_bsp,
+    spk_pre_160413_161001_160707_joicu_p_bsp,
     spk_pre_160413_161001_160708_joicu_f_bsp,
     spk_pre_160413_161009_160708_jm0003_bsp,
     spk_pre_160413_161016_160712_jm0003_bsp,
-    spk_pre_160413_161101_160727_prm_p_bsp,
+    spk_pre_160413_161016_160818_pj01_bsp,
     spk_pre_160413_161101_160727_prm_p_bsp,
     spk_pre_160413_161101_160802_prm_f_bsp,
-    spk_pre_160413_161101_160802_prm_f_bsp,
-    spk_pre_160413_161103_160803_jm0004_bsp,
     spk_pre_160413_161103_160803_jm0004_bsp,
     spk_pre_160705_161216_160901_otm01_p_bsp,
-    spk_pre_160705_161216_160901_otm01_p_bsp,
-    spk_pre_160705_161216_160907_otm01_f_bsp_spk,
+    spk_pre_160705_161216_160907_otm01_f_bsp,
     spk_pre_160705_161216_160912_btm01_p_bsp,
     spk_pre_160705_161216_160913_btm01_f_bsp,
     spk_pre_160705_170105_161003_jm0405_bsp,
-    spk_pre_160729_170201_161017_otm02a_p_bsp_spk,
-    spk_pre_160729_170201_161017_otm02a_p_bsp_spk,
-    spk_pre_160729_170201_161019_otm02b_f_bsp,
+    spk_pre_160729_170201_161017_otm02a_p_bsp,
     spk_pre_160729_170201_161019_otm02b_f_bsp,
     spk_pre_160729_170201_161019_otm02b_p_bsp,
-    spk_pre_160729_170201_161019_otm02b_p_bsp,
     spk_pre_160829_170201_161024_btm02_p_bsp,
-    spk_pre_160829_170201_161024_btm02_p_bsp,
-    spk_pre_160829_170201_161027_jm0031_bsp_fk,
+    spk_pre_160829_170201_161027_jm0031_bsp,
     spk_pre_160829_170202_161031_jm0031_bsp,
     spk_pre_160829_170202_161119_jm0032_bsp,
     spk_pre_160829_170205_161122_jm0032_bsp,
-    spk_pre_160829_170326_161205_otm03_p_bsp_spk,
-    spk_pre_160829_170326_161205_otm03_p_bsp_spk,
+    spk_pre_160829_170326_161205_otm03_p_bsp,
     spk_pre_160829_170326_161207_otm03_f_bsp,
     spk_pre_160829_170326_161209_btm03_f_bsp,
     spk_pre_160829_170326_161209_btm03_p_bsp,
-    spk_pre_160829_170330_161212_jm0041_bsp_fk,
+    spk_pre_160829_170330_161212_jm0041_bsp,
     spk_pre_161009_161029_151013_prmPA_prelim_bsp,
     spk_pre_161009_161029_151020_prmPA_final_bsp,
     spk_pre_161115_170330_170118_jm0042_bsp,
     spk_pre_161115_170518_170124_otm04_p_bsp,
     spk_pre_161115_170518_170125_otm04_f_bsp,
-    spk_pre_161115_170518_170125_otm04_f_bsp,
-    spk_pre_161115_170518_170130_btm04_p_bsp,
     spk_pre_161115_170518_170130_btm04_p_bsp,
     spk_pre_161115_170518_170201_btm04_f_bsp,
-    spk_pre_161115_170518_170201_btm04_f_bsp,
-    spk_pre_161212_170518_170214_apo04_p_bsp_fk,
+    spk_pre_161212_170518_170214_apo04_p_bsp,
     spk_pre_161212_170518_170215_apo04_f_bsp,
     spk_pre_161212_170518_170217_bpo04_p_bsp,
     spk_pre_161212_170518_170221_bpo04_f_bsp,
     spk_pre_161212_170522_170207_jm0051_bsp,
+    spk_pre_161212_170522_170307_jm0052_bsp,
+    spk_pre_161212_170710_170316_otm05_p_bsp,
     spk_pre_161212_170710_170321_otm05_f_bsp,
     spk_pre_161212_170710_170323_btm05_p_bsp,
-    spk_pre_170228_170901_170516_btm06_p_bsp_lsk,
+    spk_pre_170203_170714_170329_jm0061_bsp,
+    spk_pre_170203_170714_170426_jm0062_bsp,
+    spk_pre_170228_170714_170516_jm0071_bsp,
+    spk_pre_170228_170901_170508_otm06_p_bsp,
+    spk_pre_170228_170901_170510_otm06_f_bsp,
+    spk_pre_170228_170901_170516_btm06_p_bsp,
+    spk_pre_170228_170901_170518_btm06_f_bsp,
+    spk_pre_170228_170904_170516_jm0071_bsp,
     spk_pre_170327_170901_170525_apo06_p_bsp,
+    spk_pre_170327_170901_170531_apo06_f_bsp,
+    spk_pre_170327_170901_170605_bpo06_p_bsp,
+    spk_pre_170327_170901_170607_bpo06_f_bsp,
     spk_pre_170327_170904_170605_jm0072_bsp,
     spk_pre_170327_171024_170626_otm07_p_bsp,
     spk_pre_170327_171024_170627_otm07_f_bsp,
@@ -11146,7 +11125,7 @@ export
     spk_pre_170803_180207_171023_otm09_f_bsp,
     spk_pre_170803_180207_171030_btm09_p_bsp,
     spk_pre_170803_180207_171031_btm09_f_bsp,
-    spk_pre_170803_180210_171016_jm0101_bsp_spk,
+    spk_pre_170803_180210_171016_jm0101_bsp,
     spk_pre_170902_180210_171114_jm0102_bsp,
     spk_pre_170929_180331_171206_otm10_p_bsp,
     spk_pre_170929_180331_171211_otm10_f_bsp,
@@ -11154,52 +11133,52 @@ export
     spk_pre_170929_180331_171214_btm10_f_bsp,
     spk_pre_170929_180404_171212_jm0111_bsp,
     spk_pre_171110_180331_171229_apo10_p_bsp,
-    spk_pre_171110_180331_180102_apo10_f_bsp_spk,
-    spk_pre_171110_180331_180104_bpo10_p_bsp_spk,
-    spk_pre_171110_180331_180108_bpo10_f_bsp_spk,
+    spk_pre_171110_180331_180102_apo10_f_bsp,
+    spk_pre_171110_180331_180104_bpo10_p_bsp,
+    spk_pre_171110_180331_180108_bpo10_f_bsp,
     spk_pre_171110_180404_180109_jm0112_bsp,
     spk_pre_171110_180523_180126_otm11_p_bsp,
     spk_pre_171110_180523_180130_otm11_f_bsp,
     spk_pre_171110_180523_180205_btm11_f_bsp,
-    spk_pre_171110_180523_180205_btm11_p_bsp_spk,
-    spk_pre_171110_180527_180206_jm0121_bsp_spk,
-    spk_pre_171217_180523_180215_apo11_p_bsp_spk,
-    spk_pre_171217_180523_180220_apo11_f_bsp_spk,
+    spk_pre_171110_180523_180205_btm11_p_bsp,
+    spk_pre_171110_180527_180206_jm0121_bsp,
+    spk_pre_171217_180523_180215_apo11_p_bsp,
+    spk_pre_171217_180523_180220_apo11_f_bsp,
     spk_pre_171217_180523_180226_bpo11_p_bsp,
     spk_pre_171217_180523_180227_bpo11_f_bsp,
     spk_pre_171217_180527_180306_jm0122_bsp,
     spk_pre_180111_180715_180321_otm12_p_bsp,
-    spk_pre_180111_180715_180323_otm12_f_bsp_spk,
-    spk_pre_180111_180715_180329_btm12_f_bsp_spk,
-    spk_pre_180111_180715_180329_btm12_p_bsp_spk,
-    spk_pre_180111_180719_180402_jm0131_bsp_spk,
+    spk_pre_180111_180715_180323_otm12_f_bsp,
+    spk_pre_180111_180715_180329_btm12_f_bsp,
+    spk_pre_180111_180715_180329_btm12_p_bsp,
+    spk_pre_180111_180719_180402_jm0131_bsp,
     spk_pre_180208_180715_180412_apo12_p_bsp,
     spk_pre_180208_180715_180416_apo12_f_bsp,
     spk_pre_180208_180715_180418_bpo12_p_bsp,
-    spk_pre_180208_180715_180419_bpo12_f_bsp_spk,
+    spk_pre_180208_180715_180419_bpo12_f_bsp,
     spk_pre_180208_180719_180423_jm0132_bsp,
     spk_pre_180302_180906_180514_otm13_p_bsp,
     spk_pre_180302_180906_180515_otm13_f_bsp,
     spk_pre_180302_180906_180522_btm13_f_bsp,
     spk_pre_180302_180906_180522_btm13_p_bsp,
     spk_pre_180302_180910_180521_jm0141_bsp,
-    spk_pre_180402_180906_180604_apo13_p_bsp_spk,
+    spk_pre_180402_180906_180604_apo13_p_bsp,
     spk_pre_180402_180906_180606_apo13_f_bsp,
     spk_pre_180402_180906_180611_bpo13_p_bsp,
     spk_pre_180402_180906_180614_bpo13_f_bsp,
     spk_pre_180402_180910_180611_jm0142_bsp,
     spk_pre_180423_181029_180705_otm14_p_bsp,
     spk_pre_180423_181029_180709_otm14_f_bsp,
-    spk_pre_180423_181029_180712_btm14_f_bsp_spk,
+    spk_pre_180423_181029_180712_btm14_f_bsp,
     spk_pre_180423_181029_180712_btm14_p_bsp,
     spk_pre_180423_181101_180710_jm0151_bsp,
     spk_pre_180524_181029_180727_apo14_p_bsp,
     spk_pre_180524_181029_180731_apo14_f_bsp,
     spk_pre_180524_181029_180806_bpo14_f_bsp,
     spk_pre_180524_181029_180806_bpo14_p_bsp,
-    spk_pre_180524_181101_180807_jm0152_bsp_spk,
+    spk_pre_180524_181101_180807_jm0152_bsp,
     spk_pre_180615_181221_180823_otm15_p_bsp,
-    spk_pre_180615_181221_180828_otm15_f_bsp_spk,
+    spk_pre_180615_181221_180828_otm15_f_bsp,
     spk_pre_180615_181221_180829_btm15_p_bsp,
     spk_pre_180615_181221_180904_btm15_f_bsp,
     spk_pre_180615_181224_180904_jm0161_bsp,
@@ -11212,7 +11191,6 @@ export
     spk_pre_180808_190212_181022_otm16_f_bsp,
     spk_pre_180808_190212_181023_btm16_p_bsp,
     spk_pre_180808_190212_181026_btm16_f_bsp,
-    spk_pre_180808_190212_181026_btm16_f_bsp,
     spk_pre_180808_190215_181023_jm0171_bsp,
     spk_pre_180907_190215_181112_jm0172_bsp,
     spk_pre_180907_190406_181211_otm17_p_bsp,
@@ -11220,47 +11198,66 @@ export
     spk_pre_180907_190406_181217_btm17_p_bsp,
     spk_pre_180907_190406_181219_btm17_f_bsp,
     spk_pre_180907_190409_181211_jm0181_bsp,
-    spk_pre_181030_190406_190102_apo17_p_bsp_spk,
+    spk_pre_181030_190406_190102_apo17_p_bsp,
     spk_pre_181030_190406_190103_apo17_f_bsp,
     spk_pre_181030_190406_190107_bpo17_p_bsp,
     spk_pre_181030_190406_190108_bpo17_f_bsp,
     spk_pre_181030_190409_190111_jm0182_bsp,
     spk_pre_181206_190528_190204_otm18_p_bsp,
     spk_pre_181206_190528_190205_otm18_f_bsp,
-    spk_pre_181206_190528_190208_btm18_p_bsp_spk,
+    spk_pre_181206_190528_190208_btm18_p_bsp,
     spk_pre_181206_190528_190211_btm18_f_bsp,
     spk_pre_181206_190601_190204_jm0191_bsp,
     spk_pre_181222_190601_190312_jm0192_bsp,
     spk_pre_190111_190720_190325_otm19_p_bsp,
     spk_pre_190111_190720_190327_otm19_f_bsp,
     spk_pre_190111_190720_190402_btm19_p_bsp,
-    spk_pre_190111_190720_190404_btm19_f_bsp_spk,
+    spk_pre_190111_190720_190404_btm19_f_bsp,
     spk_pre_190213_190720_190422_apo19_p_bsp,
     spk_pre_190213_190720_190423_apo19_f_bsp,
     spk_pre_190213_190720_190425_bpo19_p_bsp,
     spk_pre_190213_190720_190429_bpo19_f_bsp,
     spk_pre_190213_190724_190409_jm0201_bsp,
+    spk_pre_190213_191226_190409_apo22a_p_bsp,
+    spk_pre_190213_191226_190411_apo22a_f_bsp,
+    spk_pre_190307_190724_190506_jm0202_bsp,
+    spk_pre_190307_190911_190515_otm20_p_bsp,
+    spk_pre_190307_190911_190517_otm20_f_bsp,
     spk_pre_190307_190911_190521_btm20_p_bsp,
+    spk_pre_190307_190911_190523_btm20_f_bsp,
+    spk_pre_190307_190915_190528_jm0211_bsp,
     spk_pre_190406_260101_191007_SAMPLE_7_GBS_passes_to_PJ66_bsp,
-    spk_pre_190406_260101_191007_SAMPLE_7_GBS_passes_to_PJ66_bsp,
+    spk_pre_190407_190911_190611_apo20_p_bsp,
+    spk_pre_190407_190911_190612_apo20_f_bsp,
     spk_pre_190407_190911_190617_bpo20_p_bsp,
+    spk_pre_190407_190911_190618_bpo20_f_bsp,
+    spk_pre_190407_190915_190613_jm0212_bsp,
+    spk_pre_190502_191103_190710_otm21_p_bsp,
+    spk_pre_190502_191103_190711_otm21_f_bsp,
+    spk_pre_190502_191106_190716_jm0221_bsp,
+    spk_pre_190502_191226_190726_apo22b_p_bsp,
     spk_pre_190502_191226_190730_apo22b_f_bsp,
     spk_pre_190529_191103_190805_apo21_p_bsp,
-    spk_pre_190529_191103_190806_apo21_f_bsp_spk,
-    spk_pre_190529_191103_190807_bpo21_p_bsp_spk,
+    spk_pre_190529_191103_190806_apo21_f_bsp,
+    spk_pre_190529_191103_190807_bpo21_p_bsp,
     spk_pre_190529_191103_190812_bpo21_f_bsp,
     spk_pre_190529_191106_190808_jm0222_bsp,
-    spk_pre_190529_240819_191007_SAMPLE_double_flybys_42d_to_PJ62_bsp_spk,
-    spk_pre_190529_250204_191007_SAMPLE_double_flybys_50d_to_PJ61_bsp_spk,
+    spk_pre_190529_240819_191007_SAMPLE_double_flybys_42d_to_PJ62_bsp,
+    spk_pre_190529_250204_191007_SAMPLE_double_flybys_50d_to_PJ61_bsp,
     spk_pre_190620_191226_190829_otm22_p_bsp,
     spk_pre_190620_191226_190903_otm22_f_bsp,
     spk_pre_190620_191226_190906_btm22_p_bsp,
-    spk_pre_190620_191226_190909_btm22_f_bsp_fk,
+    spk_pre_190620_191226_190909_btm22_f_bsp,
+    spk_pre_190620_191229_190906_jm0231_bsp,
+    spk_pre_190721_191226_191003_cpo22_p_bsp,
+    spk_pre_190721_191226_191007_cpo22_f_bsp,
     spk_pre_190721_191229_191008_jm0232_bsp,
     spk_pre_190816_200217_191023_otm23_p_bsp,
-    spk_pre_190816_200217_191029_btm23_p_bsp_lsk,
+    spk_pre_190816_200217_191024_otm23_f_bsp,
+    spk_pre_190816_200217_191029_btm23_p_bsp,
     spk_pre_190816_200217_191031_btm23_f_bsp,
     spk_pre_190816_200220_191029_jm0241_bsp,
+    spk_pre_190816_200220_191119_jm0242_bsp,
     spk_pre_190912_200410_191211_orb24_t_bsp,
     spk_pre_190912_200413_191213_jm0251_bsp,
     spk_pre_191001_200410_200107_apo24_p_bsp,
@@ -11268,101 +11265,108 @@ export
     spk_pre_191001_200410_200113_bpo24_f_bsp,
     spk_pre_191001_200410_200113_bpo24_p_bsp,
     spk_pre_191001_200413_200115_jm0252_bsp,
-    spk_pre_191001_200605_200218_jm0261_bsp,
+    spk_pre_191001_200601_200203_otm25_p_bsp,
+    spk_pre_191001_200601_200204_otm25_f_bsp,
+    spk_pre_191001_200601_200207_btm25_p_bsp,
+    spk_pre_191001_200601_200212_btm25_f_bsp,
     spk_pre_191001_200605_200218_jm0261_bsp,
     spk_pre_191104_200601_200226_apo25_p_bsp,
-    spk_pre_191104_200601_200226_apo25_p_bsp,
+    spk_pre_200116_200601_200302_apo25_f_bsp,
     spk_pre_200116_200601_200304_bpo25_p_bsp,
-    spk_pre_200116_200601_200304_bpo25_p_bsp,
+    spk_pre_200116_200601_200305_bpo25_f_bsp,
+    spk_pre_200116_200605_200316_jm0262_bsp,
+    spk_pre_200116_200724_200317_otm26_p_bsp,
     spk_pre_200116_200724_200320_otm26_f_bsp,
     spk_pre_200116_200724_200402_btm26_p_bsp,
-    spk_pre_200116_200724_200408_btm26_f_bsp_fk,
+    spk_pre_200116_200724_200408_btm26_f_bsp,
     spk_pre_200116_200728_200402_jm0271_bsp,
-    spk_pre_200218_200724_200413_apo26_p_bsp_lsk,
-    spk_pre_200218_200724_200428_bpo26_p_bsp_lsk,
-    spk_pre_200218_200724_200430_bpo26_f_bsp_lsk,
+    spk_pre_200218_200724_200413_apo26_p_bsp,
+    spk_pre_200218_200724_200414_apo26_f_bsp,
+    spk_pre_200218_200724_200428_bpo26_p_bsp,
+    spk_pre_200218_200724_200430_bpo26_f_bsp,
+    spk_pre_200218_200728_200501_jm0272_bsp,
     spk_pre_200218_200915_200507_otm27_p_bsp,
     spk_pre_200311_200915_200511_otm27_f_bsp,
     spk_pre_200311_200915_200528_btm27_f_bsp,
-    spk_pre_200411_200915_200608_apo27_p_bsp_spk,
-    spk_pre_200411_200915_200608_apo27_p_bsp_spk,
+    spk_pre_200411_200915_200608_apo27_p_bsp,
     spk_pre_200411_200915_200610_apo27_f_bsp,
     spk_pre_200411_200919_200611_jm0281_bsp,
-    spk_pre_200504_200919_200706_jm0282_bsp_spk,
-    spk_pre_200504_201107_200706_otm28_p_bsp_spk,
-    spk_pre_200504_201107_200708_otm28_f_bsp_spk,
-    spk_pre_200504_201107_200724_btm28_f_bsp_spk,
-    spk_pre_200602_201107_200730_apo28_p_bsp_spk,
-    spk_pre_200602_201107_200804_apo28_f_bsp_spk,
-    spk_pre_200602_201111_200730_jm0291_bsp_spk,
-    spk_pre_200625_201111_200831_jm0292_bsp_spk,
-    spk_pre_200625_201230_200827_otm29_p_bsp_spk,
-    spk_pre_200625_201230_200901_otm29_f_bsp_spk,
-    spk_pre_200625_201230_200914_btm29_f_bsp_spk,
-    spk_pre_200725_201230_200921_apo29_p_bsp_spk,
-    spk_pre_200725_201230_200923_apo29_f_bsp_spk,
-    spk_pre_200725_210102_200924_jm0301_bsp_spk,
-    spk_pre_200818_210102_201019_jm0302_bsp_spk,
+    spk_pre_200504_200919_200706_jm0282_bsp,
+    spk_pre_200504_201107_200706_otm28_p_bsp,
+    spk_pre_200504_201107_200708_otm28_f_bsp,
+    spk_pre_200504_201107_200724_btm28_f_bsp,
+    spk_pre_200602_201107_200730_apo28_p_bsp,
+    spk_pre_200602_201107_200804_apo28_f_bsp,
+    spk_pre_200602_201111_200730_jm0291_bsp,
+    spk_pre_200625_201111_200831_jm0292_bsp,
+    spk_pre_200625_201230_200827_otm29_p_bsp,
+    spk_pre_200625_201230_200901_otm29_f_bsp,
+    spk_pre_200625_201230_200914_btm29_f_bsp,
+    spk_pre_200725_201230_200921_apo29_p_bsp,
+    spk_pre_200725_201230_200923_apo29_f_bsp,
+    spk_pre_200725_210102_200924_jm0301_bsp,
+    spk_pre_200818_210102_201019_jm0302_bsp,
     spk_pre_200818_210221_201019_otm30_p_bsp,
     spk_pre_200818_210221_201021_otm30_f_bsp,
     spk_pre_200818_210221_201029_btm30_f_bsp,
+    spk_pre_200818_210224_201105_jm0311_bsp,
     spk_pre_200917_210221_201110_apo30_p_bsp,
     spk_pre_200917_210221_201111_apo30_f_bsp,
     spk_pre_200917_210224_201125_jm0312_bsp,
     spk_pre_201008_210415_201207_otm31_p_bsp,
     spk_pre_201008_210415_201209_otm31_f_bsp,
-    spk_pre_201008_210415_201216_btm31_p_bsp_spk,
-    spk_pre_201108_210418_210111_jm0321_bsp_spk,
+    spk_pre_201008_210415_201216_btm31_p_bsp,
+    spk_pre_201008_210415_201217_btm31_f_bsp,
+    spk_pre_201108_210418_210111_jm0321_bsp,
     spk_pre_201108_210418_210205_jm0322_bsp,
-    spk_pre_201108_210607_210205_otm32_p_bsp_spk,
-    spk_pre_201108_210607_210208_otm32_f_bsp_spk,
-    spk_pre_201108_210607_210219_btm32_f_bsp_spk,
+    spk_pre_201108_210607_210205_otm32_p_bsp,
+    spk_pre_201108_210607_210208_otm32_f_bsp,
+    spk_pre_201108_210607_210219_btm32_f_bsp,
     spk_pre_201231_210607_210225_apo32_p_bsp,
     spk_pre_201231_210607_210302_apo32_f_bsp,
     spk_pre_201231_210611_210225_jm0331_bsp,
     spk_pre_201231_210611_210324_jm0332_bsp,
     spk_pre_201231_210720_210405_otm33_p_bsp,
-    spk_pre_201231_210720_210407_otm33_f_bsp_spk,
-    spk_pre_201231_210720_210414_btm33_f_bsp_spk,
+    spk_pre_201231_210720_210407_otm33_f_bsp,
+    spk_pre_201231_210720_210414_btm33_f_bsp,
     spk_pre_210222_210724_210426_jm0340_bsp,
     spk_pre_210222_210902_210526_btm34_i_bsp,
     spk_pre_210222_210905_210604_jm0350_bsp,
     spk_pre_210416_210902_210608_btm34_p_bsp,
-    spk_pre_210607_210724_200817_jx0340_bsp_spk,
+    spk_pre_210607_210724_200817_jx0340_bsp,
     spk_pre_210607_210902_210614_apo34_p_bsp,
     spk_pre_210607_210902_210616_apo34_f_bsp,
     spk_pre_210607_211016_210712_otm35_p_bsp,
-    spk_pre_210607_211016_210723_apo35_p_bsp_spk,
+    spk_pre_210607_211016_210723_apo35_p_bsp,
     spk_pre_210607_211016_210726_apo35_f_bsp,
     spk_pre_210607_211019_210719_jm0360_bsp,
     spk_pre_210626_211129_210823_otm36_p_bsp,
     spk_pre_210626_211129_210824_otm36_f_bsp,
     spk_pre_210626_211202_210825_jm0370_bsp,
-    spk_pre_210721_211129_210907_apo36_p_bsp_spk,
-    spk_pre_210721_211129_210913_apo36_f_bsp_spk,
+    spk_pre_210721_211129_210907_apo36_p_bsp,
+    spk_pre_210721_211129_210913_apo36_f_bsp,
     spk_pre_210721_220111_210929_otm37_p_bsp,
     spk_pre_210721_220111_211001_otm37_f_bsp,
     spk_pre_210812_220111_211021_apo37_p_bsp,
-    spk_pre_210812_220111_211027_apo37_f_bsp_spk,
-    spk_pre_210812_220115_211018_jm0380_bsp_spk,
-    spk_pre_210903_220224_211112_apo38_i_bsp_spk,
+    spk_pre_210812_220111_211027_apo37_f_bsp,
+    spk_pre_210812_220115_211018_jm0380_bsp,
+    spk_pre_210903_220224_211112_apo38_i_bsp,
     spk_pre_210903_220228_211115_jm0390_bsp,
     spk_pre_211017_220224_211202_apo38_p_bsp,
     spk_pre_211017_220224_211207_apo38_f_bsp,
-    spk_pre_211017_220409_211229_otm39_p_bsp_spk,
+    spk_pre_211017_220409_211229_otm39_p_bsp,
     spk_pre_211017_220409_220104_otm39_f_bsp,
     spk_pre_211017_220412_220107_jm0400_bsp,
-    spk_pre_211017_220412_220107_jm0400_bsp_spk,
-    spk_pre_211109_220409_220119_apo39_p_bsp_spk,
-    spk_pre_211130_220409_220121_apo39_f_bsp_spk,
+    spk_pre_211109_220409_220119_apo39_p_bsp,
+    spk_pre_211130_220409_220121_apo39_f_bsp,
     spk_pre_211130_220522_220207_otm40_p_bsp,
     spk_pre_211130_220522_220209_otm40_f_bsp,
     spk_pre_211130_220526_220210_jm0410_bsp,
     spk_pre_220113_220522_220228_apo40_p_bsp,
     spk_pre_220113_220522_220309_apo40_f_bsp,
     spk_pre_220113_220704_220328_otm41_p_bsp,
-    spk_pre_220113_220704_220330_otm41_f_bsp_spk,
-    spk_pre_220125_220708_220411_jm0420_bsp_spk,
+    spk_pre_220113_220704_220330_otm41_f_bsp,
+    spk_pre_220125_220708_220411_jm0420_bsp,
     spk_pre_220225_220704_220418_apo41_p_bsp,
     spk_pre_220225_220704_220420_apo41_f_bsp,
     spk_pre_220326_220817_220509_otm42_p_bsp,
@@ -11384,95 +11388,97 @@ export
     spk_pre_220706_221106_220912_stm44_f_bsp,
     spk_pre_220726_221214_220930_btm45_p_bsp,
     spk_pre_220726_221218_220927_jm0460_bsp,
-    spk_pre_220818_221214_221010_apo45_p_bsp_spk,
+    spk_pre_220818_221214_221010_apo45_p_bsp,
     spk_pre_220818_221214_221011_apo45_f_bsp,
     spk_pre_220904_230121_221026_otm46_p_bsp,
     spk_pre_220904_230121_221028_otm46_f_bsp,
     spk_pre_220904_230125_221031_jm0470_bsp,
     spk_pre_220930_230121_221114_apo46_p_bsp,
     spk_pre_220930_230121_221116_apo46_f_bsp,
-    spk_pre_220930_230304_221122_jm0480_bsp_spk,
+    spk_pre_220930_230304_221122_jm0480_bsp,
     spk_pre_221019_230228_221205_otm47_p_bsp,
     spk_pre_221019_230228_221207_otm47_f_bsp,
-    spk_pre_221107_230228_221219_apo47_p_bsp_spk,
+    spk_pre_221107_230228_221219_apo47_p_bsp,
     spk_pre_221107_230407_230109_otm48_p_bsp,
     spk_pre_221107_230407_230111_otm48_f_bsp,
     spk_pre_221107_230411_230111_jm0490_bsp,
-    spk_pre_221215_230407_230130_apo48_p_bsp_spk,
-    spk_pre_221215_230407_230130_apo48_p_bsp_spk_spk,
+    spk_pre_221215_230407_230130_apo48_p_bsp,
     spk_pre_221215_230407_230201_apo48_f_bsp,
     spk_pre_230103_230515_230216_otm49_p_bsp,
     spk_pre_230103_230515_230221_otm49_f_bsp,
     spk_pre_230103_230519_230223_jm0500_bsp,
     spk_pre_230123_230515_230309_apo49_p_bsp,
     spk_pre_230123_230515_230313_apo49_f_bsp,
-    spk_pre_230123_230622_230418_apo50_f_bsp_spk,
+    spk_pre_230123_230622_230417_apo50_p_bsp,
+    spk_pre_230123_230622_230418_apo50_f_bsp,
     spk_pre_230123_230626_230403_jm0510_bsp,
     spk_pre_230210_230730_230505_otm51_p_bsp,
     spk_pre_230210_230730_230509_otm51_f_bsp,
+    spk_pre_230210_230803_230508_jm0520_bsp,
     spk_pre_230427_230730_230522_apo51_p_bsp,
-    spk_pre_230427_230730_230524_apo51_f_bsp_fk,
-    spk_pre_230427_230906_230612_otm52_p_bsp_spk,
+    spk_pre_230427_230730_230524_apo51_f_bsp,
+    spk_pre_230427_230906_230612_otm52_p_bsp,
     spk_pre_230427_230906_230614_otm52_f_bsp,
     spk_pre_230427_230910_230612_jm0530_bsp,
     spk_pre_230517_230906_230628_apo52_p_bsp,
+    spk_pre_230517_230906_230629_apo52_f_bsp,
     spk_pre_230517_231018_230724_jm0540_bsp,
     spk_pre_230712_231122_230828_otm54_p_bsp,
     spk_pre_230712_231122_230829_otm54_f_bsp,
-    spk_pre_230712_231125_230830_jm0550_bsp_spk,
+    spk_pre_230712_231125_230830_jm0550_bsp,
     spk_pre_230731_231122_230914_apo54_p_bsp,
     spk_pre_230731_231122_230918_apo54_f_bsp,
-    spk_pre_230819_231230_231002_otm55_p_bsp_spk,
-    spk_pre_230907_240203_231113_otm56_f_bsp_spk,
-    spk_pre_230907_240203_231113_otm56_p_bsp_spk,
+    spk_pre_230819_231230_231002_otm55_p_bsp,
+    spk_pre_230819_231230_231004_otm55_f_bsp,
+    spk_pre_230819_240102_231005_jm0560_bsp,
+    spk_pre_230907_240203_231113_otm56_f_bsp,
+    spk_pre_230907_240203_231113_otm56_p_bsp,
     spk_pre_230907_240206_231113_jm0570_bsp,
-    spk_pre_231016_240203_231218_stm56_f_bsp_fk,
-    spk_pre_231227_240412_240119_jm0590_bsp_lsk,
+    spk_pre_231016_240203_231124_apo56_p_bsp,
+    spk_pre_231016_240203_231213_stm56_p_bsp,
+    spk_pre_231016_240203_231218_stm56_f_bsp,
+    spk_pre_231016_240310_231207_jm0580_bsp,
+    spk_pre_231123_240307_240101_btm57_p_bsp,
+    spk_pre_231123_240307_240102_btm57_f_bsp,
+    spk_pre_231227_240412_240119_jm0590_bsp,
     spk_pre_240107_240408_240208_apo58_p_bsp,
     spk_pre_240107_240408_240212_apo58_f_bsp,
     spk_pre_240107_240412_240213_apo58_f_bsp,
     spk_pre_240107_240515_240226_jm0600_bsp,
     spk_pre_240204_240515_240311_apo59_p_bsp,
+    spk_pre_240204_240515_240313_apo59_f_bsp,
+    spk_pre_240204_240515_240326_stm59_p_bsp,
     spk_pre_240204_240515_240328_stm59_f_bsp,
     spk_pre_240204_240616_240401_jm0610_bsp,
-    spk_pre_240204_240616_240401_jm0610_bsp,
-    spk_pre_240308_240616_240415_apo60_f_bsp,
     spk_pre_240308_240616_240415_apo60_f_bsp,
     spk_pre_240308_240616_240415_apo60_p_bsp,
-    spk_pre_240308_240616_240415_apo60_p_bsp,
+    spk_pre_240308_240719_240429_jm0620_bsp,
+    spk_pre_240308_240719_240429_otm61_p_bsp,
     spk_pre_240308_240719_240501_otm61_f_bsp,
-    spk_pre_240409_240821_240529_jm0630_bsp_fk,
-    spk_pre_240528_240821_240620_apo62_p_bsp,
+    spk_pre_240409_240821_240529_jm0630_bsp,
     spk_pre_240528_240821_240620_apo62_p_bsp,
     spk_pre_240528_240821_240624_bpo62_p_bsp,
-    spk_pre_240528_240821_240624_bpo62_p_bsp,
-    spk_pre_240528_240821_240625_bpo62_f_bsp,
     spk_pre_240528_240821_240625_bpo62_f_bsp,
     spk_pre_240528_240923_240708_jm0640_bsp,
-    spk_pre_240528_240923_240708_jm0640_bsp,
-    spk_pre_240528_240923_240708_otm63_p_bsp,
     spk_pre_240528_240923_240708_otm63_p_bsp,
     spk_pre_240528_240923_240710_otm63_f_bsp,
-    spk_pre_240528_240923_240710_otm63_f_bsp,
     spk_pre_240614_240923_240725_apo63_p_bsp,
-    spk_pre_240614_240923_240725_apo63_p_bsp,
-    spk_pre_240614_240923_240729_apo63_f_bsp_spk,
-    spk_pre_240614_240923_240729_apo63_f_bsp_spk,
-    spk_pre_240614_241025_240802_jm0650_bsp,
+    spk_pre_240614_240923_240729_apo63_f_bsp,
     spk_pre_240614_241025_240802_jm0650_bsp,
     spk_pre_240716_241025_240826_apo64_p_bsp,
-    spk_pre_240716_241025_240826_apo64_p_bsp,
     spk_pre_240716_241025_240827_apo64_f_bsp,
-    spk_pre_240716_241025_240827_apo64_f_bsp,
+    spk_pre_240716_241127_240909_jm0660_bsp,
+    spk_pre_240716_241127_240909_otm65_p_bsp,
+    spk_pre_240716_241127_240911_otm65_f_bsp,
     spk_rec_110805_111026_120302_bsp,
     spk_rec_111026_120308_120726_bsp,
-    spk_rec_111026_120326_120726_reconstruction_bsp_spk,
+    spk_rec_111026_120326_120726_reconstruction_bsp,
     spk_rec_120308_120825_121109_bsp,
-    spk_rec_120825_130515_130708_bsp_spk,
-    spk_rec_130515_131005_131031_bsp_spk,
+    spk_rec_120825_130515_130708_bsp,
+    spk_rec_130515_131005_131031_bsp,
     spk_rec_130515_131005_151210_bsp,
     spk_rec_131005_131014_131101_bsp,
-    spk_rec_131005_131014_131101_reconstruction_bsp_spk,
+    spk_rec_131005_131014_131101_reconstruction_bsp,
     spk_rec_131014_131114_140222_bsp,
     spk_rec_131114_140918_141208_bsp,
     spk_rec_131114_140918_141208_reconstruction_bsp,
@@ -11491,12 +11497,11 @@ export
     spk_rec_170728_170918_170922_bsp,
     spk_rec_170918_171121_171127_bsp,
     spk_rec_171121_180113_180117_bsp,
-    spk_rec_180113_180307_180312_bsp_spk,
-    spk_rec_180307_180429_180504_bsp_spk,
-    spk_rec_180307_180429_180504_bsp_spk_spk,
-    spk_rec_180429_180621_180626_bsp_spk,
-    spk_rec_180620_180812_180821_bsp_spk,
-    spk_rec_180812_181004_181011_bsp_spk,
+    spk_rec_180113_180307_180312_bsp,
+    spk_rec_180307_180429_180504_bsp,
+    spk_rec_180429_180621_180626_bsp,
+    spk_rec_180620_180812_180821_bsp,
+    spk_rec_180812_181004_181011_bsp,
     spk_rec_181004_181126_181205_bsp,
     spk_rec_181126_190118_190124_bsp,
     spk_rec_190118_190312_190319_bsp,
@@ -11520,71 +11525,66 @@ export
     spk_rec_210630_210813_210825_bsp,
     spk_rec_210813_210925_211005_bsp,
     spk_rec_210925_211108_211115_bsp,
-    spk_rec_211108_211222_220104_bsp_spk,
-    spk_rec_211222_220204_220210_bsp_spk,
+    spk_rec_211108_211222_220104_bsp,
+    spk_rec_211222_220204_220210_bsp,
     spk_rec_220204_220319_220330_bsp,
     spk_rec_220319_220502_220510_bsp,
     spk_rec_220502_220614_220622_bsp,
-    spk_rec_220614_220728_220805_bsp_spk,
-    spk_rec_220728_220909_220913_bsp_spk,
-    spk_rec_220909_221019_221027_bsp_spk,
+    spk_rec_220614_220728_220805_bsp,
+    spk_rec_220728_220909_220913_bsp,
+    spk_rec_220909_221019_221027_bsp,
     spk_rec_221019_221127_221208_bsp,
     spk_rec_221127_230104_230111_bsp,
     spk_rec_230104_230211_230221_bsp,
     spk_rec_230211_230321_230327_bsp,
-    spk_rec_230321_230428_230504_bsp_spk,
-    spk_rec_230428_230605_230613_bsp_spk,
+    spk_rec_230321_230428_230504_bsp,
+    spk_rec_230428_230605_230613_bsp,
+    spk_rec_230605_230713_230720_bsp,
     spk_rec_230713_230820_230823_bsp,
     spk_rec_230820_230927_231003_bsp,
     spk_rec_230927_231104_231109_bsp,
     spk_rec_231104_231212_231220_bsp,
     spk_rec_231212_240118_240119_bsp,
     spk_rec_240118_240221_240226_bsp,
-    spk_rec_240221_240325_240401_bsp_spk,
-    spk_rec_240325_240426_240430_bsp_spk,
+    spk_rec_240221_240325_240401_bsp,
+    spk_rec_240325_240426_240430_bsp,
     spk_rec_240426_240529_240605_bsp,
     spk_rec_240529_240701_240705_bsp,
     spk_rec_240701_240802_240814_bsp,
     spk_rec_240802_240904_240910_bsp,
     spk_ref_110805_111009_110608_1608mco_bsp,
-    spk_ref_110805_111009_110608_1643mco_bsp_spk,
-    spk_ref_110805_111009_110608_1643mco_bsp_spk_spk,
+    spk_ref_110805_111009_110608_1643mco_bsp,
     spk_ref_110805_120804_110608_1534mco_bsp,
     spk_ref_110805_171016_100527_bsp,
-    spk_ref_110805_171016_101109_bsp_spk,
+    spk_ref_110805_171016_101109_bsp,
     spk_ref_110805_171016_110815_bsp_spk,
     spk_ref_110805_171016_110815_bsp_spk,
-    spk_ref_110806_111010_110608_1524mco_bsp_spk,
+    spk_ref_110806_111010_110608_1524mco_bsp,
     spk_ref_110806_111010_110608_1524mco_wp_bsp,
     spk_ref_110806_111010_110608_1602mco_bsp,
     spk_ref_110806_111010_110608_1641mco_bsp,
-    spk_ref_110807_111011_110608_1515mco_bsp_spk,
+    spk_ref_110807_111011_110608_1515mco_bsp,
     spk_ref_110807_111011_110608_1515mco_wp_bsp,
-    spk_ref_110807_111011_110608_1557mco_bsp_spk,
-    spk_ref_110807_111011_110608_1639mco_bsp_spk,
+    spk_ref_110807_111011_110608_1557mco_bsp,
+    spk_ref_110807_111011_110608_1639mco_bsp,
     spk_ref_110808_111012_110608_1509mco_bsp,
     spk_ref_110808_111012_110608_1509mco_wp_bsp,
-    spk_ref_110808_111012_110608_1509mco_wp_bsp,
     spk_ref_110808_111012_110608_1552mco_bsp,
-    spk_ref_110808_111012_110608_1552mco_bsp,
-    spk_ref_110808_111012_110608_1636mco_bsp_spk,
-    spk_ref_110808_111012_110608_1636mco_bsp_spk_spk,
-    spk_ref_110808_111012_110608_1636mco_bsp_spk_spk_spk,
+    spk_ref_110808_111012_110608_1636mco_bsp,
     spk_ref_110809_111013_110608_1504mco_bsp,
     spk_ref_110809_111013_110608_1548mco_bsp,
-    spk_ref_110809_111013_110608_1633mco_bsp_spk,
-    spk_ref_121015_171016_121023_bsp_spk,
-    spk_ref_121015_171017_121016_bsp_spk,
-    spk_ref_130201_171016_130213_bsp_spk,
-    spk_ref_130515_171017_130515_bsp_spk,
-    spk_ref_131114_171017_140311_bsp_spk,
+    spk_ref_110809_111013_110608_1633mco_bsp,
+    spk_ref_121015_171016_121023_bsp,
+    spk_ref_121015_171017_121016_bsp,
+    spk_ref_130201_171016_130213_bsp,
+    spk_ref_130515_171017_130515_bsp,
+    spk_ref_131114_171017_140311_bsp,
     spk_ref_150326_180221_150326_bsp,
     spk_ref_160226_180221_160226_bsp,
     spk_ref_160829_190912_161027_bsp,
-    spk_ref_161212_210731_170320_bsp_spk,
-    spk_ref_171106_210731_171109_bsp_spk,
-    spk_ref_180429_210731_180509_bsp_spk,
+    spk_ref_161212_210731_170320_bsp,
+    spk_ref_171106_210731_171109_bsp,
+    spk_ref_180429_210731_180509_bsp,
     spk_ref_210111_251021_210111_bsp,
     spk_ref_211112_251021_211112_bsp,
-    spk_ref_231110_251016_231110_bsp_spk,
-    spk_ref_231110_251016_231110_bsp_spk_spk
+    spk_ref_231110_251016_231110_bsp

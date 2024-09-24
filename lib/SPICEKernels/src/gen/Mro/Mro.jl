@@ -4,7 +4,7 @@
 
 
 """
-All mro_v05_tf kernels, linked from https://naif.jpl.nasa.gov.
+All MRO kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Mro
 

@@ -4,7 +4,7 @@
 
 
 """
-All earthfixeditrf93_tf kernels, linked from https://naif.jpl.nasa.gov.
+All misc kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Misc
 

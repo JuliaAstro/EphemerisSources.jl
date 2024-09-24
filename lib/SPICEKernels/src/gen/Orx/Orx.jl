@@ -4,7 +4,7 @@
 
 
 """
-All orx_180801_181219_181125_od065_N_M0P_P_VC1_v1_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All ORX kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Orx
 

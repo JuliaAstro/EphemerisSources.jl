@@ -4,7 +4,7 @@
 
 
 """
-All jwst_rec_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All JWST kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Jwst
 
