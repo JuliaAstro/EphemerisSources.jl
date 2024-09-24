@@ -14,9 +14,24 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
+[1] https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/mflyby1.bsp
+"""
+const mflyby1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/mflyby1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
 [1] https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/mflyby2.bsp
 """
-const premoi_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/mflyby2.bsp")
+const mflyby2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/mflyby2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -31,22 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/msgr_20040803_20120401_od051.bsp
 """
-const premoi_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/msgr_20040803_20120401_od051.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/mflyby1.bsp
-"""
-const premoi_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/mflyby1.bsp")
+const msgr_20040803_20120401_od051_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/msgr_20040803_20120401_od051.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -61,10 +61,10 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/premoi.bsp
 """
-const premoi_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/premoi.bsp")
+const premoi_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MESSENGER/misc/old_spk/premoi.bsp")
 
 export
+    mflyby1_bsp,
+    mflyby2_bsp,
     msgr_20040803_20120401_od051_bsp,
-    premoi_bsp,
-    premoi_bsp_spk,
-    premoi_bsp_spk
+    premoi_bsp

@@ -4,7 +4,7 @@
 
 
 """
-All m2020_surf_rover_tlm_0299_0419_v1_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All MARS2020 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Mars2020
 

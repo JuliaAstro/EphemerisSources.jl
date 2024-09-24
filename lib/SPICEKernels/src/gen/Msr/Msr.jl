@@ -4,7 +4,7 @@
 
 
 """
-All msr_srl_ls_iau2000_gz4a_req_v1_bsp_lsk kernels, linked from https://naif.jpl.nasa.gov.
+All MSR kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Msr
 

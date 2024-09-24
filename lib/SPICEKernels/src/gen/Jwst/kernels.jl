@@ -16,6 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JWST/kernels/spk/jwst_pred.bsp
 """
+const jwst_pred_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JWST/kernels/spk/jwst_pred.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -30,9 +31,8 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/JWST/kernels/spk/jwst_rec.bsp
 """
-const jwst_rec_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JWST/kernels/spk/jwst_pred.bsp")
 const jwst_rec_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/JWST/kernels/spk/jwst_rec.bsp")
 
 export
-    jwst_rec_bsp,
+    jwst_pred_bsp,
     jwst_rec_bsp

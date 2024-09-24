@@ -4,7 +4,7 @@
 
 
 """
-All pck00010_tpc kernels, linked from https://naif.jpl.nasa.gov.
+All LADEE kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Ladee
 

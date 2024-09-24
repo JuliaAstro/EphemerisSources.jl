@@ -14,9 +14,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/PIONEER11/kernels/spk/p11_sat336.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/PIONEER11/kernels/spk/p11-a.bsp
 """
-const p11_sat336_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PIONEER11/kernels/spk/p11_sat336.bsp")
+const p11_a_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PIONEER11/kernels/spk/p11-a.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -29,10 +29,10 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/PIONEER11/kernels/spk/p11-a.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/PIONEER11/kernels/spk/p11_sat336.bsp
 """
-const p11_sat336_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PIONEER11/kernels/spk/p11-a.bsp")
+const p11_sat336_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PIONEER11/kernels/spk/p11_sat336.bsp")
 
 export
-    p11_sat336_bsp,
+    p11_a_bsp,
     p11_sat336_bsp

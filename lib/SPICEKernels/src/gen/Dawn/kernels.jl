@@ -16,22 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p06m3p0_v1.bds
 """
-const dawn_ref_120817_121001_120813_dl044_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p06m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120522-120726_120605_v1.bsp
-"""
-const dawn_ql_180724_181024_180810_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120522-120726_120605_v1.bsp")
+const dawn_ceres_dlr_m135_p00p06m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p06m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -46,52 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p06p0p3_v1.bds
 """
-const dawn_ql_120522_120726_120606_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p06p0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180724-181024_180810_v2.bsp
-"""
-const dawn_ceres_dlr_m135_p00p12m6m3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180724-181024_180810_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120522-120726_120606_v1.bsp
-"""
-const dawn_ql_180728_181027_180813_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120522-120726_120606_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120817-121001_120813_dl044_v1.bsp
-"""
-const dawn_ql_120530_120726_120611_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120817-121001_120813_dl044_v1.bsp")
+const dawn_ceres_dlr_m135_p00p06p0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p06p0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -106,37 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p12m6m3_v1.bds
 """
-const dawn_ref_120817_121015_120813_NewRC4_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p12m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120530-120726_120611_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p00p12p3p6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120530-120726_120611_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120817-121015_120813_NewRC4_v1.bsp
-"""
-const dawn_ql_120606_120726_120614_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120817-121015_120813_NewRC4_v1.bsp")
+const dawn_ceres_dlr_m135_p00p12m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p12m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -151,37 +61,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p12p3p6_v1.bds
 """
-const dawn_ref_120829_121001_120825_dl045_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p12p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120606-120726_120614_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p00p36m9m6_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120606-120726_120614_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180728-181027_180813_v1.bsp
-"""
-const dawn_ql_120606_120726_120618_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180728-181027_180813_v1.bsp")
+const dawn_ceres_dlr_m135_p00p12p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p12p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -196,52 +76,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p36m9m6_v1.bds
 """
-const dawn_ql_180728_181030_180816_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p36m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120829-121001_120825_dl045_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p00p36p6p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120829-121001_120825_dl045_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120606-120726_120618_v1.bsp
-"""
-const dawn_ref_121001_121225_120905_dc051_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120606-120726_120618_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180728-181030_180816_v1.bsp
-"""
-const dawn_ql_120606_120726_120620_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180728-181030_180816_v1.bsp")
+const dawn_ceres_dlr_m135_p00p36m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p36m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -256,52 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p36p6p9_v1.bds
 """
-const dawn_ql_180728_181201_180814_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p36p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121001-121225_120905_dc051_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p06p12m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121001-121225_120905_dc051_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120606-120726_120620_v1.bsp
-"""
-const dawn_ref_121001_121231_120826_dc051_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120606-120726_120620_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180728-181201_180814_v1.bsp
-"""
-const dawn_ql_120613_120726_120622_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180728-181201_180814_v1.bsp")
+const dawn_ceres_dlr_m135_p00p36p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p00p36p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -316,37 +106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p06p12m3p0_v1.bds
 """
-const dawn_ql_180803_181103_180820_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p06p12m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121001-121231_120826_dc051_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p06p12p0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121001-121231_120826_dc051_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120613-120726_120622_v1.bsp
-"""
-const dawn_ref_121001_150708_120911_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120613-120726_120622_v1.bsp")
+const dawn_ceres_dlr_m135_p06p12m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p06p12m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -361,52 +121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p06p12p0p3_v1.bds
 """
-const dawn_ql_120620_120726_120627_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p06p12p0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180803-181103_180820_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p12p18m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180803-181103_180820_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121001-150708_120911_v1.bsp
-"""
-const dawn_ql_180803_181104_180821_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121001-150708_120911_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120620-120726_120627_v1.bsp
-"""
-const dawn_ref_121029_130124_121011_dc052_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120620-120726_120627_v1.bsp")
+const dawn_ceres_dlr_m135_p06p12p0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p06p12p0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -421,52 +136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p12p18m3p0_v1.bds
 """
-const dawn_ql_120620_120726_120628_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p12p18m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180803-181104_180821_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p12p18p0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180803-181104_180821_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121029-130124_121011_dc052_v1.bsp
-"""
-const dawn_ql_180810_181107_180824_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121029-130124_121011_dc052_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120620-120726_120628_v1.bsp
-"""
-const dawn_ref_121127_130305_121101_dc053_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120620-120726_120628_v1.bsp")
+const dawn_ceres_dlr_m135_p12p18m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p12p18m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -481,37 +151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p12p18p0p3_v1.bds
 """
-const dawn_ql_120620_120814_120703_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p12p18p0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180810-181107_180824_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p12p24m6m3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180810-181107_180824_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121127-130305_121101_dc053_v1.bsp
-"""
-const dawn_ql_180810_181110_180827_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121127-130305_121101_dc053_v1.bsp")
+const dawn_ceres_dlr_m135_p12p18p0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p12p18p0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -526,37 +166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p12p24m6m3_v1.bds
 """
-const dawn_ref_121127_130305_121113_dc053_v2_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p12p24m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120620-120814_120703_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p12p24p3p6_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120620-120814_120703_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180810-181110_180827_v1.bsp
-"""
-const dawn_ql_120627_120726_120709_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180810-181110_180827_v1.bsp")
+const dawn_ceres_dlr_m135_p12p24m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p12p24m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -571,52 +181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p12p24p3p6_v1.bds
 """
-const dawn_ql_180817_181113_180830_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p12p24p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121127-130305_121113_dc053_v2.bsp
-"""
-const dawn_ceres_dlr_m135_p18p24m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121127-130305_121113_dc053_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120726_120709_v1.bsp
-"""
-const dawn_ref_130108_130328_121206_dc054_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120726_120709_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180817-181113_180830_v1.bsp
-"""
-const dawn_ql_120627_120726_120710_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180817-181113_180830_v1.bsp")
+const dawn_ceres_dlr_m135_p12p24p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p12p24p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -631,52 +196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p18p24m3p0_v1.bds
 """
-const dawn_ql_180817_181118_180904_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p18p24m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130108-130328_121206_dc054_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p18p24p0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130108-130328_121206_dc054_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120726_120710_v1.bsp
-"""
-const dawn_ref_130205_130429_130116_dc055_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120726_120710_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180817-181118_180904_v1.bsp
-"""
-const dawn_ql_120627_120726_120712_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180817-181118_180904_v1.bsp")
+const dawn_ceres_dlr_m135_p18p24m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p18p24m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -691,52 +211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p18p24p0p3_v1.bds
 """
-const dawn_ql_180817_181119_180905_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p18p24p0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130205-130429_130116_dc055_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p24p30m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130205-130429_130116_dc055_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120726_120712_v1.bsp
-"""
-const dawn_ref_130305_130528_130206_dc056_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120726_120712_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180817-181119_180905_v1.bsp
-"""
-const dawn_ql_120627_120826_120718_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180817-181119_180905_v1.bsp")
+const dawn_ceres_dlr_m135_p18p24p0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p18p24p0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -751,37 +226,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p24p30m3p0_v1.bds
 """
-const dawn_ql_180823_181124_180910_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p24p30m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130305-130528_130206_dc056_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p24p30p0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130305-130528_130206_dc056_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120826_120718_v1.bsp
-"""
-const dawn_ref_130325_130624_130306_dc057_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120826_120718_v1.bsp")
+const dawn_ceres_dlr_m135_p24p30m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p24p30m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -796,52 +241,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p24p30p0p3_v1.bds
 """
-const dawn_ql_120627_120826_120719_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p24p30p0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180823-181124_180910_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p24p36m6m3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180823-181124_180910_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130325-130624_130306_dc057_v1.bsp
-"""
-const dawn_ql_180823_181125_180911_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130325-130624_130306_dc057_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120826_120719_v1.bsp
-"""
-const dawn_ref_130430_130722_130410_dc058_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120826_120719_v1.bsp")
+const dawn_ceres_dlr_m135_p24p30p0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p24p30p0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -856,51 +256,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p24p36m6m3_v1.bds
 """
-const dawn_ql_120724_120826_120810_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p24p36m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180823-181125_180911_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p24p36p3p6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180823-181125_180911_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130430-130722_130410_dc058_v1.bsp
-"""
-const dawn_ql_180828_181126_180912_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130430-130722_130410_dc058_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120724-120826_120810_v1.bsp
-"""
+const dawn_ceres_dlr_m135_p24p36m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p24p36m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -915,38 +271,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p24p36p3p6_v1.bds
 """
-const dawn_ref_130528_130820_130509_dc059_v1_bsp_dsk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120724-120826_120810_v1.bsp")
-const dawn_ref_130528_130820_130509_dc059_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p24p36p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180828-181126_180912_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p30p36m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180828-181126_180912_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130528-130820_130509_dc059_v1.bsp
-"""
-const dawn_ql_180902_181201_180917_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130528-130820_130509_dc059_v1.bsp")
+const dawn_ceres_dlr_m135_p24p36p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p24p36p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -961,37 +286,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p30p36m3p0_v1.bds
 """
-const dawn_ref_130625_130917_130605_dc060_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p30p36m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120724-120929_120824_v1.bsp
-"""
-const dawn_ceres_dlr_m135_p30p36p0p3_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120724-120929_120824_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180902-181201_180917_v1.bsp
-"""
-const dawn_ql_120809_121114_120918_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180902-181201_180917_v1.bsp")
+const dawn_ceres_dlr_m135_p30p36m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p30p36m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1006,52 +301,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p30p36p0p3_v1.bds
 """
-const dawn_ql_180902_190101_180918_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p30p36p0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130625-130917_130605_dc060_v1.bsp
-"""
-const dawn_ceres_grv_icq0128_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130625-130917_130605_dc060_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120809-121114_120918_v1.bsp
-"""
-const dawn_ref_130723_131015_130702_dc061_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120809-121114_120918_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180902-190101_180918_v1.bsp
-"""
-const dawn_ql_120826_121114_120925_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180902-190101_180918_v1.bsp")
+const dawn_ceres_dlr_m135_p30p36p0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_dlr_m135_p30p36p0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1066,52 +316,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0128_v1.bds
 """
-const dawn_ql_180906_190102_180919_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0128_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130723-131015_130702_dc061_v1.bsp
-"""
-const dawn_ceres_grv_icq0128_v2_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130723-131015_130702_dc061_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120826-121114_120925_v1.bsp
-"""
-const dawn_ref_130819_131112_130731_dc062_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120826-121114_120925_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180906-190102_180919_v1.bsp
-"""
-const dawn_ql_120826_121114_121002_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180906-190102_180919_v1.bsp")
+const dawn_ceres_grv_icq0128_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0128_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1126,52 +331,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0128_v2.bds
 """
-const dawn_ql_180906_190107_180924_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0128_v2.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130819-131112_130731_dc062_v1.bsp
-"""
-const dawn_ceres_grv_icq0256_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130819-131112_130731_dc062_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120826-121114_121002_v1.bsp
-"""
-const dawn_ref_130917_131210_130828_dc063_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120826-121114_121002_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180906-190107_180924_v1.bsp
-"""
-const dawn_ql_120826_121129_121009_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180906-190107_180924_v1.bsp")
+const dawn_ceres_grv_icq0128_v2_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0128_v2.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1186,37 +346,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0256_v1.bds
 """
-const dawn_ql_180911_190109_180926_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0256_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130917-131210_130828_dc063_v1.bsp
-"""
-const dawn_ceres_grv_icq0256_v2_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130917-131210_130828_dc063_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120826-121129_121009_v1.bsp
-"""
-const dawn_ref_131016_140204_130926_dc064_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120826-121129_121009_v1.bsp")
+const dawn_ceres_grv_icq0256_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0256_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1231,52 +361,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0256_v2.bds
 """
-const dawn_ql_121001_121224_121113_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0256_v2.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180911-190109_180926_v1.bsp
-"""
-const dawn_ceres_grv_icq0512_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180911-190109_180926_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_131016-140204_130926_dc064_v1.bsp
-"""
-const dawn_ql_180915_190114_181001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_131016-140204_130926_dc064_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121001-121224_121113_v1.bsp
-"""
-const dawn_ref_131016_140204_130926_dc065_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121001-121224_121113_v1.bsp")
+const dawn_ceres_grv_icq0256_v2_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0256_v2.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1291,52 +376,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0512_v1.bds
 """
-const dawn_ql_121001_130124_121204_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0512_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180915-190114_181001_v1.bsp
-"""
-const dawn_ceres_grv_icq0512_v2_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180915-190114_181001_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_131016-140204_130926_dc065_v1.bsp
-"""
-const dawn_ql_180915_190115_181002_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_131016-140204_130926_dc065_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121001-130124_121204_v1.bsp
-"""
-const dawn_ref_131210_140303_131114_dc066_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121001-130124_121204_v1.bsp")
+const dawn_ceres_grv_icq0512_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0512_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1351,37 +391,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0512_v2.bds
 """
-const dawn_ql_121001_130124_121211_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0512_v2.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180915-190115_181002_v1.bsp
-"""
-const dawn_ceres_grv_icq1024_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180915-190115_181002_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_131210-140303_131114_dc066_v1.bsp
-"""
-const dawn_ql_180915_190117_181004_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_131210-140303_131114_dc066_v1.bsp")
+const dawn_ceres_grv_icq0512_v2_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq0512_v2.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1396,52 +406,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq1024_v1.bds
 """
-const dawn_ref_140106_140401_131212_dc067_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq1024_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121001-130124_121211_v1.bsp
-"""
-const dawn_ceres_grv_icq1024_v2_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121001-130124_121211_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180915-190117_181004_v1.bsp
-"""
-const dawn_ql_121029_130205_130108_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180915-190117_181004_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140106-140401_131212_dc067_v1.bsp
-"""
-const dawn_ql_180921_190121_181008_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140106-140401_131212_dc067_v1.bsp")
+const dawn_ceres_grv_icq1024_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq1024_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1456,52 +421,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq1024_v2.bds
 """
-const dawn_ref_140204_140429_140116_dc068_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq1024_v2.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121029-130205_130108_v1.bsp
-"""
-const dawn_ceres_grv_m100_m00p03m0p3_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121029-130205_130108_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180921-190121_181008_v1.bsp
-"""
-const dawn_ql_121126_130405_130205_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180921-190121_181008_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140204-140429_140116_dc068_v1.bsp
-"""
-const dawn_ql_180928_190124_181011_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140204-140429_140116_dc068_v1.bsp")
+const dawn_ceres_grv_icq1024_v2_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_icq1024_v2.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1516,52 +436,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03m0p3_v1.bds
 """
-const dawn_ref_140204_140429_140116_dc068_v2_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03m0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121126-130405_130205_v1.bsp
-"""
-const dawn_ceres_grv_m100_m00p03m3p0_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121126-130405_130205_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180928-190124_181011_v1.bsp
-"""
-const dawn_ql_121126_130405_130305_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180928-190124_181011_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140204-140429_140116_dc068_v2.bsp
-"""
-const dawn_ql_181004_190128_181015_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140204-140429_140116_dc068_v2.bsp")
+const dawn_ceres_grv_m100_m00p03m0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03m0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1576,52 +451,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03m3p0_v1.bds
 """
-const dawn_ref_140304_140527_140212_dc069_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121126-130405_130305_v1.bsp
-"""
-const dawn_ceres_grv_m100_m00p03m6m3_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121126-130405_130305_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181004-190128_181015_v1.bsp
-"""
-const dawn_ql_130108_130605_130326_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181004-190128_181015_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140304-140527_140212_dc069_v1.bsp
-"""
-const dawn_ql_181004_190129_181016_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140304-140527_140212_dc069_v1.bsp")
+const dawn_ceres_grv_m100_m00p03m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1636,52 +466,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03m6m3_v1.bds
 """
-const dawn_ref_140401_140526_140312_dc070_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130108-130605_130326_v1.bsp
-"""
-const dawn_ceres_grv_m100_m00p03m9m6_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130108-130605_130326_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140401-140526_140312_dc070_v1.bsp
-"""
-const dawn_ql_130108_130605_130329_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140401-140526_140312_dc070_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181004-190129_181016_v1.bsp
-"""
-const dawn_ref_140429_140527_140409_dc071_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181004-190129_181016_v1.bsp")
+const dawn_ceres_grv_m100_m00p03m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1696,52 +481,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03m9m6_v1.bds
 """
-const dawn_ql_181004_190131_181018_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130108-130605_130329_v1.bsp
-"""
-const dawn_ceres_grv_m100_m00p03p3p6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130108-130605_130329_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140429-140527_140409_dc071_v1.bsp
-"""
-const dawn_ql_130108_130708_130505_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140429-140527_140409_dc071_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181004-190131_181018_v1.bsp
-"""
-const dawn_ref_140429_140801_140415_dc071_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181004-190131_181018_v1.bsp")
+const dawn_ceres_grv_m100_m00p03m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1756,37 +496,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03p3p6_v1.bds
 """
-const dawn_ql_181009_190204_181022_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130108-130708_130505_v1.bsp
-"""
-const dawn_ceres_grv_m100_m00p03p6p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130108-130708_130505_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140429-140801_140415_dc071_v1.bsp
-"""
-const dawn_ql_130304_130808_130625S_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140429-140801_140415_dc071_v1.bsp")
+const dawn_ceres_grv_m100_m00p03p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1801,52 +511,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03p6p9_v1.bds
 """
-const dawn_ref_140527_140818_140507_dc072_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181009-190204_181022_v1.bsp
-"""
-const dawn_ceres_grv_m100_m03p00m0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181009-190204_181022_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130304-130808_130625S_v1.bsp
-"""
-const dawn_ql_181009_190206_181024_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130304-130808_130625S_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140527-140818_140507_dc072_v1.bsp
-"""
-const dawn_ql_130325_130928_130723_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140527-140818_140507_dc072_v1.bsp")
+const dawn_ceres_grv_m100_m00p03p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m00p03p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1861,52 +526,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00m0p3_v1.bds
 """
-const dawn_ref_140623_140721_140605_dc073_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00m0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181009-190206_181024_v1.bsp
-"""
-const dawn_ceres_grv_m100_m03p00m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181009-190206_181024_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130325-130928_130723_v1.bsp
-"""
-const dawn_ql_181013_190211_181029_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130325-130928_130723_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140623-140721_140605_dc073_v1.bsp
-"""
-const dawn_ql_130429_130928_130821_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140623-140721_140605_dc073_v1.bsp")
+const dawn_ceres_grv_m100_m03p00m0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00m0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1921,52 +541,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00m3p0_v1.bds
 """
-const dawn_ref_140623_140721_140605_dc073_v2_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181013-190211_181029_v1.bsp
-"""
-const dawn_ceres_grv_m100_m03p00m6m3_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181013-190211_181029_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130429-130928_130821_v1.bsp
-"""
-const dawn_ql_181013_190213_181031_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130429-130928_130821_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140623-140721_140605_dc073_v2.bsp
-"""
-const dawn_ql_130527_131114_130917_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140623-140721_140605_dc073_v2.bsp")
+const dawn_ceres_grv_m100_m03p00m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1981,52 +556,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00m6m3_v1.bds
 """
-const dawn_ref_140623_140721_140605_dc073_v3_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181013-190213_181031_v1.bsp
-"""
-const dawn_ceres_grv_m100_m03p00m9m6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181013-190213_181031_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130527-131114_130917_v1.bsp
-"""
-const dawn_rec_070927_070930_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130527-131114_130917_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140623-140721_140605_dc073_v3.bsp
-"""
-const dawn_ql_130722_131214_131022_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140623-140721_140605_dc073_v3.bsp")
+const dawn_ceres_grv_m100_m03p00m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2041,52 +571,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00m9m6_v1.bds
 """
-const dawn_ref_140722_141013_140703_dc074_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_070927-070930_081218_v1.bsp
-"""
-const dawn_ceres_grv_m100_m03p00p3p6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_070927-070930_081218_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130722-131214_131022_v1.bsp
-"""
-const dawn_rec_070930_071201_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130722-131214_131022_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140722-141013_140703_dc074_v1.bsp
-"""
-const dawn_ql_130722_131214_131112_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140722-141013_140703_dc074_v1.bsp")
+const dawn_ceres_grv_m100_m03p00m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2101,52 +586,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00p3p6_v1.bds
 """
-const dawn_ref_140819_141027_140731_dc075_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_070930-071201_081218_v1.bsp
-"""
-const dawn_ceres_grv_m100_m03p00p6p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_070930-071201_081218_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140819-141027_140731_dc075_v1.bsp
-"""
-const dawn_rec_071201_080205_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140819-141027_140731_dc075_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130722-131214_131112_v1.bsp
-"""
-const dawn_ref_140819_141027_140801_dc075_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130722-131214_131112_v1.bsp")
+const dawn_ceres_grv_m100_m03p00p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2161,52 +601,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00p6p9_v1.bds
 """
-const dawn_ql_130916_140214_131210_v2_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_071201-080205_081218_v1.bsp
-"""
-const dawn_ceres_grv_m100_m06m03m0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_071201-080205_081218_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140819-141027_140801_dc075_v2.bsp
-"""
-const dawn_rec_080205_080325_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140819-141027_140801_dc075_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130916-140214_131210_v2.bsp
-"""
-const dawn_ref_140916_141201_140829_dc076_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130916-140214_131210_v2.bsp")
+const dawn_ceres_grv_m100_m03p00p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m03p00p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2221,37 +616,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03m0p3_v1.bds
 """
-const dawn_ql_131205_140314_140204_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03m0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080205-080325_081218_v1.bsp
-"""
-const dawn_ceres_grv_m100_m06m03m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080205-080325_081218_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140916-141201_140829_dc076_v1.bsp
-"""
-const dawn_rec_080325_080503_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140916-141201_140829_dc076_v1.bsp")
+const dawn_ceres_grv_m100_m06m03m0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03m0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2266,52 +631,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03m3p0_v1.bds
 """
-const dawn_ref_140916_141201_140913_dc076_safe1_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_131205-140314_140204_v1.bsp
-"""
-const dawn_ceres_grv_m100_m06m03m6m3_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_131205-140314_140204_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140916-141201_140913_dc076_safe1_v1.bsp
-"""
-const dawn_ql_131205_140414_140225_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140916-141201_140913_dc076_safe1_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080325-080503_081218_v1.bsp
-"""
-const dawn_ref_141013_141227_140925_dc077_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080325-080503_081218_v1.bsp")
+const dawn_ceres_grv_m100_m06m03m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2326,52 +646,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03m6m3_v1.bds
 """
-const dawn_rec_080503_080601_081218_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_131205-140414_140225_v1.bsp
-"""
-const dawn_ceres_grv_m100_m06m03m9m6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_131205-140414_140225_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141013-141227_140925_dc077_v1.bsp
-"""
-const dawn_ql_131205_140514_140401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141013-141227_140925_dc077_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080503-080601_081218_v1.bsp
-"""
-const dawn_ref_141111_141227_141022_dc078_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080503-080601_081218_v1.bsp")
+const dawn_ceres_grv_m100_m06m03m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2386,36 +661,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03m9m6_v1.bds
 """
-const dawn_rec_080601_080718_081218_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_131205-140514_140401_v1.bsp
-"""
-const dawn_ceres_grv_m100_m06m03p3p6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_131205-140514_140401_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141111-141227_141022_dc078_v1.bsp
-"""
+const dawn_ceres_grv_m100_m06m03m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2430,38 +676,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03p3p6_v1.bds
 """
-const dawn_ql_140204_140614_140429_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141111-141227_141022_dc078_v1.bsp")
-const dawn_ql_140204_140614_140429_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080601-080718_081218_v1.bsp
-"""
-const dawn_ceres_grv_m100_m06m03p6p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080601-080718_081218_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140204-140614_140429_v1.bsp
-"""
-const dawn_rec_080718_080910_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140204-140614_140429_v1.bsp")
+const dawn_ceres_grv_m100_m06m03p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2476,52 +691,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03p6p9_v1.bds
 """
-const dawn_ql_140204_140714_140603_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141111-141227_141022_dc078_v2.bsp
-"""
-const dawn_ceres_grv_m100_m09m06m0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141111-141227_141022_dc078_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080718-080910_081218_v1.bsp
-"""
-const dawn_ref_141111_150422_141022_da220_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080718-080910_081218_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140204-140714_140603_v1.bsp
-"""
-const dawn_rec_080910_081022_090218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140204-140714_140603_v1.bsp")
+const dawn_ceres_grv_m100_m06m03p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m06m03p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2536,52 +706,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06m0p3_v1.bds
 """
-const dawn_ql_140303_140729_140624_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06m0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141111-150422_141022_da220_v1.bsp
-"""
-const dawn_ceres_grv_m100_m09m06m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141111-150422_141022_da220_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080910-081022_090218_v1.bsp
-"""
-const dawn_ref_141202_141227_141118_dl079_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080910-081022_090218_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140303-140729_140624_v1.bsp
-"""
-const dawn_rec_081022_081109_090218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140303-140729_140624_v1.bsp")
+const dawn_ceres_grv_m100_m09m06m0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06m0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2596,52 +721,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06m3p0_v1.bds
 """
-const dawn_ql_140331_140929_140722_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141202-141227_141118_dl079_v1.bsp
-"""
-const dawn_ceres_grv_m100_m09m06m6m3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141202-141227_141118_dl079_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_081022-081109_090218_v1.bsp
-"""
-const dawn_ref_141221_150615_130619_CSA_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_081022-081109_090218_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140331-140929_140722_v1.bsp
-"""
-const dawn_rec_081109_090228_090306_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140331-140929_140722_v1.bsp")
+const dawn_ceres_grv_m100_m09m06m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2656,52 +736,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06m6m3_v1.bds
 """
-const dawn_ql_140428_141029_140819_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141221-150615_130619_CSA_v1.bsp
-"""
-const dawn_ceres_grv_m100_m09m06m9m6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141221-150615_130619_CSA_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_081109-090228_090306_v1.bsp
-"""
-const dawn_ref_141221_150615_CSA_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_081109-090228_090306_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140428-141029_140819_v1.bsp
-"""
-const dawn_rec_090228_090501_090702_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140428-141029_140819_v1.bsp")
+const dawn_ceres_grv_m100_m09m06m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2716,37 +751,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06m9m6_v1.bds
 """
-const dawn_ql_140527_141129_140917_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141221-150615_CSA_v1.bsp
-"""
-const dawn_ceres_grv_m100_m09m06p3p6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141221-150615_CSA_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090228-090501_090702_v1.bsp
-"""
-const dawn_ref_141227_150226_141216_dl220_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090228-090501_090702_v1.bsp")
+const dawn_ceres_grv_m100_m09m06m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2761,52 +766,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06p3p6_v1.bds
 """
-const dawn_rec_090501_090801_090916_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140527-141129_140917_v1.bsp
-"""
-const dawn_ceres_grv_m100_m09m06p6p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140527-141129_140917_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141227-150226_141216_dl220_v1.bsp
-"""
-const dawn_ql_140623_141129_141013_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141227-150226_141216_dl220_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090501-090801_090916_v1.bsp
-"""
-const dawn_ref_141227_150226_141216_dl220_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090501-090801_090916_v1.bsp")
+const dawn_ceres_grv_m100_m09m06p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2821,52 +781,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06p6p9_v1.bds
 """
-const dawn_rec_090801_090915_090923_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140623-141129_141013_v1.bsp
-"""
-const dawn_ceres_grv_m100_m12m09m0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140623-141129_141013_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141227-150226_141216_dl220_v2.bsp
-"""
-const dawn_ql_140915_141229_141111_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141227-150226_141216_dl220_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090801-090915_090923_v1.bsp
-"""
-const dawn_ref_150101_150630_130412_Approach_RC3_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090801-090915_090923_v1.bsp")
+const dawn_ceres_grv_m100_m09m06p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m09m06p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2881,52 +796,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09m0p3_v1.bds
 """
-const dawn_rec_090915_091201_091202_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09m0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140915-141229_141111_v1.bsp
-"""
-const dawn_ceres_grv_m100_m12m09m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140915-141229_141111_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150101-150630_130412_Approach_RC3_v1.bsp
-"""
-const dawn_ql_140915_141229_141203_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150101-150630_130412_Approach_RC3_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090915-091201_091202_v1.bsp
-"""
-const dawn_ref_150116_150511_131029_isb_approach_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090915-091201_091202_v1.bsp")
+const dawn_ceres_grv_m100_m12m09m0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09m0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2941,22 +811,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09m3p0_v1.bds
 """
-const dawn_rec_091201_100208_100209_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140915-141229_141203_v1.bsp
-"""
-const dawn_ceres_grv_m100_m12m09m6m3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140915-141229_141203_v1.bsp")
+const dawn_ceres_grv_m100_m12m09m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2971,52 +826,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09m6m3_v1.bds
 """
-const dawn_ql_140915_141229_141208_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_091201-100208_100209_v1.bsp
-"""
-const dawn_ceres_grv_m100_m12m09m9m6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_091201-100208_100209_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150116-150511_131029_isb_approach_v1.bsp
-"""
-const dawn_rec_100208_100316_100323_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150116-150511_131029_isb_approach_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140915-141229_141208_v1.bsp
-"""
-const dawn_ref_150125_150225_141124_da221_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140915-141229_141208_v1.bsp")
+const dawn_ceres_grv_m100_m12m09m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3031,52 +841,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09m9m6_v1.bds
 """
-const dawn_ql_141110_150129_141230_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100208-100316_100323_v1.bsp
-"""
-const dawn_ceres_grv_m100_m12m09p3p6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100208-100316_100323_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150125-150225_141124_da221_v1.bsp
-"""
-const dawn_rec_100316_100413_100422_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150125-150225_141124_da221_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141110-150129_141230_v1.bsp
-"""
-const dawn_ref_150126_150325_150119_dl221_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141110-150129_141230_v1.bsp")
+const dawn_ceres_grv_m100_m12m09m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3091,52 +856,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09p3p6_v1.bds
 """
-const dawn_ql_141202_150129_150112_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100316-100413_100422_v1.bsp
-"""
-const dawn_ceres_grv_m100_m12m09p6p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100316-100413_100422_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150126-150325_150119_dl221_v1.bsp
-"""
-const dawn_rec_100413_100622_100830_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150126-150325_150119_dl221_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150129_150112_v1.bsp
-"""
-const dawn_ref_150225_150324_141219_da222_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150129_150112_v1.bsp")
+const dawn_ceres_grv_m100_m12m09p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3151,52 +871,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09p6p9_v1.bds
 """
-const dawn_ql_141202_150228_150105_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100413-100622_100830_v1.bsp
-"""
-const dawn_ceres_grv_m100_m15m12m0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100413-100622_100830_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150225-150324_141219_da222_v1.bsp
-"""
-const dawn_rec_100622_100824_100830_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150225-150324_141219_da222_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150228_150105_v1.bsp
-"""
-const dawn_ref_150225_150324_150126_da222_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150228_150105_v1.bsp")
+const dawn_ceres_grv_m100_m12m09p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m12m09p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3211,37 +886,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12m0p3_v1.bds
 """
-const dawn_ql_141202_150228_150112_v2_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12m0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100622-100824_100830_v1.bsp
-"""
-const dawn_ceres_grv_m100_m15m12m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100622-100824_100830_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150225-150324_150126_da222_v1.bsp
-"""
-const dawn_rec_100824_101130_101202_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150225-150324_150126_da222_v1.bsp")
+const dawn_ceres_grv_m100_m15m12m0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12m0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3256,52 +901,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12m3p0_v1.bds
 """
-const dawn_ref_150226_150324_150123_da222_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150228_150112_v2.bsp
-"""
-const dawn_ceres_grv_m100_m15m12m6m3_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150228_150112_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100824-101130_101202_v1.bsp
-"""
-const dawn_ql_141202_150430_150126_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100824-101130_101202_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150226-150324_150123_da222_v1.bsp
-"""
-const dawn_rec_101130_110201_110201_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150226-150324_150123_da222_v1.bsp")
+const dawn_ceres_grv_m100_m15m12m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3316,52 +916,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12m6m3_v1.bds
 """
-const dawn_ref_150226_150520_150221_dl222_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150430_150126_v1.bsp
-"""
-const dawn_ceres_grv_m100_m15m12m9m6_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150430_150126_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_101130-110201_110201_v1.bsp
-"""
-const dawn_ql_141202_150430_150202_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_101130-110201_110201_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150226-150520_150221_dl222_v1.bsp
-"""
-const dawn_rec_101130_110419_pred_110419_110502_110420_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150226-150520_150221_dl222_v1.bsp")
+const dawn_ceres_grv_m100_m15m12m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3376,22 +931,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12m9m6_v1.bds
 """
-const dawn_ref_150324_150410_150225_da223_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150430_150202_v1.bsp
-"""
-const dawn_ceres_grv_m100_m15m12p3p6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150430_150202_v1.bsp")
+const dawn_ceres_grv_m100_m15m12m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3406,52 +946,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12p3p6_v1.bds
 """
-const dawn_ql_141202_150430_150209_v2_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_101130-110419_pred_110419-110502_110420_v1.bsp
-"""
-const dawn_ceres_grv_m100_m15m12p6p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_101130-110419_pred_110419-110502_110420_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150324-150410_150225_da223_v1.bsp
-"""
-const dawn_rec_101130_110606_pred_110606_110628_110609_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150324-150410_150225_da223_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150430_150209_v2.bsp
-"""
-const dawn_ref_150324_150410_150225_dl222_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150430_150209_v2.bsp")
+const dawn_ceres_grv_m100_m15m12p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3466,52 +961,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12p6p9_v1.bds
 """
-const dawn_ql_141226_150430_150217_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_101130-110606_pred_110606-110628_110609_v1.bsp
-"""
-const dawn_ceres_grv_m100_m18m15m0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_101130-110606_pred_110606-110628_110609_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150324-150410_150225_dl222_v1.bsp
-"""
-const dawn_rec_110201_110328_110328_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150324-150410_150225_dl222_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141226-150430_150217_v1.bsp
-"""
-const dawn_ref_150325_150410_150126_da223_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141226-150430_150217_v1.bsp")
+const dawn_ceres_grv_m100_m15m12p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m15m12p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3526,52 +976,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15m0p3_v1.bds
 """
-const dawn_ql_150125_150528_150408_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15m0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110201-110328_110328_v1.bsp
-"""
-const dawn_ceres_grv_m100_m18m15m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110201-110328_110328_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150325-150410_150126_da223_v1.bsp
-"""
-const dawn_rec_110328_110419_110419_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150325-150410_150126_da223_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150528_150408_v1.bsp
-"""
-const dawn_ref_150325_150423_150318_dl223_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150528_150408_v1.bsp")
+const dawn_ceres_grv_m100_m18m15m0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15m0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3586,52 +991,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15m3p0_v1.bds
 """
-const dawn_ql_150125_150531_150318_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110328-110419_110419_v1.bsp
-"""
-const dawn_ceres_grv_m100_m18m15m6m3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110328-110419_110419_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150325-150423_150318_dl223_v1.bsp
-"""
-const dawn_rec_110328_110419_110420_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150325-150423_150318_dl223_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150318_v1.bsp
-"""
-const dawn_ref_150411_150509_150406_dl224_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150318_v1.bsp")
+const dawn_ceres_grv_m100_m18m15m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3646,37 +1006,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15m6m3_v1.bds
 """
-const dawn_ql_150125_150531_150325_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110328-110419_110420_v1.bsp
-"""
-const dawn_ceres_grv_m100_m18m15m9m6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110328-110419_110420_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150411-150509_150406_dl224_v1.bsp
-"""
-const dawn_rec_110416_110802_110913_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150411-150509_150406_dl224_v1.bsp")
+const dawn_ceres_grv_m100_m18m15m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3691,52 +1021,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15m9m6_v1.bds
 """
-const dawn_ref_150411_150509_150406_dl224_v2_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150325_v1.bsp
-"""
-const dawn_ceres_grv_m100_m18m15p3p6_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150325_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110416-110802_110913_v1.bsp
-"""
-const dawn_ql_150125_150531_150331_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110416-110802_110913_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150411-150509_150406_dl224_v2.bsp
-"""
-const dawn_rec_110802_110831_110922_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150411-150509_150406_dl224_v2.bsp")
+const dawn_ceres_grv_m100_m18m15m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3751,52 +1036,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15p3p6_v1.bds
 """
-const dawn_ref_150412_150511_140106_isb_RC3_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150331_v1.bsp
-"""
-const dawn_ceres_grv_m100_m18m15p6p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150331_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110802-110831_110922_v1.bsp
-"""
-const dawn_ql_150125_150531_150406_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110802-110831_110922_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150412-150511_140106_isb_RC3_v1.bsp
-"""
-const dawn_rec_110831_110928_111221_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150412-150511_140106_isb_RC3_v1.bsp")
+const dawn_ceres_grv_m100_m18m15p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3811,22 +1051,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15p6p9_v1.bds
 """
-const dawn_ref_150412_150511_140730_ort_RC3_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150406_v1.bsp
-"""
-const dawn_ceres_grv_m100_north_cap_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150406_v1.bsp")
+const dawn_ceres_grv_m100_m18m15p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_m18m15p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3841,52 +1066,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_north_cap_v1.bds
 """
-const dawn_ql_150125_150531_150413_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_north_cap_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110831-110928_111221_v1.bsp
-"""
-const dawn_ceres_grv_m100_p03p06m0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110831-110928_111221_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150412-150511_140730_ort_RC3_v1.bsp
-"""
-const dawn_rec_110928_111102_111221_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150412-150511_140730_ort_RC3_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150413_v1.bsp
-"""
-const dawn_ref_150416_150619_140206_isb_R2S_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150413_v1.bsp")
+const dawn_ceres_grv_m100_north_cap_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_north_cap_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3901,52 +1081,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06m0p3_v1.bds
 """
-const dawn_ql_150219_150531_150415_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06m0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110928-111102_111221_v1.bsp
-"""
-const dawn_ceres_grv_m100_p03p06m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110928-111102_111221_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150416-150619_140206_isb_R2S_v1.bsp
-"""
-const dawn_rec_110928_111102_120615_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150416-150619_140206_isb_R2S_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150219-150531_150415_v1.bsp
-"""
-const dawn_ref_150423_150528_150304_RC3_prebuild_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150219-150531_150415_v1.bsp")
+const dawn_ceres_grv_m100_p03p06m0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06m0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3961,52 +1096,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06m3p0_v1.bds
 """
-const dawn_ql_150219_150531_150423_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110928-111102_120615_v1.bsp
-"""
-const dawn_ceres_grv_m100_p03p06m6m3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110928-111102_120615_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150528_150304_RC3_prebuild_v1.bsp
-"""
-const dawn_rec_111102_111210_120618_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150528_150304_RC3_prebuild_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150219-150531_150423_v1.bsp
-"""
-const dawn_ref_150423_150528_150325_RC3_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150219-150531_150423_v1.bsp")
+const dawn_ceres_grv_m100_p03p06m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4021,37 +1111,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06m6m3_v1.bds
 """
-const dawn_ql_150403_150614_150427_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_111102-111210_120618_v1.bsp
-"""
-const dawn_ceres_grv_m100_p03p06m9m6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_111102-111210_120618_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150528_150325_RC3_v1.bsp
-"""
-const dawn_rec_111211_120501_120620_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150528_150325_RC3_v1.bsp")
+const dawn_ceres_grv_m100_p03p06m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4066,52 +1126,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06m9m6_v1.bds
 """
-const dawn_ref_150423_150704_150317_DA400_prebuild_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150403-150614_150427_v1.bsp
-"""
-const dawn_ceres_grv_m100_p03p06p3p6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150403-150614_150427_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_111211-120501_120620_v1.bsp
-"""
-const dawn_ql_150403_150714_150604_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_111211-120501_120620_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150704_150317_DA400_prebuild_v1.bsp
-"""
-const dawn_rec_120501_120611_120625_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150704_150317_DA400_prebuild_v1.bsp")
+const dawn_ceres_grv_m100_p03p06m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4126,52 +1141,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06p3p6_v1.bds
 """
-const dawn_ref_150423_150704_150414_DA400_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150403-150714_150604_v1.bsp
-"""
-const dawn_ceres_grv_m100_p03p06p6p9_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150403-150714_150604_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120501-120611_120625_v1.bsp
-"""
-const dawn_ql_150424_150531_OD150511_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120501-120611_120625_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150704_150414_DA400_v1.bsp
-"""
-const dawn_rec_120611_120724_121101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150704_150414_DA400_v1.bsp")
+const dawn_ceres_grv_m100_p03p06p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4186,52 +1156,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06p6p9_v1.bds
 """
-const dawn_ref_150509_150529_150506_dl400_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150531_OD150511_v1.bsp
-"""
-const dawn_ceres_grv_m100_p06p09m0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150531_OD150511_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120611-120724_121101_v1.bsp
-"""
-const dawn_ql_150424_150614_OD150430_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120611-120724_121101_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150509-150529_150506_dl400_v1.bsp
-"""
-const dawn_rec_120724_120913_121213_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150509-150529_150506_dl400_v1.bsp")
+const dawn_ceres_grv_m100_p03p06p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p03p06p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4246,22 +1171,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09m0p3_v1.bds
 """
-const dawn_ref_150514_150612_130417_RC3_Survey_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09m0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150430_v1.bsp
-"""
-const dawn_ceres_grv_m100_p06p09m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150430_v1.bsp")
+const dawn_ceres_grv_m100_p06p09m0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09m0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4276,52 +1186,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09m3p0_v1.bds
 """
-const dawn_ql_150424_150614_OD150504_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120724-120913_121213_v1.bsp
-"""
-const dawn_ceres_grv_m100_p06p09m6m3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120724-120913_121213_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150514-150612_130417_RC3_Survey_v1.bsp
-"""
-const dawn_rec_120913_131030_150308_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150514-150612_130417_RC3_Survey_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150504_v1.bsp
-"""
-const dawn_ref_150514_150708_130920_Survey_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150504_v1.bsp")
+const dawn_ceres_grv_m100_p06p09m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4336,52 +1201,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09m6m3_v1.bds
 """
-const dawn_ql_150424_150614_OD150506_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120913-131030_150308_v1.bsp
-"""
-const dawn_ceres_grv_m100_p06p09m9m6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120913-131030_150308_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150514-150708_130920_Survey_v1.bsp
-"""
-const dawn_rec_120913_141230_150306_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150514-150708_130920_Survey_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150506_v1.bsp
-"""
-const dawn_ref_150525_150619_140206_isb_Survey_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150506_v1.bsp")
+const dawn_ceres_grv_m100_p06p09m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4396,52 +1216,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09m9m6_v1.bds
 """
-const dawn_ql_150424_150614_OD150512_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120913-141230_150306_v1.bsp
-"""
-const dawn_ceres_grv_m100_p06p09p3p6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120913-141230_150306_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150525-150619_140206_isb_Survey_v1.bsp
-"""
-const dawn_rec_131030_141230_150308_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150525-150619_140206_isb_Survey_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150512_v1.bsp
-"""
-const dawn_ref_150529_150603_150524_dl401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150512_v1.bsp")
+const dawn_ceres_grv_m100_p06p09m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4456,52 +1231,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09p3p6_v1.bds
 """
-const dawn_ql_150424_150614_OD150518_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_131030-141230_150308_v1.bsp
-"""
-const dawn_ceres_grv_m100_p06p09p6p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_131030-141230_150308_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150529-150603_150524_dl401_v1.bsp
-"""
-const dawn_rec_141230_150509_150603_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150529-150603_150524_dl401_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150518_v1.bsp
-"""
-const dawn_ref_150603_150702_150506_da500_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150518_v1.bsp")
+const dawn_ceres_grv_m100_p06p09p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4516,37 +1246,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09p6p9_v1.bds
 """
-const dawn_ql_150424_150714_150604_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_141230-150509_150603_v1.bsp
-"""
-const dawn_ceres_grv_m100_p09p12m0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_141230-150509_150603_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150603-150702_150506_da500_v1.bsp
-"""
-const dawn_rec_150509_150630_150730_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150603-150702_150506_da500_v1.bsp")
+const dawn_ceres_grv_m100_p06p09p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p06p09p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4561,52 +1261,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12m0p3_v1.bds
 """
-const dawn_ref_150603_150704_150414_DA500_prebuild_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12m0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150714_150604_v1.bsp
-"""
-const dawn_ceres_grv_m100_p09p12m3p0_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150714_150604_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_150509-150630_150730_v1.bsp
-"""
-const dawn_ql_150424_150714_OD150601_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_150509-150630_150730_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150603-150704_150414_DA500_prebuild_v1.bsp
-"""
-const dawn_rec_150630_151023_151210_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150603-150704_150414_DA500_prebuild_v1.bsp")
+const dawn_ceres_grv_m100_p09p12m0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12m0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4621,52 +1276,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12m3p0_v1.bds
 """
-const dawn_ref_150612_150709_130417_Survey_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150714_OD150601_v1.bsp
-"""
-const dawn_ceres_grv_m100_p09p12m6m3_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150714_OD150601_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_150630-151023_151210_v1.bsp
-"""
-const dawn_ql_150603_150714_150610_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_150630-151023_151210_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150612_150709_130417_Survey_v1.bsp
-"""
-const dawn_rec_150630_151023_160804_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150612_150709_130417_Survey_v1.bsp")
+const dawn_ceres_grv_m100_p09p12m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4681,22 +1291,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12m6m3_v1.bds
 """
-const dawn_ref_150617_151005_140404_isb_CTH_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150610_v1.bsp
-"""
-const dawn_ceres_grv_m100_p09p12m9m6_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150610_v1.bsp")
+const dawn_ceres_grv_m100_p09p12m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4711,52 +1306,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12m9m6_v1.bds
 """
-const dawn_ql_150603_150714_150611_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_150630-151023_160804_v1.bsp
-"""
-const dawn_ceres_grv_m100_p09p12p3p6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_150630-151023_160804_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150617-151005_140404_isb_CTH_v1.bsp
-"""
-const dawn_rec_151023_160202_160412_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150617-151005_140404_isb_CTH_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150611_v1.bsp
-"""
-const dawn_ref_150701_150710_150626_dl600_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150611_v1.bsp")
+const dawn_ceres_grv_m100_p09p12m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4771,52 +1321,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12p3p6_v1.bds
 """
-const dawn_ql_150603_150714_150615_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_151023-160202_160412_v1.bsp
-"""
-const dawn_ceres_grv_m100_p09p12p6p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_151023-160202_160412_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150701-150710_150626_dl600_v1.bsp
-"""
-const dawn_rec_160202_160319_160531_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150701-150710_150626_dl600_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150615_v1.bsp
-"""
-const dawn_ref_150701_150811_150604_da600_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150615_v1.bsp")
+const dawn_ceres_grv_m100_p09p12p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4831,52 +1336,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12p6p9_v1.bds
 """
-const dawn_ql_150603_150714_150617_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160202-160319_160531_v1.bsp
-"""
-const dawn_ceres_grv_m100_p12p15m0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160202-160319_160531_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150701-150811_150604_da600_v1.bsp
-"""
-const dawn_rec_160319_160410_160809_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150701-150811_150604_da600_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150617_v1.bsp
-"""
-const dawn_ref_150701_151011_150701_DA700_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150617_v1.bsp")
+const dawn_ceres_grv_m100_p09p12p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p09p12p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4891,52 +1351,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15m0p3_v1.bds
 """
-const dawn_ql_150603_150714_150622_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15m0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160319-160410_160809_v1.bsp
-"""
-const dawn_ceres_grv_m100_p12p15m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160319-160410_160809_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150701-151011_150701_DA700_v1.bsp
-"""
-const dawn_rec_160410_160505_160809_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150701-151011_150701_DA700_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150622_v1.bsp
-"""
-const dawn_ref_150706_150822_130502_Survey_HAMO_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150622_v1.bsp")
+const dawn_ceres_grv_m100_p12p15m0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15m0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4951,37 +1366,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15m3p0_v1.bds
 """
-const dawn_ql_150603_150714_150626_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160410-160505_160809_v1.bsp
-"""
-const dawn_ceres_grv_m100_p12p15m6m3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160410-160505_160809_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150706-150822_130502_Survey_HAMO.bsp
-"""
-const dawn_rec_160505_160527_160809_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150706-150822_130502_Survey_HAMO.bsp")
+const dawn_ceres_grv_m100_p12p15m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4996,52 +1381,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15m6m3_v1.bds
 """
-const dawn_ref_150706_150829_130506_Survey_HAMO_v2_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150626_v1.bsp
-"""
-const dawn_ceres_grv_m100_p12p15m9m6_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150626_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160505-160527_160809_v1.bsp
-"""
-const dawn_ql_150603_150804_150626_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160505-160527_160809_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150706-150829_130506_Survey_HAMO_v2.bsp
-"""
-const dawn_rec_160505_160527_160810_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150706-150829_130506_Survey_HAMO_v2.bsp")
+const dawn_ceres_grv_m100_p12p15m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5056,52 +1396,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15m9m6_v1.bds
 """
-const dawn_ref_150708_151014_130927_S2H_HAMO_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150804_150626_v2.bsp
-"""
-const dawn_ceres_grv_m100_p12p15p3p6_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150804_150626_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160505-160527_160810_v1.bsp
-"""
-const dawn_ql_150702_150904_150720_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160505-160527_160810_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150708-151014_130927_S2H_HAMO_v1.bsp
-"""
-const dawn_rec_160527_160617_160809_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150708-151014_130927_S2H_HAMO_v1.bsp")
+const dawn_ceres_grv_m100_p12p15m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5116,51 +1411,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15p3p6_v1.bds
 """
-const dawn_ref_150714_150724_150709_dl600_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150720_v1.bsp
-"""
-const dawn_ceres_grv_m100_p12p15p6p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150720_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160527-160617_160809_v1.bsp
-"""
-const dawn_ql_150702_150904_150720_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160527-160617_160809_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150714-150724_150709_dl600_v1.bsp
-"""
+const dawn_ceres_grv_m100_p12p15p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5175,23 +1426,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15p6p9_v1.bds
 """
-const dawn_rec_160617_160902_161109_v1_bsp_dsk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150714-150724_150709_dl600_v1.bsp")
-const dawn_ref_150714_151031_150708_DA600_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150720_v2.bsp
-"""
-const dawn_ceres_grv_m100_p15p18m0p3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150720_v2.bsp")
+const dawn_ceres_grv_m100_p12p15p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p12p15p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5206,52 +1441,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18m0p3_v1.bds
 """
-const dawn_ql_150702_150904_150727_v2_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18m0p3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160617-160902_161109_v1.bsp
-"""
-const dawn_ceres_grv_m100_p15p18m3p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160617-160902_161109_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150714-151031_150708_DA600_v1.bsp
-"""
-const dawn_rec_160902_160902_170124_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150714-151031_150708_DA600_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150727_v2.bsp
-"""
-const dawn_ref_150724_150731_150720_dl601_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150727_v2.bsp")
+const dawn_ceres_grv_m100_p15p18m0p3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18m0p3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5266,52 +1456,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18m3p0_v1.bds
 """
-const dawn_ql_150702_150904_150803_v2_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18m3p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160902-160902_170124_v1.bsp
-"""
-const dawn_ceres_grv_m100_p15p18m6m3_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160902-160902_170124_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150724-150731_150720_dl601_v1.bsp
-"""
-const dawn_rec_160902_161104_170124_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150724-150731_150720_dl601_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150803_v2.bsp
-"""
-const dawn_ref_150729_151005_140404_isb_CSH_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150803_v2.bsp")
+const dawn_ceres_grv_m100_p15p18m3p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18m3p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5326,52 +1471,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18m6m3_v1.bds
 """
-const dawn_ql_150723_150830_150814_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18m6m3_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160902-161104_170124_v1.bsp
-"""
-const dawn_ceres_grv_m100_p15p18m9m6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160902-161104_170124_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150729-151005_140404_isb_CSH_v1.bsp
-"""
-const dawn_rec_161104_170222_170713_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150729-151005_140404_isb_CSH_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150723-150830_150814_v1.bsp
-"""
-const dawn_ref_150730_151009_150618_DA700_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150723-150830_150814_v1.bsp")
+const dawn_ceres_grv_m100_p15p18m6m3_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18m6m3_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5386,37 +1486,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18m9m6_v1.bds
 """
-const dawn_ql_150723_150929_150814_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18m9m6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_161104-170222_170713_v1.bsp
-"""
-const dawn_ceres_grv_m100_p15p18p3p6_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_161104-170222_170713_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150730-151009_150618_DA700_v1.bsp
-"""
-const dawn_rec_170222_170603_170714_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150730-151009_150618_DA700_v1.bsp")
+const dawn_ceres_grv_m100_p15p18m9m6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18m9m6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5431,52 +1501,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18p3p6_v1.bds
 """
-const dawn_ref_150731_150807_150727_dl602_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18p3p6_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150723-150929_150814_v1.bsp
-"""
-const dawn_ceres_grv_m100_p15p18p6p9_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150723-150929_150814_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_170222-170603_170714_v1.bsp
-"""
-const dawn_ql_150730_150919_150820_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_170222-170603_170714_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150731-150807_150727_dl602_v1.bsp
-"""
-const dawn_rec_170603_170416_180503_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150731-150807_150727_dl602_v1.bsp")
+const dawn_ceres_grv_m100_p15p18p3p6_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18p3p6_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5491,52 +1516,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18p6p9_v1.bds
 """
-const dawn_ref_150807_150814_150803_dl603_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18p6p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150730-150919_150820_v1.bsp
-"""
-const dawn_ceres_grv_m100_south_cap_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150730-150919_150820_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_170603-170416_180503_v1.bsp
-"""
-const dawn_ql_150730_151028_150824_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_170603-170416_180503_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150807-150814_150803_dl603_v1.bsp
-"""
-const dawn_rec_170603_180416_180703_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150807-150814_150803_dl603_v1.bsp")
+const dawn_ceres_grv_m100_p15p18p6p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_p15p18p6p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5551,52 +1531,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_south_cap_v1.bds
 """
-const dawn_ref_150813_151025_150709_DA700_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_south_cap_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150730-151028_150824_v1.bsp
-"""
-const dawn_ceres_grv_m300_m00p09m0p9_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150730-151028_150824_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_170603-180416_180703_v1.bsp
-"""
-const dawn_ql_150813_151028_150827_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_170603-180416_180703_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150813-151025_150709_DA700_v1.bsp
-"""
-const dawn_rec_180416_180609_180703_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150813-151025_150709_DA700_v1.bsp")
+const dawn_ceres_grv_m100_south_cap_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m100_south_cap_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5611,22 +1546,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m00p09m0p9_v1.bds
 """
-const dawn_ref_150814_150816_150810_dl604_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m00p09m0p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150827_v1.bsp
-"""
-const dawn_ceres_grv_m300_m00p09m9p0_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150827_v1.bsp")
+const dawn_ceres_grv_m300_m00p09m0p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m00p09m0p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5641,52 +1561,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m00p09m9p0_v1.bds
 """
-const dawn_ql_150813_151028_150831_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m00p09m9p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_180416-180609_180703_v1.bsp
-"""
-const dawn_ceres_grv_m300_m09p00m0p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_180416-180609_180703_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150814-150816_150810_dl604_v1.bsp
-"""
-const dawn_rec_180609_180805_180828_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150814-150816_150810_dl604_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150831_v1.bsp
-"""
-const dawn_ref_150814_151024_150811_DA700_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150831_v1.bsp")
+const dawn_ceres_grv_m300_m00p09m9p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m00p09m9p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5701,52 +1576,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m09p00m0p9_v1.bds
 """
-const dawn_ql_150813_151028_150903_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m09p00m0p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_180609-180805_180828_v1.bsp
-"""
-const dawn_ceres_grv_m300_m09p00m9p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_180609-180805_180828_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150814_151024_150811_DA700_v1.bsp
-"""
-const dawn_rec_180805_181031_181129_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150814_151024_150811_DA700_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150903_v1.bsp
-"""
-const dawn_ref_150822_151021_130502_HAMO_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150903_v1.bsp")
+const dawn_ceres_grv_m300_m09p00m0p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m09p00m0p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5761,52 +1591,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m09p00m9p0_v1.bds
 """
-const dawn_ql_150813_151028_150908_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m09p00m9p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_180805-181031_181129_v1.bsp
-"""
-const dawn_ceres_grv_m300_m18m09m0p9_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_180805-181031_181129_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150822-151021_130502_HAMO.bsp
-"""
-const dawn_ref110810_110830_110124_ort8_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150822-151021_130502_HAMO.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150908_v1.bsp
-"""
-const dawn_ref_150829_151117_130506_HAMO_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150908_v1.bsp")
+const dawn_ceres_grv_m300_m09p00m9p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m09p00m9p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5821,52 +1606,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m18m09m0p9_v1.bds
 """
-const dawn_ql_150813_151028_150911_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m18m09m0p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref110810-110830_110124_ort8.bsp
-"""
-const dawn_ceres_grv_m300_m18m09m9p0_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref110810-110830_110124_ort8.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150829-151117_130506_HAMO_v2.bsp
-"""
-const dawn_ref_070926_150201_070829_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150829-151117_130506_HAMO_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150911_v1.bsp
-"""
-const dawn_ref_151001_160603_140528_isb_CTL_CSL_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150911_v1.bsp")
+const dawn_ceres_grv_m300_m18m09m0p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m18m09m0p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5881,37 +1621,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m18m09m9p0_v1.bds
 """
-const dawn_ref_151001_160603_140528_isb_CTL_CSL_v1_bsp_spk_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m18m09m9p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070926-150201_070829.bsp
-"""
-const dawn_ceres_grv_m300_north_cap_v1_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070926-150201_070829.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151001-160603_140528_isb_CTL_CSL_v1.bsp
-"""
-const dawn_ref_070927_071012_070927_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151001-160603_140528_isb_CTL_CSL_v1.bsp")
+const dawn_ceres_grv_m300_m18m09m9p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_m18m09m9p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5926,52 +1636,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_north_cap_v1.bds
 """
-const dawn_ref_151003_160603_140611_isb_CTL_CSL_v2_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_north_cap_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150914_v1.bsp
-"""
-const dawn_ceres_grv_m300_p09p18m0p9_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150914_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070927-071012_070927.bsp
-"""
-const dawn_ql_150829_151028_150917_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070927-071012_070927.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151003-160603_140611_isb_CTL_CSL_v2.bsp
-"""
-const dawn_ref_070927_071028_070928_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151003-160603_140611_isb_CTL_CSL_v2.bsp")
+const dawn_ceres_grv_m300_north_cap_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_north_cap_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -5986,52 +1651,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_p09p18m0p9_v1.bds
 """
-const dawn_ref_151022_151215_150925_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_p09p18m0p9_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151028_150917_v1.bsp
-"""
-const dawn_ceres_grv_m300_p09p18m9p0_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151028_150917_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070927-071028_070928.bsp
-"""
-const dawn_ql_150829_151028_150923_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070927-071028_070928.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151022-151215_150925_v1.bsp
-"""
-const dawn_ref_070929_071220_071001_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151022-151215_150925_v1.bsp")
+const dawn_ceres_grv_m300_p09p18m0p9_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_p09p18m0p9_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6046,37 +1666,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_p09p18m9p0_v1.bds
 """
-const dawn_ref_151022_151220_151014_DA800_v2_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_p09p18m9p0_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151028_150923_v1.bsp
-"""
-const dawn_ceres_grv_m300_south_cap_v1_bds_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151028_150923_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070929-071220_071001.bsp
-"""
-const dawn_ql_150829_151030_150929_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070929-071220_071001.bsp")
+const dawn_ceres_grv_m300_p09p18m9p0_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_p09p18m9p0_v1.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6091,37 +1681,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_south_cap_v1.bds
 """
-const dawn_ref_071012_071220_071015_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_south_cap_v1.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151022-151220_151014_DA800_v2.bsp
-"""
-const dawn_ceres_v00_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151022-151220_151014_DA800_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_150929_v1.bsp
-"""
-const dawn_ref_151022_151220_151014_DA801_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_150929_v1.bsp")
+const dawn_ceres_grv_m300_south_cap_v1_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/dsk/dawn_ceres_grv_m300_south_cap_v1.bds")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6136,52 +1696,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_ceres_v00.tf
 """
-const dawn_ql_150829_151030_151005_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_ceres_v00.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071012-071220_071015_v1.bsp
-"""
-const dawn_v00_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071012-071220_071015_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151022-151220_151014_DA801_v1.bsp
-"""
-const dawn_ref_071205_080317_071204_v4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151022-151220_151014_DA801_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_151005_v1.bsp
-"""
-const dawn_ref_151023_151030_151019_dl800_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_151005_v1.bsp")
+const dawn_ceres_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_ceres_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6196,52 +1711,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v00.tf
 """
-const dawn_ql_150829_151030_151009_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v00.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071205-080317_071204_v4.bsp
-"""
-const dawn_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071205-080317_071204_v4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151023-151030_151019_dl800_v1.bsp
-"""
-const dawn_ref_071214_080317_071119_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151023-151030_151019_dl800_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_151009_v1.bsp
-"""
-const dawn_ref_151024_160331_131004_H2L_LAMO_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_151009_v1.bsp")
+const dawn_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6256,52 +1726,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v01.tf
 """
-const dawn_ql_150829_151030_151015_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071214-080317_071119_v1.bsp
-"""
-const dawn_v02_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071214-080317_071119_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151024-160331_131004_H2L_LAMO_v1.bsp
-"""
-const dawn_ref_071214_080317_071126_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151024-160331_131004_H2L_LAMO_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_151015_v1.bsp
-"""
-const dawn_ref_151030_151106_151026_dl801_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_151015_v1.bsp")
+const dawn_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6316,37 +1741,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v02.tf
 """
-const dawn_ql_151001_151112_151026_v2_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v02.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071214-080317_071126_v3.bsp
-"""
-const dawn_v03_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071214-080317_071126_v3.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151030-151106_151026_dl801_v1.bsp
-"""
-const dawn_ref_080124_080427_071218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151030-151106_151026_dl801_v1.bsp")
+const dawn_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6361,52 +1756,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v03.tf
 """
-const dawn_ref_151106_151113_151102_dl802_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v03.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151112_151026_v2.bsp
-"""
-const dawn_v05_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151112_151026_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080124-080427_071218_v1.bsp
-"""
-const dawn_ql_151001_151119_151102_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080124-080427_071218_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151106-151113_151102_dl802_v1.bsp
-"""
-const dawn_ref_080220_080609_080125_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151106-151113_151102_dl802_v1.bsp")
+const dawn_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v03.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6421,52 +1771,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v05.tf
 """
-const dawn_ref_151113_151120_151109_dl803_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v05.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151119_151102_v2.bsp
-"""
-const dawn_v08_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151119_151102_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080220-080609_080125_v1.bsp
-"""
-const dawn_ql_151001_151126_151019_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080220-080609_080125_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151113-151120_151109_dl803_v1.bsp
-"""
-const dawn_ref_080220_150201_080125_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151113-151120_151109_dl803_v1.bsp")
+const dawn_v05_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v05.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6481,37 +1786,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v08.tf
 """
-const dawn_ref_151120_151126_151116_dl804_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v08.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151126_151019_v2.bsp
-"""
-const dawn_v10_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151126_151019_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080220-150201_080125_v1.bsp
-"""
-const dawn_ql_151001_151203_151116_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080220-150201_080125_v1.bsp")
+const dawn_v08_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v08.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6526,37 +1801,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v10.tf
 """
-const dawn_ref_080331_080721_080303_v2_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v10.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151120-151126_151116_dl804_v1.bsp
-"""
-const dawn_v11_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151120-151126_151116_dl804_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151203_151116_v3.bsp
-"""
-const dawn_ref_151126_151203_151123_dl805_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151203_151116_v3.bsp")
+const dawn_v10_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v10.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6571,52 +1816,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v11.tf
 """
-const dawn_ql_151001_151209_151123_v2_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v11.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080331-080721_080303_v2.bsp
-"""
-const dawn_v12_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080331-080721_080303_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151126-151203_151123_dl805_v1.bsp
-"""
-const dawn_ref_080512_080825_080415_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151126-151203_151123_dl805_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151209_151123_v2.bsp
-"""
-const dawn_ref_151203_151207_151130_dl806_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151209_151123_v2.bsp")
+const dawn_v11_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v11.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6631,37 +1831,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v12.tf
 """
-const dawn_ql_151001_151216_151130_v2_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v12.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080512-080825_080415_v1.bsp
-"""
-const dawn_v13_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080512-080825_080415_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151203-151207_151130_dl806_v1.bsp
-"""
-const dawn_ref_080616_080929_080516_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151203-151207_151130_dl806_v1.bsp")
+const dawn_v12_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v12.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6676,52 +1846,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v13.tf
 """
-const dawn_ref_151211_151216_151209_dl807_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v13.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151216_151130_v2.bsp
-"""
-const dawn_v14_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151216_151130_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080616-080929_080516_v1.bsp
-"""
-const dawn_ql_151207_160114_151210_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080616-080929_080516_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151211-151216_151209_dl807_v1.bsp
-"""
-const dawn_ref_080721_081030_080619_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151211-151216_151209_dl807_v1.bsp")
+const dawn_v13_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v13.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6736,52 +1861,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v14.tf
 """
-const dawn_ref_151214_160702_151014_DA900_prebuild_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v14.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160114_151210_v2.bsp
-"""
-const dawn_v15_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160114_151210_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080721-081030_080619_v1.bsp
-"""
-const dawn_ql_151207_160118_151214_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080721-081030_080619_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151014_DA900_prebuild.bsp
-"""
-const dawn_ref_080722_090601_081007_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151014_DA900_prebuild.bsp")
+const dawn_v14_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v14.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6796,52 +1876,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v15.tf
 """
-const dawn_ref_151214_160702_151027_DA900_prebuild_v2_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v15.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160118_151214_v1.bsp
-"""
-const dawn_vesta_v00_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160118_151214_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080722-090601_081007_v2.bsp
-"""
-const dawn_ql_151207_160121_151217_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080722-090601_081007_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151027_DA900_prebuild_v2.bsp
-"""
-const dawn_ref_080722_090601_081014_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151027_DA900_prebuild_v2.bsp")
+const dawn_v15_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_v15.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6856,52 +1891,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_vesta_v00.tf
 """
-const dawn_ref_151214_160702_151117_DA900_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_vesta_v00.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160121_151217_v1.bsp
-"""
-const naif0007_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160121_151217_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080722-090601_081014_v3.bsp
-"""
-const dawn_ql_151207_160125_151221_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080722-090601_081014_v3.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151117_DA900_v1.bsp
-"""
-const dawn_ref_080825_090415_080724_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151117_DA900_v1.bsp")
+const dawn_vesta_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/fk/dawn_vesta_v00.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6916,37 +1906,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0007.tls
 """
-const dawn_ref_151214_160702_151209_DA901_v1_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0007.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160125_151221_v1.bsp
-"""
-const naif0008_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160125_151221_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080825-090415_080724_v1.bsp
-"""
-const dawn_ql_151207_160126_151222_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080825-090415_080724_v1.bsp")
+const naif0007_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0007.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -6961,37 +1921,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0008.tls
 """
-const dawn_ref_080825_090415_080811_v1_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0008.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151209_DA901_v1.bsp
-"""
-const naif0009_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151209_DA901_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160126_151222_v1.bsp
-"""
-const dawn_ref_151214_160831_160106_DA902_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160126_151222_v1.bsp")
+const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0008.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7006,52 +1936,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0009.tls
 """
-const dawn_ql_151213_160130_151226_v1_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0009.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080825-090415_080811_v1.bsp
-"""
-const naif0010_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080825-090415_080811_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA902_v1.bsp
-"""
-const dawn_ref_080929_090415_080829_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA902_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160130_151226_v1.bsp
-"""
-const dawn_ref_151214_160831_160106_DA903_prebuild_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160130_151226_v1.bsp")
+const naif0009_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0009.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7066,37 +1951,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0010.tls
 """
-const dawn_ql_151213_160203_151228_v2_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0010.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080929-090415_080829_v1.bsp
-"""
-const naif0011_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080929-090415_080829_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA903_prebuild.bsp
-"""
-const dawn_ref_081014_090601_081017_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA903_prebuild.bsp")
+const naif0010_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0010.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7111,52 +1966,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0011.tls
 """
-const dawn_ref_151214_160831_160106_DA903_v1_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0011.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160203_151228_v2.bsp
-"""
-const naif0012_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160203_151228_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081014-090601_081017_v1.bsp
-"""
-const dawn_ql_151213_160208_160104_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081014-090601_081017_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA903_v1.bsp
-"""
-const dawn_ref_081031_090415_080714_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA903_v1.bsp")
+const naif0011_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0011.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7171,52 +1981,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0012.tls
 """
-const dawn_ref_151214_160831_160106_DA905_prebuild_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0012.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160208_160104_v1.bsp
-"""
-const dawn_ceres_dlr170713_v1_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160208_160104_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090415_080714_v1.bsp
-"""
-const dawn_ql_151213_160211_160107_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090415_080714_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA905_prebuild.bsp
-"""
-const dawn_ref_081031_090601_081201_dc022p1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA905_prebuild.bsp")
+const naif0012_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/lsk/naif0012.tls")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7231,52 +1996,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_dlr170713_v1.tpc
 """
-const dawn_ref_151214_160831_160106_DA905_v1_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_dlr170713_v1.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160211_160107_v1.bsp
-"""
-const dawn_ceres_grv171219_v1_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160211_160107_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_081201_dc022p1_v1.bsp
-"""
-const dawn_ql_151213_160216_160112_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_081201_dc022p1_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA905_v1.bsp
-"""
-const dawn_ref_081031_090601_090106_dc023p1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA905_v1.bsp")
+const dawn_ceres_dlr170713_v1_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_dlr170713_v1.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7291,52 +2011,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_grv171219_v1.tpc
 """
-const dawn_ref_151214_160831_160223_DA906_v1_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_grv171219_v1.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160216_160112_v1.bsp
-"""
-const dawn_ceres_v00_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160216_160112_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090106_dc023p1_v1.bsp
-"""
-const dawn_ql_151213_160217_160113_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090106_dc023p1_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160223_DA906_v1.bsp
-"""
-const dawn_ref_081031_090601_090126_mga_c1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160223_DA906_v1.bsp")
+const dawn_ceres_grv171219_v1_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_grv171219_v1.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7351,37 +2026,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v00.tpc
 """
-const dawn_ref_151214_160831_160316_DA907_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v00.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160217_160113_v1.bsp
-"""
-const dawn_ceres_v01_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160217_160113_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090126_mga_c1_v1.bsp
-"""
-const dawn_ql_151213_160219_160115_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090126_mga_c1_v1.bsp")
+const dawn_ceres_v00_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v00.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7396,37 +2041,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v01.tpc
 """
-const dawn_ref_081031_090601_090129_dc023p2_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v01.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160316_DA907_v1.bsp
-"""
-const dawn_ceres_v02_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160316_DA907_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160219_160115_v1.bsp
-"""
-const dawn_ref_151214_160831_160419_DA908_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160219_160115_v1.bsp")
+const dawn_ceres_v01_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v01.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7441,52 +2056,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v02.tpc
 """
-const dawn_ql_151213_160301_160121_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v02.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090129_dc023p2_v1.bsp
-"""
-const dawn_ceres_v03_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090129_dc023p2_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160419_DA908_v1.bsp
-"""
-const dawn_ref_081031_090601_090209_mga_c2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160419_DA908_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160301_160121_v1.bsp
-"""
-const dawn_ref_151214_160831_160503_DA909_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160301_160121_v1.bsp")
+const dawn_ceres_v02_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v02.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7501,37 +2071,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v03.tpc
 """
-const dawn_ql_151213_160306_160126_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v03.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090209_mga_c2_v1.bsp
-"""
-const dawn_ceres_v04_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090209_mga_c2_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160503_DA909_v1.bsp
-"""
-const dawn_ref_081031_090601_090213_dc024p1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160503_DA909_v1.bsp")
+const dawn_ceres_v03_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v03.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7546,52 +2086,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v04.tpc
 """
-const dawn_ref_151214_160831_160524_DA910_prebuild_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v04.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160306_160126_v1.bsp
-"""
-const dawn_ceres_v05_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160306_160126_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090213_dc024p1_v1.bsp
-"""
-const dawn_ql_160109_160309_160129_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090213_dc024p1_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160524_DA910_prebuild.bsp
-"""
-const dawn_ref_081101_090601_081105_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160524_DA910_prebuild.bsp")
+const dawn_ceres_v04_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v04.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7606,52 +2101,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v05.tpc
 """
-const dawn_ref_151214_170101_160711_DA911_prebuild_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v05.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160309_160129_v1.bsp
-"""
-const dawn_ceres_v06_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160309_160129_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081101-090601_081105_v2.bsp
-"""
-const dawn_ql_160109_160320_160204_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081101-090601_081105_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-170101_160711_DA911_prebuild.bsp
-"""
-const dawn_ref_081101_090601_081112_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-170101_160711_DA911_prebuild.bsp")
+const dawn_ceres_v05_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v05.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7666,52 +2116,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v06.tpc
 """
-const dawn_ref_151214_170101_160713_DA911_va_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v06.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160320_160204_v1.bsp
-"""
-const dawn_vesta_v00_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160320_160204_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081101-090601_081112_v2.bsp
-"""
-const dawn_ql_160109_160325_160209_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081101-090601_081112_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-170101_160713_DA911_va.bsp
-"""
-const dawn_ref_090420_090713_090323_dc025_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-170101_160713_DA911_va.bsp")
+const dawn_ceres_v06_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_ceres_v06.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7726,52 +2131,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v00.tpc
 """
-const dawn_ref_151231_160109_151228_dl900_v1_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v00.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160325_160209_v1.bsp
-"""
-const dawn_vesta_v01_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160325_160209_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090420-090713_090323_dc025_v1.bsp
-"""
-const dawn_ql_160109_160327_160211_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090420-090713_090323_dc025_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151231-160109_151228_dl900_v1.bsp
-"""
-const dawn_ref_090517_090921_090428_dc026_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151231-160109_151228_dl900_v1.bsp")
+const dawn_vesta_v00_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v00.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7786,37 +2146,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v01.tpc
 """
-const dawn_ref_160123_160201_160120_dl901_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v01.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160327_160211_v1.bsp
-"""
-const dawn_vesta_v02_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160327_160211_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090517-090921_090428_dc026_v1.bsp
-"""
-const dawn_ql_160109_160328_160212_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090517-090921_090428_dc026_v1.bsp")
+const dawn_vesta_v01_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v01.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7831,37 +2161,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v02.tpc
 """
-const dawn_ref_090601_090921_090518_dc027_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v02.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160123-160201_160120_dl901_v1.bsp
-"""
-const dawn_vesta_v03_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160123-160201_160120_dl901_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160328_160212_v1.bsp
-"""
-const dawn_ref_160123_160810_130528_LAMO_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160328_160212_v1.bsp")
+const dawn_vesta_v02_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v02.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7876,52 +2176,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v03.tpc
 """
-const dawn_ql_160201_160403_160218_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v03.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090601-090921_090518_dc027_v1.bsp
-"""
-const dawn_vesta_v04_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090601-090921_090518_dc027_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160123_160810_130528_LAMO.bsp
-"""
-const dawn_ref_090601_090921_090518_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160123_160810_130528_LAMO.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160403_160218_v1.bsp
-"""
-const dawn_ref_160124_160811_130510_LAMO_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160403_160218_v1.bsp")
+const dawn_vesta_v03_tpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v03.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7936,52 +2191,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v04.tpc
 """
-const dawn_ql_160201_160403_160218_v2_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v04.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090601-090921_090518_v1.bsp
-"""
-const pck00007_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090601-090921_090518_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160124_160811_130510_LAMO.bsp
-"""
-const dawn_ref_090629_091005_090608_dc028_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160124_160811_130510_LAMO.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160403_160218_v2.bsp
-"""
-const dawn_ref_160309_160318_160306_dl903_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160403_160218_v2.bsp")
+const dawn_vesta_v04_tpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/dawn_vesta_v04.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -7996,52 +2206,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/pck00007.tpc
 """
-const dawn_ql_160201_160409_160224_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/pck00007.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090629-091005_090608_dc028_v1.bsp
-"""
-const pck00008_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090629-091005_090608_dc028_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160309-160318_160306_dl903_v1.bsp
-"""
-const dawn_ref_090720_091027_090626_dc029_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160309-160318_160306_dl903_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160409_160224_v1.bsp
-"""
-const dawn_ref_160401_160410_160328_dl905_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160409_160224_v1.bsp")
+const pck00007_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/pck00007.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8056,52 +2221,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/pck00008.tpc
 """
-const dawn_ql_160201_160411_160226_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/pck00008.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090720-091027_090626_dc029_v1.bsp
-"""
-const Dawn_ephem_2018_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090720-091027_090626_dc029_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160401-160410_160328_dl905_v1.bsp
-"""
-const dawn_ref_090720_091027_090626_dc029_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160401-160410_160328_dl905_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160411_160226_v1.bsp
-"""
-const dawn_ref_160517_160526_160511_dl907_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160411_160226_v1.bsp")
+const pck00008_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/pck/pck00008.tpc")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8116,52 +2236,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/Dawn_ephem_2018.bsp
 """
-const dawn_ql_160201_160417_160303_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/Dawn_ephem_2018.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090720-091027_090626_dc029_v2.bsp
-"""
-const L2H2_d016_HAMO2_O5_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090720-091027_090626_dc029_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160517-160526_160511_dl907_v1.bsp
-"""
-const dawn_ref_090810_091116_090716_dc030_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160517-160526_160511_dl907_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160417_160303_v1.bsp
-"""
-const dawn_ref_160609_160618_160606_dl908_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160417_160303_v1.bsp")
+const Dawn_ephem_2018_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/Dawn_ephem_2018.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8176,52 +2251,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/L2H2_d016_HAMO2_O5.bsp
 """
-const dawn_ql_160201_160421_160307_v1_noOMM_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/L2H2_d016_HAMO2_O5.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090810-091116_090716_dc030_v1.bsp
-"""
-const dawn_110924_111025_100526_isb_hamo_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090810-091116_090716_dc030_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160609-160618_160606_dl908_v1.bsp
-"""
-const dawn_ref_090831_091208_090807_dc031_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160609-160618_160606_dl908_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160421_160307_v1_noOMM.bsp
-"""
-const dawn_ref_160619_160904_160721_DA911_runout_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160421_160307_v1_noOMM.bsp")
+const L2H2_d016_HAMO2_O5_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/L2H2_d016_HAMO2_O5.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8236,52 +2266,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_110924-111025_100526_isb_hamo.bsp
 """
-const dawn_ql_160201_160425_160311_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_110924-111025_100526_isb_hamo.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090831-091208_090807_dc031_v1.bsp
-"""
-const dawn_dsn_071104_090101_071023_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090831-091208_090807_dc031_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160619-160904_160721_DA911_runout.bsp
-"""
-const dawn_ref_090921_091229_090821_dc032_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160619-160904_160721_DA911_runout.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160425_160311_v1.bsp
-"""
-const dawn_ref_160710_160819_160615_DA950_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160425_160311_v1.bsp")
+const dawn_110924_111025_100526_isb_hamo_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_110924-111025_100526_isb_hamo.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8296,52 +2281,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_dsn_071104-090101_071023_v1.bsp
 """
-const dawn_ql_160201_160428_160314_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_dsn_071104-090101_071023_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090921-091229_090821_dc032_v1.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160710-160819_160615_DA950_v1.bsp
-"""
-const dawn_grv_150204_150424_171219_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090921-091229_090821_dc032_v1.bsp")
-const dawn_ref_091026_100201_090928_dc033_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160710-160819_160615_DA950_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160428_160314_v1.bsp
-"""
-const dawn_ref_160731_160808_160726_dl910_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160428_160314_v1.bsp")
+const dawn_dsn_071104_090101_071023_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_dsn_071104-090101_071023_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8356,37 +2296,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_grv_150204_150424_171219_v1.bsp
 """
-const dawn_ql_160201_160501_160317_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_grv_150204_150424_171219_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160731-160808_160726_dl910_v1.bsp
-"""
-const dawn_grv_150424_150701_171219_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160731-160808_160726_dl910_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_091026-100201_090928_dc033_v1.bsp
-"""
-const dawn_ref_160808_160927_160721_DA911_alternate_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_091026-100201_090928_dc033_v1.bsp")
+const dawn_grv_150204_150424_171219_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_grv_150204_150424_171219_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8401,52 +2311,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_grv_150424_150701_171219_v1.bsp
 """
-const dawn_ref_091130_100308_091102_dc034_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_grv_150424_150701_171219_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160501_160317_v1.bsp
-"""
-const dawn_grv_150813_151023_171219_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160501_160317_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160808-160927_160721_DA911_alternate.bsp
-"""
-const dawn_ql_160201_160506_160322_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160808-160927_160721_DA911_alternate.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_091130-100308_091102_dc034_v1.bsp
-"""
-const dawn_ref_160902_161206_160804_DA921_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_091130-100308_091102_dc034_v1.bsp")
+const dawn_grv_150424_150701_171219_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_grv_150424_150701_171219_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8461,52 +2326,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_grv_150813_151023_171219_v1.bsp
 """
-const dawn_ref_100104_100413_091203_dc035_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_grv_150813_151023_171219_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160506_160322_v1.bsp
-"""
-const dawn_grv_151213_160902_171219_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160506_160322_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160902-161206_160804_DA921_v1.bsp
-"""
-const dawn_ql_160224_160509_160325_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160902-161206_160804_DA921_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100104-100413_091203_dc035_v1.bsp
-"""
-const dawn_ref_160902_161206_160804_DA921_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100104-100413_091203_dc035_v1.bsp")
+const dawn_grv_150813_151023_171219_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_grv_150813_151023_171219_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8521,52 +2341,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_grv_151213_160902_171219_v1.bsp
 """
-const dawn_ref_100208_100517_100108_dc036_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_grv_151213_160902_171219_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160509_160325_v1.bsp
-"""
-const dawn_m_150403_150714_150604_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160509_160325_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160902-161206_160804_DA921_v2.bsp
-"""
-const dawn_ql_160224_160514_160328_v4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160902-161206_160804_DA921_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100208-100517_100108_dc036_v1.bsp
-"""
-const dawn_ref_160902_161206_160830_dl921_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100208-100517_100108_dc036_v1.bsp")
+const dawn_grv_151213_160902_171219_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_grv_151213_160902_171219_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8581,52 +2356,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_m_150403-150714_150604_v1.bsp
 """
-const dawn_ref_100315_100622_100216_dc037_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_m_150403-150714_150604_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160514_160328_v4.bsp
-"""
-const dawn_mga_090214_090222_081217_case0_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160514_160328_v4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160902-161206_160830_dl921_v1.bsp
-"""
-const dawn_ql_160224_160514_160330_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160902-161206_160830_dl921_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100315-100622_100216_dc037_v1.bsp
-"""
-const dawn_ref_160909_161206_160906_dl922_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100315-100622_100216_dc037_v1.bsp")
+const dawn_m_150403_150714_150604_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_m_150403-150714_150604_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8641,52 +2371,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case0.bsp
 """
-const dawn_ref_100419_100802_100322_dc038_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case0.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160514_160330_v1.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160909-161206_160906_dl922_v1.bsp
-"""
-const dawn_mga_090214_090222_081217_case1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160514_160330_v1.bsp")
-const dawn_ql_160224_160514_160330_v1_noOMM5_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160909-161206_160906_dl922_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100419-100802_100322_dc038_v1.bsp
-"""
-const dawn_ref_160916_161206_160913_dl923_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100419-100802_100322_dc038_v1.bsp")
+const dawn_mga_090214_090222_081217_case0_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case0.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8701,52 +2386,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case1.bsp
 """
-const dawn_ref_100517_100830_100416_dc039_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160916-161206_160913_dl923_v1.bsp
-"""
-const dawn_mga_090214_090222_081217_case2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160916-161206_160913_dl923_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160514_160330_v1_noOMM5.bsp
-"""
-const dawn_ref_160923_161206_160920_dl924_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160514_160330_v1_noOMM5.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100517-100830_100416_dc039_v1.bsp
-"""
-const dawn_ql_160224_160519_160404_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100517-100830_100416_dc039_v1.bsp")
+const dawn_mga_090214_090222_081217_case1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8761,52 +2401,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case2.bsp
 """
-const dawn_ref_100615_100927_100525_dc040_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160923-161206_160920_dl924_v1.bsp
-"""
-const dawn_mga_090214_090222_081217_case3_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160923-161206_160920_dl924_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160519_160404_v1.bsp
-"""
-const dawn_ref_160930_161206_160927_dl925_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160519_160404_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100615-100927_100525_dc040_v1.bsp
-"""
-const dawn_ql_160224_160520_160405_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100615-100927_100525_dc040_v1.bsp")
+const dawn_mga_090214_090222_081217_case2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8821,52 +2416,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case3.bsp
 """
-const dawn_ref_100719_101026_100625_dc041_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case3.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160930-161206_160927_dl925_v1.bsp
-"""
-const dawn_mga_090214_090222_081217_case4_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160930-161206_160927_dl925_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160520_160405_v1.bsp
-"""
-const dawn_ref_160930_161206_160928_da922_da923_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160520_160405_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100719-101026_100625_dc041_v1.bsp
-"""
-const dawn_ql_160224_160523_160408_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100719-101026_100625_dc041_v1.bsp")
+const dawn_mga_090214_090222_081217_case3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case3.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8881,52 +2431,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case4.bsp
 """
-const dawn_ref_100823_101206_100726_dc042_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160930-161206_160928_da922_da923_v1.bsp
-"""
-const dawn_mga_090214_090222_081217_case5_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160930-161206_160928_da922_da923_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160523_160408_v1.bsp
-"""
-const dawn_ref_160930_161206_160928_dl925_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160523_160408_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100823-101206_100726_dc042_v1.bsp
-"""
-const dawn_ql_160224_160529_160414_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100823-101206_100726_dc042_v1.bsp")
+const dawn_mga_090214_090222_081217_case4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case4.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -8941,52 +2446,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case5.bsp
 """
-const dawn_ref_100927_110104_100831_dc043_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case5.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160930-161206_160928_dl925_v2.bsp
-"""
-const dawn_mga_090214_090222_081217_case6_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160930-161206_160928_dl925_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160529_160414_v1.bsp
-"""
-const dawn_ref_161006_161206_160906_DA922_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160529_160414_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100927-110104_100831_dc043_v1.bsp
-"""
-const dawn_ql_160319_160603_160419_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100927-110104_100831_dc043_v1.bsp")
+const dawn_mga_090214_090222_081217_case5_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case5.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9001,37 +2461,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case6.bsp
 """
-const dawn_ref_101101_110214_101004_dc045_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case6.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161006-161206_160906_DA922_v1.bsp
-"""
-const dawn_mga_090214_090222_090107_case10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161006-161206_160906_DA922_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160603_160419_v1.bsp
-"""
-const dawn_ref_161006_170731_161128_DA926_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160603_160419_v1.bsp")
+const dawn_mga_090214_090222_081217_case6_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_081217_case6.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9046,52 +2476,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case10.bsp
 """
-const dawn_ql_160319_160606_160422_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case10.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_101101-110214_101004_dc045_v1.bsp
-"""
-const dawn_mga_090214_090222_090107_case11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_101101-110214_101004_dc045_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161006-170731_161128_DA926_v1.bsp
-"""
-const dawn_ref_101101_110214_101005_dc044_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161006-170731_161128_DA926_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160606_160422_v1.bsp
-"""
-const dawn_ref_161101_170703_161017_DA924_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160606_160422_v1.bsp")
+const dawn_mga_090214_090222_090107_case10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case10.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9106,52 +2491,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case11.bsp
 """
-const dawn_ql_160319_160610_160426_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case11.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_101101-110214_101005_dc044_v2.bsp
-"""
-const dawn_mga_090214_090222_090107_case12_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_101101-110214_101005_dc044_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161101-170703_161017_DA924_v2.bsp
-"""
-const dawn_ref_101206_110321_101101_dc045_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161101-170703_161017_DA924_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160610_160426_v1.bsp
-"""
-const dawn_ref_161101_180701_161109_DA925_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160610_160426_v1.bsp")
+const dawn_mga_090214_090222_090107_case11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case11.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9166,52 +2506,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case12.bsp
 """
-const dawn_ql_160319_160612_160428_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case12.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_101206-110321_101101_dc045_v1.bsp
-"""
-const dawn_mga_090214_090222_090107_case7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_101206-110321_101101_dc045_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161101-180701_161109_DA925_v1.bsp
-"""
-const dawn_ref_110110_110420_101203_dc046_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161101-180701_161109_DA925_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160612_160428_v1.bsp
-"""
-const dawn_ref_161103_170331_170104_DA926_Pass1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160612_160428_v1.bsp")
+const dawn_mga_090214_090222_090107_case12_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case12.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9226,37 +2521,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case7.bsp
 """
-const dawn_ql_160319_160617_160503_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case7.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110110-110420_101203_dc046_v1.bsp
-"""
-const dawn_mga_090214_090222_090107_case8_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110110-110420_101203_dc046_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161103-170331_170104_DA926_Pass1.bsp
-"""
-const dawn_ref_110214_110411_110113_dc047_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161103-170331_170104_DA926_Pass1.bsp")
+const dawn_mga_090214_090222_090107_case7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case7.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9271,52 +2536,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case8.bsp
 """
-const dawn_ref_161103_170331_170104_DA927_preBuild_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case8.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160617_160503_v1.bsp
-"""
-const dawn_mga_090214_090222_090107_case9_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160617_160503_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110214-110411_110113_dc047_v1.bsp
-"""
-const dawn_ql_160319_160620_160506_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110214-110411_110113_dc047_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161103-170331_170104_DA927_preBuild.bsp
-"""
-const dawn_ref_110214_110806_110203_isb2_approach_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161103-170331_170104_DA927_preBuild.bsp")
+const dawn_mga_090214_090222_090107_case8_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case8.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9331,37 +2551,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case9.bsp
 """
-const dawn_ref_161104_161206_161031_dl926_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case9.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160620_160506_v1.bsp
-"""
-const dawn_p_181030_431030_181211_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160620_160506_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110214-110806_110203_isb2_approach.bsp
-"""
-const dawn_ql_160319_160625_160511_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110214-110806_110203_isb2_approach.bsp")
+const dawn_mga_090214_090222_090107_case9_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_mga_090214-090222_090107_case9.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9376,52 +2566,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_p_181030-431030_181211_v1.bsp
 """
-const dawn_ref_110314_110411_110222_dc048_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_p_181030-431030_181211_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161104-161206_161031_dl926_v1.bsp
-"""
-const dawn_ql_110416_110723_110602_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161104-161206_161031_dl926_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160625_160511_v1.bsp
-"""
-const dawn_ref_161104_161206_161031_dl926_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160625_160511_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110314-110411_110222_dc048_v1.bsp
-"""
-const dawn_ql_160319_160626_160512_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110314-110411_110222_dc048_v1.bsp")
+const dawn_p_181030_431030_181211_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_p_181030-431030_181211_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9436,52 +2581,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110416-110723_110602_v1.bsp
 """
-const dawn_ref_110416_110723_110602_dl003_eu7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110416-110723_110602_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161104-161206_161031_dl926_v2.bsp
-"""
-const dawn_ql_110416_110723_110608_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161104-161206_161031_dl926_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160626_160512_v1.bsp
-"""
-const dawn_ref_161104_170703_161011_DA924_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160626_160512_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110416-110723_110602_dl003_eu7.bsp
-"""
-const dawn_ql_160319_160630_160511_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110416-110723_110602_dl003_eu7.bsp")
+const dawn_ql_110416_110723_110602_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110416-110723_110602_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9496,37 +2596,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110416-110723_110608_v1.bsp
 """
-const dawn_ref_110419_110503_110326_da001_BGonly_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110416-110723_110608_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161104-170703_161011_DA924_v1.bsp
-"""
-const dawn_ql_110510_110723_110614_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161104-170703_161011_DA924_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160630_160511_v2.bsp
-"""
-const dawn_ref_161118_161206_161114_dl927_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160630_160511_v2.bsp")
+const dawn_ql_110416_110723_110608_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110416-110723_110608_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9541,52 +2611,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110510-110723_110614_v1.bsp
 """
-const dawn_ql_160319_160630_160516_v1_WITHOMM7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110510-110723_110614_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110326_da001_BGonly_v1.bsp
-"""
-const dawn_ql_110510_110723_110621_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110326_da001_BGonly_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161118-161206_161114_dl927_v1.bsp
-"""
-const dawn_ref_110419_110503_110326_dc049_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161118-161206_161114_dl927_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160630_160516_v1_WITHOMM7.bsp
-"""
-const dawn_ref_170202_170814_170127_DA927_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160630_160516_v1_WITHOMM7.bsp")
+const dawn_ql_110510_110723_110614_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110510-110723_110614_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9601,52 +2626,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110510-110723_110621_v1.bsp
 """
-const dawn_ql_160319_160630_160516_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110510-110723_110621_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110326_dc049_v1.bsp
-"""
-const dawn_ql_110510_110723_110628_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110326_dc049_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170202-170814_170127_DA927_v1.bsp
-"""
-const dawn_ref_110419_110503_110404_da001_BGonly_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170202-170814_170127_DA927_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160630_160516_v2.bsp
-"""
-const dawn_ref_170223_170715_170413_da930_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160630_160516_v2.bsp")
+const dawn_ql_110510_110723_110621_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110510-110723_110621_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9661,52 +2641,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110510-110723_110628_v2.bsp
 """
-const dawn_ql_160410_160704_160520_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110510-110723_110628_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110404_da001_BGonly_v1.bsp
-"""
-const dawn_ql_110601_110807_110706_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110404_da001_BGonly_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170223-170715_170413_da930_v1.bsp
-"""
-const dawn_ref_110419_110503_110404_dc049_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170223-170715_170413_da930_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160410-160704_160520_v1.bsp
-"""
-const dawn_ref_170223_170815_170214_dl928_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160410-160704_160520_v1.bsp")
+const dawn_ql_110510_110723_110628_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110510-110723_110628_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9721,52 +2656,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110601-110807_110706_v1.bsp
 """
-const dawn_ql_160410_160709_160525_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110601-110807_110706_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110404_dc049_v1.bsp
-"""
-const dawn_ql_110601_110822_110713_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110404_dc049_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170223-170815_170214_dl928_v1.bsp
-"""
-const dawn_ref_110419_110808_110326_da001_BGonly_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170223-170815_170214_dl928_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160410-160709_160525_v1.bsp
-"""
-const dawn_ref_170323_170418_170302_da928_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160410-160709_160525_v1.bsp")
+const dawn_ql_110601_110807_110706_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110601-110807_110706_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9781,37 +2671,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110601-110822_110713_v1.bsp
 """
-const dawn_ql_160410_160714_160530_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110601-110822_110713_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110808_110326_da001_BGonly_v1.bsp
-"""
-const dawn_ql_110601_110822_110717_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110808_110326_da001_BGonly_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170418_170302_da928_v1.bsp
-"""
-const dawn_ref_110422_110827_100126_isb_approach_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170418_170302_da928_v1.bsp")
+const dawn_ql_110601_110822_110713_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110601-110822_110713_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9826,37 +2686,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110601-110822_110717_v1.bsp
 """
-const dawn_ref_170323_170418_170302_da928_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110601-110822_110717_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160410-160714_160530_v1.bsp
-"""
-const dawn_ql_110614_110807_110704_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160410-160714_160530_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110422-110827_100126_isb_approach.bsp
-"""
-const dawn_ql_160504_160718_160603_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110422-110827_100126_isb_approach.bsp")
+const dawn_ql_110601_110822_110717_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110601-110822_110717_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9871,52 +2701,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110614-110807_110704_v1.bsp
 """
-const dawn_ref_110422_150201_100602_isb_vesta_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110614-110807_110704_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170418_170302_da928_v2.bsp
-"""
-const dawn_ql_110614_110822_110719_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170418_170302_da928_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160718_160603_v1.bsp
-"""
-const dawn_ref_170323_170418_170302_da928_v3_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160718_160603_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110422-150201_100602_isb_vesta.bsp
-"""
-const dawn_ql_160504_160723_160606_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110422-150201_100602_isb_vesta.bsp")
+const dawn_ql_110614_110807_110704_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110614-110807_110704_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9931,52 +2716,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110614-110822_110719_v1.bsp
 """
-const dawn_ref_110502_110601_110418_dl002_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110614-110822_110719_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170418_170302_da928_v3.bsp
-"""
-const dawn_ql_110614_110822_110721_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170418_170302_da928_v3.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160723_160606_v2.bsp
-"""
-const dawn_ref_170323_170919_170622_da932_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160723_160606_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110601_110418_dl002_v2.bsp
-"""
-const dawn_ql_160504_160723_160608_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110601_110418_dl002_v2.bsp")
+const dawn_ql_110614_110822_110719_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110614-110822_110719_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -9991,52 +2731,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110614-110822_110721_v1.bsp
 """
-const dawn_ref_110502_110808_110418_da001_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110614-110822_110721_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170919_170622_da932_v1.bsp
-"""
-const dawn_ql_110627_110921_110801_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170919_170622_da932_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160723_160608_v1.bsp
-"""
-const dawn_ref_170323_171015_170726_da933_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160723_160608_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110808_110418_da001_v2.bsp
-"""
-const dawn_ql_160504_160728_160613_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110808_110418_da001_v2.bsp")
+const dawn_ql_110614_110822_110721_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110614-110822_110721_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10051,37 +2746,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110627-110921_110801_v1.bsp
 """
-const dawn_ref_110502_110808_110418_da002_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110627-110921_110801_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-171015_170726_da933_v1.bsp
-"""
-const dawn_ql_110627_110921_110803_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-171015_170726_da933_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160728_160613_v1.bsp
-"""
-const dawn_ref_170323_171104_170726_da933_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160728_160613_v1.bsp")
+const dawn_ql_110627_110921_110801_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110627-110921_110801_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10096,52 +2761,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110627-110921_110803_v1.bsp
 """
-const dawn_ql_160504_160801_160617_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110627-110921_110803_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110808_110418_da002_v2.bsp
-"""
-const dawn_ql_110713_110925_110808_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110808_110418_da002_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-171104_170726_da933_v2.bsp
-"""
-const dawn_ref_110502_110808_110426_da003_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-171104_170726_da933_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160801_160617_v1.bsp
-"""
-const dawn_ref_170324_170701_170208_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160801_160617_v1.bsp")
+const dawn_ql_110627_110921_110803_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110627-110921_110803_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10156,52 +2776,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110713-110925_110808_v1.bsp
 """
-const dawn_ql_160504_160806_160622_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110713-110925_110808_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110808_110426_da003_v1.bsp
-"""
-const dawn_ql_110802_110921_110816_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110808_110426_da003_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170324-170701_170208_v1.bsp
-"""
-const dawn_ref_110510_110723_110628_dl004_eu12_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170324-170701_170208_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160806_160622_v1.bsp
-"""
-const dawn_ref_170403_170414_170329_dl929_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160806_160622_v1.bsp")
+const dawn_ql_110713_110925_110808_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110713-110925_110808_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10216,37 +2791,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110802-110921_110816_v1.bsp
 """
-const dawn_ql_160504_160811_160627_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110802-110921_110816_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110510-110723_110628_dl004_eu12.bsp
-"""
-const dawn_ql_110802_110921_110824_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110510-110723_110628_dl004_eu12.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170403-170414_170329_dl929_v1.bsp
-"""
-const dawn_ref_110531_110628_110520_dl003_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170403-170414_170329_dl929_v1.bsp")
+const dawn_ql_110802_110921_110816_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110802-110921_110816_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10261,37 +2806,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110802-110921_110824_v1.bsp
 """
-const dawn_ref_170422_170429_170418_dl930_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110802-110921_110824_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160811_160627_v1.bsp
-"""
-const dawn_ql_110802_110921_110902_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160811_160627_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110628_110520_dl003_v1.bsp
-"""
-const dawn_ql_160504_160815_160701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110628_110520_dl003_v1.bsp")
+const dawn_ql_110802_110921_110824_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110802-110921_110824_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10306,52 +2821,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110802-110921_110902_v1.bsp
 """
-const dawn_ref_110531_110808_110520_da002_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110802-110921_110902_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170422-170429_170418_dl930_v1.bsp
-"""
-const dawn_ql_110828_110921_110912_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170422-170429_170418_dl930_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160815_160701_v1.bsp
-"""
-const dawn_ref_170422_170429_170418_dl930_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160815_160701_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110808_110520_da002_v1.bsp
-"""
-const dawn_ql_160504_160820_160706_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110808_110520_da002_v1.bsp")
+const dawn_ql_110802_110921_110902_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110802-110921_110902_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10366,52 +2836,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110828-110921_110912_v1.bsp
 """
-const dawn_ref_110531_110808_110520_da004_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110828-110921_110912_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170422-170429_170418_dl930_v2.bsp
-"""
-const dawn_ql_110828_111013_110918_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170422-170429_170418_dl930_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160820_160706_v1.bsp
-"""
-const dawn_ref_170428_170526_170316_da929_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160820_160706_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110808_110520_da004_v1.bsp
-"""
-const dawn_ql_160504_160826_160712_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110808_110520_da004_v1.bsp")
+const dawn_ql_110828_110921_110912_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110828-110921_110912_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10426,52 +2851,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110828-111013_110918_v1.bsp
 """
-const dawn_ref_110531_110808_110601_da003_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110828-111013_110918_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170526_170316_da929_v1.bsp
-"""
-const dawn_ql_110918_111013_110923_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170526_170316_da929_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160826_160712_v1.bsp
-"""
-const dawn_ref_170428_170526_170329_da929_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160826_160712_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110808_110601_da003_v1.bsp
-"""
-const dawn_ql_160504_160901_160615_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110808_110601_da003_v1.bsp")
+const dawn_ql_110828_111013_110918_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110828-111013_110918_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10486,37 +2866,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110918-111013_110923_v1.bsp
 """
-const dawn_ref_110626_110713_110628_dl004_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110918-111013_110923_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170526_170329_da929_v1.bsp
-"""
-const dawn_ql_110923_111031_110926_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170526_170329_da929_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160901_160615_v1.bsp
-"""
-const dawn_ref_170428_170613_170412_da929_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160901_160615_v1.bsp")
+const dawn_ql_110918_111013_110923_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110918-111013_110923_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10531,52 +2881,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110923-111031_110926_v1.bsp
 """
-const dawn_ql_160504_160901_160620_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110923-111031_110926_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110626-110713_110628_dl004_v1.bsp
-"""
-const dawn_ql_110923_111031_110928_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110626-110713_110628_dl004_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170613_170412_da929_v1.bsp
-"""
-const dawn_ref_110627_110921_110803_survey_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170613_170412_da929_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160901_160620_v1.bsp
-"""
-const dawn_ref_170428_170630_170413_da929_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160901_160620_v1.bsp")
+const dawn_ql_110923_111031_110926_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110923-111031_110926_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10591,37 +2896,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110923-111031_110928_v1.bsp
 """
-const dawn_ql_160528_160829_160715_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110923-111031_110928_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110627-110921_110803_survey_v1.bsp
-"""
-const dawn_ql_110928_111031_111003_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110627-110921_110803_survey_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170630_170413_da929_v1.bsp
-"""
-const dawn_ref_110628_110713_110622_dl004_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170630_170413_da929_v1.bsp")
+const dawn_ql_110923_111031_110928_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110923-111031_110928_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10636,52 +2911,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110928-111031_111003_v2.bsp
 """
-const dawn_ref_170517_171101_170503_DA930_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110928-111031_111003_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160528-160829_160715_v1.bsp
-"""
-const dawn_ql_110928_111109_111007_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160528-160829_160715_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110628-110713_110622_dl004_v1.bsp
-"""
-const dawn_ql_160619_160904_160721_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110628-110713_110622_dl004_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170517-171101_170503_DA930_v1.bsp
-"""
-const dawn_ref_110628_110808_110622_da005_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170517-171101_170503_DA930_v1.bsp")
+const dawn_ql_110928_111031_111003_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110928-111031_111003_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10696,37 +2926,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110928-111109_111007_v1.bsp
 """
-const dawn_ref_170525_170620_170518_dl931_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110928-111109_111007_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160619-160904_160721_v1.bsp
-"""
-const dawn_ql_110928_111109_111012_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160619-160904_160721_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110628-110808_110622_da005_v1.bsp
-"""
-const dawn_ql_160619_160908_160725_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110628-110808_110622_da005_v1.bsp")
+const dawn_ql_110928_111109_111007_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110928-111109_111007_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10741,52 +2941,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110928-111109_111012_v1.bsp
 """
-const dawn_ref_110630_110808_110628_da003_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110928-111109_111012_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170525-170620_170518_dl931_v1.bsp
-"""
-const dawn_ql_110928_111126_111017_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170525-170620_170518_dl931_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160619-160908_160725_v1.bsp
-"""
-const dawn_ref_170525_190820_170518_da931_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160619-160908_160725_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110630-110808_110628_da003_v1.bsp
-"""
-const dawn_ql_160713_160911_160728_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110630-110808_110628_da003_v1.bsp")
+const dawn_ql_110928_111109_111012_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110928-111109_111012_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10801,52 +2956,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110928-111126_111017_v1.bsp
 """
-const dawn_ref_110713_110728_110707_dl005_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110928-111126_111017_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170525-190820_170518_da931_v1.bsp
-"""
-const dawn_ql_111011_111124_111019_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170525-190820_170518_da931_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160911_160728_v1.bsp
-"""
-const dawn_ref_170620_170628_170614_dl932a_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160911_160728_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110713-110728_110707_dl005_v1.bsp
-"""
-const dawn_ql_160713_160912_160729_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110713-110728_110707_dl005_v1.bsp")
+const dawn_ql_110928_111126_111017_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_110928-111126_111017_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10861,52 +2971,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111011-111124_111019_v1.bsp
 """
-const dawn_ref_110713_110808_110707_da004_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111011-111124_111019_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170620-170628_170614_dl932a_v1.bsp
-"""
-const dawn_ql_111011_111124_111024_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170620-170628_170614_dl932a_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160912_160729_v1.bsp
-"""
-const dawn_ref_170620_170628_170614_dl932m_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160912_160729_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110713-110808_110707_da004_v1.bsp
-"""
-const dawn_ql_160713_160915_160801_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110713-110808_110707_da004_v1.bsp")
+const dawn_ql_111011_111124_111019_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111011-111124_111019_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10921,37 +2986,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111011-111124_111024_v1.bsp
 """
-const dawn_ref_110713_110831_110711_SurveyEnd_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111011-111124_111024_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170620-170628_170614_dl932m_v1.bsp
-"""
-const dawn_ql_111018_111124_111102_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170620-170628_170614_dl932m_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160915_160801_v1.bsp
-"""
-const dawn_ref_170719_170818_170712_dl933_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160915_160801_v1.bsp")
+const dawn_ql_111011_111124_111024_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111011-111124_111024_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -10966,52 +3001,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111018-111124_111102_v1.bsp
 """
-const dawn_ql_160713_160918_160804_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111018-111124_111102_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110713-110831_110711_SurveyEnd.bsp
-"""
-const dawn_ql_111018_111203_111108_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110713-110831_110711_SurveyEnd.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170719-170818_170712_dl933_v1.bsp
-"""
-const dawn_ref_110724_110808_110722_dl006_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170719-170818_170712_dl933_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160918_160804_v1.bsp
-"""
-const dawn_ref_170915_171013_170911_dl935_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160918_160804_v1.bsp")
+const dawn_ql_111018_111124_111102_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111018-111124_111102_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11026,37 +3016,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111018-111203_111108_v1.bsp
 """
-const dawn_ql_160713_160922_160808_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111018-111203_111108_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110724-110808_110722_dl006_v1.bsp
-"""
-const dawn_ql_111026_111215_111120_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110724-110808_110722_dl006_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170915-171013_170911_dl935_v1.bsp
-"""
-const dawn_ref_110728_110808_110722_da005_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170915-171013_170911_dl935_v1.bsp")
+const dawn_ql_111018_111203_111108_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111018-111203_111108_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11071,37 +3031,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111026-111215_111120_v1.bsp
 """
-const dawn_ref_170915_171117_170825_da934_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111026-111215_111120_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160922_160808_v1.bsp
-"""
-const dawn_ql_111111_111215_111120_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160922_160808_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110728-110808_110722_da005_v1.bsp
-"""
-const dawn_ql_160713_160926_160812_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110728-110808_110722_da005_v1.bsp")
+const dawn_ql_111026_111215_111120_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111026-111215_111120_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11116,52 +3046,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111111-111215_111120_v1.bsp
 """
-const dawn_ref_110728_110808_110722_dl006_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111111-111215_111120_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170915-171117_170825_da934_v1.bsp
-"""
-const dawn_ql_111118_111231_111201_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170915-171117_170825_da934_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160926_160812_v1.bsp
-"""
-const dawn_ref_171018_171117_170927_da935_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160926_160812_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110728-110808_110722_dl006_v1.bsp
-"""
-const dawn_ql_160713_160930_160816_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110728-110808_110722_dl006_v1.bsp")
+const dawn_ql_111111_111215_111120_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111111-111215_111120_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11176,52 +3061,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111118-111231_111201_v1.bsp
 """
-const dawn_ref_110728_110925_110722_survey_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111118-111231_111201_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171018-171117_170927_da935_v1.bsp
-"""
-const dawn_ql_111125_111231_111204_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171018-171117_170927_da935_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160930_160816_v1.bsp
-"""
-const dawn_ref_171018_171117_171011_dl936_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160930_160816_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110728-110925_110722_survey_v1.bsp
-"""
-const dawn_ql_160713_161001_160816_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110728-110925_110722_survey_v1.bsp")
+const dawn_ql_111118_111231_111201_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111118-111231_111201_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11236,52 +3076,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111125-111231_111204_v1.bsp
 """
-const dawn_ref_110805_110830_100706_ort6_0_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111125-111231_111204_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171018-171117_171011_dl936_v1.bsp
-"""
-const dawn_ql_111204_111231_111205_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171018-171117_171011_dl936_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161001_160816_v2.bsp
-"""
-const dawn_ref_171117_171216_171024_da936_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161001_160816_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110805-110830_100706_ort6-0.bsp
-"""
-const dawn_ql_160713_161006_160822_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110805-110830_100706_ort6-0.bsp")
+const dawn_ql_111125_111231_111204_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111125-111231_111204_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11296,52 +3091,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111204-111231_111205_v1.bsp
 """
-const dawn_ref_110805_110830_100709_ort6_1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111204-111231_111205_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171117-171216_171024_da936_v1.bsp
-"""
-const dawn_ql_111205_111231_111214_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171117-171216_171024_da936_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161006_160822_v1.bsp
-"""
-const dawn_ref_171214_180202_171108_da937_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161006_160822_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110805-110830_100709_ort6-1.bsp
-"""
-const dawn_ql_160713_161010_160826_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110805-110830_100709_ort6-1.bsp")
+const dawn_ql_111204_111231_111205_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111204-111231_111205_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11356,37 +3106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111205-111231_111214_v1.bsp
 """
-const dawn_ref_110805_110830_100713_ort6_2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111205-111231_111214_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171214-180202_171108_da937_v1.bsp
-"""
-const dawn_ql_111205_120112_111213_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171214-180202_171108_da937_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161010_160826_v1.bsp
-"""
-const dawn_ref_180202_180310_180111_da938_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161010_160826_v1.bsp")
+const dawn_ql_111205_111231_111214_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111205-111231_111214_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11401,37 +3121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111205-120112_111213_v1.bsp
 """
-const dawn_ql_160713_161023_160906_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111205-120112_111213_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110805-110830_100713_ort6-2.bsp
-"""
-const dawn_ql_111205_120130_111220_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110805-110830_100713_ort6-2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180202-180310_180111_da938_v1.bsp
-"""
-const dawn_ref_110806_110826_110203_isb2_survey_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180202-180310_180111_da938_v1.bsp")
+const dawn_ql_111205_120112_111213_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111205-120112_111213_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11446,52 +3136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111205-120130_111220_v1.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161023_160906_v2.bsp
-"""
-const dawn_ref_180310_180416_180215_da939_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111205-120130_111220_v1.bsp")
-const dawn_ref_180310_180416_180215_da939_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161023_160906_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110806-110826_110203_isb2_survey.bsp
-"""
-const dawn_ql_160713_161030_160913_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110806-110826_110203_isb2_survey.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180310-180416_180215_da939_v1.bsp
-"""
-const dawn_ref_110810_110827_100324_isb_survey_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180310-180416_180215_da939_v1.bsp")
+const dawn_ql_111205_120130_111220_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111205-120130_111220_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11506,37 +3151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111205-120130_111221_v1.bsp
 """
-const dawn_ref_180412_180608_180419_da941_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111205-120130_111221_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161030_160913_v2.bsp
-"""
-const dawn_ql_111212_120130_111227_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161030_160913_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110810-110827_100324_isb_survey.bsp
-"""
-const dawn_ql_160713_161110_160830_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110810-110827_100324_isb_survey.bsp")
+const dawn_ql_111205_120130_111221_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111205-120130_111221_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11551,52 +3166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111212-120130_111227_v1.bsp
 """
-const dawn_ref_110827_110824_100324_isb_Survey2HAMO_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111212-120130_111227_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180608_180419_da941_v2.bsp
-"""
-const dawn_ql_111218_120228_120103_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180608_180419_da941_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161110_160830_v2.bsp
-"""
-const dawn_ref_180412_180618_180423_da941_v3_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161110_160830_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110827-110824_100324_isb_Survey2HAMO.bsp
-"""
-const dawn_ql_160810_161106_160920_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110827-110824_100324_isb_Survey2HAMO.bsp")
+const dawn_ql_111212_120130_111227_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111212-120130_111227_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11611,52 +3181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111218-120228_120103_v1.bsp
 """
-const dawn_ref_110830_110908_110825_da009_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111218-120228_120103_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180618_180423_da941_v3.bsp
-"""
-const dawn_ql_111218_120228_120110_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180618_180423_da941_v3.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161106_160920_v2.bsp
-"""
-const dawn_ref_180412_180624_180419_da941_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161106_160920_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-110908_110825_da009_v1.bsp
-"""
-const dawn_ql_160810_161113_160927_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-110908_110825_da009_v1.bsp")
+const dawn_ql_111218_120228_120103_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111218-120228_120103_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11671,52 +3196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111218-120228_120110_v1.bsp
 """
-const dawn_ref_110830_110908_110825_dl007_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111218-120228_120110_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180624_180419_da941_v1.bsp
-"""
-const dawn_ql_111225_120228_120111_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180624_180419_da941_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161113_160927_v2.bsp
-"""
-const dawn_ref_180412_180710_180320_da940_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161113_160927_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-110908_110825_dl007_v1.bsp
-"""
-const dawn_ql_160810_161121_161007_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-110908_110825_dl007_v1.bsp")
+const dawn_ql_111218_120228_120110_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111218-120228_120110_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11731,52 +3211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111225-120228_120111_v1.bsp
 """
-const dawn_ref_110830_111029_110815_da009_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111225-120228_120111_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180710_180320_da940_v1.bsp
-"""
-const dawn_ql_120117_120228_120118_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180710_180320_da940_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161121_161007_v1.bsp
-"""
-const dawn_ref_180412_180930_180315_da942_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161121_161007_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-111029_110815_da009_v1.bsp
-"""
-const dawn_ql_160810_161127_161013_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-111029_110815_da009_v1.bsp")
+const dawn_ql_111225_120228_120111_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_111225-120228_120111_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11791,37 +3226,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120118_v1.bsp
 """
-const dawn_ref_110830_111029_110815_da_hamo_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120118_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180930_180315_da942_v1.bsp
-"""
-const dawn_ql_120117_120228_120118_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180930_180315_da942_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161127_161013_v1.bsp
-"""
-const dawn_ref_180412_180930_180410_da942practice_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161127_161013_v1.bsp")
+const dawn_ql_120117_120228_120118_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120118_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11836,52 +3241,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120118_v2.bsp
 """
-const dawn_ql_160810_161201_161017_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120118_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-111029_110815_da_hamo_v1.bsp
-"""
-const dawn_ql_120117_120228_120119_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-111029_110815_da_hamo_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180930_180410_da942practice_v1.bsp
-"""
-const dawn_ref_110830_111127_110815_da_hamo_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180930_180410_da942practice_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161201_161017_v1.bsp
-"""
-const dawn_ref_180412_180930_180417_da942_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161201_161017_v1.bsp")
+const dawn_ql_120117_120228_120118_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120118_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11896,37 +3256,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120119_v1.bsp
 """
-const dawn_ql_160810_161201_161017_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120119_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-111127_110815_da_hamo_v2.bsp
-"""
-const dawn_ql_120117_120228_120124_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-111127_110815_da_hamo_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180930_180417_da942_v1.bsp
-"""
-const dawn_ref_110902_110909_110708_da009_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180930_180417_da942_v1.bsp")
+const dawn_ql_120117_120228_120119_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120119_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11941,37 +3271,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120124_v1.bsp
 """
-const dawn_ref_180416_180427_180409_dl937_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120124_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161201_161017_v2.bsp
-"""
-const dawn_ql_120117_120228_120125_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161201_161017_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110902-110909_110708_da009_v1.bsp
-"""
-const dawn_ql_160810_161205_161021_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110902-110909_110708_da009_v1.bsp")
+const dawn_ql_120117_120228_120124_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120124_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -11986,52 +3286,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120125_v1.bsp
 """
-const dawn_ref_110902_110909_110708_dl008_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120125_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180427_180409_dl937_v1.bsp
-"""
-const dawn_ql_120117_120228_120131_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180427_180409_dl937_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161205_161021_v1.bsp
-"""
-const dawn_ref_180416_180427_180409_dl937_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161205_161021_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110902-110909_110708_dl008_v1.bsp
-"""
-const dawn_ql_160810_161215_161031_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110902-110909_110708_dl008_v1.bsp")
+const dawn_ql_120117_120228_120125_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120125_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12046,52 +3301,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120131_v1.bsp
 """
-const dawn_ref_110908_110915_110905_dl008_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120131_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180427_180409_dl937_v2.bsp
-"""
-const dawn_ql_120117_120330_120207_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180427_180409_dl937_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161215_161031_v1.bsp
-"""
-const dawn_ref_180416_180807_180214_da940_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161215_161031_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110908-110915_110905_dl008_v1.bsp
-"""
-const dawn_ql_160810_170110_161031_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110908-110915_110905_dl008_v1.bsp")
+const dawn_ql_120117_120228_120131_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120228_120131_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12106,52 +3316,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120330_120207_v1.bsp
 """
-const dawn_ref_110915_110919_110912_dl009_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120330_120207_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180807_180214_da940_v1.bsp
-"""
-const dawn_ql_120117_120330_120208_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180807_180214_da940_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-170110_161031_v2.bsp
-"""
-const dawn_ref_180416_180930_180227_da940_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-170110_161031_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110915-110919_110912_dl009_v1.bsp
-"""
-const dawn_ql_160830_170101_161114_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110915-110919_110912_dl009_v1.bsp")
+const dawn_ql_120117_120330_120207_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120330_120207_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12166,37 +3331,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120330_120208_v1.bsp
 """
-const dawn_ref_110922_111027_110203_isb2_hamo_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120330_120208_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180930_180227_da940_v1.bsp
-"""
-const dawn_ql_120117_120330_120214_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180930_180227_da940_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160830-170101_161114_v2.bsp
-"""
-const dawn_ref_180427_180505_180423_dl938_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160830-170101_161114_v2.bsp")
+const dawn_ql_120117_120330_120208_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120330_120208_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12211,52 +3346,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120330_120214_v1.bsp
 """
-const dawn_ql_161006_170205_161207_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120330_120214_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110922-111027_110203_isb2_hamo.bsp
-"""
-const dawn_ql_120131_120330_120215_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110922-111027_110203_isb2_hamo.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180427-180505_180423_dl938_v1.bsp
-"""
-const dawn_ref_110923_110929_110920_dl010_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180427-180505_180423_dl938_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170205_161207_v1.bsp
-"""
-const dawn_ref_180505_180511_180430_dl939_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170205_161207_v1.bsp")
+const dawn_ql_120117_120330_120214_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120117-120330_120214_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12271,52 +3361,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120131-120330_120215_v1.bsp
 """
-const dawn_ql_161006_170218_161220_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120131-120330_120215_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110923-110929_110920_dl010_v1.bsp
-"""
-const dawn_ql_120131_120330_120221_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110923-110929_110920_dl010_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180505-180511_180430_dl939_v1.bsp
-"""
-const dawn_ref_110924_111025_100526_isb_hamo_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180505-180511_180430_dl939_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170218_161220_v1.bsp
-"""
-const dawn_ref_180511_180514_180507_dl940_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170218_161220_v1.bsp")
+const dawn_ql_120131_120330_120215_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120131-120330_120215_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12331,37 +3376,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120131-120330_120221_v1.bsp
 """
-const dawn_ql_161006_170220_161207_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120131-120330_120221_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110924-111025_100526_isb_hamo.bsp
-"""
-const dawn_ql_120223_120406_120223_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110924-111025_100526_isb_hamo.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180511-180514_180507_dl940_v1.bsp
-"""
-const dawn_ref_110927_110929_110924_dl010a_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180511-180514_180507_dl940_v1.bsp")
+const dawn_ql_120131_120330_120221_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120131-120330_120221_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12376,37 +3391,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120223-120406_120223_v1.bsp
 """
-const dawn_ref_180531_180608_180528_dl941_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120223-120406_120223_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170220_161207_v2.bsp
-"""
-const dawn_ql_120224_120406_120228_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170220_161207_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110927-110929_110924_dl010a_v1.bsp
-"""
-const dawn_ql_161006_170731_161128_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110927-110929_110924_dl010a_v1.bsp")
+const dawn_ql_120223_120406_120223_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120223-120406_120223_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12421,52 +3406,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120224-120406_120228_v1.bsp
 """
-const dawn_ref_111025_111203_100601_isb_hamo2lamo_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120224-120406_120228_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180531-180608_180528_dl941_v1.bsp
-"""
-const dawn_ql_120224_120413_120308_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180531-180608_180528_dl941_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170731_161128_v1.bsp
-"""
-const dawn_ref_180608_180930_180503_da942_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170731_161128_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111025-111203_100601_isb_hamo2lamo.bsp
-"""
-const dawn_ql_161103_170324_170123_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111025-111203_100601_isb_hamo2lamo.bsp")
+const dawn_ql_120224_120406_120228_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120224-120406_120228_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12481,52 +3421,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120224-120413_120308_v1.bsp
 """
-const dawn_ref_111102_111108_111030_dl011_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120224-120413_120308_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180608-180930_180503_da942_v1.bsp
-"""
-const dawn_ql_120224_120413_120313_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180608-180930_180503_da942_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170324_170123_v1.bsp
-"""
-const dawn_ref_180619_180621_180617_dl942_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170324_170123_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111102-111108_111030_dl011_v1.bsp
-"""
-const dawn_ql_161103_170331_170104_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111102-111108_111030_dl011_v1.bsp")
+const dawn_ql_120224_120413_120308_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120224-120413_120308_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12541,52 +3436,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120224-120413_120313_v1.bsp
 """
-const dawn_ref_111102_111124_111028_da013_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120224-120413_120313_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180619-180621_180617_dl942_v1.bsp
-"""
-const dawn_ql_120305_120413_120320_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180619-180621_180617_dl942_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170331_170104_v1.bsp
-"""
-const dawn_ref_180619_180621_180618_dl942_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170331_170104_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111102-111124_111028_da013_v1.bsp
-"""
-const dawn_ql_161103_170409_170208_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111102-111124_111028_da013_v1.bsp")
+const dawn_ql_120224_120413_120313_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120224-120413_120313_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12601,37 +3451,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120305-120413_120320_v1.bsp
 """
-const dawn_ref_111108_111112_111105_dl012_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120305-120413_120320_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180619-180621_180618_dl942_v2.bsp
-"""
-const dawn_ql_120319_120501_120327_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180619-180621_180618_dl942_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170409_170208_v1.bsp
-"""
-const dawn_ref_180622_180922_180710_da944_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170409_170208_v1.bsp")
+const dawn_ql_120305_120413_120320_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120305-120413_120320_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12646,52 +3466,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120501_120327_v1.bsp
 """
-const dawn_ql_161103_170418_170214_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120501_120327_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111108-111112_111105_dl012_v1.bsp
-"""
-const dawn_ql_120319_120501_120328_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111108-111112_111105_dl012_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180622-180922_180710_da944_v2.bsp
-"""
-const dawn_ref_111112_111116_111109_dl013_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180622-180922_180710_da944_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170418_170214_v2.bsp
-"""
-const dawn_ref_180708_180804_180517_da943_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170418_170214_v2.bsp")
+const dawn_ql_120319_120501_120327_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120501_120327_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12706,52 +3481,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120501_120328_v1.bsp
 """
-const dawn_ql_170120_170520_170321_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120501_120328_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111112-111116_111109_dl013_v1.bsp
-"""
-const dawn_ql_120319_120509_120403_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111112-111116_111109_dl013_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180708-180804_180517_da943_v1.bsp
-"""
-const dawn_ref_111114_111214_101012_ort7_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180708-180804_180517_da943_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170520_170321_v1.bsp
-"""
-const dawn_ref_180708_180804_180517_da943_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170520_170321_v1.bsp")
+const dawn_ql_120319_120501_120328_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120501_120328_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12766,37 +3496,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120509_120403_v1.bsp
 """
-const dawn_ql_170120_170529_170329_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120509_120403_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111114-111214_101012_ort7_v1.bsp
-"""
-const dawn_ql_120319_120509_120404_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111114-111214_101012_ort7_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180708-180804_180517_da943_v2.bsp
-"""
-const dawn_ref_111116_111119_111113_dl014_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180708-180804_180517_da943_v2.bsp")
+const dawn_ql_120319_120509_120403_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120509_120403_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12811,22 +3511,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120509_120404_v1.bsp
 """
-const dawn_ref_180804_180901_180619_da944_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120509_120404_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170529_170329_v2.bsp
-"""
-const dawn_ql_120319_120509_120411_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170529_170329_v2.bsp")
+const dawn_ql_120319_120509_120404_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120509_120404_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12841,52 +3526,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120509_120411_v1.bsp
 """
-const dawn_ql_170120_170619_170418_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120509_120411_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180804-180901_180619_da944_v1.bsp
-"""
-const dawn_ql_120331_120509_120417_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180804-180901_180619_da944_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170619_170418_v2.bsp
-"""
-const dawn_ref_180804_180901_180627_da944_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170619_170418_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111116-111119_111113_dl014_v1.bsp
-"""
-const dawn_ql_170120_170623_170424_v1_safeComm_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111116-111119_111113_dl014_v1.bsp")
+const dawn_ql_120319_120509_120411_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120319-120509_120411_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12901,52 +3541,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120331-120509_120417_v1.bsp
 """
-const dawn_ref_111119_111124_111116_dl015_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120331-120509_120417_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180804-180901_180627_da944_v1.bsp
-"""
-const dawn_ql_120409_120509_120424_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180804-180901_180627_da944_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170623_170424_v1_safeComm.bsp
-"""
-const dawn_ref_DA029_DA030_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170623_170424_v1_safeComm.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111119-111124_111116_dl015_v1.bsp
-"""
-const dawn_ql_170219_170624_170425_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111119-111124_111116_dl015_v1.bsp")
+const dawn_ql_120331_120509_120417_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120331-120509_120417_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -12961,52 +3556,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120409-120509_120424_v1.bsp
 """
-const dawn_ref_111121_111128_111121_dl016_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120409-120509_120424_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_DA029_DA030_v1.bsp
-"""
-const dawn_ql_120409_120509_120425_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_DA029_DA030_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170219-170624_170425_v1.bsp
-"""
-const dawn_ref_pre_da001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170219-170624_170425_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111121-111128_111121_dl016_v1.bsp
-"""
-const dawn_ql_170219_170701_170502_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111121-111128_111121_dl016_v1.bsp")
+const dawn_ql_120409_120509_120424_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120409-120509_120424_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13021,52 +3571,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120409-120509_120425_v1.bsp
 """
-const dawn_ref_111124_120106_111102_da014_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120409-120509_120425_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_pre-da001_v1.bsp
-"""
-const dawn_ql_120421_120509_120501_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_pre-da001_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170219-170701_170502_v1.bsp
-"""
-const dawn_seq_100102_111019_090701_v1_vst1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170219-170701_170502_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111124-120106_111102_da014_v1.bsp
-"""
-const dawn_ql_170323_170708_170509_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111124-120106_111102_da014_v1.bsp")
+const dawn_ql_120409_120509_120425_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120409-120509_120425_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13081,52 +3586,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120421-120509_120501_v1.bsp
 """
-const dawn_ref_111128_111202_111126_dl017_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120421-120509_120501_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_seq_100102-111019_090701_v1_vst1.bsp
-"""
-const dawn_ql_120421_120511_120504_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_seq_100102-111019_090701_v1_vst1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170708_170509_v1.bsp
-"""
-const dawn_ssd_110713_120725_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170708_170509_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111128-111202_111126_dl017_v1.bsp
-"""
-const dawn_ql_170323_170722_170518_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111128-111202_111126_dl017_v1.bsp")
+const dawn_ql_120421_120509_120501_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120421-120509_120501_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13141,37 +3601,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120421-120511_120504_v1.bsp
 """
-const dawn_ref_111202_111205_111129_dl018_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120421-120511_120504_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ssd_110713_120725_v01.bsp
-"""
-const dawn_ql_120421_120511_120507_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ssd_110713_120725_v01.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170722_170518_v2.bsp
-"""
-const dawn_struct_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170722_170518_v2.bsp")
+const dawn_ql_120421_120511_120504_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120421-120511_120504_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13186,52 +3616,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120421-120511_120507_v1.bsp
 """
-const dawn_ql_170323_170815_170614_StayAtCeres_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120421-120511_120507_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111202-111205_111129_dl018_v1.bsp
-"""
-const dawn_ql_120502_120531_120513_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111202-111205_111129_dl018_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_struct_v1.bsp
-"""
-const dawn_ref_111203_120408_100601_isb_lamo_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_struct_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170815_170614_StayAtCeres.bsp
-"""
-const de405s_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170815_170614_StayAtCeres.bsp")
+const dawn_ql_120421_120511_120507_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120421-120511_120507_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13246,52 +3631,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120502-120531_120513_v1.bsp
 """
-const dawn_ql_170323_170825_170626_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120502-120531_120513_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111203-120408_100601_isb_lamo.bsp
-"""
-const dawn_ql_120502_120531_120516_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111203-120408_100601_isb_lamo.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de405s.bsp
-"""
-const dawn_ref_111205_111210_111202_dl019_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de405s.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170825_170626_v1.bsp
-"""
-const de421_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170825_170626_v1.bsp")
+const dawn_ql_120502_120531_120513_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120502-120531_120513_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13306,52 +3646,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120502-120531_120516_v1.bsp
 """
-const dawn_ql_170323_170908_170710_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120502-120531_120516_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111205-111210_111202_dl019_v1.bsp
-"""
-const dawn_ql_120512_120614_120524_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111205-111210_111202_dl019_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de421.bsp
-"""
-const dawn_ref_111210_111212_111208_dl020_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de421.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170908_170710_v1.bsp
-"""
-const de432_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170908_170710_v1.bsp")
+const dawn_ql_120502_120531_120516_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120502-120531_120516_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13366,37 +3661,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120512-120614_120524_v1.bsp
 """
-const dawn_ql_170323_171015_170717_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120512-120614_120524_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111210-111212_111208_dl020_v1.bsp
-"""
-const dawn_ql_120518_120614_120527_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111210-111212_111208_dl020_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de432.bsp
-"""
-const dawn_ref_111211_120424_111102_lamo_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de432.bsp")
+const dawn_ql_120512_120614_120524_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120512-120614_120524_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13411,7 +3676,3262 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120518-120614_120527_v1.bsp
 """
-const de432s_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120518-120614_120527_v1.bsp")
+const dawn_ql_120518_120614_120527_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120518-120614_120527_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120522-120726_120605_v1.bsp
+"""
+const dawn_ql_120522_120726_120605_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120522-120726_120605_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120522-120726_120606_v1.bsp
+"""
+const dawn_ql_120522_120726_120606_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120522-120726_120606_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120530-120726_120611_v1.bsp
+"""
+const dawn_ql_120530_120726_120611_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120530-120726_120611_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120606-120726_120614_v1.bsp
+"""
+const dawn_ql_120606_120726_120614_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120606-120726_120614_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120606-120726_120618_v1.bsp
+"""
+const dawn_ql_120606_120726_120618_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120606-120726_120618_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120606-120726_120620_v1.bsp
+"""
+const dawn_ql_120606_120726_120620_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120606-120726_120620_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120613-120726_120622_v1.bsp
+"""
+const dawn_ql_120613_120726_120622_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120613-120726_120622_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120620-120726_120627_v1.bsp
+"""
+const dawn_ql_120620_120726_120627_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120620-120726_120627_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120620-120726_120628_v1.bsp
+"""
+const dawn_ql_120620_120726_120628_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120620-120726_120628_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120620-120814_120703_v1.bsp
+"""
+const dawn_ql_120620_120814_120703_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120620-120814_120703_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120726_120709_v1.bsp
+"""
+const dawn_ql_120627_120726_120709_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120726_120709_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120726_120710_v1.bsp
+"""
+const dawn_ql_120627_120726_120710_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120726_120710_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120726_120712_v1.bsp
+"""
+const dawn_ql_120627_120726_120712_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120726_120712_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120826_120718_v1.bsp
+"""
+const dawn_ql_120627_120826_120718_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120826_120718_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120826_120719_v1.bsp
+"""
+const dawn_ql_120627_120826_120719_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120627-120826_120719_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120724-120826_120810_v1.bsp
+"""
+const dawn_ql_120724_120826_120810_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120724-120826_120810_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120724-120929_120824_v1.bsp
+"""
+const dawn_ql_120724_120929_120824_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120724-120929_120824_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120809-121114_120918_v1.bsp
+"""
+const dawn_ql_120809_121114_120918_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120809-121114_120918_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120826-121114_120925_v1.bsp
+"""
+const dawn_ql_120826_121114_120925_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120826-121114_120925_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120826-121114_121002_v1.bsp
+"""
+const dawn_ql_120826_121114_121002_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120826-121114_121002_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120826-121129_121009_v1.bsp
+"""
+const dawn_ql_120826_121129_121009_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_120826-121129_121009_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121001-121224_121113_v1.bsp
+"""
+const dawn_ql_121001_121224_121113_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121001-121224_121113_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121001-130124_121204_v1.bsp
+"""
+const dawn_ql_121001_130124_121204_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121001-130124_121204_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121001-130124_121211_v1.bsp
+"""
+const dawn_ql_121001_130124_121211_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121001-130124_121211_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121029-130205_130108_v1.bsp
+"""
+const dawn_ql_121029_130205_130108_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121029-130205_130108_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121126-130405_130205_v1.bsp
+"""
+const dawn_ql_121126_130405_130205_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121126-130405_130205_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121126-130405_130305_v1.bsp
+"""
+const dawn_ql_121126_130405_130305_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_121126-130405_130305_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130108-130605_130326_v1.bsp
+"""
+const dawn_ql_130108_130605_130326_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130108-130605_130326_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130108-130605_130329_v1.bsp
+"""
+const dawn_ql_130108_130605_130329_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130108-130605_130329_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130108-130708_130505_v1.bsp
+"""
+const dawn_ql_130108_130708_130505_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130108-130708_130505_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130304-130808_130625S_v1.bsp
+"""
+const dawn_ql_130304_130808_130625S_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130304-130808_130625S_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130325-130928_130723_v1.bsp
+"""
+const dawn_ql_130325_130928_130723_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130325-130928_130723_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130429-130928_130821_v1.bsp
+"""
+const dawn_ql_130429_130928_130821_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130429-130928_130821_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130527-131114_130917_v1.bsp
+"""
+const dawn_ql_130527_131114_130917_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130527-131114_130917_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130722-131214_131022_v1.bsp
+"""
+const dawn_ql_130722_131214_131022_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130722-131214_131022_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130722-131214_131112_v1.bsp
+"""
+const dawn_ql_130722_131214_131112_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130722-131214_131112_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130916-140214_131210_v2.bsp
+"""
+const dawn_ql_130916_140214_131210_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_130916-140214_131210_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_131205-140314_140204_v1.bsp
+"""
+const dawn_ql_131205_140314_140204_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_131205-140314_140204_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_131205-140414_140225_v1.bsp
+"""
+const dawn_ql_131205_140414_140225_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_131205-140414_140225_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_131205-140514_140401_v1.bsp
+"""
+const dawn_ql_131205_140514_140401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_131205-140514_140401_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140204-140614_140429_v1.bsp
+"""
+const dawn_ql_140204_140614_140429_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140204-140614_140429_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140204-140714_140603_v1.bsp
+"""
+const dawn_ql_140204_140714_140603_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140204-140714_140603_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140303-140729_140624_v1.bsp
+"""
+const dawn_ql_140303_140729_140624_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140303-140729_140624_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140331-140929_140722_v1.bsp
+"""
+const dawn_ql_140331_140929_140722_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140331-140929_140722_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140428-141029_140819_v1.bsp
+"""
+const dawn_ql_140428_141029_140819_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140428-141029_140819_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140527-141129_140917_v1.bsp
+"""
+const dawn_ql_140527_141129_140917_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140527-141129_140917_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140623-141129_141013_v1.bsp
+"""
+const dawn_ql_140623_141129_141013_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140623-141129_141013_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140915-141229_141111_v1.bsp
+"""
+const dawn_ql_140915_141229_141111_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140915-141229_141111_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140915-141229_141203_v1.bsp
+"""
+const dawn_ql_140915_141229_141203_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140915-141229_141203_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140915-141229_141208_v1.bsp
+"""
+const dawn_ql_140915_141229_141208_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_140915-141229_141208_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141110-150129_141230_v1.bsp
+"""
+const dawn_ql_141110_150129_141230_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141110-150129_141230_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150129_150112_v1.bsp
+"""
+const dawn_ql_141202_150129_150112_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150129_150112_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150228_150105_v1.bsp
+"""
+const dawn_ql_141202_150228_150105_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150228_150105_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150228_150112_v2.bsp
+"""
+const dawn_ql_141202_150228_150112_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150228_150112_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150430_150126_v1.bsp
+"""
+const dawn_ql_141202_150430_150126_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150430_150126_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150430_150202_v1.bsp
+"""
+const dawn_ql_141202_150430_150202_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150430_150202_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150430_150209_v2.bsp
+"""
+const dawn_ql_141202_150430_150209_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141202-150430_150209_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141226-150430_150217_v1.bsp
+"""
+const dawn_ql_141226_150430_150217_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_141226-150430_150217_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150528_150408_v1.bsp
+"""
+const dawn_ql_150125_150528_150408_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150528_150408_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150318_v1.bsp
+"""
+const dawn_ql_150125_150531_150318_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150318_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150325_v1.bsp
+"""
+const dawn_ql_150125_150531_150325_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150325_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150331_v1.bsp
+"""
+const dawn_ql_150125_150531_150331_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150331_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150406_v1.bsp
+"""
+const dawn_ql_150125_150531_150406_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150406_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150413_v1.bsp
+"""
+const dawn_ql_150125_150531_150413_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150125-150531_150413_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150219-150531_150415_v1.bsp
+"""
+const dawn_ql_150219_150531_150415_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150219-150531_150415_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150219-150531_150423_v1.bsp
+"""
+const dawn_ql_150219_150531_150423_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150219-150531_150423_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150403-150614_150427_v1.bsp
+"""
+const dawn_ql_150403_150614_150427_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150403-150614_150427_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150403-150714_150604_v1.bsp
+"""
+const dawn_ql_150403_150714_150604_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150403-150714_150604_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150531_OD150511_v1.bsp
+"""
+const dawn_ql_150424_150531_OD150511_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150531_OD150511_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150430_v1.bsp
+"""
+const dawn_ql_150424_150614_OD150430_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150430_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150504_v1.bsp
+"""
+const dawn_ql_150424_150614_OD150504_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150504_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150506_v1.bsp
+"""
+const dawn_ql_150424_150614_OD150506_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150506_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150512_v1.bsp
+"""
+const dawn_ql_150424_150614_OD150512_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150512_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150518_v1.bsp
+"""
+const dawn_ql_150424_150614_OD150518_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150614_OD150518_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150714_150604_v1.bsp
+"""
+const dawn_ql_150424_150714_150604_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150714_150604_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150714_OD150601_v1.bsp
+"""
+const dawn_ql_150424_150714_OD150601_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150424-150714_OD150601_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150610_v1.bsp
+"""
+const dawn_ql_150603_150714_150610_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150610_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150611_v1.bsp
+"""
+const dawn_ql_150603_150714_150611_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150611_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150615_v1.bsp
+"""
+const dawn_ql_150603_150714_150615_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150615_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150617_v1.bsp
+"""
+const dawn_ql_150603_150714_150617_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150617_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150622_v1.bsp
+"""
+const dawn_ql_150603_150714_150622_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150622_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150626_v1.bsp
+"""
+const dawn_ql_150603_150714_150626_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150714_150626_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150804_150626_v2.bsp
+"""
+const dawn_ql_150603_150804_150626_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150603-150804_150626_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150720_v1.bsp
+"""
+const dawn_ql_150702_150904_150720_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150720_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150720_v2.bsp
+"""
+const dawn_ql_150702_150904_150720_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150720_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150727_v2.bsp
+"""
+const dawn_ql_150702_150904_150727_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150727_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150803_v2.bsp
+"""
+const dawn_ql_150702_150904_150803_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150702-150904_150803_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150723-150830_150814_v1.bsp
+"""
+const dawn_ql_150723_150830_150814_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150723-150830_150814_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150723-150929_150814_v1.bsp
+"""
+const dawn_ql_150723_150929_150814_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150723-150929_150814_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150730-150919_150820_v1.bsp
+"""
+const dawn_ql_150730_150919_150820_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150730-150919_150820_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150730-151028_150824_v1.bsp
+"""
+const dawn_ql_150730_151028_150824_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150730-151028_150824_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150827_v1.bsp
+"""
+const dawn_ql_150813_151028_150827_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150827_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150831_v1.bsp
+"""
+const dawn_ql_150813_151028_150831_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150831_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150903_v1.bsp
+"""
+const dawn_ql_150813_151028_150903_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150903_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150908_v1.bsp
+"""
+const dawn_ql_150813_151028_150908_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150908_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150911_v1.bsp
+"""
+const dawn_ql_150813_151028_150911_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150911_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150914_v1.bsp
+"""
+const dawn_ql_150813_151028_150914_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150813-151028_150914_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151028_150917_v1.bsp
+"""
+const dawn_ql_150829_151028_150917_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151028_150917_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151028_150923_v1.bsp
+"""
+const dawn_ql_150829_151028_150923_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151028_150923_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_150929_v1.bsp
+"""
+const dawn_ql_150829_151030_150929_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_150929_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_151005_v1.bsp
+"""
+const dawn_ql_150829_151030_151005_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_151005_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_151009_v1.bsp
+"""
+const dawn_ql_150829_151030_151009_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_151009_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_151015_v1.bsp
+"""
+const dawn_ql_150829_151030_151015_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_150829-151030_151015_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151112_151026_v2.bsp
+"""
+const dawn_ql_151001_151112_151026_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151112_151026_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151119_151102_v2.bsp
+"""
+const dawn_ql_151001_151119_151102_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151119_151102_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151126_151019_v2.bsp
+"""
+const dawn_ql_151001_151126_151019_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151126_151019_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151203_151116_v3.bsp
+"""
+const dawn_ql_151001_151203_151116_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151203_151116_v3.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151209_151123_v2.bsp
+"""
+const dawn_ql_151001_151209_151123_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151209_151123_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151216_151130_v2.bsp
+"""
+const dawn_ql_151001_151216_151130_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151001-151216_151130_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160114_151210_v2.bsp
+"""
+const dawn_ql_151207_160114_151210_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160114_151210_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160118_151214_v1.bsp
+"""
+const dawn_ql_151207_160118_151214_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160118_151214_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160121_151217_v1.bsp
+"""
+const dawn_ql_151207_160121_151217_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160121_151217_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160125_151221_v1.bsp
+"""
+const dawn_ql_151207_160125_151221_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160125_151221_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160126_151222_v1.bsp
+"""
+const dawn_ql_151207_160126_151222_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151207-160126_151222_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160130_151226_v1.bsp
+"""
+const dawn_ql_151213_160130_151226_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160130_151226_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160203_151228_v2.bsp
+"""
+const dawn_ql_151213_160203_151228_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160203_151228_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160208_160104_v1.bsp
+"""
+const dawn_ql_151213_160208_160104_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160208_160104_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160211_160107_v1.bsp
+"""
+const dawn_ql_151213_160211_160107_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160211_160107_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160216_160112_v1.bsp
+"""
+const dawn_ql_151213_160216_160112_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160216_160112_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160217_160113_v1.bsp
+"""
+const dawn_ql_151213_160217_160113_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160217_160113_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160219_160115_v1.bsp
+"""
+const dawn_ql_151213_160219_160115_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160219_160115_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160301_160121_v1.bsp
+"""
+const dawn_ql_151213_160301_160121_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160301_160121_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160306_160126_v1.bsp
+"""
+const dawn_ql_151213_160306_160126_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_151213-160306_160126_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160309_160129_v1.bsp
+"""
+const dawn_ql_160109_160309_160129_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160309_160129_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160320_160204_v1.bsp
+"""
+const dawn_ql_160109_160320_160204_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160320_160204_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160325_160209_v1.bsp
+"""
+const dawn_ql_160109_160325_160209_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160325_160209_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160327_160211_v1.bsp
+"""
+const dawn_ql_160109_160327_160211_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160327_160211_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160328_160212_v1.bsp
+"""
+const dawn_ql_160109_160328_160212_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160109-160328_160212_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160403_160218_v1.bsp
+"""
+const dawn_ql_160201_160403_160218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160403_160218_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160403_160218_v2.bsp
+"""
+const dawn_ql_160201_160403_160218_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160403_160218_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160409_160224_v1.bsp
+"""
+const dawn_ql_160201_160409_160224_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160409_160224_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160411_160226_v1.bsp
+"""
+const dawn_ql_160201_160411_160226_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160411_160226_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160417_160303_v1.bsp
+"""
+const dawn_ql_160201_160417_160303_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160417_160303_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160421_160307_v1_noOMM.bsp
+"""
+const dawn_ql_160201_160421_160307_v1_noOMM_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160421_160307_v1_noOMM.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160425_160311_v1.bsp
+"""
+const dawn_ql_160201_160425_160311_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160425_160311_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160428_160314_v1.bsp
+"""
+const dawn_ql_160201_160428_160314_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160428_160314_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160501_160317_v1.bsp
+"""
+const dawn_ql_160201_160501_160317_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160501_160317_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160506_160322_v1.bsp
+"""
+const dawn_ql_160201_160506_160322_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160201-160506_160322_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160509_160325_v1.bsp
+"""
+const dawn_ql_160224_160509_160325_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160509_160325_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160514_160328_v4.bsp
+"""
+const dawn_ql_160224_160514_160328_v4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160514_160328_v4.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160514_160330_v1.bsp
+"""
+const dawn_ql_160224_160514_160330_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160514_160330_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160514_160330_v1_noOMM5.bsp
+"""
+const dawn_ql_160224_160514_160330_v1_noOMM5_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160514_160330_v1_noOMM5.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160519_160404_v1.bsp
+"""
+const dawn_ql_160224_160519_160404_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160519_160404_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160520_160405_v1.bsp
+"""
+const dawn_ql_160224_160520_160405_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160520_160405_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160523_160408_v1.bsp
+"""
+const dawn_ql_160224_160523_160408_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160523_160408_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160529_160414_v1.bsp
+"""
+const dawn_ql_160224_160529_160414_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160224-160529_160414_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160603_160419_v1.bsp
+"""
+const dawn_ql_160319_160603_160419_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160603_160419_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160606_160422_v1.bsp
+"""
+const dawn_ql_160319_160606_160422_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160606_160422_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160610_160426_v1.bsp
+"""
+const dawn_ql_160319_160610_160426_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160610_160426_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160612_160428_v1.bsp
+"""
+const dawn_ql_160319_160612_160428_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160612_160428_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160617_160503_v1.bsp
+"""
+const dawn_ql_160319_160617_160503_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160617_160503_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160620_160506_v1.bsp
+"""
+const dawn_ql_160319_160620_160506_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160620_160506_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160625_160511_v1.bsp
+"""
+const dawn_ql_160319_160625_160511_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160625_160511_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160626_160512_v1.bsp
+"""
+const dawn_ql_160319_160626_160512_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160626_160512_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160630_160511_v2.bsp
+"""
+const dawn_ql_160319_160630_160511_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160630_160511_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160630_160516_v1_WITHOMM7.bsp
+"""
+const dawn_ql_160319_160630_160516_v1_WITHOMM7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160630_160516_v1_WITHOMM7.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160630_160516_v2.bsp
+"""
+const dawn_ql_160319_160630_160516_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160319-160630_160516_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160410-160704_160520_v1.bsp
+"""
+const dawn_ql_160410_160704_160520_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160410-160704_160520_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160410-160709_160525_v1.bsp
+"""
+const dawn_ql_160410_160709_160525_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160410-160709_160525_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160410-160714_160530_v1.bsp
+"""
+const dawn_ql_160410_160714_160530_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160410-160714_160530_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160718_160603_v1.bsp
+"""
+const dawn_ql_160504_160718_160603_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160718_160603_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160723_160606_v2.bsp
+"""
+const dawn_ql_160504_160723_160606_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160723_160606_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160723_160608_v1.bsp
+"""
+const dawn_ql_160504_160723_160608_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160723_160608_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160728_160613_v1.bsp
+"""
+const dawn_ql_160504_160728_160613_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160728_160613_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160801_160617_v1.bsp
+"""
+const dawn_ql_160504_160801_160617_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160801_160617_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160806_160622_v1.bsp
+"""
+const dawn_ql_160504_160806_160622_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160806_160622_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160811_160627_v1.bsp
+"""
+const dawn_ql_160504_160811_160627_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160811_160627_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160815_160701_v1.bsp
+"""
+const dawn_ql_160504_160815_160701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160815_160701_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160820_160706_v1.bsp
+"""
+const dawn_ql_160504_160820_160706_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160820_160706_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160826_160712_v1.bsp
+"""
+const dawn_ql_160504_160826_160712_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160826_160712_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160901_160615_v1.bsp
+"""
+const dawn_ql_160504_160901_160615_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160901_160615_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160901_160620_v1.bsp
+"""
+const dawn_ql_160504_160901_160620_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160504-160901_160620_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160528-160829_160715_v1.bsp
+"""
+const dawn_ql_160528_160829_160715_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160528-160829_160715_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160619-160904_160721_v1.bsp
+"""
+const dawn_ql_160619_160904_160721_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160619-160904_160721_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160619-160908_160725_v1.bsp
+"""
+const dawn_ql_160619_160908_160725_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160619-160908_160725_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160911_160728_v1.bsp
+"""
+const dawn_ql_160713_160911_160728_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160911_160728_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160912_160729_v1.bsp
+"""
+const dawn_ql_160713_160912_160729_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160912_160729_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160915_160801_v1.bsp
+"""
+const dawn_ql_160713_160915_160801_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160915_160801_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160918_160804_v1.bsp
+"""
+const dawn_ql_160713_160918_160804_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160918_160804_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160922_160808_v1.bsp
+"""
+const dawn_ql_160713_160922_160808_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160922_160808_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160926_160812_v1.bsp
+"""
+const dawn_ql_160713_160926_160812_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160926_160812_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160930_160816_v1.bsp
+"""
+const dawn_ql_160713_160930_160816_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-160930_160816_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161001_160816_v2.bsp
+"""
+const dawn_ql_160713_161001_160816_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161001_160816_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161006_160822_v1.bsp
+"""
+const dawn_ql_160713_161006_160822_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161006_160822_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161010_160826_v1.bsp
+"""
+const dawn_ql_160713_161010_160826_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161010_160826_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161023_160906_v2.bsp
+"""
+const dawn_ql_160713_161023_160906_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161023_160906_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161030_160913_v2.bsp
+"""
+const dawn_ql_160713_161030_160913_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161030_160913_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161110_160830_v2.bsp
+"""
+const dawn_ql_160713_161110_160830_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160713-161110_160830_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161106_160920_v2.bsp
+"""
+const dawn_ql_160810_161106_160920_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161106_160920_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161113_160927_v2.bsp
+"""
+const dawn_ql_160810_161113_160927_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161113_160927_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161121_161007_v1.bsp
+"""
+const dawn_ql_160810_161121_161007_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161121_161007_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161127_161013_v1.bsp
+"""
+const dawn_ql_160810_161127_161013_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161127_161013_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161201_161017_v1.bsp
+"""
+const dawn_ql_160810_161201_161017_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161201_161017_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161201_161017_v2.bsp
+"""
+const dawn_ql_160810_161201_161017_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161201_161017_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161205_161021_v1.bsp
+"""
+const dawn_ql_160810_161205_161021_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161205_161021_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161215_161031_v1.bsp
+"""
+const dawn_ql_160810_161215_161031_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-161215_161031_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-170110_161031_v2.bsp
+"""
+const dawn_ql_160810_170110_161031_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160810-170110_161031_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160830-170101_161114_v2.bsp
+"""
+const dawn_ql_160830_170101_161114_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_160830-170101_161114_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170205_161207_v1.bsp
+"""
+const dawn_ql_161006_170205_161207_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170205_161207_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170218_161220_v1.bsp
+"""
+const dawn_ql_161006_170218_161220_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170218_161220_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170220_161207_v2.bsp
+"""
+const dawn_ql_161006_170220_161207_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170220_161207_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170731_161128_v1.bsp
+"""
+const dawn_ql_161006_170731_161128_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161006-170731_161128_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170324_170123_v1.bsp
+"""
+const dawn_ql_161103_170324_170123_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170324_170123_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170331_170104_v1.bsp
+"""
+const dawn_ql_161103_170331_170104_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170331_170104_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170409_170208_v1.bsp
+"""
+const dawn_ql_161103_170409_170208_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170409_170208_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170418_170214_v2.bsp
+"""
+const dawn_ql_161103_170418_170214_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_161103-170418_170214_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170520_170321_v1.bsp
+"""
+const dawn_ql_170120_170520_170321_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170520_170321_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170529_170329_v2.bsp
+"""
+const dawn_ql_170120_170529_170329_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170529_170329_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170619_170418_v2.bsp
+"""
+const dawn_ql_170120_170619_170418_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170619_170418_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170623_170424_v1_safeComm.bsp
+"""
+const dawn_ql_170120_170623_170424_v1_safeComm_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170120-170623_170424_v1_safeComm.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170219-170624_170425_v1.bsp
+"""
+const dawn_ql_170219_170624_170425_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170219-170624_170425_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170219-170701_170502_v1.bsp
+"""
+const dawn_ql_170219_170701_170502_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170219-170701_170502_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170708_170509_v1.bsp
+"""
+const dawn_ql_170323_170708_170509_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170708_170509_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170722_170518_v2.bsp
+"""
+const dawn_ql_170323_170722_170518_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170722_170518_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170815_170614_StayAtCeres.bsp
+"""
+const dawn_ql_170323_170815_170614_StayAtCeres_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170815_170614_StayAtCeres.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170825_170626_v1.bsp
+"""
+const dawn_ql_170323_170825_170626_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170825_170626_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170908_170710_v1.bsp
+"""
+const dawn_ql_170323_170908_170710_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-170908_170710_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13426,52 +6946,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-171015_170717_v1.bsp
 """
-const de432s_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-171015_170717_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111211-120424_111102_lamo_v1.bsp
-"""
-const dawn_ql_170619_171210_170911_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111211-120424_111102_lamo_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111211-120514_111215_lamo_v2.bsp
-"""
-const dawn_ref_111211_120514_111215_lamo_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111211-120514_111215_lamo_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de432s.bsp
-"""
-const dawn_ref_111217_111224_111214_dl021_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de432s.bsp")
+const dawn_ql_170323_171015_170717_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170323-171015_170717_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13486,52 +6961,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170619-171210_170911_v1.bsp
 """
-const optg_vesta_survey_prebuild_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170619-171210_170911_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111217-111224_111214_dl021_v1.bsp
-"""
-const dawn_ql_170723_180514_171115_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111217-111224_111214_dl021_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/optg_vesta_survey_prebuild.bsp
-"""
-const dawn_ref_120114_120122_120111_dl023_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/optg_vesta_survey_prebuild.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120114-120122_120111_dl023_v1.bsp
-"""
-const sb_ceres_110211_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120114-120122_120111_dl023_v1.bsp")
+const dawn_ql_170619_171210_170911_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170619-171210_170911_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13546,37 +6976,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170723-180514_171115_v1.bsp
 """
-const dawn_ref_120128_120211_120125_dl024_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170723-180514_171115_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120128-120211_120125_dl024_v1.bsp
-"""
-const dawn_ql_170918_180730_180131_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120128-120211_120125_dl024_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_110211.bsp
-"""
-const dawn_ref_120310_120324_120307_dl027_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_110211.bsp")
+const dawn_ql_170723_180514_171115_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170723-180514_171115_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13591,52 +6991,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170918-180730_180131_v1.bsp
 """
-const sb_ceres_120710_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170918-180730_180131_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120310-120324_120307_dl027_v1.bsp
-"""
-const dawn_ql_170918_180903_180307_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120310-120324_120307_dl027_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120324-120407_120321_dl028_v1.bsp
-"""
-const dawn_ref_120324_120407_120321_dl028_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120324-120407_120321_dl028_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_120710.bsp
-"""
-const dawn_ref_120408_120520_110601_isb_lamo2hamo2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_120710.bsp")
+const dawn_ql_170918_180730_180131_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170918-180730_180131_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13651,52 +7006,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170918-180903_180307_v1.bsp
 """
-const sb_ceres_140724_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170918-180903_180307_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120408-120520_110601_isb_lamo2hamo2.bsp
-"""
-const dawn_ql_171119_181009_180409_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120408-120520_110601_isb_lamo2hamo2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120421-120501_120418_dl030_v1.bsp
-"""
-const dawn_ref_120421_120501_120418_dl030_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120421-120501_120418_dl030_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_140724.bsp
-"""
-const dawn_ref_120501_120504_120428_dl031_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_140724.bsp")
+const dawn_ql_170918_180903_180307_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_170918-180903_180307_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13711,52 +7021,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_171119-181009_180409_v2.bsp
 """
-const sb_ceres_grv_171219_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_171119-181009_180409_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120504_120428_dl031_v1.bsp
-"""
-const dawn_ql_171119_181022_180423_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120504_120428_dl031_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_grv_171219.bsp
-"""
-const dawn_ref_120501_120504_120428_dl031_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_grv_171219.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120504_120428_dl031_v2.bsp
-"""
-const sb_vesta_071107_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120504_120428_dl031_v2.bsp")
+const dawn_ql_171119_181009_180409_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_171119-181009_180409_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13771,37 +7036,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_171119-181022_180423_v2.bsp
 """
-const dawn_ref_120501_120615_120425_da025_da026_VT2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_171119-181022_180423_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120615_120425_da025_da026_VT2_v1.bsp
-"""
-const dawn_ql_180107_181029_180430_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120615_120425_da025_da026_VT2_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_071107.bsp
-"""
-const dawn_ref_120501_120615_120426_da025_da026_VT2_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_071107.bsp")
+const dawn_ql_171119_181022_180423_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_171119-181022_180423_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13816,52 +7051,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180107-181029_180430_v2.bsp
 """
-const sb_vesta_110211_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180107-181029_180430_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120615_120426_da025_da026_VT2_v1.bsp
-"""
-const dawn_ql_180107_181105_180507_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120615_120426_da025_da026_VT2_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120504-120507_120501_dl032_v1.bsp
-"""
-const dawn_ref_120504_120507_120501_dl032_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120504-120507_120501_dl032_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_110211.bsp
-"""
-const dawn_ref_120510_120513_120507_dl033_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_110211.bsp")
+const dawn_ql_180107_181029_180430_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180107-181029_180430_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13876,52 +7066,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180107-181105_180507_v2.bsp
 """
-const sb_vesta_nav_120628_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180107-181105_180507_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120510-120513_120507_dl033_v1.bsp
-"""
-const dawn_ql_180504_181111_180515_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120510-120513_120507_dl033_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120513-120515_120510_dl034_v1.bsp
-"""
-const dawn_ref_120513_120515_120510_dl034_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120513-120515_120510_dl034_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_nav_120628.bsp
-"""
-const dawn_ref_120515_120519_120513_dl035_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_nav_120628.bsp")
+const dawn_ql_180107_181105_180507_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180107-181105_180507_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13936,52 +7081,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180504-181111_180515_v1.bsp
 """
-const sb_vesta_ssd_120716_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180504-181111_180515_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120515-120519_120513_dl035_v1.bsp
-"""
-const dawn_ql_180515_180615_180516_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120515-120519_120513_dl035_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120519-120523_120516_dl036_v1.bsp
-"""
-const dawn_ref_120519_120523_120516_dl036_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120519-120523_120516_dl036_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_ssd_120716.bsp
-"""
-const dawn_ref_120520_120609_100601_isb_hamo2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_ssd_120716.bsp")
+const dawn_ql_180504_181111_180515_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180504-181111_180515_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -13996,52 +7096,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180515-180615_180516_v1.bsp
 """
-const survey_041713_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180515-180615_180516_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120520-120609_100601_isb_hamo2.bsp
-"""
-const dawn_ql_180515_180620_180521_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120520-120609_100601_isb_hamo2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/survey_041713.bsp
-"""
-const dawn_ref_120520_120901_120201_isb2_hamo2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/survey_041713.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120520-120901_120201_isb2_hamo2.bsp
-"""
-const test_spk_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120520-120901_120201_isb2_hamo2.bsp")
+const dawn_ql_180515_180615_180516_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180515-180615_180516_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14056,37 +7111,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180515-180620_180521_v1.bsp
 """
-const dawn_ref_120520_120901_120215_hamo2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180515-180620_180521_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120520-120901_120215_hamo2.bsp
-"""
-const dawn_ql_180515_180706_180606_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120520-120901_120215_hamo2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/test_spk.bsp
-"""
-const dawn_ref_120523_120527_120520_dl037_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/test_spk.bsp")
+const dawn_ql_180515_180620_180521_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180515-180620_180521_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14101,52 +7126,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180515-180706_180606_v1.bsp
 """
-const traj_for_Carol_n_Steve_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180515-180706_180606_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120523-120527_120520_dl037_v1.bsp
-"""
-const dawn_ql_180606_180712_180612_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120523-120527_120520_dl037_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120527-120531_120524_dl038_v1.bsp
-"""
-const dawn_ref_120527_120531_120524_dl038_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120527-120531_120524_dl038_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/traj_for_Carol_n_Steve.bsp
-"""
-const dawn_ref_120531_120604_120528_dl039_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/traj_for_Carol_n_Steve.bsp")
+const dawn_ql_180515_180706_180606_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180515-180706_180606_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14161,52 +7141,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180712_180612_v1.bsp
 """
-const bad_dawn_ql_110828_111013_110914_v2_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180712_180612_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120531-120604_120528_dl039_v1.bsp
-"""
-const dawn_ql_180606_180718_180616_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120531-120604_120528_dl039_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120604-120609_120601_dl040_v1.bsp
-"""
-const dawn_ref_120604_120609_120601_dl040_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120604-120609_120601_dl040_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/bad_dawn_ql_110828-111013_110914_v2.bsp
-"""
-const dawn_ref_120609_150201_100601_isb_departure_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/bad_dawn_ql_110828-111013_110914_v2.bsp")
+const dawn_ql_180606_180712_180612_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180712_180612_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14221,52 +7156,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180718_180616_v3.bsp
 """
-const bad_name_dawn_rec_170722_170603_170714_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180718_180616_v3.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120609-150201_100601_isb_departure.bsp
-"""
-const dawn_ql_180606_180722_180622_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120609-150201_100601_isb_departure.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/bad_name_dawn_rec_170722-170603_170714_v1.bsp
-"""
-const dawn_ref_120612_120723_111217_RC4_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/bad_name_dawn_rec_170722-170603_170714_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120612-120723_111217_RC4_v1.bsp
-"""
-const ho_m20km_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120612-120723_111217_RC4_v1.bsp")
+const dawn_ql_180606_180718_180616_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180718_180616_v3.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14281,37 +7171,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180722_180622_v1.bsp
 """
-const dawn_ref_120615_120820_120425_hamo2_VH2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180722_180622_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120615-120820_120425_hamo2_VH2_v1.bsp
-"""
-const dawn_ql_180606_180725_180625_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120615-120820_120425_hamo2_VH2_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/ho_m20km.bsp
-"""
-const dawn_ref_120615_120820_120426_hamo2_VH2_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/ho_m20km.bsp")
+const dawn_ql_180606_180722_180622_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180722_180622_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14326,52 +7186,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180725_180625_v1.bsp
 """
-const ho_p20km_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180725_180625_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120615-120820_120426_hamo2_VH2_v1.bsp
-"""
-const dawn_ql_180606_180809_180625_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120615-120820_120426_hamo2_VH2_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120802_120722_dl042_v1.bsp
-"""
-const dawn_ref_120725_120802_120722_dl042_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120802_120722_dl042_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/ho_p20km.bsp
-"""
-const dawn_ref_120725_120815_120627_da031_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/ho_p20km.bsp")
+const dawn_ql_180606_180725_180625_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180725_180625_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14386,52 +7201,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180809_180625_v2.bsp
 """
-const ho_ref_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180809_180625_v2.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120815_120627_da031_v1.bsp
-"""
-const dawn_ql_180606_180910_180627_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120815_120627_da031_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120817_120628_da031_v1.bsp
-"""
-const dawn_ref_120725_120817_120628_da031_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120817_120628_da031_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/ho_ref.bsp
-"""
-const dawn_ref_120725_120902_120625_RC4toRC6_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/ho_ref.bsp")
+const dawn_ql_180606_180809_180625_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180809_180625_v2.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14446,52 +7216,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180910_180627_v1.bsp
 """
-const test_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180910_180627_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120902_120625_RC4toRC6_v1.bsp
-"""
-const dawn_ql_180622_180912_180629_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120902_120625_RC4toRC6_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/test.bsp
-"""
-const dawn_ref_120802_121001_120730_dl043_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/test.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120802-121001_120730_dl043_v1.bsp
-"""
-const test1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120802-121001_120730_dl043_v1.bsp")
+const dawn_ql_180606_180910_180627_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180606-180910_180627_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14506,37 +7231,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180622-180912_180629_v1.bsp
 """
-const dawn_ref_120803_150326_120313_RC4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180622-180912_180629_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120803-150326_120313_RC4.bsp
-"""
-const dawn_ql_180622_180916_180703_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120803-150326_120313_RC4.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/test1.bsp
-"""
-const dawn_ref_120815_120901_120323_RC4toRC6_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/test1.bsp")
+const dawn_ql_180622_180912_180629_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180622-180912_180629_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14551,52 +7246,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180622-180916_180703_v1.bsp
 """
-const dawn_ren_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180622-180916_180703_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120815-120901_120323_RC4toRC6_v1.bsp
-"""
-const dawn_ql_180622_180918_180705_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120815-120901_120323_RC4toRC6_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120815-120910_120627_da032_v1.bsp
-"""
-const dawn_ref_120815_120910_120627_da032_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120815-120910_120627_da032_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/ren/dawn_ren.tf
-"""
-const dawn_ref_120815_120910_120718_da032_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/ren/dawn_ren.tf")
+const dawn_ql_180622_180916_180703_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180622-180916_180703_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14611,37 +7261,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180622-180918_180705_v1.bsp
 """
-const vesta_site_lon0lat0_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180622-180918_180705_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120815-120910_120718_da032_v1.bsp
-"""
-const dawn_ql_180622_180922_180709_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120815-120910_120718_da032_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/smalhotra/vesta_site_lon0lat0.bsp
-"""
-const dawn_ql_180622_180922_180709_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/smalhotra/vesta_site_lon0lat0.bsp")
+const dawn_ql_180622_180918_180705_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180622-180918_180705_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14656,22 +7276,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180622-180922_180709_v1.bsp
 """
-const vesta_site_lon0lat0_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180622-180922_180709_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/smalhotra/vesta_site_lon0lat0.tf
-"""
-const dawn_ql_180629_180926_180713_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/smalhotra/vesta_site_lon0lat0.tf")
+const dawn_ql_180622_180922_180709_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180622-180922_180709_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14686,22 +7291,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180629-180926_180713_v1.bsp
 """
-const dawn_v08_beta_zero_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180629-180926_180713_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v08_beta_zero.tf
-"""
-const dawn_ql_180706_180929_180716_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v08_beta_zero.tf")
+const dawn_ql_180629_180926_180713_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180629-180926_180713_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14716,22 +7306,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-180929_180716_v1.bsp
 """
-const dawn_v09_draft_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-180929_180716_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v09_draft.tf
-"""
-const dawn_ql_180706_180930_180717_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v09_draft.tf")
+const dawn_ql_180706_180929_180716_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-180929_180716_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14746,22 +7321,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-180930_180717_v1.bsp
 """
-const dawn_v10_draft_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-180930_180717_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v10_draft.tf
-"""
-const dawn_ql_180706_181002_180719_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v10_draft.tf")
+const dawn_ql_180706_180930_180717_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-180930_180717_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14776,22 +7336,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-181002_180719_v1.bsp
 """
-const dawn_v10_draft2_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-181002_180719_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v10_draft2.tf
-"""
-const dawn_ql_180706_181006_180723_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v10_draft2.tf")
+const dawn_ql_180706_181002_180719_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-181002_180719_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14806,22 +7351,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-181006_180723_v1.bsp
 """
-const dawn_v10_draft4_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-181006_180723_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v10_draft4.tf
-"""
-const dawn_ql_180706_181007_180724_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v10_draft4.tf")
+const dawn_ql_180706_181006_180723_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-181006_180723_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14836,22 +7366,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-181007_180724_v1.bsp
 """
-const dawn_v12_draft_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-181007_180724_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v12_draft.tf
-"""
-const dawn_ql_180712_181009_180726_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v12_draft.tf")
+const dawn_ql_180706_181007_180724_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180706-181007_180724_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14866,22 +7381,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180712-181009_180726_v1.bsp
 """
-const dawn_v12_draft2_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180712-181009_180726_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v12_draft2.tf
-"""
-const dawn_ql_180712_181010_180727_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v12_draft2.tf")
+const dawn_ql_180712_181009_180726_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180712-181009_180726_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14896,22 +7396,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180712-181010_180727_v1.bsp
 """
-const dawn_vesta_v03_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180712-181010_180727_v1.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v03.tpc
-"""
-const dawn_ql_180712_181013_180730_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v03.tpc")
+const dawn_ql_180712_181010_180727_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180712-181010_180727_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14926,22 +7411,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180712-181013_180730_v1.bsp
 """
-const dawn_vesta_v04_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180712-181013_180730_v1.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v04.tpc
-"""
-const dawn_ql_180712_181015_180801_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v04.tpc")
+const dawn_ql_180712_181013_180730_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180712-181013_180730_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14956,22 +7426,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180712-181015_180801_v1.bsp
 """
-const dawn_vesta_v05_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180712-181015_180801_v1.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v05.tpc
-"""
-const dawn_ql_180719_181016_180802_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v05.tpc")
+const dawn_ql_180712_181015_180801_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180712-181015_180801_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -14986,22 +7441,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180719-181016_180802_v1.bsp
 """
-const dawn_vesta_v06_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180719-181016_180802_v1.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v06.tpc
-"""
-const dawn_ql_180719_181020_180806_v1_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v06.tpc")
+const dawn_ql_180719_181016_180802_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180719-181016_180802_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -15033,23 +7473,7585 @@ This kernel's link was sourced on 2024-09-24.
 """
 const dawn_ql_180724_181021_180807_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180724-181021_180807_v1.bsp")
 
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180724-181024_180810_v2.bsp
+"""
+const dawn_ql_180724_181024_180810_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180724-181024_180810_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180728-181027_180813_v1.bsp
+"""
+const dawn_ql_180728_181027_180813_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180728-181027_180813_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180728-181030_180816_v1.bsp
+"""
+const dawn_ql_180728_181030_180816_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180728-181030_180816_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180728-181201_180814_v1.bsp
+"""
+const dawn_ql_180728_181201_180814_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180728-181201_180814_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180803-181103_180820_v1.bsp
+"""
+const dawn_ql_180803_181103_180820_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180803-181103_180820_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180803-181104_180821_v1.bsp
+"""
+const dawn_ql_180803_181104_180821_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180803-181104_180821_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180810-181107_180824_v1.bsp
+"""
+const dawn_ql_180810_181107_180824_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180810-181107_180824_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180810-181110_180827_v1.bsp
+"""
+const dawn_ql_180810_181110_180827_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180810-181110_180827_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180817-181113_180830_v1.bsp
+"""
+const dawn_ql_180817_181113_180830_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180817-181113_180830_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180817-181118_180904_v1.bsp
+"""
+const dawn_ql_180817_181118_180904_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180817-181118_180904_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180817-181119_180905_v1.bsp
+"""
+const dawn_ql_180817_181119_180905_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180817-181119_180905_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180823-181124_180910_v1.bsp
+"""
+const dawn_ql_180823_181124_180910_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180823-181124_180910_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180823-181125_180911_v1.bsp
+"""
+const dawn_ql_180823_181125_180911_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180823-181125_180911_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180828-181126_180912_v1.bsp
+"""
+const dawn_ql_180828_181126_180912_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180828-181126_180912_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180902-181201_180917_v1.bsp
+"""
+const dawn_ql_180902_181201_180917_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180902-181201_180917_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180902-190101_180918_v1.bsp
+"""
+const dawn_ql_180902_190101_180918_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180902-190101_180918_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180906-190102_180919_v1.bsp
+"""
+const dawn_ql_180906_190102_180919_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180906-190102_180919_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180906-190107_180924_v1.bsp
+"""
+const dawn_ql_180906_190107_180924_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180906-190107_180924_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180911-190109_180926_v1.bsp
+"""
+const dawn_ql_180911_190109_180926_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180911-190109_180926_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180915-190114_181001_v1.bsp
+"""
+const dawn_ql_180915_190114_181001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180915-190114_181001_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180915-190115_181002_v1.bsp
+"""
+const dawn_ql_180915_190115_181002_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180915-190115_181002_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180915-190117_181004_v1.bsp
+"""
+const dawn_ql_180915_190117_181004_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180915-190117_181004_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180921-190121_181008_v1.bsp
+"""
+const dawn_ql_180921_190121_181008_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180921-190121_181008_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180928-190124_181011_v1.bsp
+"""
+const dawn_ql_180928_190124_181011_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_180928-190124_181011_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181004-190128_181015_v1.bsp
+"""
+const dawn_ql_181004_190128_181015_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181004-190128_181015_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181004-190129_181016_v1.bsp
+"""
+const dawn_ql_181004_190129_181016_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181004-190129_181016_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181004-190131_181018_v1.bsp
+"""
+const dawn_ql_181004_190131_181018_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181004-190131_181018_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181009-190204_181022_v1.bsp
+"""
+const dawn_ql_181009_190204_181022_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181009-190204_181022_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181009-190206_181024_v1.bsp
+"""
+const dawn_ql_181009_190206_181024_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181009-190206_181024_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181013-190211_181029_v1.bsp
+"""
+const dawn_ql_181013_190211_181029_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181013-190211_181029_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181013-190213_181031_v1.bsp
+"""
+const dawn_ql_181013_190213_181031_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ql_181013-190213_181031_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_070927-070930_081218_v1.bsp
+"""
+const dawn_rec_070927_070930_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_070927-070930_081218_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_070930-071201_081218_v1.bsp
+"""
+const dawn_rec_070930_071201_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_070930-071201_081218_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_071201-080205_081218_v1.bsp
+"""
+const dawn_rec_071201_080205_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_071201-080205_081218_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080205-080325_081218_v1.bsp
+"""
+const dawn_rec_080205_080325_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080205-080325_081218_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080325-080503_081218_v1.bsp
+"""
+const dawn_rec_080325_080503_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080325-080503_081218_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080503-080601_081218_v1.bsp
+"""
+const dawn_rec_080503_080601_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080503-080601_081218_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080601-080718_081218_v1.bsp
+"""
+const dawn_rec_080601_080718_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080601-080718_081218_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080718-080910_081218_v1.bsp
+"""
+const dawn_rec_080718_080910_081218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080718-080910_081218_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080910-081022_090218_v1.bsp
+"""
+const dawn_rec_080910_081022_090218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_080910-081022_090218_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_081022-081109_090218_v1.bsp
+"""
+const dawn_rec_081022_081109_090218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_081022-081109_090218_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_081109-090228_090306_v1.bsp
+"""
+const dawn_rec_081109_090228_090306_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_081109-090228_090306_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090228-090501_090702_v1.bsp
+"""
+const dawn_rec_090228_090501_090702_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090228-090501_090702_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090501-090801_090916_v1.bsp
+"""
+const dawn_rec_090501_090801_090916_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090501-090801_090916_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090801-090915_090923_v1.bsp
+"""
+const dawn_rec_090801_090915_090923_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090801-090915_090923_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090915-091201_091202_v1.bsp
+"""
+const dawn_rec_090915_091201_091202_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_090915-091201_091202_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_091201-100208_100209_v1.bsp
+"""
+const dawn_rec_091201_100208_100209_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_091201-100208_100209_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100208-100316_100323_v1.bsp
+"""
+const dawn_rec_100208_100316_100323_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100208-100316_100323_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100316-100413_100422_v1.bsp
+"""
+const dawn_rec_100316_100413_100422_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100316-100413_100422_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100413-100622_100830_v1.bsp
+"""
+const dawn_rec_100413_100622_100830_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100413-100622_100830_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100622-100824_100830_v1.bsp
+"""
+const dawn_rec_100622_100824_100830_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100622-100824_100830_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100824-101130_101202_v1.bsp
+"""
+const dawn_rec_100824_101130_101202_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_100824-101130_101202_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_101130-110201_110201_v1.bsp
+"""
+const dawn_rec_101130_110201_110201_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_101130-110201_110201_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_101130-110419_pred_110419-110502_110420_v1.bsp
+"""
+const dawn_rec_101130_110419_pred_110419_110502_110420_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_101130-110419_pred_110419-110502_110420_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_101130-110606_pred_110606-110628_110609_v1.bsp
+"""
+const dawn_rec_101130_110606_pred_110606_110628_110609_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_101130-110606_pred_110606-110628_110609_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110201-110328_110328_v1.bsp
+"""
+const dawn_rec_110201_110328_110328_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110201-110328_110328_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110328-110419_110419_v1.bsp
+"""
+const dawn_rec_110328_110419_110419_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110328-110419_110419_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110328-110419_110420_v1.bsp
+"""
+const dawn_rec_110328_110419_110420_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110328-110419_110420_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110416-110802_110913_v1.bsp
+"""
+const dawn_rec_110416_110802_110913_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110416-110802_110913_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110802-110831_110922_v1.bsp
+"""
+const dawn_rec_110802_110831_110922_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110802-110831_110922_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110831-110928_111221_v1.bsp
+"""
+const dawn_rec_110831_110928_111221_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110831-110928_111221_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110928-111102_111221_v1.bsp
+"""
+const dawn_rec_110928_111102_111221_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110928-111102_111221_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110928-111102_120615_v1.bsp
+"""
+const dawn_rec_110928_111102_120615_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_110928-111102_120615_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_111102-111210_120618_v1.bsp
+"""
+const dawn_rec_111102_111210_120618_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_111102-111210_120618_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_111211-120501_120620_v1.bsp
+"""
+const dawn_rec_111211_120501_120620_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_111211-120501_120620_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120501-120611_120625_v1.bsp
+"""
+const dawn_rec_120501_120611_120625_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120501-120611_120625_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120611-120724_121101_v1.bsp
+"""
+const dawn_rec_120611_120724_121101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120611-120724_121101_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120724-120913_121213_v1.bsp
+"""
+const dawn_rec_120724_120913_121213_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120724-120913_121213_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120913-131030_150308_v1.bsp
+"""
+const dawn_rec_120913_131030_150308_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120913-131030_150308_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120913-141230_150306_v1.bsp
+"""
+const dawn_rec_120913_141230_150306_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_120913-141230_150306_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_131030-141230_150308_v1.bsp
+"""
+const dawn_rec_131030_141230_150308_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_131030-141230_150308_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_141230-150509_150603_v1.bsp
+"""
+const dawn_rec_141230_150509_150603_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_141230-150509_150603_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_150509-150630_150730_v1.bsp
+"""
+const dawn_rec_150509_150630_150730_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_150509-150630_150730_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_150630-151023_151210_v1.bsp
+"""
+const dawn_rec_150630_151023_151210_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_150630-151023_151210_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_150630-151023_160804_v1.bsp
+"""
+const dawn_rec_150630_151023_160804_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_150630-151023_160804_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_151023-160202_160412_v1.bsp
+"""
+const dawn_rec_151023_160202_160412_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_151023-160202_160412_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160202-160319_160531_v1.bsp
+"""
+const dawn_rec_160202_160319_160531_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160202-160319_160531_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160319-160410_160809_v1.bsp
+"""
+const dawn_rec_160319_160410_160809_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160319-160410_160809_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160410-160505_160809_v1.bsp
+"""
+const dawn_rec_160410_160505_160809_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160410-160505_160809_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160505-160527_160809_v1.bsp
+"""
+const dawn_rec_160505_160527_160809_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160505-160527_160809_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160505-160527_160810_v1.bsp
+"""
+const dawn_rec_160505_160527_160810_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160505-160527_160810_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160527-160617_160809_v1.bsp
+"""
+const dawn_rec_160527_160617_160809_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160527-160617_160809_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160617-160902_161109_v1.bsp
+"""
+const dawn_rec_160617_160902_161109_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160617-160902_161109_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160902-160902_170124_v1.bsp
+"""
+const dawn_rec_160902_160902_170124_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160902-160902_170124_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160902-161104_170124_v1.bsp
+"""
+const dawn_rec_160902_161104_170124_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_160902-161104_170124_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_161104-170222_170713_v1.bsp
+"""
+const dawn_rec_161104_170222_170713_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_161104-170222_170713_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_170222-170603_170714_v1.bsp
+"""
+const dawn_rec_170222_170603_170714_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_170222-170603_170714_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_170603-170416_180503_v1.bsp
+"""
+const dawn_rec_170603_170416_180503_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_170603-170416_180503_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_170603-180416_180703_v1.bsp
+"""
+const dawn_rec_170603_180416_180703_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_170603-180416_180703_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_180416-180609_180703_v1.bsp
+"""
+const dawn_rec_180416_180609_180703_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_180416-180609_180703_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_180609-180805_180828_v1.bsp
+"""
+const dawn_rec_180609_180805_180828_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_180609-180805_180828_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_180805-181031_181129_v1.bsp
+"""
+const dawn_rec_180805_181031_181129_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_rec_180805-181031_181129_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref110810-110830_110124_ort8.bsp
+"""
+const dawn_ref110810_110830_110124_ort8_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref110810-110830_110124_ort8.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070926-150201_070829.bsp
+"""
+const dawn_ref_070926_150201_070829_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070926-150201_070829.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070927-071012_070927.bsp
+"""
+const dawn_ref_070927_071012_070927_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070927-071012_070927.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070927-071028_070928.bsp
+"""
+const dawn_ref_070927_071028_070928_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070927-071028_070928.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070929-071220_071001.bsp
+"""
+const dawn_ref_070929_071220_071001_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_070929-071220_071001.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071012-071220_071015_v1.bsp
+"""
+const dawn_ref_071012_071220_071015_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071012-071220_071015_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071205-080317_071204_v4.bsp
+"""
+const dawn_ref_071205_080317_071204_v4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071205-080317_071204_v4.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071214-080317_071119_v1.bsp
+"""
+const dawn_ref_071214_080317_071119_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071214-080317_071119_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071214-080317_071126_v3.bsp
+"""
+const dawn_ref_071214_080317_071126_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_071214-080317_071126_v3.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080124-080427_071218_v1.bsp
+"""
+const dawn_ref_080124_080427_071218_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080124-080427_071218_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080220-080609_080125_v1.bsp
+"""
+const dawn_ref_080220_080609_080125_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080220-080609_080125_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080220-150201_080125_v1.bsp
+"""
+const dawn_ref_080220_150201_080125_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080220-150201_080125_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080331-080721_080303_v2.bsp
+"""
+const dawn_ref_080331_080721_080303_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080331-080721_080303_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080512-080825_080415_v1.bsp
+"""
+const dawn_ref_080512_080825_080415_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080512-080825_080415_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080616-080929_080516_v1.bsp
+"""
+const dawn_ref_080616_080929_080516_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080616-080929_080516_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080721-081030_080619_v1.bsp
+"""
+const dawn_ref_080721_081030_080619_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080721-081030_080619_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080722-090601_081007_v2.bsp
+"""
+const dawn_ref_080722_090601_081007_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080722-090601_081007_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080722-090601_081014_v3.bsp
+"""
+const dawn_ref_080722_090601_081014_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080722-090601_081014_v3.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080825-090415_080724_v1.bsp
+"""
+const dawn_ref_080825_090415_080724_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080825-090415_080724_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080825-090415_080811_v1.bsp
+"""
+const dawn_ref_080825_090415_080811_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080825-090415_080811_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080929-090415_080829_v1.bsp
+"""
+const dawn_ref_080929_090415_080829_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_080929-090415_080829_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081014-090601_081017_v1.bsp
+"""
+const dawn_ref_081014_090601_081017_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081014-090601_081017_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090415_080714_v1.bsp
+"""
+const dawn_ref_081031_090415_080714_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090415_080714_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_081201_dc022p1_v1.bsp
+"""
+const dawn_ref_081031_090601_081201_dc022p1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_081201_dc022p1_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090106_dc023p1_v1.bsp
+"""
+const dawn_ref_081031_090601_090106_dc023p1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090106_dc023p1_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090126_mga_c1_v1.bsp
+"""
+const dawn_ref_081031_090601_090126_mga_c1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090126_mga_c1_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090129_dc023p2_v1.bsp
+"""
+const dawn_ref_081031_090601_090129_dc023p2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090129_dc023p2_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090209_mga_c2_v1.bsp
+"""
+const dawn_ref_081031_090601_090209_mga_c2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090209_mga_c2_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090213_dc024p1_v1.bsp
+"""
+const dawn_ref_081031_090601_090213_dc024p1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081031-090601_090213_dc024p1_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081101-090601_081105_v2.bsp
+"""
+const dawn_ref_081101_090601_081105_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081101-090601_081105_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081101-090601_081112_v2.bsp
+"""
+const dawn_ref_081101_090601_081112_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_081101-090601_081112_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090420-090713_090323_dc025_v1.bsp
+"""
+const dawn_ref_090420_090713_090323_dc025_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090420-090713_090323_dc025_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090517-090921_090428_dc026_v1.bsp
+"""
+const dawn_ref_090517_090921_090428_dc026_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090517-090921_090428_dc026_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090601-090921_090518_dc027_v1.bsp
+"""
+const dawn_ref_090601_090921_090518_dc027_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090601-090921_090518_dc027_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090601-090921_090518_v1.bsp
+"""
+const dawn_ref_090601_090921_090518_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090601-090921_090518_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090629-091005_090608_dc028_v1.bsp
+"""
+const dawn_ref_090629_091005_090608_dc028_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090629-091005_090608_dc028_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090720-091027_090626_dc029_v1.bsp
+"""
+const dawn_ref_090720_091027_090626_dc029_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090720-091027_090626_dc029_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090720-091027_090626_dc029_v2.bsp
+"""
+const dawn_ref_090720_091027_090626_dc029_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090720-091027_090626_dc029_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090810-091116_090716_dc030_v1.bsp
+"""
+const dawn_ref_090810_091116_090716_dc030_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090810-091116_090716_dc030_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090831-091208_090807_dc031_v1.bsp
+"""
+const dawn_ref_090831_091208_090807_dc031_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090831-091208_090807_dc031_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090921-091229_090821_dc032_v1.bsp
+"""
+const dawn_ref_090921_091229_090821_dc032_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_090921-091229_090821_dc032_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_091026-100201_090928_dc033_v1.bsp
+"""
+const dawn_ref_091026_100201_090928_dc033_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_091026-100201_090928_dc033_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_091130-100308_091102_dc034_v1.bsp
+"""
+const dawn_ref_091130_100308_091102_dc034_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_091130-100308_091102_dc034_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100104-100413_091203_dc035_v1.bsp
+"""
+const dawn_ref_100104_100413_091203_dc035_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100104-100413_091203_dc035_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100208-100517_100108_dc036_v1.bsp
+"""
+const dawn_ref_100208_100517_100108_dc036_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100208-100517_100108_dc036_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100315-100622_100216_dc037_v1.bsp
+"""
+const dawn_ref_100315_100622_100216_dc037_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100315-100622_100216_dc037_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100419-100802_100322_dc038_v1.bsp
+"""
+const dawn_ref_100419_100802_100322_dc038_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100419-100802_100322_dc038_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100517-100830_100416_dc039_v1.bsp
+"""
+const dawn_ref_100517_100830_100416_dc039_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100517-100830_100416_dc039_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100615-100927_100525_dc040_v1.bsp
+"""
+const dawn_ref_100615_100927_100525_dc040_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100615-100927_100525_dc040_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100719-101026_100625_dc041_v1.bsp
+"""
+const dawn_ref_100719_101026_100625_dc041_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100719-101026_100625_dc041_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100823-101206_100726_dc042_v1.bsp
+"""
+const dawn_ref_100823_101206_100726_dc042_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100823-101206_100726_dc042_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100927-110104_100831_dc043_v1.bsp
+"""
+const dawn_ref_100927_110104_100831_dc043_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_100927-110104_100831_dc043_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_101101-110214_101004_dc045_v1.bsp
+"""
+const dawn_ref_101101_110214_101004_dc045_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_101101-110214_101004_dc045_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_101101-110214_101005_dc044_v2.bsp
+"""
+const dawn_ref_101101_110214_101005_dc044_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_101101-110214_101005_dc044_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_101206-110321_101101_dc045_v1.bsp
+"""
+const dawn_ref_101206_110321_101101_dc045_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_101206-110321_101101_dc045_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110110-110420_101203_dc046_v1.bsp
+"""
+const dawn_ref_110110_110420_101203_dc046_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110110-110420_101203_dc046_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110214-110411_110113_dc047_v1.bsp
+"""
+const dawn_ref_110214_110411_110113_dc047_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110214-110411_110113_dc047_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110214-110806_110203_isb2_approach.bsp
+"""
+const dawn_ref_110214_110806_110203_isb2_approach_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110214-110806_110203_isb2_approach.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110314-110411_110222_dc048_v1.bsp
+"""
+const dawn_ref_110314_110411_110222_dc048_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110314-110411_110222_dc048_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110416-110723_110602_dl003_eu7.bsp
+"""
+const dawn_ref_110416_110723_110602_dl003_eu7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110416-110723_110602_dl003_eu7.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110326_da001_BGonly_v1.bsp
+"""
+const dawn_ref_110419_110503_110326_da001_BGonly_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110326_da001_BGonly_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110326_dc049_v1.bsp
+"""
+const dawn_ref_110419_110503_110326_dc049_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110326_dc049_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110404_da001_BGonly_v1.bsp
+"""
+const dawn_ref_110419_110503_110404_da001_BGonly_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110404_da001_BGonly_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110404_dc049_v1.bsp
+"""
+const dawn_ref_110419_110503_110404_dc049_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110503_110404_dc049_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110808_110326_da001_BGonly_v1.bsp
+"""
+const dawn_ref_110419_110808_110326_da001_BGonly_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110419-110808_110326_da001_BGonly_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110422-110827_100126_isb_approach.bsp
+"""
+const dawn_ref_110422_110827_100126_isb_approach_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110422-110827_100126_isb_approach.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110422-150201_100602_isb_vesta.bsp
+"""
+const dawn_ref_110422_150201_100602_isb_vesta_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110422-150201_100602_isb_vesta.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110601_110418_dl002_v2.bsp
+"""
+const dawn_ref_110502_110601_110418_dl002_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110601_110418_dl002_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110808_110418_da001_v2.bsp
+"""
+const dawn_ref_110502_110808_110418_da001_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110808_110418_da001_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110808_110418_da002_v2.bsp
+"""
+const dawn_ref_110502_110808_110418_da002_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110808_110418_da002_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110808_110426_da003_v1.bsp
+"""
+const dawn_ref_110502_110808_110426_da003_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110502-110808_110426_da003_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110510-110723_110628_dl004_eu12.bsp
+"""
+const dawn_ref_110510_110723_110628_dl004_eu12_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110510-110723_110628_dl004_eu12.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110628_110520_dl003_v1.bsp
+"""
+const dawn_ref_110531_110628_110520_dl003_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110628_110520_dl003_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110808_110520_da002_v1.bsp
+"""
+const dawn_ref_110531_110808_110520_da002_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110808_110520_da002_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110808_110520_da004_v1.bsp
+"""
+const dawn_ref_110531_110808_110520_da004_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110808_110520_da004_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110808_110601_da003_v1.bsp
+"""
+const dawn_ref_110531_110808_110601_da003_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110531-110808_110601_da003_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110626-110713_110628_dl004_v1.bsp
+"""
+const dawn_ref_110626_110713_110628_dl004_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110626-110713_110628_dl004_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110627-110921_110803_survey_v1.bsp
+"""
+const dawn_ref_110627_110921_110803_survey_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110627-110921_110803_survey_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110628-110713_110622_dl004_v1.bsp
+"""
+const dawn_ref_110628_110713_110622_dl004_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110628-110713_110622_dl004_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110628-110808_110622_da005_v1.bsp
+"""
+const dawn_ref_110628_110808_110622_da005_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110628-110808_110622_da005_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110630-110808_110628_da003_v1.bsp
+"""
+const dawn_ref_110630_110808_110628_da003_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110630-110808_110628_da003_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110713-110728_110707_dl005_v1.bsp
+"""
+const dawn_ref_110713_110728_110707_dl005_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110713-110728_110707_dl005_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110713-110808_110707_da004_v1.bsp
+"""
+const dawn_ref_110713_110808_110707_da004_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110713-110808_110707_da004_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110713-110831_110711_SurveyEnd.bsp
+"""
+const dawn_ref_110713_110831_110711_SurveyEnd_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110713-110831_110711_SurveyEnd.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110724-110808_110722_dl006_v1.bsp
+"""
+const dawn_ref_110724_110808_110722_dl006_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110724-110808_110722_dl006_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110728-110808_110722_da005_v1.bsp
+"""
+const dawn_ref_110728_110808_110722_da005_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110728-110808_110722_da005_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110728-110808_110722_dl006_v1.bsp
+"""
+const dawn_ref_110728_110808_110722_dl006_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110728-110808_110722_dl006_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110728-110925_110722_survey_v1.bsp
+"""
+const dawn_ref_110728_110925_110722_survey_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110728-110925_110722_survey_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110805-110830_100706_ort6-0.bsp
+"""
+const dawn_ref_110805_110830_100706_ort6_0_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110805-110830_100706_ort6-0.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110805-110830_100709_ort6-1.bsp
+"""
+const dawn_ref_110805_110830_100709_ort6_1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110805-110830_100709_ort6-1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110805-110830_100713_ort6-2.bsp
+"""
+const dawn_ref_110805_110830_100713_ort6_2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110805-110830_100713_ort6-2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110806-110826_110203_isb2_survey.bsp
+"""
+const dawn_ref_110806_110826_110203_isb2_survey_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110806-110826_110203_isb2_survey.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110810-110827_100324_isb_survey.bsp
+"""
+const dawn_ref_110810_110827_100324_isb_survey_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110810-110827_100324_isb_survey.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110827-110824_100324_isb_Survey2HAMO.bsp
+"""
+const dawn_ref_110827_110824_100324_isb_Survey2HAMO_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110827-110824_100324_isb_Survey2HAMO.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-110908_110825_da009_v1.bsp
+"""
+const dawn_ref_110830_110908_110825_da009_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-110908_110825_da009_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-110908_110825_dl007_v1.bsp
+"""
+const dawn_ref_110830_110908_110825_dl007_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-110908_110825_dl007_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-111029_110815_da009_v1.bsp
+"""
+const dawn_ref_110830_111029_110815_da009_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-111029_110815_da009_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-111029_110815_da_hamo_v1.bsp
+"""
+const dawn_ref_110830_111029_110815_da_hamo_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-111029_110815_da_hamo_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-111127_110815_da_hamo_v2.bsp
+"""
+const dawn_ref_110830_111127_110815_da_hamo_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110830-111127_110815_da_hamo_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110902-110909_110708_da009_v1.bsp
+"""
+const dawn_ref_110902_110909_110708_da009_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110902-110909_110708_da009_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110902-110909_110708_dl008_v1.bsp
+"""
+const dawn_ref_110902_110909_110708_dl008_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110902-110909_110708_dl008_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110908-110915_110905_dl008_v1.bsp
+"""
+const dawn_ref_110908_110915_110905_dl008_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110908-110915_110905_dl008_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110915-110919_110912_dl009_v1.bsp
+"""
+const dawn_ref_110915_110919_110912_dl009_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110915-110919_110912_dl009_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110922-111027_110203_isb2_hamo.bsp
+"""
+const dawn_ref_110922_111027_110203_isb2_hamo_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110922-111027_110203_isb2_hamo.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110923-110929_110920_dl010_v1.bsp
+"""
+const dawn_ref_110923_110929_110920_dl010_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110923-110929_110920_dl010_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110924-111025_100526_isb_hamo.bsp
+"""
+const dawn_ref_110924_111025_100526_isb_hamo_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110924-111025_100526_isb_hamo.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110927-110929_110924_dl010a_v1.bsp
+"""
+const dawn_ref_110927_110929_110924_dl010a_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_110927-110929_110924_dl010a_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111025-111203_100601_isb_hamo2lamo.bsp
+"""
+const dawn_ref_111025_111203_100601_isb_hamo2lamo_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111025-111203_100601_isb_hamo2lamo.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111102-111108_111030_dl011_v1.bsp
+"""
+const dawn_ref_111102_111108_111030_dl011_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111102-111108_111030_dl011_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111102-111124_111028_da013_v1.bsp
+"""
+const dawn_ref_111102_111124_111028_da013_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111102-111124_111028_da013_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111108-111112_111105_dl012_v1.bsp
+"""
+const dawn_ref_111108_111112_111105_dl012_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111108-111112_111105_dl012_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111112-111116_111109_dl013_v1.bsp
+"""
+const dawn_ref_111112_111116_111109_dl013_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111112-111116_111109_dl013_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111114-111214_101012_ort7_v1.bsp
+"""
+const dawn_ref_111114_111214_101012_ort7_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111114-111214_101012_ort7_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111116-111119_111113_dl014_v1.bsp
+"""
+const dawn_ref_111116_111119_111113_dl014_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111116-111119_111113_dl014_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111119-111124_111116_dl015_v1.bsp
+"""
+const dawn_ref_111119_111124_111116_dl015_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111119-111124_111116_dl015_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111121-111128_111121_dl016_v1.bsp
+"""
+const dawn_ref_111121_111128_111121_dl016_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111121-111128_111121_dl016_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111124-120106_111102_da014_v1.bsp
+"""
+const dawn_ref_111124_120106_111102_da014_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111124-120106_111102_da014_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111128-111202_111126_dl017_v1.bsp
+"""
+const dawn_ref_111128_111202_111126_dl017_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111128-111202_111126_dl017_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111202-111205_111129_dl018_v1.bsp
+"""
+const dawn_ref_111202_111205_111129_dl018_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111202-111205_111129_dl018_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111203-120408_100601_isb_lamo.bsp
+"""
+const dawn_ref_111203_120408_100601_isb_lamo_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111203-120408_100601_isb_lamo.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111205-111210_111202_dl019_v1.bsp
+"""
+const dawn_ref_111205_111210_111202_dl019_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111205-111210_111202_dl019_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111210-111212_111208_dl020_v1.bsp
+"""
+const dawn_ref_111210_111212_111208_dl020_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111210-111212_111208_dl020_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111211-120424_111102_lamo_v1.bsp
+"""
+const dawn_ref_111211_120424_111102_lamo_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111211-120424_111102_lamo_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111211-120514_111215_lamo_v2.bsp
+"""
+const dawn_ref_111211_120514_111215_lamo_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111211-120514_111215_lamo_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111217-111224_111214_dl021_v1.bsp
+"""
+const dawn_ref_111217_111224_111214_dl021_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_111217-111224_111214_dl021_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120114-120122_120111_dl023_v1.bsp
+"""
+const dawn_ref_120114_120122_120111_dl023_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120114-120122_120111_dl023_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120128-120211_120125_dl024_v1.bsp
+"""
+const dawn_ref_120128_120211_120125_dl024_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120128-120211_120125_dl024_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120310-120324_120307_dl027_v1.bsp
+"""
+const dawn_ref_120310_120324_120307_dl027_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120310-120324_120307_dl027_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120324-120407_120321_dl028_v1.bsp
+"""
+const dawn_ref_120324_120407_120321_dl028_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120324-120407_120321_dl028_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120408-120520_110601_isb_lamo2hamo2.bsp
+"""
+const dawn_ref_120408_120520_110601_isb_lamo2hamo2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120408-120520_110601_isb_lamo2hamo2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120421-120501_120418_dl030_v1.bsp
+"""
+const dawn_ref_120421_120501_120418_dl030_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120421-120501_120418_dl030_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120504_120428_dl031_v1.bsp
+"""
+const dawn_ref_120501_120504_120428_dl031_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120504_120428_dl031_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120504_120428_dl031_v2.bsp
+"""
+const dawn_ref_120501_120504_120428_dl031_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120504_120428_dl031_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120615_120425_da025_da026_VT2_v1.bsp
+"""
+const dawn_ref_120501_120615_120425_da025_da026_VT2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120615_120425_da025_da026_VT2_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120615_120426_da025_da026_VT2_v1.bsp
+"""
+const dawn_ref_120501_120615_120426_da025_da026_VT2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120501-120615_120426_da025_da026_VT2_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120504-120507_120501_dl032_v1.bsp
+"""
+const dawn_ref_120504_120507_120501_dl032_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120504-120507_120501_dl032_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120510-120513_120507_dl033_v1.bsp
+"""
+const dawn_ref_120510_120513_120507_dl033_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120510-120513_120507_dl033_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120513-120515_120510_dl034_v1.bsp
+"""
+const dawn_ref_120513_120515_120510_dl034_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120513-120515_120510_dl034_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120515-120519_120513_dl035_v1.bsp
+"""
+const dawn_ref_120515_120519_120513_dl035_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120515-120519_120513_dl035_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120519-120523_120516_dl036_v1.bsp
+"""
+const dawn_ref_120519_120523_120516_dl036_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120519-120523_120516_dl036_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120520-120609_100601_isb_hamo2.bsp
+"""
+const dawn_ref_120520_120609_100601_isb_hamo2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120520-120609_100601_isb_hamo2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120520-120901_120201_isb2_hamo2.bsp
+"""
+const dawn_ref_120520_120901_120201_isb2_hamo2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120520-120901_120201_isb2_hamo2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120520-120901_120215_hamo2.bsp
+"""
+const dawn_ref_120520_120901_120215_hamo2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120520-120901_120215_hamo2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120523-120527_120520_dl037_v1.bsp
+"""
+const dawn_ref_120523_120527_120520_dl037_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120523-120527_120520_dl037_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120527-120531_120524_dl038_v1.bsp
+"""
+const dawn_ref_120527_120531_120524_dl038_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120527-120531_120524_dl038_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120531-120604_120528_dl039_v1.bsp
+"""
+const dawn_ref_120531_120604_120528_dl039_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120531-120604_120528_dl039_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120604-120609_120601_dl040_v1.bsp
+"""
+const dawn_ref_120604_120609_120601_dl040_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120604-120609_120601_dl040_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120609-150201_100601_isb_departure.bsp
+"""
+const dawn_ref_120609_150201_100601_isb_departure_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120609-150201_100601_isb_departure.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120612-120723_111217_RC4_v1.bsp
+"""
+const dawn_ref_120612_120723_111217_RC4_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120612-120723_111217_RC4_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120615-120820_120425_hamo2_VH2_v1.bsp
+"""
+const dawn_ref_120615_120820_120425_hamo2_VH2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120615-120820_120425_hamo2_VH2_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120615-120820_120426_hamo2_VH2_v1.bsp
+"""
+const dawn_ref_120615_120820_120426_hamo2_VH2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120615-120820_120426_hamo2_VH2_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120802_120722_dl042_v1.bsp
+"""
+const dawn_ref_120725_120802_120722_dl042_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120802_120722_dl042_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120815_120627_da031_v1.bsp
+"""
+const dawn_ref_120725_120815_120627_da031_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120815_120627_da031_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120817_120628_da031_v1.bsp
+"""
+const dawn_ref_120725_120817_120628_da031_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120817_120628_da031_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120902_120625_RC4toRC6_v1.bsp
+"""
+const dawn_ref_120725_120902_120625_RC4toRC6_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120725-120902_120625_RC4toRC6_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120802-121001_120730_dl043_v1.bsp
+"""
+const dawn_ref_120802_121001_120730_dl043_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120802-121001_120730_dl043_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120803-150326_120313_RC4.bsp
+"""
+const dawn_ref_120803_150326_120313_RC4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120803-150326_120313_RC4.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120815-120901_120323_RC4toRC6_v1.bsp
+"""
+const dawn_ref_120815_120901_120323_RC4toRC6_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120815-120901_120323_RC4toRC6_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120815-120910_120627_da032_v1.bsp
+"""
+const dawn_ref_120815_120910_120627_da032_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120815-120910_120627_da032_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120815-120910_120718_da032_v1.bsp
+"""
+const dawn_ref_120815_120910_120718_da032_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120815-120910_120718_da032_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120817-121001_120813_dl044_v1.bsp
+"""
+const dawn_ref_120817_121001_120813_dl044_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120817-121001_120813_dl044_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120817-121015_120813_NewRC4_v1.bsp
+"""
+const dawn_ref_120817_121015_120813_NewRC4_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120817-121015_120813_NewRC4_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120829-121001_120825_dl045_v1.bsp
+"""
+const dawn_ref_120829_121001_120825_dl045_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_120829-121001_120825_dl045_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121001-121225_120905_dc051_v1.bsp
+"""
+const dawn_ref_121001_121225_120905_dc051_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121001-121225_120905_dc051_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121001-121231_120826_dc051_v1.bsp
+"""
+const dawn_ref_121001_121231_120826_dc051_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121001-121231_120826_dc051_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121001-150708_120911_v1.bsp
+"""
+const dawn_ref_121001_150708_120911_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121001-150708_120911_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121029-130124_121011_dc052_v1.bsp
+"""
+const dawn_ref_121029_130124_121011_dc052_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121029-130124_121011_dc052_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121127-130305_121101_dc053_v1.bsp
+"""
+const dawn_ref_121127_130305_121101_dc053_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121127-130305_121101_dc053_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121127-130305_121113_dc053_v2.bsp
+"""
+const dawn_ref_121127_130305_121113_dc053_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_121127-130305_121113_dc053_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130108-130328_121206_dc054_v1.bsp
+"""
+const dawn_ref_130108_130328_121206_dc054_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130108-130328_121206_dc054_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130205-130429_130116_dc055_v1.bsp
+"""
+const dawn_ref_130205_130429_130116_dc055_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130205-130429_130116_dc055_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130305-130528_130206_dc056_v1.bsp
+"""
+const dawn_ref_130305_130528_130206_dc056_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130305-130528_130206_dc056_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130325-130624_130306_dc057_v1.bsp
+"""
+const dawn_ref_130325_130624_130306_dc057_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130325-130624_130306_dc057_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130430-130722_130410_dc058_v1.bsp
+"""
+const dawn_ref_130430_130722_130410_dc058_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130430-130722_130410_dc058_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130528-130820_130509_dc059_v1.bsp
+"""
+const dawn_ref_130528_130820_130509_dc059_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130528-130820_130509_dc059_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130625-130917_130605_dc060_v1.bsp
+"""
+const dawn_ref_130625_130917_130605_dc060_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130625-130917_130605_dc060_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130723-131015_130702_dc061_v1.bsp
+"""
+const dawn_ref_130723_131015_130702_dc061_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130723-131015_130702_dc061_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130819-131112_130731_dc062_v1.bsp
+"""
+const dawn_ref_130819_131112_130731_dc062_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130819-131112_130731_dc062_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130917-131210_130828_dc063_v1.bsp
+"""
+const dawn_ref_130917_131210_130828_dc063_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_130917-131210_130828_dc063_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_131016-140204_130926_dc064_v1.bsp
+"""
+const dawn_ref_131016_140204_130926_dc064_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_131016-140204_130926_dc064_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_131016-140204_130926_dc065_v1.bsp
+"""
+const dawn_ref_131016_140204_130926_dc065_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_131016-140204_130926_dc065_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_131210-140303_131114_dc066_v1.bsp
+"""
+const dawn_ref_131210_140303_131114_dc066_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_131210-140303_131114_dc066_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140106-140401_131212_dc067_v1.bsp
+"""
+const dawn_ref_140106_140401_131212_dc067_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140106-140401_131212_dc067_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140204-140429_140116_dc068_v1.bsp
+"""
+const dawn_ref_140204_140429_140116_dc068_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140204-140429_140116_dc068_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140204-140429_140116_dc068_v2.bsp
+"""
+const dawn_ref_140204_140429_140116_dc068_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140204-140429_140116_dc068_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140304-140527_140212_dc069_v1.bsp
+"""
+const dawn_ref_140304_140527_140212_dc069_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140304-140527_140212_dc069_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140401-140526_140312_dc070_v1.bsp
+"""
+const dawn_ref_140401_140526_140312_dc070_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140401-140526_140312_dc070_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140429-140527_140409_dc071_v1.bsp
+"""
+const dawn_ref_140429_140527_140409_dc071_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140429-140527_140409_dc071_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140429-140801_140415_dc071_v1.bsp
+"""
+const dawn_ref_140429_140801_140415_dc071_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140429-140801_140415_dc071_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140527-140818_140507_dc072_v1.bsp
+"""
+const dawn_ref_140527_140818_140507_dc072_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140527-140818_140507_dc072_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140623-140721_140605_dc073_v1.bsp
+"""
+const dawn_ref_140623_140721_140605_dc073_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140623-140721_140605_dc073_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140623-140721_140605_dc073_v2.bsp
+"""
+const dawn_ref_140623_140721_140605_dc073_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140623-140721_140605_dc073_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140623-140721_140605_dc073_v3.bsp
+"""
+const dawn_ref_140623_140721_140605_dc073_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140623-140721_140605_dc073_v3.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140722-141013_140703_dc074_v1.bsp
+"""
+const dawn_ref_140722_141013_140703_dc074_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140722-141013_140703_dc074_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140819-141027_140731_dc075_v1.bsp
+"""
+const dawn_ref_140819_141027_140731_dc075_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140819-141027_140731_dc075_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140819-141027_140801_dc075_v2.bsp
+"""
+const dawn_ref_140819_141027_140801_dc075_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140819-141027_140801_dc075_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140916-141201_140829_dc076_v1.bsp
+"""
+const dawn_ref_140916_141201_140829_dc076_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140916-141201_140829_dc076_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140916-141201_140913_dc076_safe1_v1.bsp
+"""
+const dawn_ref_140916_141201_140913_dc076_safe1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_140916-141201_140913_dc076_safe1_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141013-141227_140925_dc077_v1.bsp
+"""
+const dawn_ref_141013_141227_140925_dc077_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141013-141227_140925_dc077_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141111-141227_141022_dc078_v1.bsp
+"""
+const dawn_ref_141111_141227_141022_dc078_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141111-141227_141022_dc078_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141111-141227_141022_dc078_v2.bsp
+"""
+const dawn_ref_141111_141227_141022_dc078_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141111-141227_141022_dc078_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141111-150422_141022_da220_v1.bsp
+"""
+const dawn_ref_141111_150422_141022_da220_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141111-150422_141022_da220_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141202-141227_141118_dl079_v1.bsp
+"""
+const dawn_ref_141202_141227_141118_dl079_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141202-141227_141118_dl079_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141221-150615_130619_CSA_v1.bsp
+"""
+const dawn_ref_141221_150615_130619_CSA_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141221-150615_130619_CSA_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141221-150615_CSA_v1.bsp
+"""
+const dawn_ref_141221_150615_CSA_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141221-150615_CSA_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141227-150226_141216_dl220_v1.bsp
+"""
+const dawn_ref_141227_150226_141216_dl220_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141227-150226_141216_dl220_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141227-150226_141216_dl220_v2.bsp
+"""
+const dawn_ref_141227_150226_141216_dl220_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_141227-150226_141216_dl220_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150101-150630_130412_Approach_RC3_v1.bsp
+"""
+const dawn_ref_150101_150630_130412_Approach_RC3_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150101-150630_130412_Approach_RC3_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150116-150511_131029_isb_approach_v1.bsp
+"""
+const dawn_ref_150116_150511_131029_isb_approach_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150116-150511_131029_isb_approach_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150125-150225_141124_da221_v1.bsp
+"""
+const dawn_ref_150125_150225_141124_da221_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150125-150225_141124_da221_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150126-150325_150119_dl221_v1.bsp
+"""
+const dawn_ref_150126_150325_150119_dl221_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150126-150325_150119_dl221_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150225-150324_141219_da222_v1.bsp
+"""
+const dawn_ref_150225_150324_141219_da222_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150225-150324_141219_da222_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150225-150324_150126_da222_v1.bsp
+"""
+const dawn_ref_150225_150324_150126_da222_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150225-150324_150126_da222_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150226-150324_150123_da222_v1.bsp
+"""
+const dawn_ref_150226_150324_150123_da222_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150226-150324_150123_da222_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150226-150520_150221_dl222_v1.bsp
+"""
+const dawn_ref_150226_150520_150221_dl222_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150226-150520_150221_dl222_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150324-150410_150225_da223_v1.bsp
+"""
+const dawn_ref_150324_150410_150225_da223_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150324-150410_150225_da223_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150324-150410_150225_dl222_v1.bsp
+"""
+const dawn_ref_150324_150410_150225_dl222_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150324-150410_150225_dl222_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150325-150410_150126_da223_v1.bsp
+"""
+const dawn_ref_150325_150410_150126_da223_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150325-150410_150126_da223_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150325-150423_150318_dl223_v1.bsp
+"""
+const dawn_ref_150325_150423_150318_dl223_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150325-150423_150318_dl223_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150411-150509_150406_dl224_v1.bsp
+"""
+const dawn_ref_150411_150509_150406_dl224_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150411-150509_150406_dl224_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150411-150509_150406_dl224_v2.bsp
+"""
+const dawn_ref_150411_150509_150406_dl224_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150411-150509_150406_dl224_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150412-150511_140106_isb_RC3_v1.bsp
+"""
+const dawn_ref_150412_150511_140106_isb_RC3_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150412-150511_140106_isb_RC3_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150412-150511_140730_ort_RC3_v1.bsp
+"""
+const dawn_ref_150412_150511_140730_ort_RC3_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150412-150511_140730_ort_RC3_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150416-150619_140206_isb_R2S_v1.bsp
+"""
+const dawn_ref_150416_150619_140206_isb_R2S_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150416-150619_140206_isb_R2S_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150528_150304_RC3_prebuild_v1.bsp
+"""
+const dawn_ref_150423_150528_150304_RC3_prebuild_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150528_150304_RC3_prebuild_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150528_150325_RC3_v1.bsp
+"""
+const dawn_ref_150423_150528_150325_RC3_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150528_150325_RC3_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150704_150317_DA400_prebuild_v1.bsp
+"""
+const dawn_ref_150423_150704_150317_DA400_prebuild_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150704_150317_DA400_prebuild_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150704_150414_DA400_v1.bsp
+"""
+const dawn_ref_150423_150704_150414_DA400_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150423-150704_150414_DA400_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150509-150529_150506_dl400_v1.bsp
+"""
+const dawn_ref_150509_150529_150506_dl400_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150509-150529_150506_dl400_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150514-150612_130417_RC3_Survey_v1.bsp
+"""
+const dawn_ref_150514_150612_130417_RC3_Survey_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150514-150612_130417_RC3_Survey_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150514-150708_130920_Survey_v1.bsp
+"""
+const dawn_ref_150514_150708_130920_Survey_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150514-150708_130920_Survey_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150525-150619_140206_isb_Survey_v1.bsp
+"""
+const dawn_ref_150525_150619_140206_isb_Survey_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150525-150619_140206_isb_Survey_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150529-150603_150524_dl401_v1.bsp
+"""
+const dawn_ref_150529_150603_150524_dl401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150529-150603_150524_dl401_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150603-150702_150506_da500_v1.bsp
+"""
+const dawn_ref_150603_150702_150506_da500_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150603-150702_150506_da500_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150603-150704_150414_DA500_prebuild_v1.bsp
+"""
+const dawn_ref_150603_150704_150414_DA500_prebuild_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150603-150704_150414_DA500_prebuild_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150612_150709_130417_Survey_v1.bsp
+"""
+const dawn_ref_150612_150709_130417_Survey_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150612_150709_130417_Survey_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150617-151005_140404_isb_CTH_v1.bsp
+"""
+const dawn_ref_150617_151005_140404_isb_CTH_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150617-151005_140404_isb_CTH_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150701-150710_150626_dl600_v1.bsp
+"""
+const dawn_ref_150701_150710_150626_dl600_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150701-150710_150626_dl600_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150701-150811_150604_da600_v1.bsp
+"""
+const dawn_ref_150701_150811_150604_da600_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150701-150811_150604_da600_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150701-151011_150701_DA700_v1.bsp
+"""
+const dawn_ref_150701_151011_150701_DA700_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150701-151011_150701_DA700_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150706-150822_130502_Survey_HAMO.bsp
+"""
+const dawn_ref_150706_150822_130502_Survey_HAMO_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150706-150822_130502_Survey_HAMO.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150706-150829_130506_Survey_HAMO_v2.bsp
+"""
+const dawn_ref_150706_150829_130506_Survey_HAMO_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150706-150829_130506_Survey_HAMO_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150708-151014_130927_S2H_HAMO_v1.bsp
+"""
+const dawn_ref_150708_151014_130927_S2H_HAMO_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150708-151014_130927_S2H_HAMO_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150714-150724_150709_dl600_v1.bsp
+"""
+const dawn_ref_150714_150724_150709_dl600_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150714-150724_150709_dl600_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150714-151031_150708_DA600_v1.bsp
+"""
+const dawn_ref_150714_151031_150708_DA600_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150714-151031_150708_DA600_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150724-150731_150720_dl601_v1.bsp
+"""
+const dawn_ref_150724_150731_150720_dl601_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150724-150731_150720_dl601_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150729-151005_140404_isb_CSH_v1.bsp
+"""
+const dawn_ref_150729_151005_140404_isb_CSH_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150729-151005_140404_isb_CSH_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150730-151009_150618_DA700_v1.bsp
+"""
+const dawn_ref_150730_151009_150618_DA700_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150730-151009_150618_DA700_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150731-150807_150727_dl602_v1.bsp
+"""
+const dawn_ref_150731_150807_150727_dl602_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150731-150807_150727_dl602_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150807-150814_150803_dl603_v1.bsp
+"""
+const dawn_ref_150807_150814_150803_dl603_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150807-150814_150803_dl603_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150813-151025_150709_DA700_v1.bsp
+"""
+const dawn_ref_150813_151025_150709_DA700_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150813-151025_150709_DA700_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150814-150816_150810_dl604_v1.bsp
+"""
+const dawn_ref_150814_150816_150810_dl604_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150814-150816_150810_dl604_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150814_151024_150811_DA700_v1.bsp
+"""
+const dawn_ref_150814_151024_150811_DA700_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150814_151024_150811_DA700_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150822-151021_130502_HAMO.bsp
+"""
+const dawn_ref_150822_151021_130502_HAMO_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150822-151021_130502_HAMO.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150829-151117_130506_HAMO_v2.bsp
+"""
+const dawn_ref_150829_151117_130506_HAMO_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_150829-151117_130506_HAMO_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151001-160603_140528_isb_CTL_CSL_v1.bsp
+"""
+const dawn_ref_151001_160603_140528_isb_CTL_CSL_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151001-160603_140528_isb_CTL_CSL_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151003-160603_140611_isb_CTL_CSL_v2.bsp
+"""
+const dawn_ref_151003_160603_140611_isb_CTL_CSL_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151003-160603_140611_isb_CTL_CSL_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151022-151215_150925_v1.bsp
+"""
+const dawn_ref_151022_151215_150925_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151022-151215_150925_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151022-151220_151014_DA800_v2.bsp
+"""
+const dawn_ref_151022_151220_151014_DA800_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151022-151220_151014_DA800_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151022-151220_151014_DA801_v1.bsp
+"""
+const dawn_ref_151022_151220_151014_DA801_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151022-151220_151014_DA801_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151023-151030_151019_dl800_v1.bsp
+"""
+const dawn_ref_151023_151030_151019_dl800_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151023-151030_151019_dl800_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151024-160331_131004_H2L_LAMO_v1.bsp
+"""
+const dawn_ref_151024_160331_131004_H2L_LAMO_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151024-160331_131004_H2L_LAMO_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151030-151106_151026_dl801_v1.bsp
+"""
+const dawn_ref_151030_151106_151026_dl801_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151030-151106_151026_dl801_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151106-151113_151102_dl802_v1.bsp
+"""
+const dawn_ref_151106_151113_151102_dl802_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151106-151113_151102_dl802_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151113-151120_151109_dl803_v1.bsp
+"""
+const dawn_ref_151113_151120_151109_dl803_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151113-151120_151109_dl803_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151120-151126_151116_dl804_v1.bsp
+"""
+const dawn_ref_151120_151126_151116_dl804_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151120-151126_151116_dl804_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151126-151203_151123_dl805_v1.bsp
+"""
+const dawn_ref_151126_151203_151123_dl805_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151126-151203_151123_dl805_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151203-151207_151130_dl806_v1.bsp
+"""
+const dawn_ref_151203_151207_151130_dl806_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151203-151207_151130_dl806_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151211-151216_151209_dl807_v1.bsp
+"""
+const dawn_ref_151211_151216_151209_dl807_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151211-151216_151209_dl807_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151014_DA900_prebuild.bsp
+"""
+const dawn_ref_151214_160702_151014_DA900_prebuild_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151014_DA900_prebuild.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151027_DA900_prebuild_v2.bsp
+"""
+const dawn_ref_151214_160702_151027_DA900_prebuild_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151027_DA900_prebuild_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151117_DA900_v1.bsp
+"""
+const dawn_ref_151214_160702_151117_DA900_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151117_DA900_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151209_DA901_v1.bsp
+"""
+const dawn_ref_151214_160702_151209_DA901_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160702_151209_DA901_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA902_v1.bsp
+"""
+const dawn_ref_151214_160831_160106_DA902_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA902_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA903_prebuild.bsp
+"""
+const dawn_ref_151214_160831_160106_DA903_prebuild_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA903_prebuild.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA903_v1.bsp
+"""
+const dawn_ref_151214_160831_160106_DA903_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA903_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA905_prebuild.bsp
+"""
+const dawn_ref_151214_160831_160106_DA905_prebuild_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA905_prebuild.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA905_v1.bsp
+"""
+const dawn_ref_151214_160831_160106_DA905_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160106_DA905_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160223_DA906_v1.bsp
+"""
+const dawn_ref_151214_160831_160223_DA906_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160223_DA906_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160316_DA907_v1.bsp
+"""
+const dawn_ref_151214_160831_160316_DA907_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160316_DA907_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160419_DA908_v1.bsp
+"""
+const dawn_ref_151214_160831_160419_DA908_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160419_DA908_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160503_DA909_v1.bsp
+"""
+const dawn_ref_151214_160831_160503_DA909_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160503_DA909_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160524_DA910_prebuild.bsp
+"""
+const dawn_ref_151214_160831_160524_DA910_prebuild_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-160831_160524_DA910_prebuild.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-170101_160711_DA911_prebuild.bsp
+"""
+const dawn_ref_151214_170101_160711_DA911_prebuild_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-170101_160711_DA911_prebuild.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-170101_160713_DA911_va.bsp
+"""
+const dawn_ref_151214_170101_160713_DA911_va_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151214-170101_160713_DA911_va.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151231-160109_151228_dl900_v1.bsp
+"""
+const dawn_ref_151231_160109_151228_dl900_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_151231-160109_151228_dl900_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160123-160201_160120_dl901_v1.bsp
+"""
+const dawn_ref_160123_160201_160120_dl901_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160123-160201_160120_dl901_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160123_160810_130528_LAMO.bsp
+"""
+const dawn_ref_160123_160810_130528_LAMO_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160123_160810_130528_LAMO.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160124_160811_130510_LAMO.bsp
+"""
+const dawn_ref_160124_160811_130510_LAMO_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160124_160811_130510_LAMO.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160309-160318_160306_dl903_v1.bsp
+"""
+const dawn_ref_160309_160318_160306_dl903_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160309-160318_160306_dl903_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160401-160410_160328_dl905_v1.bsp
+"""
+const dawn_ref_160401_160410_160328_dl905_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160401-160410_160328_dl905_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160517-160526_160511_dl907_v1.bsp
+"""
+const dawn_ref_160517_160526_160511_dl907_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160517-160526_160511_dl907_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160609-160618_160606_dl908_v1.bsp
+"""
+const dawn_ref_160609_160618_160606_dl908_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160609-160618_160606_dl908_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160619-160904_160721_DA911_runout.bsp
+"""
+const dawn_ref_160619_160904_160721_DA911_runout_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160619-160904_160721_DA911_runout.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160710-160819_160615_DA950_v1.bsp
+"""
+const dawn_ref_160710_160819_160615_DA950_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160710-160819_160615_DA950_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160731-160808_160726_dl910_v1.bsp
+"""
+const dawn_ref_160731_160808_160726_dl910_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160731-160808_160726_dl910_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160808-160927_160721_DA911_alternate.bsp
+"""
+const dawn_ref_160808_160927_160721_DA911_alternate_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160808-160927_160721_DA911_alternate.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160902-161206_160804_DA921_v1.bsp
+"""
+const dawn_ref_160902_161206_160804_DA921_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160902-161206_160804_DA921_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160902-161206_160804_DA921_v2.bsp
+"""
+const dawn_ref_160902_161206_160804_DA921_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160902-161206_160804_DA921_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160902-161206_160830_dl921_v1.bsp
+"""
+const dawn_ref_160902_161206_160830_dl921_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160902-161206_160830_dl921_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160909-161206_160906_dl922_v1.bsp
+"""
+const dawn_ref_160909_161206_160906_dl922_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160909-161206_160906_dl922_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160916-161206_160913_dl923_v1.bsp
+"""
+const dawn_ref_160916_161206_160913_dl923_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160916-161206_160913_dl923_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160923-161206_160920_dl924_v1.bsp
+"""
+const dawn_ref_160923_161206_160920_dl924_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160923-161206_160920_dl924_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160930-161206_160927_dl925_v1.bsp
+"""
+const dawn_ref_160930_161206_160927_dl925_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160930-161206_160927_dl925_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160930-161206_160928_da922_da923_v1.bsp
+"""
+const dawn_ref_160930_161206_160928_da922_da923_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160930-161206_160928_da922_da923_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160930-161206_160928_dl925_v2.bsp
+"""
+const dawn_ref_160930_161206_160928_dl925_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_160930-161206_160928_dl925_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161006-161206_160906_DA922_v1.bsp
+"""
+const dawn_ref_161006_161206_160906_DA922_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161006-161206_160906_DA922_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161006-170731_161128_DA926_v1.bsp
+"""
+const dawn_ref_161006_170731_161128_DA926_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161006-170731_161128_DA926_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161101-170703_161017_DA924_v2.bsp
+"""
+const dawn_ref_161101_170703_161017_DA924_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161101-170703_161017_DA924_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161101-180701_161109_DA925_v1.bsp
+"""
+const dawn_ref_161101_180701_161109_DA925_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161101-180701_161109_DA925_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161103-170331_170104_DA926_Pass1.bsp
+"""
+const dawn_ref_161103_170331_170104_DA926_Pass1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161103-170331_170104_DA926_Pass1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161103-170331_170104_DA927_preBuild.bsp
+"""
+const dawn_ref_161103_170331_170104_DA927_preBuild_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161103-170331_170104_DA927_preBuild.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161104-161206_161031_dl926_v1.bsp
+"""
+const dawn_ref_161104_161206_161031_dl926_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161104-161206_161031_dl926_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161104-161206_161031_dl926_v2.bsp
+"""
+const dawn_ref_161104_161206_161031_dl926_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161104-161206_161031_dl926_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161104-170703_161011_DA924_v1.bsp
+"""
+const dawn_ref_161104_170703_161011_DA924_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161104-170703_161011_DA924_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161118-161206_161114_dl927_v1.bsp
+"""
+const dawn_ref_161118_161206_161114_dl927_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_161118-161206_161114_dl927_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170202-170814_170127_DA927_v1.bsp
+"""
+const dawn_ref_170202_170814_170127_DA927_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170202-170814_170127_DA927_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170223-170715_170413_da930_v1.bsp
+"""
+const dawn_ref_170223_170715_170413_da930_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170223-170715_170413_da930_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170223-170815_170214_dl928_v1.bsp
+"""
+const dawn_ref_170223_170815_170214_dl928_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170223-170815_170214_dl928_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170418_170302_da928_v1.bsp
+"""
+const dawn_ref_170323_170418_170302_da928_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170418_170302_da928_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170418_170302_da928_v2.bsp
+"""
+const dawn_ref_170323_170418_170302_da928_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170418_170302_da928_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170418_170302_da928_v3.bsp
+"""
+const dawn_ref_170323_170418_170302_da928_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170418_170302_da928_v3.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170919_170622_da932_v1.bsp
+"""
+const dawn_ref_170323_170919_170622_da932_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-170919_170622_da932_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-171015_170726_da933_v1.bsp
+"""
+const dawn_ref_170323_171015_170726_da933_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-171015_170726_da933_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-171104_170726_da933_v2.bsp
+"""
+const dawn_ref_170323_171104_170726_da933_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170323-171104_170726_da933_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170324-170701_170208_v1.bsp
+"""
+const dawn_ref_170324_170701_170208_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170324-170701_170208_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170403-170414_170329_dl929_v1.bsp
+"""
+const dawn_ref_170403_170414_170329_dl929_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170403-170414_170329_dl929_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170422-170429_170418_dl930_v1.bsp
+"""
+const dawn_ref_170422_170429_170418_dl930_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170422-170429_170418_dl930_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170422-170429_170418_dl930_v2.bsp
+"""
+const dawn_ref_170422_170429_170418_dl930_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170422-170429_170418_dl930_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170526_170316_da929_v1.bsp
+"""
+const dawn_ref_170428_170526_170316_da929_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170526_170316_da929_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170526_170329_da929_v1.bsp
+"""
+const dawn_ref_170428_170526_170329_da929_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170526_170329_da929_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170613_170412_da929_v1.bsp
+"""
+const dawn_ref_170428_170613_170412_da929_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170613_170412_da929_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170630_170413_da929_v1.bsp
+"""
+const dawn_ref_170428_170630_170413_da929_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170428-170630_170413_da929_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170517-171101_170503_DA930_v1.bsp
+"""
+const dawn_ref_170517_171101_170503_DA930_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170517-171101_170503_DA930_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170525-170620_170518_dl931_v1.bsp
+"""
+const dawn_ref_170525_170620_170518_dl931_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170525-170620_170518_dl931_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170525-190820_170518_da931_v1.bsp
+"""
+const dawn_ref_170525_190820_170518_da931_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170525-190820_170518_da931_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170620-170628_170614_dl932a_v1.bsp
+"""
+const dawn_ref_170620_170628_170614_dl932a_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170620-170628_170614_dl932a_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170620-170628_170614_dl932m_v1.bsp
+"""
+const dawn_ref_170620_170628_170614_dl932m_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170620-170628_170614_dl932m_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170719-170818_170712_dl933_v1.bsp
+"""
+const dawn_ref_170719_170818_170712_dl933_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170719-170818_170712_dl933_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170915-171013_170911_dl935_v1.bsp
+"""
+const dawn_ref_170915_171013_170911_dl935_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170915-171013_170911_dl935_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170915-171117_170825_da934_v1.bsp
+"""
+const dawn_ref_170915_171117_170825_da934_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_170915-171117_170825_da934_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171018-171117_170927_da935_v1.bsp
+"""
+const dawn_ref_171018_171117_170927_da935_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171018-171117_170927_da935_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171018-171117_171011_dl936_v1.bsp
+"""
+const dawn_ref_171018_171117_171011_dl936_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171018-171117_171011_dl936_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171117-171216_171024_da936_v1.bsp
+"""
+const dawn_ref_171117_171216_171024_da936_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171117-171216_171024_da936_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171214-180202_171108_da937_v1.bsp
+"""
+const dawn_ref_171214_180202_171108_da937_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_171214-180202_171108_da937_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180202-180310_180111_da938_v1.bsp
+"""
+const dawn_ref_180202_180310_180111_da938_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180202-180310_180111_da938_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180310-180416_180215_da939_v1.bsp
+"""
+const dawn_ref_180310_180416_180215_da939_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180310-180416_180215_da939_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180608_180419_da941_v2.bsp
+"""
+const dawn_ref_180412_180608_180419_da941_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180608_180419_da941_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180618_180423_da941_v3.bsp
+"""
+const dawn_ref_180412_180618_180423_da941_v3_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180618_180423_da941_v3.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180624_180419_da941_v1.bsp
+"""
+const dawn_ref_180412_180624_180419_da941_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180624_180419_da941_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180710_180320_da940_v1.bsp
+"""
+const dawn_ref_180412_180710_180320_da940_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180710_180320_da940_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180930_180315_da942_v1.bsp
+"""
+const dawn_ref_180412_180930_180315_da942_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180930_180315_da942_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180930_180410_da942practice_v1.bsp
+"""
+const dawn_ref_180412_180930_180410_da942practice_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180930_180410_da942practice_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180930_180417_da942_v1.bsp
+"""
+const dawn_ref_180412_180930_180417_da942_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180412-180930_180417_da942_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180427_180409_dl937_v1.bsp
+"""
+const dawn_ref_180416_180427_180409_dl937_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180427_180409_dl937_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180427_180409_dl937_v2.bsp
+"""
+const dawn_ref_180416_180427_180409_dl937_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180427_180409_dl937_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180807_180214_da940_v1.bsp
+"""
+const dawn_ref_180416_180807_180214_da940_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180807_180214_da940_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180930_180227_da940_v1.bsp
+"""
+const dawn_ref_180416_180930_180227_da940_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180416-180930_180227_da940_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180427-180505_180423_dl938_v1.bsp
+"""
+const dawn_ref_180427_180505_180423_dl938_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180427-180505_180423_dl938_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180505-180511_180430_dl939_v1.bsp
+"""
+const dawn_ref_180505_180511_180430_dl939_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180505-180511_180430_dl939_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180511-180514_180507_dl940_v1.bsp
+"""
+const dawn_ref_180511_180514_180507_dl940_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180511-180514_180507_dl940_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180531-180608_180528_dl941_v1.bsp
+"""
+const dawn_ref_180531_180608_180528_dl941_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180531-180608_180528_dl941_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180608-180930_180503_da942_v1.bsp
+"""
+const dawn_ref_180608_180930_180503_da942_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180608-180930_180503_da942_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180619-180621_180617_dl942_v1.bsp
+"""
+const dawn_ref_180619_180621_180617_dl942_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180619-180621_180617_dl942_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180619-180621_180618_dl942_v2.bsp
+"""
+const dawn_ref_180619_180621_180618_dl942_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180619-180621_180618_dl942_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180622-180922_180710_da944_v2.bsp
+"""
+const dawn_ref_180622_180922_180710_da944_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180622-180922_180710_da944_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180708-180804_180517_da943_v1.bsp
+"""
+const dawn_ref_180708_180804_180517_da943_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180708-180804_180517_da943_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180708-180804_180517_da943_v2.bsp
+"""
+const dawn_ref_180708_180804_180517_da943_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180708-180804_180517_da943_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180804-180901_180619_da944_v1.bsp
+"""
+const dawn_ref_180804_180901_180619_da944_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180804-180901_180619_da944_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180804-180901_180627_da944_v1.bsp
+"""
+const dawn_ref_180804_180901_180627_da944_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_180804-180901_180627_da944_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_DA029_DA030_v1.bsp
+"""
+const dawn_ref_DA029_DA030_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_DA029_DA030_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_pre-da001_v1.bsp
+"""
+const dawn_ref_pre_da001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ref_pre-da001_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_seq_100102-111019_090701_v1_vst1.bsp
+"""
+const dawn_seq_100102_111019_090701_v1_vst1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_seq_100102-111019_090701_v1_vst1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ssd_110713_120725_v01.bsp
+"""
+const dawn_ssd_110713_120725_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_ssd_110713_120725_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_struct_v1.bsp
+"""
+const dawn_struct_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/dawn_struct_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de405s.bsp
+"""
+const de405s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de405s.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de421.bsp
+"""
+const de421_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de421.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de432.bsp
+"""
+const de432_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de432.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de432s.bsp
+"""
+const de432s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/de432s.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/optg_vesta_survey_prebuild.bsp
+"""
+const optg_vesta_survey_prebuild_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/optg_vesta_survey_prebuild.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_110211.bsp
+"""
+const sb_ceres_110211_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_110211.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_120710.bsp
+"""
+const sb_ceres_120710_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_120710.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_140724.bsp
+"""
+const sb_ceres_140724_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_140724.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_grv_171219.bsp
+"""
+const sb_ceres_grv_171219_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_ceres_grv_171219.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_071107.bsp
+"""
+const sb_vesta_071107_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_071107.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_110211.bsp
+"""
+const sb_vesta_110211_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_110211.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_nav_120628.bsp
+"""
+const sb_vesta_nav_120628_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_nav_120628.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_ssd_120716.bsp
+"""
+const sb_vesta_ssd_120716_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/sb_vesta_ssd_120716.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/survey_041713.bsp
+"""
+const survey_041713_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/survey_041713.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/test_spk.bsp
+"""
+const test_spk_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/test_spk.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/traj_for_Carol_n_Steve.bsp
+"""
+const traj_for_Carol_n_Steve_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/traj_for_Carol_n_Steve.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/bad_dawn_ql_110828-111013_110914_v2.bsp
+"""
+const bad_dawn_ql_110828_111013_110914_v2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/bad_dawn_ql_110828-111013_110914_v2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/bad_name_dawn_rec_170722-170603_170714_v1.bsp
+"""
+const bad_name_dawn_rec_170722_170603_170714_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/bad_name_dawn_rec_170722-170603_170714_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/ho_m20km.bsp
+"""
+const ho_m20km_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/ho_m20km.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/ho_p20km.bsp
+"""
+const ho_p20km_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/ho_p20km.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/ho_ref.bsp
+"""
+const ho_ref_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/ho_ref.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/test.bsp
+"""
+const test_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/test.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/test1.bsp
+"""
+const test1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/kernels/spk/zzarchive/test1.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/ren/dawn_ren.tf
+"""
+const dawn_ren_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/ren/dawn_ren.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/smalhotra/vesta_site_lon0lat0.bsp
+"""
+const vesta_site_lon0lat0_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/smalhotra/vesta_site_lon0lat0.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/smalhotra/vesta_site_lon0lat0.tf
+"""
+const vesta_site_lon0lat0_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/smalhotra/vesta_site_lon0lat0.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v08_beta_zero.tf
+"""
+const dawn_v08_beta_zero_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v08_beta_zero.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v09_draft.tf
+"""
+const dawn_v09_draft_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v09_draft.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v10_draft.tf
+"""
+const dawn_v10_draft_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v10_draft.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v10_draft2.tf
+"""
+const dawn_v10_draft2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v10_draft2.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v10_draft4.tf
+"""
+const dawn_v10_draft4_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v10_draft4.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v12_draft.tf
+"""
+const dawn_v12_draft_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v12_draft.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v12_draft2.tf
+"""
+const dawn_v12_draft2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_v12_draft2.tf")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v03.tpc
+"""
+const dawn_vesta_v03_tpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v03.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v04.tpc
+"""
+const dawn_vesta_v04_tpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v04.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v05.tpc
+"""
+const dawn_vesta_v05_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v05.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v06.tpc
+"""
+const dawn_vesta_v06_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/DAWN/misc/updates/dawn_vesta_v06.tpc")
+
 export
     Dawn_ephem_2018_bsp,
     L2H2_d016_HAMO2_O5_bsp,
-    bad_dawn_ql_110828_111013_110914_v2_bsp_spk,
-    bad_name_dawn_rec_170722_170603_170714_v1_bsp_spk,
+    bad_dawn_ql_110828_111013_110914_v2_bsp,
+    bad_name_dawn_rec_170722_170603_170714_v1_bsp,
     dawn_110924_111025_100526_isb_hamo_bsp,
     dawn_ceres_dlr170713_v1_tpc,
+    dawn_ceres_dlr_m135_p00p06m3p0_v1_bds,
+    dawn_ceres_dlr_m135_p00p06p0p3_v1_bds,
     dawn_ceres_dlr_m135_p00p12m6m3_v1_bds,
     dawn_ceres_dlr_m135_p00p12p3p6_v1_bds,
-    dawn_ceres_dlr_m135_p00p36m9m6_v1_bds_spk,
+    dawn_ceres_dlr_m135_p00p36m9m6_v1_bds,
     dawn_ceres_dlr_m135_p00p36p6p9_v1_bds,
     dawn_ceres_dlr_m135_p06p12m3p0_v1_bds,
     dawn_ceres_dlr_m135_p06p12p0p3_v1_bds,
     dawn_ceres_dlr_m135_p12p18m3p0_v1_bds,
     dawn_ceres_dlr_m135_p12p18p0p3_v1_bds,
     dawn_ceres_dlr_m135_p12p24m6m3_v1_bds,
-    dawn_ceres_dlr_m135_p12p24p3p6_v1_bds_spk,
+    dawn_ceres_dlr_m135_p12p24p3p6_v1_bds,
     dawn_ceres_dlr_m135_p18p24m3p0_v1_bds,
     dawn_ceres_dlr_m135_p18p24p0p3_v1_bds,
     dawn_ceres_dlr_m135_p24p30m3p0_v1_bds,
@@ -15057,7 +15059,7 @@ export
     dawn_ceres_dlr_m135_p24p36m6m3_v1_bds,
     dawn_ceres_dlr_m135_p24p36p3p6_v1_bds,
     dawn_ceres_dlr_m135_p30p36m3p0_v1_bds,
-    dawn_ceres_dlr_m135_p30p36p0p3_v1_bds_spk,
+    dawn_ceres_dlr_m135_p30p36p0p3_v1_bds,
     dawn_ceres_grv171219_v1_tpc,
     dawn_ceres_grv_icq0128_v1_bds,
     dawn_ceres_grv_icq0128_v2_bds,
@@ -15067,21 +15069,21 @@ export
     dawn_ceres_grv_icq0512_v2_bds,
     dawn_ceres_grv_icq1024_v1_bds,
     dawn_ceres_grv_icq1024_v2_bds,
-    dawn_ceres_grv_m100_m00p03m0p3_v1_bds_spk,
-    dawn_ceres_grv_m100_m00p03m3p0_v1_bds_spk,
-    dawn_ceres_grv_m100_m00p03m6m3_v1_bds_spk,
-    dawn_ceres_grv_m100_m00p03m9m6_v1_bds_spk,
+    dawn_ceres_grv_m100_m00p03m0p3_v1_bds,
+    dawn_ceres_grv_m100_m00p03m3p0_v1_bds,
+    dawn_ceres_grv_m100_m00p03m6m3_v1_bds,
+    dawn_ceres_grv_m100_m00p03m9m6_v1_bds,
     dawn_ceres_grv_m100_m00p03p3p6_v1_bds,
     dawn_ceres_grv_m100_m00p03p6p9_v1_bds,
     dawn_ceres_grv_m100_m03p00m0p3_v1_bds,
     dawn_ceres_grv_m100_m03p00m3p0_v1_bds,
-    dawn_ceres_grv_m100_m03p00m6m3_v1_bds_spk,
+    dawn_ceres_grv_m100_m03p00m6m3_v1_bds,
     dawn_ceres_grv_m100_m03p00m9m6_v1_bds,
     dawn_ceres_grv_m100_m03p00p3p6_v1_bds,
     dawn_ceres_grv_m100_m03p00p6p9_v1_bds,
     dawn_ceres_grv_m100_m06m03m0p3_v1_bds,
     dawn_ceres_grv_m100_m06m03m3p0_v1_bds,
-    dawn_ceres_grv_m100_m06m03m6m3_v1_bds_spk,
+    dawn_ceres_grv_m100_m06m03m6m3_v1_bds,
     dawn_ceres_grv_m100_m06m03m9m6_v1_bds,
     dawn_ceres_grv_m100_m06m03p3p6_v1_bds,
     dawn_ceres_grv_m100_m06m03p6p9_v1_bds,
@@ -15095,28 +15097,27 @@ export
     dawn_ceres_grv_m100_m12m09m3p0_v1_bds,
     dawn_ceres_grv_m100_m12m09m6m3_v1_bds,
     dawn_ceres_grv_m100_m12m09m9m6_v1_bds,
-    dawn_ceres_grv_m100_m12m09m9m6_v1_bds,
     dawn_ceres_grv_m100_m12m09p3p6_v1_bds,
     dawn_ceres_grv_m100_m12m09p6p9_v1_bds,
     dawn_ceres_grv_m100_m15m12m0p3_v1_bds,
     dawn_ceres_grv_m100_m15m12m3p0_v1_bds,
-    dawn_ceres_grv_m100_m15m12m6m3_v1_bds_spk,
-    dawn_ceres_grv_m100_m15m12m9m6_v1_bds_spk,
+    dawn_ceres_grv_m100_m15m12m6m3_v1_bds,
+    dawn_ceres_grv_m100_m15m12m9m6_v1_bds,
     dawn_ceres_grv_m100_m15m12p3p6_v1_bds,
     dawn_ceres_grv_m100_m15m12p6p9_v1_bds,
     dawn_ceres_grv_m100_m18m15m0p3_v1_bds,
     dawn_ceres_grv_m100_m18m15m3p0_v1_bds,
     dawn_ceres_grv_m100_m18m15m6m3_v1_bds,
     dawn_ceres_grv_m100_m18m15m9m6_v1_bds,
-    dawn_ceres_grv_m100_m18m15p3p6_v1_bds_spk,
+    dawn_ceres_grv_m100_m18m15p3p6_v1_bds,
     dawn_ceres_grv_m100_m18m15p6p9_v1_bds,
-    dawn_ceres_grv_m100_north_cap_v1_bds_spk,
+    dawn_ceres_grv_m100_north_cap_v1_bds,
     dawn_ceres_grv_m100_p03p06m0p3_v1_bds,
     dawn_ceres_grv_m100_p03p06m3p0_v1_bds,
     dawn_ceres_grv_m100_p03p06m6m3_v1_bds,
     dawn_ceres_grv_m100_p03p06m9m6_v1_bds,
     dawn_ceres_grv_m100_p03p06p3p6_v1_bds,
-    dawn_ceres_grv_m100_p03p06p6p9_v1_bds_spk,
+    dawn_ceres_grv_m100_p03p06p6p9_v1_bds,
     dawn_ceres_grv_m100_p06p09m0p3_v1_bds,
     dawn_ceres_grv_m100_p06p09m3p0_v1_bds,
     dawn_ceres_grv_m100_p06p09m6m3_v1_bds,
@@ -15124,100 +15125,101 @@ export
     dawn_ceres_grv_m100_p06p09p3p6_v1_bds,
     dawn_ceres_grv_m100_p06p09p6p9_v1_bds,
     dawn_ceres_grv_m100_p09p12m0p3_v1_bds,
-    dawn_ceres_grv_m100_p09p12m3p0_v1_bds_spk,
-    dawn_ceres_grv_m100_p09p12m6m3_v1_bds_spk,
-    dawn_ceres_grv_m100_p09p12m9m6_v1_bds_spk,
+    dawn_ceres_grv_m100_p09p12m3p0_v1_bds,
+    dawn_ceres_grv_m100_p09p12m6m3_v1_bds,
+    dawn_ceres_grv_m100_p09p12m9m6_v1_bds,
+    dawn_ceres_grv_m100_p09p12p3p6_v1_bds,
     dawn_ceres_grv_m100_p09p12p6p9_v1_bds,
     dawn_ceres_grv_m100_p12p15m0p3_v1_bds,
     dawn_ceres_grv_m100_p12p15m3p0_v1_bds,
     dawn_ceres_grv_m100_p12p15m6m3_v1_bds,
-    dawn_ceres_grv_m100_p12p15m9m6_v1_bds_spk,
-    dawn_ceres_grv_m100_p12p15p3p6_v1_bds_spk,
+    dawn_ceres_grv_m100_p12p15m9m6_v1_bds,
+    dawn_ceres_grv_m100_p12p15p3p6_v1_bds,
     dawn_ceres_grv_m100_p12p15p6p9_v1_bds,
     dawn_ceres_grv_m100_p15p18m0p3_v1_bds,
     dawn_ceres_grv_m100_p15p18m3p0_v1_bds,
     dawn_ceres_grv_m100_p15p18m6m3_v1_bds,
     dawn_ceres_grv_m100_p15p18m9m6_v1_bds,
     dawn_ceres_grv_m100_p15p18p3p6_v1_bds,
-    dawn_ceres_grv_m100_p15p18p6p9_v1_bds_spk,
-    dawn_ceres_grv_m100_south_cap_v1_bds_spk,
-    dawn_ceres_grv_m300_m00p09m0p9_v1_bds_spk,
-    dawn_ceres_grv_m300_m00p09m9p0_v1_bds_spk,
+    dawn_ceres_grv_m100_p15p18p6p9_v1_bds,
+    dawn_ceres_grv_m100_south_cap_v1_bds,
+    dawn_ceres_grv_m300_m00p09m0p9_v1_bds,
+    dawn_ceres_grv_m300_m00p09m9p0_v1_bds,
     dawn_ceres_grv_m300_m09p00m0p9_v1_bds,
     dawn_ceres_grv_m300_m09p00m9p0_v1_bds,
     dawn_ceres_grv_m300_m18m09m0p9_v1_bds,
     dawn_ceres_grv_m300_m18m09m9p0_v1_bds,
     dawn_ceres_grv_m300_north_cap_v1_bds,
-    dawn_ceres_grv_m300_p09p18m0p9_v1_bds_spk,
-    dawn_ceres_grv_m300_p09p18m9p0_v1_bds_spk,
-    dawn_ceres_grv_m300_south_cap_v1_bds_spk,
+    dawn_ceres_grv_m300_p09p18m0p9_v1_bds,
+    dawn_ceres_grv_m300_p09p18m9p0_v1_bds,
+    dawn_ceres_grv_m300_south_cap_v1_bds,
     dawn_ceres_v00_tf,
     dawn_ceres_v00_tpc,
     dawn_ceres_v01_tpc,
     dawn_ceres_v02_tpc,
     dawn_ceres_v03_tpc,
     dawn_ceres_v04_tpc,
-    dawn_ceres_v05_tpc_spk,
+    dawn_ceres_v05_tpc,
     dawn_ceres_v06_tpc,
     dawn_dsn_071104_090101_071023_v1_bsp,
     dawn_grv_150204_150424_171219_v1_bsp,
-    dawn_grv_150204_150424_171219_v1_bsp,
     dawn_grv_150424_150701_171219_v1_bsp,
-    dawn_grv_150813_151023_171219_v1_bsp_spk,
+    dawn_grv_150813_151023_171219_v1_bsp,
     dawn_grv_151213_160902_171219_v1_bsp,
     dawn_m_150403_150714_150604_v1_bsp,
     dawn_mga_090214_090222_081217_case0_bsp,
     dawn_mga_090214_090222_081217_case1_bsp,
-    dawn_mga_090214_090222_081217_case1_bsp,
     dawn_mga_090214_090222_081217_case2_bsp,
-    dawn_mga_090214_090222_081217_case3_bsp_spk,
-    dawn_mga_090214_090222_081217_case4_bsp_spk,
-    dawn_mga_090214_090222_081217_case5_bsp_spk,
+    dawn_mga_090214_090222_081217_case3_bsp,
+    dawn_mga_090214_090222_081217_case4_bsp,
+    dawn_mga_090214_090222_081217_case5_bsp,
     dawn_mga_090214_090222_081217_case6_bsp,
     dawn_mga_090214_090222_090107_case10_bsp,
     dawn_mga_090214_090222_090107_case11_bsp,
     dawn_mga_090214_090222_090107_case12_bsp,
     dawn_mga_090214_090222_090107_case7_bsp,
     dawn_mga_090214_090222_090107_case8_bsp,
-    dawn_p_181030_431030_181211_v1_bsp_spk,
+    dawn_mga_090214_090222_090107_case9_bsp,
+    dawn_p_181030_431030_181211_v1_bsp,
     dawn_ql_110416_110723_110602_v1_bsp,
     dawn_ql_110416_110723_110608_v1_bsp,
-    dawn_ql_110510_110723_110614_v1_bsp_spk,
+    dawn_ql_110510_110723_110614_v1_bsp,
     dawn_ql_110510_110723_110621_v1_bsp,
     dawn_ql_110510_110723_110628_v2_bsp,
     dawn_ql_110601_110807_110706_v1_bsp,
     dawn_ql_110601_110822_110713_v1_bsp,
     dawn_ql_110601_110822_110717_v1_bsp,
-    dawn_ql_110614_110807_110704_v1_bsp_spk,
-    dawn_ql_110614_110822_110719_v1_bsp_spk,
-    dawn_ql_110614_110822_110721_v1_bsp_spk,
-    dawn_ql_110627_110921_110801_v1_bsp_spk,
+    dawn_ql_110614_110807_110704_v1_bsp,
+    dawn_ql_110614_110822_110719_v1_bsp,
+    dawn_ql_110614_110822_110721_v1_bsp,
+    dawn_ql_110627_110921_110801_v1_bsp,
     dawn_ql_110627_110921_110803_v1_bsp,
     dawn_ql_110713_110925_110808_v1_bsp,
     dawn_ql_110802_110921_110816_v1_bsp,
     dawn_ql_110802_110921_110824_v1_bsp,
-    dawn_ql_110802_110921_110902_v1_bsp_spk,
-    dawn_ql_110828_110921_110912_v1_bsp_spk,
-    dawn_ql_110828_111013_110918_v1_bsp_spk,
-    dawn_ql_110918_111013_110923_v1_bsp_spk,
+    dawn_ql_110802_110921_110902_v1_bsp,
+    dawn_ql_110828_110921_110912_v1_bsp,
+    dawn_ql_110828_111013_110918_v1_bsp,
+    dawn_ql_110918_111013_110923_v1_bsp,
     dawn_ql_110923_111031_110926_v1_bsp,
     dawn_ql_110923_111031_110928_v1_bsp,
     dawn_ql_110928_111031_111003_v2_bsp,
-    dawn_ql_110928_111109_111007_v1_bsp_spk,
+    dawn_ql_110928_111109_111007_v1_bsp,
     dawn_ql_110928_111109_111012_v1_bsp,
-    dawn_ql_110928_111126_111017_v1_bsp_spk,
-    dawn_ql_111011_111124_111019_v1_bsp_spk,
+    dawn_ql_110928_111126_111017_v1_bsp,
+    dawn_ql_111011_111124_111019_v1_bsp,
     dawn_ql_111011_111124_111024_v1_bsp,
     dawn_ql_111018_111124_111102_v1_bsp,
     dawn_ql_111018_111203_111108_v1_bsp,
     dawn_ql_111026_111215_111120_v1_bsp,
-    dawn_ql_111111_111215_111120_v1_bsp_spk,
+    dawn_ql_111111_111215_111120_v1_bsp,
     dawn_ql_111118_111231_111201_v1_bsp,
     dawn_ql_111125_111231_111204_v1_bsp,
     dawn_ql_111204_111231_111205_v1_bsp,
     dawn_ql_111205_111231_111214_v1_bsp,
     dawn_ql_111205_120112_111213_v1_bsp,
     dawn_ql_111205_120130_111220_v1_bsp,
+    dawn_ql_111205_120130_111221_v1_bsp,
     dawn_ql_111212_120130_111227_v1_bsp,
     dawn_ql_111218_120228_120103_v1_bsp,
     dawn_ql_111218_120228_120110_v1_bsp,
@@ -15226,61 +15228,61 @@ export
     dawn_ql_120117_120228_120118_v2_bsp,
     dawn_ql_120117_120228_120119_v1_bsp,
     dawn_ql_120117_120228_120124_v1_bsp,
-    dawn_ql_120117_120228_120125_v1_bsp_spk,
+    dawn_ql_120117_120228_120125_v1_bsp,
     dawn_ql_120117_120228_120131_v1_bsp,
-    dawn_ql_120117_120330_120207_v1_bsp_spk,
-    dawn_ql_120117_120330_120208_v1_bsp_spk,
+    dawn_ql_120117_120330_120207_v1_bsp,
+    dawn_ql_120117_120330_120208_v1_bsp,
     dawn_ql_120117_120330_120214_v1_bsp,
     dawn_ql_120131_120330_120215_v1_bsp,
     dawn_ql_120131_120330_120221_v1_bsp,
     dawn_ql_120223_120406_120223_v1_bsp,
-    dawn_ql_120224_120406_120228_v1_bsp_spk,
-    dawn_ql_120224_120413_120308_v1_bsp_spk,
-    dawn_ql_120224_120413_120313_v1_bsp_spk,
-    dawn_ql_120305_120413_120320_v1_bsp_spk,
+    dawn_ql_120224_120406_120228_v1_bsp,
+    dawn_ql_120224_120413_120308_v1_bsp,
+    dawn_ql_120224_120413_120313_v1_bsp,
+    dawn_ql_120305_120413_120320_v1_bsp,
     dawn_ql_120319_120501_120327_v1_bsp,
     dawn_ql_120319_120501_120328_v1_bsp,
     dawn_ql_120319_120509_120403_v1_bsp,
     dawn_ql_120319_120509_120404_v1_bsp,
-    dawn_ql_120319_120509_120411_v1_bsp_spk,
+    dawn_ql_120319_120509_120411_v1_bsp,
     dawn_ql_120331_120509_120417_v1_bsp,
-    dawn_ql_120409_120509_120424_v1_bsp_spk,
-    dawn_ql_120409_120509_120425_v1_bsp_spk,
+    dawn_ql_120409_120509_120424_v1_bsp,
+    dawn_ql_120409_120509_120425_v1_bsp,
     dawn_ql_120421_120509_120501_v1_bsp,
-    dawn_ql_120421_120511_120504_v1_bsp_spk,
+    dawn_ql_120421_120511_120504_v1_bsp,
     dawn_ql_120421_120511_120507_v1_bsp,
     dawn_ql_120502_120531_120513_v1_bsp,
     dawn_ql_120502_120531_120516_v1_bsp,
     dawn_ql_120512_120614_120524_v1_bsp,
     dawn_ql_120518_120614_120527_v1_bsp,
-    dawn_ql_120522_120726_120606_v1_bsp_dsk,
+    dawn_ql_120522_120726_120605_v1_bsp,
+    dawn_ql_120522_120726_120606_v1_bsp,
     dawn_ql_120530_120726_120611_v1_bsp,
     dawn_ql_120606_120726_120614_v1_bsp,
     dawn_ql_120606_120726_120618_v1_bsp,
     dawn_ql_120606_120726_120620_v1_bsp,
     dawn_ql_120613_120726_120622_v1_bsp,
     dawn_ql_120620_120726_120627_v1_bsp,
-    dawn_ql_120620_120726_120628_v1_bsp_dsk,
-    dawn_ql_120620_120814_120703_v1_bsp_dsk,
+    dawn_ql_120620_120726_120628_v1_bsp,
+    dawn_ql_120620_120814_120703_v1_bsp,
     dawn_ql_120627_120726_120709_v1_bsp,
     dawn_ql_120627_120726_120710_v1_bsp,
     dawn_ql_120627_120726_120712_v1_bsp,
     dawn_ql_120627_120826_120718_v1_bsp,
     dawn_ql_120627_120826_120719_v1_bsp,
-    dawn_ql_120724_120826_120810_v1_bsp_dsk,
+    dawn_ql_120724_120826_120810_v1_bsp,
+    dawn_ql_120724_120929_120824_v1_bsp,
     dawn_ql_120809_121114_120918_v1_bsp,
     dawn_ql_120826_121114_120925_v1_bsp,
     dawn_ql_120826_121114_121002_v1_bsp,
     dawn_ql_120826_121129_121009_v1_bsp,
-    dawn_ql_120826_121129_121009_v1_bsp,
     dawn_ql_121001_121224_121113_v1_bsp,
-    dawn_ql_121001_130124_121204_v1_bsp_dsk,
-    dawn_ql_121001_130124_121211_v1_bsp_dsk,
+    dawn_ql_121001_130124_121204_v1_bsp,
+    dawn_ql_121001_130124_121211_v1_bsp,
     dawn_ql_121029_130205_130108_v1_bsp,
     dawn_ql_121126_130405_130205_v1_bsp,
     dawn_ql_121126_130405_130305_v1_bsp,
     dawn_ql_130108_130605_130326_v1_bsp,
-    dawn_ql_130108_130605_130329_v1_bsp,
     dawn_ql_130108_130605_130329_v1_bsp,
     dawn_ql_130108_130708_130505_v1_bsp,
     dawn_ql_130304_130808_130625S_v1_bsp,
@@ -15289,75 +15291,74 @@ export
     dawn_ql_130527_131114_130917_v1_bsp,
     dawn_ql_130722_131214_131022_v1_bsp,
     dawn_ql_130722_131214_131112_v1_bsp,
-    dawn_ql_130916_140214_131210_v2_bsp_dsk,
-    dawn_ql_131205_140314_140204_v1_bsp_dsk,
+    dawn_ql_130916_140214_131210_v2_bsp,
+    dawn_ql_131205_140314_140204_v1_bsp,
     dawn_ql_131205_140414_140225_v1_bsp,
     dawn_ql_131205_140514_140401_v1_bsp,
     dawn_ql_140204_140614_140429_v1_bsp,
-    dawn_ql_140204_140614_140429_v1_bsp,
     dawn_ql_140204_140714_140603_v1_bsp,
-    dawn_ql_140303_140729_140624_v1_bsp_dsk,
-    dawn_ql_140331_140929_140722_v1_bsp_dsk,
-    dawn_ql_140428_141029_140819_v1_bsp_dsk,
-    dawn_ql_140527_141129_140917_v1_bsp_dsk,
+    dawn_ql_140303_140729_140624_v1_bsp,
+    dawn_ql_140331_140929_140722_v1_bsp,
+    dawn_ql_140428_141029_140819_v1_bsp,
+    dawn_ql_140527_141129_140917_v1_bsp,
     dawn_ql_140623_141129_141013_v1_bsp,
     dawn_ql_140915_141229_141111_v1_bsp,
     dawn_ql_140915_141229_141203_v1_bsp,
     dawn_ql_140915_141229_141208_v1_bsp,
     dawn_ql_141110_150129_141230_v1_bsp,
     dawn_ql_141202_150129_150112_v1_bsp,
-    dawn_ql_141202_150228_150105_v1_bsp_dsk,
-    dawn_ql_141202_150228_150112_v2_bsp_dsk,
+    dawn_ql_141202_150228_150105_v1_bsp,
+    dawn_ql_141202_150228_150112_v2_bsp,
     dawn_ql_141202_150430_150126_v1_bsp,
     dawn_ql_141202_150430_150202_v1_bsp,
     dawn_ql_141202_150430_150209_v2_bsp,
     dawn_ql_141226_150430_150217_v1_bsp,
     dawn_ql_150125_150528_150408_v1_bsp,
-    dawn_ql_150125_150531_150318_v1_bsp_dsk,
-    dawn_ql_150125_150531_150325_v1_bsp_dsk,
+    dawn_ql_150125_150531_150318_v1_bsp,
+    dawn_ql_150125_150531_150325_v1_bsp,
     dawn_ql_150125_150531_150331_v1_bsp,
     dawn_ql_150125_150531_150406_v1_bsp,
     dawn_ql_150125_150531_150413_v1_bsp,
     dawn_ql_150219_150531_150415_v1_bsp,
     dawn_ql_150219_150531_150423_v1_bsp,
-    dawn_ql_150403_150614_150427_v1_bsp_dsk,
+    dawn_ql_150403_150614_150427_v1_bsp,
     dawn_ql_150403_150714_150604_v1_bsp,
     dawn_ql_150424_150531_OD150511_v1_bsp,
     dawn_ql_150424_150614_OD150430_v1_bsp,
     dawn_ql_150424_150614_OD150504_v1_bsp,
     dawn_ql_150424_150614_OD150506_v1_bsp,
     dawn_ql_150424_150614_OD150512_v1_bsp,
-    dawn_ql_150424_150614_OD150518_v1_bsp_dsk,
-    dawn_ql_150424_150714_150604_v1_bsp_dsk,
+    dawn_ql_150424_150614_OD150518_v1_bsp,
+    dawn_ql_150424_150714_150604_v1_bsp,
     dawn_ql_150424_150714_OD150601_v1_bsp,
     dawn_ql_150603_150714_150610_v1_bsp,
-    dawn_ql_150603_150714_150611_v1_bsp,
     dawn_ql_150603_150714_150611_v1_bsp,
     dawn_ql_150603_150714_150615_v1_bsp,
     dawn_ql_150603_150714_150617_v1_bsp,
     dawn_ql_150603_150714_150622_v1_bsp,
-    dawn_ql_150603_150714_150626_v1_bsp_dsk,
+    dawn_ql_150603_150714_150626_v1_bsp,
     dawn_ql_150603_150804_150626_v2_bsp,
     dawn_ql_150702_150904_150720_v1_bsp,
     dawn_ql_150702_150904_150720_v2_bsp,
     dawn_ql_150702_150904_150727_v2_bsp,
     dawn_ql_150702_150904_150803_v2_bsp,
     dawn_ql_150723_150830_150814_v1_bsp,
-    dawn_ql_150723_150929_150814_v1_bsp_dsk,
+    dawn_ql_150723_150929_150814_v1_bsp,
     dawn_ql_150730_150919_150820_v1_bsp,
     dawn_ql_150730_151028_150824_v1_bsp,
     dawn_ql_150813_151028_150827_v1_bsp,
     dawn_ql_150813_151028_150831_v1_bsp,
     dawn_ql_150813_151028_150903_v1_bsp,
     dawn_ql_150813_151028_150908_v1_bsp,
-    dawn_ql_150813_151028_150911_v1_bsp_dsk,
+    dawn_ql_150813_151028_150911_v1_bsp,
+    dawn_ql_150813_151028_150914_v1_bsp,
     dawn_ql_150829_151028_150917_v1_bsp,
     dawn_ql_150829_151028_150923_v1_bsp,
     dawn_ql_150829_151030_150929_v1_bsp,
     dawn_ql_150829_151030_151005_v1_bsp,
     dawn_ql_150829_151030_151009_v1_bsp,
     dawn_ql_150829_151030_151015_v1_bsp,
-    dawn_ql_151001_151112_151026_v2_bsp_fk,
+    dawn_ql_151001_151112_151026_v2_bsp,
     dawn_ql_151001_151119_151102_v2_bsp,
     dawn_ql_151001_151126_151019_v2_bsp,
     dawn_ql_151001_151203_151116_v3_bsp,
@@ -15389,11 +15390,13 @@ export
     dawn_ql_160201_160417_160303_v1_bsp,
     dawn_ql_160201_160421_160307_v1_noOMM_bsp,
     dawn_ql_160201_160425_160311_v1_bsp,
-    dawn_ql_160201_160428_160314_v1_bsp_spk,
+    dawn_ql_160201_160428_160314_v1_bsp,
+    dawn_ql_160201_160501_160317_v1_bsp,
     dawn_ql_160201_160506_160322_v1_bsp,
     dawn_ql_160224_160509_160325_v1_bsp,
     dawn_ql_160224_160514_160328_v4_bsp,
     dawn_ql_160224_160514_160330_v1_bsp,
+    dawn_ql_160224_160514_160330_v1_noOMM5_bsp,
     dawn_ql_160224_160519_160404_v1_bsp,
     dawn_ql_160224_160520_160405_v1_bsp,
     dawn_ql_160224_160523_160408_v1_bsp,
@@ -15402,7 +15405,7 @@ export
     dawn_ql_160319_160606_160422_v1_bsp,
     dawn_ql_160319_160610_160426_v1_bsp,
     dawn_ql_160319_160612_160428_v1_bsp,
-    dawn_ql_160319_160617_160503_v1_bsp_spk,
+    dawn_ql_160319_160617_160503_v1_bsp,
     dawn_ql_160319_160620_160506_v1_bsp,
     dawn_ql_160319_160625_160511_v1_bsp,
     dawn_ql_160319_160626_160512_v1_bsp,
@@ -15410,15 +15413,15 @@ export
     dawn_ql_160319_160630_160516_v1_WITHOMM7_bsp,
     dawn_ql_160319_160630_160516_v2_bsp,
     dawn_ql_160410_160704_160520_v1_bsp,
-    dawn_ql_160410_160709_160525_v1_bsp_spk,
-    dawn_ql_160410_160714_160530_v1_bsp_spk,
+    dawn_ql_160410_160709_160525_v1_bsp,
+    dawn_ql_160410_160714_160530_v1_bsp,
     dawn_ql_160504_160718_160603_v1_bsp,
     dawn_ql_160504_160723_160606_v2_bsp,
     dawn_ql_160504_160723_160608_v1_bsp,
     dawn_ql_160504_160728_160613_v1_bsp,
     dawn_ql_160504_160801_160617_v1_bsp,
     dawn_ql_160504_160806_160622_v1_bsp,
-    dawn_ql_160504_160811_160627_v1_bsp_spk,
+    dawn_ql_160504_160811_160627_v1_bsp,
     dawn_ql_160504_160815_160701_v1_bsp,
     dawn_ql_160504_160820_160706_v1_bsp,
     dawn_ql_160504_160826_160712_v1_bsp,
@@ -15445,7 +15448,7 @@ export
     dawn_ql_160810_161121_161007_v1_bsp,
     dawn_ql_160810_161127_161013_v1_bsp,
     dawn_ql_160810_161201_161017_v1_bsp,
-    dawn_ql_160810_161201_161017_v2_bsp_spk,
+    dawn_ql_160810_161201_161017_v2_bsp,
     dawn_ql_160810_161205_161021_v1_bsp,
     dawn_ql_160810_161215_161031_v1_bsp,
     dawn_ql_160810_170110_161031_v2_bsp,
@@ -15469,7 +15472,7 @@ export
     dawn_ql_170323_170815_170614_StayAtCeres_bsp,
     dawn_ql_170323_170825_170626_v1_bsp,
     dawn_ql_170323_170908_170710_v1_bsp,
-    dawn_ql_170323_171015_170717_v1_bsp_spk,
+    dawn_ql_170323_171015_170717_v1_bsp,
     dawn_ql_170619_171210_170911_v1_bsp,
     dawn_ql_170723_180514_171115_v1_bsp,
     dawn_ql_170918_180730_180131_v1_bsp,
@@ -15492,7 +15495,6 @@ export
     dawn_ql_180622_180916_180703_v1_bsp,
     dawn_ql_180622_180918_180705_v1_bsp,
     dawn_ql_180622_180922_180709_v1_bsp,
-    dawn_ql_180622_180922_180709_v1_bsp,
     dawn_ql_180629_180926_180713_v1_bsp,
     dawn_ql_180706_180929_180716_v1_bsp,
     dawn_ql_180706_180930_180717_v1_bsp,
@@ -15505,26 +15507,26 @@ export
     dawn_ql_180712_181015_180801_v1_bsp,
     dawn_ql_180719_181016_180802_v1_bsp,
     dawn_ql_180719_181020_180806_v1_bsp,
-    dawn_ql_180719_181020_180806_v1_bsp,
     dawn_ql_180724_181021_180807_v1_bsp,
     dawn_ql_180724_181024_180810_v2_bsp,
     dawn_ql_180728_181027_180813_v1_bsp,
     dawn_ql_180728_181030_180816_v1_bsp,
     dawn_ql_180728_181201_180814_v1_bsp,
     dawn_ql_180803_181103_180820_v1_bsp,
-    dawn_ql_180803_181104_180821_v1_bsp_spk,
-    dawn_ql_180810_181107_180824_v1_bsp_spk,
+    dawn_ql_180803_181104_180821_v1_bsp,
+    dawn_ql_180810_181107_180824_v1_bsp,
     dawn_ql_180810_181110_180827_v1_bsp,
-    dawn_ql_180817_181113_180830_v1_bsp_dsk,
+    dawn_ql_180817_181113_180830_v1_bsp,
     dawn_ql_180817_181118_180904_v1_bsp,
     dawn_ql_180817_181119_180905_v1_bsp,
     dawn_ql_180823_181124_180910_v1_bsp,
     dawn_ql_180823_181125_180911_v1_bsp,
     dawn_ql_180828_181126_180912_v1_bsp,
     dawn_ql_180902_181201_180917_v1_bsp,
-    dawn_ql_180902_190101_180918_v1_bsp_dsk,
+    dawn_ql_180902_190101_180918_v1_bsp,
     dawn_ql_180906_190102_180919_v1_bsp,
     dawn_ql_180906_190107_180924_v1_bsp,
+    dawn_ql_180911_190109_180926_v1_bsp,
     dawn_ql_180915_190114_181001_v1_bsp,
     dawn_ql_180915_190115_181002_v1_bsp,
     dawn_ql_180915_190117_181004_v1_bsp,
@@ -15532,8 +15534,8 @@ export
     dawn_ql_180928_190124_181011_v1_bsp,
     dawn_ql_181004_190128_181015_v1_bsp,
     dawn_ql_181004_190129_181016_v1_bsp,
-    dawn_ql_181004_190131_181018_v1_bsp_dsk,
-    dawn_ql_181009_190204_181022_v1_bsp_dsk,
+    dawn_ql_181004_190131_181018_v1_bsp,
+    dawn_ql_181009_190204_181022_v1_bsp,
     dawn_ql_181009_190206_181024_v1_bsp,
     dawn_ql_181013_190211_181029_v1_bsp,
     dawn_ql_181013_190213_181031_v1_bsp,
@@ -15542,8 +15544,8 @@ export
     dawn_rec_071201_080205_081218_v1_bsp,
     dawn_rec_080205_080325_081218_v1_bsp,
     dawn_rec_080325_080503_081218_v1_bsp,
-    dawn_rec_080503_080601_081218_v1_bsp_dsk,
-    dawn_rec_080601_080718_081218_v1_bsp_dsk,
+    dawn_rec_080503_080601_081218_v1_bsp,
+    dawn_rec_080601_080718_081218_v1_bsp,
     dawn_rec_080718_080910_081218_v1_bsp,
     dawn_rec_080910_081022_090218_v1_bsp,
     dawn_rec_081022_081109_090218_v1_bsp,
@@ -15551,8 +15553,9 @@ export
     dawn_rec_090228_090501_090702_v1_bsp,
     dawn_rec_090501_090801_090916_v1_bsp,
     dawn_rec_090801_090915_090923_v1_bsp,
-    dawn_rec_090915_091201_091202_v1_bsp_dsk,
+    dawn_rec_090915_091201_091202_v1_bsp,
     dawn_rec_091201_100208_100209_v1_bsp,
+    dawn_rec_100208_100316_100323_v1_bsp,
     dawn_rec_100316_100413_100422_v1_bsp,
     dawn_rec_100413_100622_100830_v1_bsp,
     dawn_rec_100622_100824_100830_v1_bsp,
@@ -15588,7 +15591,6 @@ export
     dawn_rec_160505_160527_160810_v1_bsp,
     dawn_rec_160527_160617_160809_v1_bsp,
     dawn_rec_160617_160902_161109_v1_bsp,
-    dawn_rec_160617_160902_161109_v1_bsp_dsk,
     dawn_rec_160902_160902_170124_v1_bsp,
     dawn_rec_160902_161104_170124_v1_bsp,
     dawn_rec_161104_170222_170713_v1_bsp,
@@ -15610,7 +15612,7 @@ export
     dawn_ref_080124_080427_071218_v1_bsp,
     dawn_ref_080220_080609_080125_v1_bsp,
     dawn_ref_080220_150201_080125_v1_bsp,
-    dawn_ref_080331_080721_080303_v2_bsp_fk,
+    dawn_ref_080331_080721_080303_v2_bsp,
     dawn_ref_080512_080825_080415_v1_bsp,
     dawn_ref_080616_080929_080516_v1_bsp,
     dawn_ref_080721_081030_080619_v1_bsp,
@@ -15639,13 +15641,14 @@ export
     dawn_ref_090810_091116_090716_dc030_v1_bsp,
     dawn_ref_090831_091208_090807_dc031_v1_bsp,
     dawn_ref_090921_091229_090821_dc032_v1_bsp,
-    dawn_ref_091130_100308_091102_dc034_v1_bsp_spk,
+    dawn_ref_091026_100201_090928_dc033_v1_bsp,
+    dawn_ref_091130_100308_091102_dc034_v1_bsp,
     dawn_ref_100104_100413_091203_dc035_v1_bsp,
     dawn_ref_100208_100517_100108_dc036_v1_bsp,
     dawn_ref_100315_100622_100216_dc037_v1_bsp,
     dawn_ref_100419_100802_100322_dc038_v1_bsp,
     dawn_ref_100517_100830_100416_dc039_v1_bsp,
-    dawn_ref_100615_100927_100525_dc040_v1_bsp_spk,
+    dawn_ref_100615_100927_100525_dc040_v1_bsp,
     dawn_ref_100719_101026_100625_dc041_v1_bsp,
     dawn_ref_100823_101206_100726_dc042_v1_bsp,
     dawn_ref_100927_110104_100831_dc043_v1_bsp,
@@ -15657,147 +15660,147 @@ export
     dawn_ref_110214_110806_110203_isb2_approach_bsp,
     dawn_ref_110314_110411_110222_dc048_v1_bsp,
     dawn_ref_110416_110723_110602_dl003_eu7_bsp,
-    dawn_ref_110419_110503_110326_da001_BGonly_v1_bsp_spk,
-    dawn_ref_110419_110503_110326_dc049_v1_bsp_spk,
-    dawn_ref_110419_110503_110404_da001_BGonly_v1_bsp_spk,
+    dawn_ref_110419_110503_110326_da001_BGonly_v1_bsp,
+    dawn_ref_110419_110503_110326_dc049_v1_bsp,
+    dawn_ref_110419_110503_110404_da001_BGonly_v1_bsp,
     dawn_ref_110419_110503_110404_dc049_v1_bsp,
     dawn_ref_110419_110808_110326_da001_BGonly_v1_bsp,
     dawn_ref_110422_110827_100126_isb_approach_bsp,
-    dawn_ref_110422_150201_100602_isb_vesta_bsp_spk,
+    dawn_ref_110422_150201_100602_isb_vesta_bsp,
     dawn_ref_110502_110601_110418_dl002_v2_bsp,
-    dawn_ref_110502_110808_110418_da001_v2_bsp_spk,
+    dawn_ref_110502_110808_110418_da001_v2_bsp,
     dawn_ref_110502_110808_110418_da002_v2_bsp,
-    dawn_ref_110502_110808_110426_da003_v1_bsp_spk,
+    dawn_ref_110502_110808_110426_da003_v1_bsp,
     dawn_ref_110510_110723_110628_dl004_eu12_bsp,
     dawn_ref_110531_110628_110520_dl003_v1_bsp,
-    dawn_ref_110531_110808_110520_da002_v1_bsp_spk,
-    dawn_ref_110531_110808_110520_da004_v1_bsp_spk,
+    dawn_ref_110531_110808_110520_da002_v1_bsp,
+    dawn_ref_110531_110808_110520_da004_v1_bsp,
     dawn_ref_110531_110808_110601_da003_v1_bsp,
     dawn_ref_110626_110713_110628_dl004_v1_bsp,
-    dawn_ref_110627_110921_110803_survey_v1_bsp_spk,
+    dawn_ref_110627_110921_110803_survey_v1_bsp,
     dawn_ref_110628_110713_110622_dl004_v1_bsp,
-    dawn_ref_110628_110808_110622_da005_v1_bsp_spk,
-    dawn_ref_110628_110808_110622_da005_v1_bsp_spk,
-    dawn_ref_110630_110808_110628_da003_v1_bsp_spk,
-    dawn_ref_110713_110728_110707_dl005_v1_bsp_spk,
+    dawn_ref_110628_110808_110622_da005_v1_bsp,
+    dawn_ref_110630_110808_110628_da003_v1_bsp,
+    dawn_ref_110713_110728_110707_dl005_v1_bsp,
     dawn_ref_110713_110808_110707_da004_v1_bsp,
     dawn_ref_110713_110831_110711_SurveyEnd_bsp,
     dawn_ref_110724_110808_110722_dl006_v1_bsp,
     dawn_ref_110728_110808_110722_da005_v1_bsp,
     dawn_ref_110728_110808_110722_dl006_v1_bsp,
-    dawn_ref_110728_110925_110722_survey_v1_bsp_spk,
+    dawn_ref_110728_110925_110722_survey_v1_bsp,
     dawn_ref_110805_110830_100706_ort6_0_bsp,
     dawn_ref_110805_110830_100709_ort6_1_bsp,
     dawn_ref_110805_110830_100713_ort6_2_bsp,
     dawn_ref_110806_110826_110203_isb2_survey_bsp,
     dawn_ref_110810_110827_100324_isb_survey_bsp,
     dawn_ref_110827_110824_100324_isb_Survey2HAMO_bsp,
-    dawn_ref_110830_110908_110825_da009_v1_bsp_spk,
-    dawn_ref_110830_110908_110825_dl007_v1_bsp_spk,
+    dawn_ref_110830_110908_110825_da009_v1_bsp,
+    dawn_ref_110830_110908_110825_dl007_v1_bsp,
     dawn_ref_110830_111029_110815_da009_v1_bsp,
     dawn_ref_110830_111029_110815_da_hamo_v1_bsp,
     dawn_ref_110830_111127_110815_da_hamo_v2_bsp,
-    dawn_ref_110902_110909_110708_da009_v1_bsp_spk,
+    dawn_ref_110902_110909_110708_da009_v1_bsp,
     dawn_ref_110902_110909_110708_dl008_v1_bsp,
-    dawn_ref_110908_110915_110905_dl008_v1_bsp_spk,
+    dawn_ref_110908_110915_110905_dl008_v1_bsp,
     dawn_ref_110915_110919_110912_dl009_v1_bsp,
     dawn_ref_110922_111027_110203_isb2_hamo_bsp,
-    dawn_ref_110923_110929_110920_dl010_v1_bsp_spk,
+    dawn_ref_110923_110929_110920_dl010_v1_bsp,
     dawn_ref_110924_111025_100526_isb_hamo_bsp,
-    dawn_ref_110927_110929_110924_dl010a_v1_bsp_spk,
-    dawn_ref_111025_111203_100601_isb_hamo2lamo_bsp_spk,
-    dawn_ref_111102_111108_111030_dl011_v1_bsp_spk,
+    dawn_ref_110927_110929_110924_dl010a_v1_bsp,
+    dawn_ref_111025_111203_100601_isb_hamo2lamo_bsp,
+    dawn_ref_111102_111108_111030_dl011_v1_bsp,
     dawn_ref_111102_111124_111028_da013_v1_bsp,
     dawn_ref_111108_111112_111105_dl012_v1_bsp,
-    dawn_ref_111112_111116_111109_dl013_v1_bsp_spk,
+    dawn_ref_111112_111116_111109_dl013_v1_bsp,
     dawn_ref_111114_111214_101012_ort7_v1_bsp,
-    dawn_ref_111116_111119_111113_dl014_v1_bsp_spk,
-    dawn_ref_111119_111124_111116_dl015_v1_bsp_spk,
+    dawn_ref_111116_111119_111113_dl014_v1_bsp,
+    dawn_ref_111119_111124_111116_dl015_v1_bsp,
     dawn_ref_111121_111128_111121_dl016_v1_bsp,
-    dawn_ref_111124_120106_111102_da014_v1_bsp_spk,
+    dawn_ref_111124_120106_111102_da014_v1_bsp,
     dawn_ref_111128_111202_111126_dl017_v1_bsp,
-    dawn_ref_111202_111205_111129_dl018_v1_bsp_spk,
-    dawn_ref_111203_120408_100601_isb_lamo_bsp_spk,
+    dawn_ref_111202_111205_111129_dl018_v1_bsp,
+    dawn_ref_111203_120408_100601_isb_lamo_bsp,
     dawn_ref_111205_111210_111202_dl019_v1_bsp,
     dawn_ref_111210_111212_111208_dl020_v1_bsp,
-    dawn_ref_111211_120424_111102_lamo_v1_bsp_spk,
+    dawn_ref_111211_120424_111102_lamo_v1_bsp,
     dawn_ref_111211_120514_111215_lamo_v2_bsp,
     dawn_ref_111217_111224_111214_dl021_v1_bsp,
-    dawn_ref_120114_120122_120111_dl023_v1_bsp_spk,
+    dawn_ref_120114_120122_120111_dl023_v1_bsp,
     dawn_ref_120128_120211_120125_dl024_v1_bsp,
-    dawn_ref_120310_120324_120307_dl027_v1_bsp_spk,
+    dawn_ref_120310_120324_120307_dl027_v1_bsp,
     dawn_ref_120324_120407_120321_dl028_v1_bsp,
     dawn_ref_120408_120520_110601_isb_lamo2hamo2_bsp,
     dawn_ref_120421_120501_120418_dl030_v1_bsp,
     dawn_ref_120501_120504_120428_dl031_v1_bsp,
-    dawn_ref_120501_120504_120428_dl031_v2_bsp_spk,
+    dawn_ref_120501_120504_120428_dl031_v2_bsp,
     dawn_ref_120501_120615_120425_da025_da026_VT2_v1_bsp,
-    dawn_ref_120501_120615_120426_da025_da026_VT2_v1_bsp_spk,
+    dawn_ref_120501_120615_120426_da025_da026_VT2_v1_bsp,
     dawn_ref_120504_120507_120501_dl032_v1_bsp,
     dawn_ref_120510_120513_120507_dl033_v1_bsp,
     dawn_ref_120513_120515_120510_dl034_v1_bsp,
     dawn_ref_120515_120519_120513_dl035_v1_bsp,
     dawn_ref_120519_120523_120516_dl036_v1_bsp,
     dawn_ref_120520_120609_100601_isb_hamo2_bsp,
-    dawn_ref_120520_120901_120201_isb2_hamo2_bsp_spk,
+    dawn_ref_120520_120901_120201_isb2_hamo2_bsp,
     dawn_ref_120520_120901_120215_hamo2_bsp,
-    dawn_ref_120523_120527_120520_dl037_v1_bsp_spk,
+    dawn_ref_120523_120527_120520_dl037_v1_bsp,
     dawn_ref_120527_120531_120524_dl038_v1_bsp,
     dawn_ref_120531_120604_120528_dl039_v1_bsp,
     dawn_ref_120604_120609_120601_dl040_v1_bsp,
     dawn_ref_120609_150201_100601_isb_departure_bsp,
-    dawn_ref_120612_120723_111217_RC4_v1_bsp_spk,
+    dawn_ref_120612_120723_111217_RC4_v1_bsp,
     dawn_ref_120615_120820_120425_hamo2_VH2_v1_bsp,
-    dawn_ref_120615_120820_120426_hamo2_VH2_v1_bsp_spk,
+    dawn_ref_120615_120820_120426_hamo2_VH2_v1_bsp,
     dawn_ref_120725_120802_120722_dl042_v1_bsp,
     dawn_ref_120725_120815_120627_da031_v1_bsp,
     dawn_ref_120725_120817_120628_da031_v1_bsp,
     dawn_ref_120725_120902_120625_RC4toRC6_v1_bsp,
     dawn_ref_120802_121001_120730_dl043_v1_bsp,
     dawn_ref_120803_150326_120313_RC4_bsp,
-    dawn_ref_120815_120901_120323_RC4toRC6_v1_bsp_spk,
+    dawn_ref_120815_120901_120323_RC4toRC6_v1_bsp,
     dawn_ref_120815_120910_120627_da032_v1_bsp,
     dawn_ref_120815_120910_120718_da032_v1_bsp,
-    dawn_ref_120817_121001_120813_dl044_v1_bsp_dsk,
-    dawn_ref_120817_121015_120813_NewRC4_v1_bsp_dsk,
-    dawn_ref_120829_121001_120825_dl045_v1_bsp_dsk,
-    dawn_ref_121001_121225_120905_dc051_v1_bsp_spk,
-    dawn_ref_121001_121231_120826_dc051_v1_bsp_spk,
+    dawn_ref_120817_121001_120813_dl044_v1_bsp,
+    dawn_ref_120817_121015_120813_NewRC4_v1_bsp,
+    dawn_ref_120829_121001_120825_dl045_v1_bsp,
+    dawn_ref_121001_121225_120905_dc051_v1_bsp,
+    dawn_ref_121001_121231_120826_dc051_v1_bsp,
     dawn_ref_121001_150708_120911_v1_bsp,
-    dawn_ref_121029_130124_121011_dc052_v1_bsp_spk,
+    dawn_ref_121029_130124_121011_dc052_v1_bsp,
     dawn_ref_121127_130305_121101_dc053_v1_bsp,
-    dawn_ref_121127_130305_121113_dc053_v2_bsp_dsk,
-    dawn_ref_130108_130328_121206_dc054_v1_bsp_spk,
-    dawn_ref_130205_130429_130116_dc055_v1_bsp_spk,
-    dawn_ref_130305_130528_130206_dc056_v1_bsp_spk,
+    dawn_ref_121127_130305_121113_dc053_v2_bsp,
+    dawn_ref_130108_130328_121206_dc054_v1_bsp,
+    dawn_ref_130205_130429_130116_dc055_v1_bsp,
+    dawn_ref_130305_130528_130206_dc056_v1_bsp,
     dawn_ref_130325_130624_130306_dc057_v1_bsp,
     dawn_ref_130430_130722_130410_dc058_v1_bsp,
     dawn_ref_130528_130820_130509_dc059_v1_bsp,
-    dawn_ref_130528_130820_130509_dc059_v1_bsp_dsk,
-    dawn_ref_130625_130917_130605_dc060_v1_bsp_dsk,
-    dawn_ref_130723_131015_130702_dc061_v1_bsp_spk,
-    dawn_ref_130819_131112_130731_dc062_v1_bsp_spk,
-    dawn_ref_130917_131210_130828_dc063_v1_bsp_spk,
+    dawn_ref_130625_130917_130605_dc060_v1_bsp,
+    dawn_ref_130723_131015_130702_dc061_v1_bsp,
+    dawn_ref_130819_131112_130731_dc062_v1_bsp,
+    dawn_ref_130917_131210_130828_dc063_v1_bsp,
     dawn_ref_131016_140204_130926_dc064_v1_bsp,
     dawn_ref_131016_140204_130926_dc065_v1_bsp,
     dawn_ref_131210_140303_131114_dc066_v1_bsp,
-    dawn_ref_140106_140401_131212_dc067_v1_bsp_dsk,
-    dawn_ref_140204_140429_140116_dc068_v1_bsp_dsk,
-    dawn_ref_140204_140429_140116_dc068_v2_bsp_dsk,
-    dawn_ref_140304_140527_140212_dc069_v1_bsp_dsk,
-    dawn_ref_140401_140526_140312_dc070_v1_bsp_dsk,
+    dawn_ref_140106_140401_131212_dc067_v1_bsp,
+    dawn_ref_140204_140429_140116_dc068_v1_bsp,
+    dawn_ref_140204_140429_140116_dc068_v2_bsp,
+    dawn_ref_140304_140527_140212_dc069_v1_bsp,
+    dawn_ref_140401_140526_140312_dc070_v1_bsp,
+    dawn_ref_140429_140527_140409_dc071_v1_bsp,
     dawn_ref_140429_140801_140415_dc071_v1_bsp,
-    dawn_ref_140527_140818_140507_dc072_v1_bsp_dsk,
+    dawn_ref_140527_140818_140507_dc072_v1_bsp,
     dawn_ref_140623_140721_140605_dc073_v1_bsp,
     dawn_ref_140623_140721_140605_dc073_v2_bsp,
     dawn_ref_140623_140721_140605_dc073_v3_bsp,
-    dawn_ref_140722_141013_140703_dc074_v1_bsp_dsk,
-    dawn_ref_140819_141027_140731_dc075_v1_bsp_dsk,
+    dawn_ref_140722_141013_140703_dc074_v1_bsp,
+    dawn_ref_140819_141027_140731_dc075_v1_bsp,
     dawn_ref_140819_141027_140801_dc075_v2_bsp,
     dawn_ref_140916_141201_140829_dc076_v1_bsp,
-    dawn_ref_140916_141201_140913_dc076_safe1_v1_bsp_dsk,
+    dawn_ref_140916_141201_140913_dc076_safe1_v1_bsp,
     dawn_ref_141013_141227_140925_dc077_v1_bsp,
     dawn_ref_141111_141227_141022_dc078_v1_bsp,
+    dawn_ref_141111_141227_141022_dc078_v2_bsp,
     dawn_ref_141111_150422_141022_da220_v1_bsp,
     dawn_ref_141202_141227_141118_dl079_v1_bsp,
     dawn_ref_141221_150615_130619_CSA_v1_bsp,
@@ -15806,83 +15809,83 @@ export
     dawn_ref_141227_150226_141216_dl220_v2_bsp,
     dawn_ref_150101_150630_130412_Approach_RC3_v1_bsp,
     dawn_ref_150116_150511_131029_isb_approach_v1_bsp,
-    dawn_ref_150125_150225_141124_da221_v1_bsp_spk,
-    dawn_ref_150126_150325_150119_dl221_v1_bsp_spk,
+    dawn_ref_150125_150225_141124_da221_v1_bsp,
+    dawn_ref_150126_150325_150119_dl221_v1_bsp,
     dawn_ref_150225_150324_141219_da222_v1_bsp,
     dawn_ref_150225_150324_150126_da222_v1_bsp,
-    dawn_ref_150226_150324_150123_da222_v1_bsp_dsk,
-    dawn_ref_150226_150520_150221_dl222_v1_bsp_dsk,
-    dawn_ref_150324_150410_150225_da223_v1_bsp_dsk,
-    dawn_ref_150324_150410_150225_dl222_v1_bsp_spk,
-    dawn_ref_150325_150410_150126_da223_v1_bsp_spk,
+    dawn_ref_150226_150324_150123_da222_v1_bsp,
+    dawn_ref_150226_150520_150221_dl222_v1_bsp,
+    dawn_ref_150324_150410_150225_da223_v1_bsp,
+    dawn_ref_150324_150410_150225_dl222_v1_bsp,
+    dawn_ref_150325_150410_150126_da223_v1_bsp,
     dawn_ref_150325_150423_150318_dl223_v1_bsp,
     dawn_ref_150411_150509_150406_dl224_v1_bsp,
-    dawn_ref_150411_150509_150406_dl224_v2_bsp_dsk,
-    dawn_ref_150412_150511_140106_isb_RC3_v1_bsp_dsk,
+    dawn_ref_150411_150509_150406_dl224_v2_bsp,
+    dawn_ref_150412_150511_140106_isb_RC3_v1_bsp,
     dawn_ref_150412_150511_140730_ort_RC3_v1_bsp,
-    dawn_ref_150416_150619_140206_isb_R2S_v1_bsp_spk,
-    dawn_ref_150423_150528_150304_RC3_prebuild_v1_bsp_spk,
+    dawn_ref_150416_150619_140206_isb_R2S_v1_bsp,
+    dawn_ref_150423_150528_150304_RC3_prebuild_v1_bsp,
     dawn_ref_150423_150528_150325_RC3_v1_bsp,
-    dawn_ref_150423_150704_150317_DA400_prebuild_v1_bsp_dsk,
-    dawn_ref_150423_150704_150414_DA400_v1_bsp_dsk,
-    dawn_ref_150509_150529_150506_dl400_v1_bsp_dsk,
-    dawn_ref_150514_150612_130417_RC3_Survey_v1_bsp_dsk,
-    dawn_ref_150514_150708_130920_Survey_v1_bsp_spk,
-    dawn_ref_150525_150619_140206_isb_Survey_v1_bsp_spk,
+    dawn_ref_150423_150704_150317_DA400_prebuild_v1_bsp,
+    dawn_ref_150423_150704_150414_DA400_v1_bsp,
+    dawn_ref_150509_150529_150506_dl400_v1_bsp,
+    dawn_ref_150514_150612_130417_RC3_Survey_v1_bsp,
+    dawn_ref_150514_150708_130920_Survey_v1_bsp,
+    dawn_ref_150525_150619_140206_isb_Survey_v1_bsp,
     dawn_ref_150529_150603_150524_dl401_v1_bsp,
     dawn_ref_150603_150702_150506_da500_v1_bsp,
-    dawn_ref_150603_150704_150414_DA500_prebuild_v1_bsp_dsk,
-    dawn_ref_150612_150709_130417_Survey_v1_bsp_dsk,
-    dawn_ref_150617_151005_140404_isb_CTH_v1_bsp_dsk,
-    dawn_ref_150701_150710_150626_dl600_v1_bsp_spk,
-    dawn_ref_150701_150811_150604_da600_v1_bsp_spk,
-    dawn_ref_150701_151011_150701_DA700_v1_bsp_spk,
+    dawn_ref_150603_150704_150414_DA500_prebuild_v1_bsp,
+    dawn_ref_150612_150709_130417_Survey_v1_bsp,
+    dawn_ref_150617_151005_140404_isb_CTH_v1_bsp,
+    dawn_ref_150701_150710_150626_dl600_v1_bsp,
+    dawn_ref_150701_150811_150604_da600_v1_bsp,
+    dawn_ref_150701_151011_150701_DA700_v1_bsp,
     dawn_ref_150706_150822_130502_Survey_HAMO_bsp,
-    dawn_ref_150706_150829_130506_Survey_HAMO_v2_bsp_dsk,
-    dawn_ref_150708_151014_130927_S2H_HAMO_v1_bsp_dsk,
-    dawn_ref_150714_150724_150709_dl600_v1_bsp_dsk,
-    dawn_ref_150724_150731_150720_dl601_v1_bsp_spk,
-    dawn_ref_150729_151005_140404_isb_CSH_v1_bsp_spk,
-    dawn_ref_150730_151009_150618_DA700_v1_bsp_spk,
-    dawn_ref_150731_150807_150727_dl602_v1_bsp_dsk,
-    dawn_ref_150807_150814_150803_dl603_v1_bsp_dsk,
-    dawn_ref_150813_151025_150709_DA700_v1_bsp_dsk,
-    dawn_ref_150814_150816_150810_dl604_v1_bsp_dsk,
-    dawn_ref_150814_151024_150811_DA700_v1_bsp_spk,
-    dawn_ref_150822_151021_130502_HAMO_bsp_spk,
-    dawn_ref_150829_151117_130506_HAMO_v2_bsp_spk,
-    dawn_ref_151001_160603_140528_isb_CTL_CSL_v1_bsp_spk,
-    dawn_ref_151001_160603_140528_isb_CTL_CSL_v1_bsp_spk_dsk,
-    dawn_ref_151003_160603_140611_isb_CTL_CSL_v2_bsp_dsk,
-    dawn_ref_151022_151215_150925_v1_bsp_dsk,
-    dawn_ref_151022_151220_151014_DA800_v2_bsp_dsk,
-    dawn_ref_151022_151220_151014_DA801_v1_bsp_spk,
-    dawn_ref_151023_151030_151019_dl800_v1_bsp_spk,
-    dawn_ref_151024_160331_131004_H2L_LAMO_v1_bsp_spk,
-    dawn_ref_151030_151106_151026_dl801_v1_bsp_spk,
-    dawn_ref_151106_151113_151102_dl802_v1_bsp_fk,
-    dawn_ref_151113_151120_151109_dl803_v1_bsp_fk,
-    dawn_ref_151120_151126_151116_dl804_v1_bsp_fk,
-    dawn_ref_151126_151203_151123_dl805_v1_bsp_spk,
+    dawn_ref_150706_150829_130506_Survey_HAMO_v2_bsp,
+    dawn_ref_150708_151014_130927_S2H_HAMO_v1_bsp,
+    dawn_ref_150714_150724_150709_dl600_v1_bsp,
+    dawn_ref_150714_151031_150708_DA600_v1_bsp,
+    dawn_ref_150724_150731_150720_dl601_v1_bsp,
+    dawn_ref_150729_151005_140404_isb_CSH_v1_bsp,
+    dawn_ref_150730_151009_150618_DA700_v1_bsp,
+    dawn_ref_150731_150807_150727_dl602_v1_bsp,
+    dawn_ref_150807_150814_150803_dl603_v1_bsp,
+    dawn_ref_150813_151025_150709_DA700_v1_bsp,
+    dawn_ref_150814_150816_150810_dl604_v1_bsp,
+    dawn_ref_150814_151024_150811_DA700_v1_bsp,
+    dawn_ref_150822_151021_130502_HAMO_bsp,
+    dawn_ref_150829_151117_130506_HAMO_v2_bsp,
+    dawn_ref_151001_160603_140528_isb_CTL_CSL_v1_bsp,
+    dawn_ref_151003_160603_140611_isb_CTL_CSL_v2_bsp,
+    dawn_ref_151022_151215_150925_v1_bsp,
+    dawn_ref_151022_151220_151014_DA800_v2_bsp,
+    dawn_ref_151022_151220_151014_DA801_v1_bsp,
+    dawn_ref_151023_151030_151019_dl800_v1_bsp,
+    dawn_ref_151024_160331_131004_H2L_LAMO_v1_bsp,
+    dawn_ref_151030_151106_151026_dl801_v1_bsp,
+    dawn_ref_151106_151113_151102_dl802_v1_bsp,
+    dawn_ref_151113_151120_151109_dl803_v1_bsp,
+    dawn_ref_151120_151126_151116_dl804_v1_bsp,
+    dawn_ref_151126_151203_151123_dl805_v1_bsp,
     dawn_ref_151203_151207_151130_dl806_v1_bsp,
-    dawn_ref_151211_151216_151209_dl807_v1_bsp_fk,
-    dawn_ref_151214_160702_151014_DA900_prebuild_bsp_fk,
-    dawn_ref_151214_160702_151027_DA900_prebuild_v2_bsp_fk,
-    dawn_ref_151214_160702_151117_DA900_v1_bsp_fk,
+    dawn_ref_151211_151216_151209_dl807_v1_bsp,
+    dawn_ref_151214_160702_151014_DA900_prebuild_bsp,
+    dawn_ref_151214_160702_151027_DA900_prebuild_v2_bsp,
+    dawn_ref_151214_160702_151117_DA900_v1_bsp,
     dawn_ref_151214_160702_151209_DA901_v1_bsp,
     dawn_ref_151214_160831_160106_DA902_v1_bsp,
     dawn_ref_151214_160831_160106_DA903_prebuild_bsp,
-    dawn_ref_151214_160831_160106_DA903_v1_bsp_lsk,
-    dawn_ref_151214_160831_160106_DA905_prebuild_bsp_lsk,
-    dawn_ref_151214_160831_160106_DA905_v1_bsp_pck,
-    dawn_ref_151214_160831_160223_DA906_v1_bsp_pck,
+    dawn_ref_151214_160831_160106_DA903_v1_bsp,
+    dawn_ref_151214_160831_160106_DA905_prebuild_bsp,
+    dawn_ref_151214_160831_160106_DA905_v1_bsp,
+    dawn_ref_151214_160831_160223_DA906_v1_bsp,
     dawn_ref_151214_160831_160316_DA907_v1_bsp,
     dawn_ref_151214_160831_160419_DA908_v1_bsp,
     dawn_ref_151214_160831_160503_DA909_v1_bsp,
-    dawn_ref_151214_160831_160524_DA910_prebuild_bsp_pck,
-    dawn_ref_151214_170101_160711_DA911_prebuild_bsp_pck,
-    dawn_ref_151214_170101_160713_DA911_va_bsp_pck,
-    dawn_ref_151231_160109_151228_dl900_v1_bsp_pck,
+    dawn_ref_151214_160831_160524_DA910_prebuild_bsp,
+    dawn_ref_151214_170101_160711_DA911_prebuild_bsp,
+    dawn_ref_151214_170101_160713_DA911_va_bsp,
+    dawn_ref_151231_160109_151228_dl900_v1_bsp,
     dawn_ref_160123_160201_160120_dl901_v1_bsp,
     dawn_ref_160123_160810_130528_LAMO_bsp,
     dawn_ref_160124_160811_130510_LAMO_bsp,
@@ -15890,88 +15893,86 @@ export
     dawn_ref_160401_160410_160328_dl905_v1_bsp,
     dawn_ref_160517_160526_160511_dl907_v1_bsp,
     dawn_ref_160609_160618_160606_dl908_v1_bsp,
-    dawn_ref_160619_160904_160721_DA911_runout_bsp_spk,
-    dawn_ref_160710_160819_160615_DA950_v1_bsp_spk,
-    dawn_ref_160731_160808_160726_dl910_v1_bsp_spk,
-    dawn_ref_160731_160808_160726_dl910_v1_bsp_spk_spk,
+    dawn_ref_160619_160904_160721_DA911_runout_bsp,
+    dawn_ref_160710_160819_160615_DA950_v1_bsp,
+    dawn_ref_160731_160808_160726_dl910_v1_bsp,
     dawn_ref_160808_160927_160721_DA911_alternate_bsp,
     dawn_ref_160902_161206_160804_DA921_v1_bsp,
-    dawn_ref_160902_161206_160804_DA921_v2_bsp_spk,
-    dawn_ref_160902_161206_160830_dl921_v1_bsp_spk,
+    dawn_ref_160902_161206_160804_DA921_v2_bsp,
+    dawn_ref_160902_161206_160830_dl921_v1_bsp,
     dawn_ref_160909_161206_160906_dl922_v1_bsp,
     dawn_ref_160916_161206_160913_dl923_v1_bsp,
     dawn_ref_160923_161206_160920_dl924_v1_bsp,
     dawn_ref_160930_161206_160927_dl925_v1_bsp,
-    dawn_ref_160930_161206_160928_da922_da923_v1_bsp_spk,
-    dawn_ref_160930_161206_160928_dl925_v2_bsp_spk,
-    dawn_ref_161006_161206_160906_DA922_v1_bsp_spk,
-    dawn_ref_161006_170731_161128_DA926_v1_bsp_spk,
-    dawn_ref_161101_170703_161017_DA924_v2_bsp_spk,
-    dawn_ref_161101_180701_161109_DA925_v1_bsp_spk,
-    dawn_ref_161103_170331_170104_DA926_Pass1_bsp_spk,
-    dawn_ref_161103_170331_170104_DA927_preBuild_bsp_spk,
-    dawn_ref_161103_170331_170104_DA927_preBuild_bsp_spk_spk,
-    dawn_ref_161104_161206_161031_dl926_v1_bsp_spk,
-    dawn_ref_161104_161206_161031_dl926_v2_bsp_spk,
-    dawn_ref_161104_170703_161011_DA924_v1_bsp_spk,
-    dawn_ref_161118_161206_161114_dl927_v1_bsp_spk,
-    dawn_ref_170202_170814_170127_DA927_v1_bsp_spk,
-    dawn_ref_170223_170715_170413_da930_v1_bsp_spk,
-    dawn_ref_170223_170815_170214_dl928_v1_bsp_spk,
-    dawn_ref_170323_170418_170302_da928_v1_bsp_spk,
-    dawn_ref_170323_170418_170302_da928_v2_bsp_spk,
-    dawn_ref_170323_170418_170302_da928_v3_bsp_spk,
-    dawn_ref_170323_170919_170622_da932_v1_bsp_spk,
+    dawn_ref_160930_161206_160928_da922_da923_v1_bsp,
+    dawn_ref_160930_161206_160928_dl925_v2_bsp,
+    dawn_ref_161006_161206_160906_DA922_v1_bsp,
+    dawn_ref_161006_170731_161128_DA926_v1_bsp,
+    dawn_ref_161101_170703_161017_DA924_v2_bsp,
+    dawn_ref_161101_180701_161109_DA925_v1_bsp,
+    dawn_ref_161103_170331_170104_DA926_Pass1_bsp,
+    dawn_ref_161103_170331_170104_DA927_preBuild_bsp,
+    dawn_ref_161104_161206_161031_dl926_v1_bsp,
+    dawn_ref_161104_161206_161031_dl926_v2_bsp,
+    dawn_ref_161104_170703_161011_DA924_v1_bsp,
+    dawn_ref_161118_161206_161114_dl927_v1_bsp,
+    dawn_ref_170202_170814_170127_DA927_v1_bsp,
+    dawn_ref_170223_170715_170413_da930_v1_bsp,
+    dawn_ref_170223_170815_170214_dl928_v1_bsp,
+    dawn_ref_170323_170418_170302_da928_v1_bsp,
+    dawn_ref_170323_170418_170302_da928_v2_bsp,
+    dawn_ref_170323_170418_170302_da928_v3_bsp,
+    dawn_ref_170323_170919_170622_da932_v1_bsp,
     dawn_ref_170323_171015_170726_da933_v1_bsp,
     dawn_ref_170323_171104_170726_da933_v2_bsp,
-    dawn_ref_170324_170701_170208_v1_bsp_spk,
-    dawn_ref_170403_170414_170329_dl929_v1_bsp_spk,
-    dawn_ref_170422_170429_170418_dl930_v1_bsp_spk,
-    dawn_ref_170422_170429_170418_dl930_v2_bsp_spk,
+    dawn_ref_170324_170701_170208_v1_bsp,
+    dawn_ref_170403_170414_170329_dl929_v1_bsp,
+    dawn_ref_170422_170429_170418_dl930_v1_bsp,
+    dawn_ref_170422_170429_170418_dl930_v2_bsp,
     dawn_ref_170428_170526_170316_da929_v1_bsp,
     dawn_ref_170428_170526_170329_da929_v1_bsp,
     dawn_ref_170428_170613_170412_da929_v1_bsp,
-    dawn_ref_170428_170630_170413_da929_v1_bsp_spk,
-    dawn_ref_170517_171101_170503_DA930_v1_bsp_spk,
-    dawn_ref_170525_190820_170518_da931_v1_bsp_spk,
+    dawn_ref_170428_170630_170413_da929_v1_bsp,
+    dawn_ref_170517_171101_170503_DA930_v1_bsp,
+    dawn_ref_170525_170620_170518_dl931_v1_bsp,
+    dawn_ref_170525_190820_170518_da931_v1_bsp,
     dawn_ref_170620_170628_170614_dl932a_v1_bsp,
     dawn_ref_170620_170628_170614_dl932m_v1_bsp,
     dawn_ref_170719_170818_170712_dl933_v1_bsp,
-    dawn_ref_170915_171013_170911_dl935_v1_bsp_spk,
-    dawn_ref_170915_171117_170825_da934_v1_bsp_spk,
-    dawn_ref_171018_171117_170927_da935_v1_bsp_spk,
+    dawn_ref_170915_171013_170911_dl935_v1_bsp,
+    dawn_ref_170915_171117_170825_da934_v1_bsp,
+    dawn_ref_171018_171117_170927_da935_v1_bsp,
     dawn_ref_171018_171117_171011_dl936_v1_bsp,
     dawn_ref_171117_171216_171024_da936_v1_bsp,
     dawn_ref_171214_180202_171108_da937_v1_bsp,
     dawn_ref_180202_180310_180111_da938_v1_bsp,
-    dawn_ref_180310_180416_180215_da939_v1_bsp_spk,
-    dawn_ref_180310_180416_180215_da939_v1_bsp_spk,
+    dawn_ref_180310_180416_180215_da939_v1_bsp,
     dawn_ref_180412_180608_180419_da941_v2_bsp,
-    dawn_ref_180412_180618_180423_da941_v3_bsp_spk,
+    dawn_ref_180412_180618_180423_da941_v3_bsp,
     dawn_ref_180412_180624_180419_da941_v1_bsp,
     dawn_ref_180412_180710_180320_da940_v1_bsp,
     dawn_ref_180412_180930_180315_da942_v1_bsp,
     dawn_ref_180412_180930_180410_da942practice_v1_bsp,
-    dawn_ref_180412_180930_180417_da942_v1_bsp_spk,
-    dawn_ref_180416_180427_180409_dl937_v1_bsp_spk,
-    dawn_ref_180416_180427_180409_dl937_v2_bsp_spk,
+    dawn_ref_180412_180930_180417_da942_v1_bsp,
+    dawn_ref_180416_180427_180409_dl937_v1_bsp,
+    dawn_ref_180416_180427_180409_dl937_v2_bsp,
     dawn_ref_180416_180807_180214_da940_v1_bsp,
     dawn_ref_180416_180930_180227_da940_v1_bsp,
     dawn_ref_180427_180505_180423_dl938_v1_bsp,
-    dawn_ref_180505_180511_180430_dl939_v1_bsp_spk,
-    dawn_ref_180511_180514_180507_dl940_v1_bsp_spk,
-    dawn_ref_180531_180608_180528_dl941_v1_bsp_spk,
-    dawn_ref_180608_180930_180503_da942_v1_bsp_spk,
-    dawn_ref_180619_180621_180617_dl942_v1_bsp_spk,
+    dawn_ref_180505_180511_180430_dl939_v1_bsp,
+    dawn_ref_180511_180514_180507_dl940_v1_bsp,
+    dawn_ref_180531_180608_180528_dl941_v1_bsp,
+    dawn_ref_180608_180930_180503_da942_v1_bsp,
+    dawn_ref_180619_180621_180617_dl942_v1_bsp,
     dawn_ref_180619_180621_180618_dl942_v2_bsp,
     dawn_ref_180622_180922_180710_da944_v2_bsp,
-    dawn_ref_180708_180804_180517_da943_v1_bsp_spk,
-    dawn_ref_180708_180804_180517_da943_v2_bsp_spk,
-    dawn_ref_180804_180901_180619_da944_v1_bsp_spk,
-    dawn_ref_180804_180901_180627_da944_v1_bsp_spk,
-    dawn_ref_DA029_DA030_v1_bsp_spk,
+    dawn_ref_180708_180804_180517_da943_v1_bsp,
+    dawn_ref_180708_180804_180517_da943_v2_bsp,
+    dawn_ref_180804_180901_180619_da944_v1_bsp,
+    dawn_ref_180804_180901_180627_da944_v1_bsp,
+    dawn_ref_DA029_DA030_v1_bsp,
     dawn_ref_pre_da001_v1_bsp,
-    dawn_ren_tf_spk,
+    dawn_ren_tf,
     dawn_seq_100102_111019_090701_v1_vst1_bsp,
     dawn_ssd_110713_120725_v01_bsp,
     dawn_struct_v1_bsp,
@@ -15979,60 +15980,59 @@ export
     dawn_v01_tf,
     dawn_v02_tf,
     dawn_v03_tf,
-    dawn_v05_tf_spk,
-    dawn_v08_beta_zero_tf_spk,
-    dawn_v08_tf_spk,
-    dawn_v09_draft_tf_spk,
-    dawn_v10_draft2_tf_spk,
-    dawn_v10_draft4_tf_spk,
-    dawn_v10_draft_tf_spk,
-    dawn_v10_tf_spk,
+    dawn_v05_tf,
+    dawn_v08_beta_zero_tf,
+    dawn_v08_tf,
+    dawn_v09_draft_tf,
+    dawn_v10_draft2_tf,
+    dawn_v10_draft4_tf,
+    dawn_v10_draft_tf,
+    dawn_v10_tf,
     dawn_v11_tf,
-    dawn_v12_draft2_tf_spk,
+    dawn_v12_draft2_tf,
     dawn_v12_draft_tf,
     dawn_v12_tf,
     dawn_v13_tf,
-    dawn_v14_tf_spk,
+    dawn_v14_tf,
     dawn_v15_tf,
     dawn_vesta_v00_tf,
     dawn_vesta_v00_tpc,
     dawn_vesta_v01_tpc,
     dawn_vesta_v02_tpc,
-    dawn_vesta_v03_tpc_spk,
-    dawn_vesta_v03_tpc_spk,
-    dawn_vesta_v04_tpc,
-    dawn_vesta_v04_tpc_spk,
-    dawn_vesta_v05_tpc_spk,
-    dawn_vesta_v06_tpc_spk,
-    de405s_bsp_spk,
-    de421_bsp_spk,
-    de432_bsp_spk,
-    de432s_bsp_spk,
-    de432s_bsp_spk_spk,
-    ho_m20km_bsp_spk,
-    ho_p20km_bsp_spk,
-    ho_ref_bsp_spk,
+    dawn_vesta_v03_tpc_pck,
+    dawn_vesta_v03_tpc_pck,
+    dawn_vesta_v04_tpc_pck,
+    dawn_vesta_v04_tpc_pck,
+    dawn_vesta_v05_tpc,
+    dawn_vesta_v06_tpc,
+    de405s_bsp,
+    de421_bsp,
+    de432_bsp,
+    de432s_bsp,
+    ho_m20km_bsp,
+    ho_p20km_bsp,
+    ho_ref_bsp,
     naif0007_tls,
     naif0008_tls,
     naif0009_tls,
     naif0010_tls,
     naif0011_tls,
-    naif0012_tls_spk,
-    optg_vesta_survey_prebuild_bsp_spk,
+    naif0012_tls,
+    optg_vesta_survey_prebuild_bsp,
     pck00007_tpc,
     pck00008_tpc,
-    sb_ceres_110211_bsp_spk,
-    sb_ceres_120710_bsp_spk,
-    sb_ceres_140724_bsp_spk,
-    sb_ceres_grv_171219_bsp_spk,
-    sb_vesta_071107_bsp_spk,
-    sb_vesta_110211_bsp_spk,
-    sb_vesta_nav_120628_bsp_spk,
-    sb_vesta_ssd_120716_bsp_spk,
-    survey_041713_bsp_spk,
-    test1_bsp_spk,
-    test_bsp_spk,
-    test_spk_bsp_spk,
-    traj_for_Carol_n_Steve_bsp_spk,
-    vesta_site_lon0lat0_bsp_spk,
-    vesta_site_lon0lat0_tf_spk
+    sb_ceres_110211_bsp,
+    sb_ceres_120710_bsp,
+    sb_ceres_140724_bsp,
+    sb_ceres_grv_171219_bsp,
+    sb_vesta_071107_bsp,
+    sb_vesta_110211_bsp,
+    sb_vesta_nav_120628_bsp,
+    sb_vesta_ssd_120716_bsp,
+    survey_041713_bsp,
+    test1_bsp,
+    test_bsp,
+    test_spk_bsp,
+    traj_for_Carol_n_Steve_bsp,
+    vesta_site_lon0lat0_bsp,
+    vesta_site_lon0lat0_tf

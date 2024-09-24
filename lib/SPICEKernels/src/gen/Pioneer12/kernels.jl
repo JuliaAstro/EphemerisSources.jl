@@ -4,6 +4,21 @@
 
 
 """
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PIONEER12/kernels/fk/pvo.tf
+"""
+const pvo_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PIONEER12/kernels/fk/pvo.tf")
+
+"""
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -16,6 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PIONEER12/kernels/spk/pvo_781209_820908_ssd1999.bsp
 """
+const pvo_781209_820908_ssd1999_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PIONEER12/kernels/spk/pvo_781209_820908_ssd1999.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -32,23 +48,7 @@ This kernel's link was sourced on 2024-09-24.
 """
 const pvo_871229_880601_ssd1999_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PIONEER12/kernels/spk/pvo_871229_880601_ssd1999.bsp")
 
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PIONEER12/kernels/fk/pvo.tf
-"""
-const pvo_871229_880601_ssd1999_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PIONEER12/kernels/spk/pvo_781209_820908_ssd1999.bsp")
-const pvo_871229_880601_ssd1999_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/PIONEER12/kernels/fk/pvo.tf")
-
 export
+    pvo_781209_820908_ssd1999_bsp,
     pvo_871229_880601_ssd1999_bsp,
-    pvo_871229_880601_ssd1999_bsp,
-    pvo_871229_880601_ssd1999_bsp
+    pvo_tf

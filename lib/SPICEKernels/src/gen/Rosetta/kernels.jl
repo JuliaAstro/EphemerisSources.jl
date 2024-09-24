@@ -4,36 +4,6 @@
 
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00009.bsp
-"""
-const ros_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00009.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/hyakutake_960101_000101.bsp
-"""
-const ros_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/hyakutake_960101_000101.bsp")
-
-"""
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -46,37 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/pck/former_versions/pck00007.tpc
 """
-const ORHR_040302_140524_00012_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/pck/former_versions/pck00007.tpc")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/fk/former_versions/ros_v01.tf
-"""
-const ORER_050302_050307_00008_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/fk/former_versions/ros_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00012.bsp
-"""
-const ros_v03_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00012.bsp")
+const pck00007_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/pck/former_versions/pck00007.tpc")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -91,52 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00008.bsp
 """
-const ORHR_040302_140524_00013_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00008.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_rpc_struct_v1.bsp
-"""
-const ORHR_040302_140524_00013_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_rpc_struct_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/fk/ros_v03.tf
-"""
-const ros_v06_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/fk/ros_v03.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00013.bsp
-"""
-const ros_67pcg_v00_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00013.bsp")
+const ORER_050302_050307_00008_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00008.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -151,52 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00009.bsp
 """
-const ORHR_040302_140524_00014_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00009.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v06.tf
-"""
-const ORER_050302_050307_00012_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v06.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/pck/ros_67pcg_v00.tpc
-"""
-const ros_v10_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/pck/ros_67pcg_v00.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00014.bsp
-"""
-const ros_lutetia_v00_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00014.bsp")
+const ORER_050302_050307_00009_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00009.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -211,52 +61,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00012.bsp
 """
-const ORHR_040302_140524_00016_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00012.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v10.tf
-"""
-const ORER_050302_050307_00014_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v10.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/pck/ros_lutetia_v00.tpc
-"""
-const ros_v11_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/pck/ros_lutetia_v00.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00016.bsp
-"""
-const ros_steins_v00_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00016.bsp")
+const ORER_050302_050307_00012_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00012.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -271,52 +76,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00014.bsp
 """
-const ORMR_070224_070225_00008_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00014.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v11.tf
-"""
-const ORER_050302_050307_00016_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v11.tf")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/pck/ros_steins_v00.tpc
-"""
-const ros_v18_tf = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/pck/ros_steins_v00.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00008.bsp
-"""
-const _21_Lutetia_2004_2016_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00008.bsp")
+const ORER_050302_050307_00014_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00014.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -331,52 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00016.bsp
 """
-const ORMR_070224_070225_00009_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00016.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v18.tf
-"""
-const ORER_051129_051129_00001_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v18.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/21_Lutetia_2004_2016.bsp
-"""
-const codes_300ast_20061020_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/21_Lutetia_2004_2016.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00009.bsp
-"""
-const _2867_Steins_2004_2016_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00009.bsp")
+const ORER_050302_050307_00016_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_050302_050307_00016.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -391,52 +106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_051129_051129_00001.bsp
 """
-const ORMR_070224_070225_00012_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_051129_051129_00001.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jbaer/codes_300ast_20061020.bsp
-"""
-const ORFR_071112_071114_00008_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jbaer/codes_300ast_20061020.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/2867_Steins_2004_2016.bsp
-"""
-const eclipj2000_de405_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/2867_Steins_2004_2016.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00012.bsp
-"""
-const _67P_Chury_Geras_2004_2016_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00012.bsp")
+const ORER_051129_051129_00001_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORER_051129_051129_00001.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -451,52 +121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071114_00008.bsp
 """
-const ORMR_070224_070225_00013_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071114_00008.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jbaer/eclipj2000_de405.tf
-"""
-const ORFR_071112_071114_00009_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jbaer/eclipj2000_de405.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/67P-Chury_Geras_2004_2016.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00013.bsp
-"""
-const ros_v04_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/67P-Chury_Geras_2004_2016.bsp")
-const ros_v04_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00013.bsp")
+const ORFR_071112_071114_00008_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071114_00008.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -511,52 +136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071114_00009.bsp
 """
-const ORMR_070224_070225_00014_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071114_00009.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jdiaz/ros_v04.tf
-"""
-const ORFR_071112_071114_00012_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jdiaz/ros_v04.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00014.bsp
-"""
-const ros_v05_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00014.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/old/ros_lutetia_v01.tpc
-"""
-const ORMR_070224_070225_00016_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/old/ros_lutetia_v01.tpc")
+const ORFR_071112_071114_00009_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071114_00009.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -571,51 +151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071114_00012.bsp
 """
-const ros_steins_v01_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071114_00012.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jdiaz/ros_v05.tf
-"""
-const ORFR_071112_071114_00013_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jdiaz/ros_v05.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00016.bsp
-"""
-const ros_struct_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00016.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/old/ros_steins_v01.tpc
-"""
+const ORFR_071112_071114_00012_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071114_00012.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -630,38 +166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071114_00013.bsp
 """
-const ORMR_070227_070228_00001_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071114_00013.bsp")
-const ORMR_070227_070228_00001_bsp_spk = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/old/ros_steins_v01.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/mbarthelemy/ros_struct_v1.bsp
-"""
-const ORFR_071112_071115_00014_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/mbarthelemy/ros_struct_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070227_070228_00001.bsp
-"""
-const ros_v07_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070227_070228_00001.bsp")
+const ORFR_071112_071114_00013_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071114_00013.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -676,52 +181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071115_00014.bsp
 """
-const PAN_1998_2010_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071115_00014.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_lc1_v02.tpc
-"""
-const ORFR_071112_071115_00016_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_lc1_v02.tpc")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/mbarthelemy/ros_v07.tf
-"""
-const ros_lutetia_lc2_v02_tpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/mbarthelemy/ros_v07.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/PAN_1998-2010.bsp
-"""
-const ros_v09_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/PAN_1998-2010.bsp")
+const ORFR_071112_071115_00014_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071115_00014.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -736,52 +196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071115_00016.bsp
 """
-const ros_hga_ep_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071115_00016.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_lc2_v02.tpc
-"""
-const ORFR_071114_071116_00001_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_lc2_v02.tpc")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/mbarthelemy/ros_v09.tf
-"""
-const ros_lutetia_r1_v02_tpc_fk = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/mbarthelemy/ros_v09.tf")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/dkahan/ros_hga_ep.tf
-"""
-const C2001Q4_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/dkahan/ros_hga_ep.tf")
+const ORFR_071112_071115_00016_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071112_071115_00016.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -796,52 +211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071114_071116_00001.bsp
 """
-const ros_v08_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071114_071116_00001.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_r1_v02.tpc
-"""
-const ORHR_040226_140523_00001_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_r1_v02.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/old_spk/C2001Q4.bsp
-"""
-const ros_lutetia_r2_v02_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/old_spk/C2001Q4.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/ftosi/ros_v08.tf
-"""
-const C2002T7_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/ftosi/ros_v08.tf")
+const ORFR_071114_071116_00001_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORFR_071114_071116_00001.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -856,52 +226,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040226_140523_00001.bsp
 """
-const ros_v10_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040226_140523_00001.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_r2_v02.tpc
-"""
-const ORHR_040302_140524_00008_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_r2_v02.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/old_spk/C2002T7.bsp
-"""
-const ros_steins_v02_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/old_spk/C2002T7.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/ica/ros_v10.tf
-"""
-const ros_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/ica/ros_v10.tf")
+const ORHR_040226_140523_00001_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040226_140523_00001.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -916,10 +241,10 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00008.bsp
 """
-const ros_v00_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00008.bsp")
+const ORHR_040302_140524_00008_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00008.bsp")
 
 """
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
@@ -929,9 +254,459 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_steins_v02.tpc
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00009.bsp
 """
-const ros_v00_tf_spk = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_steins_v02.tpc")
+const ORHR_040302_140524_00009_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00009.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00012.bsp
+"""
+const ORHR_040302_140524_00012_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00012.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00013.bsp
+"""
+const ORHR_040302_140524_00013_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00013.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00014.bsp
+"""
+const ORHR_040302_140524_00014_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00014.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00016.bsp
+"""
+const ORHR_040302_140524_00016_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORHR_040302_140524_00016.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00008.bsp
+"""
+const ORMR_070224_070225_00008_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00008.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00009.bsp
+"""
+const ORMR_070224_070225_00009_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00009.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00012.bsp
+"""
+const ORMR_070224_070225_00012_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00012.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00013.bsp
+"""
+const ORMR_070224_070225_00013_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00013.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00014.bsp
+"""
+const ORMR_070224_070225_00014_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00014.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00016.bsp
+"""
+const ORMR_070224_070225_00016_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070224_070225_00016.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070227_070228_00001.bsp
+"""
+const ORMR_070227_070228_00001_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/ORMR_070227_070228_00001.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/PAN_1998-2010.bsp
+"""
+const PAN_1998_2010_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/kernels/spk/former_versions/PAN_1998-2010.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/dkahan/ros_hga_ep.tf
+"""
+const ros_hga_ep_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/dkahan/ros_hga_ep.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/ftosi/ros_v08.tf
+"""
+const ros_v08_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/ftosi/ros_v08.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/ica/ros_v10.tf
+"""
+const ros_v10_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/ica/ros_v10.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/hyakutake_960101_000101.bsp
+"""
+const hyakutake_960101_000101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/hyakutake_960101_000101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_rpc_struct_v1.bsp
+"""
+const ros_rpc_struct_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_rpc_struct_v1.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v06.tf
+"""
+const ros_v06_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v06.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v10.tf
+"""
+const ros_v10_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v10.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v11.tf
+"""
+const ros_v11_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v11.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v18.tf
+"""
+const ros_v18_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/irichter/ros_v18.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jbaer/codes_300ast_20061020.bsp
+"""
+const codes_300ast_20061020_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jbaer/codes_300ast_20061020.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jbaer/eclipj2000_de405.tf
+"""
+const eclipj2000_de405_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jbaer/eclipj2000_de405.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jdiaz/ros_v04.tf
+"""
+const ros_v04_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jdiaz/ros_v04.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jdiaz/ros_v05.tf
+"""
+const ros_v05_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/jdiaz/ros_v05.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/mbarthelemy/ros_struct_v1.bsp
+"""
+const ros_struct_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/mbarthelemy/ros_struct_v1.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/mbarthelemy/ros_v07.tf
+"""
+const ros_v07_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/mbarthelemy/ros_v07.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/mbarthelemy/ros_v09.tf
+"""
+const ros_v09_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/mbarthelemy/ros_v09.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/old_spk/C2001Q4.bsp
+"""
+const C2001Q4_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/old_spk/C2001Q4.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/old_spk/C2002T7.bsp
+"""
+const C2002T7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/old_spk/C2002T7.bsp")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -946,7 +721,232 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/fk/former_versions/ros_v00.tf
 """
-const ros_cg_ck_map_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/fk/former_versions/ros_v00.tf")
+const ros_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/fk/former_versions/ros_v00.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/fk/former_versions/ros_v01.tf
+"""
+const ros_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/fk/former_versions/ros_v01.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/fk/ros_v03.tf
+"""
+const ros_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/fk/ros_v03.tf")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/pck/ros_67pcg_v00.tpc
+"""
+const ros_67pcg_v00_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/pck/ros_67pcg_v00.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/pck/ros_lutetia_v00.tpc
+"""
+const ros_lutetia_v00_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/pck/ros_lutetia_v00.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/pck/ros_steins_v00.tpc
+"""
+const ros_steins_v00_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/soa/pck/ros_steins_v00.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/21_Lutetia_2004_2016.bsp
+"""
+const _21_Lutetia_2004_2016_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/21_Lutetia_2004_2016.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/2867_Steins_2004_2016.bsp
+"""
+const _2867_Steins_2004_2016_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/2867_Steins_2004_2016.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/67P-Chury_Geras_2004_2016.bsp
+"""
+const _67P_Chury_Geras_2004_2016_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/67P-Chury_Geras_2004_2016.bsp")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/old/ros_lutetia_v01.tpc
+"""
+const ros_lutetia_v01_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/old/ros_lutetia_v01.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/old/ros_steins_v01.tpc
+"""
+const ros_steins_v01_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/old/ros_steins_v01.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_lc1_v02.tpc
+"""
+const ros_lutetia_lc1_v02_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_lc1_v02.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_lc2_v02.tpc
+"""
+const ros_lutetia_lc2_v02_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_lc2_v02.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_r1_v02.tpc
+"""
+const ros_lutetia_r1_v02_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_r1_v02.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_r2_v02.tpc
+"""
+const ros_lutetia_r2_v02_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_lutetia_r2_v02.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_steins_v02.tpc
+"""
+const ros_steins_v02_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/ROSETTA/misc/targets/ros_steins_v02.tpc")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -967,6 +967,8 @@ export
     C2001Q4_bsp,
     C2002T7_bsp,
     ORER_050302_050307_00008_bsp,
+    ORER_050302_050307_00009_bsp,
+    ORER_050302_050307_00012_bsp,
     ORER_050302_050307_00014_bsp,
     ORER_050302_050307_00016_bsp,
     ORER_051129_051129_00001_bsp,
@@ -975,56 +977,54 @@ export
     ORFR_071112_071114_00012_bsp,
     ORFR_071112_071114_00013_bsp,
     ORFR_071112_071115_00014_bsp,
-    ORFR_071112_071115_00016_bsp_pck,
+    ORFR_071112_071115_00016_bsp,
     ORFR_071114_071116_00001_bsp,
     ORHR_040226_140523_00001_bsp,
-    ORHR_040302_140524_00008_bsp_pck,
-    ORHR_040302_140524_00013_bsp_spk,
-    ORHR_040302_140524_00013_bsp_spk_spk,
-    ORHR_040302_140524_00014_bsp,
+    ORHR_040302_140524_00008_bsp,
+    ORHR_040302_140524_00009_bsp,
+    ORHR_040302_140524_00012_bsp,
+    ORHR_040302_140524_00013_bsp,
     ORHR_040302_140524_00014_bsp,
     ORHR_040302_140524_00016_bsp,
     ORMR_070224_070225_00008_bsp,
     ORMR_070224_070225_00009_bsp,
     ORMR_070224_070225_00012_bsp,
-    ORMR_070224_070225_00013_bsp_spk,
-    ORMR_070224_070225_00014_bsp_spk,
+    ORMR_070224_070225_00013_bsp,
+    ORMR_070224_070225_00014_bsp,
     ORMR_070224_070225_00016_bsp,
-    ORMR_070227_070228_00001_bsp_pck,
-    ORMR_070227_070228_00001_bsp_spk,
-    PAN_1998_2010_bsp_spk,
-    _21_Lutetia_2004_2016_bsp_spk,
-    _2867_Steins_2004_2016_bsp_spk,
+    ORMR_070227_070228_00001_bsp,
+    PAN_1998_2010_bsp,
+    _21_Lutetia_2004_2016_bsp,
+    _2867_Steins_2004_2016_bsp,
     _67P_Chury_Geras_2004_2016_bsp,
     codes_300ast_20061020_bsp,
     eclipj2000_de405_tf,
+    hyakutake_960101_000101_bsp,
+    pck00007_tpc,
     ros_67pcg_v00_tpc,
     ros_cg_ck_map_tf,
-    ros_cg_ck_map_tf,
     ros_hga_ep_tf,
-    ros_lutetia_lc2_v02_tpc_fk,
-    ros_lutetia_r1_v02_tpc_fk,
-    ros_lutetia_r2_v02_tpc_spk,
+    ros_lutetia_lc1_v02_tpc,
+    ros_lutetia_lc2_v02_tpc,
+    ros_lutetia_r1_v02_tpc,
+    ros_lutetia_r2_v02_tpc,
     ros_lutetia_v00_tpc,
-    ros_steins_v00_tpc_spk,
-    ros_steins_v01_tpc_spk,
+    ros_lutetia_v01_tpc,
+    ros_rpc_struct_v1_bsp,
+    ros_steins_v00_tpc,
+    ros_steins_v01_tpc,
     ros_steins_v02_tpc,
     ros_struct_v1_bsp,
     ros_v00_tf,
-    ros_v00_tf_spk,
-    ros_v00_tf_spk,
-    ros_v01_tf,
-    ros_v01_tf,
     ros_v01_tf,
     ros_v03_tf,
-    ros_v04_tf,
     ros_v04_tf,
     ros_v05_tf,
     ros_v06_tf,
     ros_v07_tf,
     ros_v08_tf,
-    ros_v09_tf_spk,
-    ros_v10_tf,
-    ros_v10_tf_spk,
+    ros_v09_tf,
+    ros_v10_tf_fk,
+    ros_v10_tf_fk,
     ros_v11_tf,
     ros_v18_tf

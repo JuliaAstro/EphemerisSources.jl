@@ -14,8 +14,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/CLEMENTINE/misc/tcook/clemdef.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/CLEMENTINE/misc/tcook/SPKMERGE_940219_940504_CLEMV001b.bsp
 """
+const SPKMERGE_940219_940504_CLEMV001b_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CLEMENTINE/misc/tcook/SPKMERGE_940219_940504_CLEMV001b.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -30,8 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/CLEMENTINE/misc/tcook/clem_ask020625.bsp
 """
-const clemdef_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CLEMENTINE/misc/tcook/clemdef.bsp")
-const clemdef_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CLEMENTINE/misc/tcook/clem_ask020625.bsp")
+const clem_ask020625_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CLEMENTINE/misc/tcook/clem_ask020625.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -44,11 +44,11 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/CLEMENTINE/misc/tcook/SPKMERGE_940219_940504_CLEMV001b.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/CLEMENTINE/misc/tcook/clemdef.bsp
 """
-const clemdef_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CLEMENTINE/misc/tcook/SPKMERGE_940219_940504_CLEMV001b.bsp")
+const clemdef_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CLEMENTINE/misc/tcook/clemdef.bsp")
 
 export
-    clemdef_bsp,
-    clemdef_bsp,
+    SPKMERGE_940219_940504_CLEMV001b_bsp,
+    clem_ask020625_bsp,
     clemdef_bsp

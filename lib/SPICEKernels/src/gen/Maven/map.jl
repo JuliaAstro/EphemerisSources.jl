@@ -107,6 +107,7 @@ const MAVEN_KERNELS = Base.ImmutableDict(
     "trj_orb_21986-21987_22253_v1.bsp" => "https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21986-21987_22253_v1.bsp",
     "trj_orb_22019-22020_22286_v1.bsp" => "https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22019-22020_22286_v1.bsp",
     "trj_orb_22033-22034_22300_v1.bsp" => "https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22033-22034_22300_v1.bsp",
+    "trj_orb_22066-22067_22330_v1.bsp" => "https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22066-22067_22330_v1.bsp",
     "trj_orb_240201-331231_dsf2.0-arm-prm-9.4ms_240205.bsp" => "https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_240201-331231_dsf2.0-arm-prm-9.4ms_240205.bsp",
     "trj_orb_240821-331231_dsf2.0_prm_4.4ms_240820.bsp" => "https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_240821-331231_dsf2.0_prm_4.4ms_240820.bsp",
     "maven_nadir.tf" => "https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mbenna/maven_nadir.tf",

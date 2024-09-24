@@ -4,7 +4,7 @@
 
 
 """
-All pioneer8_seti_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All PIONEER8 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Pioneer8
 

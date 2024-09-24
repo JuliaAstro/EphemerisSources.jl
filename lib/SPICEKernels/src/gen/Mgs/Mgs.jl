@@ -4,7 +4,7 @@
 
 
 """
-All spk_m_061102_071110_070418_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All MGS kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Mgs
 

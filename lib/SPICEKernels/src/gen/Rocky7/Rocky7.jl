@@ -4,7 +4,7 @@
 
 
 """
-All r7_rover_bsp_lsk kernels, linked from https://naif.jpl.nasa.gov.
+All ROCKY7 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Rocky7
 

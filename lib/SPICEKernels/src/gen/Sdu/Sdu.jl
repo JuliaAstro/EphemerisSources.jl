@@ -4,7 +4,7 @@
 
 
 """
-All tempel1_ssd91_981231_060115_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All SDU kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Sdu
 

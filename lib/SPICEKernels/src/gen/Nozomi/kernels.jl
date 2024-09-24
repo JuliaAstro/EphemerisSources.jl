@@ -14,9 +14,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/NOZOMI/kernels/spk/planetb_pb98.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/NOZOMI/kernels/spk/planetb_pb90.bsp
 """
-const planetb_pb98_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/NOZOMI/kernels/spk/planetb_pb98.bsp")
+const planetb_pb90_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/NOZOMI/kernels/spk/planetb_pb90.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -29,10 +29,10 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/NOZOMI/kernels/spk/planetb_pb90.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/NOZOMI/kernels/spk/planetb_pb98.bsp
 """
-const planetb_pb98_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/NOZOMI/kernels/spk/planetb_pb90.bsp")
+const planetb_pb98_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/NOZOMI/kernels/spk/planetb_pb98.bsp")
 
 export
-    planetb_pb98_bsp,
+    planetb_pb90_bsp,
     planetb_pb98_bsp

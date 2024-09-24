@@ -4,7 +4,7 @@
 
 
 """
-All em16_tgo_fap_136_01_20160314_20180105_v01_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All EXOMARS2016 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Exomars2016
 

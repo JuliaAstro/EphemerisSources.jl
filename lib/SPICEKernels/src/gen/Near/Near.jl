@@ -4,7 +4,7 @@
 
 
 """
-All naif0010_tls_spk kernels, linked from https://naif.jpl.nasa.gov.
+All NEAR kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Near
 

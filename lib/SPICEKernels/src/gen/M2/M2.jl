@@ -4,7 +4,7 @@
 
 
 """
-All m2_620827_621231_ja_v1_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All M2 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module M2
 

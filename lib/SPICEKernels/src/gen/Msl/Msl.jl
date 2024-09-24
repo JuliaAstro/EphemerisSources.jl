@@ -4,7 +4,7 @@
 
 
 """
-All msl_cruise_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All MSL kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Msl
 

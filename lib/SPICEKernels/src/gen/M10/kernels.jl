@@ -4,21 +4,6 @@
 
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M10/kernels/spk/M10_archive_1.bsp
-"""
-const M10_archive_1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M10/kernels/spk/M10_archive_1.bsp")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -31,7 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M10/kernels/fk/m10_v00.tf
 """
-const M10_archive_1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/M10/kernels/fk/m10_v00.tf")
+const m10_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/M10/kernels/fk/m10_v00.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -46,9 +31,24 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M10/kernels/lsk/naif0008.tls
 """
-const M10_archive_1_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/M10/kernels/lsk/naif0008.tls")
+const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/M10/kernels/lsk/naif0008.tls")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M10/kernels/spk/M10_archive_1.bsp
+"""
+const M10_archive_1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M10/kernels/spk/M10_archive_1.bsp")
 
 export
     M10_archive_1_bsp,
-    M10_archive_1_bsp,
-    M10_archive_1_bsp
+    m10_v00_tf,
+    naif0008_tls

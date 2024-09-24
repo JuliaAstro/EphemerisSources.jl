@@ -4,7 +4,7 @@
 
 
 """
-All dawn_ceres_v06_tpc kernels, linked from https://naif.jpl.nasa.gov.
+All cosmographia kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Cosmographia
 

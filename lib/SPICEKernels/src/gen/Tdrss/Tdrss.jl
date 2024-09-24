@@ -4,7 +4,7 @@
 
 
 """
-All TDRSS_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All TDRSS kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Tdrss
 

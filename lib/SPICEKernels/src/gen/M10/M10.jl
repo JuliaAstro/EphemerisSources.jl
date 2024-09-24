@@ -4,7 +4,7 @@
 
 
 """
-All M10_archive_1_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All M10 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module M10
 

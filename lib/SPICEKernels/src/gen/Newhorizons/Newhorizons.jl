@@ -4,7 +4,7 @@
 
 
 """
-All nh_recon_arrokoth_od147_v01_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All NEWHORIZONS kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Newhorizons
 

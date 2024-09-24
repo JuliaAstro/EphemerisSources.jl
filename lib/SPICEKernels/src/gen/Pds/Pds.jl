@@ -4,7 +4,7 @@
 
 
 """
-All m01_map10_ssd_mro110c_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All pds kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Pds
 

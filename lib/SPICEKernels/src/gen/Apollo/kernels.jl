@@ -4,7 +4,7 @@
 
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
@@ -14,9 +14,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/APOLLO/kernels/spk/apollo15-1.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/APOLLO/kernels/fk/apollo_naif_ids.tf
 """
-const apollo15_1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/APOLLO/kernels/spk/apollo15-1.bsp")
+const apollo_naif_ids_tf = FK("https://naif.jpl.nasa.gov/pub/naif/APOLLO/kernels/fk/apollo_naif_ids.tf")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -31,10 +31,10 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/APOLLO/kernels/spk/a16_subsat_ssd_lp150q.bsp
 """
-const apollo15_1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/APOLLO/kernels/spk/a16_subsat_ssd_lp150q.bsp")
+const a16_subsat_ssd_lp150q_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/APOLLO/kernels/spk/a16_subsat_ssd_lp150q.bsp")
 
 """
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
@@ -44,11 +44,11 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/APOLLO/kernels/fk/apollo_naif_ids.tf
+[1] https://naif.jpl.nasa.gov/pub/naif/APOLLO/kernels/spk/apollo15-1.bsp
 """
-const apollo15_1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/APOLLO/kernels/fk/apollo_naif_ids.tf")
+const apollo15_1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/APOLLO/kernels/spk/apollo15-1.bsp")
 
 export
+    a16_subsat_ssd_lp150q_bsp,
     apollo15_1_bsp,
-    apollo15_1_bsp,
-    apollo15_1_bsp
+    apollo_naif_ids_tf

@@ -4,7 +4,7 @@
 
 
 """
-All lo4_ssd_lp150q_v2_bsp_spk_spk kernels, linked from https://naif.jpl.nasa.gov.
+All LUNARORBITER kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Lunarorbiter
 

@@ -4,7 +4,7 @@
 
 
 """
-All phobos_kiam_101231_v00_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All PHSRM kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Phsrm
 

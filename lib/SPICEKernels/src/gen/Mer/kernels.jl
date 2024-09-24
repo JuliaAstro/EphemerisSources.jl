@@ -16,52 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1.tf
 """
-const mer1_surf_iddg_ext22_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext51_v1.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext22_v1.bsp
-"""
-const mer1_tp_tm20b3_iau2000_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext22_v1.bsp")
-const mer1_tp_tm20b3_iau2000_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext51_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext38_v1.bsp
-"""
-const mer1_surf_roverrl_ext52_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext38_v1.bsp")
+const mer1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -76,52 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_tp_tm20b3_iau2000_v1.tf
 """
-const mer1_surf_rover_ext39_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_tp_tm20b3_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext52_v1.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext23_v1.bsp
-"""
-const mer1_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext52_v1.bsp")
-const mer1_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext23_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext39_v1.bsp
-"""
-const mer1_surf_iddg_ext24_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext39_v1.bsp")
+const mer1_tp_tm20b3_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_tp_tm20b3_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -136,52 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v01.tf
 """
-const mer1_surf_rover_ext3_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext53_v1.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext24_v1.bsp
-"""
-const mer1_v05_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext53_v1.bsp")
-const mer1_v05_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext24_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext3_v1.bsp
-"""
-const mer1_surf_roverrl_ext54_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext3_v1.bsp")
+const mer1_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -196,52 +61,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v05.tf
 """
-const mer1_surf_rover_ext40_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v05.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext54_v1.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext25_v1.bsp
-"""
-const mer1_v06_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext54_v1.bsp")
-const mer1_v06_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext25_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext40_v1.bsp
-"""
-const mer1_surf_roverrl_ext55_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext40_v1.bsp")
+const mer1_v05_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v05.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -256,52 +76,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v06.tf
 """
-const mer1_surf_rover_ext41_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v06.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext26_v1.bsp
-"""
-const mer1_v07_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext26_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext55_v1.bsp
-"""
-const mer1_surf_iddg_ext27_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext55_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext41_v1.bsp
-"""
-const mer1_surf_roverrl_ext56_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext41_v1.bsp")
+const mer1_v06_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v06.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -316,37 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v07.tf
 """
-const mer1_surf_rover_ext42_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v07.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext27_v1.bsp
-"""
-const mer1_v09_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext27_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext56_v1.bsp
-"""
-const mer1_surf_iddg_ext28_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext56_v1.bsp")
+const mer1_v07_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v07.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -361,52 +106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v09.tf
 """
-const mer1_surf_roverrl_ext5_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v09.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext28_v1.bsp
-"""
-const mer1_v10_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext28_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext5_v1.bsp
-"""
-const mer1_surf_iddg_ext29_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext5_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext42_v1.bsp
-"""
-const mer1_surf_roverrl_ext6_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext42_v1.bsp")
+const mer1_v09_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v09.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -421,52 +121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v10.tf
 """
-const mer1_surf_rover_ext43_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v10.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext29_v1.bsp
-"""
-const mer1_v11_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext29_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext6_v1.bsp
-"""
-const mer1_surf_iddg_ext2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext6_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext43_v1.bsp
-"""
-const mer1_surf_roverrl_ext7_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext43_v1.bsp")
+const mer1_v10_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v10.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -481,52 +136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v11.tf
 """
-const mer1_surf_rover_ext44_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v11.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext2_v1.bsp
-"""
-const mer2_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext2_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext7_v1.bsp
-"""
-const mer1_surf_iddg_ext30_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext7_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext44_v1.bsp
-"""
-const mer1_surf_roverrl_ext8_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext44_v1.bsp")
+const mer1_v11_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer1_v11.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -541,52 +151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2.tf
 """
-const mer1_surf_rover_ext45_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext30_v1.bsp
-"""
-const mer2_tp_ep55a3_iau2000_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext30_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext8_v1.bsp
-"""
-const mer1_surf_iddg_ext31_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext8_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext45_v1.bsp
-"""
-const mer1_surf_roverrl_ext9_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext45_v1.bsp")
+const mer2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -601,52 +166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_tp_ep55a3_iau2000_v1.tf
 """
-const mer1_surf_rover_ext46_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_tp_ep55a3_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext31_v1.bsp
-"""
-const mer2_tp_ep78a3p_iau2000_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext31_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext9_v1.bsp
-"""
-const mer1_surf_iddg_ext32_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext9_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext46_v1.bsp
-"""
-const mer1_surf_roverrl_prim_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext46_v1.bsp")
+const mer2_tp_ep55a3_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_tp_ep55a3_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -661,52 +181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_tp_ep78a3p_iau2000_v1.tf
 """
-const mer1_surf_rover_ext47_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_tp_ep78a3p_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext32_v1.bsp
-"""
-const mer2_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext32_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_prim_v1.bsp
-"""
-const mer1_surf_iddg_ext33_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_prim_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext47_v1.bsp
-"""
-const mer1_surf_roverrl_ro_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext47_v1.bsp")
+const mer2_tp_ep78a3p_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_tp_ep78a3p_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -721,52 +196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v01.tf
 """
-const mer1_surf_rover_ext48_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext33_v1.bsp
-"""
-const mer2_v03_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext33_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ro.bsp
-"""
-const mer1_surf_iddg_ext34_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ro.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext48_v1.bsp
-"""
-const mer2_cruise_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext48_v1.bsp")
+const mer2_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -781,52 +211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v03.tf
 """
-const mer1_surf_rover_ext49_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v03.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext34_v1.bsp
-"""
-const mer2_v04_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext34_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_cruise.bsp
-"""
-const mer1_surf_iddg_ext35_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_cruise.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext49_v1.bsp
-"""
-const mer2_edl_rcb_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext49_v1.bsp")
+const mer2_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v03.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -841,52 +226,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v04.tf
 """
-const mer1_surf_rover_ext4_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v04.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext35_v1.bsp
-"""
-const mer2_v05_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext35_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_edl_rcb_v1.bsp
-"""
-const mer1_surf_iddg_ext36_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_edl_rcb_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext4_v1.bsp
-"""
-const mer2_ls_040108_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext4_v1.bsp")
+const mer2_v04_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v04.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -901,52 +241,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v05.tf
 """
-const mer1_surf_rover_ext50_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v05.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext36_v1.bsp
-"""
-const mer2_v06_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext36_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_ls_040108_iau2000_v1.bsp
-"""
-const mer1_surf_iddg_ext37_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_ls_040108_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext50_v1.bsp
-"""
-const mer2_still_at_ls_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext50_v1.bsp")
+const mer2_v05_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v05.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -961,52 +256,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v06.tf
 """
-const mer1_surf_rover_ext51_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v06.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext37_v1.bsp
-"""
-const mer2_v09_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext37_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_still_at_ls_v1.bsp
-"""
-const mer1_surf_iddg_ext38_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_still_at_ls_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext51_v1.bsp
-"""
-const mer2_struct_ver11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext51_v1.bsp")
+const mer2_v06_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v06.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1021,52 +271,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v09.tf
 """
-const mer1_surf_rover_ext52_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v09.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext38_v1.bsp
-"""
-const mer2_v10_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext38_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_struct_ver11.bsp
-"""
-const mer1_surf_iddg_ext39_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_struct_ver11.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext52_v1.bsp
-"""
-const mer1_surf_iddg_ext39_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext52_v1.bsp")
+const mer2_v09_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v09.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1081,52 +286,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v10.tf
 """
-const mer1_surf_rover_ext53_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v10.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext39_v1.bsp
-"""
-const mer1_v00_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext39_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext53_v1.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_iddg_all_v1.bsp
-"""
-const mer1_surf_iddg_ext3_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext53_v1.bsp")
-const mer1_surf_iddg_ext3_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_iddg_all_v1.bsp")
+const mer2_v10_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/mer2_v10.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1141,52 +301,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/mer1_v00.tf
 """
-const mer2_surf_rover_all_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/mer1_v00.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext3_v1.bsp
-"""
-const mer2_v00_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext3_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext54_v1.bsp
-"""
-const mer1_surf_iddg_ext40_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext54_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_rover_all_v01.bsp
-"""
-const mer1_surf_rover_ext55_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_rover_all_v01.bsp")
+const mer1_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/mer1_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1201,52 +316,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/mer2_v00.tf
 """
-const mer2_surf_rover_ro_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/mer2_v00.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext40_v1.bsp
-"""
-const mera_ll_ep55a2_iau1991_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext40_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext55_v1.bsp
-"""
-const mer1_surf_iddg_ext41_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext55_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_rover_ro_v01.bsp
-"""
-const mer1_surf_rover_ext56_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_rover_ro_v01.bsp")
+const mer2_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/mer2_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1261,52 +331,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_ep55a2_iau1991_v1.tf
 """
-const mer2_surf_roverrl_all_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_ep55a2_iau1991_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext41_v1.bsp
-"""
-const mera_ll_ip84a2_iau1991_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext41_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext56_v1.bsp
-"""
-const mer1_surf_iddg_ext42_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext56_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_roverrl_all_v01.bsp
-"""
-const mer1_surf_rover_ext5_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_roverrl_all_v01.bsp")
+const mera_ll_ep55a2_iau1991_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_ep55a2_iau1991_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1321,52 +346,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_ip84a2_iau1991_v1.tf
 """
-const mer2_surf_roverrl_ro_v01_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_ip84a2_iau1991_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext42_v1.bsp
-"""
-const mera_ll_tm10a2_iau1991_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext42_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext5_v1.bsp
-"""
-const mer1_surf_iddg_ext43_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext5_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_roverrl_ro_v01.bsp
-"""
-const mer1_surf_rover_ext6_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_roverrl_ro_v01.bsp")
+const mera_ll_ip84a2_iau1991_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_ip84a2_iau1991_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1381,52 +361,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_tm10a2_iau1991_v1.tf
 """
-const spk_b_s_071029_160101_110624_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_tm10a2_iau1991_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext43_v1.bsp
-"""
-const mera_ll_vm41a2_iau1991_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext43_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext6_v1.bsp
-"""
-const mer1_surf_iddg_ext44_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext6_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/spk_b_s_071029-160101_110624.bsp
-"""
-const mer1_surf_rover_ext7_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/spk_b_s_071029-160101_110624.bsp")
+const mera_ll_tm10a2_iau1991_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_tm10a2_iau1991_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1441,52 +376,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_vm41a2_iau1991_v1.tf
 """
-const mer1_v02_draft_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_vm41a2_iau1991_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext44_v1.bsp
-"""
-const mera_ll_vm53a2_iau1991_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext44_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext7_v1.bsp
-"""
-const mer1_surf_iddg_ext45_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext7_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030727/mer1_v02_draft.tf
-"""
-const mer1_surf_rover_ext8_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030727/mer1_v02_draft.tf")
+const mera_ll_vm41a2_iau1991_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_vm41a2_iau1991_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1501,52 +391,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_vm53a2_iau1991_v1.tf
 """
-const mer2_v02_draft_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_vm53a2_iau1991_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext45_v1.bsp
-"""
-const merb_ll_ep49b2_iau1991_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext45_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext8_v1.bsp
-"""
-const mer1_surf_iddg_ext46_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext8_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030727/mer2_v02_draft.tf
-"""
-const mer1_surf_rover_ext9_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030727/mer2_v02_draft.tf")
+const mera_ll_vm53a2_iau1991_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/mera_ll_vm53a2_iau1991_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1561,52 +406,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/merb_ll_ep49b2_iau1991_v1.tf
 """
-const mer1_v02_draft2_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/merb_ll_ep49b2_iau1991_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext46_v1.bsp
-"""
-const merb_ll_ip96b2_iau1991_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext46_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext9_v1.bsp
-"""
-const mer1_surf_iddg_ext47_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext9_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/fk/mer1_v02_draft2.tf
-"""
-const mer1_surf_rover_prim_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/fk/mer1_v02_draft2.tf")
+const merb_ll_ep49b2_iau1991_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/merb_ll_ep49b2_iau1991_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1621,52 +421,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/merb_ll_ip96b2_iau1991_v1.tf
 """
-const mer2_v02_draft2_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/merb_ll_ip96b2_iau1991_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext47_v1.bsp
-"""
-const merb_ll_tm20b2_iau1991_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext47_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_prim_v1.bsp
-"""
-const mer1_surf_iddg_ext48_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_prim_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/fk/mer2_v02_draft2.tf
-"""
-const mer1_surf_rover_ro_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/fk/mer2_v02_draft2.tf")
+const merb_ll_ip96b2_iau1991_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/merb_ll_ip96b2_iau1991_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1681,52 +436,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/merb_ll_tm20b2_iau1991_v1.tf
 """
-const mer1_still_at_ls_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/merb_ll_tm20b2_iau1991_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext48_v1.bsp
-"""
-const merb_ll_vm53b2_iau1991_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext48_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ro.bsp
-"""
-const mer1_surf_iddg_ext49_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ro.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer1_still_at_ls_v1.bsp
-"""
-const mer1_surf_roverrl_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer1_still_at_ls_v1.bsp")
+const merb_ll_tm20b2_iau1991_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/merb_ll_tm20b2_iau1991_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1741,52 +451,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/merb_ll_vm53b2_iau1991_v1.tf
 """
-const mer1_struct_v00_draft1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/merb_ll_vm53b2_iau1991_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext49_v1.bsp
-"""
-const mera_tp_ep55a2_iau2000_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext49_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl.bsp
-"""
-const mer1_surf_iddg_ext4_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer1_struct_v00_draft1.bsp
-"""
-const mer1_surf_roverrl_0001_3240_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer1_struct_v00_draft1.bsp")
+const merb_ll_vm53b2_iau1991_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver1/merb_ll_vm53b2_iau1991_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1801,52 +466,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/mera_tp_ep55a2_iau2000_v1.tf
 """
-const mer2_still_at_ls_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/mera_tp_ep55a2_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext4_v1.bsp
-"""
-const mera_tp_ip84a2_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext4_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_0001_3240_v1.bsp
-"""
-const mer1_surf_iddg_ext50_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_0001_3240_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer2_still_at_ls_v1.bsp
-"""
-const mer1_surf_roverrl_cs_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer2_still_at_ls_v1.bsp")
+const mera_tp_ep55a2_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/mera_tp_ep55a2_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1861,52 +481,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/mera_tp_ip84a2_iau2000_v1.tf
 """
-const mer2_struct_v00_draft1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/mera_tp_ip84a2_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext50_v1.bsp
-"""
-const mera_tp_tm10a2_iau2000_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext50_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_cs.bsp
-"""
-const mer1_surf_iddg_ext51_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_cs.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer2_struct_v00_draft1.bsp
-"""
-const mer1_surf_roverrl_ext10_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer2_struct_v00_draft1.bsp")
+const mera_tp_ip84a2_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/mera_tp_ip84a2_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1921,52 +496,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/mera_tp_tm10a2_iau2000_v1.tf
 """
-const mer1_struct_sstb_ver10_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/mera_tp_tm10a2_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext51_v1.bsp
-"""
-const mera_v00_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext51_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext10_v1.bsp
-"""
-const mer1_surf_iddg_ext52_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext10_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20031204/mer1_struct_sstb_ver10.bsp
-"""
-const mer1_surf_roverrl_ext11_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20031204/mer1_struct_sstb_ver10.bsp")
+const mera_tp_tm10a2_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/mera_tp_tm10a2_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1981,52 +511,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/mera_v00.tf
 """
-const mer1_v03_sstb_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/mera_v00.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext52_v1.bsp
-"""
-const merb_tp_ep78b2_iau2000_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext52_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext11_v1.bsp
-"""
-const mer1_surf_iddg_ext53_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext11_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20031204/mer1_v03_sstb.tf
-"""
-const mer1_surf_roverrl_ext12_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20031204/mer1_v03_sstb.tf")
+const mera_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/mera_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2041,52 +526,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/merb_tp_ep78b2_iau2000_v1.tf
 """
-const mer1_surfu_rover_0403250102_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/merb_tp_ep78b2_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext53_v1.bsp
-"""
-const merb_tp_ip96b2_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext53_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext12_v1.bsp
-"""
-const mer1_surf_iddg_ext54_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext12_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040325/mer1_surfu_rover_0403250102.bsp
-"""
-const mer1_surf_roverrl_ext13_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040325/mer1_surfu_rover_0403250102.bsp")
+const merb_tp_ep78b2_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/merb_tp_ep78b2_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2101,52 +541,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/merb_tp_ip96b2_iau2000_v1.tf
 """
-const mer2_surfu_rover_0403251409_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/merb_tp_ip96b2_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext54_v1.bsp
-"""
-const merb_tp_tm20b2_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext54_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext13_v1.bsp
-"""
-const mer1_surf_iddg_ext55_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext13_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040325/mer2_surfu_rover_0403251409.bsp
-"""
-const mer1_surf_roverrl_ext14_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040325/mer2_surfu_rover_0403251409.bsp")
+const merb_tp_ip96b2_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/merb_tp_ip96b2_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2161,52 +556,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/merb_tp_tm20b2_iau2000_v1.tf
 """
-const mer1_surfui_rover_0403301400_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/merb_tp_tm20b2_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext55_v1.bsp
-"""
-const merb_v00_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext55_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext14_v1.bsp
-"""
-const mer1_surf_iddg_ext56_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext14_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040330/mer1_surfui_rover_0403301400.bsp
-"""
-const mer1_surf_roverrl_ext15_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040330/mer1_surfui_rover_0403301400.bsp")
+const merb_tp_tm20b2_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/merb_tp_tm20b2_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2221,52 +571,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/merb_v00.tf
 """
-const mer2_surfui_rover_0403301400_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/merb_v00.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext56_v1.bsp
-"""
-const mer1_tp_ep78b2_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext56_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext15_v1.bsp
-"""
-const mer1_surf_iddg_ext5_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext15_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040330/mer2_surfui_rover_0403301400.bsp
-"""
-const mer1_surf_roverrl_ext16_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040330/mer2_surfui_rover_0403301400.bsp")
+const merb_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver2_bad_id/merb_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2281,52 +586,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer1_tp_ep78b2_iau2000_v1.tf
 """
-const mer1_ll_ck_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer1_tp_ep78b2_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext5_v1.bsp
-"""
-const mer1_tp_ip96b2_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext5_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext16_v1.bsp
-"""
-const mer1_surf_iddg_ext6_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext16_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/eferguson/mer1_ll_ck.tf
-"""
-const mer1_surf_roverrl_ext17_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/eferguson/mer1_ll_ck.tf")
+const mer1_tp_ep78b2_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer1_tp_ep78b2_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2341,52 +601,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer1_tp_ip96b2_iau2000_v1.tf
 """
-const mer1_ll_dyn_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer1_tp_ip96b2_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext6_v1.bsp
-"""
-const mer1_tp_tm20b2_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext6_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext17_v1.bsp
-"""
-const mer1_surf_iddg_ext7_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext17_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/eferguson/mer1_ll_dyn.tf
-"""
-const mer1_surf_roverrl_ext18_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/eferguson/mer1_ll_dyn.tf")
+const mer1_tp_ip96b2_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer1_tp_ip96b2_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2401,52 +616,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer1_tp_tm20b2_iau2000_v1.tf
 """
-const mer1_still_at_ls_long_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer1_tp_tm20b2_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext7_v1.bsp
-"""
-const mer2_tp_ep55a2_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext7_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext18_v1.bsp
-"""
-const mer1_surf_iddg_ext8_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext18_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/fseelos/mer1_still_at_ls_long.bsp
-"""
-const mer1_surf_roverrl_ext19_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/fseelos/mer1_still_at_ls_long.bsp")
+const mer1_tp_tm20b2_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer1_tp_tm20b2_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2461,52 +631,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer2_tp_ep55a2_iau2000_v1.tf
 """
-const mer2_still_at_ls_long_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer2_tp_ep55a2_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext8_v1.bsp
-"""
-const mer2_tp_ip84a2_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext8_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext19_v1.bsp
-"""
-const mer1_surf_iddg_ext9_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext19_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/fseelos/mer2_still_at_ls_long.bsp
-"""
-const mer1_surf_roverrl_ext1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/fseelos/mer2_still_at_ls_long.bsp")
+const mer2_tp_ep55a2_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer2_tp_ep55a2_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2521,52 +646,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer2_tp_ip84a2_iau2000_v1.tf
 """
-const mer1_surf_rover_ghfix_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer2_tp_ip84a2_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext9_v1.bsp
-"""
-const mer2_tp_tm10a2_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext9_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext1_v1.bsp
-"""
-const mer1_surf_iddg_prim_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext1_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/ghfix/mer1_surf_rover_ghfix.bsp
-"""
-const mer1_surf_roverrl_ext20_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/ghfix/mer1_surf_rover_ghfix.bsp")
+const mer2_tp_ip84a2_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer2_tp_ip84a2_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2581,52 +661,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer2_tp_tm10a2_iau2000_v1.tf
 """
-const mer1_surf_roverrl_1202220917_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer2_tp_tm10a2_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_prim_v1.bsp
-"""
-const naif0007_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_prim_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext20_v1.bsp
-"""
-const mer1_surf_rover_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext20_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/jpmuller/mer1_surf_roverrl_1202220917.bsp
-"""
-const mer1_surf_roverrl_ext21_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/jpmuller/mer1_surf_roverrl_1202220917.bsp")
+const mer2_tp_tm10a2_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/fk/zzarchive/ver3_prelaunch_final/mer2_tp_tm10a2_iau2000_v1.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2641,52 +676,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0007.tls
 """
-const mer2_surf_roverrl_1202221014_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0007.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover.bsp
-"""
-const naif0008_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext21_v1.bsp
-"""
-const mer1_surf_rover_0001_3240_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext21_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/jpmuller/mer2_surf_roverrl_1202221014.bsp
-"""
-const mer1_surf_roverrl_ext22_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/jpmuller/mer2_surf_roverrl_1202221014.bsp")
+const naif0007_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0007.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2701,52 +691,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0008.tls
 """
-const spk_031201_040401_020415_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0008.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_0001_3240_v1.bsp
-"""
-const naif0009_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_0001_3240_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext22_v1.bsp
-"""
-const mer1_surf_rover_cs_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext22_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/mgs_spks/spk_031201-040401_020415.bsp
-"""
-const mer1_surf_roverrl_ext23_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/mgs_spks/spk_031201-040401_020415.bsp")
+const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0008.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2761,52 +706,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0009.tls
 """
-const spk_040401_040801_020416_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0009.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_cs.bsp
-"""
-const naif0010_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_cs.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext23_v1.bsp
-"""
-const mer1_surf_rover_ext10_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext23_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/mgs_spks/spk_040401-040801_020416.bsp
-"""
-const mer1_surf_roverrl_ext24_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/mgs_spks/spk_040401-040801_020416.bsp")
+const naif0009_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0009.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2821,52 +721,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0010.tls
 """
-const spk_040801_050101_020416_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0010.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext10_v1.bsp
-"""
-const naif0011_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext10_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext24_v1.bsp
-"""
-const mer1_surf_rover_ext11_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext24_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/mgs_spks/spk_040801-050101_020416.bsp
-"""
-const mer1_surf_roverrl_ext25_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/mgs_spks/spk_040801-050101_020416.bsp")
+const naif0010_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0010.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2881,52 +736,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0011.tls
 """
-const mer1_merb_v00_tf_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0011.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext11_v1.bsp
-"""
-const naif0012_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext11_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext25_v1.bsp
-"""
-const mer1_surf_rover_ext12_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext25_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/name_map_fks/mer1_merb_v00.tf
-"""
-const mer1_surf_roverrl_ext26_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/name_map_fks/mer1_merb_v00.tf")
+const naif0011_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0011.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -2941,52 +751,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0012.tls
 """
-const mer2_mera_v00_tf_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0012.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext12_v1.bsp
-"""
-const mars_iau2000_v0_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext12_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext26_v1.bsp
-"""
-const mer1_surf_rover_ext13_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext26_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/name_map_fks/mer2_mera_v00.tf
-"""
-const mer1_surf_roverrl_ext27_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/name_map_fks/mer2_mera_v00.tf")
+const naif0012_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/lsk/naif0012.tls")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3001,52 +766,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/pck/mars_iau2000_v0.tpc
 """
-const pck00008_tpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/pck/mars_iau2000_v0.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext13_v1.bsp
-"""
-const mer_mars_iau1991_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext13_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext27_v1.bsp
-"""
-const mer1_surf_rover_ext14_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext27_v1.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/pck/pck00008.tpc
-"""
-const mer1_surf_roverrl_ext28_v1_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/pck/pck00008.tpc")
+const mars_iau2000_v0_tpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/pck/mars_iau2000_v0.tpc")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3061,52 +781,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/pck/zzarchive/mer_mars_iau1991.tpc
 """
-const de410_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/pck/zzarchive/mer_mars_iau1991.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext14_v1.bsp
-"""
-const de405s_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext14_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext28_v1.bsp
-"""
-const mer1_surf_rover_ext15_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext28_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/de410.bsp
-"""
-const mer1_surf_roverrl_ext29_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/de410.bsp")
+const mer_mars_iau1991_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/pck/zzarchive/mer_mars_iau1991.tpc")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3121,52 +796,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/de405s.bsp
 """
-const mars_iau2000_v0_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/de405s.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext15_v1.bsp
-"""
-const de410_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext15_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext29_v1.bsp
-"""
-const mer1_surf_rover_ext16_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext29_v1.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mars_iau2000_v0.tpc
-"""
-const mer1_surf_roverrl_ext2_v1_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mars_iau2000_v0.tpc")
+const de405s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/de405s.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3181,66 +811,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/de410.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext16_v1.bsp
-"""
-const mer2_ls_ep55a3_iau2000_v1_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/de410.bsp")
-const mer2_ls_ep55a3_iau2000_v1_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext16_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext2_v1.bsp
-"""
-const mer1_surf_rover_ext17_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext2_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_ls_ep55a3_iau2000_v1.bsp
-"""
-const mer1_surf_roverrl_ext30_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_ls_ep55a3_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext17_v1.bsp
-"""
+const de410_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/de410.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3255,53 +826,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/de410_de910.bsp
 """
-const mer2_port6_rover_20040101_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext17_v1.bsp")
-const mer2_port6_rover_20040101_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/de410_de910.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext30_v1.bsp
-"""
-const mar033_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext30_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_port6_rover_20040101.bsp
-"""
-const mer1_surf_roverrl_ext31_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_port6_rover_20040101.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext18_v1.bsp
-"""
-const mer2_struct_sstb_ver10_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext18_v1.bsp")
+const de410_de910_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/de410_de910.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3316,52 +841,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mar033.bsp
 """
-const mer2_struct_sstb_ver10_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mar033.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext31_v1.bsp
-"""
-const mar033_2000_2025_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext31_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_struct_sstb_ver10.bsp
-"""
-const mer1_surf_roverrl_ext32_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_struct_sstb_ver10.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext19_v1.bsp
-"""
-const mer2_v04_sstb_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext19_v1.bsp")
+const mar033_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mar033.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3376,52 +856,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mar033_2000-2025.bsp
 """
-const mer1_surf_rover_ext1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mar033_2000-2025.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext32_v1.bsp
-"""
-const mer1_cruise_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext32_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_v04_sstb.tf
-"""
-const mer1_surf_roverrl_ext33_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_v04_sstb.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext1_v1.bsp
-"""
-const naif0007_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext1_v1.bsp")
+const mar033_2000_2025_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mar033_2000-2025.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3436,52 +871,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_cruise.bsp
 """
-const mer1_surf_rover_ext20_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_cruise.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext33_v1.bsp
-"""
-const mer1_edl_rcb_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext33_v1.bsp")
-
-"""
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/naif0007.tls
-"""
-const mer1_surf_roverrl_ext34_v1_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/naif0007.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext20_v1.bsp
-"""
-const de410_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext20_v1.bsp")
+const mer1_cruise_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_cruise.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3496,52 +886,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_edl_rcb_v1.bsp
 """
-const de410_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_edl_rcb_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext34_v1.bsp
-"""
-const mer1_ls_040128_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext34_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/de410.bsp
-"""
-const mer1_surf_roverrl_ext36_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/de410.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext21_v1.bsp
-"""
-const mars_iau2000_v0_tpc_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext21_v1.bsp")
+const mer1_edl_rcb_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_edl_rcb_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3556,52 +901,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_ls_040128_iau2000_v1.bsp
 """
-const mer1_surf_rover_ext22_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_ls_040128_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext36_v1.bsp
-"""
-const mer1_still_at_ls_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext36_v1.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mars_iau2000_v0.tpc
-"""
-const mer1_surf_roverrl_ext37_v1_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mars_iau2000_v0.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext22_v1.bsp
-"""
-const mer1_ls_tm20b3_iau2000_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext22_v1.bsp")
+const mer1_ls_040128_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_ls_040128_iau2000_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3616,52 +916,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_still_at_ls_v1.bsp
 """
-const mer1_ls_tm20b3_iau2000_v1_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_still_at_ls_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext37_v1.bsp
-"""
-const mer1_struct_ver11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext37_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_ls_tm20b3_iau2000_v1.bsp
-"""
-const mer1_surf_roverrl_ext38_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_ls_tm20b3_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext23_v1.bsp
-"""
-const mer1_port6_rover_20040101_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext23_v1.bsp")
+const mer1_still_at_ls_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_still_at_ls_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3676,52 +931,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_struct_ver11.bsp
 """
-const mer1_port6_rover_20040101_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_struct_ver11.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext38_v1.bsp
-"""
-const mer1_surf_iddg_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext38_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_port6_rover_20040101.bsp
-"""
-const mer1_surf_roverrl_ext39_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_port6_rover_20040101.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext24_v1.bsp
-"""
-const mer1_struct_sstb_ver10_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext24_v1.bsp")
+const mer1_struct_ver11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_struct_ver11.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3736,52 +946,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg.bsp
 """
-const mer1_surf_rover_ext25_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext39_v1.bsp
-"""
-const mer1_surf_iddg_ext10_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext39_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_struct_sstb_ver10.bsp
-"""
-const mer1_surf_roverrl_ext3_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_struct_sstb_ver10.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext25_v1.bsp
-"""
-const mer1_v04_sstb_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext25_v1.bsp")
+const mer1_surf_iddg_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3796,52 +961,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext10_v1.bsp
 """
-const mer1_surf_rover_ext26_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext10_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext3_v1.bsp
-"""
-const mer1_surf_iddg_ext11_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext3_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_v04_sstb.tf
-"""
-const mer1_surf_roverrl_ext40_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_v04_sstb.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext26_v1.bsp
-"""
-const naif0007_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext26_v1.bsp")
+const mer1_surf_iddg_ext10_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext10_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3856,52 +976,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext11_v1.bsp
 """
-const mer1_surf_rover_ext27_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext11_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext40_v1.bsp
-"""
-const mer1_surf_iddg_ext12_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext40_v1.bsp")
-
-"""
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/naif0007.tls
-"""
-const mer1_surf_roverrl_ext41_v1_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/naif0007.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext27_v1.bsp
-"""
-const mer2_ls_040105_0500_dte_iau2000_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext27_v1.bsp")
+const mer1_surf_iddg_ext11_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext11_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3916,52 +991,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext12_v1.bsp
 """
-const mer1_surf_rover_ext28_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext12_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext41_v1.bsp
-"""
-const mer1_surf_iddg_ext13_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext41_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040106/mer2_ls_040105_0500_dte_iau2000_v1.bsp
-"""
-const mer1_surf_roverrl_ext42_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040106/mer2_ls_040105_0500_dte_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext28_v1.bsp
-"""
-const mer2_tp_040105_0500_dte_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext28_v1.bsp")
+const mer1_surf_iddg_ext12_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext12_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -3976,52 +1006,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext13_v1.bsp
 """
-const mer1_surf_rover_ext29_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext13_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext42_v1.bsp
-"""
-const mer1_surf_iddg_ext14_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext42_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040106/mer2_tp_040105_0500_dte_iau2000_v1.tf
-"""
-const mer1_surf_roverrl_ext43_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040106/mer2_tp_040105_0500_dte_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext29_v1.bsp
-"""
-const mer1_loc_040909_iau2000_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext29_v1.bsp")
+const mer1_surf_iddg_ext13_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext13_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4036,52 +1021,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext14_v1.bsp
 """
-const mer1_surf_rover_ext2_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext14_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext43_v1.bsp
-"""
-const mer1_surf_iddg_ext15_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext43_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer1_loc_040909_iau2000_v1.bsp
-"""
-const mer1_surf_roverrl_ext44_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer1_loc_040909_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext2_v1.bsp
-"""
-const mer1_loc_040909_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext2_v1.bsp")
+const mer1_surf_iddg_ext14_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext14_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4096,52 +1036,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext15_v1.bsp
 """
-const mer1_surf_rover_ext30_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext15_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext44_v1.bsp
-"""
-const mer1_surf_iddg_ext16_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext44_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer1_loc_040909_iau2000_v1.tf
-"""
-const mer1_surf_roverrl_ext45_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer1_loc_040909_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext30_v1.bsp
-"""
-const mer2_loc_040909_iau2000_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext30_v1.bsp")
+const mer1_surf_iddg_ext15_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext15_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4156,52 +1051,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext16_v1.bsp
 """
-const mer1_surf_rover_ext31_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext16_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext45_v1.bsp
-"""
-const mer1_surf_iddg_ext17_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext45_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer2_loc_040909_iau2000_v1.bsp
-"""
-const mer1_surf_roverrl_ext46_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer2_loc_040909_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext31_v1.bsp
-"""
-const mer2_loc_040909_iau2000_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext31_v1.bsp")
+const mer1_surf_iddg_ext16_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext16_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4216,52 +1066,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext17_v1.bsp
 """
-const mer1_surf_rover_ext32_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext17_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext46_v1.bsp
-"""
-const mer1_surf_iddg_ext18_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext46_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer2_loc_040909_iau2000_v1.tf
-"""
-const mer1_surf_roverrl_ext47_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer2_loc_040909_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext32_v1.bsp
-"""
-const effelsberg_v01_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext32_v1.bsp")
+const mer1_surf_iddg_ext17_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext17_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4276,52 +1081,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext18_v1.bsp
 """
-const mer1_surf_rover_ext33_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext18_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext47_v1.bsp
-"""
-const mer1_surf_iddg_ext19_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext47_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/effelsberg_v01.bsp
-"""
-const mer1_surf_roverrl_ext48_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/effelsberg_v01.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext33_v1.bsp
-"""
-const effelsberg_v01_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext33_v1.bsp")
+const mer1_surf_iddg_ext18_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext18_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4336,52 +1096,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext19_v1.bsp
 """
-const mer1_surf_rover_ext34_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext19_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext48_v1.bsp
-"""
-const mer1_surf_iddg_ext1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext48_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/effelsberg_v01.tf
-"""
-const mer1_surf_roverrl_ext49_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/effelsberg_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext34_v1.bsp
-"""
-const greenbank_v01_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext34_v1.bsp")
+const mer1_surf_iddg_ext19_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext19_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4396,52 +1111,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext1_v1.bsp
 """
-const mer1_surf_rover_ext36_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext1_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext49_v1.bsp
-"""
-const mer1_surf_iddg_ext20_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext49_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/greenbank_v01.bsp
-"""
-const mer1_surf_roverrl_ext4_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/greenbank_v01.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext36_v1.bsp
-"""
-const greenbank_v01_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext36_v1.bsp")
+const mer1_surf_iddg_ext1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext1_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4456,52 +1126,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext20_v1.bsp
 """
-const mer1_surf_rover_ext37_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext20_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext4_v1.bsp
-"""
-const mer1_surf_iddg_ext21_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext4_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/greenbank_v01.tf
-"""
-const mer1_surf_roverrl_ext50_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/greenbank_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext37_v1.bsp
-"""
-const mer1_surf_roverrl_ext50_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext37_v1.bsp")
+const mer1_surf_iddg_ext20_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext20_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4516,7 +1141,2257 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext21_v1.bsp
 """
-const mer1_surf_roverrl_ext50_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext21_v1.bsp")
+const mer1_surf_iddg_ext21_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext21_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext22_v1.bsp
+"""
+const mer1_surf_iddg_ext22_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext22_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext23_v1.bsp
+"""
+const mer1_surf_iddg_ext23_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext23_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext24_v1.bsp
+"""
+const mer1_surf_iddg_ext24_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext24_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext25_v1.bsp
+"""
+const mer1_surf_iddg_ext25_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext25_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext26_v1.bsp
+"""
+const mer1_surf_iddg_ext26_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext26_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext27_v1.bsp
+"""
+const mer1_surf_iddg_ext27_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext27_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext28_v1.bsp
+"""
+const mer1_surf_iddg_ext28_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext28_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext29_v1.bsp
+"""
+const mer1_surf_iddg_ext29_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext29_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext2_v1.bsp
+"""
+const mer1_surf_iddg_ext2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext2_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext30_v1.bsp
+"""
+const mer1_surf_iddg_ext30_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext30_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext31_v1.bsp
+"""
+const mer1_surf_iddg_ext31_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext31_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext32_v1.bsp
+"""
+const mer1_surf_iddg_ext32_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext32_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext33_v1.bsp
+"""
+const mer1_surf_iddg_ext33_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext33_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext34_v1.bsp
+"""
+const mer1_surf_iddg_ext34_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext34_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext35_v1.bsp
+"""
+const mer1_surf_iddg_ext35_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext35_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext36_v1.bsp
+"""
+const mer1_surf_iddg_ext36_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext36_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext37_v1.bsp
+"""
+const mer1_surf_iddg_ext37_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext37_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext38_v1.bsp
+"""
+const mer1_surf_iddg_ext38_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext38_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext39_v1.bsp
+"""
+const mer1_surf_iddg_ext39_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext39_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext3_v1.bsp
+"""
+const mer1_surf_iddg_ext3_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext3_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext40_v1.bsp
+"""
+const mer1_surf_iddg_ext40_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext40_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext41_v1.bsp
+"""
+const mer1_surf_iddg_ext41_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext41_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext42_v1.bsp
+"""
+const mer1_surf_iddg_ext42_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext42_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext43_v1.bsp
+"""
+const mer1_surf_iddg_ext43_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext43_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext44_v1.bsp
+"""
+const mer1_surf_iddg_ext44_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext44_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext45_v1.bsp
+"""
+const mer1_surf_iddg_ext45_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext45_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext46_v1.bsp
+"""
+const mer1_surf_iddg_ext46_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext46_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext47_v1.bsp
+"""
+const mer1_surf_iddg_ext47_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext47_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext48_v1.bsp
+"""
+const mer1_surf_iddg_ext48_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext48_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext49_v1.bsp
+"""
+const mer1_surf_iddg_ext49_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext49_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext4_v1.bsp
+"""
+const mer1_surf_iddg_ext4_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext4_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext50_v1.bsp
+"""
+const mer1_surf_iddg_ext50_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext50_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext51_v1.bsp
+"""
+const mer1_surf_iddg_ext51_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext51_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext52_v1.bsp
+"""
+const mer1_surf_iddg_ext52_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext52_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext53_v1.bsp
+"""
+const mer1_surf_iddg_ext53_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext53_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext54_v1.bsp
+"""
+const mer1_surf_iddg_ext54_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext54_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext55_v1.bsp
+"""
+const mer1_surf_iddg_ext55_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext55_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext56_v1.bsp
+"""
+const mer1_surf_iddg_ext56_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext56_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext5_v1.bsp
+"""
+const mer1_surf_iddg_ext5_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext5_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext6_v1.bsp
+"""
+const mer1_surf_iddg_ext6_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext6_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext7_v1.bsp
+"""
+const mer1_surf_iddg_ext7_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext7_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext8_v1.bsp
+"""
+const mer1_surf_iddg_ext8_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext8_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext9_v1.bsp
+"""
+const mer1_surf_iddg_ext9_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_ext9_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_prim_v1.bsp
+"""
+const mer1_surf_iddg_prim_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_iddg_prim_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover.bsp
+"""
+const mer1_surf_rover_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_0001_3240_v1.bsp
+"""
+const mer1_surf_rover_0001_3240_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_0001_3240_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_cs.bsp
+"""
+const mer1_surf_rover_cs_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_cs.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext10_v1.bsp
+"""
+const mer1_surf_rover_ext10_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext10_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext11_v1.bsp
+"""
+const mer1_surf_rover_ext11_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext11_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext12_v1.bsp
+"""
+const mer1_surf_rover_ext12_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext12_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext13_v1.bsp
+"""
+const mer1_surf_rover_ext13_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext13_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext14_v1.bsp
+"""
+const mer1_surf_rover_ext14_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext14_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext15_v1.bsp
+"""
+const mer1_surf_rover_ext15_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext15_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext16_v1.bsp
+"""
+const mer1_surf_rover_ext16_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext16_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext17_v1.bsp
+"""
+const mer1_surf_rover_ext17_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext17_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext18_v1.bsp
+"""
+const mer1_surf_rover_ext18_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext18_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext19_v1.bsp
+"""
+const mer1_surf_rover_ext19_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext19_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext1_v1.bsp
+"""
+const mer1_surf_rover_ext1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext1_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext20_v1.bsp
+"""
+const mer1_surf_rover_ext20_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext20_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext21_v1.bsp
+"""
+const mer1_surf_rover_ext21_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext21_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext22_v1.bsp
+"""
+const mer1_surf_rover_ext22_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext22_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext23_v1.bsp
+"""
+const mer1_surf_rover_ext23_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext23_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext24_v1.bsp
+"""
+const mer1_surf_rover_ext24_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext24_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext25_v1.bsp
+"""
+const mer1_surf_rover_ext25_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext25_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext26_v1.bsp
+"""
+const mer1_surf_rover_ext26_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext26_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext27_v1.bsp
+"""
+const mer1_surf_rover_ext27_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext27_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext28_v1.bsp
+"""
+const mer1_surf_rover_ext28_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext28_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext29_v1.bsp
+"""
+const mer1_surf_rover_ext29_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext29_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext2_v1.bsp
+"""
+const mer1_surf_rover_ext2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext2_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext30_v1.bsp
+"""
+const mer1_surf_rover_ext30_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext30_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext31_v1.bsp
+"""
+const mer1_surf_rover_ext31_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext31_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext32_v1.bsp
+"""
+const mer1_surf_rover_ext32_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext32_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext33_v1.bsp
+"""
+const mer1_surf_rover_ext33_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext33_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext34_v1.bsp
+"""
+const mer1_surf_rover_ext34_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext34_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext36_v1.bsp
+"""
+const mer1_surf_rover_ext36_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext36_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext37_v1.bsp
+"""
+const mer1_surf_rover_ext37_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext37_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext38_v1.bsp
+"""
+const mer1_surf_rover_ext38_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext38_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext39_v1.bsp
+"""
+const mer1_surf_rover_ext39_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext39_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext3_v1.bsp
+"""
+const mer1_surf_rover_ext3_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext3_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext40_v1.bsp
+"""
+const mer1_surf_rover_ext40_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext40_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext41_v1.bsp
+"""
+const mer1_surf_rover_ext41_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext41_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext42_v1.bsp
+"""
+const mer1_surf_rover_ext42_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext42_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext43_v1.bsp
+"""
+const mer1_surf_rover_ext43_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext43_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext44_v1.bsp
+"""
+const mer1_surf_rover_ext44_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext44_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext45_v1.bsp
+"""
+const mer1_surf_rover_ext45_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext45_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext46_v1.bsp
+"""
+const mer1_surf_rover_ext46_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext46_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext47_v1.bsp
+"""
+const mer1_surf_rover_ext47_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext47_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext48_v1.bsp
+"""
+const mer1_surf_rover_ext48_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext48_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext49_v1.bsp
+"""
+const mer1_surf_rover_ext49_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext49_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext4_v1.bsp
+"""
+const mer1_surf_rover_ext4_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext4_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext50_v1.bsp
+"""
+const mer1_surf_rover_ext50_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext50_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext51_v1.bsp
+"""
+const mer1_surf_rover_ext51_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext51_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext52_v1.bsp
+"""
+const mer1_surf_rover_ext52_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext52_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext53_v1.bsp
+"""
+const mer1_surf_rover_ext53_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext53_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext54_v1.bsp
+"""
+const mer1_surf_rover_ext54_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext54_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext55_v1.bsp
+"""
+const mer1_surf_rover_ext55_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext55_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext56_v1.bsp
+"""
+const mer1_surf_rover_ext56_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext56_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext5_v1.bsp
+"""
+const mer1_surf_rover_ext5_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext5_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext6_v1.bsp
+"""
+const mer1_surf_rover_ext6_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext6_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext7_v1.bsp
+"""
+const mer1_surf_rover_ext7_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext7_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext8_v1.bsp
+"""
+const mer1_surf_rover_ext8_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext8_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext9_v1.bsp
+"""
+const mer1_surf_rover_ext9_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ext9_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_prim_v1.bsp
+"""
+const mer1_surf_rover_prim_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_prim_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ro.bsp
+"""
+const mer1_surf_rover_ro_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_rover_ro.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl.bsp
+"""
+const mer1_surf_roverrl_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_0001_3240_v1.bsp
+"""
+const mer1_surf_roverrl_0001_3240_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_0001_3240_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_cs.bsp
+"""
+const mer1_surf_roverrl_cs_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_cs.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext10_v1.bsp
+"""
+const mer1_surf_roverrl_ext10_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext10_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext11_v1.bsp
+"""
+const mer1_surf_roverrl_ext11_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext11_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext12_v1.bsp
+"""
+const mer1_surf_roverrl_ext12_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext12_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext13_v1.bsp
+"""
+const mer1_surf_roverrl_ext13_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext13_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext14_v1.bsp
+"""
+const mer1_surf_roverrl_ext14_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext14_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext15_v1.bsp
+"""
+const mer1_surf_roverrl_ext15_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext15_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext16_v1.bsp
+"""
+const mer1_surf_roverrl_ext16_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext16_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext17_v1.bsp
+"""
+const mer1_surf_roverrl_ext17_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext17_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext18_v1.bsp
+"""
+const mer1_surf_roverrl_ext18_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext18_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext19_v1.bsp
+"""
+const mer1_surf_roverrl_ext19_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext19_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext1_v1.bsp
+"""
+const mer1_surf_roverrl_ext1_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext1_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext20_v1.bsp
+"""
+const mer1_surf_roverrl_ext20_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext20_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext21_v1.bsp
+"""
+const mer1_surf_roverrl_ext21_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext21_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext22_v1.bsp
+"""
+const mer1_surf_roverrl_ext22_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext22_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext23_v1.bsp
+"""
+const mer1_surf_roverrl_ext23_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext23_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext24_v1.bsp
+"""
+const mer1_surf_roverrl_ext24_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext24_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext25_v1.bsp
+"""
+const mer1_surf_roverrl_ext25_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext25_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext26_v1.bsp
+"""
+const mer1_surf_roverrl_ext26_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext26_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext27_v1.bsp
+"""
+const mer1_surf_roverrl_ext27_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext27_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext28_v1.bsp
+"""
+const mer1_surf_roverrl_ext28_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext28_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext29_v1.bsp
+"""
+const mer1_surf_roverrl_ext29_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext29_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext2_v1.bsp
+"""
+const mer1_surf_roverrl_ext2_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext2_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext30_v1.bsp
+"""
+const mer1_surf_roverrl_ext30_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext30_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext31_v1.bsp
+"""
+const mer1_surf_roverrl_ext31_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext31_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext32_v1.bsp
+"""
+const mer1_surf_roverrl_ext32_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext32_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext33_v1.bsp
+"""
+const mer1_surf_roverrl_ext33_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext33_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext34_v1.bsp
+"""
+const mer1_surf_roverrl_ext34_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext34_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext36_v1.bsp
+"""
+const mer1_surf_roverrl_ext36_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext36_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext37_v1.bsp
+"""
+const mer1_surf_roverrl_ext37_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext37_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext38_v1.bsp
+"""
+const mer1_surf_roverrl_ext38_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext38_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext39_v1.bsp
+"""
+const mer1_surf_roverrl_ext39_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext39_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext3_v1.bsp
+"""
+const mer1_surf_roverrl_ext3_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext3_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext40_v1.bsp
+"""
+const mer1_surf_roverrl_ext40_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext40_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext41_v1.bsp
+"""
+const mer1_surf_roverrl_ext41_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext41_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext42_v1.bsp
+"""
+const mer1_surf_roverrl_ext42_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext42_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext43_v1.bsp
+"""
+const mer1_surf_roverrl_ext43_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext43_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext44_v1.bsp
+"""
+const mer1_surf_roverrl_ext44_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext44_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext45_v1.bsp
+"""
+const mer1_surf_roverrl_ext45_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext45_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext46_v1.bsp
+"""
+const mer1_surf_roverrl_ext46_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext46_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext47_v1.bsp
+"""
+const mer1_surf_roverrl_ext47_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext47_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext48_v1.bsp
+"""
+const mer1_surf_roverrl_ext48_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext48_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext49_v1.bsp
+"""
+const mer1_surf_roverrl_ext49_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext49_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext4_v1.bsp
+"""
+const mer1_surf_roverrl_ext4_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext4_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -4531,41 +3406,1164 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext50_v1.bsp
 """
-const mer1_surf_roverrl_ext50_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext50_v1.bsp")
+const mer1_surf_roverrl_ext50_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext50_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext51_v1.bsp
+"""
+const mer1_surf_roverrl_ext51_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext51_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext52_v1.bsp
+"""
+const mer1_surf_roverrl_ext52_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext52_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext53_v1.bsp
+"""
+const mer1_surf_roverrl_ext53_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext53_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext54_v1.bsp
+"""
+const mer1_surf_roverrl_ext54_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext54_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext55_v1.bsp
+"""
+const mer1_surf_roverrl_ext55_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext55_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext56_v1.bsp
+"""
+const mer1_surf_roverrl_ext56_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext56_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext5_v1.bsp
+"""
+const mer1_surf_roverrl_ext5_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext5_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext6_v1.bsp
+"""
+const mer1_surf_roverrl_ext6_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext6_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext7_v1.bsp
+"""
+const mer1_surf_roverrl_ext7_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext7_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext8_v1.bsp
+"""
+const mer1_surf_roverrl_ext8_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext8_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext9_v1.bsp
+"""
+const mer1_surf_roverrl_ext9_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ext9_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_prim_v1.bsp
+"""
+const mer1_surf_roverrl_prim_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_prim_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ro.bsp
+"""
+const mer1_surf_roverrl_ro_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer1_surf_roverrl_ro.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_cruise.bsp
+"""
+const mer2_cruise_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_cruise.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_edl_rcb_v1.bsp
+"""
+const mer2_edl_rcb_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_edl_rcb_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_ls_040108_iau2000_v1.bsp
+"""
+const mer2_ls_040108_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_ls_040108_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_still_at_ls_v1.bsp
+"""
+const mer2_still_at_ls_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_still_at_ls_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_struct_ver11.bsp
+"""
+const mer2_struct_ver11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_struct_ver11.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_iddg_all_v1.bsp
+"""
+const mer2_surf_iddg_all_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_iddg_all_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_rover_all_v01.bsp
+"""
+const mer2_surf_rover_all_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_rover_all_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_rover_ro_v01.bsp
+"""
+const mer2_surf_rover_ro_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_rover_ro_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_roverrl_all_v01.bsp
+"""
+const mer2_surf_roverrl_all_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_roverrl_all_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_roverrl_ro_v01.bsp
+"""
+const mer2_surf_roverrl_ro_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/mer2_surf_roverrl_ro_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/spk_b_s_071029-160101_110624.bsp
+"""
+const spk_b_s_071029_160101_110624_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/kernels/spk/spk_b_s_071029-160101_110624.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030727/mer1_v02_draft.tf
+"""
+const mer1_v02_draft_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030727/mer1_v02_draft.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030727/mer2_v02_draft.tf
+"""
+const mer2_v02_draft_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030727/mer2_v02_draft.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/fk/mer1_v02_draft2.tf
+"""
+const mer1_v02_draft2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/fk/mer1_v02_draft2.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/fk/mer2_v02_draft2.tf
+"""
+const mer2_v02_draft2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/fk/mer2_v02_draft2.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer1_still_at_ls_v1.bsp
+"""
+const mer1_still_at_ls_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer1_still_at_ls_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer1_struct_v00_draft1.bsp
+"""
+const mer1_struct_v00_draft1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer1_struct_v00_draft1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer2_still_at_ls_v1.bsp
+"""
+const mer2_still_at_ls_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer2_still_at_ls_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer2_struct_v00_draft1.bsp
+"""
+const mer2_struct_v00_draft1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20030929/spk/mer2_struct_v00_draft1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20031204/mer1_struct_sstb_ver10.bsp
+"""
+const mer1_struct_sstb_ver10_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20031204/mer1_struct_sstb_ver10.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20031204/mer1_v03_sstb.tf
+"""
+const mer1_v03_sstb_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20031204/mer1_v03_sstb.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040325/mer1_surfu_rover_0403250102.bsp
+"""
+const mer1_surfu_rover_0403250102_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040325/mer1_surfu_rover_0403250102.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040325/mer2_surfu_rover_0403251409.bsp
+"""
+const mer2_surfu_rover_0403251409_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040325/mer2_surfu_rover_0403251409.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040330/mer1_surfui_rover_0403301400.bsp
+"""
+const mer1_surfui_rover_0403301400_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040330/mer1_surfui_rover_0403301400.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040330/mer2_surfui_rover_0403301400.bsp
+"""
+const mer2_surfui_rover_0403301400_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/dcook/20040330/mer2_surfui_rover_0403301400.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/eferguson/mer1_ll_ck.tf
+"""
+const mer1_ll_ck_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/eferguson/mer1_ll_ck.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/eferguson/mer1_ll_dyn.tf
+"""
+const mer1_ll_dyn_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/eferguson/mer1_ll_dyn.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/fseelos/mer1_still_at_ls_long.bsp
+"""
+const mer1_still_at_ls_long_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/fseelos/mer1_still_at_ls_long.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/fseelos/mer2_still_at_ls_long.bsp
+"""
+const mer2_still_at_ls_long_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/fseelos/mer2_still_at_ls_long.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/ghfix/mer1_surf_rover_ghfix.bsp
+"""
+const mer1_surf_rover_ghfix_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/ghfix/mer1_surf_rover_ghfix.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/jpmuller/mer1_surf_roverrl_1202220917.bsp
+"""
+const mer1_surf_roverrl_1202220917_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/jpmuller/mer1_surf_roverrl_1202220917.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/jpmuller/mer2_surf_roverrl_1202221014.bsp
+"""
+const mer2_surf_roverrl_1202221014_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/jpmuller/mer2_surf_roverrl_1202221014.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/mgs_spks/spk_031201-040401_020415.bsp
+"""
+const spk_031201_040401_020415_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/mgs_spks/spk_031201-040401_020415.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/mgs_spks/spk_040401-040801_020416.bsp
+"""
+const spk_040401_040801_020416_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/mgs_spks/spk_040401-040801_020416.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/mgs_spks/spk_040801-050101_020416.bsp
+"""
+const spk_040801_050101_020416_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/mgs_spks/spk_040801-050101_020416.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/name_map_fks/mer1_merb_v00.tf
+"""
+const mer1_merb_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/name_map_fks/mer1_merb_v00.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/name_map_fks/mer2_mera_v00.tf
+"""
+const mer2_mera_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/name_map_fks/mer2_mera_v00.tf")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/pck/pck00008.tpc
+"""
+const pck00008_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/pck/pck00008.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/de410.bsp
+"""
+const de410_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/de410.bsp")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mars_iau2000_v0.tpc
+"""
+const mars_iau2000_v0_tpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mars_iau2000_v0.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_ls_ep55a3_iau2000_v1.bsp
+"""
+const mer2_ls_ep55a3_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_ls_ep55a3_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_port6_rover_20040101.bsp
+"""
+const mer2_port6_rover_20040101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_port6_rover_20040101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_struct_sstb_ver10.bsp
+"""
+const mer2_struct_sstb_ver10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_struct_sstb_ver10.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_v04_sstb.tf
+"""
+const mer2_v04_sstb_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/mer2_v04_sstb.tf")
+
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/naif0007.tls
+"""
+const naif0007_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6a/naif0007.tls")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/de410.bsp
+"""
+const de410_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/de410.bsp")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mars_iau2000_v0.tpc
+"""
+const mars_iau2000_v0_tpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mars_iau2000_v0.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_ls_tm20b3_iau2000_v1.bsp
+"""
+const mer1_ls_tm20b3_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_ls_tm20b3_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_port6_rover_20040101.bsp
+"""
+const mer1_port6_rover_20040101_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_port6_rover_20040101.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_struct_sstb_ver10.bsp
+"""
+const mer1_struct_sstb_ver10_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_struct_sstb_ver10.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_v04_sstb.tf
+"""
+const mer1_v04_sstb_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/mer1_v04_sstb.tf")
+
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/naif0007.tls
+"""
+const naif0007_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/port6b/naif0007.tls")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040106/mer2_ls_040105_0500_dte_iau2000_v1.bsp
+"""
+const mer2_ls_040105_0500_dte_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040106/mer2_ls_040105_0500_dte_iau2000_v1.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040106/mer2_tp_040105_0500_dte_iau2000_v1.tf
+"""
+const mer2_tp_040105_0500_dte_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040106/mer2_tp_040105_0500_dte_iau2000_v1.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer1_loc_040909_iau2000_v1.bsp
+"""
+const mer1_loc_040909_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer1_loc_040909_iau2000_v1.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer1_loc_040909_iau2000_v1.tf
+"""
+const mer1_loc_040909_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer1_loc_040909_iau2000_v1.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer2_loc_040909_iau2000_v1.bsp
+"""
+const mer2_loc_040909_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer2_loc_040909_iau2000_v1.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer2_loc_040909_iau2000_v1.tf
+"""
+const mer2_loc_040909_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/scollins/040909/mer2_loc_040909_iau2000_v1.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/effelsberg_v01.bsp
+"""
+const effelsberg_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/effelsberg_v01.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/effelsberg_v01.tf
+"""
+const effelsberg_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/effelsberg_v01.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/greenbank_v01.bsp
+"""
+const greenbank_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/greenbank_v01.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/greenbank_v01.tf
+"""
+const greenbank_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MER/misc/skrasner/greenbank_v01.tf")
 
 export
-    de405s_bsp_spk,
-    de410_bsp_pck,
+    de405s_bsp,
     de410_bsp_spk,
     de410_bsp_spk,
-    de410_bsp_spk_spk,
-    effelsberg_v01_bsp_spk,
-    effelsberg_v01_tf_spk,
-    greenbank_v01_bsp_spk,
-    greenbank_v01_tf_spk,
+    de410_bsp_spk,
+    de410_de910_bsp,
+    effelsberg_v01_bsp,
+    effelsberg_v01_tf,
+    greenbank_v01_bsp,
+    greenbank_v01_tf,
     mar033_2000_2025_bsp,
     mar033_bsp,
-    mars_iau2000_v0_tpc_spk,
-    mars_iau2000_v0_tpc_spk,
-    mars_iau2000_v0_tpc_spk,
+    mars_iau2000_v0_tpc_pck,
+    mars_iau2000_v0_tpc_pck,
+    mars_iau2000_v0_tpc_pck,
     mer1_cruise_bsp,
     mer1_edl_rcb_v1_bsp,
-    mer1_ll_ck_tf_fk,
-    mer1_ll_dyn_tf_fk,
-    mer1_loc_040909_iau2000_v1_bsp_spk,
-    mer1_loc_040909_iau2000_v1_tf_spk,
+    mer1_ll_ck_tf,
+    mer1_ll_dyn_tf,
+    mer1_loc_040909_iau2000_v1_bsp,
+    mer1_loc_040909_iau2000_v1_tf,
     mer1_ls_040128_iau2000_v1_bsp,
-    mer1_ls_tm20b3_iau2000_v1_bsp_spk,
-    mer1_ls_tm20b3_iau2000_v1_bsp_spk_spk,
-    mer1_merb_v00_tf_lsk,
-    mer1_port6_rover_20040101_bsp_spk,
-    mer1_port6_rover_20040101_bsp_spk_spk,
-    mer1_still_at_ls_long_bsp_fk,
-    mer1_still_at_ls_v1_bsp,
-    mer1_still_at_ls_v1_bsp_fk,
-    mer1_struct_sstb_ver10_bsp_fk,
+    mer1_ls_tm20b3_iau2000_v1_bsp,
+    mer1_merb_v00_tf,
+    mer1_port6_rover_20040101_bsp,
+    mer1_still_at_ls_long_bsp,
+    mer1_still_at_ls_v1_bsp_spk,
+    mer1_still_at_ls_v1_bsp_spk,
     mer1_struct_sstb_ver10_bsp_spk,
-    mer1_struct_v00_draft1_bsp_fk,
+    mer1_struct_sstb_ver10_bsp_spk,
+    mer1_struct_v00_draft1_bsp,
     mer1_struct_ver11_bsp,
     mer1_surf_iddg_bsp,
     mer1_surf_iddg_ext10_v1_bsp,
@@ -4582,8 +4580,11 @@ export
     mer1_surf_iddg_ext20_v1_bsp,
     mer1_surf_iddg_ext21_v1_bsp,
     mer1_surf_iddg_ext22_v1_bsp,
-    mer1_surf_iddg_ext22_v1_bsp_fk,
+    mer1_surf_iddg_ext23_v1_bsp,
     mer1_surf_iddg_ext24_v1_bsp,
+    mer1_surf_iddg_ext25_v1_bsp,
+    mer1_surf_iddg_ext26_v1_bsp,
+    mer1_surf_iddg_ext27_v1_bsp,
     mer1_surf_iddg_ext28_v1_bsp,
     mer1_surf_iddg_ext29_v1_bsp,
     mer1_surf_iddg_ext2_v1_bsp,
@@ -4597,8 +4598,6 @@ export
     mer1_surf_iddg_ext37_v1_bsp,
     mer1_surf_iddg_ext38_v1_bsp,
     mer1_surf_iddg_ext39_v1_bsp,
-    mer1_surf_iddg_ext39_v1_bsp,
-    mer1_surf_iddg_ext3_v1_bsp,
     mer1_surf_iddg_ext3_v1_bsp,
     mer1_surf_iddg_ext40_v1_bsp,
     mer1_surf_iddg_ext41_v1_bsp,
@@ -4635,37 +4634,46 @@ export
     mer1_surf_rover_ext15_v1_bsp,
     mer1_surf_rover_ext16_v1_bsp,
     mer1_surf_rover_ext17_v1_bsp,
-    mer1_surf_rover_ext22_v1_bsp_spk,
-    mer1_surf_rover_ext25_v1_bsp_spk,
-    mer1_surf_rover_ext26_v1_bsp_spk,
-    mer1_surf_rover_ext27_v1_bsp_spk,
-    mer1_surf_rover_ext28_v1_bsp_spk,
-    mer1_surf_rover_ext29_v1_bsp_spk,
-    mer1_surf_rover_ext2_v1_bsp_spk,
-    mer1_surf_rover_ext30_v1_bsp_spk,
-    mer1_surf_rover_ext31_v1_bsp_spk,
-    mer1_surf_rover_ext32_v1_bsp_spk,
-    mer1_surf_rover_ext33_v1_bsp_spk,
-    mer1_surf_rover_ext34_v1_bsp_spk,
-    mer1_surf_rover_ext36_v1_bsp_spk,
-    mer1_surf_rover_ext37_v1_bsp_spk,
+    mer1_surf_rover_ext18_v1_bsp,
+    mer1_surf_rover_ext19_v1_bsp,
+    mer1_surf_rover_ext1_v1_bsp,
+    mer1_surf_rover_ext20_v1_bsp,
+    mer1_surf_rover_ext21_v1_bsp,
+    mer1_surf_rover_ext22_v1_bsp,
+    mer1_surf_rover_ext23_v1_bsp,
+    mer1_surf_rover_ext24_v1_bsp,
+    mer1_surf_rover_ext25_v1_bsp,
+    mer1_surf_rover_ext26_v1_bsp,
+    mer1_surf_rover_ext27_v1_bsp,
+    mer1_surf_rover_ext28_v1_bsp,
+    mer1_surf_rover_ext29_v1_bsp,
+    mer1_surf_rover_ext2_v1_bsp,
+    mer1_surf_rover_ext30_v1_bsp,
+    mer1_surf_rover_ext31_v1_bsp,
+    mer1_surf_rover_ext32_v1_bsp,
+    mer1_surf_rover_ext33_v1_bsp,
+    mer1_surf_rover_ext34_v1_bsp,
+    mer1_surf_rover_ext36_v1_bsp,
+    mer1_surf_rover_ext37_v1_bsp,
+    mer1_surf_rover_ext38_v1_bsp,
     mer1_surf_rover_ext39_v1_bsp,
-    mer1_surf_rover_ext3_v1_bsp_fk,
+    mer1_surf_rover_ext3_v1_bsp,
     mer1_surf_rover_ext40_v1_bsp,
     mer1_surf_rover_ext41_v1_bsp,
     mer1_surf_rover_ext42_v1_bsp,
-    mer1_surf_rover_ext43_v1_bsp_fk,
-    mer1_surf_rover_ext44_v1_bsp_fk,
-    mer1_surf_rover_ext45_v1_bsp_fk,
-    mer1_surf_rover_ext46_v1_bsp_fk,
-    mer1_surf_rover_ext47_v1_bsp_fk,
-    mer1_surf_rover_ext48_v1_bsp_fk,
-    mer1_surf_rover_ext49_v1_bsp_fk,
-    mer1_surf_rover_ext4_v1_bsp_fk,
-    mer1_surf_rover_ext50_v1_bsp_fk,
-    mer1_surf_rover_ext51_v1_bsp_fk,
-    mer1_surf_rover_ext52_v1_bsp_fk,
-    mer1_surf_rover_ext53_v1_bsp_fk,
+    mer1_surf_rover_ext43_v1_bsp,
+    mer1_surf_rover_ext44_v1_bsp,
+    mer1_surf_rover_ext45_v1_bsp,
+    mer1_surf_rover_ext46_v1_bsp,
+    mer1_surf_rover_ext47_v1_bsp,
+    mer1_surf_rover_ext48_v1_bsp,
+    mer1_surf_rover_ext49_v1_bsp,
+    mer1_surf_rover_ext4_v1_bsp,
+    mer1_surf_rover_ext50_v1_bsp,
+    mer1_surf_rover_ext51_v1_bsp,
+    mer1_surf_rover_ext52_v1_bsp,
+    mer1_surf_rover_ext53_v1_bsp,
+    mer1_surf_rover_ext54_v1_bsp,
     mer1_surf_rover_ext55_v1_bsp,
     mer1_surf_rover_ext56_v1_bsp,
     mer1_surf_rover_ext5_v1_bsp,
@@ -4673,11 +4681,11 @@ export
     mer1_surf_rover_ext7_v1_bsp,
     mer1_surf_rover_ext8_v1_bsp,
     mer1_surf_rover_ext9_v1_bsp,
-    mer1_surf_rover_ghfix_bsp_fk,
+    mer1_surf_rover_ghfix_bsp,
     mer1_surf_rover_prim_v1_bsp,
     mer1_surf_rover_ro_bsp,
     mer1_surf_roverrl_0001_3240_v1_bsp,
-    mer1_surf_roverrl_1202220917_bsp_fk,
+    mer1_surf_roverrl_1202220917_bsp,
     mer1_surf_roverrl_bsp,
     mer1_surf_roverrl_cs_bsp,
     mer1_surf_roverrl_ext10_v1_bsp,
@@ -4697,24 +4705,24 @@ export
     mer1_surf_roverrl_ext23_v1_bsp,
     mer1_surf_roverrl_ext24_v1_bsp,
     mer1_surf_roverrl_ext25_v1_bsp,
-    mer1_surf_roverrl_ext26_v1_bsp_fk,
-    mer1_surf_roverrl_ext27_v1_bsp_fk,
-    mer1_surf_roverrl_ext28_v1_bsp_pck,
-    mer1_surf_roverrl_ext29_v1_bsp_spk,
-    mer1_surf_roverrl_ext2_v1_bsp_pck,
-    mer1_surf_roverrl_ext30_v1_bsp_spk,
+    mer1_surf_roverrl_ext26_v1_bsp,
+    mer1_surf_roverrl_ext27_v1_bsp,
+    mer1_surf_roverrl_ext28_v1_bsp,
+    mer1_surf_roverrl_ext29_v1_bsp,
+    mer1_surf_roverrl_ext2_v1_bsp,
+    mer1_surf_roverrl_ext30_v1_bsp,
     mer1_surf_roverrl_ext31_v1_bsp,
     mer1_surf_roverrl_ext32_v1_bsp,
     mer1_surf_roverrl_ext33_v1_bsp,
-    mer1_surf_roverrl_ext34_v1_bsp_lsk,
+    mer1_surf_roverrl_ext34_v1_bsp,
     mer1_surf_roverrl_ext36_v1_bsp,
-    mer1_surf_roverrl_ext37_v1_bsp_pck,
-    mer1_surf_roverrl_ext38_v1_bsp_spk,
-    mer1_surf_roverrl_ext39_v1_bsp_spk,
-    mer1_surf_roverrl_ext3_v1_bsp_spk,
-    mer1_surf_roverrl_ext40_v1_bsp_fk,
-    mer1_surf_roverrl_ext41_v1_bsp_lsk,
-    mer1_surf_roverrl_ext42_v1_bsp_spk,
+    mer1_surf_roverrl_ext37_v1_bsp,
+    mer1_surf_roverrl_ext38_v1_bsp,
+    mer1_surf_roverrl_ext39_v1_bsp,
+    mer1_surf_roverrl_ext3_v1_bsp,
+    mer1_surf_roverrl_ext40_v1_bsp,
+    mer1_surf_roverrl_ext41_v1_bsp,
+    mer1_surf_roverrl_ext42_v1_bsp,
     mer1_surf_roverrl_ext43_v1_bsp,
     mer1_surf_roverrl_ext44_v1_bsp,
     mer1_surf_roverrl_ext45_v1_bsp,
@@ -4724,94 +4732,87 @@ export
     mer1_surf_roverrl_ext49_v1_bsp,
     mer1_surf_roverrl_ext4_v1_bsp,
     mer1_surf_roverrl_ext50_v1_bsp,
-    mer1_surf_roverrl_ext50_v1_bsp,
-    mer1_surf_roverrl_ext50_v1_bsp_spk,
-    mer1_surf_roverrl_ext50_v1_bsp_spk,
+    mer1_surf_roverrl_ext51_v1_bsp,
+    mer1_surf_roverrl_ext52_v1_bsp,
+    mer1_surf_roverrl_ext53_v1_bsp,
     mer1_surf_roverrl_ext54_v1_bsp,
     mer1_surf_roverrl_ext55_v1_bsp,
     mer1_surf_roverrl_ext56_v1_bsp,
-    mer1_surf_roverrl_ext5_v1_bsp_fk,
+    mer1_surf_roverrl_ext5_v1_bsp,
     mer1_surf_roverrl_ext6_v1_bsp,
     mer1_surf_roverrl_ext7_v1_bsp,
-    mer1_surf_roverrl_ext8_v1_bsp_spk,
+    mer1_surf_roverrl_ext8_v1_bsp,
     mer1_surf_roverrl_ext9_v1_bsp,
     mer1_surf_roverrl_prim_v1_bsp,
     mer1_surf_roverrl_ro_bsp,
-    mer1_surfu_rover_0403250102_bsp_fk,
-    mer1_surfui_rover_0403301400_bsp_fk,
-    mer1_tp_ep78b2_iau2000_v1_tf_spk,
-    mer1_tp_ip96b2_iau2000_v1_tf_spk,
-    mer1_tp_tm20b2_iau2000_v1_tf_spk,
+    mer1_surfu_rover_0403250102_bsp,
+    mer1_surfui_rover_0403301400_bsp,
+    mer1_tf,
+    mer1_tp_ep78b2_iau2000_v1_tf,
+    mer1_tp_ip96b2_iau2000_v1_tf,
+    mer1_tp_tm20b2_iau2000_v1_tf,
     mer1_tp_tm20b3_iau2000_v1_tf,
-    mer1_tp_tm20b3_iau2000_v1_tf,
-    mer1_v00_tf_spk,
+    mer1_v00_tf,
     mer1_v01_tf,
-    mer1_v01_tf,
-    mer1_v02_draft2_tf_fk,
-    mer1_v02_draft_tf_fk,
-    mer1_v03_sstb_tf_fk,
-    mer1_v04_sstb_tf_spk,
-    mer1_v05_tf,
+    mer1_v02_draft2_tf,
+    mer1_v02_draft_tf,
+    mer1_v03_sstb_tf,
+    mer1_v04_sstb_tf,
     mer1_v05_tf,
     mer1_v06_tf,
-    mer1_v06_tf,
-    mer1_v07_tf,
     mer1_v07_tf,
     mer1_v09_tf,
     mer1_v10_tf,
     mer1_v11_tf,
     mer2_cruise_bsp,
     mer2_edl_rcb_v1_bsp,
-    mer2_loc_040909_iau2000_v1_bsp_spk,
-    mer2_loc_040909_iau2000_v1_tf_spk,
-    mer2_ls_040105_0500_dte_iau2000_v1_bsp_spk,
+    mer2_loc_040909_iau2000_v1_bsp,
+    mer2_loc_040909_iau2000_v1_tf,
+    mer2_ls_040105_0500_dte_iau2000_v1_bsp,
     mer2_ls_040108_iau2000_v1_bsp,
-    mer2_ls_ep55a3_iau2000_v1_bsp_spk,
-    mer2_ls_ep55a3_iau2000_v1_bsp_spk_spk,
-    mer2_mera_v00_tf_lsk,
-    mer2_port6_rover_20040101_bsp_spk,
-    mer2_port6_rover_20040101_bsp_spk,
-    mer2_still_at_ls_long_bsp_fk,
-    mer2_still_at_ls_v1_bsp,
-    mer2_still_at_ls_v1_bsp_fk,
-    mer2_struct_sstb_ver10_bsp_spk,
-    mer2_struct_sstb_ver10_bsp_spk_spk,
-    mer2_struct_v00_draft1_bsp_fk,
+    mer2_ls_ep55a3_iau2000_v1_bsp,
+    mer2_mera_v00_tf,
+    mer2_port6_rover_20040101_bsp,
+    mer2_still_at_ls_long_bsp,
+    mer2_still_at_ls_v1_bsp_spk,
+    mer2_still_at_ls_v1_bsp_spk,
+    mer2_struct_sstb_ver10_bsp,
+    mer2_struct_v00_draft1_bsp,
     mer2_struct_ver11_bsp,
-    mer2_surf_rover_all_v01_bsp_fk,
-    mer2_surf_rover_ro_v01_bsp_fk,
-    mer2_surf_roverrl_1202221014_bsp_lsk,
-    mer2_surf_roverrl_all_v01_bsp_fk,
-    mer2_surf_roverrl_ro_v01_bsp_fk,
-    mer2_surfu_rover_0403251409_bsp_fk,
-    mer2_surfui_rover_0403301400_bsp_fk,
+    mer2_surf_iddg_all_v1_bsp,
+    mer2_surf_rover_all_v01_bsp,
+    mer2_surf_rover_ro_v01_bsp,
+    mer2_surf_roverrl_1202221014_bsp,
+    mer2_surf_roverrl_all_v01_bsp,
+    mer2_surf_roverrl_ro_v01_bsp,
+    mer2_surfu_rover_0403251409_bsp,
+    mer2_surfui_rover_0403301400_bsp,
     mer2_tf,
-    mer2_tp_040105_0500_dte_iau2000_v1_tf_spk,
-    mer2_tp_ep55a2_iau2000_v1_tf_spk,
+    mer2_tp_040105_0500_dte_iau2000_v1_tf,
+    mer2_tp_ep55a2_iau2000_v1_tf,
     mer2_tp_ep55a3_iau2000_v1_tf,
     mer2_tp_ep78a3p_iau2000_v1_tf,
-    mer2_tp_ip84a2_iau2000_v1_tf_spk,
-    mer2_tp_tm10a2_iau2000_v1_tf_spk,
+    mer2_tp_ip84a2_iau2000_v1_tf,
+    mer2_tp_tm10a2_iau2000_v1_tf,
     mer2_v00_tf,
     mer2_v01_tf,
-    mer2_v02_draft2_tf_fk,
-    mer2_v02_draft_tf_fk,
-    mer2_v03_tf_spk,
-    mer2_v04_sstb_tf_spk,
-    mer2_v04_sstb_tf_spk_spk,
-    mer2_v04_tf_spk,
-    mer2_v05_tf_spk,
-    mer2_v06_tf_spk,
-    mer2_v09_tf_spk,
-    mer2_v10_tf_spk,
-    mer_mars_iau1991_tpc_spk,
+    mer2_v02_draft2_tf,
+    mer2_v02_draft_tf,
+    mer2_v03_tf,
+    mer2_v04_sstb_tf,
+    mer2_v04_tf,
+    mer2_v05_tf,
+    mer2_v06_tf,
+    mer2_v09_tf,
+    mer2_v10_tf,
+    mer_mars_iau1991_tpc,
     mera_ll_ep55a2_iau1991_v1_tf,
     mera_ll_ip84a2_iau1991_v1_tf,
     mera_ll_tm10a2_iau1991_v1_tf,
     mera_ll_vm41a2_iau1991_v1_tf,
     mera_ll_vm53a2_iau1991_v1_tf,
     mera_tp_ep55a2_iau2000_v1_tf,
-    mera_tp_ip84a2_iau2000_v1_tf_spk,
+    mera_tp_ip84a2_iau2000_v1_tf,
     mera_tp_tm10a2_iau2000_v1_tf,
     mera_v00_tf,
     merb_ll_ep49b2_iau1991_v1_tf,
@@ -4819,20 +4820,19 @@ export
     merb_ll_tm20b2_iau1991_v1_tf,
     merb_ll_vm53b2_iau1991_v1_tf,
     merb_tp_ep78b2_iau2000_v1_tf,
-    merb_tp_ip96b2_iau2000_v1_tf_spk,
-    merb_tp_tm20b2_iau2000_v1_tf_spk,
-    merb_v00_tf_spk,
-    naif0007_tls_spk,
-    naif0007_tls_spk,
-    naif0007_tls_spk,
-    naif0007_tls_spk_spk,
-    naif0008_tls_spk,
-    naif0009_tls_spk,
-    naif0010_tls_spk,
-    naif0011_tls_spk,
-    naif0012_tls_spk,
-    pck00008_tpc_pck,
-    spk_031201_040401_020415_bsp_lsk,
-    spk_040401_040801_020416_bsp_lsk,
-    spk_040801_050101_020416_bsp_lsk,
-    spk_b_s_071029_160101_110624_bsp_fk
+    merb_tp_ip96b2_iau2000_v1_tf,
+    merb_tp_tm20b2_iau2000_v1_tf,
+    merb_v00_tf,
+    naif0007_tls_lsk,
+    naif0007_tls_lsk,
+    naif0007_tls_lsk,
+    naif0008_tls,
+    naif0009_tls,
+    naif0010_tls,
+    naif0011_tls,
+    naif0012_tls,
+    pck00008_tpc,
+    spk_031201_040401_020415_bsp,
+    spk_040401_040801_020416_bsp,
+    spk_040801_050101_020416_bsp,
+    spk_b_s_071029_160101_110624_bsp

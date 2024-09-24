@@ -4,7 +4,7 @@
 
 
 """
-All pvo_871229_880601_ssd1999_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All PIONEER12 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Pioneer12
 

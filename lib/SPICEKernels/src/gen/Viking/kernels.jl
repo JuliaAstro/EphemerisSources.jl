@@ -4,20 +4,6 @@
 
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vl1.bsp
-"""
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -30,38 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vl1.tf
 """
-const vo1_sedr_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vl1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vo2_v11.tf
-"""
-const vo1_sedr_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vl1.tf")
-const vo1_sedr_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vo2_v11.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo1_sedr.bsp
-"""
-const naif0008_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo1_sedr.bsp")
+const vl1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vl1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -76,52 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vl2.tf
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vl2.bsp
-"""
-const vo2_rcon_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vl2.tf")
-const vo2_rcon_bsp_fk_lsk = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vl2.bsp")
-
-"""
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/lsk/naif0008.tls
-"""
-const vo2_rcon_bsp_fk_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/lsk/naif0008.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo2_rcon.bsp
-"""
-const pck00008_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo2_rcon.bsp")
+const vl2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vl2.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -136,52 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vo1_v10.tf
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo1_ext_gem.bsp
-"""
-const vo2_sedr_bsp_spk = FK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vo1_v10.tf")
-const vo2_sedr_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo1_ext_gem.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/pck/pck00008.tpc
-"""
-const vo1_rcon_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/pck/pck00008.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo2_sedr.bsp
-"""
-const mar033_7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo2_sedr.bsp")
+const vo1_v10_tf = FK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vo1_v10.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -196,9 +61,10 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vo2_v10.tf
 """
+const vo2_v10_tf = FK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vo2_v10.tf")
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
@@ -208,10 +74,39 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo1_rcon.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vo2_v11.tf
 """
-const mar033_7_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vo2_v10.tf")
-const mar033_7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo1_rcon.bsp")
+const vo2_v11_tf = FK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/fk/vo2_v11.tf")
+
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/lsk/naif0008.tls
+"""
+const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/lsk/naif0008.tls")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/pck/pck00008.tpc
+"""
+const pck00008_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/pck/pck00008.tpc")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -228,19 +123,124 @@ This kernel's link was sourced on 2024-09-24.
 """
 const mar033_7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/mar033-7.bsp")
 
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vl1.bsp
+"""
+const vl1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vl1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vl2.bsp
+"""
+const vl2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vl2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo1_ext_gem.bsp
+"""
+const vo1_ext_gem_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo1_ext_gem.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo1_rcon.bsp
+"""
+const vo1_rcon_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo1_rcon.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo1_sedr.bsp
+"""
+const vo1_sedr_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo1_sedr.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo2_rcon.bsp
+"""
+const vo2_rcon_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo2_rcon.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo2_sedr.bsp
+"""
+const vo2_sedr_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VIKING/kernels/spk/vo2_sedr.bsp")
+
 export
-    mar033_7_bsp,
-    mar033_7_bsp,
-    mar033_7_bsp,
     mar033_7_bsp,
     naif0008_tls,
     pck00008_tpc,
+    vl1_bsp,
+    vl1_tf,
+    vl2_bsp,
+    vl2_tf,
+    vo1_ext_gem_bsp,
     vo1_rcon_bsp,
     vo1_sedr_bsp,
-    vo1_sedr_bsp,
-    vo1_sedr_bsp,
-    vo2_rcon_bsp_fk,
-    vo2_rcon_bsp_fk_lsk,
-    vo2_rcon_bsp_spk,
-    vo2_sedr_bsp_fk,
-    vo2_sedr_bsp_spk
+    vo1_v10_tf,
+    vo2_rcon_bsp,
+    vo2_sedr_bsp,
+    vo2_v10_tf,
+    vo2_v11_tf

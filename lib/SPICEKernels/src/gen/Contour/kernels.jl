@@ -4,21 +4,6 @@
 
 
 """
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/pck/pck00007.tpc
-"""
-const contour_phasing_bsp_pck_spk = PCK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/pck/pck00007.tpc")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -31,52 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/fk/contour_v00.tf
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/encke1.bsp
-"""
-const contour_phasing_bsp_pck_spk = FK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/fk/contour_v00.tf")
-const contour_traj_031401_noplephem_2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/encke1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/contour_phasing.bsp
-"""
-const naif0007_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/contour_phasing.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/contour.traj.031401.noplephem-2.bsp
-"""
-const darrest1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/contour.traj.031401.noplephem-2.bsp")
+const contour_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/fk/contour_v00.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -91,37 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/lsk/naif0007.tls
 """
-const darrest1_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/lsk/naif0007.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/sw31.bsp
-"""
-const darrest1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/sw31.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/darrest1.bsp
-"""
-const naif0008_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/darrest1.bsp")
+const naif0007_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/lsk/naif0007.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -138,13 +48,103 @@ This kernel's link was sourced on 2024-09-24.
 """
 const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/lsk/naif0008.tls")
 
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/pck/pck00007.tpc
+"""
+const pck00007_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/pck/pck00007.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/contour.traj.031401.noplephem-2.bsp
+"""
+const contour_traj_031401_noplephem_2_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/contour.traj.031401.noplephem-2.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/contour_phasing.bsp
+"""
+const contour_phasing_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/contour_phasing.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/darrest1.bsp
+"""
+const darrest1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/darrest1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/encke1.bsp
+"""
+const encke1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/encke1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/sw31.bsp
+"""
+const sw31_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/CONTOUR/kernels/spk/sw31.bsp")
+
 export
-    contour_phasing_bsp_fk,
-    contour_phasing_bsp_pck,
-    contour_phasing_bsp_pck_spk,
-    contour_phasing_bsp_pck_spk,
+    contour_phasing_bsp,
+    contour_traj_031401_noplephem_2_bsp,
+    contour_v00_tf,
     darrest1_bsp,
-    darrest1_bsp,
-    darrest1_bsp,
+    encke1_bsp,
+    naif0007_tls,
     naif0008_tls,
-    naif0008_tls
+    pck00007_tpc,
+    sw31_bsp

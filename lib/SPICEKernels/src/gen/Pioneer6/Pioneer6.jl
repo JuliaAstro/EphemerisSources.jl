@@ -4,7 +4,7 @@
 
 
 """
-All pio6_a_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All PIONEER6 kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Pioneer6
 

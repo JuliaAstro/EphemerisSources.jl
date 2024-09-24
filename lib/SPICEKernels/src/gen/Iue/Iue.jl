@@ -4,7 +4,7 @@
 
 
 """
-All IUE_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All IUE kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Iue
 

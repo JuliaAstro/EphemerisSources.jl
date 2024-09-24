@@ -4,36 +4,6 @@
 
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg2_ura.bsp
-"""
-const vgr2_jup230_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg2_ura.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2_saturn.bsp
-"""
-const vgr2_jup230_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2_saturn.bsp")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -46,51 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/fk/vg1_v02.tf
 """
-const vgr1_sat286_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/fk/vg1_v02.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_jup230.bsp
-"""
-const vg2_v02_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_jup230.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1.sat286.bsp
-"""
-const vgr2_nep081_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1.sat286.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2_st.bsp
-"""
+const vg1_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/fk/vg1_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -105,53 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/fk/vg2_v02.tf
 """
-const vgr2_nep081_bsp_fk = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2_st.bsp")
-const vgr2_nep081_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/fk/vg2_v02.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_nep081.bsp
-"""
-const Voyager_1_a54206u_V0_2_merged_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_nep081.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_jup204.bsp
-"""
-const vgr2_nep097_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_jup204.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/sat337.bsp
-"""
-const vgr1_sat261_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/sat337.bsp")
+const vg2_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/fk/vg2_v02.tf")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -166,52 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/Voyager_1.a54206u_V0.2_merged.bsp
 """
-const vgr1_sat261_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/Voyager_1.a54206u_V0.2_merged.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_nep097.bsp
-"""
-const Voyager_2_m05016u_merged_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_nep097.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_sat261.bsp
-"""
-const vgr2_sat337_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_sat261.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr1.x2100.bsp
-"""
-const vgr1_saturn_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr1.x2100.bsp")
+const Voyager_1_a54206u_V0_2_merged_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/Voyager_1.a54206u_V0.2_merged.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -226,37 +61,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/Voyager_2.m05016u.merged.bsp
 """
-const vgr1_saturn_bsp_spk_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/Voyager_2.m05016u.merged.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_sat337.bsp
-"""
-const vg1_jup_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_sat337.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_saturn.bsp
-"""
-const vgr2_ura083_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_saturn.bsp")
+const Voyager_2_m05016u_merged_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/Voyager_2.m05016u.merged.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -271,52 +76,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg1_jup.bsp
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr1_jup230.bsp
-"""
-const vgr1_st_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr1_jup230.bsp")
-const vgr1_st_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg1_jup.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_ura083.bsp
-"""
-const vg1_sat_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_ura083.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_st.bsp
-"""
-const voyager_1_ST_1991_a54418u_merged_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_st.bsp")
+const vg1_jup_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg1_jup.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -331,52 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg1_sat.bsp
 """
-const vgr2_sat261_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg1_sat.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr1_sat337.bsp
-"""
-const vgr2_sat261_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr1_sat337.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2.sat261.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/voyager_1.ST+1991_a54418u.merged.bsp
-"""
-const vgr2_ura111_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2.sat261.bsp")
-const vgr2_ura111_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/voyager_1.ST+1991_a54418u.merged.bsp")
+const vg1_sat_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg1_sat.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -391,52 +106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg2_jup.bsp
 """
-const voyager_2_ST_1992_m05208u_merged_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg2_jup.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2.ura111.bsp
-"""
-const voyager_2_ST_1992_m05208u_merged_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2.ura111.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2.sat286.bsp
-"""
-const vgr2_x2100_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2.sat286.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/voyager_2.ST+1992_m05208u.merged.bsp
-"""
-const vgr2_jup204_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/voyager_2.ST+1992_m05208u.merged.bsp")
+const vg2_jup_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg2_jup.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -451,37 +121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg2_nep.bsp
 """
-const vg2_uls_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg2_nep.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2.x2100.bsp
-"""
-const vg2_sat_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2.x2100.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2_jup204.bsp
-"""
-const vg2_sat_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2_jup204.bsp")
+const vg2_nep_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg2_nep.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -499,6 +139,366 @@ This kernel's link was sourced on 2024-09-24.
 const vg2_sat_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg2_sat.bsp")
 
 """
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg2_ura.bsp
+"""
+const vg2_ura_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vg2_ura.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1.sat286.bsp
+"""
+const vgr1_sat286_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1.sat286.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_jup204.bsp
+"""
+const vgr1_jup204_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_jup204.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_sat261.bsp
+"""
+const vgr1_sat261_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_sat261.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_saturn.bsp
+"""
+const vgr1_saturn_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_saturn.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_st.bsp
+"""
+const vgr1_st_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr1_st.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2.sat261.bsp
+"""
+const vgr2_sat261_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2.sat261.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2.sat286.bsp
+"""
+const vgr2_sat286_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2.sat286.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2_jup204.bsp
+"""
+const vgr2_jup204_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2_jup204.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2_saturn.bsp
+"""
+const vgr2_saturn_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2_saturn.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2_st.bsp
+"""
+const vgr2_st_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/a_older_versions/vgr2_st.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/sat337.bsp
+"""
+const sat337_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/sat337.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr1.x2100.bsp
+"""
+const vgr1_x2100_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr1.x2100.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr1_jup230.bsp
+"""
+const vgr1_jup230_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr1_jup230.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr1_sat337.bsp
+"""
+const vgr1_sat337_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr1_sat337.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2.ura111.bsp
+"""
+const vgr2_ura111_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2.ura111.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2.x2100.bsp
+"""
+const vgr2_x2100_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2.x2100.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_jup230.bsp
+"""
+const vgr2_jup230_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_jup230.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_nep081.bsp
+"""
+const vgr2_nep081_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_nep081.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_nep097.bsp
+"""
+const vgr2_nep097_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_nep097.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_sat337.bsp
+"""
+const vgr2_sat337_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_sat337.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_ura083.bsp
+"""
+const vgr2_ura083_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/vgr2_ura083.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/voyager_1.ST+1991_a54418u.merged.bsp
+"""
+const voyager_1_ST_1991_a54418u_merged_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/voyager_1.ST+1991_a54418u.merged.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/voyager_2.ST+1992_m05208u.merged.bsp
+"""
+const voyager_2_ST_1992_m05208u_merged_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/kernels/spk/voyager_2.ST+1992_m05208u.merged.bsp")
+
+"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -511,40 +511,40 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/VOYAGER/misc/ccochrane/vg2_uls_v01.tf
 """
-const vg2_sat_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/misc/ccochrane/vg2_uls_v01.tf")
+const vg2_uls_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/VOYAGER/misc/ccochrane/vg2_uls_v01.tf")
 
 export
     Voyager_1_a54206u_V0_2_merged_bsp,
     Voyager_2_m05016u_merged_bsp,
+    sat337_bsp,
     vg1_jup_bsp,
     vg1_sat_bsp,
-    vg1_sat_bsp,
+    vg1_v02_tf,
+    vg2_jup_bsp,
+    vg2_nep_bsp,
     vg2_sat_bsp,
-    vg2_sat_bsp,
-    vg2_sat_bsp,
-    vg2_sat_bsp,
+    vg2_uls_v01_tf,
+    vg2_ura_bsp,
     vg2_v02_tf,
-    vgr1_sat261_bsp_spk,
-    vgr1_sat261_bsp_spk_spk,
-    vgr1_saturn_bsp_spk,
-    vgr1_saturn_bsp_spk_spk,
+    vgr1_jup204_bsp,
+    vgr1_jup230_bsp,
+    vgr1_sat261_bsp,
+    vgr1_sat286_bsp,
+    vgr1_sat337_bsp,
+    vgr1_saturn_bsp,
     vgr1_st_bsp,
-    vgr1_st_bsp,
+    vgr1_x2100_bsp,
     vgr2_jup204_bsp,
-    vgr2_jup204_bsp,
-    vgr2_jup230_bsp,
-    vgr2_jup230_bsp,
     vgr2_jup230_bsp,
     vgr2_nep081_bsp,
-    vgr2_nep081_bsp_fk,
-    vgr2_nep081_bsp_spk,
     vgr2_nep097_bsp,
     vgr2_sat261_bsp,
-    vgr2_sat261_bsp,
+    vgr2_sat286_bsp,
     vgr2_sat337_bsp,
+    vgr2_saturn_bsp,
+    vgr2_st_bsp,
     vgr2_ura083_bsp,
     vgr2_ura111_bsp,
-    vgr2_ura111_bsp,
     vgr2_x2100_bsp,
-    voyager_2_ST_1992_m05208u_merged_bsp_spk,
-    voyager_2_ST_1992_m05208u_merged_bsp_spk
+    voyager_1_ST_1991_a54418u_merged_bsp,
+    voyager_2_ST_1992_m05208u_merged_bsp

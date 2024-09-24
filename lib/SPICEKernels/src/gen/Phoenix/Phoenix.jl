@@ -4,7 +4,7 @@
 
 
 """
-All phx_boresights_v1_tf_spk kernels, linked from https://naif.jpl.nasa.gov.
+All PHOENIX kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Phoenix
 

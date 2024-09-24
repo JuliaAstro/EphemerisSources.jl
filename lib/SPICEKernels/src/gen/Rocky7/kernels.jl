@@ -4,35 +4,6 @@
 
 
 """
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/pck/pck00006.tpc
-"""
-const r7_lake_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/pck/pck00006.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/r7_struct.bsp
-"""
-
-"""
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -45,38 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/lsk/naif0007.tls
 """
-const r7_lake_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/r7_struct.bsp")
-const de403s_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/lsk/naif0007.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/r7_lake.bsp
-"""
-const naif0008_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/r7_lake.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/de403s.bsp
-"""
-const r7_rover_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/de403s.bsp")
+const naif0007_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/lsk/naif0007.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -91,7 +31,52 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/lsk/naif0008.tls
 """
-const r7_rover_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/lsk/naif0008.tls")
+const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/lsk/naif0008.tls")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/pck/pck00006.tpc
+"""
+const pck00006_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/pck/pck00006.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/de403s.bsp
+"""
+const de403s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/de403s.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/r7_lake.bsp
+"""
+const r7_lake_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/r7_lake.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -106,13 +91,28 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/r7_rover.bsp
 """
-const r7_rover_bsp_lsk = SPK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/r7_rover.bsp")
+const r7_rover_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/r7_rover.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/r7_struct.bsp
+"""
+const r7_struct_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/ROCKY7/kernels/spk/r7_struct.bsp")
 
 export
+    de403s_bsp,
+    naif0007_tls,
     naif0008_tls,
-    naif0008_tls,
+    pck00006_tpc,
     r7_lake_bsp,
-    r7_lake_bsp,
-    r7_lake_bsp,
-    r7_rover_bsp_lsk,
-    r7_rover_bsp_lsk
+    r7_rover_bsp,
+    r7_struct_bsp

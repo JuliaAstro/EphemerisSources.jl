@@ -4,20 +4,6 @@
 
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/M9/kernels/spk/m9.bsp
-"""
-
-"""
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -30,9 +16,23 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/M9/kernels/lsk/naif0008.tls
 """
+const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/M9/kernels/lsk/naif0008.tls")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/M9/kernels/spk/m9.bsp
+"""
 const m9_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/M9/kernels/spk/m9.bsp")
-const m9_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/M9/kernels/lsk/naif0008.tls")
 
 export
     m9_bsp,
-    m9_bsp
+    naif0008_tls

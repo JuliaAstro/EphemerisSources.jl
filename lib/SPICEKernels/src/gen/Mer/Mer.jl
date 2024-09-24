@@ -4,7 +4,7 @@
 
 
 """
-All mer1_surf_roverrl_ext50_v1_bsp_spk kernels, linked from https://naif.jpl.nasa.gov.
+All MER kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Mer
 

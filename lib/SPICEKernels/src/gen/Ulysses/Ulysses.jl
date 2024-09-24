@@ -4,7 +4,7 @@
 
 
 """
-All ulysses_1990_2009_2050_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All ULYSSES kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Ulysses
 

@@ -4,21 +4,6 @@
 
 
 """
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_170401_170701_v1.bsp
-"""
-const trj_orb_21883_21884_22149_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_170401_170701_v1.bsp")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -31,51 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v01.tf
 """
-const trj_orb_21883_21884_22149_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_240401_240701_v1.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21883-21884_22149_v1.bsp
-"""
-const maven_v02_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_240401_240701_v1.bsp")
-const maven_v02_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21883-21884_22149_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_170701_171001_v1.bsp
-"""
+const maven_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -90,53 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v02.tf
 """
-const trj_orb_21884_21931_rec_v1_bsp_fk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_170701_171001_v1.bsp")
-const trj_orb_21884_21931_rec_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v02.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21884-21931_rec_v1.bsp
-"""
-const maven_orb_rec_171001_180101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21884-21931_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_struct_v00.bsp
-"""
-const trj_orb_21895_21896_22781_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_struct_v00.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_171001_180101_v1.bsp
-"""
-const maven_struct_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_171001_180101_v1.bsp")
+const maven_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -151,51 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v03.tf
 """
-const maven_orb_rec_180101_180401_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v03.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21895-21896_22781_v1.bsp
-"""
-const maven_orb_rec_180101_180401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21895-21896_22781_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_struct_v01.bsp
-"""
-const trj_orb_21930_21980_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_struct_v01.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_180101_180401_v1.bsp
-"""
+const maven_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v03.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -210,38 +61,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v05.tf
 """
-const trj_c_131118_140923_rec_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_180101_180401_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21930-21980_rec_v1.bsp
-"""
-const trj_c_131118_140923_rec_v1_bsp_spk = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v05.tf")
-const maven_orb_rec_180401_180701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21930-21980_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_c_131118-140923_rec_v1.bsp
-"""
-const trj_orb_21942_21943_22208_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_c_131118-140923_rec_v1.bsp")
+const maven_v05_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v05.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -256,66 +76,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v06.tf
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_180401_180701_v1.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21942-21943_22208_v1.bsp
-"""
-const trj_orb_21477_21525_rec_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v06.tf")
-const trj_orb_21477_21525_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_180401_180701_v1.bsp")
-const trj_orb_21477_21525_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21942-21943_22208_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21477-21525_rec_v1.bsp
-"""
-const trj_orb_21975_21976_22242_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21477-21525_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21975-21976_22242_v1.bsp
-"""
+const maven_v06_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v06.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -330,52 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v08.tf
 """
-const trj_orb_21514_21515_21782_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21975-21976_22242_v1.bsp")
-const trj_orb_21514_21515_21782_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v08.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_180701_181001_v1.bsp
-"""
-const trj_orb_21514_21515_21782_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_180701_181001_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21514-21515_21782_v1.bsp
-"""
-const maven_orb_rec_181001_190101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21514-21515_21782_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21979-22024_rec_v1.bsp
-"""
+const maven_v08_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v08.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -390,52 +106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v09.tf
 """
-const trj_orb_21524_21525_22412_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21979-22024_rec_v1.bsp")
-const trj_orb_21524_21525_22412_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v09.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_181001_190101_v1.bsp
-"""
-const trj_orb_21986_21987_22253_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_181001_190101_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21524-21525_22412_v1.bsp
-"""
-const maven_orb_rec_190101_190401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21524-21525_22412_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21986-21987_22253_v1.bsp
-"""
+const maven_v09_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v09.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -450,52 +121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v10.tf
 """
-const trj_orb_21524_21568_rec_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21986-21987_22253_v1.bsp")
-const trj_orb_21524_21568_rec_v1_bsp_spk = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v10.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_190101_190401_v1.bsp
-"""
-const trj_orb_22019_22020_22286_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_190101_190401_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21524-21568_rec_v1.bsp
-"""
-const maven_orb_rec_190401_190701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21524-21568_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22019-22020_22286_v1.bsp
-"""
+const maven_v10_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v10.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -510,38 +136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v11.tf
 """
-const trj_orb_21555_21557_21824_v1_bsp_spk = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v11.tf")
-const trj_orb_21555_21557_21824_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22019-22020_22286_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_190401_190701_v1.bsp
-"""
-const trj_orb_22033_22034_22300_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_190401_190701_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21555-21557_21824_v1.bsp
-"""
-const maven_orb_rec_190701_191001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21555-21557_21824_v1.bsp")
+const maven_v11_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/fk/maven_v11.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -556,52 +151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/lsk/naif0009.tls
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22033-22034_22300_v1.bsp
-"""
-const trj_orb_21567_21608_rec_v1_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/lsk/naif0009.tls")
-const trj_orb_21567_21608_rec_v1_bsp_lsk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22033-22034_22300_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_190701_191001_v1.bsp
-"""
-const naif0010_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_190701_191001_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21567-21608_rec_v1.bsp
-"""
-const maven_orb_rec_191001_200101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21567-21608_rec_v1.bsp")
+const naif0009_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/lsk/naif0009.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -616,52 +166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/lsk/naif0010.tls
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_240201-331231_dsf2.0-arm-prm-9.4ms_240205.bsp
-"""
-const trj_orb_21570_21571_21838_v1_bsp_spk = LSK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/lsk/naif0010.tls")
-const trj_orb_21570_21571_21838_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_240201-331231_dsf2.0-arm-prm-9.4ms_240205.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_191001_200101_v1.bsp
-"""
-const trj_orb_240821_331231_dsf2_0_prm_4_4ms_240820_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_191001_200101_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21570-21571_21838_v1.bsp
-"""
-const maven_orb_rec_200101_200401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21570-21571_21838_v1.bsp")
+const naif0010_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/lsk/naif0010.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -676,52 +181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/lsk/naif0011.tls
 """
-const trj_orb_21607_21608_21875_v1_bsp_spk = LSK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/lsk/naif0011.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_240821-331231_dsf2.0_prm_4.4ms_240820.bsp
-"""
-const naif0012_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_240821-331231_dsf2.0_prm_4.4ms_240820.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_200101_200401_v1.bsp
-"""
-const maven_nadir_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_200101_200401_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21607-21608_21875_v1.bsp
-"""
-const maven_orb_rec_200401_200701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21607-21608_21875_v1.bsp")
+const naif0011_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/lsk/naif0011.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -736,52 +196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/lsk/naif0012.tls
 """
-const trj_orb_21607_21661_rec_v1_bsp_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/lsk/naif0012.tls")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mbenna/maven_nadir.tf
-"""
-const pck00009_tpc = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mbenna/maven_nadir.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_200401_200701_v1.bsp
-"""
-const trj_orb_06573_06574_06987_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_200401_200701_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21607-21661_rec_v1.bsp
-"""
-const maven_orb_rec_200701_201001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21607-21661_rec_v1.bsp")
+const naif0012_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/lsk/naif0012.tls")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -796,52 +211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/pck/pck00009.tpc
 """
-const trj_orb_21619_21620_21887_v1_bsp_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/pck/pck00009.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mdanos/trj_orb_06573-06574_06987_v1.bsp
-"""
-const de421_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mdanos/trj_orb_06573-06574_06987_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_200701_201001_v1.bsp
-"""
-const de421_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_200701_201001_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21619-21620_21887_v1.bsp
-"""
-const maven_orb_rec_201001_210101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21619-21620_21887_v1.bsp")
+const pck00009_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/pck/pck00009.tpc")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -856,52 +226,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/de421.bsp
 """
-const trj_orb_21646_21647_21914_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/de421.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mdanos/trj_orb_06630-06631_06792_v1.bsp
-"""
-const de430s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mdanos/trj_orb_06630-06631_06792_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_201001_210101_v1.bsp
-"""
-const maven_v06_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_201001_210101_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21646-21647_21914_v1.bsp
-"""
-const maven_orb_rec_210101_210401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21646-21647_21914_v1.bsp")
+const de421_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/de421.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -916,52 +241,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/de430s.bsp
 """
-const trj_orb_21660_21701_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/de430s.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/rheins/maven_v06.tf
-"""
-const mar097s_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/rheins/maven_v06.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_210101_210401_v1.bsp
-"""
-const naif0012_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_210101_210401_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21660-21701_rec_v1.bsp
-"""
-const maven_orb_rec_210401_210701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21660-21701_rec_v1.bsp")
+const de430s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/de430s.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -976,66 +256,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/mar097s.bsp
 """
-
-"""
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/rheins/naif0012.tls
-"""
-const trj_orb_21665_21667_21934_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/mar097s.bsp")
-const trj_orb_21665_21667_21934_v1_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/rheins/naif0012.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_210401_210701_v1.bsp
-"""
-const maven_v04_draft5_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_210401_210701_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21665-21667_21934_v1.bsp
-"""
-const maven_orb_rec_210701_211001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21665-21667_21934_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/tmp/maven_v04_draft5.tf
-"""
+const mar097s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/mar097s.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1050,38 +271,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb.bsp
 """
-const trj_orb_21698_21699_21965_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb.bsp")
-const trj_orb_21698_21699_21965_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/tmp/maven_v04_draft5.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_210701_211001_v1.bsp
-"""
-const maven_orb_rec_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_210701_211001_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21698-21699_21965_v1.bsp
-"""
-const maven_orb_rec_211001_220101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21698-21699_21965_v1.bsp")
+const maven_orb_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1096,52 +286,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec.bsp
 """
-const trj_orb_21700_21749_rec_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft2.tf
-"""
-const maven_orb_rec_140922_150101_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft2.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_211001_220101_v1.bsp
-"""
-const maven_v04_draft3_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_211001_220101_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21700-21749_rec_v1.bsp
-"""
-const maven_orb_rec_220101_220401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21700-21749_rec_v1.bsp")
+const maven_orb_rec_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1156,52 +301,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_140922_150101_v1.bsp
 """
-const trj_orb_21708_21710_22595_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_140922_150101_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft3.tf
-"""
-const maven_orb_rec_150101_150401_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft3.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_220101_220401_v1.bsp
-"""
-const maven_v04_draft4_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_220101_220401_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21708-21710_22595_v1.bsp
-"""
-const maven_orb_rec_220401_220701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21708-21710_22595_v1.bsp")
+const maven_orb_rec_140922_150101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_140922_150101_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1216,52 +316,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_150101_150401_v1.bsp
 """
-const trj_orb_21743_21744_22010_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_150101_150401_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft4.tf
-"""
-const maven_orb_rec_150401_150701_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft4.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_220401_220701_v1.bsp
-"""
-const maven_v04_draft5_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_220401_220701_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21743-21744_22010_v1.bsp
-"""
-const maven_orb_rec_220701_221001_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21743-21744_22010_v1.bsp")
+const maven_orb_rec_150101_150401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_150101_150401_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1276,52 +331,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_150401_150701_v1.bsp
 """
-const trj_orb_21748_21799_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_150401_150701_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft5.tf
-"""
-const maven_orb_rec_150701_151001_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft5.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_220701_221001_v1.bsp
-"""
-const maven_v04_draft7_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_220701_221001_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21748-21799_rec_v1.bsp
-"""
-const maven_orb_rec_221001_230101_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21748-21799_rec_v1.bsp")
+const maven_orb_rec_150401_150701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_150401_150701_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1336,37 +346,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_150701_151001_v1.bsp
 """
-const trj_orb_21757_21759_22009_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_150701_151001_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft7.tf
-"""
-const maven_orb_rec_151001_160101_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft7.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_221001_230101_v1.bsp
-"""
-const maven_v05_draft2_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_221001_230101_v1.bsp")
+const maven_orb_rec_150701_151001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_150701_151001_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1381,52 +361,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_151001_160101_v1.bsp
 """
-const maven_orb_rec_230101_230401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_151001_160101_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21757-21759_22009_v1.bsp
-"""
-const maven_orb_rec_230101_230401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21757-21759_22009_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v05_draft2.tf
-"""
-const trj_orb_21789_21791_22053_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v05_draft2.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_230101_230401_v1.bsp
-"""
-const maven_v05_draft3_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_230101_230401_v1.bsp")
+const maven_orb_rec_151001_160101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_151001_160101_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1441,52 +376,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_160101_160401_v1.bsp
 """
-const maven_orb_rec_230401_230701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_160101_160401_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21789-21791_22053_v1.bsp
-"""
-const maven_orb_rec_160401_160701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21789-21791_22053_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v05_draft3.tf
-"""
-const trj_orb_21798_21844_rec_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v05_draft3.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_230401_230701_v1.bsp
-"""
-const maven_v05_draft4_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_230401_230701_v1.bsp")
+const maven_orb_rec_160101_160401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_160101_160401_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1501,52 +391,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_160401_160701_v1.bsp
 """
-const maven_orb_rec_230701_231001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_160401_160701_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v05_draft4.tf
-"""
-const maven_orb_rec_160701_161001_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v05_draft4.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21798-21844_rec_v1.bsp
-"""
-const maven_v09_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21798-21844_rec_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_230701_231001_v1.bsp
-"""
-const trj_orb_21803_21804_22069_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_230701_231001_v1.bsp")
+const maven_orb_rec_160401_160701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_160401_160701_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1561,52 +406,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_160701_161001_v1.bsp
 """
-const maven_orb_rec_231001_240101_v1_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_160701_161001_v1.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v09.tf
-"""
-const maven_orb_rec_161001_170101_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v09.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21803-21804_22069_v1.bsp
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_231001_240101_v1.bsp
-"""
-const trj_c_od004a_131118_141004_130422_tcm1final_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21803-21804_22069_v1.bsp")
-const trj_c_od004a_131118_141004_130422_tcm1final_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_231001_240101_v1.bsp")
+const maven_orb_rec_160701_161001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_160701_161001_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1621,52 +421,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_161001_170101_v1.bsp
 """
-const maven_orb_rec_240101_240401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_161001_170101_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/wgc/trj_c_od004a_131118-141004_130422_tcm1final.bsp
-"""
-const maven_orb_rec_170101_170401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/wgc/trj_c_od004a_131118-141004_130422_tcm1final.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_240101_240401_v1.bsp
-"""
-const maven_orb_rec_170101_170401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_240101_240401_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21843-21844_22109_v1.bsp
-"""
-const maven_orb_rec_170101_170401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21843-21844_22109_v1.bsp")
+const maven_orb_rec_161001_170101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_161001_170101_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1681,7 +436,832 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_170101_170401_v1.bsp
 """
-const trj_orb_21843_21885_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_170101_170401_v1.bsp")
+const maven_orb_rec_170101_170401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_170101_170401_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_170401_170701_v1.bsp
+"""
+const maven_orb_rec_170401_170701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_170401_170701_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_170701_171001_v1.bsp
+"""
+const maven_orb_rec_170701_171001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_170701_171001_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_171001_180101_v1.bsp
+"""
+const maven_orb_rec_171001_180101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_171001_180101_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_180101_180401_v1.bsp
+"""
+const maven_orb_rec_180101_180401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_180101_180401_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_180401_180701_v1.bsp
+"""
+const maven_orb_rec_180401_180701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_180401_180701_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_180701_181001_v1.bsp
+"""
+const maven_orb_rec_180701_181001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_180701_181001_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_181001_190101_v1.bsp
+"""
+const maven_orb_rec_181001_190101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_181001_190101_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_190101_190401_v1.bsp
+"""
+const maven_orb_rec_190101_190401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_190101_190401_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_190401_190701_v1.bsp
+"""
+const maven_orb_rec_190401_190701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_190401_190701_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_190701_191001_v1.bsp
+"""
+const maven_orb_rec_190701_191001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_190701_191001_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_191001_200101_v1.bsp
+"""
+const maven_orb_rec_191001_200101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_191001_200101_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_200101_200401_v1.bsp
+"""
+const maven_orb_rec_200101_200401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_200101_200401_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_200401_200701_v1.bsp
+"""
+const maven_orb_rec_200401_200701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_200401_200701_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_200701_201001_v1.bsp
+"""
+const maven_orb_rec_200701_201001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_200701_201001_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_201001_210101_v1.bsp
+"""
+const maven_orb_rec_201001_210101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_201001_210101_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_210101_210401_v1.bsp
+"""
+const maven_orb_rec_210101_210401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_210101_210401_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_210401_210701_v1.bsp
+"""
+const maven_orb_rec_210401_210701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_210401_210701_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_210701_211001_v1.bsp
+"""
+const maven_orb_rec_210701_211001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_210701_211001_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_211001_220101_v1.bsp
+"""
+const maven_orb_rec_211001_220101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_211001_220101_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_220101_220401_v1.bsp
+"""
+const maven_orb_rec_220101_220401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_220101_220401_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_220401_220701_v1.bsp
+"""
+const maven_orb_rec_220401_220701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_220401_220701_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_220701_221001_v1.bsp
+"""
+const maven_orb_rec_220701_221001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_220701_221001_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_221001_230101_v1.bsp
+"""
+const maven_orb_rec_221001_230101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_221001_230101_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_230101_230401_v1.bsp
+"""
+const maven_orb_rec_230101_230401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_230101_230401_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_230401_230701_v1.bsp
+"""
+const maven_orb_rec_230401_230701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_230401_230701_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_230701_231001_v1.bsp
+"""
+const maven_orb_rec_230701_231001_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_230701_231001_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_231001_240101_v1.bsp
+"""
+const maven_orb_rec_231001_240101_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_231001_240101_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_240101_240401_v1.bsp
+"""
+const maven_orb_rec_240101_240401_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_240101_240401_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_240401_240701_v1.bsp
+"""
+const maven_orb_rec_240401_240701_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_orb_rec_240401_240701_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_struct_v00.bsp
+"""
+const maven_struct_v00_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_struct_v00.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_struct_v01.bsp
+"""
+const maven_struct_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/maven_struct_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_c_131118-140923_rec_v1.bsp
+"""
+const trj_c_131118_140923_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_c_131118-140923_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21477-21525_rec_v1.bsp
+"""
+const trj_orb_21477_21525_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21477-21525_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21514-21515_21782_v1.bsp
+"""
+const trj_orb_21514_21515_21782_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21514-21515_21782_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21524-21525_22412_v1.bsp
+"""
+const trj_orb_21524_21525_22412_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21524-21525_22412_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21524-21568_rec_v1.bsp
+"""
+const trj_orb_21524_21568_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21524-21568_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21555-21557_21824_v1.bsp
+"""
+const trj_orb_21555_21557_21824_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21555-21557_21824_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21567-21608_rec_v1.bsp
+"""
+const trj_orb_21567_21608_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21567-21608_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21570-21571_21838_v1.bsp
+"""
+const trj_orb_21570_21571_21838_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21570-21571_21838_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21607-21608_21875_v1.bsp
+"""
+const trj_orb_21607_21608_21875_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21607-21608_21875_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21607-21661_rec_v1.bsp
+"""
+const trj_orb_21607_21661_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21607-21661_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21619-21620_21887_v1.bsp
+"""
+const trj_orb_21619_21620_21887_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21619-21620_21887_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21646-21647_21914_v1.bsp
+"""
+const trj_orb_21646_21647_21914_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21646-21647_21914_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21660-21701_rec_v1.bsp
+"""
+const trj_orb_21660_21701_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21660-21701_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21665-21667_21934_v1.bsp
+"""
+const trj_orb_21665_21667_21934_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21665-21667_21934_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21698-21699_21965_v1.bsp
+"""
+const trj_orb_21698_21699_21965_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21698-21699_21965_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21700-21749_rec_v1.bsp
+"""
+const trj_orb_21700_21749_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21700-21749_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21708-21710_22595_v1.bsp
+"""
+const trj_orb_21708_21710_22595_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21708-21710_22595_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21743-21744_22010_v1.bsp
+"""
+const trj_orb_21743_21744_22010_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21743-21744_22010_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21748-21799_rec_v1.bsp
+"""
+const trj_orb_21748_21799_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21748-21799_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21757-21759_22009_v1.bsp
+"""
+const trj_orb_21757_21759_22009_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21757-21759_22009_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21789-21791_22053_v1.bsp
+"""
+const trj_orb_21789_21791_22053_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21789-21791_22053_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21798-21844_rec_v1.bsp
+"""
+const trj_orb_21798_21844_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21798-21844_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21803-21804_22069_v1.bsp
+"""
+const trj_orb_21803_21804_22069_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21803-21804_22069_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21843-21844_22109_v1.bsp
+"""
+const trj_orb_21843_21844_22109_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21843-21844_22109_v1.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1698,22 +1278,463 @@ This kernel's link was sourced on 2024-09-24.
 """
 const trj_orb_21843_21885_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21843-21885_rec_v1.bsp")
 
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21883-21884_22149_v1.bsp
+"""
+const trj_orb_21883_21884_22149_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21883-21884_22149_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21884-21931_rec_v1.bsp
+"""
+const trj_orb_21884_21931_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21884-21931_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21895-21896_22781_v1.bsp
+"""
+const trj_orb_21895_21896_22781_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21895-21896_22781_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21930-21980_rec_v1.bsp
+"""
+const trj_orb_21930_21980_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21930-21980_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21942-21943_22208_v1.bsp
+"""
+const trj_orb_21942_21943_22208_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21942-21943_22208_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21975-21976_22242_v1.bsp
+"""
+const trj_orb_21975_21976_22242_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21975-21976_22242_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21979-22024_rec_v1.bsp
+"""
+const trj_orb_21979_22024_rec_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21979-22024_rec_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21986-21987_22253_v1.bsp
+"""
+const trj_orb_21986_21987_22253_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_21986-21987_22253_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22019-22020_22286_v1.bsp
+"""
+const trj_orb_22019_22020_22286_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22019-22020_22286_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22033-22034_22300_v1.bsp
+"""
+const trj_orb_22033_22034_22300_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22033-22034_22300_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22066-22067_22330_v1.bsp
+"""
+const trj_orb_22066_22067_22330_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_22066-22067_22330_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_240201-331231_dsf2.0-arm-prm-9.4ms_240205.bsp
+"""
+const trj_orb_240201_331231_dsf2_0_arm_prm_9_4ms_240205_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_240201-331231_dsf2.0-arm-prm-9.4ms_240205.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_240821-331231_dsf2.0_prm_4.4ms_240820.bsp
+"""
+const trj_orb_240821_331231_dsf2_0_prm_4_4ms_240820_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/kernels/spk/trj_orb_240821-331231_dsf2.0_prm_4.4ms_240820.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mbenna/maven_nadir.tf
+"""
+const maven_nadir_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mbenna/maven_nadir.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mdanos/trj_orb_06573-06574_06987_v1.bsp
+"""
+const trj_orb_06573_06574_06987_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mdanos/trj_orb_06573-06574_06987_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mdanos/trj_orb_06630-06631_06792_v1.bsp
+"""
+const trj_orb_06630_06631_06792_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/mdanos/trj_orb_06630-06631_06792_v1.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/rheins/maven_v06.tf
+"""
+const maven_v06_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/rheins/maven_v06.tf")
+
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/rheins/naif0012.tls
+"""
+const naif0012_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/rheins/naif0012.tls")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/tmp/maven_v04_draft5.tf
+"""
+const maven_v04_draft5_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/tmp/maven_v04_draft5.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft2.tf
+"""
+const maven_v04_draft2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft2.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft3.tf
+"""
+const maven_v04_draft3_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft3.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft4.tf
+"""
+const maven_v04_draft4_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft4.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft5.tf
+"""
+const maven_v04_draft5_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft5.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft7.tf
+"""
+const maven_v04_draft7_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v04_draft7.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v05_draft2.tf
+"""
+const maven_v05_draft2_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v05_draft2.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v05_draft3.tf
+"""
+const maven_v05_draft3_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v05_draft3.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v05_draft4.tf
+"""
+const maven_v05_draft4_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v05_draft4.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v09.tf
+"""
+const maven_v09_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/updates/maven_v09.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/wgc/trj_c_od004a_131118-141004_130422_tcm1final.bsp
+"""
+const trj_c_od004a_131118_141004_130422_tcm1final_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MAVEN/misc/wgc/trj_c_od004a_131118-141004_130422_tcm1final.bsp")
+
 export
-    de421_bsp_spk,
+    de421_bsp,
+    de430s_bsp,
+    mar097s_bsp,
+    maven_nadir_tf,
+    maven_orb_bsp,
     maven_orb_rec_140922_150101_v1_bsp,
-    maven_orb_rec_140922_150101_v1_bsp_spk,
     maven_orb_rec_150101_150401_v1_bsp,
     maven_orb_rec_150401_150701_v1_bsp,
     maven_orb_rec_150701_151001_v1_bsp,
     maven_orb_rec_151001_160101_v1_bsp,
+    maven_orb_rec_160101_160401_v1_bsp,
     maven_orb_rec_160401_160701_v1_bsp,
-    maven_orb_rec_160701_161001_v1_bsp,
     maven_orb_rec_160701_161001_v1_bsp,
     maven_orb_rec_161001_170101_v1_bsp,
     maven_orb_rec_170101_170401_v1_bsp,
-    maven_orb_rec_170101_170401_v1_bsp,
+    maven_orb_rec_170401_170701_v1_bsp,
     maven_orb_rec_170701_171001_v1_bsp,
-    maven_orb_rec_170701_171001_v1_bsp,
+    maven_orb_rec_171001_180101_v1_bsp,
+    maven_orb_rec_180101_180401_v1_bsp,
+    maven_orb_rec_180401_180701_v1_bsp,
+    maven_orb_rec_180701_181001_v1_bsp,
     maven_orb_rec_181001_190101_v1_bsp,
     maven_orb_rec_190101_190401_v1_bsp,
     maven_orb_rec_190401_190701_v1_bsp,
@@ -1729,86 +1750,81 @@ export
     maven_orb_rec_211001_220101_v1_bsp,
     maven_orb_rec_220101_220401_v1_bsp,
     maven_orb_rec_220401_220701_v1_bsp,
-    maven_orb_rec_220701_221001_v1_bsp_spk,
-    maven_orb_rec_221001_230101_v1_bsp_spk,
+    maven_orb_rec_220701_221001_v1_bsp,
+    maven_orb_rec_221001_230101_v1_bsp,
     maven_orb_rec_230101_230401_v1_bsp,
-    maven_orb_rec_230101_230401_v1_bsp,
-    maven_orb_rec_230401_230701_v1_bsp,
     maven_orb_rec_230401_230701_v1_bsp,
     maven_orb_rec_230701_231001_v1_bsp,
-    maven_orb_rec_231001_240101_v1_bsp_spk,
+    maven_orb_rec_231001_240101_v1_bsp,
     maven_orb_rec_240101_240401_v1_bsp,
-    maven_orb_rec_240101_240401_v1_bsp,
+    maven_orb_rec_240401_240701_v1_bsp,
     maven_orb_rec_bsp,
+    maven_struct_v00_bsp,
     maven_struct_v01_bsp,
-    maven_struct_v01_bsp,
-    maven_struct_v01_bsp,
+    maven_v01_tf,
+    maven_v02_tf,
     maven_v03_tf,
+    maven_v04_draft2_tf,
+    maven_v04_draft3_tf,
     maven_v04_draft4_tf,
-    maven_v04_draft5_tf,
-    maven_v04_draft5_tf_spk,
+    maven_v04_draft5_tf_fk,
+    maven_v04_draft5_tf_fk,
     maven_v04_draft7_tf,
     maven_v05_draft2_tf,
-    maven_v05_draft3_tf_spk,
-    maven_v05_draft4_tf_spk,
-    maven_v06_tf_spk,
-    naif0010_tls_spk,
-    naif0012_tls_spk,
-    naif0012_tls_spk,
-    pck00009_tpc_spk,
-    trj_c_131118_140923_rec_v1_bsp_spk,
-    trj_c_131118_140923_rec_v1_bsp_spk,
-    trj_c_131118_140923_rec_v1_bsp_spk,
-    trj_c_od004a_131118_141004_130422_tcm1final_bsp_spk,
-    trj_c_od004a_131118_141004_130422_tcm1final_bsp_spk,
-    trj_orb_21477_21525_rec_v1_bsp,
-    trj_orb_21477_21525_rec_v1_bsp,
+    maven_v05_draft3_tf,
+    maven_v05_draft4_tf,
+    maven_v05_tf,
+    maven_v06_tf_fk,
+    maven_v06_tf_fk,
+    maven_v08_tf,
+    maven_v09_tf_fk,
+    maven_v09_tf_fk,
+    maven_v10_tf,
+    maven_v11_tf,
+    naif0009_tls,
+    naif0010_tls,
+    naif0011_tls,
+    naif0012_tls_lsk,
+    naif0012_tls_lsk,
+    pck00009_tpc,
+    trj_c_131118_140923_rec_v1_bsp,
+    trj_c_od004a_131118_141004_130422_tcm1final_bsp,
+    trj_orb_06573_06574_06987_v1_bsp,
+    trj_orb_06630_06631_06792_v1_bsp,
     trj_orb_21477_21525_rec_v1_bsp,
     trj_orb_21514_21515_21782_v1_bsp,
-    trj_orb_21514_21515_21782_v1_bsp,
-    trj_orb_21514_21515_21782_v1_bsp,
     trj_orb_21524_21525_22412_v1_bsp,
-    trj_orb_21524_21525_22412_v1_bsp,
-    trj_orb_21524_21525_22412_v1_bsp,
-    trj_orb_21524_21568_rec_v1_bsp_spk,
-    trj_orb_21524_21568_rec_v1_bsp_spk,
-    trj_orb_21524_21568_rec_v1_bsp_spk,
-    trj_orb_21555_21557_21824_v1_bsp_spk,
-    trj_orb_21555_21557_21824_v1_bsp_spk,
-    trj_orb_21555_21557_21824_v1_bsp_spk_spk,
-    trj_orb_21567_21608_rec_v1_bsp_lsk,
-    trj_orb_21567_21608_rec_v1_bsp_spk,
-    trj_orb_21570_21571_21838_v1_bsp_lsk,
-    trj_orb_21570_21571_21838_v1_bsp_spk,
-    trj_orb_21607_21608_21875_v1_bsp_lsk,
-    trj_orb_21607_21608_21875_v1_bsp_spk,
-    trj_orb_21607_21661_rec_v1_bsp_lsk,
-    trj_orb_21607_21661_rec_v1_bsp_lsk_fk,
-    trj_orb_21619_21620_21887_v1_bsp_pck,
-    trj_orb_21619_21620_21887_v1_bsp_pck_spk,
+    trj_orb_21524_21568_rec_v1_bsp,
+    trj_orb_21555_21557_21824_v1_bsp,
+    trj_orb_21567_21608_rec_v1_bsp,
+    trj_orb_21570_21571_21838_v1_bsp,
+    trj_orb_21607_21608_21875_v1_bsp,
+    trj_orb_21607_21661_rec_v1_bsp,
+    trj_orb_21619_21620_21887_v1_bsp,
     trj_orb_21646_21647_21914_v1_bsp,
-    trj_orb_21646_21647_21914_v1_bsp_spk,
-    trj_orb_21660_21701_rec_v1_bsp,
     trj_orb_21660_21701_rec_v1_bsp,
     trj_orb_21665_21667_21934_v1_bsp,
-    trj_orb_21665_21667_21934_v1_bsp,
     trj_orb_21698_21699_21965_v1_bsp,
-    trj_orb_21698_21699_21965_v1_bsp,
-    trj_orb_21700_21749_rec_v1_bsp_spk,
+    trj_orb_21700_21749_rec_v1_bsp,
     trj_orb_21708_21710_22595_v1_bsp,
     trj_orb_21743_21744_22010_v1_bsp,
     trj_orb_21748_21799_rec_v1_bsp,
     trj_orb_21757_21759_22009_v1_bsp,
     trj_orb_21789_21791_22053_v1_bsp,
+    trj_orb_21798_21844_rec_v1_bsp,
     trj_orb_21803_21804_22069_v1_bsp,
-    trj_orb_21843_21885_rec_v1_bsp,
+    trj_orb_21843_21844_22109_v1_bsp,
     trj_orb_21843_21885_rec_v1_bsp,
     trj_orb_21883_21884_22149_v1_bsp,
-    trj_orb_21883_21884_22149_v1_bsp,
-    trj_orb_21884_21931_rec_v1_bsp_fk,
-    trj_orb_21884_21931_rec_v1_bsp_fk,
-    trj_orb_21884_21931_rec_v1_bsp_spk,
+    trj_orb_21884_21931_rec_v1_bsp,
+    trj_orb_21895_21896_22781_v1_bsp,
     trj_orb_21930_21980_rec_v1_bsp,
     trj_orb_21942_21943_22208_v1_bsp,
     trj_orb_21975_21976_22242_v1_bsp,
-    trj_orb_240821_331231_dsf2_0_prm_4_4ms_240820_bsp_spk
+    trj_orb_21979_22024_rec_v1_bsp,
+    trj_orb_21986_21987_22253_v1_bsp,
+    trj_orb_22019_22020_22286_v1_bsp,
+    trj_orb_22033_22034_22300_v1_bsp,
+    trj_orb_22066_22067_22330_v1_bsp,
+    trj_orb_240201_331231_dsf2_0_arm_prm_9_4ms_240205_bsp,
+    trj_orb_240821_331231_dsf2_0_prm_4_4ms_240820_bsp

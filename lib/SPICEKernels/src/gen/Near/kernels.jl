@@ -14,9 +14,24 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
+[1] https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/launch/near_launch_nav_v1.bsp
+"""
+const near_launch_nav_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/launch/near_launch_nav_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
 [1] https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/tfarnham/NEAR_horizons.bsp
 """
-const naif0010_tls_pck = SPK("https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/tfarnham/NEAR_horizons.bsp")
+const NEAR_horizons_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/tfarnham/NEAR_horizons.bsp")
 
 """
 A PCK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -31,22 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/tfarnham/eros_pck_horizons_20130201.tpc
 """
-const naif0010_tls_spk = PCK("https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/tfarnham/eros_pck_horizons_20130201.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/launch/near_launch_nav_v1.bsp
-"""
-const naif0010_tls_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/launch/near_launch_nav_v1.bsp")
+const eros_pck_horizons_20130201_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/tfarnham/eros_pck_horizons_20130201.tpc")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -61,10 +61,10 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/tfarnham/naif0010.tls
 """
-const naif0010_tls_spk = LSK("https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/tfarnham/naif0010.tls")
+const naif0010_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/NEAR/misc/tfarnham/naif0010.tls")
 
 export
+    NEAR_horizons_bsp,
     eros_pck_horizons_20130201_tpc,
-    naif0010_tls_pck,
-    naif0010_tls_spk,
-    naif0010_tls_spk
+    naif0010_tls,
+    near_launch_nav_v1_bsp

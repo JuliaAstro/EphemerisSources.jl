@@ -4,7 +4,7 @@
 
 
 """
-All vme2000_tf_spk kernels, linked from https://naif.jpl.nasa.gov.
+All MGN kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Mgn
 

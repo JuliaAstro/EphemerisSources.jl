@@ -4,7 +4,7 @@
 
 
 """
-All earth_000101_230312_221217_bpc kernels, linked from https://naif.jpl.nasa.gov.
+All BEPICOLOMBO kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Bepicolombo
 

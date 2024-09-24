@@ -4,7 +4,7 @@
 
 
 """
-All STEREO_A_merged_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All STEREO kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Stereo
 

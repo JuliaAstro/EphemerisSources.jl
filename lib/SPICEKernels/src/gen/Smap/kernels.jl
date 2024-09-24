@@ -14,69 +14,9 @@ This kernel's link was sourced on 2024-09-24.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N270E_UR50N300E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N270E_UR50N300E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N000E_UR30N030E_20131024_GMTED2010_M_v000.bds
 """
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000.bds
-"""
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S150E_UR30S180E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N000E_UR30N030E_20131024_GMTED2010_M_v000.bds")
-const DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000.bds")
-const DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S150E_UR30S180E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N300E_UR50N330E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL50S180E_UR30S210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N300E_UR50N330E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10N000E_UR30N030E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N000E_UR30N030E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -91,51 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N030E_UR30N060E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL50S180E_UR30S210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N030E_UR30N060E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S180E_UR30S210E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL30N330E_UR50N360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S180E_UR30S210E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_nen_v01.tf
-"""
-const DSK_LL50S210E_UR30S240E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_nen_v01.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N330E_UR50N360E_20131024_GMTED2010_M_v000.bds
-"""
+const DSK_LL10N030E_UR30N060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N030E_UR30N060E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -150,52 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N060E_UR30N090E_20131024_GMTED2010_M_v000.bds
 """
-const smap_nen_v02_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N330E_UR50N360E_20131024_GMTED2010_M_v000.bds")
-const smap_nen_v02_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N060E_UR30N090E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S210E_UR30S240E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL10N090E_UR30N120E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S210E_UR30S240E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_nen_v02.tf
-"""
-const DSK_LL50S240E_UR30S270E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_nen_v02.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S000E_UR10S030E_20131024_GMTED2010_M_v000.bds
-"""
+const DSK_LL10N060E_UR30N090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N060E_UR30N090E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -210,67 +61,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N090E_UR30N120E_20131024_GMTED2010_M_v000.bds
 """
-const smap_nen_v03_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N090E_UR30N120E_20131024_GMTED2010_M_v000.bds")
-const smap_nen_v03_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S000E_UR10S030E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S240E_UR30S270E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL10N120E_UR30N150E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S240E_UR30S270E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_nen_v03.tf
-"""
-const DSK_LL50S270E_UR30S300E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_nen_v03.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S030E_UR10S060E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v08_tf_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S030E_UR10S060E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S270E_UR30S300E_20131024_GMTED2010_M_v000.bds
-"""
+const DSK_LL10N090E_UR30N120E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N090E_UR30N120E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -285,23 +76,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N120E_UR30N150E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL30S060E_UR10S090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S270E_UR30S300E_20131024_GMTED2010_M_v000.bds")
-const DSK_LL30S060E_UR10S090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N120E_UR30N150E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v08.tf
-"""
-const DSK_LL10N150E_UR30N180E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v08.tf")
+const DSK_LL10N120E_UR30N150E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N120E_UR30N150E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -316,52 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N150E_UR30N180E_20131024_GMTED2010_M_v000.bds
 """
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S060E_UR10S090E_20131024_GMTED2010_M_v000.bds
-"""
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S300E_UR30S330E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v09_tf_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S060E_UR10S090E_20131024_GMTED2010_M_v000.bds")
-const smap_pf_v09_tf_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N150E_UR30N180E_20131024_GMTED2010_M_v000.bds")
-const smap_pf_v09_tf_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S300E_UR30S330E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v09.tf
-"""
-const DSK_LL50S330E_UR30S360E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v09.tf")
+const DSK_LL10N150E_UR30N180E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N150E_UR30N180E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -376,67 +106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N180E_UR30N210E_20131024_GMTED2010_M_v000.bds
 """
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S330E_UR30S360E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v12_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N180E_UR30N210E_20131024_GMTED2010_M_v000.bds")
-const smap_pf_v12_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S330E_UR30S360E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S090E_UR10S120E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70N000E_UR84N030E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S090E_UR10S120E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v12.tf
-"""
-const DSK_LL30S120E_UR10S150E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v12.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N000E_UR84N030E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v13_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N000E_UR84N030E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10N180E_UR30N210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N180E_UR30N210E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -451,67 +121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N210E_UR30N240E_20131024_GMTED2010_M_v000.bds
 """
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S120E_UR10S150E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70N030E_UR84N060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N210E_UR30N240E_20131024_GMTED2010_M_v000.bds")
-const DSK_LL70N030E_UR84N060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S120E_UR10S150E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v13.tf
-"""
-const DSK_LL30S150E_UR10S180E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v13.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N030E_UR84N060E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v14_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N030E_UR84N060E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S150E_UR10S180E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70N060E_UR84N090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S150E_UR10S180E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10N210E_UR30N240E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N210E_UR30N240E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -526,52 +136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N240E_UR30N270E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL30S180E_UR10S210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N240E_UR30N270E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v14.tf
-"""
-const DSK_LL10N270E_UR30N300E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v14.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S180E_UR10S210E_20131024_GMTED2010_M_v000.bds
-"""
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N060E_UR84N090E_20131024_GMTED2010_M_v000.bds
-"""
-const naif0009_tls_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N060E_UR84N090E_20131024_GMTED2010_M_v000.bds")
-const naif0009_tls_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S180E_UR10S210E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10N240E_UR30N270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N240E_UR30N270E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -586,52 +151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N270E_UR30N300E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL30S210E_UR10S240E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N270E_UR30N300E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0009.tls
-"""
-const DSK_LL10N300E_UR30N330E_20131024_GMTED2010_M_v000_bds = LSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0009.tls")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N090E_UR84N120E_20131024_GMTED2010_M_v000.bds
-"""
-const naif0010_tls_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N090E_UR84N120E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S210E_UR10S240E_20131024_GMTED2010_M_v000.bds
-"""
-const naif0010_tls_dsk_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S210E_UR10S240E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10N270E_UR30N300E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N270E_UR30N300E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -646,52 +166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N300E_UR30N330E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL30S240E_UR10S270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N300E_UR30N330E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0010.tls
-"""
-const DSK_LL10N330E_UR30N360E_20131024_GMTED2010_M_v000_bds = LSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0010.tls")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N120E_UR84N150E_20131024_GMTED2010_M_v000.bds
-"""
-const naif0011_tls_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N120E_UR84N150E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S240E_UR10S270E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70N150E_UR84N180E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S240E_UR10S270E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10N300E_UR30N330E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N300E_UR30N330E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -706,52 +181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N330E_UR30N360E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL30S270E_UR10S300E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N330E_UR30N360E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0011.tls
-"""
-const DSK_LL10S000E_UR10N030E_20131024_GMTED2010_M_v000_bds = LSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0011.tls")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N150E_UR84N180E_20131024_GMTED2010_M_v000.bds
-"""
-const naif0012_tls = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N150E_UR84N180E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S270E_UR10S300E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70N180E_UR84N210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S270E_UR10S300E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10N330E_UR30N360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10N330E_UR30N360E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -766,37 +196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S000E_UR10N030E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL70N180E_UR84N210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S000E_UR10N030E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0012.tls
-"""
-const DSK_LL10S030E_UR10N060E_20131024_GMTED2010_M_v000_bds = LSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0012.tls")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N180E_UR84N210E_20131024_GMTED2010_M_v000.bds
-"""
-const pck00009_tpc = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N180E_UR84N210E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10S000E_UR10N030E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S000E_UR10N030E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -811,66 +211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S030E_UR10N060E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL70N210E_UR84N240E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S030E_UR10N060E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S300E_UR10S330E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL10S060E_UR10N090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S300E_UR10S330E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/pck/pck00009.tpc
-"""
-const DSK_LL30S330E_UR10S360E_20131024_GMTED2010_M_v000_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/pck/pck00009.tpc")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N210E_UR84N240E_20131024_GMTED2010_M_v000.bds
-"""
-const pck00010_tpc = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N210E_UR84N240E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S330E_UR10S360E_20131024_GMTED2010_M_v000.bds
-"""
+const DSK_LL10S030E_UR10N060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S030E_UR10N060E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -885,53 +226,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S060E_UR10N090E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL70N240E_UR84N270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S330E_UR10S360E_20131024_GMTED2010_M_v000.bds")
-const DSK_LL70N240E_UR84N270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S060E_UR10N090E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/pck/pck00010.tpc
-"""
-const DSK_LL10S090E_UR10N120E_20131024_GMTED2010_M_v000_bds = PCK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/pck/pck00010.tpc")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N240E_UR84N270E_20131024_GMTED2010_M_v000.bds
-"""
-const de421_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N240E_UR84N270E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N000E_UR70N030E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70N270E_UR84N300E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N000E_UR70N030E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10S060E_UR10N090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S060E_UR10N090E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -946,51 +241,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S090E_UR10N120E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL50N030E_UR70N060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S090E_UR10N120E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/de421.bsp
-"""
-const DSK_LL10S120E_UR10N150E_20131024_GMTED2010_M_v000_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/de421.bsp")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N270E_UR84N300E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_nen_v01_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N270E_UR84N300E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N030E_UR70N060E_20131024_GMTED2010_M_v000.bds
-"""
+const DSK_LL10S090E_UR10N120E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S090E_UR10N120E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1005,52 +256,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S120E_UR10N150E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL70N300E_UR84N330E_20131024_GMTED2010_M_v000_bds_dsk_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N030E_UR70N060E_20131024_GMTED2010_M_v000.bds")
-const DSK_LL70N300E_UR84N330E_20131024_GMTED2010_M_v000_bds_dsk_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S120E_UR10N150E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/smap_nen_v01.bsp
-"""
-const DSK_LL10S150E_UR10N180E_20131024_GMTED2010_M_v000_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/smap_nen_v01.bsp")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N300E_UR84N330E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_nen_v02_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N300E_UR84N330E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N060E_UR70N090E_20131024_GMTED2010_M_v000.bds
-"""
+const DSK_LL10S120E_UR10N150E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S120E_UR10N150E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1065,38 +271,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S150E_UR10N180E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL70N330E_UR84N360E_20131024_GMTED2010_M_v000_bds_dsk_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N060E_UR70N090E_20131024_GMTED2010_M_v000.bds")
-const DSK_LL70N330E_UR84N360E_20131024_GMTED2010_M_v000_bds_dsk_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S150E_UR10N180E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/smap_nen_v02.bsp
-"""
-const DSK_LL10S180E_UR10N210E_20131024_GMTED2010_M_v000_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/smap_nen_v02.bsp")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N330E_UR84N360E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_nen_v03_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N330E_UR84N360E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10S150E_UR10N180E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S150E_UR10N180E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1111,52 +286,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S180E_UR10N210E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL70S000E_UR50S030E_20131024_GMTED2010_M_v000_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S180E_UR10N210E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N090E_UR70N120E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70S000E_UR50S030E_20131024_GMTED2010_M_v000_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N090E_UR70N120E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/smap_nen_v03.bsp
-"""
-const DSK_LL50N120E_UR70N150E_20131024_GMTED2010_M_v000_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/smap_nen_v03.bsp")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S000E_UR50S030E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v14_205900_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S000E_UR50S030E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10S180E_UR10N210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S180E_UR10N210E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1171,52 +301,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S210E_UR10N240E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL70S030E_UR50S060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S210E_UR10N240E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N120E_UR70N150E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL10S240E_UR10N270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N120E_UR70N150E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900.tf
-"""
-const DSK_LL50N150E_UR70N180E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S030E_UR50S060E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v14_205900_ant_p1_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S030E_UR50S060E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10S210E_UR10N240E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S210E_UR10N240E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1231,52 +316,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S240E_UR10N270E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL70S060E_UR50S090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S240E_UR10N270E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N150E_UR70N180E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL10S270E_UR10N300E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N150E_UR70N180E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_ant_p1.tf
-"""
-const DSK_LL50N180E_UR70N210E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_ant_p1.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S060E_UR50S090E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v14_205900_pitch_p1_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S060E_UR50S090E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10S240E_UR10N270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S240E_UR10N270E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1291,52 +331,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S270E_UR10N300E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL70S090E_UR50S120E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S270E_UR10N300E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N180E_UR70N210E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL10S300E_UR10N330E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N180E_UR70N210E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_pitch_p1.tf
-"""
-const DSK_LL50N210E_UR70N240E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_pitch_p1.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S090E_UR50S120E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v14_205900_roll_p1_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S090E_UR50S120E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10S270E_UR10N300E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S270E_UR10N300E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1351,52 +346,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S300E_UR10N330E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL70S120E_UR50S150E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S300E_UR10N330E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N210E_UR70N240E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL10S330E_UR10N360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N210E_UR70N240E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_roll_p1.tf
-"""
-const DSK_LL50N240E_UR70N270E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_roll_p1.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S120E_UR50S150E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v14_205900_yaw_p1_tf = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S120E_UR50S150E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10S300E_UR10N330E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S300E_UR10N330E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1411,67 +361,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S330E_UR10N360E_20131024_GMTED2010_M_v000.bds
 """
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N240E_UR70N270E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70S150E_UR50S180E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S330E_UR10N360E_20131024_GMTED2010_M_v000.bds")
-const DSK_LL70S150E_UR50S180E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N240E_UR70N270E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_yaw_p1.tf
-"""
-const DSK_LL50N270E_UR70N300E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_yaw_p1.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S150E_UR50S180E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_150131_150630_v1_bsp = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S150E_UR50S180E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N270E_UR70N300E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70S180E_UR50S210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N270E_UR70N300E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL10S330E_UR10N360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL10S330E_UR10N360E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1486,52 +376,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N000E_UR50N030E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL50N300E_UR70N330E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N000E_UR50N030E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_150131_150630_v1.bsp
-"""
-const DSK_LL30N030E_UR50N060E_20131024_GMTED2010_M_v000_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_150131_150630_v1.bsp")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S180E_UR50S210E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_150701_151231_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S180E_UR50S210E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N300E_UR70N330E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70S210E_UR50S240E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N300E_UR70N330E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL30N000E_UR50N030E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N000E_UR50N030E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1546,52 +391,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N030E_UR50N060E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL50N330E_UR70N360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N030E_UR50N060E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_150701_151231_v1.bsp
-"""
-const DSK_LL30N060E_UR50N090E_20131024_GMTED2010_M_v000_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_150701_151231_v1.bsp")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S210E_UR50S240E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_160101_160630_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S210E_UR50S240E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N330E_UR70N360E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70S240E_UR50S270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N330E_UR70N360E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL30N030E_UR50N060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N030E_UR50N060E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1606,52 +406,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N060E_UR50N090E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL50S000E_UR30S030E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N060E_UR50N090E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_160101_160630_v1.bsp
-"""
-const DSK_LL30N090E_UR50N120E_20131024_GMTED2010_M_v000_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_160101_160630_v1.bsp")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S240E_UR50S270E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_160701_161231_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S240E_UR50S270E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S000E_UR30S030E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70S270E_UR50S300E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S000E_UR30S030E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL30N060E_UR50N090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N060E_UR50N090E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1666,52 +421,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N090E_UR50N120E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL50S030E_UR30S060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N090E_UR50N120E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_160701_161231_v1.bsp
-"""
-const DSK_LL30N120E_UR50N150E_20131024_GMTED2010_M_v000_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_160701_161231_v1.bsp")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S270E_UR50S300E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_170101_170409_v1_bsp_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S270E_UR50S300E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S030E_UR30S060E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70S300E_UR50S330E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S030E_UR30S060E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL30N090E_UR50N120E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N090E_UR50N120E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1726,52 +436,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N120E_UR50N150E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL50S060E_UR30S090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N120E_UR50N150E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_170101_170409_v1.bsp
-"""
-const DSK_LL30N150E_UR50N180E_20131024_GMTED2010_M_v000_bds = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_170101_170409_v1.bsp")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S300E_UR50S330E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v08_tf_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S300E_UR50S330E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S060E_UR30S090E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL70S330E_UR50S360E_20131024_GMTED2010_M_v000_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S060E_UR30S090E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL30N120E_UR50N150E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N120E_UR50N150E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1786,52 +451,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N150E_UR50N180E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL50S090E_UR30S120E_20131024_GMTED2010_M_v000_bds_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N150E_UR50N180E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/updates/smap_pf_v08.tf
-"""
-const DSK_LL30N180E_UR50N210E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/updates/smap_pf_v08.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S330E_UR50S360E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v10_tf_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S330E_UR50S360E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S090E_UR30S120E_20131024_GMTED2010_M_v000.bds
-"""
-const DSK_LL84N000E_UR90N360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S090E_UR30S120E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL30N150E_UR50N180E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N150E_UR50N180E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1846,52 +466,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N180E_UR50N210E_20131024_GMTED2010_M_v000.bds
 """
-const DSK_LL50S120E_UR30S150E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N180E_UR50N210E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/updates/smap_pf_v10.tf
-"""
-const DSK_LL30N210E_UR50N240E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/updates/smap_pf_v10.tf")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL84N000E_UR90N360E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v11_tf_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL84N000E_UR90N360E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A DSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S120E_UR30S150E_20131024_GMTED2010_M_v000.bds
-"""
-const smap_pf_v11_tf_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S120E_UR30S150E_20131024_GMTED2010_M_v000.bds")
+const DSK_LL30N180E_UR50N210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N180E_UR50N210E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1906,22 +481,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N210E_UR50N240E_20131024_GMTED2010_M_v000.bds
 """
-const smap_pf_v11_tf_dsk = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N210E_UR50N240E_20131024_GMTED2010_M_v000.bds")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/updates/smap_pf_v11.tf
-"""
-const DSK_LL30N240E_UR50N270E_20131024_GMTED2010_M_v000_bds = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/updates/smap_pf_v11.tf")
+const DSK_LL30N210E_UR50N240E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N210E_UR50N240E_20131024_GMTED2010_M_v000.bds")
 
 """
 A DSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -1938,10 +498,1457 @@ This kernel's link was sourced on 2024-09-24.
 """
 const DSK_LL30N240E_UR50N270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N240E_UR50N270E_20131024_GMTED2010_M_v000.bds")
 
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N270E_UR50N300E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30N270E_UR50N300E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N270E_UR50N300E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N300E_UR50N330E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30N300E_UR50N330E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N300E_UR50N330E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N330E_UR50N360E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30N330E_UR50N360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30N330E_UR50N360E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S000E_UR10S030E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30S000E_UR10S030E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S000E_UR10S030E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S030E_UR10S060E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30S030E_UR10S060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S030E_UR10S060E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S060E_UR10S090E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30S060E_UR10S090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S060E_UR10S090E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S090E_UR10S120E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30S090E_UR10S120E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S090E_UR10S120E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S120E_UR10S150E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30S120E_UR10S150E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S120E_UR10S150E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S150E_UR10S180E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30S150E_UR10S180E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S150E_UR10S180E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S180E_UR10S210E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30S180E_UR10S210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S180E_UR10S210E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S210E_UR10S240E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30S210E_UR10S240E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S210E_UR10S240E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S240E_UR10S270E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30S240E_UR10S270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S240E_UR10S270E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S270E_UR10S300E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30S270E_UR10S300E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S270E_UR10S300E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S300E_UR10S330E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30S300E_UR10S330E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S300E_UR10S330E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S330E_UR10S360E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL30S330E_UR10S360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL30S330E_UR10S360E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N000E_UR70N030E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50N000E_UR70N030E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N000E_UR70N030E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N030E_UR70N060E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50N030E_UR70N060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N030E_UR70N060E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N060E_UR70N090E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50N060E_UR70N090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N060E_UR70N090E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N090E_UR70N120E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50N090E_UR70N120E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N090E_UR70N120E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N120E_UR70N150E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50N120E_UR70N150E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N120E_UR70N150E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N150E_UR70N180E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50N150E_UR70N180E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N150E_UR70N180E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N180E_UR70N210E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50N180E_UR70N210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N180E_UR70N210E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N210E_UR70N240E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50N210E_UR70N240E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N210E_UR70N240E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N240E_UR70N270E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50N240E_UR70N270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N240E_UR70N270E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N270E_UR70N300E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50N270E_UR70N300E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N270E_UR70N300E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N300E_UR70N330E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50N300E_UR70N330E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N300E_UR70N330E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N330E_UR70N360E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50N330E_UR70N360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50N330E_UR70N360E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S000E_UR30S030E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50S000E_UR30S030E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S000E_UR30S030E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S030E_UR30S060E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50S030E_UR30S060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S030E_UR30S060E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S060E_UR30S090E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50S060E_UR30S090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S060E_UR30S090E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S090E_UR30S120E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50S090E_UR30S120E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S090E_UR30S120E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S120E_UR30S150E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50S120E_UR30S150E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S120E_UR30S150E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S150E_UR30S180E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50S150E_UR30S180E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S150E_UR30S180E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S180E_UR30S210E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50S180E_UR30S210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S180E_UR30S210E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S210E_UR30S240E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50S210E_UR30S240E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S210E_UR30S240E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S240E_UR30S270E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50S240E_UR30S270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S240E_UR30S270E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S270E_UR30S300E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50S270E_UR30S300E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S270E_UR30S300E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S300E_UR30S330E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50S300E_UR30S330E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S300E_UR30S330E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S330E_UR30S360E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL50S330E_UR30S360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL50S330E_UR30S360E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N000E_UR84N030E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70N000E_UR84N030E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N000E_UR84N030E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N030E_UR84N060E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70N030E_UR84N060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N030E_UR84N060E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N060E_UR84N090E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70N060E_UR84N090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N060E_UR84N090E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N090E_UR84N120E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70N090E_UR84N120E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N090E_UR84N120E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N120E_UR84N150E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70N120E_UR84N150E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N120E_UR84N150E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N150E_UR84N180E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70N150E_UR84N180E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N150E_UR84N180E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N180E_UR84N210E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70N180E_UR84N210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N180E_UR84N210E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N210E_UR84N240E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70N210E_UR84N240E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N210E_UR84N240E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N240E_UR84N270E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70N240E_UR84N270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N240E_UR84N270E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N270E_UR84N300E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70N270E_UR84N300E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N270E_UR84N300E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N300E_UR84N330E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70N300E_UR84N330E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N300E_UR84N330E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N330E_UR84N360E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70N330E_UR84N360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70N330E_UR84N360E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S000E_UR50S030E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70S000E_UR50S030E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S000E_UR50S030E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S030E_UR50S060E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70S030E_UR50S060E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S030E_UR50S060E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S060E_UR50S090E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70S060E_UR50S090E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S060E_UR50S090E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S090E_UR50S120E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70S090E_UR50S120E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S090E_UR50S120E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S120E_UR50S150E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70S120E_UR50S150E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S120E_UR50S150E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S150E_UR50S180E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70S150E_UR50S180E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S150E_UR50S180E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S180E_UR50S210E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70S180E_UR50S210E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S180E_UR50S210E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S210E_UR50S240E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70S210E_UR50S240E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S210E_UR50S240E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S240E_UR50S270E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70S240E_UR50S270E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S240E_UR50S270E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S270E_UR50S300E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70S270E_UR50S300E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S270E_UR50S300E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S300E_UR50S330E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70S300E_UR50S330E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S300E_UR50S330E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S330E_UR50S360E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL70S330E_UR50S360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL70S330E_UR50S360E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL84N000E_UR90N360E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL84N000E_UR90N360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL84N000E_UR90N360E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A DSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000.bds
+"""
+const DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000_bds = DSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/dsk/DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000.bds")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_nen_v01.tf
+"""
+const smap_nen_v01_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_nen_v01.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_nen_v02.tf
+"""
+const smap_nen_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_nen_v02.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_nen_v03.tf
+"""
+const smap_nen_v03_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_nen_v03.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v08.tf
+"""
+const smap_pf_v08_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v08.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v09.tf
+"""
+const smap_pf_v09_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v09.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v12.tf
+"""
+const smap_pf_v12_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v12.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v13.tf
+"""
+const smap_pf_v13_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v13.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v14.tf
+"""
+const smap_pf_v14_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/fk/smap_pf_v14.tf")
+
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0009.tls
+"""
+const naif0009_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0009.tls")
+
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0010.tls
+"""
+const naif0010_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0010.tls")
+
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0011.tls
+"""
+const naif0011_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0011.tls")
+
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0012.tls
+"""
+const naif0012_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/lsk/naif0012.tls")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/pck/pck00009.tpc
+"""
+const pck00009_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/pck/pck00009.tpc")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/pck/pck00010.tpc
+"""
+const pck00010_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/pck/pck00010.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/de421.bsp
+"""
+const de421_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/de421.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/smap_nen_v01.bsp
+"""
+const smap_nen_v01_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/smap_nen_v01.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/smap_nen_v02.bsp
+"""
+const smap_nen_v02_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/smap_nen_v02.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/smap_nen_v03.bsp
+"""
+const smap_nen_v03_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/kernels/spk/smap_nen_v03.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900.tf
+"""
+const smap_pf_v14_205900_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_ant_p1.tf
+"""
+const smap_pf_v14_205900_ant_p1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_ant_p1.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_pitch_p1.tf
+"""
+const smap_pf_v14_205900_pitch_p1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_pitch_p1.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_roll_p1.tf
+"""
+const smap_pf_v14_205900_roll_p1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_roll_p1.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_yaw_p1.tf
+"""
+const smap_pf_v14_205900_yaw_p1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/jpeng/smap_pf_v14_205900_yaw_p1.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_150131_150630_v1.bsp
+"""
+const smap_150131_150630_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_150131_150630_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_150701_151231_v1.bsp
+"""
+const smap_150701_151231_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_150701_151231_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_160101_160630_v1.bsp
+"""
+const smap_160101_160630_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_160101_160630_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_160701_161231_v1.bsp
+"""
+const smap_160701_161231_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_160701_161231_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_170101_170409_v1.bsp
+"""
+const smap_170101_170409_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/lsu/smap_170101_170409_v1.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/updates/smap_pf_v08.tf
+"""
+const smap_pf_v08_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/updates/smap_pf_v08.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/updates/smap_pf_v10.tf
+"""
+const smap_pf_v10_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/updates/smap_pf_v10.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/updates/smap_pf_v11.tf
+"""
+const smap_pf_v11_tf = FK("https://naif.jpl.nasa.gov/pub/naif/SMAP/misc/updates/smap_pf_v11.tf")
+
 export
+    DSK_LL10N000E_UR30N030E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL10N030E_UR30N060E_20131024_GMTED2010_M_v000_bds,
     DSK_LL10N060E_UR30N090E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL10N090E_UR30N120E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL10N120E_UR30N150E_20131024_GMTED2010_M_v000_bds,
     DSK_LL10N150E_UR30N180E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL10N180E_UR30N210E_20131024_GMTED2010_M_v000_bds,
     DSK_LL10N210E_UR30N240E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL10N240E_UR30N270E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL10N270E_UR30N300E_20131024_GMTED2010_M_v000_bds,
     DSK_LL10N300E_UR30N330E_20131024_GMTED2010_M_v000_bds,
     DSK_LL10N330E_UR30N360E_20131024_GMTED2010_M_v000_bds,
     DSK_LL10S000E_UR10N030E_20131024_GMTED2010_M_v000_bds,
@@ -1951,9 +1958,12 @@ export
     DSK_LL10S120E_UR10N150E_20131024_GMTED2010_M_v000_bds,
     DSK_LL10S150E_UR10N180E_20131024_GMTED2010_M_v000_bds,
     DSK_LL10S180E_UR10N210E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL10S210E_UR10N240E_20131024_GMTED2010_M_v000_bds,
     DSK_LL10S240E_UR10N270E_20131024_GMTED2010_M_v000_bds,
     DSK_LL10S270E_UR10N300E_20131024_GMTED2010_M_v000_bds,
     DSK_LL10S300E_UR10N330E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL10S330E_UR10N360E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL30N000E_UR50N030E_20131024_GMTED2010_M_v000_bds,
     DSK_LL30N030E_UR50N060E_20131024_GMTED2010_M_v000_bds,
     DSK_LL30N060E_UR50N090E_20131024_GMTED2010_M_v000_bds,
     DSK_LL30N090E_UR50N120E_20131024_GMTED2010_M_v000_bds,
@@ -1962,14 +1972,25 @@ export
     DSK_LL30N180E_UR50N210E_20131024_GMTED2010_M_v000_bds,
     DSK_LL30N210E_UR50N240E_20131024_GMTED2010_M_v000_bds,
     DSK_LL30N240E_UR50N270E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL30N240E_UR50N270E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL30N270E_UR50N300E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL30N300E_UR50N330E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL30N330E_UR50N360E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL30S000E_UR10S030E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL30S030E_UR10S060E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL30S060E_UR10S090E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL30S090E_UR10S120E_20131024_GMTED2010_M_v000_bds,
     DSK_LL30S120E_UR10S150E_20131024_GMTED2010_M_v000_bds,
     DSK_LL30S150E_UR10S180E_20131024_GMTED2010_M_v000_bds,
     DSK_LL30S180E_UR10S210E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL30S180E_UR10S210E_20131024_GMTED2010_M_v000_bds,
     DSK_LL30S210E_UR10S240E_20131024_GMTED2010_M_v000_bds,
     DSK_LL30S240E_UR10S270E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL30S270E_UR10S300E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL30S300E_UR10S330E_20131024_GMTED2010_M_v000_bds,
     DSK_LL30S330E_UR10S360E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL50N000E_UR70N030E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL50N030E_UR70N060E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL50N060E_UR70N090E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL50N090E_UR70N120E_20131024_GMTED2010_M_v000_bds,
     DSK_LL50N120E_UR70N150E_20131024_GMTED2010_M_v000_bds,
     DSK_LL50N150E_UR70N180E_20131024_GMTED2010_M_v000_bds,
     DSK_LL50N180E_UR70N210E_20131024_GMTED2010_M_v000_bds,
@@ -1981,90 +2002,69 @@ export
     DSK_LL50S000E_UR30S030E_20131024_GMTED2010_M_v000_bds,
     DSK_LL50S030E_UR30S060E_20131024_GMTED2010_M_v000_bds,
     DSK_LL50S060E_UR30S090E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL50S090E_UR30S120E_20131024_GMTED2010_M_v000_bds_dsk,
+    DSK_LL50S090E_UR30S120E_20131024_GMTED2010_M_v000_bds,
     DSK_LL50S120E_UR30S150E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL50S150E_UR30S180E_20131024_GMTED2010_M_v000_bds,
     DSK_LL50S180E_UR30S210E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL50S180E_UR30S210E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL50S180E_UR30S210E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL50S210E_UR30S240E_20131024_GMTED2010_M_v000_bds,
     DSK_LL50S240E_UR30S270E_20131024_GMTED2010_M_v000_bds,
     DSK_LL50S270E_UR30S300E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL50S300E_UR30S330E_20131024_GMTED2010_M_v000_bds,
     DSK_LL50S330E_UR30S360E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL70N000E_UR84N030E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70N030E_UR84N060E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL70N060E_UR84N090E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL70N090E_UR84N120E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL70N120E_UR84N150E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70N150E_UR84N180E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70N180E_UR84N210E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70N210E_UR84N240E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70N240E_UR84N270E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL70N240E_UR84N270E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70N270E_UR84N300E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL70N270E_UR84N300E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL70N300E_UR84N330E_20131024_GMTED2010_M_v000_bds_dsk,
-    DSK_LL70N300E_UR84N330E_20131024_GMTED2010_M_v000_bds_dsk_dsk,
-    DSK_LL70N330E_UR84N360E_20131024_GMTED2010_M_v000_bds_dsk,
-    DSK_LL70N330E_UR84N360E_20131024_GMTED2010_M_v000_bds_dsk_dsk,
-    DSK_LL70S000E_UR50S030E_20131024_GMTED2010_M_v000_bds_dsk,
-    DSK_LL70S000E_UR50S030E_20131024_GMTED2010_M_v000_bds_dsk,
+    DSK_LL70N300E_UR84N330E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL70N330E_UR84N360E_20131024_GMTED2010_M_v000_bds,
+    DSK_LL70S000E_UR50S030E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70S030E_UR50S060E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70S060E_UR50S090E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70S090E_UR50S120E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70S120E_UR50S150E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL70S120E_UR50S150E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL70S150E_UR50S180E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70S150E_UR50S180E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70S180E_UR50S210E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70S210E_UR50S240E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70S240E_UR50S270E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70S270E_UR50S300E_20131024_GMTED2010_M_v000_bds,
     DSK_LL70S300E_UR50S330E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL70S330E_UR50S360E_20131024_GMTED2010_M_v000_bds_dsk,
+    DSK_LL70S330E_UR50S360E_20131024_GMTED2010_M_v000_bds,
     DSK_LL84N000E_UR90N360E_20131024_GMTED2010_M_v000_bds,
     DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000_bds,
-    DSK_LL90S000E_UR70S360E_20131024_GMTED2010_M_v000_bds_dsk,
-    de421_bsp_dsk,
+    de421_bsp,
     naif0009_tls,
-    naif0009_tls_dsk,
-    naif0010_tls_dsk,
-    naif0010_tls_dsk_dsk,
-    naif0011_tls_dsk,
-    naif0011_tls_dsk,
-    naif0012_tls,
+    naif0010_tls,
+    naif0011_tls,
     naif0012_tls,
     pck00009_tpc,
     pck00010_tpc,
     smap_150131_150630_v1_bsp,
-    smap_150701_151231_v1_bsp_dsk,
-    smap_160101_160630_v1_bsp_dsk,
-    smap_160701_161231_v1_bsp_dsk,
-    smap_170101_170409_v1_bsp_dsk,
-    smap_nen_v01_bsp_dsk,
-    smap_nen_v02_bsp_dsk,
+    smap_150701_151231_v1_bsp,
+    smap_160101_160630_v1_bsp,
+    smap_160701_161231_v1_bsp,
+    smap_170101_170409_v1_bsp,
+    smap_nen_v01_bsp,
+    smap_nen_v01_tf,
+    smap_nen_v02_bsp,
     smap_nen_v02_tf,
-    smap_nen_v02_tf,
-    smap_nen_v02_tf,
-    smap_nen_v03_bsp_dsk,
+    smap_nen_v03_bsp,
     smap_nen_v03_tf,
-    smap_nen_v03_tf,
-    smap_nen_v03_tf,
-    smap_pf_v08_tf_dsk,
-    smap_pf_v08_tf_dsk,
-    smap_pf_v08_tf_dsk,
-    smap_pf_v08_tf_dsk,
-    smap_pf_v09_tf_dsk,
-    smap_pf_v09_tf_dsk,
-    smap_pf_v09_tf_dsk,
-    smap_pf_v10_tf_dsk,
-    smap_pf_v11_tf_dsk,
-    smap_pf_v11_tf_dsk,
-    smap_pf_v11_tf_dsk,
+    smap_pf_v08_tf_fk,
+    smap_pf_v08_tf_fk,
+    smap_pf_v09_tf,
+    smap_pf_v10_tf,
+    smap_pf_v11_tf,
     smap_pf_v12_tf,
-    smap_pf_v12_tf,
-    smap_pf_v13_tf,
     smap_pf_v13_tf,
     smap_pf_v14_205900_ant_p1_tf,
     smap_pf_v14_205900_pitch_p1_tf,
     smap_pf_v14_205900_roll_p1_tf,
     smap_pf_v14_205900_tf,
     smap_pf_v14_205900_yaw_p1_tf,
-    smap_pf_v14_tf,
     smap_pf_v14_tf

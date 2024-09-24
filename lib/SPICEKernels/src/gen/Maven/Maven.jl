@@ -4,7 +4,7 @@
 
 
 """
-All trj_orb_21843_21885_rec_v1_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All MAVEN kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Maven
 

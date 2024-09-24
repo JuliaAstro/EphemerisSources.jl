@@ -4,7 +4,7 @@
 
 
 """
-All queta_v10_tpc_spk kernels, linked from https://naif.jpl.nasa.gov.
+All LUCY kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Lucy
 

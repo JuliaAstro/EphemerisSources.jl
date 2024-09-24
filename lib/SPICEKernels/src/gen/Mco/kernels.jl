@@ -4,21 +4,6 @@
 
 
 """
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/lsk/naif0008.tls
-"""
-const mco_cruise_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/lsk/naif0008.tls")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -31,52 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/fk/mco21.tf
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/spk/mco_mapping_sample.bsp
-"""
-const pck00006_tpc = FK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/fk/mco21.tf")
-const pck00006_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/spk/mco_mapping_sample.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/spk/mco_cruise.bsp
-"""
-const naif0007_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/spk/mco_cruise.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/pck/pck00006.tpc
-"""
-const mco_insertion_sample_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/pck/pck00006.tpc")
+const mco21_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/fk/mco21.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -91,7 +31,52 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/lsk/naif0007.tls
 """
-const mco_insertion_sample_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/lsk/naif0007.tls")
+const naif0007_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/lsk/naif0007.tls")
+
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/lsk/naif0008.tls
+"""
+const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/lsk/naif0008.tls")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/pck/pck00006.tpc
+"""
+const pck00006_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/pck/pck00006.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/spk/mco_cruise.bsp
+"""
+const mco_cruise_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/spk/mco_cruise.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -108,11 +93,26 @@ This kernel's link was sourced on 2024-09-24.
 """
 const mco_insertion_sample_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/spk/mco_insertion_sample.bsp")
 
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/spk/mco_mapping_sample.bsp
+"""
+const mco_mapping_sample_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MCO/kernels/spk/mco_mapping_sample.bsp")
+
 export
-    mco_cruise_bsp,
-    mco_cruise_bsp,
+    mco21_tf,
     mco_cruise_bsp,
     mco_insertion_sample_bsp,
-    mco_insertion_sample_bsp,
+    mco_mapping_sample_bsp,
     naif0007_tls,
-    naif0007_tls
+    naif0008_tls,
+    pck00006_tpc

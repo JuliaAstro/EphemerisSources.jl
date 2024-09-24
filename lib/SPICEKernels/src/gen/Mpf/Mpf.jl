@@ -4,7 +4,7 @@
 
 
 """
-All mpf_edl_mpam_v01_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All MPF kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Mpf
 

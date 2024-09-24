@@ -4,7 +4,7 @@
 
 
 """
-All s000131a_bsp_spk kernels, linked from https://naif.jpl.nasa.gov.
+All GLL kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Gll
 

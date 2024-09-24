@@ -4,7 +4,7 @@
 
 
 """
-All lro_dyn_so_tf_spk kernels, linked from https://naif.jpl.nasa.gov.
+All LRO kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Lro
 

@@ -4,7 +4,7 @@
 
 
 """
-All _15F10_DIR_L220614_A250305_V1_scpse_bsp_spk kernels, linked from https://naif.jpl.nasa.gov.
+All EUROPACLIPPER kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Europaclipper
 

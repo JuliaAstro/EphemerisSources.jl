@@ -4,7 +4,7 @@
 
 
 """
-All dif_epoch_nav_v1_bsp_pck kernels, linked from https://naif.jpl.nasa.gov.
+All DEEPIMPACT kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Deepimpact
 

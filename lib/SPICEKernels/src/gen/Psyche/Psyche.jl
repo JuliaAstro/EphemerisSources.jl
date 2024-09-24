@@ -4,7 +4,7 @@
 
 
 """
-All psyche_sc_eph_230103_230311_220608_v1_TT11_bsp_spk_spk kernels, linked from https://naif.jpl.nasa.gov.
+All PSYCHE kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Psyche
 

@@ -4,7 +4,7 @@
 
 
 """
-All mar033_7_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All VIKING kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Viking
 

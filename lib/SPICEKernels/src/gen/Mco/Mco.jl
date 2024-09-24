@@ -4,7 +4,7 @@
 
 
 """
-All mco_insertion_sample_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All MCO kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Mco
 

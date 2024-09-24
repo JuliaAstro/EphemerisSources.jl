@@ -4,36 +4,6 @@
 
 
 """
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/pck/pck00006.tpc
-"""
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_surf_transl.bsp
-"""
-const mpl_edl_target_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/pck/pck00006.tpc")
-const mpl_edl_target_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_surf_transl.bsp")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -46,52 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/fk/mpl50.tf
 """
-const mar033_5_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/fk/mpl50.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_edl_target.bsp
-"""
-const naif0007_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_edl_target.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mar033-5.bsp
-"""
-const mpl_structures_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mar033-5.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MPL/misc/solar_az_el/m98lnd.tf
-"""
-const mpl_structures_bsp_lsk = FK("https://naif.jpl.nasa.gov/pub/naif/MPL/misc/solar_az_el/m98lnd.tf")
+const mpl50_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/fk/mpl50.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -106,51 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/lsk/naif0007.tls
 """
-const mpl_cruise_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/lsk/naif0007.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_structures.bsp
-"""
-const naif0008_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_structures.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_cruise.bsp
-"""
-const naif0008_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_cruise.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/MPL/misc/solar_az_el/m98lndst.bsp
-"""
+const naif0007_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/lsk/naif0007.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -165,8 +46,82 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/lsk/naif0008.tls
 """
-const mpl_surf_target_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/misc/solar_az_el/m98lndst.bsp")
-const mpl_surf_target_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/lsk/naif0008.tls")
+const naif0008_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/lsk/naif0008.tls")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/pck/pck00006.tpc
+"""
+const pck00006_tpc = PCK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/pck/pck00006.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mar033-5.bsp
+"""
+const mar033_5_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mar033-5.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_cruise.bsp
+"""
+const mpl_cruise_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_cruise.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_edl_target.bsp
+"""
+const mpl_edl_target_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_edl_target.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_structures.bsp
+"""
+const mpl_structures_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_structures.bsp")
 
 """
 A SPK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -183,16 +138,61 @@ This kernel's link was sourced on 2024-09-24.
 """
 const mpl_surf_target_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_surf_target.bsp")
 
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_surf_transl.bsp
+"""
+const mpl_surf_transl_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/kernels/spk/mpl_surf_transl.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MPL/misc/solar_az_el/m98lnd.tf
+"""
+const m98lnd_tf = FK("https://naif.jpl.nasa.gov/pub/naif/MPL/misc/solar_az_el/m98lnd.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/MPL/misc/solar_az_el/m98lndst.bsp
+"""
+const m98lndst_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/MPL/misc/solar_az_el/m98lndst.bsp")
+
 export
-    mpl_edl_target_bsp,
-    mpl_edl_target_bsp,
+    m98lnd_tf,
+    m98lndst_bsp,
+    mar033_5_bsp,
+    mpl50_tf,
+    mpl_cruise_bsp,
     mpl_edl_target_bsp,
     mpl_structures_bsp,
-    mpl_structures_bsp,
-    mpl_structures_bsp_lsk,
     mpl_surf_target_bsp,
-    mpl_surf_target_bsp,
+    mpl_surf_transl_bsp,
     naif0007_tls,
     naif0008_tls,
-    naif0008_tls,
-    naif0008_tls
+    pck00006_tpc

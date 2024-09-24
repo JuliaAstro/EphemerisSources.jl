@@ -4,7 +4,7 @@
 
 
 """
-All spk_psp_rec57899_57806_57899_r_v1_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All INSIGHT kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Insight
 

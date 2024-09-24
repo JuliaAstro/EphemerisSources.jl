@@ -4,7 +4,7 @@
 
 
 """
-All vg2_sat_bsp kernels, linked from https://naif.jpl.nasa.gov.
+All VOYAGER kernels, linked from https://naif.jpl.nasa.gov.
 """
 module Voyager
 

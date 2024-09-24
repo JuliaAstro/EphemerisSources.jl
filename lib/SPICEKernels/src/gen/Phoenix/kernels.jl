@@ -4,36 +4,6 @@
 
 
 """
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/pck/mars_iau2000_v0.tpc
-"""
-const phx_edl_tlm_traj_marsiau_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/pck/mars_iau2000_v0.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_rag.bsp
-"""
-const phx_edl_tlm_traj_marsiau_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_rag.bsp")
-
-"""
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
@@ -46,52 +16,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx.tf
 """
-const phx_surf_ssil_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/lcraig/phx_edl_tlm_traj_marsiau.bsp
-"""
-const phx_tp_b1_iau2000_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/lcraig/phx_edl_tlm_traj_marsiau.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/de410s.bsp
-"""
-const phx_edl_ort10_mrd_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/de410s.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_ssil.bsp
-"""
-const mar033_7_bsp_fk = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_ssil.bsp")
+const phx_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -106,51 +31,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_b1_iau2000_v1.tf
 """
-const mar033_7_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_b1_iau2000_v1.tf")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_edl_ort10_mrd.tf
-"""
-const phx_tp_dab1_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_edl_ort10_mrd.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/mar033-7.bsp
-"""
-const phx_edl_ort10_traj_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/mar033-7.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_ssir.bsp
-"""
+const phx_tp_b1_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_b1_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -165,38 +46,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_dab1_iau2000_v1.tf
 """
-const phx_cruise_bsp_fk = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_ssir.bsp")
-const phx_cruise_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_dab1_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_edl_ort10_traj.bsp
-"""
-const phx_tp_grnvlyllb_iau2000_v1_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_edl_ort10_traj.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_cruise.bsp
-"""
-const phx_lnd_lpf_080525_2000_080525_v1_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_cruise.bsp")
+const phx_tp_dab1_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_dab1_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -211,52 +61,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_grnvlyllb_iau2000_v1.tf
 """
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_struct_v10_080425.bsp
-"""
-const phx_edl_rec_traj_bsp_spk = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_grnvlyllb_iau2000_v1.tf")
-const phx_edl_rec_traj_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_struct_v10_080425.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_lnd_lpf_080525-2000_080525_v1_ort10.bsp
-"""
-const phx_surf_rac_dryrun0803_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_lnd_lpf_080525-2000_080525_v1_ort10.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_edl_rec_traj.bsp
-"""
-const phx_lnd_lpf_080525_2350_080526_v1_ort10_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_edl_rec_traj.bsp")
+const phx_tp_grnvlyllb_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_grnvlyllb_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -271,52 +76,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_ops080525_iau2000_v1.tf
 """
-const phx_ls_b1_iau2000_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_ops080525_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_rac_dryrun0803.bsp
-"""
-const phx_ls_b1_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_rac_dryrun0803.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_lnd_lpf_080525-2350_080526_v1_ort10.bsp
-"""
-const phx_surf_rag_dryrun0803_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_lnd_lpf_080525-2350_080526_v1_ort10.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_b1_iau2000_v1.bsp
-"""
-const phx_lnd_lpf_080526_0330_080526_v1_ort10_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_b1_iau2000_v1.bsp")
+const phx_tp_ops080525_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_ops080525_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -331,52 +91,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_ops080526_iau2000_v1.tf
 """
-const phx_ls_dab1_iau2000_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_ops080526_iau2000_v1.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_rag_dryrun0803.bsp
-"""
-const phx_v00_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_rag_dryrun0803.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_lnd_lpf_080526-0330_080526_v1_ort10.bsp
-"""
-const phx_surf_ssil_dryrun0803_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_lnd_lpf_080526-0330_080526_v1_ort10.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_dab1_iau2000_v1.bsp
-"""
-const phx_ls_lpf_080525_2000_080525_v1_ort10_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_dab1_iau2000_v1.bsp")
+const phx_tp_ops080526_iau2000_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_tp_ops080526_iau2000_v1.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -391,52 +106,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v00.tf
 """
-const phx_ls_grnvlyllb_iau2000_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v00.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_ssil_dryrun0803.bsp
-"""
-const phx_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_ssil_dryrun0803.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_ls_lpf_080525-2000_080525_v1_ort10.bsp
-"""
-const phx_surf_ssir_dryrun0803_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_ls_lpf_080525-2000_080525_v1_ort10.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_grnvlyllb_iau2000_v1.bsp
-"""
-const phx_ls_lpf_080525_2350_080526_v1_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_grnvlyllb_iau2000_v1.bsp")
+const phx_v00_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v00.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -451,52 +121,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v01.tf
 """
-const phx_ls_ops080525_iau2000_v1_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_ssir_dryrun0803.bsp
-"""
-const phx_v02_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_ssir_dryrun0803.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_ops080525_iau2000_v1.bsp
-"""
-const phx_struct_v11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_ops080525_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_ls_lpf_080525-2350_080526_v1_ort10.bsp
-"""
-const phx_ls_ops080526_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_ls_lpf_080525-2350_080526_v1_ort10.bsp")
+const phx_v01_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v01.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -511,51 +136,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v02.tf
 """
-const phx_ls_lpf_080526_0330_080526_v1_ort10_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v02.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080606/phx_struct_v11.bsp
-"""
-const phx_v03_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080606/phx_struct_v11.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_ops080526_iau2000_v1.bsp
-"""
-const phx_v07_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_ops080526_iau2000_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_ls_lpf_080526-0330_080526_v1_ort10.bsp
-"""
+const phx_v02_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v02.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -570,38 +151,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v03.tf
 """
-const phx_ls_to_lander_v1_bsp_fk = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_ls_lpf_080526-0330_080526_v1_ort10.bsp")
-const phx_ls_to_lander_v1_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v03.tf")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080606/phx_v07.tf
-"""
-const phx_surf_rac_ort10_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080606/phx_v07.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_to_lander_v1.bsp
-"""
-const phx_v01_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_to_lander_v1.bsp")
+const phx_v03_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v03.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -616,52 +166,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v04.tf
 """
-const phx_spk_land_080525_090101_080526_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v04.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_rac_ort10.bsp
-"""
-const phx_v05_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_rac_ort10.bsp")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/fbennett/phx_v01.tf
-"""
-const phx_surf_rag_ort10_bsp = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/fbennett/phx_v01.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_spk-land_080525_090101_080526.bsp
-"""
-const mars_iau2000_v0_tpc = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_spk-land_080525_090101_080526.bsp")
+const phx_v04_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v04.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -676,52 +181,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v05.tf
 """
-const phx_spk_land_080525_090101_080526_eph_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v05.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_rag_ort10.bsp
-"""
-const phx_v06_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_rag_ort10.bsp")
-
-"""
-A PCK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/mars_iau2000_v0.tpc
-"""
-const phx_surf_ssil_ort10_bsp = PCK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/mars_iau2000_v0.tpc")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_spk-land_080525_090101_080526_eph.bsp
-"""
-const naif0008_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_spk-land_080525_090101_080526_eph.bsp")
+const phx_v05_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v05.tf")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -736,52 +196,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v06.tf
 """
-const phx_spk_land_080525_090101_080528_eph_bsp_fk = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v06.tf")
-
-"""
-A LSK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/naif0008.tls
-"""
-const naif0007_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/naif0008.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_ssil_ort10.bsp
-"""
-const phx_edl_sample_mrd_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_ssil_ort10.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_spk-land_080525_090101_080528_eph.bsp
-"""
-const phx_surf_ssir_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_spk-land_080525_090101_080528_eph.bsp")
+const phx_v06_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/fk/phx_v06.tf")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -796,52 +211,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/lsk/naif0007.tls
 """
-const phx_struct_v10_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/lsk/naif0007.tls")
-
-"""
-A FK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/phx_edl_sample_mrd.tf
-"""
-const naif0008_tls = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/phx_edl_sample_mrd.tf")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_ssir_ort10.bsp
-"""
-const phx_edl_sample_traj_bsp_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_ssir_ort10.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_struct_v10.bsp
-"""
-const phx_boresights_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_struct_v10.bsp")
+const naif0007_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/lsk/naif0007.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -856,52 +226,7 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/lsk/naif0008.tls
 """
-const phx_surf_rac_bsp = LSK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/lsk/naif0008.tls")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/phx_edl_sample_traj.bsp
-"""
-const naif0009_tls = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/phx_edl_sample_traj.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/phxgeo/phx_boresights_v1.bsp
-"""
-const phx_v03_tf = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/phxgeo/phx_boresights_v1.bsp")
-
-"""
-A SPK kernel linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-09-24.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_rac.bsp
-"""
-const phx_boresights_v1_tf_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_rac.bsp")
+const naif0008_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/lsk/naif0008.tls")
 
 """
 A LSK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -916,7 +241,472 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/lsk/naif0009.tls
 """
-const phx_boresights_v1_tf_spk = LSK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/lsk/naif0009.tls")
+const naif0009_tls = LSK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/lsk/naif0009.tls")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/pck/mars_iau2000_v0.tpc
+"""
+const mars_iau2000_v0_tpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/pck/mars_iau2000_v0.tpc")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/de410s.bsp
+"""
+const de410s_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/de410s.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/mar033-7.bsp
+"""
+const mar033_7_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/mar033-7.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_cruise.bsp
+"""
+const phx_cruise_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_cruise.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_edl_rec_traj.bsp
+"""
+const phx_edl_rec_traj_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_edl_rec_traj.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_b1_iau2000_v1.bsp
+"""
+const phx_ls_b1_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_b1_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_dab1_iau2000_v1.bsp
+"""
+const phx_ls_dab1_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_dab1_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_grnvlyllb_iau2000_v1.bsp
+"""
+const phx_ls_grnvlyllb_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_grnvlyllb_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_ops080525_iau2000_v1.bsp
+"""
+const phx_ls_ops080525_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_ops080525_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_ops080526_iau2000_v1.bsp
+"""
+const phx_ls_ops080526_iau2000_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_ops080526_iau2000_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_to_lander_v1.bsp
+"""
+const phx_ls_to_lander_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_ls_to_lander_v1.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_spk-land_080525_090101_080526.bsp
+"""
+const phx_spk_land_080525_090101_080526_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_spk-land_080525_090101_080526.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_spk-land_080525_090101_080526_eph.bsp
+"""
+const phx_spk_land_080525_090101_080526_eph_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_spk-land_080525_090101_080526_eph.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_spk-land_080525_090101_080528_eph.bsp
+"""
+const phx_spk_land_080525_090101_080528_eph_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_spk-land_080525_090101_080528_eph.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_struct_v10.bsp
+"""
+const phx_struct_v10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_struct_v10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_rac.bsp
+"""
+const phx_surf_rac_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_rac.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_rag.bsp
+"""
+const phx_surf_rag_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_rag.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_ssil.bsp
+"""
+const phx_surf_ssil_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_ssil.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_ssir.bsp
+"""
+const phx_surf_ssir_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/kernels/spk/phx_surf_ssir.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_struct_v10_080425.bsp
+"""
+const phx_struct_v10_080425_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_struct_v10_080425.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_rac_dryrun0803.bsp
+"""
+const phx_surf_rac_dryrun0803_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_rac_dryrun0803.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_rag_dryrun0803.bsp
+"""
+const phx_surf_rag_dryrun0803_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_rag_dryrun0803.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_ssil_dryrun0803.bsp
+"""
+const phx_surf_ssil_dryrun0803_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_ssil_dryrun0803.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_ssir_dryrun0803.bsp
+"""
+const phx_surf_ssir_dryrun0803_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080425/phx_surf_ssir_dryrun0803.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080606/phx_struct_v11.bsp
+"""
+const phx_struct_v11_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080606/phx_struct_v11.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080606/phx_v07.tf
+"""
+const phx_v07_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/dcook/20080606/phx_v07.tf")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/fbennett/phx_v01.tf
+"""
+const phx_v01_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/fbennett/phx_v01.tf")
+
+"""
+A PCK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/mars_iau2000_v0.tpc
+"""
+const mars_iau2000_v0_tpc_pck = PCK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/mars_iau2000_v0.tpc")
+
+"""
+A LSK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/naif0008.tls
+"""
+const naif0008_tls_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/naif0008.tls")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/phx_edl_sample_mrd.tf
+"""
+const phx_edl_sample_mrd_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/phx_edl_sample_mrd.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/phx_edl_sample_traj.bsp
+"""
+const phx_edl_sample_traj_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/phx_edl_sample_traj.bsp")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -931,7 +721,217 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/phx_v03.tf
 """
-const phx_boresights_v1_tf_spk = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/phx_v03.tf")
+const phx_v03_tf_fk = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/jcraig/phx_v03.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/lcraig/phx_edl_tlm_traj_marsiau.bsp
+"""
+const phx_edl_tlm_traj_marsiau_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/lcraig/phx_edl_tlm_traj_marsiau.bsp")
+
+"""
+A FK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_edl_ort10_mrd.tf
+"""
+const phx_edl_ort10_mrd_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_edl_ort10_mrd.tf")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_edl_ort10_traj.bsp
+"""
+const phx_edl_ort10_traj_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_edl_ort10_traj.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_lnd_lpf_080525-2000_080525_v1_ort10.bsp
+"""
+const phx_lnd_lpf_080525_2000_080525_v1_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_lnd_lpf_080525-2000_080525_v1_ort10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_lnd_lpf_080525-2350_080526_v1_ort10.bsp
+"""
+const phx_lnd_lpf_080525_2350_080526_v1_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_lnd_lpf_080525-2350_080526_v1_ort10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_lnd_lpf_080526-0330_080526_v1_ort10.bsp
+"""
+const phx_lnd_lpf_080526_0330_080526_v1_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_lnd_lpf_080526-0330_080526_v1_ort10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_ls_lpf_080525-2000_080525_v1_ort10.bsp
+"""
+const phx_ls_lpf_080525_2000_080525_v1_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_ls_lpf_080525-2000_080525_v1_ort10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_ls_lpf_080525-2350_080526_v1_ort10.bsp
+"""
+const phx_ls_lpf_080525_2350_080526_v1_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_ls_lpf_080525-2350_080526_v1_ort10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_ls_lpf_080526-0330_080526_v1_ort10.bsp
+"""
+const phx_ls_lpf_080526_0330_080526_v1_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_ls_lpf_080526-0330_080526_v1_ort10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_rac_ort10.bsp
+"""
+const phx_surf_rac_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_rac_ort10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_rag_ort10.bsp
+"""
+const phx_surf_rag_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_rag_ort10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_ssil_ort10.bsp
+"""
+const phx_surf_ssil_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_ssil_ort10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_ssir_ort10.bsp
+"""
+const phx_surf_ssir_ort10_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/ort10/phx_surf_ssir_ort10.bsp")
+
+"""
+A SPK kernel linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-09-24.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/phxgeo/phx_boresights_v1.bsp
+"""
+const phx_boresights_v1_bsp = SPK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/phxgeo/phx_boresights_v1.bsp")
 
 """
 A FK kernel linked from https://naif.jpl.nasa.gov [1].
@@ -946,69 +946,69 @@ This kernel's link was sourced on 2024-09-24.
 
 [1] https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/phxgeo/phx_boresights_v1.tf
 """
-const phx_boresights_v1_tf_spk = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/phxgeo/phx_boresights_v1.tf")
+const phx_boresights_v1_tf = FK("https://naif.jpl.nasa.gov/pub/naif/PHOENIX/misc/phxgeo/phx_boresights_v1.tf")
 
 export
+    de410s_bsp,
     mar033_7_bsp,
-    mar033_7_bsp_fk,
-    mars_iau2000_v0_tpc,
+    mars_iau2000_v0_tpc_pck,
+    mars_iau2000_v0_tpc_pck,
     naif0007_tls,
-    naif0008_tls,
-    naif0008_tls,
+    naif0008_tls_lsk,
+    naif0008_tls_lsk,
     naif0009_tls,
     phx_boresights_v1_bsp,
-    phx_boresights_v1_tf_spk,
-    phx_boresights_v1_tf_spk,
-    phx_boresights_v1_tf_spk,
-    phx_boresights_v1_tf_spk,
-    phx_cruise_bsp_fk,
-    phx_cruise_bsp_spk,
+    phx_boresights_v1_tf,
+    phx_cruise_bsp,
     phx_edl_ort10_mrd_tf,
     phx_edl_ort10_traj_bsp,
-    phx_edl_rec_traj_bsp_fk,
-    phx_edl_rec_traj_bsp_spk,
+    phx_edl_rec_traj_bsp,
     phx_edl_sample_mrd_tf,
-    phx_edl_sample_traj_bsp_spk,
-    phx_edl_tlm_traj_marsiau_bsp,
-    phx_edl_tlm_traj_marsiau_bsp,
+    phx_edl_sample_traj_bsp,
     phx_edl_tlm_traj_marsiau_bsp,
     phx_lnd_lpf_080525_2000_080525_v1_ort10_bsp,
-    phx_lnd_lpf_080525_2350_080526_v1_ort10_bsp_spk,
-    phx_lnd_lpf_080526_0330_080526_v1_ort10_bsp_spk,
+    phx_lnd_lpf_080525_2350_080526_v1_ort10_bsp,
+    phx_lnd_lpf_080526_0330_080526_v1_ort10_bsp,
     phx_ls_b1_iau2000_v1_bsp,
-    phx_ls_b1_iau2000_v1_bsp,
-    phx_ls_dab1_iau2000_v1_bsp,
     phx_ls_dab1_iau2000_v1_bsp,
     phx_ls_grnvlyllb_iau2000_v1_bsp,
-    phx_ls_lpf_080525_2000_080525_v1_ort10_bsp_spk,
+    phx_ls_lpf_080525_2000_080525_v1_ort10_bsp,
     phx_ls_lpf_080525_2350_080526_v1_ort10_bsp,
     phx_ls_lpf_080526_0330_080526_v1_ort10_bsp,
     phx_ls_ops080525_iau2000_v1_bsp,
     phx_ls_ops080526_iau2000_v1_bsp,
-    phx_ls_to_lander_v1_bsp_fk,
-    phx_ls_to_lander_v1_bsp_fk,
+    phx_ls_to_lander_v1_bsp,
     phx_spk_land_080525_090101_080526_bsp,
-    phx_spk_land_080525_090101_080526_eph_bsp_fk,
-    phx_spk_land_080525_090101_080528_eph_bsp_fk,
+    phx_spk_land_080525_090101_080526_eph_bsp,
+    phx_spk_land_080525_090101_080528_eph_bsp,
+    phx_struct_v10_080425_bsp,
     phx_struct_v10_bsp,
     phx_struct_v11_bsp,
     phx_surf_rac_bsp,
     phx_surf_rac_dryrun0803_bsp,
     phx_surf_rac_ort10_bsp,
+    phx_surf_rag_bsp,
     phx_surf_rag_dryrun0803_bsp,
     phx_surf_rag_ort10_bsp,
-    phx_surf_ssil_dryrun0803_bsp_spk,
-    phx_surf_ssir_dryrun0803_bsp_spk,
+    phx_surf_ssil_bsp,
+    phx_surf_ssil_dryrun0803_bsp,
+    phx_surf_ssil_ort10_bsp,
+    phx_surf_ssir_bsp,
+    phx_surf_ssir_dryrun0803_bsp,
     phx_surf_ssir_ort10_bsp,
+    phx_tf,
     phx_tp_b1_iau2000_v1_tf,
     phx_tp_dab1_iau2000_v1_tf,
     phx_tp_grnvlyllb_iau2000_v1_tf,
-    phx_v01_tf,
-    phx_v01_tf,
+    phx_tp_ops080525_iau2000_v1_tf,
+    phx_tp_ops080526_iau2000_v1_tf,
+    phx_v00_tf,
+    phx_v01_tf_fk,
+    phx_v01_tf_fk,
     phx_v02_tf,
-    phx_v03_tf,
-    phx_v03_tf,
+    phx_v03_tf_fk,
+    phx_v03_tf_fk,
+    phx_v04_tf,
     phx_v05_tf,
-    phx_v06_tf,
     phx_v06_tf,
     phx_v07_tf
