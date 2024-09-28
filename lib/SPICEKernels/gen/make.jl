@@ -41,7 +41,7 @@ end
 """
 Write all current kernel paths to the provided file name.
 """
-function code!(kernels; project = nothing, download = nothing, document = nothing)
+function code!(kernels; project = nothing, only_generic_kernels = true)
 
     kernellist = collect(kernels)
     sort!(kernellist)
@@ -60,15 +60,25 @@ function code!(kernels; project = nothing, download = nothing, document = nothin
     # end
 
     if isnothing(project)
+
         subdir(path) = split(replace(path, SPICEKernels.NAIF_KERNELS_URL => ""), "/")[2]
-        subdirs = unique(subdir.(kernellist))
-        @assert allunique(subdirs)
+        if only_generic_kernels
+            projects = Dict(
+                "generic_kernels" => filter(
+                    path -> subdir(path) == "generic_kernels",
+                    collect(kernellist),
+                ),
+            )
+        else
+            subdirs = unique(subdir.(kernellist))
+            @assert allunique(subdirs)
 
-        projects = Dict(
-            dir => filter(path -> subdir(path) == dir, collect(kernellist)) for
-            dir in subdirs
-        )
+            projects = Dict(
+                dir => filter(path -> subdir(path) == dir, collect(kernellist)) for
+                dir in subdirs
+            )
 
+        end
         names = collect(keys(projects))
         sort!(names; by = name -> length(projects[name]), rev = true)
 
