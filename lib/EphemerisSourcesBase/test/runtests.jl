@@ -1,1 +1,1 @@
-using Test, EphemerisSourcesBase
+using Test, EphemerisSourcesBase, EphemerisSourcesBase.Types

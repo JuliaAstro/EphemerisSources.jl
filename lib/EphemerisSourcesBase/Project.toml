@@ -1,7 +1,7 @@
 name = "EphemerisSourcesBase"
 uuid = "b8f1d712-e88d-4f2a-8498-e66ce688ee29"
 authors = ["Joey Carpinelli <joey@loopy.codes>"]
-version = "0.1.2"
+version = "0.2.0"
 
 [deps]
 AstroTime = "c61b5328-d09d-5e37-a9a8-0eb41c39009c"

@@ -52,5 +52,7 @@ function naifcode(name::Union{<:AbstractString,Symbol})
     end
 end
 
+include("types.jl")
+
 
 end # module EphemerisSourcesBase
