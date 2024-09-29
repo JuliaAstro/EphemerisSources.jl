@@ -15,7 +15,7 @@ SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
 
 [compat]
 AstroTime = "0.7"
-EphemerisSourcesBase = "0.1"
+EphemerisSourcesBase = "0.1, 0.2"
 HorizonsAPI = "1"
 HorizonsEphemeris = "1"
 Reexport = "1.2"
