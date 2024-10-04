@@ -267,7 +267,7 @@ function code!(kernels; project = nothing, only_generic_kernels = true)
 
                         write(
                             file,
-                            """\n\"\"\"\nA $type kernel of size $(size(path)), linked from https://naif.jpl.nasa.gov [1].\nCalling this variable like a function will return a path to the file, downloading \nto scratchspace if necessary.\n\n# Extended Help\n\nThis kernel's link was sourced on $(today()).\n\n## References\n\n[1] $kernel\n\n## Description\n\n```\n$(path == kernel ? description(path) : "No description could be found for this kernel. Download it, and use `SPICEApplications.jl` (or other distributions of SPICE Toolkit Executables) to inspect the contents!")\n```\n\"\"\"\n""",
+                            """\n\"\"\"\nA $type kernel of size $(size(path)), linked from https://naif.jpl.nasa.gov [1].\nCalling this variable like a function will return a path to the file, downloading \nto scratchspace if necessary.\n\n# Extended Help\n\nThis kernel's link was sourced on $(today()).\n\n## References\n\n[1] $kernel\n\n## Description\n\n```\n$(description(path))\n```\n\"\"\"\n""",
                         )
                         if "$kernel.pc" in kernellist
                             write(
