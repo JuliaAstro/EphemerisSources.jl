@@ -1,0 +1,47 @@
+project:
+  type: manuscript
+  output-dir: _manuscript
+
+manuscript:
+  article: paper.md
+  resources: 
+    - "*.bib"
+
+format:
+  html:
+    include-in-header: 
+      text: |
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css">
+    include-before-body: 
+      text: |
+        <div class="callout-note callout callout-style-simple">
+            <div class="callout-body d-flex">
+                <div class="callout-icon-container">
+                    <i class="callout-icon"></i>
+                    </div>
+                    <div class="callout-body-container">
+                    <p><i>
+                      This page is a <b>pre-print</b>! The published paper is available at 
+                      the <a href="https://joss.theoj.org">Journal of Open Source Software</a>.
+                    </i></p>
+                </div>
+            </div>
+        </div>
+
+    theme: 
+      light: 
+        - _style/light.scss
+        - _extensions/cadojo/catppuccin/latte.scss
+      dark: 
+        - _style/dark.scss
+        - _extensions/cadojo/catppuccin/mocha.scss
+
+    css: static.css
+
+    mainfont: "'Computer Modern Sans', sans-serif;"
+    monofont: "'Noto Sans Mono', monospace;"
+
+execute: 
+  cache: false
+  freeze: false
+  echo: true
