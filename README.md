@@ -2,6 +2,7 @@
 [![Documentation](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Documentation.yml/badge.svg)](https://juliaastro.org/EphemerisSources.jl/docs/stable)
 [![JOSS](https://joss.theoj.org/papers/2ecaf389e70086ec2b560cb10f454267/status.svg)](https://joss.theoj.org/papers/2ecaf389e70086ec2b560cb10f454267)
 [![CodeCov](https://codecov.io/gh/JuliaAstro/EphemerisSources.jl/graph/badge.svg?token=s71ZeTEo4F)](https://codecov.io/gh/JuliaAstro/EphemerisSources.jl)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13895994.svg)](https://doi.org/10.5281/zenodo.13895994)
 
 # 🪐 `EphemerisSources.jl`
 
