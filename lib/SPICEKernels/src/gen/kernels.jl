@@ -10,7 +10,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -44,7 +44,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -78,7 +78,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -112,7 +112,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -140,13 +140,183 @@ Body:                               2025143 (ITOKAWA)
 const hay_a_amica_5_itokawashape_v1_0_64q = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/itokawa/hay_a_amica_5_itokawashape_v1_0_64q.bds")
 
 """
+A DSK kernel of size 58.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/lutetia/a_old_versions/ro-a-osinac_osiwac-5-lutetia-shape-v1_0_002m.bds
+
+## Description
+
+```
+ 
+DSKBRIEF Program; Ver. 3.0.0, 02-NOV-2021; Toolkit Ver. N0067
+ 
+Summary for: ro-a-osinac_osiwac-5-lutetia-shape-v1_0_002m.bds
+ 
+Body:                               2000021 (LUTETIA)
+  Surface:                          2000021 (Name not available)
+  Reference frame name N/A; ID code: -2260021
+  Coordinate system:                Planetocentric Latitudinal
+    Min, max longitude  (deg):         0.00000    360.000
+    Min, max latitude   (deg):       -90.0000      90.0000
+    Min, max radius      (km):        33.0709      64.6538
+ 
+
+```
+"""
+const ro_a_osinac_osiwac_5_lutetia_shape_v1_0_002m = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/lutetia/a_old_versions/ro-a-osinac_osiwac-5-lutetia-shape-v1_0_002m.bds")
+
+"""
+A DSK kernel of size 470.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/lutetia/a_old_versions/ro-a-osinac_osiwac-5-lutetia-shape-v1_0_006k.bds
+
+## Description
+
+```
+ 
+DSKBRIEF Program; Ver. 3.0.0, 02-NOV-2021; Toolkit Ver. N0067
+ 
+Summary for: ro-a-osinac_osiwac-5-lutetia-shape-v1_0_006k.bds
+ 
+Body:                               2000021 (LUTETIA)
+  Surface:                          2000021 (Name not available)
+  Reference frame name N/A; ID code: -2260021
+  Coordinate system:                Planetocentric Latitudinal
+    Min, max longitude  (deg):         0.00000    360.000
+    Min, max latitude   (deg):       -90.0000      90.0000
+    Min, max radius      (km):        26.9525      64.5917
+ 
+
+```
+"""
+const ro_a_osinac_osiwac_5_lutetia_shape_v1_0_006k = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/lutetia/a_old_versions/ro-a-osinac_osiwac-5-lutetia-shape-v1_0_006k.bds")
+
+"""
+A DSK kernel of size 35.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/lutetia/a_old_versions/ro-a-osinac_osiwac-5-lutetia-shape-v1_0_780k.bds
+
+## Description
+
+```
+ 
+DSKBRIEF Program; Ver. 3.0.0, 02-NOV-2021; Toolkit Ver. N0067
+ 
+Summary for: ro-a-osinac_osiwac-5-lutetia-shape-v1_0_780k.bds
+ 
+Body:                               2000021 (LUTETIA)
+  Surface:                          2000021 (Name not available)
+  Reference frame name N/A; ID code: -2260021
+  Coordinate system:                Planetocentric Latitudinal
+    Min, max longitude  (deg):         0.00000    360.000
+    Min, max latitude   (deg):       -90.0000      90.0000
+    Min, max radius      (km):        33.0219      64.6532
+ 
+
+```
+"""
+const ro_a_osinac_osiwac_5_lutetia_shape_v1_0_780k = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/lutetia/a_old_versions/ro-a-osinac_osiwac-5-lutetia-shape-v1_0_780k.bds")
+
+"""
+A DSK kernel of size 1.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/steins/a_old_versions/ro-a-osinac_osiwac-5-steins-shape-v1_0_20k.bds
+
+## Description
+
+```
+ 
+DSKBRIEF Program; Ver. 3.0.0, 02-NOV-2021; Toolkit Ver. N0067
+ 
+Summary for: ro-a-osinac_osiwac-5-steins-shape-v1_0_20k.bds
+ 
+Body:                               2002867 (STEINS)
+  Surface:                          2002867 (Name not available)
+  Reference frame name N/A; ID code: 2002867
+  Coordinate system:                Planetocentric Latitudinal
+    Min, max longitude  (deg):         0.00000    360.000
+    Min, max latitude   (deg):       -90.0000      90.0000
+    Min, max radius      (km):         1.82673      3.62160
+ 
+
+```
+"""
+const ro_a_osinac_osiwac_5_steins_shape_v1_0_20k = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/steins/a_old_versions/ro-a-osinac_osiwac-5-steins-shape-v1_0_20k.bds")
+
+"""
+A DSK kernel of size 8.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/steins/a_old_versions/steins_0.7_4.bds
+
+## Description
+
+```
+ 
+DSKBRIEF Program; Ver. 3.0.0, 02-NOV-2021; Toolkit Ver. N0067
+ 
+Summary for: steins_0.7_4.bds
+ 
+Body:                               2002867 (STEINS)
+  Surface:                          2002867 (Name not available)
+  Reference frame name N/A; ID code: 2000001
+  Coordinate system:                Planetocentric Latitudinal
+    Min, max longitude  (deg):       -180.000     180.000
+    Min, max latitude   (deg):        -90.0000     90.0000
+    Min, max radius      (km):          1.69301     3.53748
+ 
+
+```
+"""
+const steins_0 = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/steins/a_old_versions/steins_0.7_4.bds")
+
+"""
 A DSK kernel of size 39.4 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -180,7 +350,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -208,13 +378,47 @@ Body:                               2000004 (VESTA)
 const vesta_thomas_1997 = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/asteroids/vesta/vesta_thomas_1997.bds")
 
 """
+A DSK kernel of size 61.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/comets/churyumov-gerasimenko/a_old_versions/churyumov-gerasimenko_512.bds
+
+## Description
+
+```
+ 
+DSKBRIEF Program; Ver. 3.0.0, 02-NOV-2021; Toolkit Ver. N0067
+ 
+Summary for: churyumov-gerasimenko_512.bds
+ 
+Body:                               1000012 (CHURYUMOV-GERASIMENKO)
+  Surface:                          1000012 (Name not available)
+  Reference frame name N/A; ID code: 1000012
+  Coordinate system:                Planetocentric Latitudinal
+    Min, max longitude  (deg):       -180.000         180.000
+    Min, max latitude   (deg):        -90.0000         90.0000
+    Min, max radius      (km):          8.95675E-01     2.46914
+ 
+
+```
+"""
+const churyumov_gerasimenko_512 = DSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/comets/churyumov-gerasimenko/a_old_versions/churyumov-gerasimenko_512.bds")
+
+"""
 A DSK kernel of size 149.4 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -248,7 +452,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -282,7 +486,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -316,7 +520,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -331,13 +535,139 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const earth_assoc_itrf93 = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/planets/earth_assoc_itrf93.tf")
 
 """
+A FK kernel of size 17.7 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/a_old_versions/moon_060721.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const moon_060721 = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/a_old_versions/moon_060721.tf")
+
+"""
+A FK kernel of size 20.6 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/a_old_versions/moon_071218.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const moon_071218 = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/a_old_versions/moon_071218.tf")
+
+"""
+A FK kernel of size 8.6 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/a_old_versions/moon_de440_200625.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const moon_de440_200625 = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/a_old_versions/moon_de440_200625.tf")
+
+"""
+A FK kernel of size 0.4 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/a_old_versions/nep103_nameid.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const nep103_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/a_old_versions/nep103_nameid.tf")
+
+"""
+A FK kernel of size 2.4 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/a_old_versions/sat452_nameid.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const sat452_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/a_old_versions/sat452_nameid.tf")
+
+"""
+A FK kernel of size 6.2 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/a_old_versions/sat453_nameid.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const sat453_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/a_old_versions/sat453_nameid.tf")
+
+"""
 A FK kernel of size 0.3 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -358,7 +688,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -379,7 +709,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -400,7 +730,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -421,7 +751,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -442,7 +772,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -463,7 +793,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -484,7 +814,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -505,11 +835,11 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/nep103_nameid.tf
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/nep104_nameid.tf
 
 ## Description
 
@@ -517,20 +847,20 @@ This kernel's link was sourced on 2024-08-13.
 A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
 ```
 """
-const nep103_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/nep103_nameid.tf")
+const nep104_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/nep104_nameid.tf")
 
 """
-A FK kernel of size 2.4 KB, linked from https://naif.jpl.nasa.gov [1].
+A FK kernel of size 7.1 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat452_nameid.tf
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat454_nameid.tf
 
 ## Description
 
@@ -538,28 +868,7 @@ This kernel's link was sourced on 2024-08-13.
 A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
 ```
 """
-const sat452_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat452_nameid.tf")
-
-"""
-A FK kernel of size 6.2 KB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-08-13.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat453_nameid.tf
-
-## Description
-
-```
-A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
-```
-"""
-const sat453_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat453_nameid.tf")
+const sat454_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat454_nameid.tf")
 
 """
 A FK kernel of size 0.3 KB, linked from https://naif.jpl.nasa.gov [1].
@@ -568,7 +877,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -583,13 +892,181 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const ura117_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/ura117_nameid.tf")
 
 """
+A FK kernel of size 6.4 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/dss_35_36_prelim_itrf93_140604.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const dss_35_36_prelim_itrf93_140604_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/dss_35_36_prelim_itrf93_140604.tf")
+
+"""
+A FK kernel of size 7.9 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/dss_35_36_prelim_itrf93_140620.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const dss_35_36_prelim_itrf93_140620_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/dss_35_36_prelim_itrf93_140620.tf")
+
+"""
+A FK kernel of size 7.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/dss_53_prelim_itrf93_201018.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const dss_53_prelim_itrf93_201018_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/dss_53_prelim_itrf93_201018.tf")
+
+"""
+A FK kernel of size 7.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/dss_56_prelim_itrf93_201018.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const dss_56_prelim_itrf93_201018_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/dss_56_prelim_itrf93_201018.tf")
+
+"""
+A FK kernel of size 32.9 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/earth_topo_040916.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const earth_topo_040916 = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/earth_topo_040916.tf")
+
+"""
+A FK kernel of size 34.5 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/earth_topo_050714.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const earth_topo_050714 = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/earth_topo_050714.tf")
+
+"""
+A FK kernel of size 35.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/earth_topo_050714_v2.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const earth_topo_050714_v2 = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/earth_topo_050714_v2.tf")
+
+"""
+A FK kernel of size 6.7 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/misasa_54m_itrf93_210121.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const misasa_54m_itrf93_210121_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/a_old_versions/misasa_54m_itrf93_210121.tf")
+
+"""
 A FK kernel of size 4.6 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -601,7 +1078,7 @@ This kernel's link was sourced on 2024-08-13.
 A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
 ```
 """
-const dss_17_prelim_itrf93_161110 = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/dss_17_prelim_itrf93_161110.tf")
+const dss_17_prelim_itrf93_161110_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/dss_17_prelim_itrf93_161110.tf")
 
 """
 A FK kernel of size 4.7 KB, linked from https://naif.jpl.nasa.gov [1].
@@ -610,7 +1087,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -631,7 +1108,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -652,7 +1129,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -673,7 +1150,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -694,7 +1171,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -715,7 +1192,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -736,7 +1213,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -757,7 +1234,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -778,7 +1255,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -793,13 +1270,118 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const ndosl_190716_v02_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/ndosl_190716_v02.tf")
 
 """
+A LSK kernel of size 4.2 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0007.tls
+
+## Description
+
+```
+A `SPICEKernels.LeapSecondsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const naif0007 = LSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0007.tls")
+
+"""
+A LSK kernel of size 4.4 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0008.tls
+
+## Description
+
+```
+A `SPICEKernels.LeapSecondsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const naif0008_lsk = LSK(!Sys.iswindows() ? "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0008.tls" : "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0008.tls.pc")
+
+"""
+A LSK kernel of size 4.6 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0009.tls
+
+## Description
+
+```
+A `SPICEKernels.LeapSecondsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const naif0009_lsk = LSK(!Sys.iswindows() ? "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0009.tls" : "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0009.tls.pc")
+
+"""
+A LSK kernel of size 4.8 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0010.tls
+
+## Description
+
+```
+A `SPICEKernels.LeapSecondsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const naif0010_lsk = LSK(!Sys.iswindows() ? "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0010.tls" : "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0010.tls.pc")
+
+"""
+A LSK kernel of size 5.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0011.tls
+
+## Description
+
+```
+A `SPICEKernels.LeapSecondsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const naif0011_lsk = LSK(!Sys.iswindows() ? "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0011.tls" : "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/a_old_versions/naif0011.tls.pc")
+
+"""
 A LSK kernel of size 5.1 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -820,7 +1402,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -832,7 +1414,7 @@ This kernel's link was sourced on 2024-08-13.
 A `SPICEKernels.LeapSecondsKernel`. If the kernel type is not binary, open the file for more information!
 ```
 """
-const naif0011 = LSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0011.tls")
+const naif0011_lsk = LSK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/lsk/naif0011.tls")
 
 """
 A LSK kernel of size 5.1 KB, linked from https://naif.jpl.nasa.gov [1].
@@ -841,7 +1423,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -862,7 +1444,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -877,13 +1459,480 @@ A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, ope
 const Gravity = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/Gravity.tpc")
 
 """
+A PCK kernel of size 3.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_031228_231229_predict.bpc
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earth_031228_231229_predict.bpc
+ 
+Frame: ITRF93 (3000)
+       Start of Interval (ET)              End of Interval (ET)
+       -----------------------------       -----------------------------
+       2002 DEC 28 00:01:04.183            2023 DEC 29 00:01:04.183
+ 
+
+```
+"""
+const earth_031228_231229_predict = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_031228_231229_predict.bpc")
+
+"""
+A PCK kernel of size 5.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_060526_370526_predict.bpc
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earth_060526_370526_predict.bpc
+ 
+Frame: ITRF93 (3000)
+       Start of Interval (ET)              End of Interval (ET)
+       -----------------------------       -----------------------------
+       2006 MAY 26 00:01:05.185            2037 MAY 26 00:01:05.184
+ 
+
+```
+"""
+const earth_060526_370526_predict = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_060526_370526_predict.bpc")
+
+"""
+A PCK kernel of size 5.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_070425_370426_predict.bpc
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earth_070425_370426_predict.bpc
+ 
+Frame: ITRF93 (3000)
+       Start of Interval (ET)              End of Interval (ET)
+       -----------------------------       -----------------------------
+       2007 APR 25 00:01:05.185            2037 JUL 17 00:01:05.183
+ 
+
+```
+"""
+const earth_070425_370426_predict = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_070425_370426_predict.bpc")
+
+"""
+A PCK kernel of size 14.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_200101_990628_predict.bpc
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earth_200101_990628_predict.bpc
+ 
+Frame: ITRF93 (3000)
+       Start of Interval (ET)              End of Interval (ET)
+       -----------------------------       -----------------------------
+       2020 JAN 01 00:01:09.183            2099 JUN 28 00:01:09.182
+ 
+
+```
+"""
+const earth_200101_990628_predict = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_200101_990628_predict.bpc")
+
+"""
+A PCK kernel of size 14.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_200101_990825_predict.bpc
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earth_200101_990825_predict.bpc
+ 
+Frame: ITRF93 (3000)
+       Start of Interval (ET)              End of Interval (ET)
+       -----------------------------       -----------------------------
+       2020 JAN 01 00:01:09.183            2099 AUG 25 00:01:09.182
+ 
+
+```
+"""
+const earth_200101_990825_predict = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_200101_990825_predict.bpc")
+
+"""
+A PCK kernel of size 5.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_720101_031229.bpc
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earth_720101_031229.bpc
+ 
+Frame: ITRF93 (3000)
+       Start of Interval (ET)              End of Interval (ET)
+       -----------------------------       -----------------------------
+       1972 JAN 01 00:00:42.183            2003 DEC 29 00:01:04.183
+ 
+
+```
+"""
+const earth_720101_031229 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_720101_031229.bpc")
+
+"""
+A PCK kernel of size 8.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_720101_070426.bpc
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earth_720101_070426.bpc
+ 
+Frame: ITRF93 (3000)
+       Start of Interval (ET)              End of Interval (ET)
+       -----------------------------       -----------------------------
+       1962 JAN 20 00:00:41.184            2007 APR 26 00:01:05.185
+ 
+
+```
+"""
+const earth_720101_070426 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_720101_070426.bpc")
+
+"""
+A PCK kernel of size 6.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_720101_070527.bpc
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earth_720101_070527.bpc
+ 
+Frame: ITRF93 (3000)
+       Start of Interval (ET)              End of Interval (ET)
+       -----------------------------       -----------------------------
+       1972 JAN 01 00:00:42.183            2007 MAY 27 00:01:05.184
+ 
+
+```
+"""
+const earth_720101_070527 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_720101_070527.bpc")
+
+"""
+A PCK kernel of size 9.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_720101_230601.bpc
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earth_720101_230601.bpc
+ 
+Frame: ITRF93 (3000)
+       Start of Interval (ET)              End of Interval (ET)
+       -----------------------------       -----------------------------
+       1972 JAN 01 00:00:42.183            2023 JUN 01 00:01:09.184
+ 
+
+```
+"""
+const earth_720101_230601 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/earth_720101_230601.bpc")
+
+"""
+A PCK kernel of size 361.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/lunar_de403s_pa_v0.bpc
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: lunar_de403s_pa_v0.bpc
+ 
+Frame: IAU_MOON (301)
+       Start of Interval (ET)              End of Interval (ET)
+       -----------------------------       -----------------------------
+       1979 DEC 01 00:00:00.000            2011 JAN 07 00:00:00.000
+ 
+
+```
+"""
+const lunar_de403s_pa_v0 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/lunar_de403s_pa_v0.bpc")
+
+"""
+A PCK kernel of size 68.3 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00003.tpc
+
+## Description
+
+```
+A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const pck00003 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00003.tpc")
+
+"""
+A PCK kernel of size 86.5 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00005.tpc
+
+## Description
+
+```
+A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const pck00005 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00005.tpc")
+
+"""
+A PCK kernel of size 87.5 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00006.tpc
+
+## Description
+
+```
+A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const pck00006 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00006.tpc")
+
+"""
+A PCK kernel of size 88.2 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00007.tpc
+
+## Description
+
+```
+A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const pck00007 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00007.tpc")
+
+"""
+A PCK kernel of size 109.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00008.tpc
+
+## Description
+
+```
+A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const pck00008 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00008.tpc")
+
+"""
+A PCK kernel of size 111.3 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00009.tpc
+
+## Description
+
+```
+A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const pck00009 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00009.tpc")
+
+"""
+A PCK kernel of size 96.2 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/preliminary_pck00004.tpc
+
+## Description
+
+```
+A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const preliminary_pck00004 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/preliminary_pck00004.tpc")
+
+"""
 A PCK kernel of size 1.9 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -904,11 +1953,11 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_241105_240812.bpc
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_241229_241005.bpc
 
 ## Description
 
@@ -917,17 +1966,49 @@ This kernel's link was sourced on 2024-08-13.
 BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
  
  
-Summary for: earth_000101_241105_240812.bpc
+Summary for: earth_000101_241229_241005.bpc
  
 Frame: ITRF93 (3000)
        Start of Interval (ET)              End of Interval (ET)
        -----------------------------       -----------------------------
-       2000 JAN 01 00:01:04.183            2024 NOV 05 00:01:09.182
+       2000 JAN 01 00:01:04.183            2024 DEC 29 00:01:09.183
  
 
 ```
 """
-const earth_000101_241105_240812 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_241105_240812.bpc")
+const earth_000101_241229_241005 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_241229_241005.bpc")
+
+"""
+A PCK kernel of size 29.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_1962_240827_2124_combined.bpc
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earth_1962_240827_2124_combined.bpc
+ 
+Frame: ITRF93 (3000)
+       Start of Interval (ET)              End of Interval (ET)
+       -----------------------------       -----------------------------
+       1962 JAN 20 00:00:41.184            2124 NOV 21 00:01:09.182
+ 
+
+```
+"""
+const earth_1962_240827_2124_combined = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_1962_240827_2124_combined.bpc")
 
 """
 A PCK kernel of size 14.4 MB, linked from https://naif.jpl.nasa.gov [1].
@@ -936,11 +2017,11 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_200101_990825_predict.bpc
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_200101_990827_predict.bpc
 
 ## Description
 
@@ -949,30 +2030,30 @@ This kernel's link was sourced on 2024-08-13.
 BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
  
  
-Summary for: earth_200101_990825_predict.bpc
+Summary for: earth_200101_990827_predict.bpc
  
 Frame: ITRF93 (3000)
        Start of Interval (ET)              End of Interval (ET)
        -----------------------------       -----------------------------
-       2020 JAN 01 00:01:09.183            2099 AUG 25 00:01:09.182
+       2020 JAN 01 00:01:09.183            2099 AUG 27 00:01:09.182
  
 
 ```
 """
-const earth_200101_990825_predict = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_200101_990825_predict.bpc")
+const earth_200101_990827_predict = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_200101_990827_predict.bpc")
 
 """
-A PCK kernel of size 9.3 MB, linked from https://naif.jpl.nasa.gov [1].
+A PCK kernel of size 11.4 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_720101_230601.bpc
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_620120_240827.bpc
 
 ## Description
 
@@ -981,17 +2062,17 @@ This kernel's link was sourced on 2024-08-13.
 BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
  
  
-Summary for: earth_720101_230601.bpc
+Summary for: earth_620120_240827.bpc
  
 Frame: ITRF93 (3000)
        Start of Interval (ET)              End of Interval (ET)
        -----------------------------       -----------------------------
-       1972 JAN 01 00:00:42.183            2023 JUN 01 00:01:09.184
+       1962 JAN 20 00:00:41.184            2024 AUG 27 00:01:09.182
  
 
 ```
 """
-const earth_720101_230601 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_720101_230601.bpc")
+const earth_620120_240827 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_620120_240827.bpc")
 
 """
 A FK kernel of size 1.0 KB, linked from https://naif.jpl.nasa.gov [1].
@@ -1000,7 +2081,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1021,7 +2102,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1039,7 +2120,7 @@ Summary for: earth_latest_high_prec.bpc
 Frame: ITRF93 (3000)
        Start of Interval (ET)              End of Interval (ET)
        -----------------------------       -----------------------------
-       2000 JAN 01 00:01:04.183            2024 NOV 05 00:01:09.182
+       2000 JAN 01 00:01:04.183            2024 DEC 29 00:01:09.183
  
 
 ```
@@ -1053,7 +2134,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1074,7 +2155,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1095,7 +2176,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1116,7 +2197,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1148,7 +2229,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1180,7 +2261,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1212,7 +2293,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1244,7 +2325,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1265,7 +2346,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1286,7 +2367,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1301,13 +2382,662 @@ A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, ope
 const pck00011_n0066 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011_n0066.tpc")
 
 """
+A SPK kernel of size 78.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/ceres-2003-2016.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ceres-2003-2016.bsp
+ 
+Body: CERES (2000001)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      2003 JAN 01 00:00:00.000            2016 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const ceres_2003_2016 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/ceres-2003-2016.bsp")
+
+"""
+A SPK kernel of size 1.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/ceres_1900_2100.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ceres_1900_2100.bsp
+ 
+Body: CERES (2000001)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1900 JAN 01 00:00:00.000            2100 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const ceres_1900_2100 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/ceres_1900_2100.bsp")
+
+"""
 A SPK kernel of size 59.0 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/codes_300ast_20061020.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: codes_300ast_20061020.bsp
+ 
+Bodies: CERES (2000001)*      2000115*              2000366*
+        PALLAS (2000002)*     2000117*              2000369*
+        2000003*              2000120*              2000372*
+        VESTA (2000004)*      2000121*              2000373*
+        2000005*              2000124*              2000375*
+        2000006*              2000127*              2000377*
+        2000007*              2000128*              2000381*
+        2000008*              2000129*              2000385*
+        2000009*              2000130*              2000386*
+        2000010*              2000134*              2000387*
+        2000011*              2000135*              2000388*
+        2000012*              2000137*              2000389*
+        2000013*              2000139*              2000393*
+        2000014*              2000140*              2000404*
+        2000015*              2000141*              2000405*
+        PSYCHE (2000016)*     2000143*              2000407*
+        2000017*              2000144*              2000409*
+        2000018*              2000145*              2000410*
+        2000019*              2000146*              2000412*
+        2000020*              2000147*              2000416*
+        LUTETIA (2000021)*    2000148*              2000419*
+        2000022*              2000150*              2000420*
+        2000023*              2000154*              2000423*
+        2000024*              2000156*              2000424*
+        2000025*              2000159*              2000426*
+        2000026*              2000160*              2000431*
+        2000027*              2000162*              EROS (2000433)*
+        2000028*              2000163*              2000442*
+        2000029*              2000164*              2000444*
+        2000030*              2000165*              2000449*
+        2000031*              2000168*              2000451*
+        2000032*              2000171*              2000454*
+        2000034*              2000173*              2000455*
+        2000035*              2000175*              2000466*
+        2000036*              2000176*              2000469*
+        2000037*              2000181*              2000471*
+        2000038*              2000185*              2000476*
+        2000039*              2000187*              2000481*
+        2000040*              2000191*              2000488*
+        2000041*              2000192*              2000489*
+        2000042*              2000194*              2000490*
+        2000043*              2000195*              2000491*
+        2000044*              2000196*              2000498*
+        2000045*              2000200*              2000505*
+        2000046*              2000201*              2000506*
+        2000047*              2000203*              2000508*
+        2000048*              2000205*              DAVIDA (2000511)*
+        2000049*              2000206*              2000514*
+        2000050*              2000209*              2000521*
+        2000051*              2000210*              2000532*
+        52 EUROPA (2000052)*  2000211*              2000535*
+        2000053*              2000212*              2000536*
+        2000054*              2000213*              2000545*
+        2000056*              KLEOPATRA (2000216)*  2000554*
+        2000057*              2000221*              2000566*
+        2000058*              2000224*              2000568*
+        2000059*              2000225*              2000595*
+        2000062*              2000230*              2000596*
+        2000063*              2000233*              2000602*
+        2000065*              2000236*              2000618*
+        2000068*              2000238*              2000626*
+        2000069*              2000240*              2000635*
+        2000070*              2000241*              2000654*
+        2000071*              2000247*              2000663*
+        2000072*              2000250*              2000674*
+        2000074*              2000259*              2000683*
+        2000075*              2000266*              2000690*
+        2000076*              2000268*              2000691*
+        2000077*              2000275*              2000694*
+        2000078*              2000276*              2000702*
+        2000080*              2000283*              2000704*
+        2000081*              2000287*              2000705*
+        2000083*              2000303*              2000709*
+        2000084*              2000304*              2000712*
+        2000085*              2000308*              2000713*
+        2000086*              2000313*              2000739*
+        2000087*              2000322*              2000740*
+        2000088*              2000324*              2000747*
+        2000089*              2000326*              2000751*
+        2000090*              2000328*              2000762*
+        2000091*              2000329*              2000769*
+        2000092*              2000334*              2000772*
+        2000093*              2000335*              2000773*
+        2000094*              2000336*              2000776*
+        2000095*              2000337*              2000780*
+        2000096*              2000338*              2000788*
+        2000097*              2000344*              2000790*
+        2000098*              2000345*              2000791*
+        2000099*              2000346*              2000804*
+        2000102*              2000347*              2000814*
+        2000103*              2000349*              2000849*
+        2000104*              2000350*              2000895*
+        2000105*              2000354*              2000909*
+        2000106*              2000356*              2000914*
+        2000107*              2000357*              2000980*
+        2000109*              2000358*              2001015*
+        2000110*              2000360*              2001021*
+        2000111*              2000362*              2001036*
+        2000112*              2000363*              2001093*
+        2000114*              2000365*              2001467*
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1799 DEC 30 12:00:00.000            2200 JAN 22 12:00:00.000
+ 
+
+```
+"""
+const codes_300ast_20061020_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/codes_300ast_20061020.bsp")
+
+"""
+A FK kernel of size 25.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/codes_300ast_20061020.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const codes_300ast_20061020_fk = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/codes_300ast_20061020.tf")
+
+"""
+A SPK kernel of size 112.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/eros9633.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: eros9633.bsp
+ 
+Body: EROS (2000433)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1996 JAN 20 00:00:00.000            2002 JAN 24 00:00:00.000
+ 
+
+```
+"""
+const eros9633 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/eros9633.bsp")
+
+"""
+A SPK kernel of size 184.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/erosToJan2005.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: erosToJan2005.bsp
+ 
+Body: EROS (2000433)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1997 JAN 01 00:00:00.000            2005 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const erosToJan2005 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/erosToJan2005.bsp")
+
+"""
+A SPK kernel of size 4.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/eros_1900_2100.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: eros_1900_2100.bsp
+ 
+Body: EROS (2000433)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1900 JAN 01 00:00:00.000            2100 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const eros_1900_2100 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/eros_1900_2100.bsp")
+
+"""
+A SPK kernel of size 1.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/kleopatra_1900_2100.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: kleopatra_1900_2100.bsp
+ 
+Body: KLEOPATRA (2000216)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1900 JAN 01 00:00:00.000            2100 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const kleopatra_1900_2100 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/kleopatra_1900_2100.bsp")
+
+"""
+A SPK kernel of size 64.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/kleopatra_2000_2010.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: kleopatra_2000_2010.bsp
+ 
+Body: KLEOPATRA (2000216)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      2000 JAN 01 00:00:00.000            2010 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const kleopatra_2000_2010 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/kleopatra_2000_2010.bsp")
+
+"""
+A SPK kernel of size 1.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/minoriso.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: minoriso.bsp
+ 
+Bodies: COMAS SOLA (1000015)        2000914
+        2000010                     2001172
+        2000077                     2001437
+        DAVIDA (2000511)            2002060
+        2000624                     2005145
+        2000911
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1996 JUL 08 00:00:00.000            1999 FEB 09 00:00:00.000
+ 
+Bodies: ENCKE (1000025)             HYAKUTAKE (1000131)
+        WIRTANEN (1000109)          HALE-BOPP (1000132)
+        SHOEMAKER-HOLT 1 (1000117)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1996 JUL 07 00:00:00.000            1999 FEB 10 00:00:00.000
+ 
+Body: 2003200
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1996 JUL 06 12:00:00.000            1999 FEB 10 12:00:00.000
+ 
+
+```
+"""
+const minoriso_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/minoriso.bsp")
+
+"""
+A SPK kernel of size 2.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/mn4_2000-2100.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: mn4_2000-2100.bsp
+ 
+Body: 3264226
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      2000 JAN 01 00:00:00.000            2100 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const mn4_2000_2100 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/mn4_2000-2100.bsp")
+
+"""
+A SPK kernel of size 78.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/pallas-2003-2015.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: pallas-2003-2015.bsp
+ 
+Body: PALLAS (2000002)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      2003 JAN 01 00:00:00.000            2016 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const pallas_2003_2015 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/pallas-2003-2015.bsp")
+
+"""
+A SPK kernel of size 1.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/pallas_1900_2100.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: pallas_1900_2100.bsp
+ 
+Body: PALLAS (2000002)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1900 JAN 01 00:00:00.000            2100 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const pallas_1900_2100 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/pallas_1900_2100.bsp")
+
+"""
+A SPK kernel of size 63.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/vesta-2003-2013.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: vesta-2003-2013.bsp
+ 
+Body: VESTA (2000004)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      2003 JAN 01 00:00:00.000            2013 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const vesta_2003_2013 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/vesta-2003-2013.bsp")
+
+"""
+A SPK kernel of size 1.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/vesta_1900_2100.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: vesta_1900_2100.bsp
+ 
+Body: VESTA (2000004)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1900 JAN 01 00:00:00.000            2100 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const vesta_1900_2100 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/vesta_1900_2100.bsp")
+
+"""
+A SPK kernel of size 11.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/vesta_for_ds1.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: vesta_for_ds1.bsp
+ 
+Body: VESTA (2000004)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1998 OCT 25 00:00:00.000            1999 AUG 10 00:00:00.000
+ 
+
+```
+"""
+const vesta_for_ds1 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/vesta_for_ds1.bsp")
+
+"""
+A SPK kernel of size 132.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/vestlute.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: vestlute.bsp
+ 
+Bodies: VESTA (2000004)    LUTETIA (2000021)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1998 JAN 01 00:00:00.000            2009 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const vestlute = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/asteroids/a_old_versions/vestlute.bsp")
+
+"""
+A SPK kernel of size 59.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1438,7 +3168,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1459,7 +3189,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1485,13 +3215,458 @@ Body: CHURYUMOV-GERASIMENKO (1000012)
 const C_G_1000012_2012_2017 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/C_G_1000012_2012_2017.bsp")
 
 """
+A SPK kernel of size 50.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/borrelly.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: borrelly.bsp
+ 
+Body: BORRELLY (1000005)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      2002 JAN 02 00:00:00.000            2004 JAN 02 00:00:00.000
+ 
+
+```
+"""
+const borrelly = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/borrelly.bsp")
+
+"""
+A SPK kernel of size 73.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/linear1999s4_Jul31.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: linear1999s4_Jul31.bsp
+ 
+Body: 1000273
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1999 JAN 01 00:00:00.000            2002 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const linear1999s4_Jul31 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/linear1999s4_Jul31.bsp")
+
+"""
+A SPK kernel of size 1.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/minoriso.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: minoriso.bsp
+ 
+Bodies: COMAS SOLA (1000015)        2000914
+        2000010                     2001172
+        2000077                     2001437
+        DAVIDA (2000511)            2002060
+        2000624                     2005145
+        2000911
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1996 JUL 08 00:00:00.000            1999 FEB 09 00:00:00.000
+ 
+Bodies: ENCKE (1000025)             HYAKUTAKE (1000131)
+        WIRTANEN (1000109)          HALE-BOPP (1000132)
+        SHOEMAKER-HOLT 1 (1000117)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1996 JUL 07 00:00:00.000            1999 FEB 10 00:00:00.000
+ 
+Body: 2003200
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1996 JUL 06 12:00:00.000            1999 FEB 10 12:00:00.000
+ 
+
+```
+"""
+const minoriso_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/minoriso.bsp")
+
+"""
+A SPK kernel of size 227.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/pcomets_v1_ieee.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: pcomets_v1_ieee.bsp
+ 
+Bodies: 1200001  1200272  1200671  1200919  1201094  1201269  1201452  1201641
+        1200002  1200273  1200683  1200920  1201095  1201272  1201453  1201642
+        1200003  1200274  1200684  1200921  1201096  1201273  1201454  1201643
+        1200004  1200275  1200685  1200922  1201097  1201274  1201455  1201644
+        1200005  1200276  1200686  1200924  1201098  1201275  1201456  1201645
+        1200006  1200277  1200687  1200925  1201099  1201276  1201468  1201646
+        1200007  1200291  1200688  1200926  1201100  1201277  1201469  1201647
+        1200008  1200292  1200689  1200927  1201101  1201278  1201470  1201648
+        1200009  1200293  1200690  1200928  1201102  1201279  1201471  1201649
+        1200010  1200294  1200691  1200929  1201103  1201280  1201472  1201650
+        1200011  1200295  1200692  1200930  1201104  1201281  1201473  1201651
+        1200012  1200296  1200693  1200931  1201105  1201282  1201474  1201652
+        1200013  1200297  1200694  1200932  1201106  1201283  1201475  1201654
+        1200014  1200319  1200695  1200933  1201107  1201284  1201476  1201655
+        1200015  1200320  1200696  1200934  1201108  1201285  1201477  1201656
+        1200016  1200321  1200697  1200935  1201109  1201286  1201478  1201657
+        1200017  1200322  1200698  1200936  1201110  1201287  1201479  1201658
+        1200018  1200323  1200699  1200937  1201111  1201296  1201480  1201659
+        1200019  1200331  1200700  1200938  1201112  1201297  1201481  1201660
+        1200020  1200332  1200707  1200939  1201113  1201298  1201482  1201661
+        1200021  1200333  1200708  1200940  1201114  1201299  1201483  1201662
+        1200022  1200334  1200709  1200941  1201115  1201300  1201484  1201663
+        1200023  1200335  1200710  1200942  1201116  1201301  1201485  1201664
+        1200024  1200336  1200711  1200943  1201117  1201302  1201486  1201665
+        1200025  1200337  1200712  1200944  1201118  1201303  1201487  1201666
+        1200026  1200343  1200713  1200945  1201119  1201304  1201488  1201667
+        1200028  1200344  1200726  1200946  1201120  1201305  1201489  1201668
+        1200030  1200345  1200727  1200947  1201121  1201306  1201490  1201669
+        1200033  1200346  1200728  1200948  1201122  1201307  1201491  1201670
+        1200034  1200347  1200729  1200949  1201123  1201308  1201492  1201671
+        1200035  1200348  1200731  1200950  1201124  1201309  1201494  1201672
+        1200036  1200349  1200732  1200951  1201125  1201310  1201495  1201673
+        1200037  1200350  1200733  1200952  1201126  1201311  1201496  1201674
+        1200038  1200351  1200734  1200953  1201127  1201312  1201497  1201675
+        1200039  1200352  1200735  1200954  1201128  1201313  1201498  1201676
+        1200040  1200353  1200742  1200955  1201129  1201314  1201499  1201677
+        1200055  1200354  1200743  1200956  1201130  1201315  1201500  1201678
+        1200056  1200355  1200744  1200957  1201131  1201316  1201503  1201679
+        1200057  1200356  1200745  1200958  1201132  1201317  1201504  1201680
+        1200058  1200357  1200746  1200959  1201133  1201318  1201505  1201681
+        1200059  1200358  1200747  1200960  1201134  1201319  1201506  1201683
+        1200060  1200359  1200748  1200961  1201136  1201320  1201507  1201684
+        1200061  1200360  1200749  1200962  1201137  1201321  1201508  1201685
+        1200062  1200361  1200750  1200963  1201138  1201322  1201509  1201686
+        1200063  1200362  1200751  1200964  1201139  1201323  1201510  1201687
+        1200064  1200363  1200752  1200965  1201140  1201324  1201511  1201688
+        1200065  1200364  1200753  1200966  1201141  1201325  1201512  1201689
+        1200066  1200365  1200754  1200967  1201142  1201326  1201513  1201690
+        1200067  1200366  1200755  1200968  1201143  1201327  1201514  1201691
+        1200068  1200367  1200756  1200969  1201144  1201328  1201515  1201692
+        1200069  1200368  1200757  1200970  1201145  1201329  1201516  1201693
+        1200070  1200390  1200758  1200971  1201146  1201330  1201517  1201694
+        1200071  1200391  1200759  1200972  1201147  1201331  1201518  1201695
+        1200072  1200392  1200760  1200973  1201148  1201332  1201519  1201696
+        1200073  1200393  1200761  1200974  1201149  1201333  1201520  1201697
+        1200074  1200394  1200762  1200975  1201150  1201334  1201521  1201698
+        1200081  1200404  1200763  1200976  1201151  1201335  1201522  1201699
+        1200082  1200405  1200764  1200977  1201152  1201336  1201523  1201700
+        1200083  1200406  1200765  1200978  1201153  1201337  1201524  1201701
+        1200084  1200407  1200766  1200979  1201154  1201338  1201525  1201702
+        1200085  1200408  1200774  1200980  1201155  1201339  1201526  1201703
+        1200086  1200409  1200775  1200981  1201156  1201340  1201527  1201704
+        1200087  1200433  1200776  1200982  1201157  1201341  1201528  1201705
+        1200088  1200434  1200777  1200983  1201158  1201342  1201529  1201706
+        1200089  1200435  1200778  1200984  1201159  1201343  1201530  1201707
+        1200090  1200442  1200779  1200985  1201160  1201344  1201531  1201708
+        1200096  1200443  1200780  1200986  1201161  1201345  1201532  1201709
+        1200097  1200444  1200781  1200987  1201162  1201346  1201533  1201710
+        1200098  1200445  1200782  1200988  1201163  1201347  1201534  1201711
+        1200099  1200451  1200783  1200989  1201164  1201348  1201535  1201712
+        1200102  1200452  1200784  1200990  1201165  1201349  1201536  1201713
+        1200103  1200504  1200785  1200991  1201166  1201350  1201537  1201714
+        1200104  1200505  1200786  1200992  1201167  1201351  1201538  1201715
+        1200105  1200506  1200787  1200993  1201168  1201352  1201539  1201716
+        1200106  1200507  1200788  1200994  1201169  1201353  1201540  1201717
+        1200107  1200508  1200789  1200995  1201170  1201354  1201541  1201718
+        1200108  1200509  1200790  1200996  1201171  1201355  1201542  1201719
+        1200109  1200510  1200791  1200997  1201172  1201356  1201543  1201720
+        1200110  1200511  1200792  1200998  1201173  1201357  1201544  1201721
+        1200111  1200512  1200794  1200999  1201174  1201358  1201545  1201722
+        1200112  1200513  1200795  1201000  1201175  1201359  1201546  1201723
+        1200120  1200514  1200796  1201001  1201176  1201360  1201547  1201725
+        1200121  1200515  1200797  1201003  1201177  1201361  1201548  1201726
+        1200122  1200516  1200798  1201004  1201178  1201362  1201549  1201727
+        1200123  1200517  1200799  1201005  1201179  1201363  1201550  1201728
+        1200124  1200518  1200800  1201006  1201180  1201364  1201551  1201729
+        1200130  1200519  1200801  1201007  1201181  1201365  1201552  1201730
+        1200131  1200520  1200802  1201008  1201182  1201366  1201553  1201731
+        1200132  1200521  1200803  1201009  1201183  1201367  1201554  1201732
+        1200133  1200522  1200804  1201010  1201184  1201368  1201555  1201733
+        1200134  1200523  1200805  1201011  1201185  1201369  1201556  1201734
+        1200135  1200533  1200806  1201012  1201186  1201370  1201557  1201735
+        1200136  1200534  1200808  1201013  1201187  1201371  1201558  1201736
+        1200137  1200535  1200810  1201014  1201188  1201372  1201559  1201737
+        1200138  1200536  1200812  1201015  1201189  1201373  1201560  1201738
+        1200139  1200559  1200815  1201016  1201190  1201374  1201561  1201739
+        1200140  1200560  1200817  1201017  1201191  1201375  1201562  1201740
+        1200141  1200561  1200818  1201018  1201192  1201376  1201563  1201741
+        1200142  1200562  1200820  1201019  1201193  1201377  1201564  1201742
+        1200143  1200563  1200821  1201020  1201194  1201378  1201565  1201743
+        1200144  1200564  1200822  1201021  1201195  1201379  1201566  1201747
+        1200145  1200565  1200823  1201022  1201196  1201380  1201567  1201748
+        1200168  1200566  1200824  1201023  1201197  1201381  1201568  1201749
+        1200169  1200567  1200825  1201024  1201198  1201382  1201569  1201750
+        1200170  1200568  1200826  1201025  1201199  1201383  1201570  1201751
+        1200171  1200570  1200828  1201026  1201200  1201384  1201571  1201752
+        1200172  1200571  1200829  1201027  1201201  1201385  1201574  1201753
+        1200173  1200572  1200853  1201028  1201202  1201386  1201575  1201754
+        1200174  1200573  1200854  1201029  1201203  1201387  1201576  1201755
+        1200175  1200574  1200855  1201030  1201204  1201388  1201577  1201756
+        1200176  1200575  1200856  1201031  1201205  1201389  1201578  1201757
+        1200177  1200576  1200857  1201032  1201206  1201390  1201579  1201758
+        1200178  1200577  1200858  1201033  1201207  1201391  1201580  1201759
+        1200179  1200588  1200859  1201034  1201208  1201392  1201581  1201760
+        1200190  1200589  1200860  1201035  1201209  1201393  1201582  1201761
+        1200191  1200590  1200861  1201036  1201210  1201394  1201583  1201762
+        1200192  1200595  1200862  1201037  1201211  1201395  1201584  1201763
+        1200193  1200596  1200863  1201038  1201212  1201396  1201585  1201764
+        1200194  1200597  1200864  1201039  1201213  1201397  1201586  1201765
+        1200195  1200598  1200865  1201040  1201214  1201398  1201587  1201766
+        1200196  1200599  1200866  1201041  1201215  1201399  1201588  1201767
+        1200197  1200600  1200867  1201042  1201216  1201400  1201589  1201768
+        1200198  1200601  1200868  1201043  1201217  1201401  1201590  1201769
+        1200199  1200602  1200869  1201044  1201218  1201402  1201591  1201770
+        1200200  1200603  1200870  1201045  1201219  1201403  1201592  1201771
+        1200201  1200604  1200871  1201046  1201220  1201404  1201593  1201772
+        1200202  1200605  1200872  1201047  1201221  1201405  1201594  1201774
+        1200205  1200606  1200873  1201048  1201222  1201406  1201595  1201775
+        1200213  1200607  1200874  1201049  1201223  1201407  1201596  1201776
+        1200214  1200608  1200875  1201050  1201224  1201408  1201597  1201777
+        1200215  1200609  1200876  1201051  1201225  1201409  1201598  1201778
+        1200216  1200610  1200877  1201052  1201227  1201410  1201599  1201779
+        1200223  1200611  1200878  1201053  1201228  1201411  1201600  1201780
+        1200224  1200612  1200879  1201054  1201229  1201412  1201601  1201781
+        1200225  1200625  1200880  1201055  1201230  1201413  1201602  1201782
+        1200226  1200626  1200881  1201056  1201231  1201414  1201603  1201783
+        1200227  1200627  1200882  1201057  1201232  1201415  1201604  1201784
+        1200228  1200628  1200883  1201058  1201233  1201416  1201605  1201785
+        1200229  1200629  1200884  1201059  1201234  1201417  1201606  1201786
+        1200238  1200630  1200885  1201060  1201235  1201418  1201607  1201787
+        1200239  1200631  1200886  1201061  1201236  1201419  1201608  1201788
+        1200240  1200632  1200887  1201062  1201237  1201420  1201609  1201789
+        1200241  1200633  1200888  1201063  1201238  1201421  1201610  1201790
+        1200242  1200634  1200889  1201064  1201239  1201422  1201611  1201791
+        1200243  1200635  1200890  1201065  1201240  1201423  1201612  1201792
+        1200244  1200640  1200891  1201066  1201241  1201424  1201613  1201793
+        1200245  1200641  1200892  1201067  1201242  1201425  1201614  1201794
+        1200246  1200642  1200893  1201068  1201243  1201426  1201615  1201795
+        1200247  1200643  1200894  1201069  1201244  1201427  1201616  1201796
+        1200248  1200644  1200895  1201070  1201245  1201428  1201617  1201797
+        1200249  1200645  1200896  1201071  1201246  1201429  1201618  1201798
+        1200250  1200646  1200897  1201072  1201247  1201430  1201619  1201799
+        1200251  1200647  1200898  1201073  1201248  1201431  1201620  1201800
+        1200252  1200651  1200899  1201074  1201249  1201432  1201621  1201801
+        1200253  1200652  1200900  1201075  1201250  1201433  1201622  1201802
+        1200254  1200653  1200901  1201076  1201251  1201434  1201623  1201803
+        1200255  1200654  1200902  1201077  1201252  1201435  1201624  1201804
+        1200256  1200655  1200903  1201078  1201253  1201436  1201625  1201805
+        1200257  1200656  1200904  1201079  1201254  1201437  1201626  1201806
+        1200258  1200657  1200905  1201080  1201255  1201438  1201627  1201807
+        1200259  1200658  1200906  1201081  1201256  1201439  1201628  1201808
+        1200260  1200659  1200907  1201082  1201257  1201440  1201629  1201809
+        1200261  1200660  1200908  1201083  1201258  1201441  1201630  1201810
+        1200262  1200661  1200909  1201084  1201259  1201442  1201631  1201811
+        1200263  1200662  1200910  1201085  1201260  1201443  1201632  1201812
+        1200264  1200663  1200911  1201086  1201261  1201444  1201633  1201813
+        1200265  1200664  1200912  1201087  1201262  1201445  1201634  1201814
+        1200266  1200665  1200913  1201088  1201263  1201446  1201635  1201815
+        1200267  1200666  1200914  1201089  1201264  1201447  1201636  1201816
+        1200268  1200667  1200915  1201090  1201265  1201448  1201637  1201817
+        1200269  1200668  1200916  1201091  1201266  1201449  1201638  1201818
+        1200270  1200669  1200917  1201092  1201267  1201450  1201639  1201819
+        1200271  1200670  1200918  1201093  1201268  1201451  1201640  1201820
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1809 NOV 14 01:20:00.000            2190 FEB 17 22:40:00.000
+ 
+
+```
+"""
+const pcomets_v1_ieee = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/pcomets_v1_ieee.bsp")
+
+"""
+A SPK kernel of size 101.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/siding_spring_v1.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: siding_spring_v1.bsp
+ 
+Body: SIDING SPRING (1003228)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      2013 AUG 01 00:00:00.000            2014 DEC 01 00:00:00.000
+ 
+
+```
+"""
+const siding_spring_v1 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/siding_spring_v1.bsp")
+
+"""
+A SPK kernel of size 101.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/siding_spring_v2.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: siding_spring_v2.bsp
+ 
+Body: SIDING SPRING (1003228)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      2013 AUG 01 00:00:00.000            2014 DEC 01 00:00:00.000
+ 
+
+```
+"""
+const siding_spring_v2 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/siding_spring_v2.bsp")
+
+"""
+A SPK kernel of size 6.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/swift-tuttle_1730-2010.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: swift-tuttle_1730-2010.bsp
+ 
+Body: 1000140
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1730 JAN 01 00:00:00.000            2010 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const swift_tuttle_1730_2010 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/swift-tuttle_1730-2010.bsp")
+
+"""
+A SPK kernel of size 455.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/tempel1_2000_2020.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: tempel1_2000_2020.bsp
+ 
+Body: TEMPEL 1 (1000093)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      2000 JAN 01 00:00:00.000            2020 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const tempel1_2000_2020 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/comets/a_old_versions/tempel1_2000_2020.bsp")
+
+"""
 A SPK kernel of size 14.2 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1523,7 +3698,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1555,7 +3730,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1587,7 +3762,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1627,7 +3802,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1659,7 +3834,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1691,7 +3866,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1723,7 +3898,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1749,13 +3924,805 @@ Body: 395
 const L5_de431 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/lagrange_point/L5_de431.bsp")
 
 """
+A SPK kernel of size 57.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de118.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de118.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1599 DEC 09 00:00:00.000            2200 FEB 01 00:00:00.000
+ 
+
+```
+"""
+const de118 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de118.bsp")
+
+"""
+A SPK kernel of size 14.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de125.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de125.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1899 AUG 30 00:00:00.000            2050 FEB 03 00:00:00.000
+ 
+
+```
+"""
+const de125 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de125.bsp")
+
+"""
+A SPK kernel of size 14.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de130.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de130.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1899 DEC 04 00:00:00.000            2050 JAN 02 00:00:00.000
+ 
+
+```
+"""
+const de130 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de130.bsp")
+
+"""
+A SPK kernel of size 54.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de200.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de200.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1599 DEC 09 00:00:00.000            2169 MAY 02 00:00:00.000
+ 
+
+```
+"""
+const de200 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de200.bsp")
+
+"""
+A SPK kernel of size 2.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de245_1960_1980.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de245_1960_1980.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1960 JAN 01 00:00:41.183            1981 JAN 01 00:00:51.183
+ 
+
+```
+"""
+const de245_1960_1980 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de245_1960_1980.bsp")
+
+"""
+A SPK kernel of size 2.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de245_1990_2010.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de245_1990_2010.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1990 JAN 01 00:00:57.183            2010 JAN 01 00:01:01.183
+ 
+
+```
+"""
+const de245_1990_2010 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de245_1990_2010.bsp")
+
+"""
+A SPK kernel of size 11.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de403.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de403.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1996 JAN 01 00:01:02.183            2111 JAN 02 00:01:02.183
+ 
+
+```
+"""
+const de403 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de403.bsp")
+
+"""
+A SPK kernel of size 2.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de403_2000-2020.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de403_2000-2020.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1999 DEC 24 00:00:00.000            2021 JAN 02 00:00:00.000
+ 
+
+```
+"""
+const de403_2000_2020 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de403_2000-2020.bsp")
+
+"""
+A SPK kernel of size 3.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de403s.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de403s.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1979 DEC 01 00:00:00.000            2011 JAN 07 00:00:00.000
+ 
+
+```
+"""
+const de403s = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de403s.bsp")
+
+"""
+A SPK kernel of size 10.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de405.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de405.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:04.183
+ 
+
+```
+"""
+const de405 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de405.bsp")
+
+"""
+A SPK kernel of size 1.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de405s.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de405s.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1997 JAN 01 00:01:02.183            2010 JAN 02 00:01:03.183
+ 
+
+```
+"""
+const de405s = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de405s.bsp")
+
+"""
+A SPK kernel of size 14.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de406s.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de406s.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2200 JAN 01 00:01:02.183
+ 
+
+```
+"""
+const de406s = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de406s.bsp")
+
+"""
+A SPK kernel of size 957.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de408.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de408.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        10020 B.C. MAY 26 00:00:00.000      10009 MAY 21 00:00:00.000
+ 
+
+```
+"""
+const de408 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de408.bsp")
+
+"""
+A SPK kernel of size 12.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de410.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de410.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 FEB 06 00:00:00.000            2019 DEC 15 00:00:00.000
+ 
+
+```
+"""
+const de410 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de410.bsp")
+
+"""
+A SPK kernel of size 62.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de410mini.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de410mini.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2004 JAN 01 00:01:04.183            2004 JUL 01 00:01:04.184
+ 
+
+```
+"""
+const de410mini = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de410mini.bsp")
+
+"""
+A SPK kernel of size 2.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de410s.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de410s.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 01 00:01:01.183            2018 JAN 01 00:01:04.183
+ 
+
+```
+"""
+const de410s = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de410s.bsp")
+
+"""
+A SPK kernel of size 15.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de413.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de413.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1899 DEC 04 00:00:00.000            2050 MAR 07 00:00:00.000
+ 
+
+```
+"""
+const de413 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de413.bsp")
+
+"""
+A SPK kernel of size 62.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de414.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de414.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1599 DEC 09 00:00:00.000            2201 FEB 20 00:00:00.000
+ 
+
+```
+"""
+const de414 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de414.bsp")
+
+"""
+A SPK kernel of size 15.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de418.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de418.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1899 DEC 04 00:00:00.000            2051 JAN 21 00:00:00.000
+ 
+
+```
+"""
+const de418 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de418.bsp")
+
+"""
+A SPK kernel of size 16.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de421.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de421.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1899 JUL 29 00:00:00.000            2053 OCT 09 00:00:00.000
+ 
+
+```
+"""
+const de421 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de421.bsp")
+
+"""
+A SPK kernel of size 41.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de423.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de423.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1799 DEC 16 00:00:00.000            2200 FEB 01 00:00:00.000
+ 
+
+```
+"""
+const de423 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de423.bsp")
+
+"""
+A SPK kernel of size 145.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de721_full.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: de721_full.bsp
+ 
+Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
+        VENUS BARYCENTER (2)    URANUS BARYCENTER (7)   VENUS (299)
+        EARTH BARYCENTER (3)    NEPTUNE BARYCENTER (8)  MOON (301)
+        MARS BARYCENTER (4)     PLUTO BARYCENTER (9)    EARTH (399)
+        JUPITER BARYCENTER (5)  SUN (10)                MARS (499)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1599 SEP 04 00:00:00.000            3000 MAR 03 00:00:00.000
+ 
+
+```
+"""
+const de721_full = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de721_full.bsp")
+
+"""
 A SPK kernel of size 114.2 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1791,7 +4758,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1827,7 +4794,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1863,7 +4830,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1899,7 +4866,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1935,7 +4902,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -1971,7 +4938,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2007,7 +4974,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2043,7 +5010,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2079,7 +5046,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2109,13 +5076,7221 @@ Bodies: MERCURY BARYCENTER (1)  SATURN BARYCENTER (6)   MERCURY (199)
 const de441_part_2 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de441_part-2.bsp")
 
 """
+A SPK kernel of size 1.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup068.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup068.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    ELARA (507)             ANANKE (512)
+        JUPITER BARYCENTER (5)  PASIPHAE (508)          LEDA (513)
+        SUN (10)                SINOPE (509)            JUPITER (599)
+        EARTH (399)             LYSITHEA (510)
+        HIMALIA (506)           CARME (511)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 01 00:01:01.183            2002 JAN 03 00:01:01.183
+ 
+
+```
+"""
+const jup068 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup068.bsp")
+
+"""
+A SPK kernel of size 1.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup069.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup069.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    ELARA (507)             ANANKE (512)
+        JUPITER BARYCENTER (5)  PASIPHAE (508)          LEDA (513)
+        SUN (10)                SINOPE (509)            JUPITER (599)
+        EARTH (399)             LYSITHEA (510)
+        HIMALIA (506)           CARME (511)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 01 00:01:01.183            2002 JAN 03 12:01:04.183
+ 
+
+```
+"""
+const jup069 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup069.bsp")
+
+"""
+A SPK kernel of size 10.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup073-hst.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup073-hst.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    CALLISTO (504)          ANANKE (512)
+        JUPITER BARYCENTER (5)  AMALTHEA (505)          LEDA (513)
+        SUN (10)                HIMALIA (506)           THEBE (514)
+        MOON (301)              ELARA (507)             ADRASTEA (515)
+        EARTH (399)             PASIPHAE (508)          METIS (516)
+        IO (501)                SINOPE (509)            JUPITER (599)
+        EUROPA (502)            LYSITHEA (510)
+        GANYMEDE (503)          CARME (511)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1996 JAN 01 00:01:02.183            2000 JAN 01 00:01:02.183
+ 
+
+```
+"""
+const jup073_hst = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup073-hst.bsp")
+
+"""
+A SPK kernel of size 5.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup073s.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup073s.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             CALLISTO (504)
+        JUPITER BARYCENTER (5)  IO (501)                AMALTHEA (505)
+        SUN (10)                EUROPA (502)
+        MOON (301)              GANYMEDE (503)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 01 00:01:01.183            2002 JAN 01 00:01:02.183
+ 
+
+```
+"""
+const jup073s = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup073s.bsp")
+
+"""
+A SPK kernel of size 19.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup100.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup100.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             CALLISTO (504)
+        JUPITER BARYCENTER (5)  IO (501)                JUPITER (599)
+        SUN (10)                EUROPA (502)
+        MOON (301)              GANYMEDE (503)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1973 NOV 01 00:00:00.000            2023 NOV 03 00:00:00.000
+ 
+
+```
+"""
+const jup100 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup100.bsp")
+
+"""
+A SPK kernel of size 10.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup104.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup104.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             METIS (516)
+        JUPITER BARYCENTER (5)  AMALTHEA (505)          JUPITER (599)
+        SUN (10)                THEBE (514)
+        MOON (301)              ADRASTEA (515)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1996 SEP 04 00:01:02.182            2002 JAN 03 00:01:02.183
+ 
+
+```
+"""
+const jup104 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup104.bsp")
+
+"""
+A SPK kernel of size 1.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup120_1996-2010.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup120_1996-2010.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             METIS (516)
+        JUPITER BARYCENTER (5)  AMALTHEA (505)          JUPITER (599)
+        SUN (10)                THEBE (514)
+        MOON (301)              ADRASTEA (515)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1996 JAN 01 00:00:00.000            2010 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const jup120_1996_2010 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup120_1996-2010.bsp")
+
+"""
+A SPK kernel of size 6.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup147s.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup147s.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             GANYMEDE (503)
+        JUPITER BARYCENTER (5)  IO (501)                CALLISTO (504)
+        SUN (10)                EUROPA (502)            JUPITER (599)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1988 JAN 01 00:00:56.183            2002 JAN 05 00:01:04.184
+ 
+
+```
+"""
+const jup147s = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup147s.bsp")
+
+"""
+A SPK kernel of size 2.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup164_20year.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup164_20year.bsp
+ 
+Bodies: HIMALIA (506)   SINOPE (509)    ANANKE (512)
+        ELARA (507)     LYSITHEA (510)  LEDA (513)
+        PASIPHAE (508)  CARME (511)     JUPITER (599)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2021 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const jup164_20year = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup164_20year.bsp")
+
+"""
+A SPK kernel of size 11.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup166.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup166.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             GANYMEDE (503)
+        JUPITER BARYCENTER (5)  IO (501)                CALLISTO (504)
+        SUN (10)                EUROPA (502)            JUPITER (599)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2023 OCT 31 00:00:00.000
+ 
+
+```
+"""
+const jup166 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup166.bsp")
+
+"""
+A SPK kernel of size 4.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup172.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup172.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    ELARA (507)             ANANKE (512)
+        JUPITER BARYCENTER (5)  PASIPHAE (508)          LEDA (513)
+        SUN (10)                SINOPE (509)            JUPITER (599)
+        EARTH (399)             LYSITHEA (510)
+        HIMALIA (506)           CARME (511)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2023 OCT 31 00:00:00.000
+ 
+
+```
+"""
+const jup172 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup172.bsp")
+
+"""
+A SPK kernel of size 2.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup202_2000_2010.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup202_2000_2010.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    MEGACLITE (519)         ERINOME (525)
+        JUPITER BARYCENTER (5)  TAYGETE (520)           ISONOE (526)
+        SUN (10)                CHALDENE (521)          PRAXIDIKE (527)
+        EARTH (399)             HARPALYKE (522)         AUTONOE (528)
+        CALLIRRHOE (517)        KALYKE (523)            JUPITER (599)
+        THEMISTO (518)          IOCASTE (524)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2010 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const jup202_2000_2010 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup202_2000_2010.bsp")
+
+"""
+A SPK kernel of size 88.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup204.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup204.bsp
+ 
+Bodies: IO (501)        CALLISTO (504)  ADRASTEA (515)
+        EUROPA (502)    AMALTHEA (505)  METIS (516)
+        GANYMEDE (503)  THEBE (514)     JUPITER (599)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1924 DEC 29 00:00:00.000            2025 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const jup204 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup204.bsp")
+
+"""
+A SPK kernel of size 9.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup214.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup214.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    MEGACLITE (519)         ERINOME (525)
+        JUPITER BARYCENTER (5)  TAYGETE (520)           ISONOE (526)
+        SUN (10)                CHALDENE (521)          PRAXIDIKE (527)
+        EARTH (399)             HARPALYKE (522)         JUPITER (599)
+        CALLIRRHOE (517)        KALYKE (523)
+        THEMISTO (518)          IOCASTE (524)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 01 00:00:00.000            2023 OCT 31 00:00:00.000
+ 
+
+```
+"""
+const jup214 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup214.bsp")
+
+"""
+A SPK kernel of size 3.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup215.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup215.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    AITNE (531)             KALE (537)
+        JUPITER BARYCENTER (5)  EURYDOME (532)          PASITHEE (538)
+        SUN (10)                EUANTHE (533)           HEGEMONE (539)
+        EARTH (399)             EUPORIE (534)           JUPITER (599)
+        THYONE (529)            ORTHOSIE (535)
+        HERMIPPE (530)          SPONDE (536)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 01 00:00:00.000            2023 AUG 04 00:00:00.000
+ 
+
+```
+"""
+const jup215 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup215.bsp")
+
+"""
+A SPK kernel of size 3.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup219.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup219.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    SUN (10)                MNEME (540)
+        JUPITER BARYCENTER (5)  EARTH (399)             JUPITER (599)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 01 00:00:00.000            2023 OCT 23 00:00:00.000
+ 
+
+```
+"""
+const jup219 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup219.bsp")
+
+"""
+A SPK kernel of size 8.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup230-rocks.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup230-rocks.bsp
+ 
+Bodies: ADRASTEA (515)  METIS (516)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2050 JAN 02 00:00:00.000
+ 
+
+```
+"""
+const jup230_rocks = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup230-rocks.bsp")
+
+"""
+A SPK kernel of size 94.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup230-short.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup230-short.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    IO (501)                AMALTHEA (505)
+        JUPITER BARYCENTER (5)  EUROPA (502)            THEBE (514)
+        SUN (10)                GANYMEDE (503)          JUPITER (599)
+        EARTH (399)             CALLISTO (504)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const jup230_short = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup230-short.bsp")
+
+"""
+A SPK kernel of size 188.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup230.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup230.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    IO (501)                AMALTHEA (505)
+        JUPITER BARYCENTER (5)  EUROPA (502)            THEBE (514)
+        SUN (10)                GANYMEDE (503)          JUPITER (599)
+        EARTH (399)             CALLISTO (504)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const jup230 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup230.bsp")
+
+"""
+A SPK kernel of size 402.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup230l.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup230l.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    IO (501)                AMALTHEA (505)
+        JUPITER BARYCENTER (5)  EUROPA (502)            THEBE (514)
+        SUN (10)                GANYMEDE (503)          JUPITER (599)
+        EARTH (399)             CALLISTO (504)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2100 JAN 02 00:01:06.183
+ 
+
+```
+"""
+const jup230l = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup230l.bsp")
+
+"""
+A SPK kernel of size 7.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup251.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup251.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    MEGACLITE (519)         ERINOME (525)
+        JUPITER BARYCENTER (5)  TAYGETE (520)           ISONOE (526)
+        SUN (10)                CHALDENE (521)          PRAXIDIKE (527)
+        EARTH (399)             HARPALYKE (522)         JUPITER (599)
+        CALLIRRHOE (517)        KALYKE (523)
+        THEMISTO (518)          IOCASTE (524)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1975 AUG 16 00:00:46.182            2023 AUG 01 00:01:05.183
+ 
+
+```
+"""
+const jup251 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup251.bsp")
+
+"""
+A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup252.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup252.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    HERMIPPE (530)          SPONDE (536)
+        JUPITER BARYCENTER (5)  AITNE (531)             KALE (537)
+        SUN (10)                EURYDOME (532)          PASITHEE (538)
+        EARTH (399)             EUANTHE (533)           JUPITER (599)
+        AUTONOE (528)           EUPORIE (534)
+        THYONE (529)            ORTHOSIE (535)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2001 NOV 27 00:01:04.182            2023 AUG 01 00:01:05.183
+ 
+
+```
+"""
+const jup252 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup252.bsp")
+
+"""
+A SPK kernel of size 3.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup253.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup253.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    AOEDE (541)             CARPO (546)
+        JUPITER BARYCENTER (5)  THELXINOE (542)         EUKELADE (547)
+        SUN (10)                ARCHE (543)             CYLLENE (548)
+        EARTH (399)             KALLICHORE (544)        KORE (549)
+        MNEME (540)             HELIKE (545)            JUPITER (599)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2002 JAN 07 00:01:04.184            2023 SEP 12 00:01:05.182
+ 
+
+```
+"""
+const jup253 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup253.bsp")
+
+"""
+A SPK kernel of size 3.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup254.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup254.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    551                     556
+        JUPITER BARYCENTER (5)  552                     557
+        SUN (10)                DIA (553)               558
+        EARTH (399)             554                     559
+        HERSE (550)             555                     JUPITER (599)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2002 JAN 07 00:01:04.184            2023 SEP 12 00:01:05.182
+ 
+
+```
+"""
+const jup254 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup254.bsp")
+
+"""
+A SPK kernel of size 2.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup255.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup255.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             JUPITER (599)
+        JUPITER BARYCENTER (5)  560                     55062
+        SUN (10)                561                     55063
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2002 JAN 07 00:01:04.184            2023 SEP 12 00:01:05.182
+ 
+
+```
+"""
+const jup255 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup255.bsp")
+
+"""
+A SPK kernel of size 24.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup256.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup256.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    ELARA (507)             ANANKE (512)
+        JUPITER BARYCENTER (5)  PASIPHAE (508)          LEDA (513)
+        SUN (10)                SINOPE (509)            JUPITER (599)
+        EARTH (399)             LYSITHEA (510)
+        HIMALIA (506)           CARME (511)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1972 JAN 01 00:00:42.183            2050 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const jup256 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup256.bsp")
+
+"""
+A SPK kernel of size 11.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup261.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup261.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    MEGACLITE (519)         ERINOME (525)
+        JUPITER BARYCENTER (5)  TAYGETE (520)           ISONOE (526)
+        SUN (10)                CHALDENE (521)          PRAXIDIKE (527)
+        EARTH (399)             HARPALYKE (522)         JUPITER (599)
+        CALLIRRHOE (517)        KALYKE (523)
+        THEMISTO (518)          IOCASTE (524)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1975 AUG 16 00:00:46.182            2049 NOV 14 00:01:05.182
+ 
+
+```
+"""
+const jup261 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup261.bsp")
+
+"""
+A SPK kernel of size 7.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup262.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup262.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    MNEME (540)             HELIKE (545)
+        JUPITER BARYCENTER (5)  AOEDE (541)             CARPO (546)
+        SUN (10)                THELXINOE (542)         EUKELADE (547)
+        EARTH (399)             ARCHE (543)             CYLLENE (548)
+        HEGEMONE (539)          KALLICHORE (544)        JUPITER (599)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2002 JAN 06 00:01:04.184            2049 DEC 24 00:01:05.183
+ 
+
+```
+"""
+const jup262 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup262.bsp")
+
+"""
+A SPK kernel of size 8.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup263.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup263.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    55051                   55058
+        JUPITER BARYCENTER (5)  55052                   55059
+        SUN (10)                55053                   55060
+        EARTH (399)             55054                   55061
+        JUPITER (599)           55055                   55063
+        55049                   55056
+        55050                   55057
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2002 JAN 06 00:01:04.184            2049 DEC 24 00:01:05.183
+ 
+
+```
+"""
+const jup263 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup263.bsp")
+
+"""
+A SPK kernel of size 15.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup266.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup266.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    AOEDE (541)             EUKELADE (547)
+        JUPITER BARYCENTER (5)  THELXINOE (542)         CYLLENE (548)
+        SUN (10)                ARCHE (543)             KORE (549)
+        EARTH (399)             KALLICHORE (544)        JUPITER (599)
+        HEGEMONE (539)          HELIKE (545)
+        MNEME (540)             CARPO (546)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const jup266 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup266.bsp")
+
+"""
+A SPK kernel of size 16.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup267.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup267.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    55051                   55058
+        JUPITER BARYCENTER (5)  55052                   55059
+        SUN (10)                55053                   55060
+        EARTH (399)             55055                   55061
+        JUPITER (599)           55056                   55063
+        55050                   55057                   55064
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const jup267 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup267.bsp")
+
+"""
+A SPK kernel of size 15.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup268.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup268.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    AOEDE (541)             EUKELADE (547)
+        JUPITER BARYCENTER (5)  THELXINOE (542)         CYLLENE (548)
+        SUN (10)                ARCHE (543)             KORE (549)
+        EARTH (399)             KALLICHORE (544)        JUPITER (599)
+        HEGEMONE (539)          HELIKE (545)
+        MNEME (540)             CARPO (546)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const jup268 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup268.bsp")
+
+"""
+A SPK kernel of size 13.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup269.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup269.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    HERMIPPE (530)          SPONDE (536)
+        JUPITER BARYCENTER (5)  AITNE (531)             KALE (537)
+        SUN (10)                EURYDOME (532)          PASITHEE (538)
+        EARTH (399)             EUANTHE (533)           JUPITER (599)
+        AUTONOE (528)           EUPORIE (534)
+        THYONE (529)            ORTHOSIE (535)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const jup269 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup269.bsp")
+
+"""
+A SPK kernel of size 16.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup270.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup270.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    55060                   55066
+        JUPITER BARYCENTER (5)  55061                   55067
+        SUN (10)                55062                   55068
+        EARTH (399)             55063                   55069
+        HERSE (550)             55064                   55070
+        JUPITER (599)           55065                   55071
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const jup270 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup270.bsp")
+
+"""
+A SPK kernel of size 109.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup282-1.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup282-1.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    ERINOME (525)           HELIKE (545)
+        JUPITER BARYCENTER (5)  ISONOE (526)            CARPO (546)
+        SUN (10)                PRAXIDIKE (527)         EUKELADE (547)
+        EARTH (399)             AUTONOE (528)           CYLLENE (548)
+        HIMALIA (506)           THYONE (529)            KORE (549)
+        ELARA (507)             HERMIPPE (530)          HERSE (550)
+        PASIPHAE (508)          AITNE (531)             JUPITER (599)
+        SINOPE (509)            EURYDOME (532)          55060
+        LYSITHEA (510)          EUANTHE (533)           55061
+        CARME (511)             EUPORIE (534)           55062
+        ANANKE (512)            ORTHOSIE (535)          55063
+        LEDA (513)              SPONDE (536)            55064
+        CALLIRRHOE (517)        KALE (537)              55065
+        THEMISTO (518)          PASITHEE (538)          55066
+        MEGACLITE (519)         HEGEMONE (539)          55067
+        TAYGETE (520)           MNEME (540)             55068
+        CHALDENE (521)          AOEDE (541)             55069
+        HARPALYKE (522)         THELXINOE (542)         55070
+        KALYKE (523)            ARCHE (543)             55071
+        IOCASTE (524)           KALLICHORE (544)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 22 00:00:41.184            2099 DEC 02 00:01:06.183
+ 
+
+```
+"""
+const jup282_1 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup282-1.bsp")
+
+"""
+A SPK kernel of size 112.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup282.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup282.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    ISONOE (526)            EUKELADE (547)
+        JUPITER BARYCENTER (5)  PRAXIDIKE (527)         CYLLENE (548)
+        SUN (10)                AUTONOE (528)           KORE (549)
+        EARTH (399)             THYONE (529)            HERSE (550)
+        HIMALIA (506)           HERMIPPE (530)          JUPITER (599)
+        ELARA (507)             AITNE (531)             55060
+        PASIPHAE (508)          EURYDOME (532)          55061
+        SINOPE (509)            EUANTHE (533)           55062
+        LYSITHEA (510)          EUPORIE (534)           55063
+        CARME (511)             ORTHOSIE (535)          55064
+        ANANKE (512)            SPONDE (536)            55065
+        LEDA (513)              KALE (537)              55066
+        CALLIRRHOE (517)        PASITHEE (538)          55067
+        THEMISTO (518)          HEGEMONE (539)          55068
+        MEGACLITE (519)         MNEME (540)             55069
+        TAYGETE (520)           AOEDE (541)             55070
+        CHALDENE (521)          THELXINOE (542)         55071
+        HARPALYKE (522)         ARCHE (543)             55072
+        KALYKE (523)            KALLICHORE (544)        55073
+        IOCASTE (524)           HELIKE (545)
+        ERINOME (525)           CARPO (546)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 22 00:00:41.184            2099 DEC 02 00:01:06.183
+ 
+
+```
+"""
+const jup282 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup282.bsp")
+
+"""
+A SPK kernel of size 49.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup291.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup291.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             55075
+        JUPITER BARYCENTER (5)  JUPITER (599)
+        SUN (10)                55074
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2099 DEC 30 00:01:07.183
+ 
+
+```
+"""
+const jup291 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup291.bsp")
+
+"""
+A SPK kernel of size 14.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup293.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup293.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    SUN (10)                JUPITER (599)
+        JUPITER BARYCENTER (5)  EARTH (399)             55076
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 18 00:00:41.184            2099 DEC 18 00:01:07.183
+ 
+
+```
+"""
+const jup293 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup293.bsp")
+
+"""
+A SPK kernel of size 27.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup294.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup294.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             55073
+        JUPITER BARYCENTER (5)  JUPITER (599)           55074
+        SUN (10)                55072                   55075
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 FEB 04 00:00:41.184            2099 DEC 15 00:01:07.183
+ 
+
+```
+"""
+const jup294 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup294.bsp")
+
+"""
+A SPK kernel of size 137.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup300.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup300.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    PRAXIDIKE (527)         KORE (549)
+        JUPITER BARYCENTER (5)  AUTONOE (528)           HERSE (550)
+        SUN (10)                THYONE (529)            JUPITER (599)
+        EARTH (399)             HERMIPPE (530)          55060
+        HIMALIA (506)           AITNE (531)             55061
+        ELARA (507)             EURYDOME (532)          55062
+        PASIPHAE (508)          EUANTHE (533)           55063
+        SINOPE (509)            EUPORIE (534)           55064
+        LYSITHEA (510)          ORTHOSIE (535)          55065
+        CARME (511)             SPONDE (536)            55066
+        ANANKE (512)            KALE (537)              55067
+        LEDA (513)              PASITHEE (538)          55068
+        CALLIRRHOE (517)        HEGEMONE (539)          55069
+        THEMISTO (518)          MNEME (540)             55070
+        MEGACLITE (519)         AOEDE (541)             55071
+        TAYGETE (520)           THELXINOE (542)         55072
+        CHALDENE (521)          ARCHE (543)             55073
+        HARPALYKE (522)         KALLICHORE (544)        55074
+        KALYKE (523)            HELIKE (545)            55075
+        IOCASTE (524)           CARPO (546)             55076
+        ERINOME (525)           EUKELADE (547)
+        ISONOE (526)            CYLLENE (548)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 12 00:00:41.184            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const jup300 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup300.bsp")
+
+"""
+A SPK kernel of size 683.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup309.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup309.bsp
+ 
+Bodies: IO (501)        CALLISTO (504)  ADRASTEA (515)
+        EUROPA (502)    AMALTHEA (505)  METIS (516)
+        GANYMEDE (503)  THEBE (514)     JUPITER (599)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const jup309 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup309.bsp")
+
+"""
+A SPK kernel of size 1.1 GB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup310.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup310.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EUROPA (502)            ADRASTEA (515)
+        JUPITER BARYCENTER (5)  GANYMEDE (503)          METIS (516)
+        SUN (10)                CALLISTO (504)          JUPITER (599)
+        EARTH (399)             AMALTHEA (505)
+        IO (501)                THEBE (514)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1850 JAN 01 00:00:41.183            2100 JAN 01 00:01:09.183
+ 
+
+```
+"""
+const jup310 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup310.bsp")
+
+"""
+A SPK kernel of size 4.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup310_2004.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup310_2004.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EUROPA (502)            ADRASTEA (515)
+        JUPITER BARYCENTER (5)  GANYMEDE (503)          METIS (516)
+        SUN (10)                CALLISTO (504)          JUPITER (599)
+        EARTH (399)             AMALTHEA (505)
+        IO (501)                THEBE (514)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2004 JAN 01 00:01:04.183            2005 JAN 01 00:01:04.183
+ 
+
+```
+"""
+const jup310_2004 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup310_2004.bsp")
+
+"""
+A SPK kernel of size 4.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup310_2018.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup310_2018.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EUROPA (502)            ADRASTEA (515)
+        JUPITER BARYCENTER (5)  GANYMEDE (503)          METIS (516)
+        SUN (10)                CALLISTO (504)          JUPITER (599)
+        EARTH (399)             AMALTHEA (505)
+        IO (501)                THEBE (514)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2018 JAN 01 00:01:09.183            2019 JAN 01 00:01:09.183
+ 
+
+```
+"""
+const jup310_2018 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup310_2018.bsp")
+
+"""
+A SPK kernel of size 4.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup310_2021.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup310_2021.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EUROPA (502)            ADRASTEA (515)
+        JUPITER BARYCENTER (5)  GANYMEDE (503)          METIS (516)
+        SUN (10)                CALLISTO (504)          JUPITER (599)
+        EARTH (399)             AMALTHEA (505)
+        IO (501)                THEBE (514)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2021 JAN 01 00:01:09.183            2022 JAN 01 00:01:09.183
+ 
+
+```
+"""
+const jup310_2021 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup310_2021.bsp")
+
+"""
+A SPK kernel of size 51.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup329.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup329.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             DIA (553)
+        JUPITER BARYCENTER (5)  551                     JUPITER (599)
+        SUN (10)                552
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 12 00:00:41.184            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const jup329 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup329.bsp")
+
+"""
+A SPK kernel of size 347.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup341.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup341.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    PRAXIDIKE (527)         KORE (549)
+        JUPITER BARYCENTER (5)  AUTONOE (528)           HERSE (550)
+        SUN (10)                THYONE (529)            551
+        EARTH (399)             HERMIPPE (530)          552
+        HIMALIA (506)           AITNE (531)             DIA (553)
+        ELARA (507)             EURYDOME (532)          554
+        PASIPHAE (508)          EUANTHE (533)           555
+        SINOPE (509)            EUPORIE (534)           556
+        LYSITHEA (510)          ORTHOSIE (535)          557
+        CARME (511)             SPONDE (536)            558
+        ANANKE (512)            KALE (537)              559
+        LEDA (513)              PASITHEE (538)          JUPITER (599)
+        CALLIRRHOE (517)        HEGEMONE (539)          55060
+        THEMISTO (518)          MNEME (540)             55061
+        MEGACLITE (519)         AOEDE (541)             55062
+        TAYGETE (520)           THELXINOE (542)         55064
+        CHALDENE (521)          ARCHE (543)             55065
+        HARPALYKE (522)         KALLICHORE (544)        55066
+        KALYKE (523)            HELIKE (545)            55068
+        IOCASTE (524)           CARPO (546)             55070
+        ERINOME (525)           EUKELADE (547)          55071
+        ISONOE (526)            CYLLENE (548)           55074
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2200 JAN 01 00:01:09.183
+ 
+
+```
+"""
+const jup341 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup341.bsp")
+
+"""
+A SPK kernel of size 217.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup343.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup343.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    AITNE (531)             557
+        JUPITER BARYCENTER (5)  EURYDOME (532)          558
+        SUN (10)                EUANTHE (533)           559
+        EARTH (399)             EUPORIE (534)           560
+        HIMALIA (506)           ORTHOSIE (535)          561
+        ELARA (507)             SPONDE (536)            562
+        PASIPHAE (508)          KALE (537)              563
+        SINOPE (509)            PASITHEE (538)          564
+        LYSITHEA (510)          HEGEMONE (539)          565
+        CARME (511)             MNEME (540)             566
+        ANANKE (512)            AOEDE (541)             567
+        LEDA (513)              THELXINOE (542)         568
+        CALLIRRHOE (517)        ARCHE (543)             569
+        THEMISTO (518)          KALLICHORE (544)        570
+        MEGACLITE (519)         HELIKE (545)            571
+        TAYGETE (520)           CARPO (546)             572
+        CHALDENE (521)          EUKELADE (547)          JUPITER (599)
+        HARPALYKE (522)         CYLLENE (548)           55501
+        KALYKE (523)            KORE (549)              55502
+        IOCASTE (524)           HERSE (550)             55503
+        ERINOME (525)           551                     55504
+        ISONOE (526)            552                     55505
+        PRAXIDIKE (527)         DIA (553)               55506
+        AUTONOE (528)           554                     55507
+        THYONE (529)            555
+        HERMIPPE (530)          556
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1850 JAN 01 00:00:41.183            2100 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const jup343 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup343.bsp")
+
+"""
+A SPK kernel of size 85.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup345.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup345.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    55510                   55516
+        JUPITER BARYCENTER (5)  55511                   55517
+        SUN (10)                55512                   55518
+        EARTH (399)             55513                   55519
+        JUPITER (599)           55514                   55520
+        55509                   55515
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1799 DEC 28 00:00:00.000            2199 DEC 19 00:00:00.000
+ 
+
+```
+"""
+const jup345 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup345.bsp")
+
+"""
+A SPK kernel of size 1.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup365_2027.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup365_2027.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EUROPA (502)            ADRASTEA (515)
+        JUPITER BARYCENTER (5)  GANYMEDE (503)          METIS (516)
+        SUN (10)                CALLISTO (504)          JUPITER (599)
+        EARTH (399)             AMALTHEA (505)
+        IO (501)                THEBE (514)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2027 JAN 01 00:01:09.183            2028 JAN 01 00:01:09.183
+ 
+
+```
+"""
+const jup365_2027 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup365_2027.bsp")
+
+"""
+A SPK kernel of size 1.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar022-1.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: mar022-1.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  EARTH (399)           MARS (499)
+        MARS BARYCENTER (4)   PHOBOS (401)
+        SUN (10)              DEIMOS (402)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1971 OCT 01 00:00:00.000            1972 OCT 01 00:00:00.000
+ 
+
+```
+"""
+const mar022_1 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar022-1.bsp")
+
+"""
+A SPK kernel of size 63.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar022-LONG.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: mar022-LONG.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  MOON (301)            DEIMOS (402)
+        MARS BARYCENTER (4)   EARTH (399)           MARS (499)
+        SUN (10)              PHOBOS (401)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1976 JUN 01 00:00:00.000            2026 JAN 02 00:00:00.000
+ 
+
+```
+"""
+const mar022_LONG = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar022-LONG.bsp")
+
+"""
+A SPK kernel of size 39.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar033-7.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: mar033-7.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  EARTH (399)           MARS (499)
+        MARS BARYCENTER (4)   PHOBOS (401)
+        SUN (10)              DEIMOS (402)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1976 JUN 01 00:00:47.184            2025 JAN 11 23:59:03.184
+ 
+
+```
+"""
+const mar033_7 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar033-7.bsp")
+
+"""
+A SPK kernel of size 20.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar033_2000-2025.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: mar033_2000-2025.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  EARTH (399)           MARS (499)
+        MARS BARYCENTER (4)   PHOBOS (401)
+        SUN (10)              DEIMOS (402)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:01:04.183            2025 JAN 01 00:01:04.183
+ 
+
+```
+"""
+const mar033_2000_2025 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar033_2000-2025.bsp")
+
+"""
+A SPK kernel of size 100.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar063.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: mar063.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  EARTH (399)           MARS (499)
+        MARS BARYCENTER (4)   PHOBOS (401)
+        SUN (10)              DEIMOS (402)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1962 DEC 03 00:00:41.183            2050 JAN 03 00:01:05.183
+ 
+
+```
+"""
+const mar063 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar063.bsp")
+
+"""
+A SPK kernel of size 256.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar080.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: mar080.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  EARTH (399)           MARS (499)
+        MARS BARYCENTER (4)   PHOBOS (401)
+        SUN (10)              DEIMOS (402)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 04 00:00:41.184            2051 JAN 02 00:01:06.183
+ 
+
+```
+"""
+const mar080 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar080.bsp")
+
+"""
+A SPK kernel of size 448.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar085.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: mar085.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  EARTH (399)           MARS (499)
+        MARS BARYCENTER (4)   PHOBOS (401)
+        SUN (10)              DEIMOS (402)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 04 00:00:41.184            2100 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const mar085 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/mar085.bsp")
+
+"""
+A SPK kernel of size 8.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep016-6.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep016-6.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EARTH (399)            NEPTUNE (899)
+        SATURN BARYCENTER (6)  TRITON (801)
+        SUN (10)               NEREID (802)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1980 JAN 01 00:00:00.000            2048 DEC 30 00:00:00.000
+ 
+
+```
+"""
+const nep016_6 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep016-6.bsp")
+
+"""
+A SPK kernel of size 1.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep016-95-05.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep016-95-05.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    MOON (301)              NEREID (802)
+        NEPTUNE BARYCENTER (8)  EARTH (399)             NEPTUNE (899)
+        SUN (10)                TRITON (801)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 01 00:01:01.183            2005 JAN 01 00:01:04.183
+ 
+
+```
+"""
+const nep016_95_05 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep016-95-05.bsp")
+
+"""
+A SPK kernel of size 7.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep016.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep016.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    MOON (301)              NEREID (802)
+        NEPTUNE BARYCENTER (8)  EARTH (399)             NEPTUNE (899)
+        SUN (10)                TRITON (801)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1979 DEC 29 00:00:00.000            2025 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const nep016 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep016.bsp")
+
+"""
+A SPK kernel of size 8.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep022.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep022.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             GALATEA (806)
+        NEPTUNE BARYCENTER (8)  NAIAD (803)             LARISSA (807)
+        SUN (10)                THALASSA (804)          PROTEUS (808)
+        MOON (301)              DESPINA (805)           NEPTUNE (899)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1996 JAN 01 00:00:00.000            2000 JAN 04 00:00:00.000
+ 
+
+```
+"""
+const nep022 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep022.bsp")
+
+"""
+A SPK kernel of size 15.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep022m.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep022m.bsp
+ 
+Bodies: NAIAD (803)     DESPINA (805)   LARISSA (807)
+        THALASSA (804)  GALATEA (806)   PROTEUS (808)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1998 JAN 01 00:00:00.000            2010 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const nep022m = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep022m.bsp")
+
+"""
+A SPK kernel of size 1.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep029.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep029.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             SAO (811)
+        NEPTUNE BARYCENTER (8)  HALIMEDE (809)          NEPTUNE (899)
+        SUN (10)                PSAMATHE (810)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1994 JAN 01 00:00:00.000            2004 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const nep029 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep029.bsp")
+
+"""
+A SPK kernel of size 200.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep050.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep050.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    NAIAD (803)             LARISSA (807)
+        NEPTUNE BARYCENTER (8)  THALASSA (804)          PROTEUS (808)
+        SUN (10)                DESPINA (805)           NEPTUNE (899)
+        EARTH (399)             GALATEA (806)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1989 JUN 07 00:00:56.184            2048 DEC 29 00:01:05.183
+ 
+
+```
+"""
+const nep050 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep050.bsp")
+
+"""
+A SPK kernel of size 116.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep050_old.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep050_old.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    NAIAD (803)             LARISSA (807)
+        NEPTUNE BARYCENTER (8)  THALASSA (804)          PROTEUS (808)
+        SUN (10)                DESPINA (805)           NEPTUNE (899)
+        EARTH (399)             GALATEA (806)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1989 JUN 07 00:00:56.184            2024 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const nep050_old = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep050_old.bsp")
+
+"""
+A SPK kernel of size 4.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep055.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep055.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    HALIMEDE (809)          NESO (813)
+        NEPTUNE BARYCENTER (8)  PSAMATHE (810)          NEPTUNE (899)
+        SUN (10)                SAO (811)
+        EARTH (399)             LAOMEDEIA (812)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:01:04.183            2024 DEC 31 23:59:05.183
+ 
+
+```
+"""
+const nep055 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep055.bsp")
+
+"""
+A SPK kernel of size 9.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep056.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep056.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    SUN (10)                NEREID (802)
+        NEPTUNE BARYCENTER (8)  EARTH (399)             NEPTUNE (899)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1980 JAN 03 00:00:51.183            2048 DEC 25 00:01:05.183
+ 
+
+```
+"""
+const nep056 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep056.bsp")
+
+"""
+A SPK kernel of size 8.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep057.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep057.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    HALIMEDE (809)          NESO (813)
+        NEPTUNE BARYCENTER (8)  PSAMATHE (810)          NEPTUNE (899)
+        SUN (10)                SAO (811)
+        EARTH (399)             LAOMEDEIA (812)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:01:04.183            2048 DEC 29 00:01:05.183
+ 
+
+```
+"""
+const nep057 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep057.bsp")
+
+"""
+A SPK kernel of size 51.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep076-long.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep076-long.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             NEPTUNE (899)
+        NEPTUNE BARYCENTER (8)  TRITON (801)
+        SUN (10)                NEREID (802)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2200 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const nep076_long = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep076-long.bsp")
+
+"""
+A SPK kernel of size 20.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep076.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep076.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             NEPTUNE (899)
+        NEPTUNE BARYCENTER (8)  TRITON (801)
+        SUN (10)                NEREID (802)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const nep076 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep076.bsp")
+
+"""
+A SPK kernel of size 336.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep077.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep077.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    NAIAD (803)             LARISSA (807)
+        NEPTUNE BARYCENTER (8)  THALASSA (804)          PROTEUS (808)
+        SUN (10)                DESPINA (805)           NEPTUNE (899)
+        EARTH (399)             GALATEA (806)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const nep077 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep077.bsp")
+
+"""
+A SPK kernel of size 15.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep078.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep078.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    HALIMEDE (809)          NESO (813)
+        NEPTUNE BARYCENTER (8)  PSAMATHE (810)          NEPTUNE (899)
+        SUN (10)                SAO (811)
+        EARTH (399)             LAOMEDEIA (812)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const nep078 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep078.bsp")
+
+"""
+A SPK kernel of size 150.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep081.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep081.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             PROTEUS (808)
+        NEPTUNE BARYCENTER (8)  TRITON (801)            NEPTUNE (899)
+        SUN (10)                NEREID (802)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const nep081 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep081.bsp")
+
+"""
+A SPK kernel of size 13.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep085.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep085.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    HALIMEDE (809)          NESO (813)
+        NEPTUNE BARYCENTER (8)  PSAMATHE (810)          NEPTUNE (899)
+        SUN (10)                SAO (811)
+        EARTH (399)             LAOMEDEIA (812)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2099 DEC 22 00:01:06.183
+ 
+
+```
+"""
+const nep085 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep085.bsp")
+
+"""
+A SPK kernel of size 20.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep086.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep086.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    HALIMEDE (809)          NESO (813)
+        NEPTUNE BARYCENTER (8)  PSAMATHE (810)          NEPTUNE (899)
+        SUN (10)                SAO (811)
+        EARTH (399)             LAOMEDEIA (812)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2100 JAN 02 00:01:07.183
+ 
+
+```
+"""
+const nep086 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep086.bsp")
+
+"""
+A SPK kernel of size 63.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep087.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep087.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    SUN (10)                814
+        NEPTUNE BARYCENTER (8)  EARTH (399)             NEPTUNE (899)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const nep087 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep087.bsp")
+
+"""
+A SPK kernel of size 505.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep088.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep088.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    NAIAD (803)             LARISSA (807)
+        NEPTUNE BARYCENTER (8)  THALASSA (804)          814
+        SUN (10)                DESPINA (805)           NEPTUNE (899)
+        EARTH (399)             GALATEA (806)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const nep088 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep088.bsp")
+
+"""
+A SPK kernel of size 1.9 GB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep090.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep090.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    NAIAD (803)             LARISSA (807)
+        NEPTUNE BARYCENTER (8)  THALASSA (804)          PROTEUS (808)
+        SUN (10)                DESPINA (805)           814
+        EARTH (399)             GALATEA (806)           NEPTUNE (899)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:02.000            2049 DEC 31 00:00:00.000
+ 
+
+```
+"""
+const nep090 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep090.bsp")
+
+"""
+A SPK kernel of size 395.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep101.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep101.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    NEREID (802)            LAOMEDEIA (812)
+        NEPTUNE BARYCENTER (8)  HALIMEDE (809)          NESO (813)
+        SUN (10)                PSAMATHE (810)          NEPTUNE (899)
+        EARTH (399)             SAO (811)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1600 JAN 10 00:00:00.000            2399 DEC 31 00:00:00.000
+ 
+
+```
+"""
+const nep101 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep101.bsp")
+
+"""
+A SPK kernel of size 239.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep102.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep102.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    HALIMEDE (809)          NESO (813)
+        NEPTUNE BARYCENTER (8)  PSAMATHE (810)          NEPTUNE (899)
+        SUN (10)                SAO (811)
+        EARTH (399)             LAOMEDEIA (812)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1600 JAN 02 00:00:00.000            2399 DEC 31 00:00:00.000
+ 
+
+```
+"""
+const nep102 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep102.bsp")
+
+"""
+A SPK kernel of size 317.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep103.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep103.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    HALIMEDE (809)          NESO (813)
+        NEPTUNE BARYCENTER (8)  PSAMATHE (810)          NEPTUNE (899)
+        SUN (10)                SAO (811)               85051
+        EARTH (399)             LAOMEDEIA (812)         85052
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1600 JAN 04 00:00:00.000            2399 DEC 25 00:00:00.000
+ 
+
+```
+"""
+const nep103 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/nep103.bsp")
+
+"""
+A SPK kernel of size 9.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/pan_1998-2010.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: pan_1998-2010.bsp
+ 
+Body: PAN (618)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1998 JAN 01 00:00:00.000            2010 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const pan_1998_2010 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/pan_1998-2010.bsp")
+
+"""
+A SPK kernel of size 5.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu006-4.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu006-4.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  MOON (301)            PLUTO (999)
+        PLUTO BARYCENTER (9)  EARTH (399)
+        SUN (10)              CHARON (901)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1978 JUN 01 00:00:00.000            2025 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const plu006_4 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu006-4.bsp")
+
+"""
+A SPK kernel of size 4.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu006-5.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu006-5.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  SUN (10)              CHARON (901)
+        PLUTO BARYCENTER (9)  EARTH (399)           PLUTO (999)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const plu006_5 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu006-5.bsp")
+
+"""
+A SPK kernel of size 5.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu008_special.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu008_special.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  MOON (301)            PLUTO (999)
+        PLUTO BARYCENTER (9)  EARTH (399)
+        SUN (10)              CHARON (901)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1978 JUN 01 00:00:00.000            2025 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const plu008_special = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu008_special.bsp")
+
+"""
+A SPK kernel of size 10.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu013.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu013.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  SUN (10)              CHARON (901)
+        PLUTO BARYCENTER (9)  EARTH (399)           PLUTO (999)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1965 JAN 01 00:00:41.183            2050 JAN 04 00:01:04.184
+ 
+
+```
+"""
+const plu013 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu013.bsp")
+
+"""
+A SPK kernel of size 19.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu017.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu017.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  EARTH (399)           HYDRA (903)
+        PLUTO BARYCENTER (9)  CHARON (901)          PLUTO (999)
+        SUN (10)              NIX (902)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1990 JAN 01 00:00:57.183            2050 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const plu017 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu017.bsp")
+
+"""
+A SPK kernel of size 47.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu017xl.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu017xl.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  EARTH (399)           HYDRA (903)
+        PLUTO BARYCENTER (9)  CHARON (901)          PLUTO (999)
+        SUN (10)              NIX (902)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2051 JAN 28 00:01:06.184
+ 
+
+```
+"""
+const plu017xl = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu017xl.bsp")
+
+"""
+A SPK kernel of size 2.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu020.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu020.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  SUN (10)              KERBEROS (904)
+        PLUTO BARYCENTER (9)  EARTH (399)           PLUTO (999)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2005 JAN 01 00:01:04.183            2016 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const plu020 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu020.bsp")
+
+"""
+A SPK kernel of size 32.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu021.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu021.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  EARTH (399)           HYDRA (903)
+        PLUTO BARYCENTER (9)  CHARON (901)          KERBEROS (904)
+        SUN (10)              NIX (902)             PLUTO (999)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1965 JAN 04 00:00:41.184            2049 DEC 31 00:01:06.183
+ 
+
+```
+"""
+const plu021 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu021.bsp")
+
+"""
+A SPK kernel of size 52.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu022.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu022.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  EARTH (399)           HYDRA (903)
+        PLUTO BARYCENTER (9)  CHARON (901)          KERBEROS (904)
+        SUN (10)              NIX (902)             PLUTO (999)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1964 DEC 07 00:00:41.183            2099 DEC 29 00:01:07.183
+ 
+
+```
+"""
+const plu022 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu022.bsp")
+
+"""
+A SPK kernel of size 77.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu031.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu031.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  EARTH (399)           HYDRA (903)
+        PLUTO BARYCENTER (9)  CHARON (901)          KERBEROS (904)
+        SUN (10)              NIX (902)             PLUTO (999)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const plu031 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu031.bsp")
+
+"""
+A SPK kernel of size 90.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu042.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu042.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  CHARON (901)          STYX (905)
+        PLUTO BARYCENTER (9)  NIX (902)             PLUTO (999)
+        SUN (10)              HYDRA (903)
+        EARTH (399)           KERBEROS (904)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 02 00:00:41.183            2099 DEC 31 00:01:07.183
+ 
+
+```
+"""
+const plu042 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu042.bsp")
+
+"""
+A SPK kernel of size 76.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu043.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu043.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  CHARON (901)          STYX (905)
+        PLUTO BARYCENTER (9)  NIX (902)             PLUTO (999)
+        SUN (10)              HYDRA (903)
+        EARTH (399)           KERBEROS (904)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 07 00:00:41.184            2099 DEC 31 00:01:07.183
+ 
+
+```
+"""
+const plu043 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu043.bsp")
+
+"""
+A SPK kernel of size 80.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu055.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu055.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  CHARON (901)          STYX (905)
+        PLUTO BARYCENTER (9)  NIX (902)             PLUTO (999)
+        SUN (10)              HYDRA (903)
+        EARTH (399)           KERBEROS (904)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 08 00:00:41.184            2100 JAN 01 00:01:08.183
+ 
+
+```
+"""
+const plu055 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu055.bsp")
+
+"""
+A SPK kernel of size 43.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu058.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: plu058.bsp
+ 
+Bodies: EARTH BARYCENTER (3)  CHARON (901)          STYX (905)
+        PLUTO BARYCENTER (9)  NIX (902)             PLUTO (999)
+        SUN (10)              HYDRA (903)
+        EARTH (399)           KERBEROS (904)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 02 00:00:00.000            2099 DEC 28 00:00:00.000
+ 
+
+```
+"""
+const plu058 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/plu058.bsp")
+
+"""
+A SPK kernel of size 625.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat060.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat060.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SUN (10)               SATURN (699)
+        SATURN BARYCENTER (6)  EARTH (399)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1996 JAN 01 00:01:02.183            2005 JAN 01 00:01:04.183
+ 
+Body: PAN (618)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1996 JAN 01 00:01:02.183            2005 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat060 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat060.bsp")
+
+"""
+A SPK kernel of size 5.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat077-95-05.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat077-95-05.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   MIMAS (601)            TITAN (606)
+        SATURN BARYCENTER (6)  ENCELADUS (602)        HYPERION (607)
+        SUN (10)               TETHYS (603)           IAPETUS (608)
+        MOON (301)             DIONE (604)            SATURN (699)
+        EARTH (399)            RHEA (605)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 01 00:01:01.183            2005 JAN 01 00:01:04.183
+ 
+
+```
+"""
+const sat077_95_05 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat077-95-05.bsp")
+
+"""
+A SPK kernel of size 12.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat077_2000-2025.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat077_2000-2025.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   ENCELADUS (602)        HYPERION (607)
+        SATURN BARYCENTER (6)  TETHYS (603)           IAPETUS (608)
+        SUN (10)               DIONE (604)            SATURN (699)
+        EARTH (399)            RHEA (605)
+        MIMAS (601)            TITAN (606)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2025 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat077_2000_2025 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat077_2000-2025.bsp")
+
+"""
+A SPK kernel of size 3.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat077s.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat077s.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   MIMAS (601)            TITAN (606)
+        SATURN BARYCENTER (6)  ENCELADUS (602)        HYPERION (607)
+        SUN (10)               TETHYS (603)           IAPETUS (608)
+        MOON (301)             DIONE (604)            SATURN (699)
+        EARTH (399)            RHEA (605)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1994 JAN 01 00:01:00.183            2001 JAN 01 00:01:03.183
+ 
+
+```
+"""
+const sat077s = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat077s.bsp")
+
+"""
+A SPK kernel of size 8.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat080.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat080.bsp
+ 
+Bodies: ATLAS (615)       PROMETHEUS (616)  PANDORA (617)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2010 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat080 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat080.bsp")
+
+"""
+A SPK kernel of size 19.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat081-4.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat081-4.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   JANUS (610)            ATLAS (615)
+        SATURN BARYCENTER (6)  EPIMETHEUS (611)       PANDORA (617)
+        SUN (10)               HELENE (612)           SATURN (699)
+        MOON (301)             TELESTO (613)
+        EARTH (399)            CALYPSO (614)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1997 DEC 28 00:00:00.000            2009 DEC 19 00:00:00.000
+ 
+
+```
+"""
+const sat081_4 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat081-4.bsp")
+
+"""
+A SPK kernel of size 11.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat081-98-05_2.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat081-98-05_2.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   JANUS (610)            ATLAS (615)
+        SATURN BARYCENTER (6)  EPIMETHEUS (611)       PANDORA (617)
+        SUN (10)               HELENE (612)           SATURN (699)
+        MOON (301)             TELESTO (613)
+        EARTH (399)            CALYPSO (614)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1998 JAN 01 00:01:03.183            2005 JAN 01 00:01:04.183
+ 
+
+```
+"""
+const sat081_98_05_2 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat081-98-05_2.bsp")
+
+"""
+A SPK kernel of size 4.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat086.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat086.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   MOON (301)             SATURN (699)
+        SATURN BARYCENTER (6)  EARTH (399)
+        SUN (10)               PHOEBE (609)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1966 NOV 23 00:00:00.000            2013 JAN 08 00:00:00.000
+ 
+
+```
+"""
+const sat086 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat086.bsp")
+
+"""
+A SPK kernel of size 716.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat098-s.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat098-s.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   MOON (301)             SATURN (699)
+        SATURN BARYCENTER (6)  EARTH (399)
+        SUN (10)               PHOEBE (609)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1998 JUN 01 00:01:03.184            2005 JUN 01 00:01:03.184
+ 
+
+```
+"""
+const sat098_s = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat098-s.bsp")
+
+"""
+A SPK kernel of size 693.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat101.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat101.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SUN (10)               PROMETHEUS (616)
+        SATURN BARYCENTER (6)  EARTH (399)            SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 01 00:01:01.183            2005 JAN 01 00:01:04.183
+ 
+
+```
+"""
+const sat101 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat101.bsp")
+
+"""
+A SPK kernel of size 8.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat101_9-71_8-11.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat101_9-71_8-11.bsp
+ 
+Body: PROMETHEUS (616)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1971 AUG 26 04:48:30.480            2011 AUG 16 04:48:30.480
+ 
+
+```
+"""
+const sat101_9_71_8_11 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat101_9-71_8-11.bsp")
+
+"""
+A SPK kernel of size 1.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat124.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat124.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   IJIRAQ (622)           ERRIAPUS (628)
+        SATURN BARYCENTER (6)  SUTTUNGR (623)         SIARNAQ (629)
+        SUN (10)               KIVIUQ (624)           THRYMR (630)
+        YMIR (619)             MUNDILFARI (625)       SATURN (699)
+        PAALIAQ (620)          ALBIORIX (626)
+        TARVOS (621)           SKATHI (627)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 AUG 01 00:00:00.000            2024 DEC 23 00:00:00.000
+ 
+
+```
+"""
+const sat124 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat124.bsp")
+
+"""
+A SPK kernel of size 62.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat132.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat132.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   ENCELADUS (602)        HYPERION (607)
+        SATURN BARYCENTER (6)  TETHYS (603)           IAPETUS (608)
+        SUN (10)               DIONE (604)            SATURN (699)
+        EARTH (399)            RHEA (605)
+        MIMAS (601)            TITAN (606)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1975 JAN 01 00:00:00.000            2025 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat132 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat132.bsp")
+
+"""
+A SPK kernel of size 4.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat133.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat133.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TARVOS (621)           SKATHI (627)
+        SATURN BARYCENTER (6)  IJIRAQ (622)           ERRIAPUS (628)
+        SUN (10)               SUTTUNGR (623)         SIARNAQ (629)
+        EARTH (399)            KIVIUQ (624)           THRYMR (630)
+        YMIR (619)             MUNDILFARI (625)       SATURN (699)
+        PAALIAQ (620)          ALBIORIX (626)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 01 00:00:00.000            2024 DEC 28 00:00:00.000
+ 
+
+```
+"""
+const sat133 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat133.bsp")
+
+"""
+A SPK kernel of size 29.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat134.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat134.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EARTH (399)            CALYPSO (614)
+        SATURN BARYCENTER (6)  HELENE (612)           SATURN (699)
+        SUN (10)               TELESTO (613)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1975 JAN 01 00:00:00.000            2025 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat134 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat134.bsp")
+
+"""
+A SPK kernel of size 140.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat143.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat143.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         SATURN (699)
+        ENCELADUS (602)        IAPETUS (608)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1938 SEP 15 00:00:00.000            2019 DEC 03 00:00:00.000
+ 
+
+```
+"""
+const sat143 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat143.bsp")
+
+"""
+A SPK kernel of size 51.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat185.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat185.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         SATURN (699)
+        ENCELADUS (602)        IAPETUS (608)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1980 JAN 21 00:00:51.184            2019 DEC 02 00:01:04.183
+ 
+
+```
+"""
+const sat185 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat185.bsp")
+
+"""
+A SPK kernel of size 65.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat186.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat186.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EARTH (399)            PROMETHEUS (616)
+        SATURN BARYCENTER (6)  JANUS (610)            PANDORA (617)
+        SUN (10)               EPIMETHEUS (611)       SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1980 JAN 21 00:00:51.184            2009 JAN 10 00:01:04.184
+ 
+
+```
+"""
+const sat186 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat186.bsp")
+
+"""
+A SPK kernel of size 52.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat192.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat192.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         SATURN (699)
+        ENCELADUS (602)        IAPETUS (608)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1980 JAN 21 00:00:51.184            2019 DEC 02 00:01:04.183
+ 
+
+```
+"""
+const sat192 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat192.bsp")
+
+"""
+A SPK kernel of size 81.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat196.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat196.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   JANUS (610)            PANDORA (617)
+        SATURN BARYCENTER (6)  EPIMETHEUS (611)       SATURN (699)
+        SUN (10)               ATLAS (615)
+        EARTH (399)            PROMETHEUS (616)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1980 JAN 21 00:00:51.184            2009 JAN 10 00:01:04.184
+ 
+
+```
+"""
+const sat196 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat196.bsp")
+
+"""
+A SPK kernel of size 52.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat199.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat199.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         SATURN (699)
+        ENCELADUS (602)        IAPETUS (608)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1980 JAN 01 00:00:51.183            2019 DEC 01 00:01:04.183
+ 
+
+```
+"""
+const sat199 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat199.bsp")
+
+"""
+A SPK kernel of size 26.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat207.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat207.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SUN (10)
+        SATURN BARYCENTER (6)  EARTH (399)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:01:04.183            2019 DEC 03 00:01:04.183
+ 
+Bodies: MIMAS (601)            TITAN (606)            TELESTO (613)
+        ENCELADUS (602)        HYPERION (607)         CALYPSO (614)
+        TETHYS (603)           IAPETUS (608)          SATURN (699)
+        DIONE (604)            PHOEBE (609)
+        RHEA (605)             HELENE (612)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:01:04.183            2019 DEC 03 00:00:00.000
+ 
+
+```
+"""
+const sat207 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat207.bsp")
+
+"""
+A SPK kernel of size 40.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat215.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat215.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         SATURN (699)
+        ENCELADUS (602)        IAPETUS (608)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1990 JAN 01 00:00:57.183            2019 DEC 01 00:01:05.183
+ 
+
+```
+"""
+const sat215 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat215.bsp")
+
+"""
+A SPK kernel of size 6.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat227.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat227.bsp
+ 
+Body: PAN (618)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      2000 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat227 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat227.bsp")
+
+"""
+A SPK kernel of size 123.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat238.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat238.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   JANUS (610)            PANDORA (617)
+        SATURN BARYCENTER (6)  EPIMETHEUS (611)       SATURN (699)
+        SUN (10)               ATLAS (615)
+        EARTH (399)            PROMETHEUS (616)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1980 JAN 21 00:00:51.184            2014 DEC 28 00:01:05.183
+ 
+
+```
+"""
+const sat238 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat238.bsp")
+
+"""
+A SPK kernel of size 103.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat240.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat240.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         METHONE (632)
+        ENCELADUS (602)        IAPETUS (608)          SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1969 DEC 31 00:00:41.183            2019 DEC 02 00:01:05.183
+ 
+
+```
+"""
+const sat240 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat240.bsp")
+
+"""
+A SPK kernel of size 165.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat242.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat242.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         METHONE (632)
+        ENCELADUS (602)        IAPETUS (608)          SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1970 JAN 01 00:00:41.183            2050 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const sat242 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat242.bsp")
+
+"""
+A SPK kernel of size 3.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat245.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat245.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   65036                  65042
+        SATURN BARYCENTER (6)  65037                  65043
+        SUN (10)               65038                  65044
+        EARTH (399)            65039                  65045
+        SATURN (699)           65040                  65046
+        65035                  65041
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 SEP 13 00:01:04.182            2019 DEC 02 00:01:05.183
+ 
+
+```
+"""
+const sat245 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat245.bsp")
+
+"""
+A SPK kernel of size 3.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat246.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat246.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TARVOS (621)           SKATHI (627)
+        SATURN BARYCENTER (6)  IJIRAQ (622)           ERRIAPUS (628)
+        SUN (10)               SUTTUNGR (623)         SIARNAQ (629)
+        EARTH (399)            KIVIUQ (624)           THRYMR (630)
+        YMIR (619)             MUNDILFARI (625)       NARVI (631)
+        PAALIAQ (620)          ALBIORIX (626)         SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 FEB 28 00:01:04.185            2019 DEC 02 00:01:05.183
+ 
+
+```
+"""
+const sat246 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat246.bsp")
+
+"""
+A SPK kernel of size 6.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat247.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat247.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SUN (10)               POLYDEUCES (634)
+        SATURN BARYCENTER (6)  EARTH (399)            SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1990 JUN 14 00:00:57.184            2014 DEC 28 00:01:05.183
+ 
+
+```
+"""
+const sat247 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat247.bsp")
+
+"""
+A SPK kernel of size 11.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat248.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat248.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SUN (10)               PALLENE (633)
+        SATURN BARYCENTER (6)  EARTH (399)            SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1990 JUN 14 00:00:57.184            2014 DEC 28 00:01:05.183
+ 
+
+```
+"""
+const sat248 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat248.bsp")
+
+"""
+A SPK kernel of size 3.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat251.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat251.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   65047                  65052
+        SATURN BARYCENTER (6)  65048                  65053
+        SUN (10)               65049                  65054
+        EARTH (399)            65050                  65055
+        SATURN (699)           65051
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2005 JAN 01 00:01:04.183            2024 DEC 29 22:01:05.183
+ 
+
+```
+"""
+const sat251 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat251.bsp")
+
+"""
+A SPK kernel of size 165.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat252.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat252.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         METHONE (632)
+        ENCELADUS (602)        IAPETUS (608)          SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1970 JAN 01 00:00:41.183            2050 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const sat252 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat252.bsp")
+
+"""
+A SPK kernel of size 126.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat252s.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat252s.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         METHONE (632)
+        ENCELADUS (602)        IAPETUS (608)          SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1990 JAN 01 00:00:57.183            2050 DEC 31 23:01:05.183
+ 
+
+```
+"""
+const sat252s = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat252s.bsp")
+
+"""
+A SPK kernel of size 6.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat254.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat254.bsp
+ 
+Body: DAPHNIS (635)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      2000 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat254 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat254.bsp")
+
+"""
+A SPK kernel of size 9.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat270.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat270.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TARVOS (621)           SKATHI (627)
+        SATURN BARYCENTER (6)  IJIRAQ (622)           ERRIAPUS (628)
+        SUN (10)               SUTTUNGR (623)         SIARNAQ (629)
+        EARTH (399)            KIVIUQ (624)           THRYMR (630)
+        YMIR (619)             MUNDILFARI (625)       NARVI (631)
+        PAALIAQ (620)          ALBIORIX (626)         SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 MAR 01 00:01:04.185            2050 JAN 11 00:01:05.184
+ 
+
+```
+"""
+const sat270 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat270.bsp")
+
+"""
+A SPK kernel of size 9.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat271.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat271.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   BERGELMIR (638)        HYRROKKIN (644)
+        SATURN BARYCENTER (6)  BESTLA (639)           KARI (645)
+        SUN (10)               FARBAUTI (640)         LOGE (646)
+        EARTH (399)            FENRIR (641)           SKOLL (647)
+        AEGIR (636)            FORNJOT (642)          SURTUR (648)
+        BEBHIONN (637)         HATI (643)             SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 MAR 01 00:01:04.185            2050 JAN 11 00:01:05.184
+ 
+
+```
+"""
+const sat271 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat271.bsp")
+
+"""
+A SPK kernel of size 7.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat272.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat272.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   65035                  65050
+        SATURN BARYCENTER (6)  65040                  65051
+        SUN (10)               65041                  65053
+        EARTH (399)            65045
+        SATURN (699)           65048
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 MAR 01 00:01:04.185            2050 JAN 11 00:01:05.184
+ 
+
+```
+"""
+const sat272 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat272.bsp")
+
+"""
+A SPK kernel of size 2.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat273.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat273.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EARTH (399)            65055
+        SATURN BARYCENTER (6)  SATURN (699)           65056
+        SUN (10)               65054
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2006 JAN 10 00:01:05.184            2025 JAN 10 00:01:05.184
+ 
+
+```
+"""
+const sat273 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat273.bsp")
+
+"""
+A SPK kernel of size 123.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat275.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat275.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   JANUS (610)            PANDORA (617)
+        SATURN BARYCENTER (6)  EPIMETHEUS (611)       SATURN (699)
+        SUN (10)               ATLAS (615)
+        EARTH (399)            PROMETHEUS (616)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1980 JAN 20 00:00:51.184            2014 DEC 28 00:01:05.183
+ 
+
+```
+"""
+const sat275 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat275.bsp")
+
+"""
+A SPK kernel of size 8.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat276.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat276.bsp
+ 
+Bodies: PAN (618)      DAPHNIS (635)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2050 JAN 02 00:00:00.000
+ 
+
+```
+"""
+const sat276 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat276.bsp")
+
+"""
+A SPK kernel of size 23.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat281.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat281.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EARTH (399)            ANTHE (649)
+        SATURN BARYCENTER (6)  PALLENE (633)          SATURN (699)
+        SUN (10)               POLYDEUCES (634)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1990 JUN 14 00:00:57.184            2014 DEC 28 00:01:05.183
+ 
+
+```
+"""
+const sat281 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat281.bsp")
+
+"""
+A SPK kernel of size 613.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat286.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat286.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SUN (10)
+        SATURN BARYCENTER (6)  EARTH (399)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2053 OCT 09 00:00:00.000
+ 
+Bodies: MIMAS (601)            TITAN (606)            TELESTO (613)
+        ENCELADUS (602)        HYPERION (607)         CALYPSO (614)
+        TETHYS (603)           IAPETUS (608)          METHONE (632)
+        DIONE (604)            PHOEBE (609)           SATURN (699)
+        RHEA (605)             HELENE (612)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2200 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const sat286 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat286.bsp")
+
+"""
+A SPK kernel of size 316.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat288.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat288.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         METHONE (632)
+        ENCELADUS (602)        IAPETUS (608)          SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2053 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const sat288 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat288.bsp")
+
+"""
+A SPK kernel of size 8.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat291.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat291.bsp
+ 
+Bodies: PAN (618)      DAPHNIS (635)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2051 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat291 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat291.bsp")
+
+"""
+A SPK kernel of size 18.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat295.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat295.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TARVOS (621)           SKATHI (627)
+        SATURN BARYCENTER (6)  IJIRAQ (622)           ERRIAPUS (628)
+        SUN (10)               SUTTUNGR (623)         SIARNAQ (629)
+        EARTH (399)            KIVIUQ (624)           THRYMR (630)
+        YMIR (619)             MUNDILFARI (625)       NARVI (631)
+        PAALIAQ (620)          ALBIORIX (626)         SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 08 00:00:41.184            2051 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const sat295 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat295.bsp")
+
+"""
+A SPK kernel of size 21.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat296.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat296.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   BERGELMIR (638)        HYRROKKIN (644)
+        SATURN BARYCENTER (6)  BESTLA (639)           KARI (645)
+        SUN (10)               FARBAUTI (640)         LOGE (646)
+        EARTH (399)            FENRIR (641)           SKOLL (647)
+        AEGIR (636)            FORNJOT (642)          SURTUR (648)
+        BEBHIONN (637)         HATI (643)             SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 08 00:00:41.184            2051 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const sat296 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat296.bsp")
+
+"""
+A SPK kernel of size 10.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat297.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat297.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EARTH (399)            TARQEQ (652)
+        SATURN BARYCENTER (6)  JARNSAXA (650)         SATURN (699)
+        SUN (10)               GREIP (651)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 08 00:00:41.184            2051 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const sat297 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat297.bsp")
+
+"""
+A SPK kernel of size 14.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat298.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat298.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   65035                  65050
+        SATURN BARYCENTER (6)  65040                  65055
+        SUN (10)               65041                  65056
+        EARTH (399)            65045
+        SATURN (699)           65048
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 08 00:00:41.184            2051 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const sat298 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat298.bsp")
+
+"""
+A SPK kernel of size 439.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat299.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat299.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EPIMETHEUS (611)       POLYDEUCES (634)
+        SATURN BARYCENTER (6)  ATLAS (615)            ANTHE (649)
+        SUN (10)               PROMETHEUS (616)       SATURN (699)
+        EARTH (399)            PANDORA (617)
+        JANUS (610)            PALLENE (633)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const sat299 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat299.bsp")
+
+"""
+A SPK kernel of size 309.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat317.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat317.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         METHONE (632)
+        ENCELADUS (602)        IAPETUS (608)          SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2050 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const sat317 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat317.bsp")
+
+"""
 A SPK kernel of size 51.9 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat319.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat319.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SUN (10)               AEGAEON (653)
+        SATURN BARYCENTER (6)  EARTH (399)            SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const sat319 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat319.bsp")
+
+"""
+A SPK kernel of size 53.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat341.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat341.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SIARNAQ (629)          SKOLL (647)
+        SATURN BARYCENTER (6)  THRYMR (630)           SURTUR (648)
+        SUN (10)               NARVI (631)            JARNSAXA (650)
+        EARTH (399)            AEGIR (636)            GREIP (651)
+        YMIR (619)             BEBHIONN (637)         TARQEQ (652)
+        PAALIAQ (620)          BERGELMIR (638)        SATURN (699)
+        TARVOS (621)           BESTLA (639)           65035
+        IJIRAQ (622)           FARBAUTI (640)         65040
+        SUTTUNGR (623)         FENRIR (641)           65041
+        KIVIUQ (624)           FORNJOT (642)          65045
+        MUNDILFARI (625)       HATI (643)             65048
+        ALBIORIX (626)         HYRROKKIN (644)        65050
+        SKATHI (627)           KARI (645)             65055
+        ERRIAPUS (628)         LOGE (646)             65056
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 08 00:00:41.184            2100 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const sat341 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat341.bsp")
+
+"""
+A SPK kernel of size 8.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat342-rocks.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat342-rocks.bsp
+ 
+Bodies: PAN (618)      DAPHNIS (635)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat342_rocks = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat342-rocks.bsp")
+
+"""
+A SPK kernel of size 448.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat342.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat342.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EPIMETHEUS (611)       POLYDEUCES (634)
+        SATURN BARYCENTER (6)  ATLAS (615)            ANTHE (649)
+        SUN (10)               PROMETHEUS (616)       AEGAEON (653)
+        EARTH (399)            PANDORA (617)          SATURN (699)
+        JANUS (610)            PALLENE (633)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const sat342 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat342.bsp")
+
+"""
+A SPK kernel of size 309.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat351.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat351.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         METHONE (632)
+        ENCELADUS (602)        IAPETUS (608)          SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2050 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat351 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat351.bsp")
+
+"""
+A SPK kernel of size 8.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat353-rocks-extended.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat353-rocks-extended.bsp
+ 
+Bodies: PAN (618)      DAPHNIS (635)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat353_rocks_extended = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat353-rocks-extended.bsp")
+
+"""
+A SPK kernel of size 8.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat353-rocks.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat353-rocks.bsp
+ 
+Bodies: PAN (618)      DAPHNIS (635)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat353_rocks = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat353-rocks.bsp")
+
+"""
+A SPK kernel of size 448.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat353.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat353.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EPIMETHEUS (611)       POLYDEUCES (634)
+        SATURN BARYCENTER (6)  ATLAS (615)            ANTHE (649)
+        SUN (10)               PROMETHEUS (616)       AEGAEON (653)
+        EARTH (399)            PANDORA (617)          SATURN (699)
+        JANUS (610)            PALLENE (633)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat353 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat353.bsp")
+
+"""
+A SPK kernel of size 55.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat354.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat354.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SUN (10)
+        SATURN BARYCENTER (6)  EARTH (399)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1964 DEC 07 00:00:00.000            2025 JAN 13 00:00:00.000
+ 
+Bodies: YMIR (619)             AEGIR (636)            JARNSAXA (650)
+        PAALIAQ (620)          BEBHIONN (637)         GREIP (651)
+        TARVOS (621)           BERGELMIR (638)        TARQEQ (652)
+        IJIRAQ (622)           BESTLA (639)           SATURN (699)
+        SUTTUNGR (623)         FARBAUTI (640)         65035
+        KIVIUQ (624)           FENRIR (641)           65040
+        MUNDILFARI (625)       FORNJOT (642)          65041
+        ALBIORIX (626)         HATI (643)             65045
+        SKATHI (627)           HYRROKKIN (644)        65048
+        ERRIAPUS (628)         KARI (645)             65050
+        SIARNAQ (629)          LOGE (646)             65055
+        THRYMR (630)           SKOLL (647)            65056
+        NARVI (631)            SURTUR (648)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 08 00:00:41.184            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat354 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat354.bsp")
+
+"""
+A SPK kernel of size 16.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat357-rocks-merge.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat357-rocks-merge.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EARTH (399)            SATURN (699)
+        SATURN BARYCENTER (6)  PAN (618)
+        SUN (10)               DAPHNIS (635)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2050 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat357_rocks_merge = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat357-rocks-merge.bsp")
+
+"""
+A SPK kernel of size 448.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat357.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat357.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EPIMETHEUS (611)       POLYDEUCES (634)
+        SATURN BARYCENTER (6)  ATLAS (615)            ANTHE (649)
+        SUN (10)               PROMETHEUS (616)       AEGAEON (653)
+        EARTH (399)            PANDORA (617)          SATURN (699)
+        JANUS (610)            PALLENE (633)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat357 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat357.bsp")
+
+"""
+A SPK kernel of size 316.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat359l.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat359l.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         METHONE (632)
+        ENCELADUS (602)        IAPETUS (608)          SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2053 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat359l = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat359l.bsp")
+
+"""
+A SPK kernel of size 439.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat360.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat360.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         METHONE (632)
+        ENCELADUS (602)        IAPETUS (608)          SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat360 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat360.bsp")
+
+"""
+A SPK kernel of size 61.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat361.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat361.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SIARNAQ (629)          SKOLL (647)
+        SATURN BARYCENTER (6)  THRYMR (630)           SURTUR (648)
+        SUN (10)               NARVI (631)            JARNSAXA (650)
+        EARTH (399)            AEGIR (636)            GREIP (651)
+        YMIR (619)             BEBHIONN (637)         TARQEQ (652)
+        PAALIAQ (620)          BERGELMIR (638)        SATURN (699)
+        TARVOS (621)           BESTLA (639)           65035
+        IJIRAQ (622)           FARBAUTI (640)         65040
+        SUTTUNGR (623)         FENRIR (641)           65041
+        KIVIUQ (624)           FORNJOT (642)          65045
+        MUNDILFARI (625)       HATI (643)             65048
+        ALBIORIX (626)         HYRROKKIN (644)        65050
+        SKATHI (627)           KARI (645)             65055
+        ERRIAPUS (628)         LOGE (646)             65056
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat361 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat361.bsp")
+
+"""
+A SPK kernel of size 82.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat362.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat362.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SIARNAQ (629)          SKOLL (647)
+        SATURN BARYCENTER (6)  THRYMR (630)           SURTUR (648)
+        SUN (10)               NARVI (631)            JARNSAXA (650)
+        EARTH (399)            AEGIR (636)            GREIP (651)
+        YMIR (619)             BEBHIONN (637)         TARQEQ (652)
+        PAALIAQ (620)          BERGELMIR (638)        SATURN (699)
+        TARVOS (621)           BESTLA (639)           65035
+        IJIRAQ (622)           FARBAUTI (640)         65040
+        SUTTUNGR (623)         FENRIR (641)           65041
+        KIVIUQ (624)           FORNJOT (642)          65045
+        MUNDILFARI (625)       HATI (643)             65048
+        ALBIORIX (626)         HYRROKKIN (644)        65050
+        SKATHI (627)           KARI (645)             65055
+        ERRIAPUS (628)         LOGE (646)             65056
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat362 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat362.bsp")
+
+"""
+A SPK kernel of size 19.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat363-rocks-merge.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat363-rocks-merge.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EARTH (399)            SATURN (699)
+        SATURN BARYCENTER (6)  PAN (618)
+        SUN (10)               DAPHNIS (635)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat363_rocks_merge = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat363-rocks-merge.bsp")
+
+"""
+A SPK kernel of size 510.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat363.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat363.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EPIMETHEUS (611)       POLYDEUCES (634)
+        SATURN BARYCENTER (6)  ATLAS (615)            ANTHE (649)
+        SUN (10)               PROMETHEUS (616)       AEGAEON (653)
+        EARTH (399)            PANDORA (617)          SATURN (699)
+        JANUS (610)            PALLENE (633)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat363 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat363.bsp")
+
+"""
+A SPK kernel of size 380.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat365.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat365.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   TETHYS (603)           PHOEBE (609)
+        SATURN BARYCENTER (6)  DIONE (604)            HELENE (612)
+        SUN (10)               RHEA (605)             TELESTO (613)
+        EARTH (399)            TITAN (606)            CALYPSO (614)
+        MIMAS (601)            HYPERION (607)         SATURN (699)
+        ENCELADUS (602)        IAPETUS (608)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat365 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat365.bsp")
+
+"""
+A SPK kernel of size 72.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat368-named_only.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat368-named_only.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SKATHI (627)           HATI (643)
+        SATURN BARYCENTER (6)  ERRIAPUS (628)         HYRROKKIN (644)
+        SUN (10)               SIARNAQ (629)          KARI (645)
+        EARTH (399)            THRYMR (630)           LOGE (646)
+        YMIR (619)             NARVI (631)            SKOLL (647)
+        PAALIAQ (620)          AEGIR (636)            SURTUR (648)
+        TARVOS (621)           BEBHIONN (637)         JARNSAXA (650)
+        IJIRAQ (622)           BERGELMIR (638)        GREIP (651)
+        SUTTUNGR (623)         BESTLA (639)           TARQEQ (652)
+        KIVIUQ (624)           FARBAUTI (640)         SATURN (699)
+        MUNDILFARI (625)       FENRIR (641)
+        ALBIORIX (626)         FORNJOT (642)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat368_named_only = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat368-named_only.bsp")
+
+"""
+A SPK kernel of size 82.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat368.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat368.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SIARNAQ (629)          SKOLL (647)
+        SATURN BARYCENTER (6)  THRYMR (630)           SURTUR (648)
+        SUN (10)               NARVI (631)            JARNSAXA (650)
+        EARTH (399)            AEGIR (636)            GREIP (651)
+        YMIR (619)             BEBHIONN (637)         TARQEQ (652)
+        PAALIAQ (620)          BERGELMIR (638)        SATURN (699)
+        TARVOS (621)           BESTLA (639)           65035
+        IJIRAQ (622)           FARBAUTI (640)         65040
+        SUTTUNGR (623)         FENRIR (641)           65041
+        KIVIUQ (624)           FORNJOT (642)          65045
+        MUNDILFARI (625)       HATI (643)             65048
+        ALBIORIX (626)         HYRROKKIN (644)        65050
+        SKATHI (627)           KARI (645)             65055
+        ERRIAPUS (628)         LOGE (646)             65056
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat368 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat368.bsp")
+
+"""
+A SPK kernel of size 280.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat375.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat375.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   ENCELADUS (602)        HYPERION (607)
+        SATURN BARYCENTER (6)  TETHYS (603)           IAPETUS (608)
+        SUN (10)               DIONE (604)            PHOEBE (609)
+        EARTH (399)            RHEA (605)             SATURN (699)
+        MIMAS (601)            TITAN (606)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2100 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat375 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat375.bsp")
+
+"""
+A SPK kernel of size 540.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat378.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat378.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EPIMETHEUS (611)       PALLENE (633)
+        SATURN BARYCENTER (6)  ATLAS (615)            POLYDEUCES (634)
+        SUN (10)               PROMETHEUS (616)       ANTHE (649)
+        EARTH (399)            PANDORA (617)          AEGAEON (653)
+        JANUS (610)            METHONE (632)          SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:07.183
+ 
+
+```
+"""
+const sat378 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat378.bsp")
+
+"""
+A SPK kernel of size 19.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat382-rocks-merge.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat382-rocks-merge.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EARTH (399)            SATURN (699)
+        SATURN BARYCENTER (6)  PAN (618)
+        SUN (10)               DAPHNIS (635)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat382_rocks_merge = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat382-rocks-merge.bsp")
+
+"""
+A SPK kernel of size 586.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat382.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat382.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   HELENE (612)           METHONE (632)
+        SATURN BARYCENTER (6)  TELESTO (613)          PALLENE (633)
+        SUN (10)               CALYPSO (614)          POLYDEUCES (634)
+        EARTH (399)            ATLAS (615)            ANTHE (649)
+        JANUS (610)            PROMETHEUS (616)       AEGAEON (653)
+        EPIMETHEUS (611)       PANDORA (617)          SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:08.183
+ 
+
+```
+"""
+const sat382 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat382.bsp")
+
+"""
+A SPK kernel of size 7.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat393-rocks_pan.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat393-rocks_pan.bsp
+ 
+Body: PAN (618)
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const sat393_rocks_pan = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat393-rocks_pan.bsp")
+
+"""
+A SPK kernel of size 586.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat393.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat393.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   HELENE (612)           METHONE (632)
+        SATURN BARYCENTER (6)  TELESTO (613)          PALLENE (633)
+        SUN (10)               CALYPSO (614)          POLYDEUCES (634)
+        EARTH (399)            ATLAS (615)            ANTHE (649)
+        JANUS (610)            PROMETHEUS (616)       AEGAEON (653)
+        EPIMETHEUS (611)       PANDORA (617)          SATURN (699)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:08.183
+ 
+
+```
+"""
+const sat393 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat393.bsp")
+
+"""
+A SPK kernel of size 242.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat425.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat425.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   DIONE (604)            TELESTO (613)
+        SATURN BARYCENTER (6)  RHEA (605)             CALYPSO (614)
+        SUN (10)               TITAN (606)            METHONE (632)
+        EARTH (399)            HYPERION (607)         POLYDEUCES (634)
+        MIMAS (601)            IAPETUS (608)          SATURN (699)
+        ENCELADUS (602)        PHOEBE (609)
+        TETHYS (603)           HELENE (612)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:09.183
+ 
+
+```
+"""
+const sat425 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat425.bsp")
+
+"""
+A SPK kernel of size 242.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat427.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat427.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   DIONE (604)            TELESTO (613)
+        SATURN BARYCENTER (6)  RHEA (605)             CALYPSO (614)
+        SUN (10)               TITAN (606)            METHONE (632)
+        EARTH (399)            HYPERION (607)         POLYDEUCES (634)
+        MIMAS (601)            IAPETUS (608)          SATURN (699)
+        ENCELADUS (602)        PHOEBE (609)
+        TETHYS (603)           HELENE (612)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:09.183
+ 
+
+```
+"""
+const sat427 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat427.bsp")
+
+"""
+A SPK kernel of size 40.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat428.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat428.bsp
+ 
+Bodies: SATURN (699)  65050         65068         65074         65080
+        65035         65055         65069         65075         65081
+        65040         65056         65070         65076         65082
+        65041         65065         65071         65077         65083
+        65045         65066         65072         65078         65084
+        65048         65067         65073         65079
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1899 DEC 20 00:00:00.000            2100 JAN 02 00:00:00.000
+ 
+
+```
+"""
+const sat428 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat428.bsp")
+
+"""
+A SPK kernel of size 75.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat450.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat450.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   662                    65084
+        SATURN BARYCENTER (6)  663                    65085
+        SUN (10)               664                    65086
+        EARTH (399)            665                    65087
+        654                    666                    65088
+        655                    SATURN (699)           65089
+        656                    65067                  65090
+        657                    65070                  65091
+        658                    65077                  65092
+        659                    65079                  65093
+        660                    65081
+        661                    65082
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1849 DEC 30 00:00:00.000            2149 DEC 23 00:00:00.000
+ 
+
+```
+"""
+const sat450 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat450.bsp")
+
+"""
+A SPK kernel of size 144.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat452.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat452.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SKATHI (627)           HATI (643)
+        SATURN BARYCENTER (6)  ERRIAPUS (628)         HYRROKKIN (644)
+        SUN (10)               SIARNAQ (629)          KARI (645)
+        EARTH (399)            THRYMR (630)           LOGE (646)
+        YMIR (619)             NARVI (631)            SKOLL (647)
+        PAALIAQ (620)          AEGIR (636)            SURTUR (648)
+        TARVOS (621)           BEBHIONN (637)         JARNSAXA (650)
+        IJIRAQ (622)           BERGELMIR (638)        GREIP (651)
+        SUTTUNGR (623)         BESTLA (639)           TARQEQ (652)
+        KIVIUQ (624)           FARBAUTI (640)         SATURN (699)
+        MUNDILFARI (625)       FENRIR (641)
+        ALBIORIX (626)         FORNJOT (642)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1749 DEC 30 00:00:00.000            2150 JAN 08 00:00:00.000
+ 
+Bodies: 654                    664                    65085
+        655                    665                    65086
+        656                    666                    65087
+        657                    65067                  65088
+        658                    65070                  65089
+        659                    65077                  65090
+        660                    65079                  65091
+        661                    65081                  65092
+        662                    65082                  65093
+        663                    65084
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1750 JAN 01 00:00:00.000            2149 DEC 23 00:00:00.000
+ 
+
+```
+"""
+const sat452 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat452.bsp")
+
+"""
+A SPK kernel of size 190.1 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat453.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat453.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   65102                  65130
+        SATURN BARYCENTER (6)  65103                  65131
+        SUN (10)               65104                  65132
+        EARTH (399)            65105                  65133
+        SATURN (699)           65106                  65134
+        65067                  65107                  65135
+        65070                  65108                  65136
+        65077                  65109                  65137
+        65079                  65110                  65138
+        65081                  65111                  65139
+        65082                  65112                  65140
+        65084                  65113                  65141
+        65085                  65114                  65142
+        65086                  65115                  65143
+        65087                  65116                  65144
+        65088                  65117                  65145
+        65089                  65118                  65146
+        65090                  65119                  65147
+        65091                  65120                  65148
+        65092                  65121                  65149
+        65093                  65122                  65150
+        65094                  65123                  65151
+        65095                  65124                  65152
+        65096                  65125                  65153
+        65097                  65126                  65154
+        65098                  65127                  65155
+        65100                  65128                  65156
+        65101                  65129                  65157
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1750 JAN 01 00:00:00.000            2150 JAN 10 00:00:00.000
+ 
+
+```
+"""
+const sat453 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/sat453.bsp")
+
+"""
+A SPK kernel of size 16.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura027-3.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura027-3.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   ARIEL (701)            MIRANDA (705)
+        URANUS BARYCENTER (7)  UMBRIEL (702)          URANUS (799)
+        SUN (10)               TITANIA (703)
+        EARTH (399)            OBERON (704)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1980 JAN 02 00:00:51.183            2025 JAN 04 00:01:04.184
+ 
+
+```
+"""
+const ura027_3 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura027-3.bsp")
+
+"""
+A SPK kernel of size 4.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura031.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura031.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   EARTH (399)            OBERON (704)
+        URANUS BARYCENTER (7)  ARIEL (701)            MIRANDA (705)
+        SUN (10)               UMBRIEL (702)          URANUS (799)
+        MOON (301)             TITANIA (703)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1990 JAN 01 00:00:57.183            2000 JAN 01 00:01:02.183
+ 
+
+```
+"""
+const ura031 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura031.bsp")
+
+"""
+A SPK kernel of size 15.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura032.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura032.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   OPHELIA (707)          PORTIA (712)
+        URANUS BARYCENTER (7)  BIANCA (708)           ROSALIND (713)
+        SUN (10)               CRESSIDA (709)         BELINDA (714)
+        EARTH (399)            DESDEMONA (710)        PUCK (715)
+        CORDELIA (706)         JULIET (711)           URANUS (799)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1994 JAN 01 00:01:00.183            1999 JAN 01 00:01:01.183
+ 
+
+```
+"""
+const ura032 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura032.bsp")
+
+"""
+A SPK kernel of size 12.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura033.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura033.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   OPHELIA (707)          ROSALIND (713)
+        URANUS BARYCENTER (7)  BIANCA (708)           BELINDA (714)
+        SUN (10)               CRESSIDA (709)         PUCK (715)
+        MOON (301)             DESDEMONA (710)        URANUS (799)
+        EARTH (399)            JULIET (711)
+        CORDELIA (706)         PORTIA (712)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1996 JAN 01 00:00:00.000            2000 JAN 04 00:00:00.000
+ 
+
+```
+"""
+const ura033 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura033.bsp")
+
+"""
+A SPK kernel of size 18.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura039.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura039.bsp
+ 
+Bodies: CORDELIA (706)   CRESSIDA (709)   PORTIA (712)     PUCK (715)
+        OPHELIA (707)    DESDEMONA (710)  ROSALIND (713)
+        BIANCA (708)     JULIET (711)     BELINDA (714)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1970 JAN 01 00:00:00.000            2010 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const ura039 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura039.bsp")
+
+"""
+A SPK kernel of size 18.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura039m.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura039m.bsp
+ 
+Bodies: CORDELIA (706)   CRESSIDA (709)   PORTIA (712)     PUCK (715)
+        OPHELIA (707)    DESDEMONA (710)  ROSALIND (713)
+        BIANCA (708)     JULIET (711)     BELINDA (714)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1998 JAN 01 00:00:00.000            2010 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const ura039m = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura039m.bsp")
+
+"""
+A SPK kernel of size 2.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura042.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura042.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   MOON (301)             SYCORAX (717)
+        URANUS BARYCENTER (7)  EARTH (399)            URANUS (799)
+        SUN (10)               CALIBAN (716)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1984 MAR 01 00:00:00.000            2010 JAN 03 00:00:00.000
+ 
+
+```
+"""
+const ura042 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura042.bsp")
+
+"""
+A SPK kernel of size 2.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura045.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura045.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   MOON (301)             SYCORAX (717)
+        URANUS BARYCENTER (7)  EARTH (399)            URANUS (799)
+        SUN (10)               CALIBAN (716)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1984 MAR 01 00:00:00.000            2010 JAN 03 00:00:00.000
+ 
+
+```
+"""
+const ura045 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura045.bsp")
+
+"""
+A SPK kernel of size 2.8 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura063.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura063.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   CALIBAN (716)          STEPHANO (720)
+        URANUS BARYCENTER (7)  SYCORAX (717)          URANUS (799)
+        SUN (10)               PROSPERO (718)
+        EARTH (399)            SETEBOS (719)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 02 00:00:00.000            2025 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const ura063 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura063.bsp")
+
+"""
+A SPK kernel of size 2.2 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura064.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura064.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SUN (10)               TRINCULO (721)
+        URANUS BARYCENTER (7)  EARTH (399)            URANUS (799)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1995 JAN 02 00:00:00.000            2025 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const ura064 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura064.bsp")
+
+"""
+A SPK kernel of size 5.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura071.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura071.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SYCORAX (717)          FRANCISCO (722)
+        URANUS BARYCENTER (7)  PROSPERO (718)         MARGARET (723)
+        SUN (10)               SETEBOS (719)          FERDINAND (724)
+        EARTH (399)            STEPHANO (720)         URANUS (799)
+        CALIBAN (716)          TRINCULO (721)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1980 JAN 02 00:00:51.183            2025 JAN 02 00:01:05.183
+ 
+
+```
+"""
+const ura071 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura071.bsp")
+
+"""
+A SPK kernel of size 5.3 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura072.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura072.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SYCORAX (717)          FRANCISCO (722)
+        URANUS BARYCENTER (7)  PROSPERO (718)         MARGARET (723)
+        SUN (10)               SETEBOS (719)          FERDINAND (724)
+        EARTH (399)            STEPHANO (720)         URANUS (799)
+        CALIBAN (716)          TRINCULO (721)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1980 JAN 02 00:00:51.183            2025 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const ura072 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura072.bsp")
+
+"""
+A SPK kernel of size 8.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura074.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura074.bsp
+ 
+Bodies: PERDITA (725)  MAB (726)      CUPID (727)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const ura074 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura074.bsp")
+
+"""
+A SPK kernel of size 79.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura083.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura083.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   ARIEL (701)            MIRANDA (705)
+        URANUS BARYCENTER (7)  UMBRIEL (702)          URANUS (799)
+        SUN (10)               TITANIA (703)
+        EARTH (399)            OBERON (704)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:41.183            2050 JAN 01 00:01:05.183
+ 
+
+```
+"""
+const ura083 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura083.bsp")
+
+"""
+A SPK kernel of size 17.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura086.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura086.bsp
+ 
+Bodies: CORDELIA (706)   CRESSIDA (709)   PORTIA (712)     PUCK (715)
+        OPHELIA (707)    DESDEMONA (710)  ROSALIND (713)
+        BIANCA (708)     JULIET (711)     BELINDA (714)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2000 JAN 01 00:00:00.000            2051 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const ura086 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura086.bsp")
+
+"""
+A SPK kernel of size 14.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura090.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura090.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SYCORAX (717)          FRANCISCO (722)
+        URANUS BARYCENTER (7)  PROSPERO (718)         MARGARET (723)
+        SUN (10)               SETEBOS (719)          FERDINAND (724)
+        EARTH (399)            STEPHANO (720)         URANUS (799)
+        CALIBAN (716)          TRINCULO (721)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2051 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const ura090 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura090.bsp")
+
+"""
+A SPK kernel of size 14.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura090_1.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura090_1.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SYCORAX (717)          FRANCISCO (722)
+        URANUS BARYCENTER (7)  PROSPERO (718)         MARGARET (723)
+        SUN (10)               SETEBOS (719)          FERDINAND (724)
+        EARTH (399)            STEPHANO (720)         URANUS (799)
+        CALIBAN (716)          TRINCULO (721)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2051 JAN 01 00:01:06.183
+ 
+
+```
+"""
+const ura090_1 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura090_1.bsp")
+
+"""
+A SPK kernel of size 9.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura091-rocks-merge.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura091-rocks-merge.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   BIANCA (708)           BELINDA (714)
+        URANUS BARYCENTER (7)  CRESSIDA (709)         PUCK (715)
+        SUN (10)               DESDEMONA (710)        PERDITA (725)
+        EARTH (399)            JULIET (711)           MAB (726)
+        CORDELIA (706)         PORTIA (712)           CUPID (727)
+        OPHELIA (707)          ROSALIND (713)         URANUS (799)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 04 00:00:41.184            2099 DEC 23 00:01:07.183
+ 
+
+```
+"""
+const ura091_rocks_merge = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura091-rocks-merge.bsp")
+
+"""
+A SPK kernel of size 19.5 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura095.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura095.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SYCORAX (717)          FRANCISCO (722)
+        URANUS BARYCENTER (7)  PROSPERO (718)         MARGARET (723)
+        SUN (10)               SETEBOS (719)          FERDINAND (724)
+        EARTH (399)            STEPHANO (720)         URANUS (799)
+        CALIBAN (716)          TRINCULO (721)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 03 00:00:41.184            2099 DEC 24 00:01:06.183
+ 
+
+```
+"""
+const ura095 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura095.bsp")
+
+"""
+A SPK kernel of size 29.6 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura112.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: ura112.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   SYCORAX (717)          FRANCISCO (722)
+        URANUS BARYCENTER (7)  PROSPERO (718)         MARGARET (723)
+        SUN (10)               SETEBOS (719)          FERDINAND (724)
+        EARTH (399)            STEPHANO (720)         URANUS (799)
+        CALIBAN (716)          TRINCULO (721)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1900 JAN 01 00:00:41.183            2099 DEC 24 00:01:07.183
+ 
+
+```
+"""
+const ura112 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/ura112.bsp")
+
+"""
+A SPK kernel of size 51.9 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2148,7 +12323,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2205,7 +12380,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2243,7 +12418,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2279,7 +12454,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2313,7 +12488,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2349,7 +12524,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2382,7 +12557,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2414,7 +12589,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2446,7 +12621,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2478,7 +12653,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2511,11 +12686,11 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep103.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep104.bsp
 
 ## Description
 
@@ -2524,7 +12699,7 @@ This kernel's link was sourced on 2024-08-13.
 BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
  
  
-Summary for: nep103.bsp
+Summary for: nep104.bsp
  
 Bodies: EARTH BARYCENTER (3)    HALIMEDE (809)          NESO (813)
         NEPTUNE BARYCENTER (8)  PSAMATHE (810)          NEPTUNE (899)
@@ -2537,7 +12712,40 @@ Bodies: EARTH BARYCENTER (3)    HALIMEDE (809)          NESO (813)
 
 ```
 """
-const nep103 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep103.bsp")
+const nep104 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep104.bsp")
+
+"""
+A SPK kernel of size 200.7 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep105.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: nep105.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    SUN (10)                NEREID (802)
+        NEPTUNE BARYCENTER (8)  EARTH (399)             NEPTUNE (899)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1600 JAN 04 00:00:00.000            2400 JAN 02 00:00:00.000
+ 
+
+```
+"""
+const nep105 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep105.bsp")
 
 """
 A SPK kernel of size 128.9 MB, linked from https://naif.jpl.nasa.gov [1].
@@ -2546,7 +12754,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2581,7 +12789,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2613,7 +12821,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2649,7 +12857,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2687,7 +12895,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2721,7 +12929,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2749,17 +12957,17 @@ Bodies: MIMAS (601)      DIONE (604)      HYPERION (607)   HELENE (612)
 const sat441xl_part_2 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441xl_part-2.bsp")
 
 """
-A SPK kernel of size 144.0 MB, linked from https://naif.jpl.nasa.gov [1].
+A SPK kernel of size 257.2 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat452.bsp
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat454.bsp
 
 ## Description
 
@@ -2768,93 +12976,59 @@ This kernel's link was sourced on 2024-08-13.
 BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
  
  
-Summary for: sat452.bsp
+Summary for: sat454.bsp
  
-Bodies: EARTH BARYCENTER (3)   SKATHI (627)           HATI (643)
-        SATURN BARYCENTER (6)  ERRIAPUS (628)         HYRROKKIN (644)
-        SUN (10)               SIARNAQ (629)          KARI (645)
-        EARTH (399)            THRYMR (630)           LOGE (646)
-        YMIR (619)             NARVI (631)            SKOLL (647)
-        PAALIAQ (620)          AEGIR (636)            SURTUR (648)
-        TARVOS (621)           BEBHIONN (637)         JARNSAXA (650)
-        IJIRAQ (622)           BERGELMIR (638)        GREIP (651)
-        SUTTUNGR (623)         BESTLA (639)           TARQEQ (652)
-        KIVIUQ (624)           FARBAUTI (640)         SATURN (699)
-        MUNDILFARI (625)       FENRIR (641)
-        ALBIORIX (626)         FORNJOT (642)
+Bodies: EARTH BARYCENTER (3)   SUN (10)               SATURN (699)
+        SATURN BARYCENTER (6)  EARTH (399)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1749 DEC 30 00:00:00.000            2150 JAN 10 00:00:00.000
+ 
+Bodies: YMIR (619)             BEBHIONN (637)         TARQEQ (652)
+        PAALIAQ (620)          BERGELMIR (638)        654
+        TARVOS (621)           BESTLA (639)           655
+        IJIRAQ (622)           FARBAUTI (640)         656
+        SUTTUNGR (623)         FENRIR (641)           657
+        KIVIUQ (624)           FORNJOT (642)          658
+        MUNDILFARI (625)       HATI (643)             659
+        ALBIORIX (626)         HYRROKKIN (644)        660
+        SKATHI (627)           KARI (645)             661
+        ERRIAPUS (628)         LOGE (646)             662
+        SIARNAQ (629)          SKOLL (647)            663
+        THRYMR (630)           SURTUR (648)           664
+        NARVI (631)            JARNSAXA (650)         665
+        AEGIR (636)            GREIP (651)            666
         Start of Interval (ET)              End of Interval (ET)
         -----------------------------       -----------------------------
         1749 DEC 30 00:00:00.000            2150 JAN 08 00:00:00.000
  
-Bodies: 654                    664                    65085
-        655                    665                    65086
-        656                    666                    65087
-        657                    65067                  65088
-        658                    65070                  65089
-        659                    65077                  65090
-        660                    65079                  65091
-        661                    65081                  65092
-        662                    65082                  65093
-        663                    65084
-        Start of Interval (ET)              End of Interval (ET)
-        -----------------------------       -----------------------------
-        1750 JAN 01 00:00:00.000            2149 DEC 23 00:00:00.000
- 
-
-```
-"""
-const sat452 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat452.bsp")
-
-"""
-A SPK kernel of size 190.1 MB, linked from https://naif.jpl.nasa.gov [1].
-Calling this variable like a function will return a path to the file, downloading 
-to scratchspace if necessary.
-
-# Extended Help
-
-This kernel's link was sourced on 2024-08-13.
-
-## References
-
-[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat453.bsp
-
-## Description
-
-```
- 
-BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
- 
- 
-Summary for: sat453.bsp
- 
-Bodies: EARTH BARYCENTER (3)   65102                  65130
-        SATURN BARYCENTER (6)  65103                  65131
-        SUN (10)               65104                  65132
-        EARTH (399)            65105                  65133
-        SATURN (699)           65106                  65134
-        65067                  65107                  65135
-        65070                  65108                  65136
-        65077                  65109                  65137
-        65079                  65110                  65138
-        65081                  65111                  65139
-        65082                  65112                  65140
-        65084                  65113                  65141
-        65085                  65114                  65142
-        65086                  65115                  65143
-        65087                  65116                  65144
-        65088                  65117                  65145
-        65089                  65118                  65146
-        65090                  65119                  65147
-        65091                  65120                  65148
-        65092                  65121                  65149
-        65093                  65122                  65150
-        65094                  65123                  65151
-        65095                  65124                  65152
-        65096                  65125                  65153
-        65097                  65126                  65154
-        65098                  65127                  65155
-        65100                  65128                  65156
-        65101                  65129                  65157
+Bodies: 65067                  65106                  65133
+        65070                  65107                  65134
+        65077                  65108                  65135
+        65079                  65109                  65136
+        65081                  65110                  65137
+        65082                  65111                  65138
+        65084                  65112                  65139
+        65085                  65113                  65140
+        65086                  65114                  65141
+        65087                  65115                  65142
+        65088                  65116                  65143
+        65089                  65117                  65144
+        65090                  65118                  65145
+        65091                  65119                  65146
+        65092                  65120                  65147
+        65093                  65121                  65148
+        65094                  65122                  65149
+        65095                  65123                  65150
+        65096                  65124                  65151
+        65097                  65125                  65152
+        65098                  65126                  65153
+        65100                  65127                  65154
+        65101                  65128                  65155
+        65102                  65129                  65156
+        65103                  65130                  65157
+        65104                  65131
+        65105                  65132
         Start of Interval (ET)              End of Interval (ET)
         -----------------------------       -----------------------------
         1750 JAN 01 00:00:00.000            2150 JAN 10 00:00:00.000
@@ -2862,7 +13036,7 @@ Bodies: EARTH BARYCENTER (3)   65102                  65130
 
 ```
 """
-const sat453 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat453.bsp")
+const sat454 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat454.bsp")
 
 """
 A SPK kernel of size 162.1 MB, linked from https://naif.jpl.nasa.gov [1].
@@ -2871,7 +13045,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2906,7 +13080,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2941,7 +13115,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -2973,7 +13147,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3005,7 +13179,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3037,7 +13211,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3069,7 +13243,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3101,7 +13275,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3133,7 +13307,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3170,7 +13344,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3206,7 +13380,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3240,7 +13414,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3270,13 +13444,466 @@ Bodies: EARTH BARYCENTER (3)   SYCORAX (717)          FRANCISCO (722)
 const ura117 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura117.bsp")
 
 """
+A SPK kernel of size 22.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/dsnstns.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: dsnstns.bsp
+ 
+Bodies: PARKES (399005)*  DSS-23 (399023)*  DSS-34 (399034)*  DSS-61 (399061)*
+        DSS-12 (399012)*  DSS-24 (399024)*  DSS-42 (399042)*  DSS-63 (399063)*
+        DSS-13 (399013)*  DSS-25 (399025)*  DSS-43 (399043)*  DSS-65 (399065)*
+        DSS-14 (399014)*  DSS-26 (399026)*  DSS-45 (399045)*  DSS-66 (399066)*
+        DSS-15 (399015)*  DSS-27 (399027)*  DSS-46 (399046)*
+        DSS-16 (399016)*  DSS-28 (399028)*  DSS-53 (399053)*
+        DSS-17 (399017)*  DSS-33 (399033)*  DSS-54 (399054)*
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const dsnstns = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/dsnstns.bsp")
+
+"""
 A SPK kernel of size 7.0 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/dss_17_prelim_itrf93_161110.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: dss_17_prelim_itrf93_161110.bsp
+ 
+Body: DSS-17 (399017)*
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const dss_17_prelim_itrf93_161110_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/dss_17_prelim_itrf93_161110.bsp")
+
+"""
+A SPK kernel of size 7.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/dss_35_36_prelim_itrf93_140604.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: dss_35_36_prelim_itrf93_140604.bsp
+ 
+Bodies: DSS-35 (399035)*  DSS-36 (399036)*
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const dss_35_36_prelim_itrf93_140604_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/dss_35_36_prelim_itrf93_140604.bsp")
+
+"""
+A SPK kernel of size 8.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/dss_35_36_prelim_itrf93_140620.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: dss_35_36_prelim_itrf93_140620.bsp
+ 
+Bodies: DSS-35 (399035)*  DSS-36 (399036)*
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const dss_35_36_prelim_itrf93_140620_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/dss_35_36_prelim_itrf93_140620.bsp")
+
+"""
+A SPK kernel of size 9.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/dss_53_prelim_itrf93_201018.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: dss_53_prelim_itrf93_201018.bsp
+ 
+Body: DSS-53 (399053)*
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const dss_53_prelim_itrf93_201018_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/dss_53_prelim_itrf93_201018.bsp")
+
+"""
+A SPK kernel of size 9.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/dss_56_prelim_itrf93_201018.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: dss_56_prelim_itrf93_201018.bsp
+ 
+Body: DSS-56 (399056)*
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const dss_56_prelim_itrf93_201018_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/dss_56_prelim_itrf93_201018.bsp")
+
+"""
+A SPK kernel of size 23.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/earthstn.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earthstn.bsp
+ 
+Bodies: PARKES (399005)*  DSS-23 (399023)*  DSS-34 (399034)*  DSS-61 (399061)*
+        DSS-12 (399012)*  DSS-24 (399024)*  DSS-42 (399042)*  DSS-63 (399063)*
+        DSS-13 (399013)*  DSS-25 (399025)*  DSS-43 (399043)*  DSS-65 (399065)*
+        DSS-14 (399014)*  DSS-26 (399026)*  DSS-45 (399045)*  DSS-66 (399066)*
+        DSS-15 (399015)*  DSS-27 (399027)*  DSS-46 (399046)*
+        DSS-16 (399016)*  DSS-28 (399028)*  DSS-53 (399053)*
+        DSS-17 (399017)*  DSS-33 (399033)*  DSS-54 (399054)*
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const earthstn = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/earthstn.bsp")
+
+"""
+A SPK kernel of size 36.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/earthstns_fx_040916.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earthstns_fx_040916.bsp
+ 
+Bodies: PARKES (399005)*  DSS-23 (399023)*  DSS-34 (399034)*  DSS-54 (399054)*
+        DSS-12 (399012)*  DSS-24 (399024)*  DSS-42 (399042)*  DSS-55 (399055)*
+        DSS-13 (399013)*  DSS-25 (399025)*  DSS-43 (399043)*  DSS-61 (399061)*
+        DSS-14 (399014)*  DSS-26 (399026)*  DSS-45 (399045)*  DSS-63 (399063)*
+        DSS-15 (399015)*  DSS-27 (399027)*  DSS-46 (399046)*  DSS-65 (399065)*
+        DSS-16 (399016)*  DSS-28 (399028)*  DSS-49 (399049)*  DSS-66 (399066)*
+        DSS-17 (399017)*  DSS-33 (399033)*  DSS-53 (399053)*
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:01:00.000
+ 
+
+```
+"""
+const earthstns_fx_040916 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/earthstns_fx_040916.bsp")
+
+"""
+A SPK kernel of size 40.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/earthstns_fx_050714.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earthstns_fx_050714.bsp
+ 
+Bodies: PARKES (399005)*  DSS-23 (399023)*  DSS-34 (399034)*  DSS-54 (399054)*
+        DSS-12 (399012)*  DSS-24 (399024)*  DSS-42 (399042)*  DSS-55 (399055)*
+        DSS-13 (399013)*  DSS-25 (399025)*  DSS-43 (399043)*  DSS-61 (399061)*
+        DSS-14 (399014)*  DSS-26 (399026)*  DSS-45 (399045)*  DSS-63 (399063)*
+        DSS-15 (399015)*  DSS-27 (399027)*  DSS-46 (399046)*  DSS-64 (399064)*
+        DSS-16 (399016)*  DSS-28 (399028)*  DSS-49 (399049)*  DSS-65 (399065)*
+        DSS-17 (399017)*  DSS-33 (399033)*  DSS-53 (399053)*  DSS-66 (399066)*
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const earthstns_fx_050714 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/earthstns_fx_050714.bsp")
+
+"""
+A SPK kernel of size 34.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/earthstns_itrf93_040916.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earthstns_itrf93_040916.bsp
+ 
+Bodies: PARKES (399005)*  DSS-23 (399023)*  DSS-34 (399034)*  DSS-54 (399054)*
+        DSS-12 (399012)*  DSS-24 (399024)*  DSS-42 (399042)*  DSS-55 (399055)*
+        DSS-13 (399013)*  DSS-25 (399025)*  DSS-43 (399043)*  DSS-61 (399061)*
+        DSS-14 (399014)*  DSS-26 (399026)*  DSS-45 (399045)*  DSS-63 (399063)*
+        DSS-15 (399015)*  DSS-27 (399027)*  DSS-46 (399046)*  DSS-65 (399065)*
+        DSS-16 (399016)*  DSS-28 (399028)*  DSS-49 (399049)*  DSS-66 (399066)*
+        DSS-17 (399017)*  DSS-33 (399033)*  DSS-53 (399053)*
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:01:00.000
+ 
+
+```
+"""
+const earthstns_itrf93_040916 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/earthstns_itrf93_040916.bsp")
+
+"""
+A SPK kernel of size 38.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/earthstns_itrf93_050714.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: earthstns_itrf93_050714.bsp
+ 
+Bodies: PARKES (399005)*  DSS-23 (399023)*  DSS-34 (399034)*  DSS-54 (399054)*
+        DSS-12 (399012)*  DSS-24 (399024)*  DSS-42 (399042)*  DSS-55 (399055)*
+        DSS-13 (399013)*  DSS-25 (399025)*  DSS-43 (399043)*  DSS-61 (399061)*
+        DSS-14 (399014)*  DSS-26 (399026)*  DSS-45 (399045)*  DSS-63 (399063)*
+        DSS-15 (399015)*  DSS-27 (399027)*  DSS-46 (399046)*  DSS-64 (399064)*
+        DSS-16 (399016)*  DSS-28 (399028)*  DSS-49 (399049)*  DSS-65 (399065)*
+        DSS-17 (399017)*  DSS-33 (399033)*  DSS-53 (399053)*  DSS-66 (399066)*
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const earthstns_itrf93_050714 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/earthstns_itrf93_050714.bsp")
+
+"""
+A SPK kernel of size 9.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/misasa_54m_itrf93_210121.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: misasa_54m_itrf93_210121.bsp
+ 
+Body: 398940*
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const misasa_54m_itrf93_210121_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/misasa_54m_itrf93_210121.bsp")
+
+"""
+A SPK kernel of size 6.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/stations.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: stations.bsp
+ 
+Bodies: GOLDSTONE (399001)*  MADRID (399003)*
+        CANBERRA (399002)*   USUDA (399004)*
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1950 JAN 01 00:00:00.000            2050 JAN 01 00:00:00.000
+ 
+
+```
+"""
+const stations = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/a_old_versions/stations.bsp")
+
+"""
+A SPK kernel of size 7.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3308,7 +13935,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3340,7 +13967,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3372,7 +13999,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3404,7 +14031,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3436,7 +14063,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3472,7 +14099,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3508,7 +14135,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3589,7 +14216,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3673,7 +14300,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3751,13 +14378,50 @@ Bodies: 399100201*  399101372*  399101716*  399101855*  399104069*  399104259*
 const ndosl_190716_v02_spk = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/ndosl_190716_v02.bsp")
 
 """
+A SPK kernel of size 251.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2024-10-06.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/tno/a_old_versions/tnosat_v001_20136108_jpl110_20220908.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: tnosat_v001_20136108_jpl110_20220908.bsp
+ 
+Body: 20136108
+      Start of Interval (ET)              End of Interval (ET)
+      -----------------------------       -----------------------------
+      1999 DEC 01 00:00:00.000            2030 FEB 01 00:00:00.000
+ 
+Bodies: 120136108  220136108  920136108
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1999 DEC 31 00:00:00.000            2030 JAN 02 00:00:00.000
+ 
+
+```
+"""
+const tnosat_v001_20136108_jpl110_20220908 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/tno/a_old_versions/tnosat_v001_20136108_jpl110_20220908.bsp")
+
+"""
 A SPK kernel of size 284.7 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3790,7 +14454,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3827,7 +14491,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3864,7 +14528,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3901,7 +14565,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3938,7 +14602,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -3975,7 +14639,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -4012,7 +14676,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -4049,7 +14713,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -4086,7 +14750,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -4123,7 +14787,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2024-08-13.
+This kernel's link was sourced on 2024-10-06.
 
 ## References
 
@@ -4158,12 +14822,24 @@ export
     near_a_msi_5_erosshape_v1_0_64q,
     hay_a_amica_5_itokawashape_v1_0_512q,
     hay_a_amica_5_itokawashape_v1_0_64q,
+    ro_a_osinac_osiwac_5_lutetia_shape_v1_0_002m,
+    ro_a_osinac_osiwac_5_lutetia_shape_v1_0_006k,
+    ro_a_osinac_osiwac_5_lutetia_shape_v1_0_780k,
+    ro_a_osinac_osiwac_5_steins_shape_v1_0_20k,
+    steins_0,
     vesta_gaskell_256,
     vesta_thomas_1997,
+    churyumov_gerasimenko_512,
     phobos512,
     phobos_2014_09_22,
     phobos_3_3,
     earth_assoc_itrf93,
+    moon_060721,
+    moon_071218,
+    moon_de440_200625,
+    nep103_nameid,
+    sat452_nameid,
+    sat453_nameid,
     jup344_s2003_j24_nameid,
     jup344_nameid,
     jup346_nameid,
@@ -4172,11 +14848,18 @@ export
     moon_assoc_pa,
     moon_de440_220930,
     nep095_nameid,
-    nep103_nameid,
-    sat452_nameid,
-    sat453_nameid,
+    nep104_nameid,
+    sat454_nameid,
     ura117_nameid,
-    dss_17_prelim_itrf93_161110,
+    dss_35_36_prelim_itrf93_140604_fk,
+    dss_35_36_prelim_itrf93_140620_fk,
+    dss_53_prelim_itrf93_201018_fk,
+    dss_56_prelim_itrf93_201018_fk,
+    earth_topo_040916,
+    earth_topo_050714,
+    earth_topo_050714_v2,
+    misasa_54m_itrf93_210121_fk,
+    dss_17_prelim_itrf93_161110_fk,
     dss_17_prelim_itrf93_190814_fk,
     dss_23_placeholder_itrf93_201017_fk,
     dss_30_itrf93_210201_fk,
@@ -4186,14 +14869,37 @@ export
     ndosl_140530_v01_fk,
     ndosl_190716_v01_fk,
     ndosl_190716_v02_fk,
+    naif0007,
+    naif0008_lsk,
+    naif0009_lsk,
+    naif0010_lsk,
+    naif0011_lsk,
     latest_leapseconds_lsk,
-    naif0011,
+    naif0011_lsk,
     naif0012_lsk,
     Gravity,
-    de_403_masses,
-    earth_000101_241105_240812,
+    earth_031228_231229_predict,
+    earth_060526_370526_predict,
+    earth_070425_370426_predict,
+    earth_200101_990628_predict,
     earth_200101_990825_predict,
+    earth_720101_031229,
+    earth_720101_070426,
+    earth_720101_070527,
     earth_720101_230601,
+    lunar_de403s_pa_v0,
+    pck00003,
+    pck00005,
+    pck00006,
+    pck00007,
+    pck00008,
+    pck00009,
+    preliminary_pck00004,
+    de_403_masses,
+    earth_000101_241229_241005,
+    earth_1962_240827_2124_combined,
+    earth_200101_990827_predict,
+    earth_620120_240827,
     earth_fixed,
     earth_latest_high_prec,
     gm_de431,
@@ -4206,9 +14912,34 @@ export
     pck00010,
     pck00011,
     pck00011_n0066,
+    ceres_2003_2016,
+    ceres_1900_2100,
+    codes_300ast_20061020_spk,
+    codes_300ast_20061020_fk,
+    eros9633,
+    erosToJan2005,
+    eros_1900_2100,
+    kleopatra_1900_2100,
+    kleopatra_2000_2010,
+    minoriso_spk,
+    mn4_2000_2100,
+    pallas_2003_2015,
+    pallas_1900_2100,
+    vesta_2003_2013,
+    vesta_1900_2100,
+    vesta_for_ds1,
+    vestlute,
     codes_300ast_20100725_spk,
     codes_300ast_20100725_fk,
     C_G_1000012_2012_2017,
+    borrelly,
+    linear1999s4_Jul31,
+    minoriso_spk,
+    pcomets_v1_ieee,
+    siding_spring_v1,
+    siding_spring_v2,
+    swift_tuttle_1730_2010,
+    tempel1_2000_2020,
     c2013a1_s105_merged,
     ison,
     siding_spring_8_19_14,
@@ -4217,6 +14948,28 @@ export
     L2_de431,
     L4_de431,
     L5_de431,
+    de118,
+    de125,
+    de130,
+    de200,
+    de245_1960_1980,
+    de245_1990_2010,
+    de403,
+    de403_2000_2020,
+    de403s,
+    de405,
+    de405s,
+    de406s,
+    de408,
+    de410,
+    de410mini,
+    de410s,
+    de413,
+    de414,
+    de418,
+    de421,
+    de423,
+    de721_full,
     de430,
     de431_part_1,
     de431_part_2,
@@ -4227,6 +14980,205 @@ export
     de440s,
     de441_part_1,
     de441_part_2,
+    jup068,
+    jup069,
+    jup073_hst,
+    jup073s,
+    jup100,
+    jup104,
+    jup120_1996_2010,
+    jup147s,
+    jup164_20year,
+    jup166,
+    jup172,
+    jup202_2000_2010,
+    jup204,
+    jup214,
+    jup215,
+    jup219,
+    jup230_rocks,
+    jup230_short,
+    jup230,
+    jup230l,
+    jup251,
+    jup252,
+    jup253,
+    jup254,
+    jup255,
+    jup256,
+    jup261,
+    jup262,
+    jup263,
+    jup266,
+    jup267,
+    jup268,
+    jup269,
+    jup270,
+    jup282_1,
+    jup282,
+    jup291,
+    jup293,
+    jup294,
+    jup300,
+    jup309,
+    jup310,
+    jup310_2004,
+    jup310_2018,
+    jup310_2021,
+    jup329,
+    jup341,
+    jup343,
+    jup345,
+    jup365_2027,
+    mar022_1,
+    mar022_LONG,
+    mar033_7,
+    mar033_2000_2025,
+    mar063,
+    mar080,
+    mar085,
+    nep016_6,
+    nep016_95_05,
+    nep016,
+    nep022,
+    nep022m,
+    nep029,
+    nep050,
+    nep050_old,
+    nep055,
+    nep056,
+    nep057,
+    nep076_long,
+    nep076,
+    nep077,
+    nep078,
+    nep081,
+    nep085,
+    nep086,
+    nep087,
+    nep088,
+    nep090,
+    nep101,
+    nep102,
+    nep103,
+    pan_1998_2010,
+    plu006_4,
+    plu006_5,
+    plu008_special,
+    plu013,
+    plu017,
+    plu017xl,
+    plu020,
+    plu021,
+    plu022,
+    plu031,
+    plu042,
+    plu043,
+    plu055,
+    plu058,
+    sat060,
+    sat077_95_05,
+    sat077_2000_2025,
+    sat077s,
+    sat080,
+    sat081_4,
+    sat081_98_05_2,
+    sat086,
+    sat098_s,
+    sat101,
+    sat101_9_71_8_11,
+    sat124,
+    sat132,
+    sat133,
+    sat134,
+    sat143,
+    sat185,
+    sat186,
+    sat192,
+    sat196,
+    sat199,
+    sat207,
+    sat215,
+    sat227,
+    sat238,
+    sat240,
+    sat242,
+    sat245,
+    sat246,
+    sat247,
+    sat248,
+    sat251,
+    sat252,
+    sat252s,
+    sat254,
+    sat270,
+    sat271,
+    sat272,
+    sat273,
+    sat275,
+    sat276,
+    sat281,
+    sat286,
+    sat288,
+    sat291,
+    sat295,
+    sat296,
+    sat297,
+    sat298,
+    sat299,
+    sat317,
+    sat319,
+    sat341,
+    sat342_rocks,
+    sat342,
+    sat351,
+    sat353_rocks_extended,
+    sat353_rocks,
+    sat353,
+    sat354,
+    sat357_rocks_merge,
+    sat357,
+    sat359l,
+    sat360,
+    sat361,
+    sat362,
+    sat363_rocks_merge,
+    sat363,
+    sat365,
+    sat368_named_only,
+    sat368,
+    sat375,
+    sat378,
+    sat382_rocks_merge,
+    sat382,
+    sat393_rocks_pan,
+    sat393,
+    sat425,
+    sat427,
+    sat428,
+    sat450,
+    sat452,
+    sat453,
+    ura027_3,
+    ura031,
+    ura032,
+    ura033,
+    ura039,
+    ura039m,
+    ura042,
+    ura045,
+    ura063,
+    ura064,
+    ura071,
+    ura072,
+    ura074,
+    ura083,
+    ura086,
+    ura090,
+    ura090_1,
+    ura091_rocks_merge,
+    ura095,
+    ura112,
     jup344_s2003_j24,
     jup344,
     jup346,
@@ -4238,15 +15190,15 @@ export
     nep097xl_899,
     nep101xl_802,
     nep101xl,
-    nep103,
+    nep104,
+    nep105,
     plu060,
     sat393_daphnis,
     sat415,
     sat441,
     sat441xl_part_1,
     sat441xl_part_2,
-    sat452,
-    sat453,
+    sat454,
     ura111,
     ura111l,
     ura111xl_701,
@@ -4259,6 +15211,19 @@ export
     ura116,
     ura116xl,
     ura117,
+    dsnstns,
+    dss_17_prelim_itrf93_161110_spk,
+    dss_35_36_prelim_itrf93_140604_spk,
+    dss_35_36_prelim_itrf93_140620_spk,
+    dss_53_prelim_itrf93_201018_spk,
+    dss_56_prelim_itrf93_201018_spk,
+    earthstn,
+    earthstns_fx_040916,
+    earthstns_fx_050714,
+    earthstns_itrf93_040916,
+    earthstns_itrf93_050714,
+    misasa_54m_itrf93_210121_spk,
+    stations,
     dss_17_prelim_itrf93_190814_spk,
     dss_23_placeholder_itrf93_201017_spk,
     dss_30_itrf93_210201_spk,
@@ -4269,6 +15234,7 @@ export
     ndosl_140530_v01_spk,
     ndosl_190716_v01_spk,
     ndosl_190716_v02_spk,
+    tnosat_v001_20136108_jpl110_20220908,
     tnosat_v001_20000617_jpl082_20230601,
     tnosat_v001_20050000_jpl043_20220908,
     tnosat_v001_20090482_jpl043_20220908,
