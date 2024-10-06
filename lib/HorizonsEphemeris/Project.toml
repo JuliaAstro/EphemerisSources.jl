@@ -1,7 +1,7 @@
 name = "HorizonsEphemeris"
 uuid = "05ee1981-f730-42d8-b713-4f42d99733dc"
 authors = ["Joe Carpinelli <joseph.d.carpinelli@loopy.codes>"]
-version = "1.3.0"
+version = "1.4.0"
 
 [deps]
 AstroTime = "c61b5328-d09d-5e37-a9a8-0eb41c39009c"
