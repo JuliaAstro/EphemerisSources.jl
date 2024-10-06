@@ -62,9 +62,9 @@ distance(x, y, z) = sqrt(x^2 + y^2 + z^2)
 plot(
     collect(1:length(earth.cal)),
     @. distance(JWST.x - GAIA.x, JWST.y - GAIA.y, JWST.z - GAIA.z);
+    artsy...
     xlabel = "Days",
     ylabel = "Distance (KM)",
     label = :none,
-    artsy...
 )
 ```
