@@ -39,15 +39,6 @@ function package(name; path = joinpath("docs", name), branch)
     )
 end
 
-function docs(name; path = name, root = "")
-    MultiDocumenter.MultiDocRef(
-        upstream = joinpath(@__DIR__, "build", root),
-        path = path,
-        name = name,
-        fix_canonical_url = false,
-    )
-end
-
 content = [
     MultiDocumenter.MultiDocRef(
         upstream = joinpath(clonedir, "EphemerisSources.jl"),
@@ -58,14 +49,14 @@ content = [
         fix_canonical_url = false,
     ),
     MultiDocumenter.MultiDocRef(
-        upstream = joinpath(clonedir, "EphemerisSources.jl"),
-        path = "paper",
+        upstream = joinpath(clonedir, "pre-print"),
+        path = "pre-print",
         name = "Paper",
         branch = "joss-preprint",
         giturl = "https://github.com/JuliaAstro/EphemerisSources.jl.git",
         fix_canonical_url = false,
     ),
-    MultiDocumenter.DropDownNav(
+    MultiDocumenter.DropdownNav(
         "Interfaces",
         [package("EphemerisSourcesBase"; branch = "ephemeris-sources-base")],
     ),
