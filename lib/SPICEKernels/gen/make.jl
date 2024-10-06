@@ -69,7 +69,7 @@ Write all current kernel paths to the provided file name.
 """
 function code!(kernels::AbstractSet{<:AbstractString}; force::Bool = false)
     kernellist = collect(kernels)
-    oldkernels = collect(values(SPICEKernels.NAIF_KERNELS_URL))
+    oldkernels = collect(values(SPICEKernels.GENERIC_KERNELS))
     difference = setdiff(kernellist, oldkernels)
 
     if isempty(difference)
