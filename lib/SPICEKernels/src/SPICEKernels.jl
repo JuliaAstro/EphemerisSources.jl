@@ -39,14 +39,11 @@ The URL of NASA's generic kernel HTTP server.
 """
 const NAIF_KERNELS_URL = "https://naif.jpl.nasa.gov/pub/naif"
 
-"""
-The URL of the kernel listing on NASA's HTTP server.
-"""
-const NAIF_LS_LR_URL = "https://naif.jpl.nasa.gov/pub/ls-lR.gz"
-
 function __init__()
     global SPICE_KERNEL_DIR = @get_scratch!("kernels")
 end
+
+include(joinpath("gen", "map.jl"))
 
 """
 Given the ephemeris file name, download the file to the `SPICEKernels.jl` scratch space, 
@@ -67,7 +64,17 @@ function fetchkernel(
 )
 
     global SPICE_KERNEL_DIR
-    local kernelpath = kernel
+    local kernelpath
+
+    try
+        kernelpath = GENERIC_KERNELS[kernel]
+    catch e
+        if e isa KeyError
+            kernelpath = kernel
+        else
+            rethrow(e)
+        end
+    end
 
     Base.mkpath(directory)
     cachename = joinpath(SPICE_KERNEL_DIR, basename(kernelpath))
@@ -91,11 +98,7 @@ function fetchkernel(
 end
 
 include("types.jl")
-# include("gen/projects.jl")
-
-using Reexport
-@reexport using .Types
-# @reexport using .Generic
+include("gen/kernels.jl")
 
 """
 Construct a `SPICEKernel` instance, with the type informed by the provided file's extension.
