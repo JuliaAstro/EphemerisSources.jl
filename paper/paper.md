@@ -111,13 +111,9 @@ CSPICE functions to retrieve their desired data. `SPICEKernels.jl` and
 `SPICEBodies.jl` offer idiomatic interfaces to ephemeris fetching and
 parsing parsing respectively. The `SPICEKernels.jl` project uses
 continuous integration to fetch and parse publicly available
-[kernels](https://naif.jpl.nasa.gov/pub/naif/), and expose each kernel
-as a variable in a new release version. Tens of thousands of kernels are
-available. Due to the large number of available kernel files, a subset —
-the [generic
-kernels](https://naif.jpl.nasa.gov/pub/naif/generic_kernels/) — are
-parsed for additional information; SPICE Toolkit executables, provided
-by
+[kernels](https://naif.jpl.nasa.gov/pub/naif/generic_kernels), and
+expose each kernel as a variable in a new release version. SPICE Toolkit
+executables, provided by
 [`SPICEApplications.jl`](https://github.com/JuliaAstro/SPICE.jl/tree/main/lib/SPICEApplications),
 are used to retrieve a description of each kernel file's contents, and
 place that description in the corresponding variable's docstring.
@@ -161,7 +157,7 @@ code](https://discourse.julialang.org/t/unpack-namedtuple-into-a-function-defini
 to support static keyword arguments. This contribution substantially
 improved the usability of `HorizonsAPI.jl`.
 
-# Disclaimers 
+# Disclaimers
 
 The software developed in this paper, and the paper itself, was written
 by the author in a personal capacity. This work does not reflect the
