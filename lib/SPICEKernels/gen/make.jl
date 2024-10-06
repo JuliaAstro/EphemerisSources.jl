@@ -231,5 +231,5 @@ import JSON3
 
 sitemap = JSON3.read("ls-lR.json")
 kernels = traverse(sitemap)
-filter!(kernel -> occursin(kernel, "generic_kernels"), kernels)
+filter!(kernel -> occursin("generic_kernels", kernel), kernels)
 code!(kernels)
