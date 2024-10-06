@@ -4,7 +4,7 @@ API SOURCE: NASA/JPL Horizons API
 
 
 *******************************************************************************
-Ephemeris / API_USER Sun Oct  6 08:47:01 2024 Pasadena, USA      / Horizons
+Ephemeris / API_USER Sun Oct  6 08:47:20 2024 Pasadena, USA      / Horizons
 *******************************************************************************
 Target body name: 99942 Apophis (2004 MN4)        {source: JPL#218}
 Center body name: Earth (399)                     {source: DE441}
