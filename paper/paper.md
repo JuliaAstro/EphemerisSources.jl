@@ -113,17 +113,16 @@ CSPICE functions to retrieve their desired data. `SPICEKernels.jl` and
 parsing respectively. The `SPICEKernels.jl` project uses
 continuous integration to fetch and parse publicly-available
 [kernels](https://naif.jpl.nasa.gov/pub/naif/generic_kernels) and
-expose each kernel as a variable in a new release version. SPICE Toolkit
+expose each kernel as a variable in a new package release. SPICE Toolkit
 executables, provided by
 [`SPICEApplications.jl`](https://github.com/JuliaAstro/SPICE.jl/tree/main/lib/SPICEApplications),
-are used to retrieve a description of each kernel file's contents and
-place that description in the corresponding variable's docstring.
+are used to fill each corresponding kernel variable's docstring with a description
+of the kernel's contents.
 `SPICEKernels.jl` users can utilize tab-completion and Julia's built-in
-documentation tools to inspect kernel contents and download the appropriate
-generic kernel for their application. Once each kernel is downloaded and
+documentation tools to help select the most appropriate
+generic kernel for their application. Once each kernel is
 loaded into the SPICE kernel pool with `SPICE.jl`, users can use
-`SPICEBodies.jl` to idiomatically fetch state vector data at a provided
-instance in time.
+`SPICEBodies.jl` to idiomatically fetch state vector data at provided epochs.
 
 # Usage
 
