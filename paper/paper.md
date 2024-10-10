@@ -11,7 +11,7 @@ tags:
   - Horizons
 
 authors:
-  - name: Joseph D Carpinelli
+  - name: Joseph D. Carpinelli
     orcid: 0000-0001-8655-8125
     email: joseph.d.carpinelli@loopy.codes
     affiliations:
