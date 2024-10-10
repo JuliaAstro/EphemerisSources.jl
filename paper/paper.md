@@ -1,5 +1,5 @@
 ---
-title: EphemerisSources.jl: Idiomatic Ephemeris Sourcing and Parsing in Julia
+title: "EphemerisSources.jl: Idiomatic Ephemeris Sourcing and Parsing in Julia"
 
 tags:
   - Astrodynamics
