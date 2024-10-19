@@ -129,9 +129,9 @@
       });
       headroom.init();
     });
-    </script><script src="../site_libs/manuscript-notebook/headroom.min.js"></script><script src="../site_libs/clipboard/clipboard.min.js"></script><script src="../site_libs/quarto-html/quarto.js"></script><script src="../site_libs/quarto-html/popper.min.js"></script><script src="../site_libs/quarto-html/tippy.umd.min.js"></script><script src="../site_libs/quarto-html/anchor.min.js"></script><link href="../site_libs/quarto-html/tippy.css" rel="stylesheet"/><link class="quarto-color-scheme" href="../site_libs/quarto-html/quarto-syntax-highlighting.css" id="quarto-text-highlighting-styles" rel="stylesheet"/><link class="quarto-color-scheme quarto-color-alternate" href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" id="quarto-text-highlighting-styles" rel="prefetch"/><script src="../site_libs/bootstrap/bootstrap.min.js"></script><link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet"/><link class="quarto-color-scheme" data-mode="light" href="../site_libs/bootstrap/bootstrap.min.css" id="quarto-bootstrap" rel="stylesheet"/><link class="quarto-color-scheme quarto-color-alternate" data-mode="dark" href="../site_libs/bootstrap/bootstrap-dark.min.css" id="quarto-bootstrap" rel="prefetch"/><script crossorigin="anonymous" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script><script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script><link href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css" rel="stylesheet" type="text/css"/><link href="../static.css" rel="stylesheet"/><link href="../../assets/default/multidoc.css" rel="stylesheet" type="text/css"/><link href="../../assets/default/flexsearch.css" rel="stylesheet" type="text/css"/></head><body class="quarto-notebook"><nav id="multi-page-nav"><a class="brand" href="https://juliaastro.org"><img alt="home" src="http://juliaastro.org/dev/assets/logo.svg"/></a><div class="hidden-on-mobile" id="nav-items"><a class="nav-link nav-item" href="../../docs/">EphemerisSources.jl</a><a class="nav-link active nav-item" href="../">Paper</a><div class="nav-dropdown"><button class="nav-item dropdown-label">Interfaces</button><ul class="nav-dropdown-container"><a class="nav-link nav-item" href="../../docs/EphemerisSourcesBase/">EphemerisSourcesBase</a></ul></div><div class="nav-dropdown"><button class="nav-item dropdown-label">SPICE</button><ul class="nav-dropdown-container"><a class="nav-link nav-item" href="../../docs/SPICEKernels/">SPICEKernels</a><a class="nav-link nav-item" href="../../docs/SPICEBodies/">SPICEBodies</a></ul></div><div class="nav-dropdown"><button class="nav-item dropdown-label">Horizons</button><ul class="nav-dropdown-container"><a class="nav-link nav-item" href="../../docs/HorizonsAPI/">HorizonsAPI</a><a class="nav-link nav-item" href="../../docs/HorizonsEphemeris/">HorizonsEphemeris</a></ul></div><div class="search nav-item"><input id="search-input" placeholder="Search..."/><ul class="suggestions hidden" id="search-result-container"></ul><div class="search-keybinding">/</div></div></div><button id="multidoc-toggler"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg></button></nav><div class="headroom fixed-top bg-primary" id="quarto-embed-header"><a class="btn btn-primary quarto-back-link" href="" onclick="window.quartoBackToArticle(); return false;"><i class="bi bi-caret-left"></i> Back to Article</a><h6><i class="bi bi-journal-code"></i> Case Study: JWST &amp; GAIA</h6><a class="btn btn-primary quarto-download-embed" download="closest-approach.ipynb" href="../notebooks/closest-approach.ipynb">Download Notebook</a></div><header class="quarto-title-block default toc-left page-columns page-full" id="title-block-header"><div class="quarto-title-banner page-columns page-full"><div class="quarto-title column-body"><h1 class="title">Case Study: JWST &amp; GAIA</h1></div><div class="quarto-title-meta-container"><div class="quarto-title-meta-column-start"><div class="quarto-title-meta"></div></div><div class="quarto-title-meta-column-end quarto-other-formats-target"></div></div><div class="quarto-other-links-text-target"></div></div></header><div class="page-columns page-rows-contents page-layout-article toc-left" id="quarto-content"><div class="sidebar toc-left" id="quarto-sidebar-toc-left"></div><div class="sidebar margin-sidebar zindex-bottom" id="quarto-margin-sidebar"></div><main class="content quarto-banner-title-block" id="quarto-document-content"><div class="callout-note callout callout-style-simple"><div class="callout-body d-flex"><div class="callout-icon-container"><i class="callout-icon"></i></div><div class="callout-body-container"><p><i>
+    </script><script src="../site_libs/manuscript-notebook/headroom.min.js"></script><script src="../site_libs/clipboard/clipboard.min.js"></script><script src="../site_libs/quarto-html/quarto.js"></script><script src="../site_libs/quarto-html/popper.min.js"></script><script src="../site_libs/quarto-html/tippy.umd.min.js"></script><script src="../site_libs/quarto-html/anchor.min.js"></script><link href="../site_libs/quarto-html/tippy.css" rel="stylesheet"/><link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" id="quarto-text-highlighting-styles" rel="stylesheet"/><script src="../site_libs/bootstrap/bootstrap.min.js"></script><link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet"/><link data-mode="light" href="../site_libs/bootstrap/bootstrap.min.css" id="quarto-bootstrap" rel="stylesheet"/><script crossorigin="anonymous" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script><script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script><link href="https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css" rel="stylesheet" type="text/css"/><link href="../static.css" rel="stylesheet"/><link href="../../assets/default/multidoc.css" rel="stylesheet" type="text/css"/><link href="../../assets/default/flexsearch.css" rel="stylesheet" type="text/css"/></head><body class="quarto-notebook"><nav id="multi-page-nav"><a class="brand" href="https://juliaastro.org"><img alt="home" src="http://juliaastro.org/dev/assets/logo.svg"/></a><div class="hidden-on-mobile" id="nav-items"><a class="nav-link nav-item" href="../../docs/">EphemerisSources.jl</a><a class="nav-link active nav-item" href="../">Paper</a><div class="nav-dropdown"><button class="nav-item dropdown-label">Interfaces</button><ul class="nav-dropdown-container"><a class="nav-link nav-item" href="../../docs/EphemerisSourcesBase/">EphemerisSourcesBase</a></ul></div><div class="nav-dropdown"><button class="nav-item dropdown-label">SPICE</button><ul class="nav-dropdown-container"><a class="nav-link nav-item" href="../../docs/SPICEKernels/">SPICEKernels</a><a class="nav-link nav-item" href="../../docs/SPICEBodies/">SPICEBodies</a></ul></div><div class="nav-dropdown"><button class="nav-item dropdown-label">Horizons</button><ul class="nav-dropdown-container"><a class="nav-link nav-item" href="../../docs/HorizonsAPI/">HorizonsAPI</a><a class="nav-link nav-item" href="../../docs/HorizonsEphemeris/">HorizonsEphemeris</a></ul></div><div class="search nav-item"><input id="search-input" placeholder="Search..."/><ul class="suggestions hidden" id="search-result-container"></ul><div class="search-keybinding">/</div></div></div><button id="multidoc-toggler"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg></button></nav><div class="headroom fixed-top bg-primary" id="quarto-embed-header"><a class="btn btn-primary quarto-back-link" href="" onclick="window.quartoBackToArticle(); return false;"><i class="bi bi-caret-left"></i> Back to Article</a><h6><i class="bi bi-journal-code"></i> Case Study: JWST &amp; GAIA</h6><a class="btn btn-primary quarto-download-embed" download="closest-approach.ipynb" href="../notebooks/closest-approach.ipynb">Download Notebook</a></div><header class="quarto-title-block default toc-left page-columns page-full" id="title-block-header"><div class="quarto-title-banner page-columns page-full"><div class="quarto-title column-body"><h1 class="title">Case Study: JWST &amp; GAIA</h1></div><div class="quarto-title-meta-container"><div class="quarto-title-meta-column-start"><div class="quarto-title-meta"></div></div><div class="quarto-title-meta-column-end quarto-other-formats-target"></div></div><div class="quarto-other-links-text-target"></div></div></header><div class="page-columns page-rows-contents page-layout-article toc-left" id="quarto-content"><div class="sidebar toc-left" id="quarto-sidebar-toc-left"></div><div class="sidebar margin-sidebar zindex-bottom" id="quarto-margin-sidebar"></div><main class="content quarto-banner-title-block" id="quarto-document-content"><div class="callout-note callout callout-style-simple"><div class="callout-body d-flex"><div class="callout-icon-container"><i class="callout-icon"></i></div><div class="callout-body-container"><p><i>
               This page is a <b>pre-print</b>! The published paper is available at 
-              the <a href="https://joss.theoj.org">Journal of Open Source Software</a>.
+              the <a href="https://joss.theoj.org/papers/10.21105/joss.06914">Journal of Open Source Software</a>.
             </i></p></div></div></div><div class="cell markdown" id="cell-1"><p>NASA’s <a href="https://science.nasa.gov/mission/webb/">James Webb Space Telescope</a> (JWST) and ESA’s <a href="https://www.esa.int/Science_Exploration/Space_Science/Gaia">Gaia</a> star surveyor both orbit the Earth-Sun Lagrange Point #2. How close do the two spacecraft get to one another? How do their orbits compare? Simple ephemeris queries to the Horizons ephemeris platform can answer these questions!</p><p>First, let’s fetch Cartesian state vector data for Earth, JWST, and Gaia with respect to the Sun. We can do so using <code>HorizonsEphemeris.ephemeris</code>, which is re-exported by <code>EphemerisSources.jl</code>.</p></div><div class="cell-container"><div class="cell-decorator"><pre>In [10]:</pre></div><div class="cell" data-execution_count="10" id="cell-2"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb1-1"><a aria-hidden="true" href="#cb1-1" tabindex="-1"></a><span class="im">using</span> <span class="bu">EphemerisSources</span></span>
 <span id="cb1-2"><a aria-hidden="true" href="#cb1-2" tabindex="-1"></a><span class="im">using</span> <span class="bu">AstroTime</span>, <span class="bu">Dates</span></span>
 <span id="cb1-3"><a aria-hidden="true" href="#cb1-3" tabindex="-1"></a></span>
@@ -190,150 +190,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

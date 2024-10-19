@@ -22,19 +22,15 @@ format:
                     <div class="callout-body-container">
                     <p><i>
                       This page is a <b>pre-print</b>! The published paper is available at 
-                      the <a href="https://joss.theoj.org">Journal of Open Source Software</a>.
+                      the <a href="https://joss.theoj.org/papers/10.21105/joss.06914">Journal of Open Source Software</a>.
                     </i></p>
                 </div>
             </div>
         </div>
 
     theme: 
-      light: 
-        - _style/light.scss
-        - _extensions/cadojo/catppuccin/latte.scss
-      dark: 
-        - _style/dark.scss
-        - _extensions/cadojo/catppuccin/mocha.scss
+      - _style/light.scss
+      - _extensions/cadojo/catppuccin/latte.scss
 
     css: static.css
 
