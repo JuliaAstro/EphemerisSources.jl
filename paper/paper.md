@@ -15,13 +15,7 @@ authors:
     orcid: 0000-0001-8655-8125
     email: joseph.d.carpinelli@loopy.codes
     affiliations:
-      - ref: 1
-    affiliation: 1
-
-affiliations:
-  - name: Independent Researcher, USA
-    index: 1
-    id: 1
+    - name: Independent Researcher, USA
 
 date: 09 June 2024
 bibliography: references.bib
@@ -72,7 +66,7 @@ presented in this paper may be used by students and professionals to
 idiomatically inspect and use Cartesian state vector ephemeris data,
 without prior knowledge of SPICE Toolkit utilities or REST APIs.
 
-### JPL Horizons
+## JPL Horizons
 
 The two Horizons-related packages presented in this paper ---
 [`HorizonsAPI.jl`](https://github.com/JuliaAstro/EphemerisSources.jl/tree/main/lib/HorizonsAPI)

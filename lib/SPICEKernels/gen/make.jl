@@ -178,7 +178,7 @@ function code!(kernels::AbstractSet{<:AbstractString}; force::Bool = false)
                 type = implement(kernel)
 
                 if count(k -> sanitize(basename(k)) == name, kernellist) > 1
-                    name = name * "_" * lowercase(last(split(string(type), ".")))
+                    name = name * "_" * lowercase(last(splitext(kernel)))
                 end
 
                 push!(toexport, name)
