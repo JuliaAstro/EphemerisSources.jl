@@ -178,7 +178,8 @@ function code!(kernels::AbstractSet{<:AbstractString}; force::Bool = false)
                 type = implement(kernel)
 
                 if count(k -> sanitize(basename(k)) == name, kernellist) > 1
-                    name = name * "_" * lowercase(last(rsplit(path, "."; limit = 1)))
+                    name =
+                        name * "_" * lowercase(last(rsplit(basename(path), "."; limit = 1)))
                 end
 
                 push!(toexport, name)
