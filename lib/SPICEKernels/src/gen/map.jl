@@ -3,7 +3,7 @@
 #
 
 """
-Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2024-10-19. [1]
+Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2024-10-06. [1]
 
 # Extended Help
 
@@ -96,7 +96,7 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "pck00009.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/pck00009.tpc",
     "preliminary_pck00004.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/a_old_versions/preliminary_pck00004.tpc",
     "de-403-masses.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/de-403-masses.tpc",
-    "earth_000101_250113_241017.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_250113_241017.bpc",
+    "earth_000101_241229_241005.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_000101_241229_241005.bpc",
     "earth_1962_240827_2124_combined.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_1962_240827_2124_combined.bpc",
     "earth_200101_990827_predict.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_200101_990827_predict.bpc",
     "earth_620120_240827.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/earth_620120_240827.bpc",
@@ -225,7 +225,6 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "jup310_2004.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup310_2004.bsp",
     "jup310_2018.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup310_2018.bsp",
     "jup310_2021.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup310_2021.bsp",
-    "jup310_2023.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup310_2023.bsp",
     "jup329.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup329.bsp",
     "jup341.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup341.bsp",
     "jup343.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/a_old_versions/jup343.bsp",
