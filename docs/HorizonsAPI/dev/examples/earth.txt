@@ -4,7 +4,7 @@ API SOURCE: NASA/JPL Horizons API
 
 
 *******************************************************************************
-Ephemeris / API_USER Sun Oct 20 15:45:39 2024 Pasadena, USA      / Horizons
+Ephemeris / API_USER Wed Oct 23 18:52:30 2024 Pasadena, USA      / Horizons
 *******************************************************************************
 Target body name: Earth (399)                     {source: DE441}
 Center body name: Solar System Barycenter (0)     {source: DE441}
