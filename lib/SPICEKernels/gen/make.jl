@@ -233,4 +233,5 @@ import JSON3
 sitemap = JSON3.read("ls-lR.json")
 kernels = traverse(sitemap)
 filter!(kernel -> occursin("generic_kernels", kernel), kernels)
+filter!(kernel -> !startswith(basename(kernel), "earth_000101"), kernels)
 code!(kernels)
