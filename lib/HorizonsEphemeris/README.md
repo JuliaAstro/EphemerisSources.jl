@@ -1,6 +1,3 @@
-[![Tests](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml/badge.svg)](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml)
-[![Documentation](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Documentation.yml/badge.svg)](https://juliaastro.org/EphemerisSources.jl/docs/HorizonsEphemeris/stable)
-
 # `HorizonsEphemeris`
 
 _A wrapper around the [wrapper](https://github.com/JuliaAstro/HorizonsAPI.jl) around

@@ -1,6 +1,3 @@
-[![Tests](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml/badge.svg)](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml)
-[![Documentation](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Documentation.yml/badge.svg)](https://juliaastro.org/EphemerisSources.jl/docs/SPICEBodies/stable)
-
 # `SPICEBodies`
 
 _A wrapper around NAIF's SPICE kernel solar system ephemeris platform!_

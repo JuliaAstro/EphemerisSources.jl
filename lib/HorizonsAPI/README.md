@@ -1,6 +1,3 @@
-[![Tests](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml/badge.svg)](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml)
-[![Documentation](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Documentation.yml/badge.svg)](https://juliaastro.org/EphemerisSources.jl/docs/HorizonsAPI/stable)
-
 # `HorizonsAPI`
 
 _A wrapper around JPL's REST API for the Horizons solar system ephemeris
