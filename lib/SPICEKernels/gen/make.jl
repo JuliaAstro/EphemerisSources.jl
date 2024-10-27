@@ -67,17 +67,17 @@ end
 """
 Write all current kernel paths to the provided file name.
 """
-function code!(kernels::AbstractSet{<:AbstractString}; force::Bool = false)
+function code!(kernels::AbstractSet{<:AbstractString})
     kernellist = collect(kernels)
     oldkernels = collect(values(SPICEKernels.GENERIC_KERNELS))
-    difference = setdiff(kernellist, oldkernels)
+    difference = union(setdiff(kernellist, oldkernels), setdiff(oldkernels, kernellist))
 
     if isempty(difference)
         @info "No changes to generic kernel paths."
-        if !force
+        if
             return nothing
         end
-    elseif !force
+    elseif
         changes = join(", ", difference)
         @info "The following kernel names been added or removed: $changes."
     end
@@ -235,4 +235,4 @@ kernels = traverse(sitemap)
 filter!(kernel -> occursin("generic_kernels", kernel), kernels)
 filter!(kernel -> !startswith(basename(kernel), "earth_000101"), kernels)
 filter!(kernel -> !occursin("old_versions", kernel), kernels)
-code!(kernels; force = "force" in ARGS)
+code!(kernels)
