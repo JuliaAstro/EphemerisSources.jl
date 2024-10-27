@@ -74,9 +74,6 @@ function code!(kernels::AbstractSet{<:AbstractString})
 
     if isempty(difference)
         @info "No changes to generic kernel paths."
-        if
-            return nothing
-        end
     else
         changes = join(", ", difference)
         @info "The following kernel names been added or removed: $changes."
