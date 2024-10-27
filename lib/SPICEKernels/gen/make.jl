@@ -77,7 +77,7 @@ function code!(kernels::AbstractSet{<:AbstractString})
         if
             return nothing
         end
-    elseif
+    else
         changes = join(", ", difference)
         @info "The following kernel names been added or removed: $changes."
     end
