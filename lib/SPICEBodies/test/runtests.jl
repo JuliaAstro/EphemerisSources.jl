@@ -4,7 +4,7 @@ using SPICE: furnsh
 using SPICEKernels
 using AstroTime
 
-furnsh(de440(), latest_leapseconds_lsk(), gm_de440(), pck00011())
+furnsh(de440(), latest_leapseconds_tls(), gm_de440(), pck00011())
 
 @testset "Constructors" begin
     @test KernelBody("earth") isa KernelBody
