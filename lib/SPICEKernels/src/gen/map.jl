@@ -3,7 +3,7 @@
 #
 
 """
-Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2024-10-27. [1]
+Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2025-03-02. [1]
 
 # Extended Help
 
@@ -86,6 +86,8 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "de440s.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de440s.bsp",
     "de441_part-1.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de441_part-1.bsp",
     "de441_part-2.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de441_part-2.bsp",
+    "de442.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442.bsp",
+    "de442s.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442s.bsp",
     "jup344-s2003_j24.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup344-s2003_j24.bsp",
     "jup344.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup344.bsp",
     "jup346.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup346.bsp",
@@ -106,8 +108,6 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "sat441xl_part-1.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441xl_part-1.bsp",
     "sat441xl_part-2.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441xl_part-2.bsp",
     "sat454.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat454.bsp",
-    "ura111.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111.bsp",
-    "ura111l.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111l.bsp",
     "ura111xl-701.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-701.bsp",
     "ura111xl-702.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-702.bsp",
     "ura111xl-703.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-703.bsp",
@@ -118,6 +118,7 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "ura116.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura116.bsp",
     "ura116xl.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura116xl.bsp",
     "ura117.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura117.bsp",
+    "ura182.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura182.bsp",
     "dss_17_prelim_itrf93_190814.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/dss_17_prelim_itrf93_190814.bsp",
     "dss_23_placeholder_itrf93_201017.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/dss_23_placeholder_itrf93_201017.bsp",
     "dss_30_itrf93_210201.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/stations/dss_30_itrf93_210201.bsp",
