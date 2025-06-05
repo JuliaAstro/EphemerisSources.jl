@@ -1,5 +1,7 @@
-[![Tests](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml/badge.svg)](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Tests.yml)
-[![Documentation](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/Documentation.yml/badge.svg)](https://juliaastro.org/EphemerisSources.jl/docs/stable)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliaastro.org/EphemerisSources/stable)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://juliaastro.org/EphemerisSources.jl/dev)
+
+[![Tests](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaAstro/EphemerisSources.jl/actions/workflows/CI.yml)
 [![JOSS](https://joss.theoj.org/papers/2ecaf389e70086ec2b560cb10f454267/status.svg)](https://joss.theoj.org/papers/2ecaf389e70086ec2b560cb10f454267)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13895994.svg)](https://doi.org/10.5281/zenodo.13895994)
 <!-- [![CodeCov](https://codecov.io/gh/JuliaAstro/EphemerisSources.jl/graph/badge.svg?token=s71ZeTEo4F)](https://codecov.io/gh/JuliaAstro/EphemerisSources.jl) -->
