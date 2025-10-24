@@ -4,9 +4,10 @@ using Test, HorizonsAPI
 
     response = HorizonsAPI.request(-1; format="text", MAKE_EPHEM=false, OBJ_DATA=false)
 
+    normalize_newlines(s) = replace(s, r"\r\n" => "\n")
     response = String(response.body)
-    response = join(split(response, "\n")[1:2], "\n")
-    regression = read("regression/api-version.txt", String)
+    response = join(split(response, "\n")[1:2], "\n") |> strip |> normalize_newlines
+    regression = read("regression/api-version.txt", String) |> strip |> normalize_newlines
 
     @test strip(response) == strip(regression)
 
