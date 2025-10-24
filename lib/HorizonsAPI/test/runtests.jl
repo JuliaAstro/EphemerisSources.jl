@@ -4,9 +4,10 @@ using Test, HorizonsAPI
 
     response = HorizonsAPI.request(-1; format="text", MAKE_EPHEM=false, OBJ_DATA=false)
 
+    normalize_newlines(s) = replace(s, r"\r\n" => "\n")
     response = String(response.body)
-    response = join(split(response, "\n")[1:2], "\n")
-    regression = read("regression/api-version.txt", String)
+    response = join(split(response, "\n")[1:2], "\n") |> strip |> normalize_newlines
+    regression = read("regression/api-version.txt", String) |> strip |> normalize_newlines
 
     @test strip(response) == strip(regression)
 
@@ -16,10 +17,11 @@ end
 
     response = fetch_properties(499; format="text")
 
+    normalize_newlines(s) = replace(s, r"\r\n" => "\n")
     response = String(response.body)
-    response = join(split(response, "\n")[3:end], "\n")
+    response = join(split(response, "\n")[3:end], "\n") |> normalize_newlines
 
-    regression = read("regression/mars-properties.txt", String)
+    regression = read("regression/mars-properties.txt", String) |> normalize_newlines
 
     @test strip(response) == strip(regression)
 
@@ -35,13 +37,14 @@ end
         format="text"
     )
 
+    normalize_newlines(s) = replace(s, r"\r\n" => "\n")
     response = String(response.body)
     _, response = split(response, "\$\$SOE"; limit=2)
     response, _ = split(response, "\$\$EOE"; limit=2)
 
     regression = read("regression/jupiter-vectors.txt", String)
 
-    @test strip(response) == strip(regression)
+    @test normalize_newlines(strip(response)) == normalize_newlines(strip(regression))
 
 end
 
