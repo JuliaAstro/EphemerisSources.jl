@@ -23,7 +23,7 @@ on:
 
 jobs:
   test-subpackages:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
@@ -35,6 +35,10 @@ jobs:
           - SPICEBodies
         version:
           - "1"
+        os:
+          - ubuntu-latest
+          - macos-latest
+          - windows-latest
     steps:
       - uses: actions/checkout@v4
       - uses: julia-actions/setup-julia@v2
@@ -55,13 +59,17 @@ jobs:
         env:
           GROUP: ${{ matrix.group }}
   test-superpackage:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     needs: [test-subpackages]
     strategy:
       fail-fast: false
       matrix:
         version:
           - "1"
+        os:
+          - ubuntu-latest
+          - macos-latest
+          - windows-latest
     steps:
       - uses: actions/checkout@v4
       - uses: julia-actions/setup-julia@v2
