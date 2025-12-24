@@ -16,7 +16,7 @@ jobs:
           - SPICEKernels
           - SPICEBodies
     steps:
-      - uses: peter-evans/commit-comment@v3
+      - uses: peter-evans/commit-comment@v4
         with:
           body: |
             @JuliaRegistrator register subdir="lib/${{ matrix.group }}"
@@ -27,7 +27,7 @@ jobs:
     name: Register Superpackage
     runs-on: ubuntu-latest
     steps:
-      - uses: peter-evans/commit-comment@v3
+      - uses: peter-evans/commit-comment@v4
         with:
           body: |
             @JuliaRegistrator register"
