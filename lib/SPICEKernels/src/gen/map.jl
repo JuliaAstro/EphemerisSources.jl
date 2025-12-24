@@ -3,7 +3,7 @@
 #
 
 """
-Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2025-10-24. [1]
+Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2025-12-24. [1]
 
 # Extended Help
 
