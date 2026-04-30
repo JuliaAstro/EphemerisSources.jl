@@ -3,7 +3,7 @@
 #
 
 """
-Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2026-01-09. [1]
+Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2026-04-30. [1]
 
 # Extended Help
 
@@ -23,6 +23,8 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "phobos_3_3.bds" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/dsk/satellites/phobos_3_3.bds",
     "earth_assoc_itrf93.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/planets/earth_assoc_itrf93.tf",
     "jup347_nameid.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/jup347_nameid.tf",
+    "jup348_nameid.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/jup348_nameid.tf",
+    "jup349_nameid.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/jup349_nameid.tf",
     "moon_080317.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/moon_080317.tf",
     "moon_assoc_me.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/moon_assoc_me.tf",
     "moon_assoc_pa.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/moon_assoc_pa.tf",
@@ -32,6 +34,8 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "sat455_nameid.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat455_nameid.tf",
     "sat456_nameid.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat456_nameid.tf",
     "sat457_nameid.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat457_nameid.tf",
+    "sat458_nameid.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat458_nameid.tf",
+    "sat459_nameid.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat459_nameid.tf",
     "ura117_nameid.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/ura117_nameid.tf",
     "dss_17_prelim_itrf93_161110.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/dss_17_prelim_itrf93_161110.tf",
     "dss_17_prelim_itrf93_190814.tf" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/stations/dss_17_prelim_itrf93_190814.tf",
@@ -89,6 +93,8 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "de442.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442.bsp",
     "de442s.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/de442s.bsp",
     "jup347.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup347.bsp",
+    "jup348.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup348.bsp",
+    "jup349.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup349.bsp",
     "jup365.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.bsp",
     "mar099.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar099.bsp",
     "mar099s.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar099s.bsp",
@@ -109,6 +115,7 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "sat455.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat455.bsp",
     "sat456.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat456.bsp",
     "sat457.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat457.bsp",
+    "sat459.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat459.bsp",
     "ura111xl-701.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-701.bsp",
     "ura111xl-702.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-702.bsp",
     "ura111xl-703.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/ura111xl-703.bsp",

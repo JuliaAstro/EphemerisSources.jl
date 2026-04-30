@@ -10,7 +10,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -44,7 +44,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -78,7 +78,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -112,7 +112,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -146,7 +146,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -180,7 +180,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -214,7 +214,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -248,7 +248,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -282,7 +282,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -316,7 +316,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -337,7 +337,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -352,13 +352,55 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const jup347_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/jup347_nameid.tf")
 
 """
+A FK kernel of size 0.5 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2026-04-30.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/jup348_nameid.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const jup348_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/jup348_nameid.tf")
+
+"""
+A FK kernel of size 1.3 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2026-04-30.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/jup349_nameid.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const jup349_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/jup349_nameid.tf")
+
+"""
 A FK kernel of size 20.9 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -379,7 +421,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -400,7 +442,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -421,7 +463,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -442,7 +484,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -463,7 +505,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -484,7 +526,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -505,7 +547,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -526,7 +568,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -541,13 +583,55 @@ A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file f
 const sat457_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat457_nameid.tf")
 
 """
+A FK kernel of size 1.0 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2026-04-30.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat458_nameid.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const sat458_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat458_nameid.tf")
+
+"""
+A FK kernel of size 1.6 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2026-04-30.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat459_nameid.tf
+
+## Description
+
+```
+A `SPICEKernels.FramesKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const sat459_nameid = FK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/fk/satellites/sat459_nameid.tf")
+
+"""
 A FK kernel of size 0.3 KB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -568,7 +652,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -589,7 +673,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -610,7 +694,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -631,7 +715,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -652,7 +736,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -673,7 +757,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -694,7 +778,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -715,7 +799,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -736,7 +820,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -757,7 +841,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -778,7 +862,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -799,7 +883,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -820,7 +904,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -841,7 +925,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -862,7 +946,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -883,7 +967,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -915,7 +999,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -947,7 +1031,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -979,7 +1063,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1000,7 +1084,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1018,7 +1102,7 @@ Summary for: earth_latest_high_prec.bpc
 Frame: ITRF93 (3000)
        Start of Interval (ET)              End of Interval (ET)
        -----------------------------       -----------------------------
-       2000 JAN 01 00:01:04.183            2026 APR 06 00:01:09.185
+       2000 JAN 01 00:01:04.183            2026 JUL 26 00:01:09.183
  
 
 ```
@@ -1032,7 +1116,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1053,7 +1137,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1074,7 +1158,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1095,7 +1179,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1127,7 +1211,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1159,7 +1243,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1191,7 +1275,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1223,7 +1307,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1244,7 +1328,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1265,7 +1349,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1286,7 +1370,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1417,7 +1501,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1438,7 +1522,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1470,7 +1554,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1502,7 +1586,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1534,7 +1618,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1566,7 +1650,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1606,7 +1690,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1638,7 +1722,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1670,7 +1754,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1702,7 +1786,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1734,7 +1818,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1770,7 +1854,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1806,7 +1890,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1842,7 +1926,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1878,7 +1962,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1914,7 +1998,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1950,7 +2034,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -1986,7 +2070,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2022,7 +2106,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2058,7 +2142,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2094,7 +2178,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2130,7 +2214,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2166,7 +2250,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2223,13 +2307,85 @@ Bodies: EARTH BARYCENTER (3)    KALE (537)              569
 const jup347 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup347.bsp")
 
 """
+A SPK kernel of size 57.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2026-04-30.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup348.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup348.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EARTH (399)             55528
+        JUPITER BARYCENTER (5)  JUPITER (599)           55529
+        SUN (10)                55527                   55530
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1799 JAN 16 00:00:00.000            2199 DEC 15 00:00:00.000
+ 
+
+```
+"""
+const jup348 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup348.bsp")
+
+"""
+A SPK kernel of size 93.0 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2026-04-30.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup349.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup349.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    55533                   55540
+        JUPITER BARYCENTER (5)  55534                   55541
+        SUN (10)                55535                   55542
+        EARTH (399)             55536                   55543
+        JUPITER (599)           55537                   55544
+        55531                   55538
+        55532                   55539
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1799 JAN 16 00:00:00.000            2199 DEC 15 00:00:00.000
+ 
+
+```
+"""
+const jup349 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup349.bsp")
+
+"""
 A SPK kernel of size 1.1 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2265,7 +2421,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2299,7 +2455,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2333,7 +2489,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2369,7 +2525,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2402,7 +2558,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2434,7 +2590,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2466,7 +2622,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2498,7 +2654,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2531,7 +2687,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2566,7 +2722,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2599,7 +2755,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2634,7 +2790,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2666,7 +2822,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2702,7 +2858,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2740,7 +2896,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2774,7 +2930,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2808,7 +2964,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2884,7 +3040,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2936,7 +3092,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -2989,13 +3145,52 @@ Bodies: EARTH BARYCENTER (3)   65102                  65130
 const sat457 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat457.bsp")
 
 """
+A SPK kernel of size 80.4 MB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2026-04-30.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat459.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: sat459.bsp
+ 
+Bodies: EARTH BARYCENTER (3)   65289                  65297
+        SATURN BARYCENTER (6)  65290                  65298
+        SUN (10)               65291                  65299
+        EARTH (399)            65292                  65300
+        SATURN (699)           65293                  65301
+        65286                  65294                  65302
+        65287                  65295                  65303
+        65288                  65296
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        1749 DEC 27 00:00:00.000            2150 JAN 05 00:00:00.000
+ 
+
+```
+"""
+const sat459 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat459.bsp")
+
+"""
 A SPK kernel of size 2.0 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3027,7 +3222,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3059,7 +3254,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3091,7 +3286,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3123,7 +3318,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3155,7 +3350,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3187,7 +3382,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3221,7 +3416,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3256,7 +3451,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3291,7 +3486,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3329,7 +3524,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3361,7 +3556,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3393,7 +3588,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3425,7 +3620,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3457,7 +3652,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3489,7 +3684,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3525,7 +3720,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3561,7 +3756,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3642,7 +3837,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3726,7 +3921,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3810,7 +4005,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3843,7 +4038,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3880,7 +4075,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3917,7 +4112,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3954,7 +4149,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -3991,7 +4186,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -4028,7 +4223,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -4065,7 +4260,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -4102,7 +4297,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -4139,7 +4334,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -4176,7 +4371,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-01-09.
+This kernel's link was sourced on 2026-04-30.
 
 ## References
 
@@ -4218,6 +4413,8 @@ export
     phobos_3_3,
     earth_assoc_itrf93,
     jup347_nameid,
+    jup348_nameid,
+    jup349_nameid,
     moon_080317,
     moon_assoc_me,
     moon_assoc_pa,
@@ -4227,6 +4424,8 @@ export
     sat455_nameid,
     sat456_nameid,
     sat457_nameid,
+    sat458_nameid,
+    sat459_nameid,
     ura117_nameid,
     dss_17_prelim_itrf93_161110,
     dss_17_prelim_itrf93_190814_tf,
@@ -4282,6 +4481,8 @@ export
     de442,
     de442s,
     jup347,
+    jup348,
+    jup349,
     jup365,
     mar099,
     mar099s,
@@ -4302,6 +4503,7 @@ export
     sat455,
     sat456,
     sat457,
+    sat459,
     ura111xl_701,
     ura111xl_702,
     ura111xl_703,
