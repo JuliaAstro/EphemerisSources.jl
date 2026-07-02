@@ -5,3 +5,32 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "monthly"
+  - package-ecosystem: "julia"
+    # Location of Julia projects
+    directories:
+      - "/"
+      - "/docs"
+      - "/paper"
+      - "/lib/EphemerisSourcesBase"
+      - "/lib/EphemerisSourcesBase/docs"
+      - "/lib/HorizonsEphemeris"
+      - "/lib/HorizonsEphemeris/docs"
+      - "/lib/HorizonsAPI"
+      - "/lib/HorizonsAPI/docs"
+      - "/lib/SPICEKernels/gen"
+      - "/lib/SPICEKernels"
+      - "/lib/SPICEKernels/docs"
+      - "/lib/SPICEBodies"
+      - "/lib/SPICEBodies/docs"
+    schedule:
+      interval: "monthly"
+    ignore:
+      - dependency-name: "EphemerisSources"
+      - dependency-name: "EphemerisSourcesBase"
+      - dependency-name: "HorizonsEphemeris"
+      - dependency-name: "HorizonsAPI"
+      - dependency-name: "SPICEKernels"
+      - dependency-name: "SPICEBodies"
+    groups:
+      per-dependency:
+        group-by: dependency-name
