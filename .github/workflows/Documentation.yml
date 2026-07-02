@@ -2,8 +2,7 @@ name: Documentation
 
 on:
   push:
-    branches:
-      - main # update to match your development branch (master, main, dev, trunk, ...)
+    branches: [main]
     tags: "*"
   pull_request:
 
@@ -25,8 +24,9 @@ jobs:
         run: python -m pip install jupyter
       - uses: julia-actions/cache@v3
       - name: Install dependencies
-        run: julia --project=docs/ -e 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
+        shell: julia --color=yes --project=docs/ {0}
+        run: 'using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate()'
       - name: Build and deploy
         env:
           DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }} # If authenticating with SSH deploy key
-        run: julia --project=docs/ docs/make.jl
+        run: julia --color=yes --project=docs/ docs/make.jl
