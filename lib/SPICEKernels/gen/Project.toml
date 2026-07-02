@@ -7,3 +7,6 @@ JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 SPICE = "5bab7191-041a-5c2e-a744-024b9c3a5062"
 SPICEApplications = "e12e0822-0612-48d4-a4bb-92984dd6b6ec"
 SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
+
+[compat]
+SPICE = "0.2"
