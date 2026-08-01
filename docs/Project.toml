@@ -18,6 +18,7 @@ SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
 
 [compat]
 AstroTime = "0.7"
+DataFrames = "1.8.2"
 Documenter = "1"
 MultiDocumenter = "0.8"
 Plots = "1.41"

@@ -6,5 +6,6 @@ Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
 SPICE = "5bab7191-041a-5c2e-a744-024b9c3a5062"
 
 [compat]
+DataFrames = "1.8.2"
 Documenter = "1"
 SPICE = "0.2"
