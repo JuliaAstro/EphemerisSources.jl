@@ -10,4 +10,5 @@ SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
 [compat]
 AstroTime = "0.7"
 Documenter = "1"
+LiveServer = "1.6.0"
 SPICE = "0.2"
