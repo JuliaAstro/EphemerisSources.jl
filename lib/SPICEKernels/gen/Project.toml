@@ -10,3 +10,4 @@ SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
 
 [compat]
 SPICE = "0.2"
+SPICEApplications = "0.3.1"
