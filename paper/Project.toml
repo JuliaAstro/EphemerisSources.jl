@@ -18,5 +18,6 @@ SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
 
 [compat]
 AstroTime = "0.7"
+AstrodynamicalCalculations = "1.0.0"
 Plots = "1.41"
 SPICE = "0.2"
