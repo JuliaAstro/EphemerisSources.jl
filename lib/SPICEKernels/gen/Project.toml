@@ -13,3 +13,4 @@ SPICEKernels = {path = ".."}
 
 [compat]
 SPICE = "0.2"
+SPICEApplications = "0.3.1"
