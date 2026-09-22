@@ -3,6 +3,9 @@ uuid = "05ee1981-f730-42d8-b713-4f42d99733dc"
 authors = ["Joe Carpinelli <joseph.d.carpinelli@loopy.codes>"]
 version = "1.4.0"
 
+[workspace]
+projects = ["docs", "test"]
+
 [deps]
 AstroTime = "c61b5328-d09d-5e37-a9a8-0eb41c39009c"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
@@ -24,15 +27,4 @@ HorizonsAPI = "1"
 JSON = "^0.21"
 SPICE = "0.2"
 SPICEApplications = "0.3"
-julia = "1"
-
-[extras]
-BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
-Cthulhu = "f68482b8-f384-11e8-15f7-abe071a5a75f"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
-DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-[targets]
-test = ["Test", "DataFrames"]
+julia = "1.10"

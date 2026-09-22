@@ -1,0 +1,7 @@
+[deps]
+SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
+Scratch = "6c6a2e73-6563-6170-7368-637461726353"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[sources]
+SPICEKernels = {path = ".."}

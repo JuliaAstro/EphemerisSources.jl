@@ -1,0 +1,6 @@
+[deps]
+EphemerisSourcesBase = "b8f1d712-e88d-4f2a-8498-e66ce688ee29"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[sources]
+EphemerisSourcesBase = {path = ".."}
