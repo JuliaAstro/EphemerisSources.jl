@@ -20,6 +20,6 @@ test = ["Test"]
 julia = "1"
 DocStringExtensions = "0.9"
 Scratch = "1"
-Dates = "1"
+Dates = "1, < 0.0.1"
 HTTP = "1"
 Downloads = "1"

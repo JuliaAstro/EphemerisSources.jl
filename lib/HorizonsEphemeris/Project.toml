@@ -17,6 +17,7 @@ SPICEApplications = "e12e0822-0612-48d4-a4bb-92984dd6b6ec"
 
 [compat]
 CSV = "0.10"
+Dates = "< 0.0.1, 1"
 DocStringExtensions = "0.9"
 HTTP = "^1.8"
 AstroTime = "0.7"

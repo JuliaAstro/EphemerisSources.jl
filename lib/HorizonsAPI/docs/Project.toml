@@ -5,4 +5,5 @@ HorizonsAPI = "c15253bb-5e94-4b8b-9a02-579bb6c8e3ce"
 HorizonsEphemeris = "05ee1981-f730-42d8-b713-4f42d99733dc"
 
 [compat]
+Dates = "< 0.0.1, 1"
 Documenter = "1"
