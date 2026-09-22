@@ -1,10 +1,7 @@
-version = "2.2.9"
+version = "2.2.10"
 name = "SPICEKernels"
 authors = ["Joey Carpinelli <joseph.d.carpinelli@loopy.codes>"]
 uuid = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
-
-[workspace]
-projects = ["docs", "test", "gen"]
 
 [deps]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
@@ -14,9 +11,12 @@ HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 
 [compat]
+julia = "1.10"
 DocStringExtensions = "0.9"
 Scratch = "1"
 Dates = "1"
 HTTP = "1, 2.7"
 Downloads = "1"
-julia = "1.10"
+
+[workspace]
+projects = ["docs", "test", "gen"]
