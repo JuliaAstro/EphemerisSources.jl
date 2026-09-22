@@ -1,0 +1,6 @@
+[deps]
+HorizonsAPI = "c15253bb-5e94-4b8b-9a02-579bb6c8e3ce"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[sources]
+HorizonsAPI = {path = ".."}
