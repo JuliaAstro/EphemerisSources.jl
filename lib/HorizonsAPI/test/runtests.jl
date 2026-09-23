@@ -1,5 +1,20 @@
 using Test, HorizonsAPI
 
+@testset "URL Encoding" begin
+    # Horizons does not accept exponent notation, which Julia uses for large floats such as
+    # Julian days. Every other value keeps the existing formatting.
+    @test HorizonsAPI.urlify(2460000.5) == "'2460000.5'"
+    @test HorizonsAPI.urlify(60000.0) == "'60000'"
+    @test HorizonsAPI.urlify(0.003) == "'0.003'"
+    @test HorizonsAPI.urlify([2460000.5, 2460001.5]) == "'2460000.5' '2460001.5'"
+    @test HorizonsAPI.urlify(499) == "'499'"
+    @test HorizonsAPI.urlify(true) == "YES"
+    @test HorizonsAPI.urlify("@10") == "'@10'"
+    @test HorizonsAPI.urlify("text") == "text"
+    @test HorizonsAPI.urlify((0, 0, 0)) == "'0,0,0'"
+    @test ismissing(HorizonsAPI.urlify(missing))
+end
+
 @testset "API Version" begin
 
     response = HorizonsAPI.request(-1; format="text", MAKE_EPHEM=false, OBJ_DATA=false)
@@ -57,4 +72,32 @@ end
 
     @test response.status == 200
 
+end
+
+@testset "Elements" begin
+    # `fetch_elements` must accept the same time-range keyword arguments as the other
+    # ephemeris requests, in addition to the user-defined orbit parameters.
+    keywords = Base.kwarg_decl(only(methods(fetch_elements)))
+    @test :START_TIME in keywords
+    @test :STOP_TIME in keywords
+    @test :STEP_SIZE in keywords
+    @test :TLIST in keywords
+    @test :CENTER in keywords
+    @test :CSV_FORMAT in keywords
+    @test :EPOCH in keywords
+
+    response = fetch_elements(
+        499;
+        CENTER = "@10",
+        START_TIME = "2024-01-01",
+        STOP_TIME = "2024-01-02",
+        STEP_SIZE = "1 day",
+        CSV_FORMAT = true,
+        format = "text",
+    )
+    @test response.status == 200
+
+    body = String(response.body)
+    @test occursin("\$\$SOE", body)
+    @test occursin("EC,", body)
 end

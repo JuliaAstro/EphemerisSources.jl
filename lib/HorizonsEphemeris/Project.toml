@@ -1,7 +1,7 @@
 name = "HorizonsEphemeris"
 uuid = "05ee1981-f730-42d8-b713-4f42d99733dc"
 authors = ["Joe Carpinelli <joseph.d.carpinelli@loopy.codes>"]
-version = "1.4.0"
+version = "1.5.0"
 
 [workspace]
 projects = ["docs", "test"]
@@ -14,7 +14,6 @@ DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 HorizonsAPI = "c15253bb-5e94-4b8b-9a02-579bb6c8e3ce"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
-Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
 SPICE = "5bab7191-041a-5c2e-a744-024b9c3a5062"
 SPICEApplications = "e12e0822-0612-48d4-a4bb-92984dd6b6ec"
 
@@ -23,7 +22,7 @@ CSV = "0.10, 1.1"
 DocStringExtensions = "0.9"
 HTTP = "^1.8, 2.7"
 AstroTime = "0.7"
-HorizonsAPI = "1"
+HorizonsAPI = "1.2"
 JSON = "^0.21, 1.9"
 SPICE = "0.2"
 SPICEApplications = "0.3"

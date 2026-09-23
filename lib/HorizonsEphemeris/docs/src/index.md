@@ -19,8 +19,9 @@ Pkg.add("HorizonsEphemeris")
 
 While `HorizonsAPI.jl` provides a precise interface which matches the JPL Horizons API,
 `HorizonsEphemeris.jl` provides a more user-friendly way to request solar system ephemeris
-data. At this time, only Cartesian state vector ephemeris data is available
-through the `HorizonsEphemeris.jl` interface.
+data. Cartesian state vectors, osculating orbital elements, and observer tables are
+all available through the `ephemeris` method; choose between them with its `type`
+keyword argument.
 
 !!! warning
     This project is not affiliated with or endorsed by NASA, JPL, Caltech, or any
