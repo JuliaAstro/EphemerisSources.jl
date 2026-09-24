@@ -1,4 +1,4 @@
-version = "2.2.10"
+version = "2.2.11"
 name = "SPICEKernels"
 authors = ["Joey Carpinelli <joseph.d.carpinelli@loopy.codes>"]
 uuid = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
