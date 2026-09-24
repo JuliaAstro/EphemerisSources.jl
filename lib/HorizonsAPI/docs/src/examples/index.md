@@ -47,6 +47,22 @@ fetch_elements(
 )
 ```
 
+Osculating elements can also be requested over a range of times, just like
+Cartesian state vectors.
+
+```@repl
+using HorizonsAPI
+
+fetch_elements(
+    499; # NAIF ID for Mars
+    CENTER = "@10", # heliocentric elements
+    START_TIME = "2024-01-01",
+    STOP_TIME = "2024-02-01",
+    STEP_SIZE = "1d",
+    format = "text",
+)
+```
+
 ### Idiomatic Julia
 
 You'll notice that `HorizonsAPI` only offers a Julia interface to the JPL Horizons

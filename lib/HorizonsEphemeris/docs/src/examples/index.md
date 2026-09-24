@@ -10,11 +10,6 @@ the data parsed into a `NamedTuple` for convenient data processing.
 Take a look at each of the following examples for ideas about how to use the
 Horizons platform idiomatically from within Julia.
 
-!!! warning
-    At this time, only Cartesian state vectors are supported in
-    `HorizonsEphemeris.jl`. If you want to fetch more complicated ephemeris
-    data, use `HorizonsAPI.jl`.
-
 ### Object Identification
 
 The SPICE Toolkit (with `SPICE.jl`) is used under the hood to identify celestial
@@ -44,6 +39,35 @@ reference.
 using HorizonsEphemeris
 
 ephemeris("earth", "1999-12-31T11:59:59")
+```
+
+### Orbital Elements
+
+Set the `type` keyword argument to `:elements` to fetch osculating orbital
+elements instead of Cartesian states. Elements are heliocentric by default; use
+the `wrt` keyword argument to choose another central body.
+
+```@repl
+using HorizonsEphemeris
+
+ephemeris("mars", "2024-01-01", "2024-02-01", "7 days"; type=:elements)
+```
+
+### Observer Tables
+
+Set the `type` keyword argument to `:observer` to fetch an observer table: sky
+positions, magnitudes, ranges, and other observables as seen from a site on the
+central body, which defaults to the geocenter. The `site` keyword argument
+accepts Horizons observatory codes, and the `quantities` keyword argument
+selects which
+[Horizons quantities](https://ssd.jpl.nasa.gov/horizons/manual.html#obsquan)
+to include. Column names are derived from the Horizons response, and values
+which Horizons cannot compute are returned as `missing`.
+
+```@repl
+using HorizonsEphemeris
+
+ephemeris("mars", "2024-01-01", "2024-01-08", "1 day"; type=:observer, site="568", quantities=[1, 4, 9, 20])
 ```
 
 ### `DataFrame` Support

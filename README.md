@@ -42,14 +42,14 @@ closely.
 
 ## Contributions
 
-Currently, this project only supports the fetching and parsing of
+Currently, this project supports the fetching and parsing of
 Cartesian state vectors from two ephemeris sources: NASA JPL's [Generic
 Kernels](https://naif.jpl.nasa.gov/naif/data_generic.html), and NASA
-JPL's [Horizons](https://ssd.jpl.nasa.gov/horizons/) platform. 
-In addition, `EphemerisSources.jl` is very new, and test coverage is another 
+JPL's [Horizons](https://ssd.jpl.nasa.gov/horizons/) platform. Observer tables and osculating orbital elements can also be fetched and parsed from Horizons.
+`EphemerisSources.jl` is very new, and test coverage is another 
 major opportunity for improvement. This project welcomes all contributions and comments. 
-If you would like to help add tests or parsing for the two other common ephemeris
-formats — observer tables and osculating orbital elements — please add a
+If you would like to help add tests, or support for further ephemeris formats
+such as close-approach tables, please add a
 comment in an
 [issue](https://github.com/JuliaAstro/EphemerisSources.jl/issues/41)! If
 you find bugs, want to request features, or if you have any other
