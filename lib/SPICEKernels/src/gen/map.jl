@@ -3,7 +3,7 @@
 #
 
 """
-Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2026-09-24. [1]
+Links to all Generic Kernels hosted by naif.jpl.nasa.gov, as of 2026-10-31. [1]
 
 # Extended Help
 
@@ -62,6 +62,9 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "gm_de431.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/gm_de431.tpc",
     "gm_de440.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/gm_de440.tpc",
     "mars_iau2000_v1.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/mars_iau2000_v1.tpc",
+    "mars_konopliv_2026_n0066_v1.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/mars_konopliv_2026_n0066_v1.tpc",
+    "mars_konopliv_2026_v1.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/mars_konopliv_2026_v1.tpc",
+    "mars_rotation_reset_v1.tpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/mars_rotation_reset_v1.tpc",
     "moon_pa_de403_1950-2198.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de403_1950-2198.bpc",
     "moon_pa_de418_1950-2050.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de418_1950-2050.bpc",
     "moon_pa_de421_1900-2050.bpc" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/moon_pa_de421_1900-2050.bpc",
@@ -96,6 +99,7 @@ const GENERIC_KERNELS = Base.ImmutableDict(
     "jup348.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup348.bsp",
     "jup349.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup349.bsp",
     "jup365.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.bsp",
+    "jup365_2200_2600.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365_2200_2600.bsp",
     "mar099.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar099.bsp",
     "mar099s.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/mar099s.bsp",
     "nep097.bsp" => "https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/nep097.bsp",
