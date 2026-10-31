@@ -10,7 +10,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -44,7 +44,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -78,7 +78,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -112,7 +112,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -146,7 +146,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -180,7 +180,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -214,7 +214,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -248,7 +248,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -282,7 +282,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -316,7 +316,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -337,7 +337,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -358,7 +358,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -379,7 +379,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -400,7 +400,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -421,7 +421,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -442,7 +442,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -463,7 +463,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -484,7 +484,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -505,7 +505,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -526,7 +526,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -547,7 +547,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -568,7 +568,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -589,7 +589,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -610,7 +610,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -631,7 +631,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -652,7 +652,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -673,7 +673,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -694,7 +694,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -715,7 +715,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -736,7 +736,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -757,7 +757,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -778,7 +778,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -799,7 +799,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -820,7 +820,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -841,7 +841,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -862,7 +862,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -883,7 +883,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -904,7 +904,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -925,7 +925,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -946,7 +946,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -967,7 +967,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -999,7 +999,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1031,7 +1031,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1063,7 +1063,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1084,7 +1084,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1102,7 +1102,7 @@ Summary for: earth_latest_high_prec.bpc
 Frame: ITRF93 (3000)
        Start of Interval (ET)              End of Interval (ET)
        -----------------------------       -----------------------------
-       2000 JAN 01 00:01:04.183            2026 DEC 20 00:01:09.183
+       2000 JAN 01 00:01:04.183            2027 JAN 26 00:01:09.184
  
 
 ```
@@ -1116,7 +1116,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1137,7 +1137,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1158,7 +1158,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1173,13 +1173,76 @@ A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, ope
 const mars_iau2000_v1 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/mars_iau2000_v1.tpc")
 
 """
+A PCK kernel of size 19.3 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2026-10-31.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/mars_konopliv_2026_n0066_v1.tpc
+
+## Description
+
+```
+A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const mars_konopliv_2026_n0066_v1 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/mars_konopliv_2026_n0066_v1.tpc")
+
+"""
+A PCK kernel of size 18.5 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2026-10-31.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/mars_konopliv_2026_v1.tpc
+
+## Description
+
+```
+A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const mars_konopliv_2026_v1 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/mars_konopliv_2026_v1.tpc")
+
+"""
+A PCK kernel of size 5.6 KB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2026-10-31.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/mars_rotation_reset_v1.tpc
+
+## Description
+
+```
+A `SPICEKernels.PlanetaryConstantsKernel`. If the kernel type is not binary, open the file for more information!
+```
+"""
+const mars_rotation_reset_v1 = PCK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/mars_rotation_reset_v1.tpc")
+
+"""
 A PCK kernel of size 2.8 MB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1211,7 +1274,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1243,7 +1306,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1275,7 +1338,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1307,7 +1370,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1328,7 +1391,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1349,7 +1412,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1370,7 +1433,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1501,7 +1564,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1522,7 +1585,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1554,7 +1617,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1586,7 +1649,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1618,7 +1681,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1650,7 +1713,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1690,7 +1753,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1722,7 +1785,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1754,7 +1817,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1786,7 +1849,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1818,7 +1881,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1854,7 +1917,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1890,7 +1953,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1926,7 +1989,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1962,7 +2025,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -1998,7 +2061,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2034,7 +2097,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2070,7 +2133,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2106,7 +2169,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2142,7 +2205,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2178,7 +2241,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2214,7 +2277,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2250,7 +2313,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2313,7 +2376,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2347,7 +2410,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2385,7 +2448,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2415,13 +2478,49 @@ Bodies: EARTH BARYCENTER (3)    EUROPA (502)            ADRASTEA (515)
 const jup365 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.bsp")
 
 """
+A SPK kernel of size 1.4 GB, linked from https://naif.jpl.nasa.gov [1].
+Calling this variable like a function will return a path to the file, downloading 
+to scratchspace if necessary.
+
+# Extended Help
+
+This kernel's link was sourced on 2026-10-31.
+
+## References
+
+[1] https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365_2200_2600.bsp
+
+## Description
+
+```
+ 
+BRIEF -- Version 4.1.0, September 17, 2021 -- Toolkit Version N0067
+ 
+ 
+Summary for: jup365_2200_2600.bsp
+ 
+Bodies: EARTH BARYCENTER (3)    EUROPA (502)            ADRASTEA (515)
+        JUPITER BARYCENTER (5)  GANYMEDE (503)          METIS (516)
+        SUN (10)                CALLISTO (504)          JUPITER (599)
+        EARTH (399)             AMALTHEA (505)
+        IO (501)                THEBE (514)
+        Start of Interval (ET)              End of Interval (ET)
+        -----------------------------       -----------------------------
+        2200 JAN 09 23:59:00.000            2600 JAN 05 00:00:00.000
+ 
+
+```
+"""
+const jup365_2200_2600 = SPK("https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365_2200_2600.bsp")
+
+"""
 A SPK kernel of size 1.1 GB, linked from https://naif.jpl.nasa.gov [1].
 Calling this variable like a function will return a path to the file, downloading 
 to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2455,7 +2554,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2489,7 +2588,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2522,7 +2621,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2554,7 +2653,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2586,7 +2685,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2620,7 +2719,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2654,7 +2753,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2688,7 +2787,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2720,7 +2819,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2753,7 +2852,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2788,7 +2887,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2821,7 +2920,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2856,7 +2955,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2888,7 +2987,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2924,7 +3023,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2962,7 +3061,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -2996,7 +3095,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3030,7 +3129,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3106,7 +3205,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3158,7 +3257,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3217,7 +3316,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3256,7 +3355,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3289,7 +3388,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3321,7 +3420,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3353,7 +3452,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3385,7 +3484,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3417,7 +3516,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3449,7 +3548,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3481,7 +3580,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3515,7 +3614,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3550,7 +3649,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3585,7 +3684,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3623,7 +3722,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3655,7 +3754,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3687,7 +3786,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3719,7 +3818,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3751,7 +3850,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3787,7 +3886,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3823,7 +3922,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3904,7 +4003,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -3988,7 +4087,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -4072,7 +4171,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -4105,7 +4204,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -4142,7 +4241,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -4179,7 +4278,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -4216,7 +4315,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -4253,7 +4352,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -4290,7 +4389,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -4327,7 +4426,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -4364,7 +4463,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -4401,7 +4500,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -4438,7 +4537,7 @@ to scratchspace if necessary.
 
 # Extended Help
 
-This kernel's link was sourced on 2026-09-24.
+This kernel's link was sourced on 2026-10-31.
 
 ## References
 
@@ -4517,6 +4616,9 @@ export
     gm_de431,
     gm_de440,
     mars_iau2000_v1,
+    mars_konopliv_2026_n0066_v1,
+    mars_konopliv_2026_v1,
+    mars_rotation_reset_v1,
     moon_pa_de403_1950_2198,
     moon_pa_de418_1950_2050,
     moon_pa_de421_1900_2050,
@@ -4551,6 +4653,7 @@ export
     jup348,
     jup349,
     jup365,
+    jup365_2200_2600,
     mar099,
     mar099s,
     nep097,
