@@ -1,5 +1,6 @@
 [deps]
 AstroTime = "c61b5328-d09d-5e37-a9a8-0eb41c39009c"
+NetworkOptions = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
 SPICE = "5bab7191-041a-5c2e-a744-024b9c3a5062"
 SPICEBodies = "19f1efb6-7162-484a-b3a1-b52c391689d7"
 SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"

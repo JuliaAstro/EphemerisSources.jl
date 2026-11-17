@@ -1,3 +1,7 @@
-using Pkg, Test, EphemerisSources
+using Test, EphemerisSources
 
-include("subdir.jl")
+@testset "EphemerisSources" begin
+    for pkg in (:HorizonsAPI, :HorizonsEphemeris, :SPICEKernels, :SPICEBodies)
+        @test isdefined(EphemerisSources, pkg)
+    end
+end

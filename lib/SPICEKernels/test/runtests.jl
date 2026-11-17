@@ -1,3 +1,11 @@
+# PkgEval's sandbox image (Debian bookworm) has an outdated CA bundle that doesn't trust
+# JPL's certificate chain (Sectigo Public Server Authentication Root R46). Use Julia's
+# bundled CA roots there instead; certificates are still verified.
+if get(ENV, "PKGEVAL", "false") == "true"
+    using NetworkOptions
+    ENV["JULIA_SSL_CA_ROOTS_PATH"] = NetworkOptions.bundled_ca_roots()
+end
+
 using Test, Scratch
 using SPICEKernels
 
