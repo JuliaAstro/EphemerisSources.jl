@@ -4,9 +4,6 @@ on:
     types:
       - created
   workflow_dispatch:
-    inputs:
-      lookback:
-        default: "3"
 permissions:
   actions: read
   checks: read
@@ -23,9 +20,26 @@ permissions:
 jobs:
   TagBot:
     if: github.event_name == 'workflow_dispatch' || github.actor == 'JuliaTagBot'
+    name: TagBot ${{ matrix.subdir || 'EphemerisSources' }}
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # "" is the top-level package (tags `vX.Y.Z`); subpackages are tagged `<Package>-vX.Y.Z`
+        subdir:
+          - ""
+          - lib/EphemerisSourcesBase
+          - lib/HorizonsAPI
+          - lib/HorizonsEphemeris
+          - lib/SPICEBodies
+          - lib/SPICEKernels
+    # Back-to-back registrations trigger overlapping runs; don't let two tag the same package at once
+    concurrency:
+      group: tagbot-${{ matrix.subdir || 'root' }}
+      cancel-in-progress: false
     steps:
       - uses: JuliaRegistries/TagBot@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ssh: ${{ secrets.DOCUMENTER_KEY }}
+          subdir: ${{ matrix.subdir }}
