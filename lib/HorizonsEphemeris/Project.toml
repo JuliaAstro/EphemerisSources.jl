@@ -1,7 +1,7 @@
 name = "HorizonsEphemeris"
 uuid = "05ee1981-f730-42d8-b713-4f42d99733dc"
 authors = ["Joe Carpinelli <joseph.d.carpinelli@loopy.codes>"]
-version = "1.4.1"
+version = "1.4.0"
 
 [workspace]
 projects = ["docs", "test"]
