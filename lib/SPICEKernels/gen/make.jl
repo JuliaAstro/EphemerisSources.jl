@@ -72,12 +72,16 @@ function code!(kernels::AbstractSet{<:AbstractString})
     oldkernels = collect(values(SPICEKernels.GENERIC_KERNELS))
     difference = union(setdiff(kernellist, oldkernels), setdiff(oldkernels, kernellist))
 
+    # Regenerating with no added or removed kernels still produces a diff (date
+    # stamps, rolling kernels like earth_latest_high_prec.bpc, the version bump),
+    # which would force-push the automated PR every day. Skip it instead.
     if isempty(difference)
-        @info "No changes to generic kernel paths."
-    else
-        changes = join(", ", difference)
-        @info "The following kernel names been added or removed: $changes."
+        @info "No changes to generic kernel paths; skipping regeneration."
+        return nothing
     end
+
+    changes = join(sort(difference), ", ")
+    @info "The following kernel names have been added or removed: $changes."
 
     sort!(kernellist)
 
