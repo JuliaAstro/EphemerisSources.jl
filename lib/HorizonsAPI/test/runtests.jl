@@ -1,15 +1,20 @@
 using Test, HorizonsAPI
 
+"""
+Normalize Horizons text for regression comparisons: unify line endings and
+drop trailing whitespace on each line, which Horizons does not keep stable.
+"""
+normalize(s) = join((rstrip(line) for line in split(replace(s, "\r\n" => "\n"), '\n')), '\n') |> strip
+
 @testset "API Version" begin
 
     response = HorizonsAPI.request(-1; format="text", MAKE_EPHEM=false, OBJ_DATA=false)
 
-    normalize_newlines(s) = replace(s, r"\r\n" => "\n")
     response = String(response.body)
-    response = join(split(response, "\n")[1:2], "\n") |> strip |> normalize_newlines
-    regression = read("regression/api-version.txt", String) |> strip |> normalize_newlines
+    response = join(split(response, "\n")[1:2], "\n")
+    regression = read("regression/api-version.txt", String)
 
-    @test strip(response) == strip(regression)
+    @test normalize(response) == normalize(regression)
 
 end
 
@@ -17,13 +22,11 @@ end
 
     response = fetch_properties(499; format="text")
 
-    normalize_newlines(s) = replace(s, r"\r\n" => "\n")
     response = String(response.body)
-    response = join(split(response, "\n")[3:end], "\n") |> normalize_newlines
+    response = join(split(response, "\n")[3:end], "\n")
+    regression = read("regression/mars-properties.txt", String)
 
-    regression = read("regression/mars-properties.txt", String) |> normalize_newlines
-
-    @test strip(response) == strip(regression)
+    @test normalize(response) == normalize(regression)
 
 end
 
@@ -37,14 +40,13 @@ end
         format="text"
     )
 
-    normalize_newlines(s) = replace(s, r"\r\n" => "\n")
     response = String(response.body)
     _, response = split(response, "\$\$SOE"; limit=2)
     response, _ = split(response, "\$\$EOE"; limit=2)
 
     regression = read("regression/jupiter-vectors.txt", String)
 
-    @test normalize_newlines(strip(response)) == normalize_newlines(strip(regression))
+    @test normalize(response) == normalize(regression)
 
 end
 
