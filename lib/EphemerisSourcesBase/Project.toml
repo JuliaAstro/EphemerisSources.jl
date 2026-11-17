@@ -15,7 +15,7 @@ SPICEApplications = "e12e0822-0612-48d4-a4bb-92984dd6b6ec"
 
 [compat]
 AstroTime = "0.7"
-DocStringExtensions = "0.9"
+DocStringExtensions = "0.9, 0.10"
 SPICE = "0.2"
 SPICEApplications = "0.3"
 julia = "1.10"
