@@ -21,10 +21,7 @@ system, but the REST interface may be unfamiliar, and the query responses requir
 custom parsing for numerical applications. 
 
 The `EphemerisSources.jl` super-package allows users to idiomatically fetch 
-ephemeris data, and parse the results for Cartesian state vector information. 
-The ability to parse the ephemeris data in other formats, including observer 
-tables and osculating orbital elements, is not yet implemented. Pull requests 
-are welcome!
+ephemeris data, and parse the results into tables: Cartesian state vectors from both sources, and observer tables and osculating orbital elements from Horizons.
 
 ## JPL Horizons
 

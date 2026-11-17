@@ -40,6 +40,16 @@ data = DataFrame(
 )
 ```
 
+The same `ephemeris` method fetches osculating orbital elements and observer tables. Choose between them with the `type` keyword argument. Elements are heliocentric by default, and observer tables are geocentric by default.
+
+```@example horizons-examples
+DataFrame(ephemeris("mars", now(), now() + Year(1), Month(1); type = :elements))
+```
+
+```@example horizons-examples
+DataFrame(ephemeris("mars", now(), now() + Day(7), Day(1); type = :observer, site = "568"))
+```
+
 This example wouldn't be complete without some plotting!
 
 ```@example horizons-examples

@@ -1,7 +1,7 @@
 name = "EphemerisSources"
 uuid = "858900df-f7ae-402a-aa8c-3e4ef85aa271"
 authors = ["Joey Carpinelli <joseph.d.carpinelli@loopy.codes>"]
-version = "1.0.0"
+version = "1.1.0"
 
 [workspace]
 projects = [
@@ -26,8 +26,8 @@ SPICEKernels = "8e9d28ce-e483-4ef7-bfd9-45b8fef6369c"
 [compat]
 AstroTime = "0.7"
 EphemerisSourcesBase = "0.1, 0.2"
-HorizonsAPI = "1"
-HorizonsEphemeris = "1"
+HorizonsAPI = "1.2"
+HorizonsEphemeris = "1.5"
 Reexport = "1.2"
 SPICE = "0.2"
 SPICEBodies = "1.1"

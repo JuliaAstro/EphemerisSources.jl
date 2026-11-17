@@ -20,6 +20,7 @@ module HorizonsAPI
 export fetch_properties, fetch_observer, fetch_vectors, fetch_spk, fetch_elements, fetch_approach
 
 import HTTP
+using Printf: @sprintf
 using DocStringExtensions
 
 @template (FUNCTIONS, METHODS, MACROS) = """
@@ -55,6 +56,7 @@ urlify(x::Bool) = x ? "YES" : "NO"
 urlify(x::Nothing) = "NONE"
 urlify(x::Missing) = missing
 urlify(x::Number) = "'$x'"
+urlify(x::AbstractFloat) = "'$(@sprintf("%.15g", x))'"  # Horizons rejects exponent notation, e.g. Julian days printed as 2.46e6
 urlify(x::NTuple) = """'$(replace(string(x), " " => "", "(" => "", ")" => ""))'"""
 urlify(x::AbstractVector) = join(urlify.(x), " ")
 
@@ -359,18 +361,24 @@ end
     end
 
     """
-    Fetch planetary ephemeris for the body specified by `COMMAND`, in the
+    Fetch osculating orbital elements for the body specified by `COMMAND`, in the
     `EPHEM_TYPE="ELEMENTS"` format.
+
+    The time-range keyword arguments shared with `fetch_vectors` and `fetch_observer`
+    (`CENTER`, `START_TIME`, `STOP_TIME`, `STEP_SIZE`, `TLIST`, `CSV_FORMAT`, `OUT_UNITS`,
+    `REF_PLANE`, `TP_TYPE`, ...) are accepted, as are the parameters which describe a
+    user-defined heliocentric orbit (`EPOCH`, `EC`, `QR`, `TP`, `OM`, `W`, `IN`, `MA`, `A`, `N`).
     """
     function fetch_elements(
         COMMAND; file=nothing, $(
             to_kwargs(
                 Base.structdiff(COMMON_PARAMETERS, NamedTuple{(:MAKE_EPHEM, :OBJ_DATA, :EPHEM_TYPE)}),
+                EPHEMERIS_PARAMETERS,
                 ELEMENTS_PARAMETERS
             )...
         )
     )
-        options = (; $(to_kwvals(Base.structdiff(COMMON_PARAMETERS, NamedTuple{(:MAKE_EPHEM, :OBJ_DATA, :EPHEM_TYPE)}), ELEMENTS_PARAMETERS)...))
+        options = (; $(to_kwvals(Base.structdiff(COMMON_PARAMETERS, NamedTuple{(:MAKE_EPHEM, :OBJ_DATA, :EPHEM_TYPE)}), EPHEMERIS_PARAMETERS, ELEMENTS_PARAMETERS)...))
         return request(COMMAND; file=file, MAKE_EPHEM=true, OBJ_DATA=false, EPHEM_TYPE="ELEMENTS", options...)
     end
 end
